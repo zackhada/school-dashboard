@@ -44,15 +44,16 @@ Promise.all(REPOS.map(function(pair){
     var tot = past.reduce(function(s,x){ return s + (+x.score||0); }, 0);
     var pts = past.reduce(function(s,x){ return s + (+x.points||0); }, 0);
     var pct = pts ? ' — ' + tot + '/' + pts + ' (' + Math.round(100*tot/pts) + '% with past-due missing as 0)' : '';
-    html += '<details' + (i < 2 ? ' open' : '') + '><summary>' + esc(c.name) + ' (' + graded.length + '/' + rows.length + ' graded' + esc(pct) + ')</summary>';
+    html += '<details' + (i < 2 ? ' open' : '') + '><summary>' + esc(c.name) + ' (' + graded.length + '/' + rows.length + ' graded)</summary>';
     if (!rows.length) { html += '<p class="small">No grade data yet.</p></details>'; return; }
     html += '<table><tr><th>Name</th><th>Due</th><th>Status</th><th>Grade</th><th>Comments</th></tr>';
     rows.forEach(function(x){
       var due = x.due ? String(x.due).slice(0,10) : '—';
-      var grade = (x.score != null) ? esc(x.score) + ' / ' + esc(x.points) : '—';
+      var isMissing = x.missing || (x.status === 'unsubmitted' && x.due && new Date(x.due) < new Date());
+      var grade = (x.score != null) ? esc(x.score) + ' / ' + esc(x.points) : (isMissing ? '0 / ' + esc(x.points) : '—');
       var cls = (x.score != null) ? 'graded' : '';
       var st;
-      if (x.missing || (x.status === 'unsubmitted' && x.due && new Date(x.due) < new Date())) { st = 'missing'; cls = 'missing'; }
+      if (isMissing) { st = 'missing'; cls = 'missing'; }
       else if (x.submitted_at || x.status === 'submitted' || x.status === 'graded') st = 'submitted';
       else st = 'unsubmitted';
       var cm = (x.comments && x.comments.length)
