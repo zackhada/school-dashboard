@@ -15,6 +15,7 @@ nav{font-size:14px;margin-bottom:8px}.cm{font-size:12px;color:#333}</style>
 <nav><a href="index.html">&larr; Back to dashboard</a></nav>
 <h1>Grades - Fall 2026</h1>
 <p class="small" id="ts">Loading...</p>
+<p class="small">Past-due items with no grade count as 0. In-person or off-Canvas submissions (Google Forms, paper) may still show as missing here.</p>
 <div id="app"></div>
 <script>
 var REPOS = [
@@ -34,9 +35,11 @@ Promise.all(REPOS.map(function(pair){
   classes.forEach(function(c, i){
     var rows = c.rows.slice().sort(function(a,b){ return String(a.due||'~').localeCompare(String(b.due||'~')); });
     var graded = rows.filter(function(x){ return x.score != null; });
-    var tot = graded.reduce(function(s,x){ return s + (+x.score||0); }, 0);
-    var pts = graded.reduce(function(s,x){ return s + (+x.points||0); }, 0);
-    var pct = pts ? ' — scored ' + tot + '/' + pts + ' (' + Math.round(100*tot/pts) + '%)' : '';
+    var now = new Date();
+    var past = rows.filter(function(x){ return x.score != null || (x.due && new Date(x.due) < now); });
+    var tot = past.reduce(function(s,x){ return s + (+x.score||0); }, 0);
+    var pts = past.reduce(function(s,x){ return s + (+x.points||0); }, 0);
+    var pct = pts ? ' — ' + tot + '/' + pts + ' (' + Math.round(100*tot/pts) + '% with past-due missing as 0)' : '';
     html += '<details' + (i < 2 ? ' open' : '') + '><summary>' + esc(c.name) + ' (' + graded.length + '/' + rows.length + ' graded' + esc(pct) + ')</summary>';
     if (!rows.length) { html += '<p class="small">No grade data yet.</p></details>'; return; }
     html += '<table><tr><th>Name</th><th>Due</th><th>Grade</th><th>Comments</th></tr>';
