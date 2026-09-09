@@ -57,7 +57,7 @@ function titleFrom(key, note, course){
   return key.replace(/_/g,' ').replace(/\b(\w)(\w*)\b/g,function(_,a,b){return a.toUpperCase()+b.toLowerCase();});
 }
 Promise.all(REPOS.map(function(pair){
-  return fetch('data/' + pair[1] + '.json').then(function(r){ return r.ok ? r.json() : {rows:[]}; }).catch(function(){ return {rows:[]}; }).then(function(d){ return {name: pair[0], repo: pair[1], rows: d.rows || []}; };
+  return fetch('data/' + pair[1] + '.json').then(function(r){ return r.ok ? r.json() : {rows:[]}; }).catch(function(){ return {rows:[]}; }).then(function(d){ return {name: pair[0], repo: pair[1], rows: d.rows || []}; });
 })).then(function(classes){
   var html = '';
   classes.forEach(function(c){
