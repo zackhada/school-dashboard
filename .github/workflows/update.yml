@@ -1,5 +1,7 @@
 name: Dashboard update
 on:
+  issues:
+    types: [opened]
   repository_dispatch:
     types: [status]
   schedule:
@@ -28,3 +30,37 @@ jobs:
           git add -A
           git diff --cached --quiet || git commit -m "dashboard update $(date -u +%Y-%m-%d)"
           git push origin HEAD
+  forward-answer:
+    if: github.event_name == 'issues' && startsWith(github.event.issue.title, '[answer]')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Forward answer to class repo
+        continue-on-error: true
+        env:
+          DISPATCH_TOKEN: ${{ secrets.DISPATCH_TOKEN }}
+        run: |
+          if [ -z "$DISPATCH_TOKEN" ]; then echo "No DISPATCH_TOKEN; skipping."; exit 0; fi
+          TITLE='${{ github.event.issue.title }}'
+          REST=$(echo "$TITLE" | sed 's/^\[answer\] //')
+          REPO=$(echo "$REST" | awk '{print $1}')
+          KEY=$(echo "$REST" | awk '{print $2}')
+          python3 - "$DISPATCH_TOKEN" "$REPO" "$KEY" '${{ github.event.issue.number }}' <<'PYEOF'
+          import sys, json, urllib.request
+          tok, repo, key, num = sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4]
+          issue = json.load(urllib.request.urlopen(urllib.request.Request(
+            f'https://api.github.com/repos/zackhada/school-dashboard/issues/{num}',
+            headers={'Authorization': f'Bearer {tok}', 'Accept': 'application/vnd.github+json'})))
+          body = issue.get('body') or ''
+          answer = body.split('My answer:')[-1].strip() if 'My answer:' in body else body.strip()
+          payload = {'event_type': 'answer', 'client_payload': {'key': key, 'answer': answer}}
+          req = urllib.request.Request(
+            f'https://api.github.com/repos/zackhada/{repo}/dispatches',
+            data=json.dumps(payload).encode(),
+            headers={'Authorization': f'Bearer {tok}', 'Accept': 'application/vnd.github+json'})
+          urllib.request.urlopen(req)
+          print(f'forwarded answer for {key} to {repo}')
+          PYEOF
+      - name: Close issue
+        run: gh issue close ${{ github.event.issue.number }} --comment "Forwarded to the class runner." --repo zackhada/school-dashboard
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -28,7 +28,7 @@ var in7 = new Date(now.getTime() + 7*864e5);
 function parseD(s){ var m = /^(\d{4})-(\d{2})-(\d{2})/.exec(s||''); return m ? new Date(+m[1],+m[2]-1,+m[3]) : null; }
 function esc(s){ return String(s||'').replace(/</g,'&lt;'); }
 Promise.all(REPOS.map(function(pair){
-  return fetch('data/' + pair[1] + '.json').then(function(r){ return r.ok ? r.json() : {rows:[]}; }).catch(function(){ return {rows:[]}; }).then(function(d){ return {name: pair[0], rows: d.rows || []}; });
+  return fetch('data/' + pair[1] + '.json').then(function(r){ return r.ok ? r.json() : {rows:[]}; }).catch(function(){ return {rows:[]}; }).then(function(d){ return {name: pair[0], repo: pair[1], rows: d.rows || []}; });
 })).then(function(classes){
   var html = '';
   classes.forEach(function(c){
@@ -55,7 +55,7 @@ Promise.all(REPOS.map(function(pair){
       if (x.status && x.status.indexOf('blocked') === 0) {
         var d = parseD(x.date);
         if (d && d < now) return;
-        need += '<li><b>' + c.name + ' — ' + esc(x.key) + '</b> (' + esc(x.status) + (x.date ? ', due ' + esc(x.date) : '') + ')<br><span class="small">' + esc((x.note||'').replace(/^#\s*/,'')) + '</span></li>';
+        need += '<li><b>' + c.name + ' — ' + esc(x.key) + '</b> (' + esc(x.status) + (x.date ? ', due ' + esc(x.date) : '') + ')<br><span class="small">' + esc((x.note||'').replace(/^#\s*/,'')) + '</span><br><a href="https://github.com/zackhada/school-dashboard/issues/new?title=' + encodeURIComponent('[answer] ' + c.repo + ' ' + x.key) + '&body=' + encodeURIComponent('Question: ' + (x.note||x.key) + '\n\nMy answer:\n') + '">Reply to runner</a></li>';
       }
     });
   });
