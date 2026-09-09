@@ -12,8 +12,10 @@ summary{cursor:pointer;font-weight:600;font-size:15px}
 table{width:100%;border-collapse:collapse;font-size:13px;margin-bottom:16px;table-layout:fixed}
 th,td{padding:8px 10px;border-bottom:1px solid #eee;text-align:left;overflow:hidden;text-overflow:ellipsis}
 th{font-weight:600;color:#444;background:#fafafa}
-col.c-class{width:14%}col.c-assn{width:44%}col.c-status{width:17%}col.c-days{width:25%}
+col.c-class{width:14%}col.c-assn{width:26%}col.c-status{width:12%}col.c-days{width:12%}col.c-grade{width:10%}
 col.c-note{width:45%}col.c-act{width:10%}
+td.grade{color:#1a7f37;font-weight:600}
+.cm{font-size:12px;color:#333}
 tr:hover td{background:#f9f9f9}
 .done{color:#1a7f37}
 .todo{color:#b54708}
@@ -60,8 +62,35 @@ function titleFrom(key, note, course){
   if(/Choose.*Org/.test(n)) return 'Choose Default Organization';
   return key.replace(/_/g,' ').replace(/\b(\w)(\w*)\b/g,function(_,a,b){return a.toUpperCase()+b.toLowerCase();});
 }
+function norm(s){ return String(s||'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim(); }
+function words(s){ return norm(s).split(' ').filter(function(w){ return w.length > 2; }); }
+function matchGrade(title, dueDay, grows){
+  var tw = words(title), best = null, bestScore = -1;
+  grows.forEach(function(g){
+    var gday = g.due ? String(g.due).slice(0,10) : '';
+    var gw = words(g.name);
+    var overlap = tw.filter(function(w){ return gw.indexOf(w) >= 0; }).length;
+    var score = overlap + (gday && gday === dueDay ? 100 : 0);
+    if (score > bestScore) { bestScore = score; best = g; }
+  });
+  if (!best || bestScore < 1) return null;
+  return best;
+}
+function gradeCell(g){
+  if (!g) return '<span class="small">—</span>';
+  if (g.score != null) return esc(g.score) + ' / ' + esc(g.points);
+  var miss = g.missing || (g.status === 'unsubmitted' && g.due && new Date(g.due) < new Date());
+  if (miss) return '0 / ' + esc(g.points);
+  return '<span class="small">—</span>';
+}
+function commentsCell(g){
+  if (!g || !g.comments || !g.comments.length) return '<span class="small">—</span>';
+  return g.comments.map(function(m){ return '<div class="cm">' + esc(m.comment||'') + ' <span class="small">— ' + esc(m.author||'grader') + '</span></div>'; }).join('');
+}
 Promise.all(REPOS.map(function(pair){
-  return fetch('data/' + pair[1] + '.json').then(function(r){ return r.ok ? r.json() : {rows:[]}; }).catch(function(){ return {rows:[]}; }).then(function(d){ return {name: pair[0], repo: pair[1], rows: d.rows || []}; });
+  var led = fetch('data/' + pair[1] + '.json').then(function(r){ return r.ok ? r.json() : {rows:[]}; }).catch(function(){ return {rows:[]}; });
+  var grd = fetch('data/' + pair[1] + '.grades.json').then(function(r){ return r.ok ? r.json() : {rows:[]}; }).catch(function(){ return {rows:[]}; });
+  return Promise.all([led, grd]).then(function(p){ return {name: pair[0], repo: pair[1], rows: p[0].rows || [], grows: p[1].rows || []}; });
 })).then(function(classes){
   var html = '';
   classes.forEach(function(c){
@@ -77,12 +106,13 @@ Promise.all(REPOS.map(function(pair){
     var done = items.filter(function(a){ return a.x.status === 'done'; }).length;
     html += '<details open><summary>' + esc(c.name) + ' (' + done + '/' + items.length + ')</summary>';
     if (!items.length) { html += '<p class="small">No assignments.</p></details>'; return; }
-    html += '<table><colgroup><col class="c-assn"><col class="c-status"><col class="c-days"></colgroup><thead><tr><th>Assignment</th><th>Status</th><th>Days</th></tr></thead><tbody>';
+    html += '<table><colgroup><col class="c-assn"><col class="c-status"><col class="c-days"><col class="c-grade"><col></colgroup><thead><tr><th>Assignment</th><th>Status</th><th>Days</th><th>Grade</th><th>Comments</th></tr></thead><tbody>';
     items.forEach(function(a){
       var x = a.x;
       var cls = x.status === 'done' ? 'done' : (x.status === 'pending' ? 'todo' : 'blocked');
       var title = titleFrom(x.key, x.note, c.name);
-      html += '<tr><td class="'+cls+'">'+esc(title)+'</td><td class="'+cls+'">'+esc(x.status)+'</td><td class="'+cls+' days-left">'+daysLeft(a.d)+'</td></tr>';
+      var g = matchGrade(title, x.date, c.grows);
+      html += '<tr><td class="'+cls+'">'+esc(title)+'</td><td class="'+cls+'">'+esc(x.status)+'</td><td class="'+cls+' days-left">'+daysLeft(a.d)+'</td><td class="grade">'+gradeCell(g)+'</td><td>'+commentsCell(g)+'</td></tr>';
     });
     html += '</tbody></table></details>';
   });
