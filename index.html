@@ -66,6 +66,11 @@ function titleFrom(key, note, course){
   return key.replace(/_/g,' ').replace(/\b(\w)(\w*)\b/g,function(_,a,b){return a.toUpperCase()+b.toLowerCase();});
 }
 function norm(s){ return String(s||'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim(); }
+function statusOf(x){
+  if (x.status === 'done') return ['done', 'done'];
+  if (x.status === 'blocked_inperson') return ['in person', 'blocked'];
+  return ['automated', 'todo'];
+}
 function words(s){ return norm(s).split(' ').filter(function(w){ return w.length > 2; }); }
 function matchGrade(title, dueDay, grows){
   var tw = words(title), best = null, bestScore = -1;
@@ -112,12 +117,12 @@ Promise.all(REPOS.map(function(pair){
     html += '<table><colgroup><col class="c-assn"><col class="c-status"><col class="c-days"><col class="c-grade"><col></colgroup><thead><tr><th>Assignment</th><th>Status</th><th>Days</th><th>Grade</th><th>Comments</th></tr></thead><tbody>';
     items.forEach(function(a){
       var x = a.x;
-      var cls = x.status === 'done' ? 'done' : (x.status === 'pending' ? 'todo' : 'blocked');
+      var st = statusOf(x), cls = st[1];
       var n = daysLeft(a.d);
       var rowCls = n < 0 ? 'past' : (n === 0 ? 'today' : '');
       var title = titleFrom(x.key, x.note, c.name);
       var g = matchGrade(title, x.date, c.grows);
-      html += '<tr class="'+rowCls+'"><td class="'+cls+'">'+esc(title)+'</td><td class="'+cls+'">'+esc(x.status)+'</td><td class="days-left">'+n+'</td><td class="grade">'+gradeCell(g)+'</td><td>'+commentsCell(g)+'</td></tr>';
+      html += '<tr class="'+rowCls+'"><td class="'+cls+'">'+esc(title)+'</td><td class="'+cls+'">'+st[0]+'</td><td class="days-left">'+n+'</td><td class="grade">'+gradeCell(g)+'</td><td>'+commentsCell(g)+'</td></tr>';
     });
     html += '</tbody></table></details>';
   });
