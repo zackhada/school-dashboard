@@ -69,9 +69,9 @@
   },
   {
    "key": "IS_EXAM1",
-   "status": "blocked_ask_zack",
+   "status": "blocked_inperson",
    "date": "2026-10-17",
-   "note": "# Exam 1, 100pts, timed take-home, NOT collaborative. Locked until Oct 10, no instructions posted yet. Question for Zack: approve a timed attempt and tell me a 2-hour quiet window after Oct 10 to take it."
+   "note": "# Exam 1, 100pts, timed take-home, NOT collaborative. Locked until Oct 10. Zack takes manually in a quiet window after Oct 10."
   },
   {
    "key": "IS_FIN",
@@ -117,9 +117,9 @@
   },
   {
    "key": "IS_EXAM2",
-   "status": "blocked_ask_zack",
+   "status": "blocked_inperson",
    "date": "2026-12-17",
-   "note": "# Exam 2, 100pts, timed comprehensive take-home, NOT collaborative. Locked until Dec 12, no instructions posted yet. Question for Zack: approve a timed attempt and tell me a 2-hour quiet window after Dec 12 to take it."
+   "note": "# Exam 2, 100pts, timed comprehensive take-home, NOT collaborative. Locked until Dec 12. Zack takes manually in a quiet window after Dec 12."
   }
  ]
 }
