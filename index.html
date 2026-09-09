@@ -35,6 +35,7 @@ Promise.all(REPOS.map(function(pair){
     var up = c.rows.filter(function(x){
       if (x.key.indexOf('SETUP') === 0) return false;
       if (x.status === 'blocked_inperson') return false;
+      if (/\b0\s?pts?\b/i.test(x.note || '')) return false;
       var d = parseD(x.date);
       return d && d >= now && d <= in7;
     });
