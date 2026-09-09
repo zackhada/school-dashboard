@@ -2,12 +2,26 @@
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Fall 2026 Dashboard</title>
-<style>body{font-family:-apple-system,Helvetica,Arial,sans-serif;max-width:720px;margin:0 auto;padding:16px;color:#222}
-h1{font-size:20px}.small{font-size:12px;color:#666}
-details{border:1px solid #ddd;border-radius:8px;margin:10px 0;padding:10px 12px}
-summary{font-size:16px;cursor:pointer;font-weight:600}
-ul{font-size:14px;padding-left:20px}.done{color:#1a7f37}.todo{color:#b54708}.blocked{color:#666}
-.bar{height:8px;background:#eee;border-radius:4px;margin:6px 0}.bar>div{height:8px;background:#1a7f37;border-radius:4px}</style>
+<style>
+body{font-family:-apple-system,Helvetica,Arial,sans-serif;max-width:1000px;margin:0 auto;padding:16px;color:#222}
+h1{font-size:20px;margin-bottom:4px}
+h2{font-size:16px;margin-top:24px;margin-bottom:8px}
+.small{font-size:12px;color:#666}
+table{width:100%;border-collapse:collapse;font-size:13px;margin-bottom:16px}
+th,td{padding:8px 10px;border-bottom:1px solid #eee;text-align:left}
+th{font-weight:600;color:#444;background:#fafafa}
+tr:hover td{background:#f9f9f9}
+.done{color:#1a7f37}
+.todo{color:#b54708}
+.blocked{color:#666}
+.blocked_inperson{color:#666}
+.bar{height:6px;background:#eee;border-radius:3px;margin:4px 0}
+.bar>div{height:6px;background:#1a7f37;border-radius:3px}
+a{color:#0066cc;text-decoration:none}
+a:hover{text-decoration:underline}
+.overdue{color:#c00;font-weight:600}
+.days-left{font-variant-numeric:tabular-nums}
+</style>
 </head><body>
 <h1>Fall 2026 Dashboard</h1>
 <p><a href="grades.html">Grades by assignment &rarr;</a></p>
@@ -28,8 +42,22 @@ var now = new Date(); now.setHours(0,0,0,0);
 var in7 = new Date(now.getTime() + 7*864e5);
 function parseD(s){ var m = /^(\d{4})-(\d{2})-(\d{2})/.exec(s||''); return m ? new Date(+m[1],+m[2]-1,+m[3]) : null; }
 function esc(s){ return String(s||'').replace(/</g,'&lt;'); }
+function daysLeft(d){ if(!d) return ''; var diff = Math.ceil((d - now)/864e5); if(diff < 0) return '<span class="overdue">'+(-diff)+' days overdue</span>'; if(diff === 0) return '<span class="overdue">Due today</span>'; return diff+' day'+(diff===1?'':'s')+' left'; }
+function titleFrom(key, note, course){
+  var n = (note||'').replace(/^#\s*/,'');
+  if(/^\d+\.\d+/.test(n)) return n.split(',')[0].trim();
+  if(/Topic\s+\d+/.test(n)) return n.split(',')[0].trim().replace(/^Topic\s+/,'Topic ');
+  if(/Quiz\s+\d+/.test(n)) return n.split(',')[0].trim();
+  if(/Exam\s+\d+/.test(n)) return n.split(',')[0].trim();
+  if(/Assessment/.test(n)) return n.split(',')[0].trim();
+  if(/Questionnaire/.test(n)) return 'Student Questionnaire';
+  if(/Orientation/.test(n)) return 'Orientation Check';
+  if(/Interview/.test(n)) return 'Professional Perspective Interview';
+  if(/Choose.*Org/.test(n)) return 'Choose Default Organization';
+  return key.replace(/_/g,' ').replace(/\b(\w)(\w*)\b/g,function(_,a,b){return a.toUpperCase()+b.toLowerCase();});
+}
 Promise.all(REPOS.map(function(pair){
-  return fetch('data/' + pair[1] + '.json').then(function(r){ return r.ok ? r.json() : {rows:[]}; }).catch(function(){ return {rows:[]}; }).then(function(d){ return {name: pair[0], repo: pair[1], rows: d.rows || []}; });
+  return fetch('data/' + pair[1] + '.json').then(function(r){ return r.ok ? r.json() : {rows:[]}; }).catch(function(){ return {rows:[]}; }).then(function(d){ return {name: pair[0], repo: pair[1], rows: d.rows || []}; };
 })).then(function(classes){
   var html = '';
   classes.forEach(function(c){
@@ -42,14 +70,20 @@ Promise.all(REPOS.map(function(pair){
     });
     var done = up.filter(function(x){ return x.status === 'done'; }).length;
     var pct = up.length ? Math.round(100*done/up.length) : 100;
-    var open = up.some(function(x){ return x.status === 'pending'; }) ? ' open' : '';
-    html += '<details' + open + '><summary>' + c.name + ' (' + done + '/' + up.length + ' due in 7 days)</summary><div class="bar"><div style="width:' + pct + '%"></div></div><ul>';
-    if (!up.length) html += '<li class="done">Nothing due in the next 7 days.</li>';
-    up.forEach(function(x){
-      var cls = x.status === 'done' ? 'done' : (x.status === 'pending' ? 'todo' : 'blocked');
-      html += '<li class="' + cls + '">' + esc(x.key) + ' — ' + esc(x.status) + ' (due ' + esc(x.date) + ')</li>';
-    });
-    html += '</ul></details>';
+    html += '<h2>' + c.name + ' <span class="small">(' + done + '/' + up.length + ' due in 7 days)</span></h2>';
+    html += '<div class="bar"><div style="width:' + pct + '%"></div></div>';
+    if (!up.length) {
+      html += '<p class="small done">Nothing due in the next 7 days.</p>';
+    } else {
+      html += '<table><thead><tr><th>Assignment</th><th>Status</th><th class="days-left">Days Left</th></tr></thead><tbody>';
+      up.forEach(function(x){
+        var cls = x.status === 'done' ? 'done' : (x.status === 'pending' ? 'todo' : 'blocked');
+        var d = parseD(x.date);
+        var title = titleFrom(x.key, x.note, c.name);
+        html += '<tr><td class="'+cls+'">'+esc(title)+'</td><td class="'+cls+'">'+esc(x.status)+'</td><td class="'+cls+' days-left">'+daysLeft(d)+'</td></tr>';
+      });
+      html += '</tbody></table>';
+    }
   });
   document.getElementById('app').innerHTML = html;
   var need = '', inperson = '';
@@ -61,15 +95,22 @@ Promise.all(REPOS.map(function(pair){
       var note = esc((x.note||'').replace(/^#\s*/,''));
       if (x.status === 'blocked_inperson') {
         if (/\b0\s?pts?\b/i.test(x.note || '')) return;
-        if (d && d >= now && d <= in7) inperson += '<li><b>' + c.name + ' — ' + esc(x.key) + '</b>' + (x.date ? ' (due ' + esc(x.date) + ')' : '') + '<br><span class="small">' + note + '</span></li>';
+        if (d && d >= now && d <= in7) inperson += '<tr><td><b>'+c.name+' \u2014 '+esc(x.key)+'</b></td><td>'+daysLeft(d)+'</td><td class="small">'+note+'</td></tr>';
         return;
       }
       if (d && d < now) return;
-      need += '<li><b>' + c.name + ' — ' + esc(x.key) + '</b> (' + esc(x.status) + (x.date ? ', due ' + esc(x.date) : '') + ')<br><span class="small">' + note + '</span><br><a href="https://github.com/zackhada/school-dashboard/issues/new?title=' + encodeURIComponent('[answer] ' + c.repo + ' ' + x.key) + '&body=' + encodeURIComponent(c.name + ' — ' + x.key + ' (due ' + (x.date||'n/a') + ', ' + x.status + ')\n\nContext: ' + (x.note||'none') + '\n\nMy answer:\n') + '">Reply to runner</a></li>';
+      var title = titleFrom(x.key, x.note, c.name);
+      need += '<tr><td><b>'+c.name+' \u2014 '+esc(title)+'</b></td><td class="'+esc(x.status)+'">'+esc(x.status)+(x.date?', '+daysLeft(d):'')+'</td><td class="small">'+note+'</td><td><a href="https://github.com/zackhada/school-dashboard/issues/new?title='+encodeURIComponent('[answer] '+c.repo+' '+x.key)+'&body='+encodeURIComponent(c.name+' \u2014 '+x.key+' (due '+(x.date||'n/a')+', '+x.status+')\n\nContext: '+(x.note||'none')+'\n\nMy answer:\n')+'">Reply</a></td></tr>';
     });
   });
-  document.getElementById('needs').innerHTML = need ? '<h2>Needs your input</h2><p class="small">Automatable tasks stuck on your input. Reply and the runner continues.</p><ul>' + need + '</ul>' : '<h2>Needs your input</h2><p class="small">Nothing waiting on you.</p>';
-  document.getElementById('needs').innerHTML += inperson ? '<h2>In person + proctored (7 days)</h2><p class="small">Credit you earn by showing up.</p><ul>' + inperson + '</ul>' : '';
+  if (need) {
+    document.getElementById('needs').innerHTML = '<h2>Needs your input</h2><p class="small">Automatable tasks stuck on your input. Reply and the runner continues.</p><table><thead><tr><th>Assignment</th><th>Status</th><th>Note</th><th>Action</th></tr></thead><tbody>'+need+'</tbody></table>';
+  } else {
+    document.getElementById('needs').innerHTML = '<h2>Needs your input</h2><p class="small">Nothing waiting on you.</p>';
+  }
+  if (inperson) {
+    document.getElementById('needs').innerHTML += '<h2>In person + proctored (7 days)</h2><p class="small">Credit you earn by showing up.</p><table><thead><tr><th>Assignment</th><th>Days Left</th><th>Details</th></tr></thead><tbody>'+inperson+'</tbody></table>';
+  }
   document.getElementById('ts').textContent = 'Updated ' + new Date().toUTCString();
 });
 </script>
