@@ -7,9 +7,11 @@ body{font-family:-apple-system,Helvetica,Arial,sans-serif;max-width:1000px;margi
 h1{font-size:20px;margin-bottom:4px}
 h2{font-size:16px;margin-top:24px;margin-bottom:8px}
 .small{font-size:12px;color:#666}
-table{width:100%;border-collapse:collapse;font-size:13px;margin-bottom:16px}
-th,td{padding:8px 10px;border-bottom:1px solid #eee;text-align:left}
+table{width:100%;border-collapse:collapse;font-size:13px;margin-bottom:16px;table-layout:fixed}
+th,td{padding:8px 10px;border-bottom:1px solid #eee;text-align:left;overflow:hidden;text-overflow:ellipsis}
 th{font-weight:600;color:#444;background:#fafafa}
+col.c-assn{width:55%}col.c-status{width:20%}col.c-days{width:25%}
+col.c-note{width:45%}col.c-act{width:10%}
 tr:hover td{background:#f9f9f9}
 .done{color:#1a7f37}
 .todo{color:#b54708}
@@ -75,7 +77,7 @@ Promise.all(REPOS.map(function(pair){
     if (!up.length) {
       html += '<p class="small done">Nothing due in the next 7 days.</p>';
     } else {
-      html += '<table><thead><tr><th>Assignment</th><th>Status</th><th class="days-left">Days Left</th></tr></thead><tbody>';
+      html += '<table><colgroup><col class="c-assn"><col class="c-status"><col class="c-days"></colgroup><thead><tr><th>Assignment</th><th>Status</th><th class="days-left">Days Left</th></tr></thead><tbody>';
       up.forEach(function(x){
         var cls = x.status === 'done' ? 'done' : (x.status === 'pending' ? 'todo' : 'blocked');
         var d = parseD(x.date);
@@ -104,12 +106,12 @@ Promise.all(REPOS.map(function(pair){
     });
   });
   if (need) {
-    document.getElementById('needs').innerHTML = '<h2>Needs your input</h2><p class="small">Automatable tasks stuck on your input. Reply and the runner continues.</p><table><thead><tr><th>Assignment</th><th>Status</th><th>Note</th><th>Action</th></tr></thead><tbody>'+need+'</tbody></table>';
+    document.getElementById('needs').innerHTML = '<h2>Needs your input</h2><p class="small">Automatable tasks stuck on your input. Reply and the runner continues.</p><table><colgroup><col class="c-assn"><col class="c-status"><col class="c-note"><col class="c-act"></colgroup><thead><tr><th>Assignment</th><th>Status</th><th>Note</th><th>Action</th></tr></thead><tbody>'+need+'</tbody></table>';
   } else {
     document.getElementById('needs').innerHTML = '<h2>Needs your input</h2><p class="small">Nothing waiting on you.</p>';
   }
   if (inperson) {
-    document.getElementById('needs').innerHTML += '<h2>In person + proctored (7 days)</h2><p class="small">Credit you earn by showing up.</p><table><thead><tr><th>Assignment</th><th>Days Left</th><th>Details</th></tr></thead><tbody>'+inperson+'</tbody></table>';
+    document.getElementById('needs').innerHTML += '<h2>In person + proctored (7 days)</h2><p class="small">Credit you earn by showing up.</p><table><colgroup><col class="c-assn"><col class="c-days"><col class="c-note"></colgroup><thead><tr><th>Assignment</th><th>Days Left</th><th>Details</th></tr></thead><tbody>'+inperson+'</tbody></table>';
   }
   document.getElementById('ts').textContent = 'Updated ' + new Date().toUTCString();
 });

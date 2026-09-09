@@ -6,9 +6,10 @@
 h1{font-size:20px}.small{font-size:12px;color:#666}
 details{border:1px solid #ddd;border-radius:8px;margin:10px 0;padding:10px 12px}
 summary{cursor:pointer;font-weight:600;font-size:15px}
-table{width:100%;border-collapse:collapse;font-size:13px;margin-top:8px}
+table{width:100%;border-collapse:collapse;font-size:13px;margin-top:8px;table-layout:fixed}
 th{text-align:left;font-size:12px;color:#666;border-bottom:2px solid #ddd;padding:6px 8px}
-td{border-bottom:1px solid #eee;padding:6px 8px;vertical-align:top}
+td{border-bottom:1px solid #eee;padding:6px 8px;vertical-align:top;overflow:hidden;text-overflow:ellipsis}
+col.g-name{width:34%}col.g-due{width:11%}col.g-status{width:12%}col.g-grade{width:13%}
 tr.missing td.name{color:#b3261e}tr.graded td.grade{color:#1a7f37;font-weight:600}
 nav{font-size:14px;margin-bottom:8px}.cm{font-size:12px;color:#333}</style>
 </head><body>
@@ -46,7 +47,7 @@ Promise.all(REPOS.map(function(pair){
     var pct = pts ? ' — ' + tot + '/' + pts + ' (' + Math.round(100*tot/pts) + '% with past-due missing as 0)' : '';
     html += '<details' + (i < 2 ? ' open' : '') + '><summary>' + esc(c.name) + ' (' + graded.length + '/' + rows.length + ' graded)</summary>';
     if (!rows.length) { html += '<p class="small">No grade data yet.</p></details>'; return; }
-    html += '<table><tr><th>Name</th><th>Due</th><th>Status</th><th>Grade</th><th>Comments</th></tr>';
+    html += '<table><colgroup><col class="g-name"><col class="g-due"><col class="g-status"><col class="g-grade"><col></colgroup><tr><th>Name</th><th>Due</th><th>Status</th><th>Grade</th><th>Comments</th></tr>';
     rows.forEach(function(x){
       var due = x.due ? String(x.due).slice(0,10) : '—';
       var isMissing = x.missing || (x.status === 'unsubmitted' && x.due && new Date(x.due) < new Date());
