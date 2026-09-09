@@ -34,6 +34,7 @@ Promise.all(REPOS.map(function(pair){
   classes.forEach(function(c){
     var up = c.rows.filter(function(x){
       if (x.key.indexOf('SETUP') === 0) return false;
+      if (x.status === 'blocked_inperson') return false;
       var d = parseD(x.date);
       return d && d >= now && d <= in7;
     });
@@ -49,17 +50,24 @@ Promise.all(REPOS.map(function(pair){
     html += '</ul></details>';
   });
   document.getElementById('app').innerHTML = html;
-  var need = '';
+  var need = '', inperson = '';
   classes.forEach(function(c){
     c.rows.forEach(function(x){
-      if (x.status && x.status.indexOf('blocked') === 0) {
-        var d = parseD(x.date);
-        if (d && d < now) return;
-        need += '<li><b>' + c.name + ' — ' + esc(x.key) + '</b> (' + esc(x.status) + (x.date ? ', due ' + esc(x.date) : '') + ')<br><span class="small">' + esc((x.note||'').replace(/^#\s*/,'')) + '</span><br><a href="https://github.com/zackhada/school-dashboard/issues/new?title=' + encodeURIComponent('[answer] ' + c.repo + ' ' + x.key) + '&body=' + encodeURIComponent('Question: ' + (x.note||x.key) + '\n\nMy answer:\n') + '">Reply to runner</a></li>';
+      var isBlocked = x.status && x.status.indexOf('blocked') === 0;
+      if (!isBlocked) return;
+      var d = parseD(x.date);
+      var note = esc((x.note||'').replace(/^#\s*/,''));
+      if (x.status === 'blocked_inperson') {
+        if (d && d >= now && d <= in7) inperson += '<li><b>' + c.name + ' — ' + esc(x.key) + '</b>' + (x.date ? ' (due ' + esc(x.date) + ')' : '') + '<br><span class="small">' + note + '</span></li>';
+        return;
+      }
+      if (d && d < now) return;
+      need += '<li><b>' + c.name + ' — ' + esc(x.key) + '</b> (' + esc(x.status) + (x.date ? ', due ' + esc(x.date) : '') + ')<br><span class="small">' + note + '</span><br><a href="https://github.com/zackhada/school-dashboard/issues/new?title=' + encodeURIComponent('[answer] ' + c.repo + ' ' + x.key) + '&body=' + encodeURIComponent('Question: ' + (x.note||x.key) + '\n\nMy answer:\n') + '">Reply to runner</a></li>';
       }
     });
   });
-  document.getElementById('needs').innerHTML = need ? '<h2>Needs you</h2><p class="small">Runners cannot do these. Full context below.</p><ul>' + need + '</ul>' : '';
+  document.getElementById('needs').innerHTML = need ? '<h2>Needs your input</h2><p class="small">Automatable tasks stuck on your input. Reply and the runner continues.</p><ul>' + need + '</ul>' : '<h2>Needs your input</h2><p class="small">Nothing waiting on you.</p>';
+  document.getElementById('needs').innerHTML += inperson ? '<h2>In person + proctored (7 days)</h2><p class="small">Credit you earn by showing up.</p><ul>' + inperson + '</ul>' : '';
   document.getElementById('ts').textContent = 'Updated ' + new Date().toUTCString();
 });
 </script>
