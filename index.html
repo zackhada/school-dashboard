@@ -60,4 +60,33 @@ th{background:#f4f4f4}.done{color:#1a7f37}.due{color:#b54708}.need{background:#f
 <tr><td>PSE 390 (Tellez)</td><td>TTh 2p, 2106 TNRB</td><td>Week 1 quiz via runner; bring phone for in-class code.</td></tr>
 <tr><td>IS 515 (Carroll)</td><td>Remote async</td><td>Nothing due until Sep 17.</td></tr>
 </table>
+
+<h2>Live ledgers (auto-updated by runners)</h2>
+<p class="small" id="ledger-ts">Loading...</p>
+<div id="ledgers"></div>
+<script>
+const REPOS = ["hrm391-automation","strat392-automation","rel-c-333-automation","pse390-automation","fin201-automation","is515-automation","econ110-automation"];
+(async () => {
+  const box = document.getElementById('ledgers');
+  let html = '';
+  for (const r of REPOS) {
+    try {
+      const res = await fetch('data/' + r + '.json');
+      if (!res.ok) continue;
+      const d = await res.json();
+      const done = d.rows.filter(x => x.status === 'done');
+      const pend = d.rows.filter(x => x.status === 'pending');
+      const blocked = d.rows.filter(x => x.status && x.status.startsWith('blocked'));
+      html += '<h3>' + r + ' <span class="small">done ' + done.length + ', pending ' + pend.length + ', blocked ' + blocked.length + '</span></h3>';
+      html += '<table><tr><th>Key</th><th>Status</th><th>Date</th><th>Note</th></tr>';
+      for (const x of d.rows) {
+        html += '<tr><td>' + x.key + '</td><td>' + x.status + '</td><td>' + x.date + '</td><td>' + (x.note||'').replace(/</g,'&lt;') + '</td></tr>';
+      }
+      html += '</table>';
+    } catch(e) { html += '<p>' + r + ': unavailable</p>'; }
+  }
+  box.innerHTML = html;
+  document.getElementById('ledger-ts').textContent = 'Loaded ' + new Date().toUTCString();
+})();
+</script>
 </body></html>

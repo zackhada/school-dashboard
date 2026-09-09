@@ -1,0 +1,30 @@
+name: Dashboard update
+on:
+  repository_dispatch:
+    types: [status]
+  schedule:
+    - cron: '15 6 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Save status payload
+        run: |
+          REPO='${{ github.event.client_payload.repo }}'
+          if [ -n "$REPO" ]; then
+            SHORT=$(basename "$REPO")
+            mkdir -p data
+            echo '${{ toJson(github.event.client_payload) }}' > "data/${SHORT}.json"
+          fi
+          ls data/ 2>/dev/null || true
+      - name: Commit
+        run: |
+          git config user.name "dashboard-bot"
+          git config user.email "dashboard-bot@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "dashboard update $(date -u +%Y-%m-%d)"
+          git push origin HEAD

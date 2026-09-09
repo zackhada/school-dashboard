@@ -1,0 +1,23 @@
+{
+ "repo": "zackhada/strat392-automation",
+ "rows": [
+  {
+   "key": "INCLASS_QUIZ_0908",
+   "status": "blocked_inperson",
+   "date": "2026-09-09",
+   "note": "# 9-8 In Class Quiz, due 2026-09-09T05:30:00Z, 10pts, unsubmitted; in-class, Zack attends"
+  },
+  {
+   "key": "SESSION1_WHAT_IS_STRATEGY",
+   "status": "blocked_inperson",
+   "date": "2026-09-09",
+   "note": "# Session 1 What is Strategy, due 2026-09-09T05:59:59Z, 0pts muted, submission_types=none; deliverable was bringing examples to Sep 8 class; no online submission exists"
+  },
+  {
+   "key": "MEASURING_MARKET_CONCENTRATION",
+   "status": "pending",
+   "date": "2026-09-12",
+   "note": "# Measuring Market Concentration, due 2026-09-12T05:59:59Z, 10pts, unsubmitted"
+  }
+ ]
+}
