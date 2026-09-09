@@ -3,9 +3,9 @@
  "rows": [
   {
    "key": "INCLASS_QUIZ_0908",
-   "status": "blocked_inperson",
+   "status": "done",
    "date": "2026-09-09",
-   "note": "# 9-8 In Class Quiz, due 2026-09-09T05:30:00Z, 10pts, unsubmitted; in-class, Zack attends"
+   "note": "# 9-8 In Class Quiz submitted 2026-09-09 by Zack locally, 10/10 (late, completion credit)"
   },
   {
    "key": "SESSION1_WHAT_IS_STRATEGY",
