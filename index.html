@@ -10,7 +10,7 @@ h2{font-size:16px;margin-top:24px;margin-bottom:8px}
 table{width:100%;border-collapse:collapse;font-size:13px;margin-bottom:16px;table-layout:fixed}
 th,td{padding:8px 10px;border-bottom:1px solid #eee;text-align:left;overflow:hidden;text-overflow:ellipsis}
 th{font-weight:600;color:#444;background:#fafafa}
-col.c-assn{width:55%}col.c-status{width:20%}col.c-days{width:25%}
+col.c-class{width:14%}col.c-assn{width:44%}col.c-status{width:17%}col.c-days{width:25%}
 col.c-note{width:45%}col.c-act{width:10%}
 tr:hover td{background:#f9f9f9}
 .done{color:#1a7f37}
@@ -44,7 +44,7 @@ var now = new Date(); now.setHours(0,0,0,0);
 var in7 = new Date(now.getTime() + 7*864e5);
 function parseD(s){ var m = /^(\d{4})-(\d{2})-(\d{2})/.exec(s||''); return m ? new Date(+m[1],+m[2]-1,+m[3]) : null; }
 function esc(s){ return String(s||'').replace(/</g,'&lt;'); }
-function daysLeft(d){ if(!d) return ''; var diff = Math.ceil((d - now)/864e5); if(diff < 0) return '<span class="overdue">'+(-diff)+' days overdue</span>'; if(diff === 0) return '<span class="overdue">Due today</span>'; return diff+' day'+(diff===1?'':'s')+' left'; }
+function daysLeft(d){ if(!d) return ''; var diff = Math.ceil((d - now)/864e5); if(diff < 0) return '<span class="overdue">'+(-diff)+' days past</span>'; if(diff === 0) return '<span class="overdue">Due today</span>'; return diff+' day'+(diff===1?'':'s')+' left'; }
 function titleFrom(key, note, course){
   var n = (note||'').replace(/^#\s*/,'');
   if(/^\d+\.\d+/.test(n)) return n.split(',')[0].trim();
@@ -61,32 +61,26 @@ function titleFrom(key, note, course){
 Promise.all(REPOS.map(function(pair){
   return fetch('data/' + pair[1] + '.json').then(function(r){ return r.ok ? r.json() : {rows:[]}; }).catch(function(){ return {rows:[]}; }).then(function(d){ return {name: pair[0], repo: pair[1], rows: d.rows || []}; });
 })).then(function(classes){
-  var html = '';
+  var all = [];
   classes.forEach(function(c){
-    var up = c.rows.filter(function(x){
-      if (x.key.indexOf('SETUP') === 0) return false;
-      if (x.status === 'blocked_inperson') return false;
-      if (/\b0\s?pts?\b/i.test(x.note || '')) return false;
+    c.rows.forEach(function(x){
+      if (x.key.indexOf('SETUP') === 0) return;
+      if (/\b0\s?pts?\b/i.test(x.note || '')) return;
       var d = parseD(x.date);
-      return d && d >= now && d <= in7;
+      if (!d) return;
+      all.push({c: c.name, x: x, d: d});
     });
-    var done = up.filter(function(x){ return x.status === 'done'; }).length;
-    var pct = up.length ? Math.round(100*done/up.length) : 100;
-    html += '<h2>' + c.name + ' <span class="small">(' + done + '/' + up.length + ' due in 7 days)</span></h2>';
-    html += '<div class="bar"><div style="width:' + pct + '%"></div></div>';
-    if (!up.length) {
-      html += '<p class="small done">Nothing due in the next 7 days.</p>';
-    } else {
-      html += '<table><colgroup><col class="c-assn"><col class="c-status"><col class="c-days"></colgroup><thead><tr><th>Assignment</th><th>Status</th><th class="days-left">Days Left</th></tr></thead><tbody>';
-      up.forEach(function(x){
-        var cls = x.status === 'done' ? 'done' : (x.status === 'pending' ? 'todo' : 'blocked');
-        var d = parseD(x.date);
-        var title = titleFrom(x.key, x.note, c.name);
-        html += '<tr><td class="'+cls+'">'+esc(title)+'</td><td class="'+cls+'">'+esc(x.status)+'</td><td class="'+cls+' days-left">'+daysLeft(d)+'</td></tr>';
-      });
-      html += '</tbody></table>';
-    }
   });
+  all.sort(function(a,b){ return a.d - b.d; });
+  var html = '<h2>All assignments</h2>';
+  html += '<table><colgroup><col class="c-class"><col class="c-assn"><col class="c-status"><col class="c-days"></colgroup><thead><tr><th>Class</th><th>Assignment</th><th>Status</th><th>Days</th></tr></thead><tbody>';
+  all.forEach(function(a){
+    var x = a.x;
+    var cls = x.status === 'done' ? 'done' : (x.status === 'pending' ? 'todo' : 'blocked');
+    var title = titleFrom(x.key, x.note, a.c);
+    html += '<tr><td>'+esc(a.c)+'</td><td class="'+cls+'">'+esc(title)+'</td><td class="'+cls+'">'+esc(x.status)+'</td><td class="'+cls+' days-left">'+daysLeft(a.d)+'</td></tr>';
+  });
+  html += '</tbody></table>';
   document.getElementById('app').innerHTML = html;
   var need = '', inperson = '';
   classes.forEach(function(c){
