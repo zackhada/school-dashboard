@@ -13,7 +13,7 @@ ul{font-size:14px;padding-left:20px}.done{color:#1a7f37}.todo{color:#b54708}.blo
 <p class="small" id="ts">Loading...</p>
 <div id="app"></div>
 <script>
-const REPOS = [
+var REPOS = [
   ["HRM 391","hrm391-automation"],
   ["STRAT 392","strat392-automation"],
   ["REL C 333","rel-c-333-automation"],
@@ -22,32 +22,33 @@ const REPOS = [
   ["IS 515","is515-automation"],
   ["ECON 110","econ110-automation"]
 ];
-const now = new Date(); now.setHours(0,0,0,0);
-const in7 = new Date(now.getTime() + 7*864e5);
-function parseD(s){ const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(s||''); return m ? new Date(+m[1],+m[2]-1,+m[3]) : null; }
-(async () => {
-  let html = '';
-  for (const [name, repo] of REPOS) {
-    let rows = [];
-    try {
-      const r = await fetch('data/' + repo + '.json');
-      if (r.ok) rows = (await r.json()).rows || [];
-    } catch(e) {}
-    const dated = rows.filter(x => parseD(x.date));
-    const up = dated.filter(x => { const d = parseD(x.date); return d >= now && d <= in7 && !x.key.startsWith('SETUP'); });
-    const done = up.filter(x => x.status === 'done').length;
-    const pct = up.length ? Math.round(100*done/up.length) : 100;
-    html += '<details' + (up.some(x => x.status === 'pending') ? ' open' : '') + '><summary>' + name +
-      ' (' + done + '/' + up.length + ' due in 7 days)</summary><div class="bar"><div style="width:' + pct + '%"></div></div><ul>';
+var now = new Date(); now.setHours(0,0,0,0);
+var in7 = new Date(now.getTime() + 7*864e5);
+function parseD(s){ var m = /^(\d{4})-(\d{2})-(\d{2})/.exec(s||''); return m ? new Date(+m[1],+m[2]-1,+m[3]) : null; }
+function esc(s){ return String(s||'').replace(/</g,'&lt;'); }
+Promise.all(REPOS.map(function(pair){
+  return fetch('data/' + pair[1] + '.json').then(function(r){ return r.ok ? r.json() : {rows:[]}; }).catch(function(){ return {rows:[]}; }).then(function(d){ return {name: pair[0], rows: d.rows || []}; });
+})).then(function(classes){
+  var html = '';
+  classes.forEach(function(c){
+    var up = c.rows.filter(function(x){
+      if (x.key.indexOf('SETUP') === 0) return false;
+      var d = parseD(x.date);
+      return d && d >= now && d <= in7;
+    });
+    var done = up.filter(function(x){ return x.status === 'done'; }).length;
+    var pct = up.length ? Math.round(100*done/up.length) : 100;
+    var open = up.some(function(x){ return x.status === 'pending'; }) ? ' open' : '';
+    html += '<details' + open + '><summary>' + c.name + ' (' + done + '/' + up.length + ' due in 7 days)</summary><div class="bar"><div style="width:' + pct + '%"></div></div><ul>';
     if (!up.length) html += '<li class="done">Nothing due in the next 7 days.</li>';
-    for (const x of up) {
-      const cls = x.status === 'done' ? 'done' : (x.status === 'pending' ? 'todo' : 'blocked');
-      html += '<li class="' + cls + '">' + x.key + ' — ' + x.status + ' (due ' + x.date + ')</li>';
-    }
+    up.forEach(function(x){
+      var cls = x.status === 'done' ? 'done' : (x.status === 'pending' ? 'todo' : 'blocked');
+      html += '<li class="' + cls + '">' + esc(x.key) + ' — ' + esc(x.status) + ' (due ' + esc(x.date) + ')</li>';
+    });
     html += '</ul></details>';
-  }
+  });
   document.getElementById('app').innerHTML = html;
   document.getElementById('ts').textContent = 'Updated ' + new Date().toUTCString();
-})();
+});
 </script>
 </body></html>
