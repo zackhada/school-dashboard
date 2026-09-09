@@ -27,6 +27,9 @@ a{color:#0066cc;text-decoration:none}
 a:hover{text-decoration:underline}
 .overdue{color:#c00;font-weight:600}
 .days-left{font-variant-numeric:tabular-nums}
+tr.past td{color:#999}
+tr.past td.days-left{color:#999;font-weight:400}
+tr.today td.days-left{color:#c00;font-weight:700}
 </style>
 </head><body>
 <h1>Fall 2026 Dashboard</h1>
@@ -48,7 +51,7 @@ var now = new Date(); now.setHours(0,0,0,0);
 var in7 = new Date(now.getTime() + 7*864e5);
 function parseD(s){ var m = /^(\d{4})-(\d{2})-(\d{2})/.exec(s||''); return m ? new Date(+m[1],+m[2]-1,+m[3]) : null; }
 function esc(s){ return String(s||'').replace(/</g,'&lt;'); }
-function daysLeft(d){ if(!d) return ''; var diff = Math.ceil((d - now)/864e5); if(diff < 0) return '<span class="overdue">'+(-diff)+' days past</span>'; if(diff === 0) return '<span class="overdue">Due today</span>'; return diff+' day'+(diff===1?'':'s')+' left'; }
+function daysLeft(d){ if(!d) return ''; return Math.ceil((d - now)/864e5); }
 function titleFrom(key, note, course){
   var n = (note||'').replace(/^#\s*/,'');
   if(/^\d+\.\d+/.test(n)) return n.split(',')[0].trim();
@@ -110,9 +113,11 @@ Promise.all(REPOS.map(function(pair){
     items.forEach(function(a){
       var x = a.x;
       var cls = x.status === 'done' ? 'done' : (x.status === 'pending' ? 'todo' : 'blocked');
+      var n = daysLeft(a.d);
+      var rowCls = n < 0 ? 'past' : (n === 0 ? 'today' : '');
       var title = titleFrom(x.key, x.note, c.name);
       var g = matchGrade(title, x.date, c.grows);
-      html += '<tr><td class="'+cls+'">'+esc(title)+'</td><td class="'+cls+'">'+esc(x.status)+'</td><td class="'+cls+' days-left">'+daysLeft(a.d)+'</td><td class="grade">'+gradeCell(g)+'</td><td>'+commentsCell(g)+'</td></tr>';
+      html += '<tr class="'+rowCls+'"><td class="'+cls+'">'+esc(title)+'</td><td class="'+cls+'">'+esc(x.status)+'</td><td class="days-left">'+n+'</td><td class="grade">'+gradeCell(g)+'</td><td>'+commentsCell(g)+'</td></tr>';
     });
     html += '</tbody></table></details>';
   });
