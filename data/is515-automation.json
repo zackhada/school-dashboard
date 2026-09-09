@@ -71,7 +71,7 @@
    "key": "IS_EXAM1",
    "status": "blocked_ask_zack",
    "date": "2026-10-17",
-   "note": "# Exam 1, 100pts, timed take-home, NOT collaborative, ask Zack first"
+   "note": "# Exam 1, 100pts, timed take-home, NOT collaborative. Locked until Oct 10, no description yet. Needs: your go-ahead plus a quiet window to take it timed. Ask Zack week of Oct 10 with full rules then visible."
   },
   {
    "key": "IS_FIN",
@@ -119,7 +119,7 @@
    "key": "IS_EXAM2",
    "status": "blocked_ask_zack",
    "date": "2026-12-17",
-   "note": "# Exam 2, 100pts, timed comprehensive take-home, ask Zack first"
+   "note": "# Exam 2, 100pts, timed comprehensive take-home, NOT collaborative. Locked until Dec 12, no description yet. Needs: your go-ahead plus a quiet window to take it timed. Ask Zack week of Dec 12 with full rules then visible."
   }
  ]
 }
