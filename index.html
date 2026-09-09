@@ -2,91 +2,52 @@
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Fall 2026 Dashboard</title>
-<style>body{font-family:-apple-system,Helvetica,Arial,sans-serif;max-width:900px;margin:0 auto;padding:16px;color:#222}
-h1{font-size:22px}h2{font-size:17px;margin-top:28px;border-bottom:1px solid #ddd;padding-bottom:4px}
-table{border-collapse:collapse;width:100%;font-size:14px}th,td{border:1px solid #ddd;padding:6px 8px;text-align:left}
-th{background:#f4f4f4}.done{color:#1a7f37}.due{color:#b54708}.need{background:#fff8e1}
-.small{font-size:12px;color:#666}.pill{display:inline-block;padding:1px 8px;border-radius:10px;font-size:12px}
-.ok{background:#e6f4ea}.wait{background:#fef7e0}.late{background:#fce8e6}</style>
+<style>body{font-family:-apple-system,Helvetica,Arial,sans-serif;max-width:720px;margin:0 auto;padding:16px;color:#222}
+h1{font-size:20px}.small{font-size:12px;color:#666}
+details{border:1px solid #ddd;border-radius:8px;margin:10px 0;padding:10px 12px}
+summary{font-size:16px;cursor:pointer;font-weight:600}
+ul{font-size:14px;padding-left:20px}.done{color:#1a7f37}.todo{color:#b54708}.blocked{color:#666}
+.bar{height:8px;background:#eee;border-radius:4px;margin:6px 0}.bar>div{height:8px;background:#1a7f37;border-radius:4px}</style>
 </head><body>
-<h1>Fall 2026 Class Dashboard</h1>
-<p class="small">Updated 2026-09-09. Sources: live Canvas API. Times MT.</p>
-
-<h2>Need from Zack (before class)</h2>
-<table><tr><th>When</th><th>Class</th><th>Need</th></tr>
-<tr class="need"><td>Wed class</td><td>HRM 391</td><td>Bring printed notes + summary for Professional Perspective Interview peer check (in person).</td></tr>
-<tr class="need"><td>Each TTh 2pm</td><td>PSE 390</td><td>Attend. Participation quiz code given in class (77-min window). Cannot be done remotely.</td></tr>
-<tr class="need"><td>Tue 9:30a</td><td>STRAT 392</td><td>Attend. In-class quizzes and case examples happen live.</td></tr>
-<tr class="need"><td>TTh 12pm</td><td>REL C 333</td><td>Attend. Padlet posts before class.</td></tr>
-<tr class="need"><td>Sep 28 / Oct 19 / Nov 16 / Dec 9</td><td>FIN 201</td><td>In-class midterms + final. You attend.</td></tr>
-</table>
-
-<h2>Done</h2>
-<table><tr><th>Class</th><th>Item</th><th>Status</th></tr>
-<tr><td>HRM 391</td><td>Student Information Questionnaire</td><td class="done">Done (late, recorded)</td></tr>
-<tr><td>HRM 391</td><td>Choose Your Default Organization</td><td class="done">Done (Canvas submitted)</td></tr>
-<tr><td>HRM 391</td><td>Week 0 Orientation Check</td><td class="done">Done (graded)</td></tr>
-<tr><td>REL C 333</td><td>9/10 Padlet Sharing</td><td class="done">Done (you posted)</td></tr>
-<tr><td>PSE 390</td><td>Sep 8 Participation Quiz</td><td class="done">Done (3/3)</td></tr>
-<tr><td>IS 515</td><td>Syllabus + Names Assessment</td><td class="done">Done (20/20 each)</td></tr>
-</table>
-
-<h2>Due (runners own the online ones)</h2>
-<table><tr><th>Due</th><th>Class</th><th>Item</th><th>Who</th></tr>
-<tr><td>Sep 12</td><td>STRAT 392</td><td>Measuring Market Concentration</td><td><span class="pill wait">runner</span></td></tr>
-<tr><td>Sep 13</td><td>REL C 333</td><td>Syllabus Quiz</td><td><span class="pill wait">runner</span></td></tr>
-<tr><td>Sep 13</td><td>REL C 333</td><td>Get-to-Know-You</td><td><span class="pill wait">runner</span></td></tr>
-<tr><td>Sep 13</td><td>PSE 390</td><td>Ethics and Public Quiz Week 1</td><td><span class="pill wait">runner</span></td></tr>
-<tr><td>Sep 16</td><td>FIN 201</td><td>Topic 5 + Topic 6 quizzes (MyEducator)</td><td><span class="pill wait">runner Sep 11-12</span></td></tr>
-<tr><td>Sep 17</td><td>IS 515</td><td>Debugging Assessment</td><td><span class="pill wait">runner</span></td></tr>
-</table>
-
-<h2>Runner schedule</h2>
-<table><tr><th>Repo</th><th>Schedule (UTC)</th><th>Today</th></tr>
-<tr><td>hrm391-automation</td><td>daily 00:10</td><td>Queue clear (1 in-person left for Zack)</td></tr>
-<tr><td>strat392-automation</td><td>Mon/Wed/Fri 01:40</td><td>Measuring due Sep 12 covered</td></tr>
-<tr><td>rel-c-333-automation</td><td>daily 02:10</td><td>Sep 13 pair covered</td></tr>
-<tr><td>pse390-automation</td><td>Mon/Wed/Fri 01:10</td><td>Week 1 due Sep 13 covered</td></tr>
-<tr><td>fin201-automation</td><td>daily 23:40</td><td>Q5 Sep 11, Q6 Sep 12</td></tr>
-<tr><td>is515-automation</td><td>daily 00:40</td><td>Next Sep 17</td></tr>
-</table>
-
-<h2>Before each class</h2>
-<table><tr><th>Class</th><th>Meets</th><th>Before class</th></tr>
-<tr><td>HRM 391 (Tennis)</td><td>MW 9:30a, 2051 TNRB</td><td>Printed interview notes for Wed peer check.</td></tr>
-<tr><td>FIN 201 (Holmes)</td><td>MW 2p, 140 JSB</td><td>MyEducator quizzes auto-run; just attend.</td></tr>
-<tr><td>STRAT 392 (Oldroyd)</td><td>T 9:30a, 1051 TNRB</td><td>Measuring Market Concentration submits by Sep 12 via runner.</td></tr>
-<tr><td>REL C 333 (Fox)</td><td>TTh 12p, 109 MARB</td><td>Syllabus quiz + get-to-know submit by Sep 13 via runner.</td></tr>
-<tr><td>PSE 390 (Tellez)</td><td>TTh 2p, 2106 TNRB</td><td>Week 1 quiz via runner; bring phone for in-class code.</td></tr>
-<tr><td>IS 515 (Carroll)</td><td>Remote async</td><td>Nothing due until Sep 17.</td></tr>
-</table>
-
-<h2>Live ledgers (auto-updated by runners)</h2>
-<p class="small" id="ledger-ts">Loading...</p>
-<div id="ledgers"></div>
+<h1>Fall 2026 Dashboard</h1>
+<p class="small" id="ts">Loading...</p>
+<div id="app"></div>
 <script>
-const REPOS = ["hrm391-automation","strat392-automation","rel-c-333-automation","pse390-automation","fin201-automation","is515-automation","econ110-automation"];
+const REPOS = [
+  ["HRM 391","hrm391-automation"],
+  ["STRAT 392","strat392-automation"],
+  ["REL C 333","rel-c-333-automation"],
+  ["PSE 390","pse390-automation"],
+  ["FIN 201","fin201-automation"],
+  ["IS 515","is515-automation"],
+  ["ECON 110","econ110-automation"]
+];
+const now = new Date(); now.setHours(0,0,0,0);
+const in7 = new Date(now.getTime() + 7*864e5);
+function parseD(s){ const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(s||''); return m ? new Date(+m[1],+m[2]-1,+m[3]) : null; }
 (async () => {
-  const box = document.getElementById('ledgers');
   let html = '';
-  for (const r of REPOS) {
+  for (const [name, repo] of REPOS) {
+    let rows = [];
     try {
-      const res = await fetch('data/' + r + '.json');
-      if (!res.ok) continue;
-      const d = await res.json();
-      const done = d.rows.filter(x => x.status === 'done');
-      const pend = d.rows.filter(x => x.status === 'pending');
-      const blocked = d.rows.filter(x => x.status && x.status.startsWith('blocked'));
-      html += '<h3>' + r + ' <span class="small">done ' + done.length + ', pending ' + pend.length + ', blocked ' + blocked.length + '</span></h3>';
-      html += '<table><tr><th>Key</th><th>Status</th><th>Date</th><th>Note</th></tr>';
-      for (const x of d.rows) {
-        html += '<tr><td>' + x.key + '</td><td>' + x.status + '</td><td>' + x.date + '</td><td>' + (x.note||'').replace(/</g,'&lt;') + '</td></tr>';
-      }
-      html += '</table>';
-    } catch(e) { html += '<p>' + r + ': unavailable</p>'; }
+      const r = await fetch('data/' + repo + '.json');
+      if (r.ok) rows = (await r.json()).rows || [];
+    } catch(e) {}
+    const dated = rows.filter(x => parseD(x.date));
+    const up = dated.filter(x => { const d = parseD(x.date); return d >= now && d <= in7 && !x.key.startsWith('SETUP'); });
+    const done = up.filter(x => x.status === 'done').length;
+    const pct = up.length ? Math.round(100*done/up.length) : 100;
+    html += '<details' + (up.some(x => x.status === 'pending') ? ' open' : '') + '><summary>' + name +
+      ' (' + done + '/' + up.length + ' due in 7 days)</summary><div class="bar"><div style="width:' + pct + '%"></div></div><ul>';
+    if (!up.length) html += '<li class="done">Nothing due in the next 7 days.</li>';
+    for (const x of up) {
+      const cls = x.status === 'done' ? 'done' : (x.status === 'pending' ? 'todo' : 'blocked');
+      html += '<li class="' + cls + '">' + x.key + ' — ' + x.status + ' (due ' + x.date + ')</li>';
+    }
+    html += '</ul></details>';
   }
-  box.innerHTML = html;
-  document.getElementById('ledger-ts').textContent = 'Loaded ' + new Date().toUTCString();
+  document.getElementById('app').innerHTML = html;
+  document.getElementById('ts').textContent = 'Updated ' + new Date().toUTCString();
 })();
 </script>
 </body></html>
