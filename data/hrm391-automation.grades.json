@@ -1,0 +1,82 @@
+{
+ "repo": "zackhada/hrm391-automation",
+ "rows": [
+  {
+   "canvas_id": 1489052,
+   "name": "Student Information Questionnaire",
+   "due": "2026-09-06T05:59:59Z",
+   "points": 1,
+   "status": "unsubmitted",
+   "score": null,
+   "grade": null,
+   "missing": false,
+   "submitted_at": null,
+   "submission_type": null,
+   "my_submission": "",
+   "comments": []
+  },
+  {
+   "canvas_id": 1489478,
+   "name": "Choose Your Default Organization",
+   "due": "2026-09-09T05:59:59Z",
+   "points": 1,
+   "status": "graded",
+   "score": 1,
+   "grade": "complete",
+   "missing": false,
+   "submitted_at": "2026-09-09T18:06:25Z",
+   "submission_type": "online_text_entry",
+   "my_submission": "",
+   "comments": [
+    {
+     "author": "Julia Gazdik",
+     "comment": "Nice!",
+     "created": "2026-09-09T20:29:33Z"
+    }
+   ]
+  },
+  {
+   "canvas_id": 1489045,
+   "name": "Professional Perspective Interview",
+   "due": "2026-09-09T05:59:59Z",
+   "points": 1,
+   "status": "unsubmitted",
+   "score": null,
+   "grade": null,
+   "missing": false,
+   "submitted_at": null,
+   "submission_type": null,
+   "my_submission": "",
+   "comments": []
+  },
+  {
+   "canvas_id": 1489474,
+   "name": "Week 0 \u2014 Course Orientation Check",
+   "due": "2026-09-09T05:59:59Z",
+   "points": 8,
+   "status": "graded",
+   "score": 8,
+   "grade": "8",
+   "missing": false,
+   "submitted_at": "2026-09-09T18:24:27Z",
+   "submission_type": "basic_lti_launch",
+   "my_submission": "",
+   "comments": []
+  },
+  {
+   "canvas_id": 1491210,
+   "name": "Exam 1 \u2014 Understanding the Organizational System",
+   "due": null,
+   "points": 1,
+   "status": "unsubmitted",
+   "score": null,
+   "grade": null,
+   "missing": false,
+   "submitted_at": null,
+   "submission_type": null,
+   "my_submission": "",
+   "comments": []
+  }
+ ],
+ "source": "canvas-browser-session"
+}

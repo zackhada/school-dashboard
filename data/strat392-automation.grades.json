@@ -1,0 +1,48 @@
+{
+ "repo": "zackhada/strat392-automation",
+ "rows": [
+  {
+   "canvas_id": 1496217,
+   "name": "9-8 In Class Quiz",
+   "due": "2026-09-09T05:30:00Z",
+   "points": 10,
+   "status": "graded",
+   "score": 10,
+   "grade": "10",
+   "missing": false,
+   "submitted_at": "2026-09-09T20:29:12Z",
+   "submission_type": "online_quiz",
+   "my_submission": "",
+   "comments": []
+  },
+  {
+   "canvas_id": 1493120,
+   "name": "Session 1 What is Strategy",
+   "due": "2026-09-09T05:59:59Z",
+   "points": 0,
+   "status": "unsubmitted",
+   "score": null,
+   "grade": null,
+   "missing": false,
+   "submitted_at": null,
+   "submission_type": null,
+   "my_submission": "",
+   "comments": []
+  },
+  {
+   "canvas_id": 1496330,
+   "name": "Measuring Market Concentration",
+   "due": "2026-09-12T05:59:59Z",
+   "points": 10,
+   "status": "unsubmitted",
+   "score": null,
+   "grade": null,
+   "missing": false,
+   "submitted_at": null,
+   "submission_type": null,
+   "my_submission": "",
+   "comments": []
+  }
+ ],
+ "source": "canvas-browser-session"
+}
