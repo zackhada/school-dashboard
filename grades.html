@@ -44,8 +44,8 @@ Promise.all(REPOS.map(function(pair){
     var past = rows.filter(function(x){ return x.score != null || (x.due && new Date(x.due) < now); });
     var tot = past.reduce(function(s,x){ return s + (+x.score||0); }, 0);
     var pts = past.reduce(function(s,x){ return s + (+x.points||0); }, 0);
-    var pct = pts ? ' — ' + tot + '/' + pts + ' (' + Math.round(100*tot/pts) + '% with past-due missing as 0)' : '';
-    html += '<details' + (i < 2 ? ' open' : '') + '><summary>' + esc(c.name) + ' (' + graded.length + '/' + rows.length + ' graded)</summary>';
+    var pct = pts ? ', ' + Math.round(100*tot/pts) + '%' : '';
+    html += '<details' + (i < 2 ? ' open' : '') + '><summary>' + esc(c.name) + ' (' + graded.length + '/' + rows.length + ' graded' + pct + ')</summary>';
     if (!rows.length) { html += '<p class="small">No grade data yet.</p></details>'; return; }
     html += '<table><colgroup><col class="g-name"><col class="g-due"><col class="g-status"><col class="g-grade"><col></colgroup><tr><th>Name</th><th>Due</th><th>Status</th><th>Grade</th><th>Comments</th></tr>';
     rows.forEach(function(x){
