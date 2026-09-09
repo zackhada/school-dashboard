@@ -64,7 +64,7 @@ Promise.all(REPOS.map(function(pair){
         return;
       }
       if (d && d < now) return;
-      need += '<li><b>' + c.name + ' — ' + esc(x.key) + '</b> (' + esc(x.status) + (x.date ? ', due ' + esc(x.date) : '') + ')<br><span class="small">' + note + '</span><br><a href="https://github.com/zackhada/school-dashboard/issues/new?title=' + encodeURIComponent('[answer] ' + c.repo + ' ' + x.key) + '&body=' + encodeURIComponent('Question: ' + (x.note||x.key) + '\n\nMy answer:\n') + '">Reply to runner</a></li>';
+      need += '<li><b>' + c.name + ' — ' + esc(x.key) + '</b> (' + esc(x.status) + (x.date ? ', due ' + esc(x.date) : '') + ')<br><span class="small">' + note + '</span><br><a href="https://github.com/zackhada/school-dashboard/issues/new?title=' + encodeURIComponent('[answer] ' + c.repo + ' ' + x.key) + '&body=' + encodeURIComponent(c.name + ' — ' + x.key + ' (due ' + (x.date||'n/a') + ', ' + x.status + ')\n\nContext: ' + (x.note||'none') + '\n\nMy answer:\n') + '">Reply to runner</a></li>';
     });
   });
   document.getElementById('needs').innerHTML = need ? '<h2>Needs your input</h2><p class="small">Automatable tasks stuck on your input. Reply and the runner continues.</p><ul>' + need + '</ul>' : '<h2>Needs your input</h2><p class="small">Nothing waiting on you.</p>';
