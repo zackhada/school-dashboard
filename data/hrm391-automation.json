@@ -33,9 +33,9 @@
   },
   {
    "key": "EXAM1",
-   "status": "pending",
+   "status": "blocked_inperson",
    "date": "2026-12-01",
-   "note": "# Exam 1, no due date, unsubmitted (placeholder date for sorting; likely in-person)"
+   "note": "# Exam 1 Understanding the Organizational System, 1pt, Testing Center, no Canvas submission; Zack takes in person"
   }
  ]
 }
