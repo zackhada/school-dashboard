@@ -62,6 +62,9 @@ function titleFrom(key, note, course){
   if(/Orientation/.test(n)) return 'Orientation Check';
   if(/Interview/.test(n)) return 'Professional Perspective Interview';
   if(/Choose.*Org/.test(n)) return 'Choose Default Organization';
+  var pm = /PARTICIPATION_QUIZ_([A-Z]{3})(\d{1,2})/.exec(key);
+  if (pm) return 'Participation Quiz ' + pm[1].charAt(0) + pm[1].slice(1).toLowerCase() + ' ' + pm[2];
+  if(/MEET_TA/.test(key)) return 'Meet TA';
   return key.replace(/_/g,' ').replace(/\b(\w)(\w*)\b/g,function(_,a,b){return a.toUpperCase()+b.toLowerCase();});
 }
 function norm(s){ return String(s||'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim(); }
@@ -135,7 +138,7 @@ Promise.all(REPOS.map(function(pair){
       var note = esc((x.note||'').replace(/^#\s*/,''));
       if (x.status === 'blocked_inperson') {
         if (/\b0\s?pts?\b/i.test(x.note || '')) return;
-        if (d && d >= now && d <= in7) inperson += '<tr><td><b>'+c.name+' \u2014 '+esc(x.key)+'</b></td><td>'+daysLeft(d)+'</td><td class="small">'+note+'</td></tr>';
+        if (d && d >= now && d <= in7) inperson += '<tr><td><b>'+c.name+' \u2014 '+esc(titleFrom(x.key, x.note, c.name))+'</b></td><td>'+daysLeft(d)+'</td><td class="small">'+note+'</td></tr>';
         return;
       }
       if (d && d < now) return;
