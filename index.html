@@ -152,7 +152,7 @@ Promise.all(REPOS.map(function(pair){
     document.getElementById('needs').innerHTML = '<h2>Needs your input</h2><p class="small">Nothing waiting on you.</p>';
   }
   if (inperson) {
-    document.getElementById('needs').innerHTML += '<h2>In person + proctored (7 days)</h2><p class="small">Credit you earn by showing up.</p><table><colgroup><col class="c-assn"><col class="c-days"><col class="c-note"></colgroup><thead><tr><th>Assignment</th><th>Days Left</th><th>Details</th></tr></thead><tbody>'+inperson+'</tbody></table>';
+    document.getElementById('needs').innerHTML += '<h2>In person + proctored (7 days)</h2><table><colgroup><col class="c-assn"><col class="c-days"><col class="c-note"></colgroup><thead><tr><th>Assignment</th><th>Days Left</th><th>Details</th></tr></thead><tbody>'+inperson+'</tbody></table>';
   }
   document.getElementById('ts').textContent = 'Updated ' + new Date().toUTCString();
 });
