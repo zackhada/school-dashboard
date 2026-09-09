@@ -2,20 +2,19 @@
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Grades - Fall 2026 Dashboard</title>
-<style>body{font-family:-apple-system,Helvetica,Arial,sans-serif;max-width:760px;margin:0 auto;padding:16px;color:#222}
+<style>body{font-family:-apple-system,Helvetica,Arial,sans-serif;max-width:900px;margin:0 auto;padding:16px;color:#222}
 h1{font-size:20px}.small{font-size:12px;color:#666}
 details{border:1px solid #ddd;border-radius:8px;margin:10px 0;padding:10px 12px}
-details details{margin:8px 0}summary{cursor:pointer;font-weight:600;font-size:15px}
-.badge{display:inline-block;font-size:12px;border-radius:10px;padding:1px 8px;margin-left:6px}
-.graded{background:#e6f4ea;color:#1a7f37}.missing{background:#fdecea;color:#b3261e}
-.sub{background:#e8f0fe;color:#1a73e8}.unsub{background:#f3f3f3;color:#555}
-ul{font-size:14px;padding-left:20px}blockquote{border-left:3px solid #ddd;margin:8px 0;padding:4px 10px;font-size:13px;color:#333}
-nav{font-size:14px;margin-bottom:8px}</style>
+summary{cursor:pointer;font-weight:600;font-size:15px}
+table{width:100%;border-collapse:collapse;font-size:13px;margin-top:8px}
+th{text-align:left;font-size:12px;color:#666;border-bottom:2px solid #ddd;padding:6px 8px}
+td{border-bottom:1px solid #eee;padding:6px 8px;vertical-align:top}
+tr.missing td.name{color:#b3261e}tr.graded td.grade{color:#1a7f37;font-weight:600}
+nav{font-size:14px;margin-bottom:8px}.cm{font-size:12px;color:#333}</style>
 </head><body>
 <nav><a href="index.html">&larr; Back to dashboard</a></nav>
 <h1>Grades - Fall 2026</h1>
 <p class="small" id="ts">Loading...</p>
-<label class="small"><input type="checkbox" id="hideUnsub"> Hide unsubmitted future items</label>
 <div id="app"></div>
 <script>
 var REPOS = [
@@ -28,48 +27,35 @@ var REPOS = [
   ["ECON 110","econ110-automation"]
 ];
 function esc(s){ return String(s==null?'':s).replace(/</g,'&lt;'); }
-function badge(x){
-  if (x.score != null) return '<span class="badge graded">' + esc(x.score) + (x.points!=null ? ' / ' + esc(x.points) : '') + (x.grade ? ' (' + esc(x.grade) + ')' : '') + '</span>';
-  if (x.missing || x.status === 'unsubmitted' && x.due && new Date(x.due) < new Date()) return '<span class="badge missing">missing</span>';
-  if (x.status === 'submitted' || x.status === 'graded' || x.submitted_at || x.submission_type) return '<span class="badge sub">complete, awaiting grade</span>';
-  return '<span class="badge unsub">' + esc(x.status || 'not submitted') + '</span>';
-}
-function render(classes){
-  var hide = document.getElementById('hideUnsub').checked;
+Promise.all(REPOS.map(function(pair){
+  return fetch('data/' + pair[1] + '.grades.json').then(function(r){ return r.ok ? r.json() : {rows:[]}; }).catch(function(){ return {rows:[]}; }).then(function(d){ return {name: pair[0], rows: d.rows || []}; });
+})).then(function(classes){
   var html = '';
-  classes.forEach(function(c){
+  classes.forEach(function(c, i){
     var rows = c.rows.slice().sort(function(a,b){ return String(a.due||'~').localeCompare(String(b.due||'~')); });
-    if (hide) rows = rows.filter(function(x){ return x.score != null || x.submitted_at || x.submission_type || x.status==='submitted' || x.status==='graded'; });
     var graded = rows.filter(function(x){ return x.score != null; });
     var tot = graded.reduce(function(s,x){ return s + (+x.score||0); }, 0);
     var pts = graded.reduce(function(s,x){ return s + (+x.points||0); }, 0);
-    var pct = pts ? ' — ' + Math.round(100*tot/pts) + '% (' + tot + '/' + pts + ' pts scored)' : '';
-    html += '<details open><summary>' + esc(c.name) + ' (' + rows.length + ' items' + esc(pct) + ')</summary>';
-    if (!rows.length) html += '<p class="small">No grade data yet. Runs after the nightly Canvas scrape.</p>';
+    var pct = pts ? ' — scored ' + tot + '/' + pts + ' (' + Math.round(100*tot/pts) + '%)' : '';
+    html += '<details' + (i < 2 ? ' open' : '') + '><summary>' + esc(c.name) + ' (' + graded.length + '/' + rows.length + ' graded' + esc(pct) + ')</summary>';
+    if (!rows.length) { html += '<p class="small">No grade data yet.</p></details>'; return; }
+    html += '<table><tr><th>Name</th><th>Due</th><th>Grade</th><th>Comments</th></tr>';
     rows.forEach(function(x){
-      var due = x.due ? String(x.due).slice(0,10) : 'no due date';
-      html += '<details><summary>' + esc(x.name || '(untitled)') + badge(x) + '<br><span class="small">due ' + esc(due) + (x.points!=null ? ' — ' + esc(x.points) + ' pts' : '') + '</span></summary>';
-      html += '<p class="small">Status: ' + esc(x.status||'n/a') + (x.submitted_at ? ' — submitted ' + esc(String(x.submitted_at).slice(0,10)) : '') + (x.submission_type ? ' via ' + esc(x.submission_type) : '') + '</p>';
-      if (x.my_submission) html += '<div class="small">My submission:</div><blockquote>' + esc(x.my_submission) + '</blockquote>';
-      if (x.comments && x.comments.length){
-        html += '<div class="small">Instructor comments:</div><ul>';
-        x.comments.forEach(function(cm){ html += '<li>' + esc(cm.comment||'') + ' <span class="small">— ' + esc(cm.author||'grader') + (cm.created ? ', ' + esc(String(cm.created).slice(0,10)) : '') + '</span></li>'; });
-        html += '</ul>';
-      } else html += '<p class="small">No comments.</p>';
-      html += '</details>';
+      var due = x.due ? String(x.due).slice(0,10) : '—';
+      var grade, cls = '';
+      if (x.score != null) { grade = esc(x.score) + ' / ' + esc(x.points); cls = 'graded'; }
+      else if (x.missing || (x.status === 'unsubmitted' && x.due && new Date(x.due) < new Date())) { grade = 'missing'; cls = 'missing'; }
+      else if (x.submitted_at || x.status === 'submitted') grade = 'submitted, ungraded';
+      else grade = 'not submitted';
+      var cm = (x.comments && x.comments.length)
+        ? x.comments.map(function(m){ return '<div class="cm">' + esc(m.comment||'') + ' <span class="small">— ' + esc(m.author||'grader') + '</span></div>'; }).join('')
+        : '<span class="small">—</span>';
+      html += '<tr class="' + cls + '"><td class="name">' + esc(x.name||'(untitled)') + '</td><td>' + esc(due) + '</td><td class="grade">' + grade + '</td><td>' + cm + '</td></tr>';
     });
-    html += '</details>';
+    html += '</table></details>';
   });
   document.getElementById('app').innerHTML = html;
   document.getElementById('ts').textContent = 'Updated ' + new Date().toUTCString();
-}
-var cache = null;
-function load(){
-  Promise.all(REPOS.map(function(pair){
-    return fetch('data/' + pair[1] + '.grades.json').then(function(r){ return r.ok ? r.json() : {rows:[]}; }).catch(function(){ return {rows:[]}; }).then(function(d){ return {name: pair[0], rows: d.rows || []}; });
-  })).then(function(classes){ cache = classes; render(classes); });
-}
-document.getElementById('hideUnsub').addEventListener('change', function(){ if (cache) render(cache); });
-load();
+});
 </script>
 </body></html>
