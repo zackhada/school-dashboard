@@ -59,6 +59,7 @@ Promise.all(REPOS.map(function(pair){
       var d = parseD(x.date);
       var note = esc((x.note||'').replace(/^#\s*/,''));
       if (x.status === 'blocked_inperson') {
+        if (/\b0\s?pts?\b/i.test(x.note || '')) return;
         if (d && d >= now && d <= in7) inperson += '<li><b>' + c.name + ' — ' + esc(x.key) + '</b>' + (x.date ? ' (due ' + esc(x.date) + ')' : '') + '<br><span class="small">' + note + '</span></li>';
         return;
       }
