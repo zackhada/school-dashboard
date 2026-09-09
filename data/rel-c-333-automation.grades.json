@@ -1,0 +1,48 @@
+{
+ "repo": "zackhada/rel-c-333-automation",
+ "rows": [
+  {
+   "canvas_id": 1466384,
+   "name": "9/10 - Pre-Class Study and Padlet Sharing",
+   "due": "2026-09-10T17:59:59Z",
+   "points": 10,
+   "status": "unsubmitted",
+   "score": null,
+   "grade": null,
+   "missing": false,
+   "submitted_at": null,
+   "submission_type": null,
+   "my_submission": "",
+   "comments": []
+  },
+  {
+   "canvas_id": 1464341,
+   "name": "Syllabus Quiz",
+   "due": "2026-09-13T05:59:59Z",
+   "points": 10,
+   "status": "unsubmitted",
+   "score": null,
+   "grade": null,
+   "missing": false,
+   "submitted_at": null,
+   "submission_type": null,
+   "my_submission": "",
+   "comments": []
+  },
+  {
+   "canvas_id": 1464249,
+   "name": "Get-to-Know-You Assignment",
+   "due": "2026-09-13T05:59:59Z",
+   "points": 10,
+   "status": "unsubmitted",
+   "score": null,
+   "grade": null,
+   "missing": false,
+   "submitted_at": null,
+   "submission_type": null,
+   "my_submission": "",
+   "comments": []
+  }
+ ],
+ "source": "canvas-browser-session"
+}
