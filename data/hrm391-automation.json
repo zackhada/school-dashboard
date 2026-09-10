@@ -1,36 +1,42 @@
 {
-  "repo": "zackhada/hrm391-automation",
-  "rows": [
-    {
-      "date": "2026-09-04",
-      "key": "SETUP_RECON",
-      "status": "done"
-    },
-    {
-      "date": "2026-09-06",
-      "key": "STUDENT_INFO_QUESTIONNAIRE",
-      "status": "done"
-    },
-    {
-      "date": "2026-09-09",
-      "key": "CHOOSE_DEFAULT_ORG",
-      "status": "done"
-    },
-    {
-      "date": "2026-09-09",
-      "key": "PROF_PERSPECTIVE_INTERVIEW",
-      "status": "blocked_inperson"
-    },
-    {
-      "date": "2026-09-09",
-      "key": "WEEK0_ORIENTATION_CHECK",
-      "status": "done"
-    },
-    {
-      "date": "2026-12-01",
-      "key": "EXAM1",
-      "status": "blocked_inperson"
-    }
-  ],
-  "run_id": "34437722971"
+ "repo": "zackhada/hrm391-automation",
+ "rows": [
+  {
+   "key": "SETUP_RECON",
+   "status": "done",
+   "date": "2026-09-04",
+   "note": "# discover course site + cid, enumerate assignments, build dated ledger"
+  },
+  {
+   "key": "STUDENT_INFO_QUESTIONNAIRE",
+   "status": "done",
+   "date": "2026-09-06",
+   "note": "# Student Information Questionnaire submitted 2026-09-09 via Google Form (late, recorded)"
+  },
+  {
+   "key": "CHOOSE_DEFAULT_ORG",
+   "status": "done",
+   "date": "2026-09-09",
+   "note": "# Choose Your Default Organization submitted 2026-09-09 via Canvas text entry (late, Ascent SE team)"
+  },
+  {
+   "key": "PROF_PERSPECTIVE_INTERVIEW",
+   "status": "blocked_inperson",
+   "date": "2026-09-09",
+   "note": "# Professional Perspective Interview: on_paper, bring printed notes+summary to class Wed for in-class peer check (due Tue 2026-09-08 11:59pm MT); in person, Zack handles"
+  },
+  {
+   "key": "WEEK0_ORIENTATION_CHECK",
+   "status": "done",
+   "date": "2026-09-09",
+   "note": "# Week 0 Course Orientation Check submitted 2026-09-09, graded (late credit given)"
+  },
+  {
+   "key": "EXAM1",
+   "status": "blocked_inperson",
+   "date": "2026-12-01",
+   "note": "# Exam 1 Understanding the Organizational System, 1pt, Testing Center, no Canvas submission; Zack takes in person"
+  }
+ ],
+ "run_id": "34437722971"
 }

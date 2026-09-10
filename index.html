@@ -47,7 +47,7 @@ var REPOS = [
   ["ECON 110","econ110-automation"]
 ];
 var now = new Date(); now.setHours(0,0,0,0);
-var in7 = new Date(now.getTime() + 7*864e5);
+var in14 = new Date(now.getTime() + 14*864e5);
 function parseD(s){ var m = /^(\d{4})-(\d{2})-(\d{2})/.exec(s||''); return m ? new Date(+m[1],+m[2]-1,+m[3]) : null; }
 function esc(s){ return String(s||'').replace(/</g,'&lt;'); }
 function daysLeft(d){ if(!d) return ''; return Math.ceil((d - now)/864e5); }
@@ -161,7 +161,7 @@ Promise.all(REPOS.map(function(pair){
       var note = esc((x.note||'').replace(/^#\s*/,''));
       if (x.status === 'blocked_inperson') {
         if (/\b0\s?pts?\b/i.test(x.note || '')) return;
-        if (d && d >= now && d <= in7) inperson += '<tr><td><b>'+c.name+' \u2014 '+esc(titleFrom(x.key, x.note, c.name))+'</b></td><td>'+daysLeft(d)+'</td><td class="small">'+note+'</td></tr>';
+        if (d && d >= now && d <= in14) inperson += '<tr><td><b>'+c.name+' \u2014 '+esc(titleFrom(x.key, x.note, c.name))+'</b></td><td>'+daysLeft(d)+'</td><td class="small">'+note+'</td></tr>';
         return;
       }
       if (d && d < now) return;
@@ -175,7 +175,7 @@ Promise.all(REPOS.map(function(pair){
     document.getElementById('needs').innerHTML = '<h2>Needs your input</h2><p class="small">Nothing waiting on you.</p>';
   }
   if (inperson) {
-    document.getElementById('needs').innerHTML += '<h2>In person + proctored (7 days)</h2><table><colgroup><col class="c-assn"><col class="c-days"><col class="c-note"></colgroup><thead><tr><th>Assignment</th><th>Days Left</th><th>Details</th></tr></thead><tbody>'+inperson+'</tbody></table>';
+    document.getElementById('needs').innerHTML += '<h2>In person + proctored (next 2 weeks)</h2><table><colgroup><col class="c-assn"><col class="c-days"><col class="c-note"></colgroup><thead><tr><th>Assignment</th><th>Days Left</th><th>Details</th></tr></thead><tbody>'+inperson+'</tbody></table>';
   }
   var drift = '';
   classes.forEach(function(c){

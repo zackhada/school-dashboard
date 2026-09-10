@@ -5,7 +5,7 @@
    "key": "INCLASS_QUIZ_0908",
    "status": "done",
    "date": "2026-09-09",
-   "note": null,
+   "note": "# 9-8 In Class Quiz submitted 2026-09-09 by Zack locally, 10/10 (late, completion credit)",
    "title": "Inclass Quiz 0908",
    "grade": {
     "canvas_id": 1496217,
@@ -24,32 +24,10 @@
    "drift": false
   },
   {
-   "key": "SESSION1_WHAT_IS_STRATEGY",
-   "status": "blocked_inperson",
-   "date": "2026-09-09",
-   "note": null,
-   "title": "Session1 What Is Strategy",
-   "grade": {
-    "canvas_id": 1493120,
-    "name": "Session 1 What is Strategy",
-    "due": "2026-09-09T05:59:59Z",
-    "points": 0.0,
-    "status": "unsubmitted",
-    "score": null,
-    "grade": null,
-    "missing": true,
-    "submitted_at": null,
-    "submission_type": null,
-    "my_submission": "",
-    "comments": []
-   },
-   "drift": false
-  },
-  {
    "key": "MEASURING_MARKET_CONCENTRATION",
    "status": "pending",
    "date": "2026-09-12",
-   "note": null,
+   "note": "# Measuring Market Concentration, due 2026-09-12T05:59:59Z, 10pts, unsubmitted",
    "title": "Measuring Market Concentration",
    "grade": {
     "canvas_id": 1496330,
@@ -69,5 +47,5 @@
   }
  ],
  "unmatched_canvas": [],
- "built_at": "2026-09-10T16:54:12.680499+00:00"
+ "built_at": "2026-09-10T17:00:58.445194+00:00"
 }

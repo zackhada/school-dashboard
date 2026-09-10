@@ -1,106 +1,126 @@
 {
-  "repo": "zackhada/is515-automation",
-  "rows": [
-    {
-      "date": "2026-09-04",
-      "key": "SETUP_RECON",
-      "status": "done"
-    },
-    {
-      "date": "2026-09-09",
-      "key": "IS_SYLLABUS",
-      "status": "done"
-    },
-    {
-      "date": "2026-09-09",
-      "key": "IS_NAMES",
-      "status": "done"
-    },
-    {
-      "date": "2026-09-16",
-      "key": "IS_DEBUG",
-      "status": "pending"
-    },
-    {
-      "date": "2026-09-21",
-      "key": "IS_DATES",
-      "status": "pending"
-    },
-    {
-      "date": "2026-09-23",
-      "key": "IS_CHARTS",
-      "status": "pending"
-    },
-    {
-      "date": "2026-09-28",
-      "key": "IS_CONDFMT",
-      "status": "pending"
-    },
-    {
-      "date": "2026-10-05",
-      "key": "IS_TABLES",
-      "status": "pending"
-    },
-    {
-      "date": "2026-10-07",
-      "key": "IS_ARRAYS",
-      "status": "pending"
-    },
-    {
-      "date": "2026-10-12",
-      "key": "IS_SOLVER",
-      "status": "pending"
-    },
-    {
-      "date": "2026-10-14",
-      "key": "IS_PIVOT",
-      "status": "pending"
-    },
-    {
-      "date": "2026-10-17",
-      "key": "IS_EXAM1",
-      "status": "blocked_inperson"
-    },
-    {
-      "date": "2026-10-28",
-      "key": "IS_FIN",
-      "status": "pending"
-    },
-    {
-      "date": "2026-11-02",
-      "key": "IS_COUNT",
-      "status": "pending"
-    },
-    {
-      "date": "2026-11-04",
-      "key": "IS_LOOKUP",
-      "status": "pending"
-    },
-    {
-      "date": "2026-11-09",
-      "key": "IS_TEXT",
-      "status": "pending"
-    },
-    {
-      "date": "2026-11-11",
-      "key": "IS_MEGA",
-      "status": "pending"
-    },
-    {
-      "date": "2026-11-16",
-      "key": "IS_CLEAN",
-      "status": "pending"
-    },
-    {
-      "date": "2026-11-30",
-      "key": "IS_VBA",
-      "status": "pending"
-    },
-    {
-      "date": "2026-12-18",
-      "key": "IS_EXAM2",
-      "status": "blocked_inperson"
-    }
-  ],
-  "run_id": "34440245634"
+ "repo": "zackhada/is515-automation",
+ "rows": [
+  {
+   "key": "SETUP_RECON",
+   "status": "done",
+   "date": "2026-09-04",
+   "note": "# recon complete: Canvas 38674 hosts course, 19 rows built"
+  },
+  {
+   "key": "IS_SYLLABUS",
+   "status": "done",
+   "date": "2026-09-09",
+   "note": "# Syllabus and Class Overview, 20pts, New Quiz LTI"
+  },
+  {
+   "key": "IS_NAMES",
+   "status": "done",
+   "date": "2026-09-09",
+   "note": "# 1.9 Names Assessment, 20pts, MyEducator"
+  },
+  {
+   "key": "IS_DEBUG",
+   "status": "pending",
+   "date": "2026-09-16",
+   "note": "# 2.8 Debugging Assessment, 20pts, MyEducator"
+  },
+  {
+   "key": "IS_DATES",
+   "status": "pending",
+   "date": "2026-09-21",
+   "note": "# 3.8 Dates and Times Assessment, 20pts, MyEducator"
+  },
+  {
+   "key": "IS_CHARTS",
+   "status": "pending",
+   "date": "2026-09-23",
+   "note": "# 4.9 Charts Assessment, 20pts, MyEducator"
+  },
+  {
+   "key": "IS_CONDFMT",
+   "status": "pending",
+   "date": "2026-09-28",
+   "note": "# 5.12 Conditional Formatting and Data Validation, 20pts"
+  },
+  {
+   "key": "IS_TABLES",
+   "status": "pending",
+   "date": "2026-10-05",
+   "note": "# 7.8 Data Tables and Lists Assessment, 20pts, MyEducator"
+  },
+  {
+   "key": "IS_ARRAYS",
+   "status": "pending",
+   "date": "2026-10-07",
+   "note": "# 8.10 Arrays Assessment, 20pts, MyEducator"
+  },
+  {
+   "key": "IS_SOLVER",
+   "status": "pending",
+   "date": "2026-10-12",
+   "note": "# 9.11 Circular References and Solver, 20pts, MyEducator"
+  },
+  {
+   "key": "IS_PIVOT",
+   "status": "pending",
+   "date": "2026-10-14",
+   "note": "# 10.8 Pivot Tables, 20pts, MyEducator"
+  },
+  {
+   "key": "IS_EXAM1",
+   "status": "blocked_inperson",
+   "date": "2026-10-17",
+   "note": "# Exam 1, 100pts, timed take-home, NOT collaborative. Locked until Oct 10. Zack takes manually in a quiet window after Oct 10."
+  },
+  {
+   "key": "IS_FIN",
+   "status": "pending",
+   "date": "2026-10-28",
+   "note": "# 12.7 Financial Formulas Assessment, 20pts, MyEducator"
+  },
+  {
+   "key": "IS_COUNT",
+   "status": "pending",
+   "date": "2026-11-02",
+   "note": "# 13.11 Counting and Summing Assessment, 20pts, MyEducator"
+  },
+  {
+   "key": "IS_LOOKUP",
+   "status": "pending",
+   "date": "2026-11-04",
+   "note": "# 14.9 Lookups Assessment, 20pts, MyEducator"
+  },
+  {
+   "key": "IS_TEXT",
+   "status": "pending",
+   "date": "2026-11-09",
+   "note": "# 15.8 Text Assessment, 20pts, MyEducator"
+  },
+  {
+   "key": "IS_MEGA",
+   "status": "pending",
+   "date": "2026-11-11",
+   "note": "# 16.6 Megaformulas Assessment, 20pts, MyEducator"
+  },
+  {
+   "key": "IS_CLEAN",
+   "status": "pending",
+   "date": "2026-11-16",
+   "note": "# 17.9 Importing and Cleaning Data Assessment, 20pts, MyEducator"
+  },
+  {
+   "key": "IS_VBA",
+   "status": "pending",
+   "date": "2026-11-30",
+   "note": "# 21.9 VBA Assessment, 20pts, MyEducator"
+  },
+  {
+   "key": "IS_EXAM2",
+   "status": "blocked_inperson",
+   "date": "2026-12-18",
+   "note": "# Exam 2, 100pts, timed comprehensive take-home, NOT collaborative. Locked until Dec 12. Zack takes manually in a quiet window after Dec 12."
+  }
+ ],
+ "run_id": "34440245634"
 }

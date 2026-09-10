@@ -1,261 +1,312 @@
 {
-  "repo": "zackhada/econ110-automation",
-  "rows": [
-    {
-      "date": "2026-09-02",
-      "key": "ECON_SETUP_CENGAGE",
-      "status": "done"
-    },
-    {
-      "date": "2026-09-08",
-      "key": "ECON_SETUP_ICLICKER",
-      "status": "done"
-    },
-    {
-      "date": "2026-09-05",
-      "key": "ECON_BIOSURVEY",
-      "status": "done"
-    },
-    {
-      "date": "2026-09-08",
-      "key": "ECON_MINDTAP_PRELIM",
-      "status": "done"
-    },
-    {
-      "date": "2026-09-08",
-      "key": "ECON_MINDTAP_CH1",
-      "status": "done"
-    },
-    {
-      "date": "2026-09-09",
-      "key": "ECON_MINDTAP_CH2PRE",
-      "status": "done"
-    },
-    {
-      "date": "2026-09-11",
-      "key": "ECON_MEET_TA",
-      "status": "blocked_inperson"
-    },
-    {
-      "date": "2026-09-09",
-      "key": "ECON_OAKS_QUIZ",
-      "status": "done"
-    },
-    {
-      "date": "2026-09-11",
-      "key": "ECON_NEQ_1",
-      "status": "pending"
-    },
-    {
-      "date": "2026-09-18",
-      "key": "ECON_NEQ_2",
-      "status": "pending"
-    },
-    {
-      "date": "2026-09-25",
-      "key": "ECON_NEQ_3",
-      "status": "pending"
-    },
-    {
-      "date": "2026-10-02",
-      "key": "ECON_NEQ_4",
-      "status": "pending"
-    },
-    {
-      "date": "2026-10-05",
-      "key": "ECON_PRECLASS_BEHAV",
-      "status": "pending"
-    },
-    {
-      "date": "2026-10-09",
-      "key": "ECON_NEQ_5",
-      "status": "pending"
-    },
-    {
-      "date": "2026-10-16",
-      "key": "ECON_NEQ_6",
-      "status": "pending"
-    },
-    {
-      "date": "2026-10-23",
-      "key": "ECON_NEQ_7",
-      "status": "pending"
-    },
-    {
-      "date": "2026-10-30",
-      "key": "ECON_NEQ_8",
-      "status": "pending"
-    },
-    {
-      "date": "2026-11-06",
-      "key": "ECON_NEQ_9",
-      "status": "pending"
-    },
-    {
-      "date": "2026-11-13",
-      "key": "ECON_NEQ_10",
-      "status": "pending"
-    },
-    {
-      "date": "2026-11-20",
-      "key": "ECON_NEQ_11",
-      "status": "pending"
-    },
-    {
-      "date": "2026-12-04",
-      "key": "ECON_NEQ_12",
-      "status": "pending"
-    },
-    {
-      "date": "2026-12-04",
-      "key": "ECON_NEQ_13",
-      "status": "pending"
-    },
-    {
-      "date": "2026-12-09",
-      "key": "ECON_CHRISTENSEN_QUIZ",
-      "status": "pending"
-    },
-    {
-      "date": "2026-09-11",
-      "key": "ECON_MANKIW_1",
-      "status": "pending"
-    },
-    {
-      "date": "2026-09-18",
-      "key": "ECON_MANKIW_2",
-      "status": "pending"
-    },
-    {
-      "date": "2026-09-25",
-      "key": "ECON_MANKIW_3",
-      "status": "pending"
-    },
-    {
-      "date": "2026-09-28",
-      "key": "ECON_NEWS_SEPT",
-      "status": "pending"
-    },
-    {
-      "date": "2026-10-02",
-      "key": "ECON_MANKIW_4",
-      "status": "pending"
-    },
-    {
-      "date": "2026-10-16",
-      "key": "ECON_MANKIW_5",
-      "status": "pending"
-    },
-    {
-      "date": "2026-10-16",
-      "key": "ECON_NAKED_ESSAY_1",
-      "status": "pending"
-    },
-    {
-      "date": "2026-10-23",
-      "key": "ECON_MANKIW_6",
-      "status": "pending"
-    },
-    {
-      "date": "2026-10-30",
-      "key": "ECON_MANKIW_7",
-      "status": "pending"
-    },
-    {
-      "date": "2026-11-04",
-      "key": "ECON_NEWS_OCT",
-      "status": "pending"
-    },
-    {
-      "date": "2026-11-06",
-      "key": "ECON_MANKIW_8",
-      "status": "pending"
-    },
-    {
-      "date": "2026-11-13",
-      "key": "ECON_MANKIW_9",
-      "status": "pending"
-    },
-    {
-      "date": "2026-11-20",
-      "key": "ECON_MANKIW_10",
-      "status": "pending"
-    },
-    {
-      "date": "2026-12-02",
-      "key": "ECON_NEWS_NOV",
-      "status": "pending"
-    },
-    {
-      "date": "2026-12-04",
-      "key": "ECON_MANKIW_11",
-      "status": "pending"
-    },
-    {
-      "date": "2026-12-08",
-      "key": "ECON_NAKED_ESSAY_2",
-      "status": "pending"
-    },
-    {
-      "date": "2026-12-11",
-      "key": "ECON_COURSE_EVAL",
-      "status": "pending"
-    },
-    {
-      "date": "2026-10-02",
-      "key": "ECON_MIDTERM_1",
-      "status": "blocked_inperson"
-    },
-    {
-      "date": "2026-11-06",
-      "key": "ECON_MIDTERM_2",
-      "status": "blocked_inperson"
-    },
-    {
-      "date": "2026-12-10",
-      "key": "ECON_FINAL",
-      "status": "blocked_inperson"
-    },
-    {
-      "date": "2026-09-10",
-      "key": "ECON_MINDTAP_CH2",
-      "status": "done"
-    },
-    {
-      "date": "2026-09-14",
-      "key": "ECON_MINDTAP_CH3PRE",
-      "status": "pending"
-    },
-    {
-      "date": "2026-09-15",
-      "key": "ECON_MINDTAP_CH3",
-      "status": "pending"
-    },
-    {
-      "date": "2026-09-16",
-      "key": "ECON_MINDTAP_CH4PRE",
-      "status": "pending"
-    },
-    {
-      "date": "2026-09-17",
-      "key": "ECON_MINDTAP_CH4",
-      "status": "pending"
-    },
-    {
-      "date": "2026-09-21",
-      "key": "ECON_MINDTAP_CH5PRE",
-      "status": "pending"
-    },
-    {
-      "date": "2026-09-22",
-      "key": "ECON_MINDTAP_CH5",
-      "status": "pending"
-    },
-    {
-      "date": "2026-09-23",
-      "key": "ECON_MINDTAP_CH6PRE",
-      "status": "pending"
-    }
-  ],
-  "run_id": "34423814486"
+ "repo": "zackhada/econ110-automation",
+ "rows": [
+  {
+   "key": "ECON_SETUP_CENGAGE",
+   "status": "done",
+   "date": "2026-09-02",
+   "note": "# Cengage trial account + course link MTPPKDKG4M6H (due 9/2)"
+  },
+  {
+   "key": "ECON_SETUP_ICLICKER",
+   "status": "done",
+   "date": "2026-09-08",
+   "note": "# remote BA110CA7 registered (NetID zackhada), LS checked off; instructor grades 10/10 from iClicker roster (due 9/8 reset)"
+  },
+  {
+   "key": "ECON_BIOSURVEY",
+   "status": "done",
+   "date": "2026-09-05",
+   "note": "# Qualtrics bio survey (facts on record)"
+  },
+  {
+   "key": "ECON_MINDTAP_PRELIM",
+   "status": "done",
+   "date": "2026-09-08",
+   "note": "# Getting Started REOPENED, due Tue 11pm per Showalter 9/7 reset"
+  },
+  {
+   "key": "ECON_MINDTAP_CH1",
+   "status": "done",
+   "date": "2026-09-08",
+   "note": "# Ch1 homework REOPENED, due Tue 11pm per Showalter 9/7 reset"
+  },
+  {
+   "key": "ECON_MINDTAP_CH2PRE",
+   "status": "done",
+   "date": "2026-09-09",
+   "note": "# Ch 2 pre-class Cengage, due Wed 3pm per Showalter 9/7"
+  },
+  {
+   "key": "ECON_MEET_TA",
+   "status": "blocked_inperson",
+   "date": "2026-09-11",
+   "note": "# in-person TA lab B090 JFSB"
+  },
+  {
+   "key": "ECON_OAKS_QUIZ",
+   "status": "done",
+   "date": "2026-09-09",
+   "note": "# Oaks Good, Better, Best Quiz 6pt"
+  },
+  {
+   "key": "ECON_NEQ_1",
+   "status": "pending",
+   "date": "2026-09-11",
+   "note": "# NE Quiz #1 5pt"
+  },
+  {
+   "key": "ECON_NEQ_2",
+   "status": "pending",
+   "date": "2026-09-18",
+   "note": "# NE Quiz #2 5pt"
+  },
+  {
+   "key": "ECON_NEQ_3",
+   "status": "pending",
+   "date": "2026-09-25",
+   "note": "# NE Quiz #3 5pt"
+  },
+  {
+   "key": "ECON_NEQ_4",
+   "status": "pending",
+   "date": "2026-10-02",
+   "note": "# NE Quiz #4 5pt"
+  },
+  {
+   "key": "ECON_PRECLASS_BEHAV",
+   "status": "pending",
+   "date": "2026-10-05",
+   "note": "# Pre-Class Quiz Behavioral Economics EC 12pt"
+  },
+  {
+   "key": "ECON_NEQ_5",
+   "status": "pending",
+   "date": "2026-10-09",
+   "note": "# NE Quiz #5 5pt"
+  },
+  {
+   "key": "ECON_NEQ_6",
+   "status": "pending",
+   "date": "2026-10-16",
+   "note": "# NE Quiz #6 5pt"
+  },
+  {
+   "key": "ECON_NEQ_7",
+   "status": "pending",
+   "date": "2026-10-23",
+   "note": "# NE Quiz #7 5pt"
+  },
+  {
+   "key": "ECON_NEQ_8",
+   "status": "pending",
+   "date": "2026-10-30",
+   "note": "# NE Quiz #8 5pt"
+  },
+  {
+   "key": "ECON_NEQ_9",
+   "status": "pending",
+   "date": "2026-11-06",
+   "note": "# NE Quiz #9 5pt"
+  },
+  {
+   "key": "ECON_NEQ_10",
+   "status": "pending",
+   "date": "2026-11-13",
+   "note": "# NE Quiz #10 5pt"
+  },
+  {
+   "key": "ECON_NEQ_11",
+   "status": "pending",
+   "date": "2026-11-20",
+   "note": "# NE Quiz #11 5pt"
+  },
+  {
+   "key": "ECON_NEQ_12",
+   "status": "pending",
+   "date": "2026-12-04",
+   "note": "# NE Quiz #12 5pt"
+  },
+  {
+   "key": "ECON_NEQ_13",
+   "status": "pending",
+   "date": "2026-12-04",
+   "note": "# NE Quiz #13 5pt"
+  },
+  {
+   "key": "ECON_CHRISTENSEN_QUIZ",
+   "status": "pending",
+   "date": "2026-12-09",
+   "note": "# Christensen Quiz 5pt"
+  },
+  {
+   "key": "ECON_MANKIW_1",
+   "status": "pending",
+   "date": "2026-09-11",
+   "note": "# Mankiw Bonus #1 essay, LS submit"
+  },
+  {
+   "key": "ECON_MANKIW_2",
+   "status": "pending",
+   "date": "2026-09-18",
+   "note": "# Mankiw Bonus #2"
+  },
+  {
+   "key": "ECON_MANKIW_3",
+   "status": "pending",
+   "date": "2026-09-25",
+   "note": "# Mankiw Bonus #3"
+  },
+  {
+   "key": "ECON_NEWS_SEPT",
+   "status": "pending",
+   "date": "2026-09-28",
+   "note": "# Sept News Analysis, LS submit"
+  },
+  {
+   "key": "ECON_MANKIW_4",
+   "status": "pending",
+   "date": "2026-10-02",
+   "note": "# Mankiw Bonus #4"
+  },
+  {
+   "key": "ECON_MANKIW_5",
+   "status": "pending",
+   "date": "2026-10-16",
+   "note": "# Mankiw Bonus #5"
+  },
+  {
+   "key": "ECON_NAKED_ESSAY_1",
+   "status": "pending",
+   "date": "2026-10-16",
+   "note": "# Naked Economics Essay 1 (20pt)"
+  },
+  {
+   "key": "ECON_MANKIW_6",
+   "status": "pending",
+   "date": "2026-10-23",
+   "note": "# Mankiw Bonus #6"
+  },
+  {
+   "key": "ECON_MANKIW_7",
+   "status": "pending",
+   "date": "2026-10-30",
+   "note": "# Mankiw Bonus #7"
+  },
+  {
+   "key": "ECON_NEWS_OCT",
+   "status": "pending",
+   "date": "2026-11-04",
+   "note": "# Oct News Analysis"
+  },
+  {
+   "key": "ECON_MANKIW_8",
+   "status": "pending",
+   "date": "2026-11-06",
+   "note": "# Mankiw Bonus #8"
+  },
+  {
+   "key": "ECON_MANKIW_9",
+   "status": "pending",
+   "date": "2026-11-13",
+   "note": "# Mankiw Bonus #9"
+  },
+  {
+   "key": "ECON_MANKIW_10",
+   "status": "pending",
+   "date": "2026-11-20",
+   "note": "# Mankiw Bonus #10"
+  },
+  {
+   "key": "ECON_NEWS_NOV",
+   "status": "pending",
+   "date": "2026-12-02",
+   "note": "# Nov News Analysis"
+  },
+  {
+   "key": "ECON_MANKIW_11",
+   "status": "pending",
+   "date": "2026-12-04",
+   "note": "# Mankiw Bonus #11"
+  },
+  {
+   "key": "ECON_NAKED_ESSAY_2",
+   "status": "pending",
+   "date": "2026-12-08",
+   "note": "# Naked Economics Essay 2 (20pt)"
+  },
+  {
+   "key": "ECON_COURSE_EVAL",
+   "status": "pending",
+   "date": "2026-12-11",
+   "note": "# course evaluation"
+  },
+  {
+   "key": "ECON_MIDTERM_1",
+   "status": "blocked_inperson",
+   "date": "2026-10-02",
+   "note": "# in-class 4:00pm"
+  },
+  {
+   "key": "ECON_MIDTERM_2",
+   "status": "blocked_inperson",
+   "date": "2026-11-06",
+   "note": "# in-class 7:00pm"
+  },
+  {
+   "key": "ECON_FINAL",
+   "status": "blocked_inperson",
+   "date": "2026-12-10",
+   "note": "# in-class 6:00pm"
+  },
+  {
+   "key": "ECON_MINDTAP_CH2",
+   "status": "done",
+   "date": "2026-09-10",
+   "note": "# Ch 2 Homework Cengage (Aplia), due Thu 11pm MDT"
+  },
+  {
+   "key": "ECON_MINDTAP_CH3PRE",
+   "status": "pending",
+   "date": "2026-09-14",
+   "note": "# Ch 3 pre-class Cengage (Read It + QuickQuizzes), due Mon 3pm MDT"
+  },
+  {
+   "key": "ECON_MINDTAP_CH3",
+   "status": "pending",
+   "date": "2026-09-15",
+   "note": "# Ch 3 Homework Cengage, due Tue 11pm MDT"
+  },
+  {
+   "key": "ECON_MINDTAP_CH4PRE",
+   "status": "pending",
+   "date": "2026-09-16",
+   "note": "# Ch 4 pre-class Cengage (Read It + QuickQuizzes), due Wed 3pm MDT"
+  },
+  {
+   "key": "ECON_MINDTAP_CH4",
+   "status": "pending",
+   "date": "2026-09-17",
+   "note": "# Ch 4 Homework Cengage, due Thu 11pm MDT"
+  },
+  {
+   "key": "ECON_MINDTAP_CH5PRE",
+   "status": "pending",
+   "date": "2026-09-21",
+   "note": "# Ch 5 pre-class Cengage, due Mon 3pm MDT per LS schedule 2026-09-10"
+  },
+  {
+   "key": "ECON_MINDTAP_CH5",
+   "status": "pending",
+   "date": "2026-09-22",
+   "note": "# Ch 5 Homework Cengage, due Tue 11pm MDT per LS schedule 2026-09-10"
+  },
+  {
+   "key": "ECON_MINDTAP_CH6PRE",
+   "status": "pending",
+   "date": "2026-09-23",
+   "note": "# Ch 6 pre-class Cengage, due Wed 3pm MDT per LS schedule 2026-09-10"
+  }
+ ],
+ "run_id": "34423814486"
 }

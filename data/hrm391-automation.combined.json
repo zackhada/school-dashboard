@@ -5,8 +5,8 @@
    "key": "STUDENT_INFO_QUESTIONNAIRE",
    "status": "done",
    "date": "2026-09-06",
-   "note": null,
-   "title": "Student Info Questionnaire",
+   "note": "# Student Information Questionnaire submitted 2026-09-09 via Google Form (late, recorded)",
+   "title": "Student Questionnaire",
    "grade": {
     "canvas_id": 1489052,
     "name": "Student Information Questionnaire",
@@ -27,7 +27,7 @@
    "key": "CHOOSE_DEFAULT_ORG",
    "status": "done",
    "date": "2026-09-09",
-   "note": null,
+   "note": "# Choose Your Default Organization submitted 2026-09-09 via Canvas text entry (late, Ascent SE team)",
    "title": "Choose Default Org",
    "grade": {
     "canvas_id": 1489478,
@@ -55,8 +55,8 @@
    "key": "PROF_PERSPECTIVE_INTERVIEW",
    "status": "blocked_inperson",
    "date": "2026-09-09",
-   "note": null,
-   "title": "Prof Perspective Interview",
+   "note": "# Professional Perspective Interview: on_paper, bring printed notes+summary to class Wed for in-class peer check (due Tue 2026-09-08 11:59pm MT); in person, Zack handles",
+   "title": "Professional Perspective Interview",
    "grade": {
     "canvas_id": 1489045,
     "name": "Professional Perspective Interview",
@@ -77,8 +77,8 @@
    "key": "WEEK0_ORIENTATION_CHECK",
    "status": "done",
    "date": "2026-09-09",
-   "note": null,
-   "title": "Week0 Orientation Check",
+   "note": "# Week 0 Course Orientation Check submitted 2026-09-09, graded (late credit given)",
+   "title": "Orientation Check",
    "grade": {
     "canvas_id": 1489474,
     "name": "Week 0 \u2014 Course Orientation Check",
@@ -99,8 +99,8 @@
    "key": "EXAM1",
    "status": "blocked_inperson",
    "date": "2026-12-01",
-   "note": null,
-   "title": "Exam1",
+   "note": "# Exam 1 Understanding the Organizational System, 1pt, Testing Center, no Canvas submission; Zack takes in person",
+   "title": "Exam 1 Understanding the Organizational System",
    "grade": {
     "canvas_id": 1491210,
     "name": "Exam 1 \u2014 Understanding the Organizational System",
@@ -119,5 +119,5 @@
   }
  ],
  "unmatched_canvas": [],
- "built_at": "2026-09-10T16:54:12.679853+00:00"
+ "built_at": "2026-09-10T17:00:58.444467+00:00"
 }
