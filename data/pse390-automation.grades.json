@@ -324,6 +324,11 @@
    "comments": []
   }
  ],
- "overall": {},
+ "overall": {
+  "current_score": 100.0,
+  "current_grade": "A",
+  "final_score": 3.59,
+  "final_grade": "E"
+ },
  "source": "canvas-api"
 }

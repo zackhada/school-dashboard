@@ -421,6 +421,11 @@
   }
  ],
  "unmatched_canvas": [],
- "overall": {},
- "built_at": "2026-09-10T21:04:14.526964+00:00"
+ "overall": {
+  "current_score": 100.0,
+  "current_grade": "A",
+  "final_score": 4.33,
+  "final_grade": "E"
+ },
+ "built_at": "2026-09-10T21:12:50.268258+00:00"
 }
