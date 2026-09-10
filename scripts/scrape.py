@@ -49,6 +49,23 @@ def self_id():
     return json.load(urllib.request.urlopen(req, timeout=30))["id"]
 
 
+def course_overall(cid):
+    """Current overall grade for the enrolled user in one Canvas course."""
+    try:
+        data = api(f"/api/v1/courses/{cid}?include[]=enrollments")
+        course = data[0] if isinstance(data, list) and data else data
+        for e in (course or {}).get("enrollments", []):
+            g = e.get("grades") or {}
+            if g:
+                return {"current_score": g.get("current_score"),
+                        "current_grade": g.get("current_grade"),
+                        "final_score": g.get("final_score"),
+                        "final_grade": g.get("final_grade")}
+    except Exception:
+        pass
+    return {}
+
+
 def main():
     uid = self_id()
     db = sqlite3.connect(DB)
@@ -114,10 +131,11 @@ def main():
             )
         rows.sort(key=lambda r: (r["due"] is None, r["due"] or ""))
         os.makedirs(os.path.join(ROOT, "data"), exist_ok=True)
+        overall = course_overall(cid)
         json.dump({"repo": f"zackhada/{repo}", "rows": rows,
-                   "source": "canvas-api"},
+                   "overall": overall, "source": "canvas-api"},
                   open(os.path.join(ROOT, "data", f"{repo}.grades.json"), "w"), indent=1)
-        print(repo, len(rows))
+        print(repo, len(rows), "overall", overall.get("current_score"))
     db.commit()
     db.close()
 

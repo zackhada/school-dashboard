@@ -173,6 +173,7 @@ def build_repo(repo):
     rows.sort(key=lambda r: r["date"])
     out = {"repo": "zackhada/%s" % repo, "rows": rows,
            "unmatched_canvas": unmatched,
+           "overall": (load(repo + ".grades.json").get("overall") or {}),
            "built_at": datetime.now(timezone.utc).isoformat()}
     with open(os.path.join(DATA, repo + ".combined.json"), "w") as f:
         json.dump(out, f, indent=1)

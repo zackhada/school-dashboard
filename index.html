@@ -121,11 +121,12 @@ Promise.all(REPOS.map(function(pair){
         return {key: x.key, status: x.status, date: x.date, note: x.note};
       }),
       grows: (c.rows || []).map(function(x){ return x.grade; }).filter(Boolean),
+      overall: c.overall || null,
       drift: c.unmatched_canvas || []};
   }).catch(function(){
     var led = fetch('data/' + pair[1] + '.json').then(function(r){ return r.ok ? r.json() : {rows:[]}; }).catch(function(){ return {rows:[]}; });
     var grd = fetch('data/' + pair[1] + '.grades.json').then(function(r){ return r.ok ? r.json() : {rows:[]}; }).catch(function(){ return {rows:[]}; });
-    return Promise.all([led, grd]).then(function(p){ return {name: pair[0], repo: pair[1], rows: p[0].rows || [], grows: p[1].rows || [], drift: []}; });
+    return Promise.all([led, grd]).then(function(p){ return {name: pair[0], repo: pair[1], rows: p[0].rows || [], grows: p[1].rows || [], overall: (p[1] && p[1].overall) || null, drift: []}; });
   });
 })).then(function(classes){
   var html = '';
@@ -140,7 +141,8 @@ Promise.all(REPOS.map(function(pair){
     });
     items.sort(function(a,b){ return a.d - b.d; });
     var done = items.filter(function(a){ return a.x.status === 'done'; }).length;
-    html += '<details open><summary>' + esc(c.name) + ' (' + done + '/' + items.length + ')</summary>';
+    var ov = (c.overall && c.overall.current_score != null) ? ' \u00b7 ' + Math.round(c.overall.current_score) + '%' : '';
+    html += '<details open><summary>' + esc(c.name) + ' (' + done + '/' + items.length + ')' + ov + '</summary>';
     if (!items.length) { html += '<p class="small">No assignments.</p></details>'; return; }
     html += '<table><colgroup><col class="c-assn"><col class="c-status"><col class="c-days"><col class="c-grade"><col></colgroup><thead><tr><th>Assignment</th><th>Status</th><th>Days</th><th>Grade</th><th>Comments</th></tr></thead><tbody>';
     items.forEach(function(a){
