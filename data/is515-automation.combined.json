@@ -400,30 +400,8 @@
   {
    "key": "IS_EXAM2",
    "status": "blocked_inperson",
-   "date": "2026-12-17",
-   "note": "# Exam 2, 100pts, timed comprehensive take-home, NOT collaborative. Locked until Dec 12. Zack takes manually in a quiet window after Dec 12.",
-   "title": "Exam 2",
-   "grade": {
-    "canvas_id": 1452628,
-    "name": "Exam 1",
-    "due": "2026-10-18T05:59:59Z",
-    "points": 100.0,
-    "status": "unsubmitted",
-    "score": null,
-    "grade": null,
-    "missing": false,
-    "submitted_at": null,
-    "submission_type": null,
-    "my_submission": "",
-    "comments": []
-   },
-   "drift": false
-  },
-  {
-   "key": "CANVAS_1452629",
-   "status": "missing_from_ledger",
    "date": "2026-12-18",
-   "note": "# In Canvas but no ledger row; runner must add it",
+   "note": "# Exam 2, 100pts, timed comprehensive take-home, NOT collaborative. Locked until Dec 12. Zack takes manually in a quiet window after Dec 12.",
    "title": "Exam 2",
    "grade": {
     "canvas_id": 1452629,
@@ -439,24 +417,9 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": true
+   "drift": false
   }
  ],
- "unmatched_canvas": [
-  {
-   "canvas_id": 1452629,
-   "name": "Exam 2",
-   "due": "2026-12-18T06:59:59Z",
-   "points": 100.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
-   "missing": false,
-   "submitted_at": null,
-   "submission_type": null,
-   "my_submission": "",
-   "comments": []
-  }
- ],
- "built_at": "2026-09-10T02:13:39.762328+00:00"
+ "unmatched_canvas": [],
+ "built_at": "2026-09-10T02:13:49.534297+00:00"
 }
