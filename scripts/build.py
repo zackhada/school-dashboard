@@ -34,7 +34,15 @@ def norm(s):
 
 
 def words(s):
-    return [w for w in norm(s).split(" ") if len(w) > 2]
+    out = []
+    for w in norm(s).split(" "):
+        if len(w) <= 2:
+            continue
+        out.append(w)
+        bare = re.sub(r"\d+", "", w)
+        if len(bare) > 2 and bare != w:
+            out.append(bare)  # exam2 also matches exam
+    return out
 
 
 def title_from(key, note):
