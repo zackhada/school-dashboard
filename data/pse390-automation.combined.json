@@ -5,7 +5,7 @@
    "key": "PARTICIPATION_QUIZ_SEP08",
    "status": "done",
    "date": "2026-09-08",
-   "note": "# graded 3/3",
+   "note": null,
    "title": "Participation Quiz Sep 08",
    "grade": {
     "canvas_id": 1495477,
@@ -27,7 +27,7 @@
    "key": "CANVAS_RECON_0909",
    "status": "done",
    "date": "2026-09-09",
-   "note": "# Canvas 38958 verified, ledger rebuilt with dated rows",
+   "note": null,
    "title": "Canvas Recon 0909",
    "grade": null,
    "drift": false
@@ -36,7 +36,7 @@
    "key": "PARTICIPATION_QUIZ_SEP10",
    "status": "blocked_inperson",
    "date": "2026-09-10",
-   "note": "# in-class participation code, avail Sep 10 2pm-3:17pm MT (77-min window), locked until class",
+   "note": null,
    "title": "Participation Quiz Sep 10",
    "grade": {
     "canvas_id": 1495490,
@@ -58,7 +58,7 @@
    "key": "ETHICS_PUBLIC_QUIZ_WK01",
    "status": "pending",
    "date": "2026-09-13",
-   "note": "# due 2026-09-13T05:59:59Z, unsubmitted",
+   "note": null,
    "title": "Ethics Public Quiz Wk01",
    "grade": {
     "canvas_id": 1495456,
@@ -80,7 +80,7 @@
    "key": "PARTICIPATION_QUIZ_SEP15",
    "status": "blocked_inperson",
    "date": "2026-09-15",
-   "note": "# Canvas 1495491, in-class code, avail Sep 15 2pm-3:17pm MT",
+   "note": null,
    "title": "Participation Quiz Sep 15",
    "grade": {
     "canvas_id": 1495491,
@@ -102,7 +102,7 @@
    "key": "PARTICIPATION_QUIZ_SEP17",
    "status": "blocked_inperson",
    "date": "2026-09-17",
-   "note": "# Canvas 1495532, in-class code, avail Sep 17 2pm-3:17pm MT",
+   "note": null,
    "title": "Participation Quiz Sep 17",
    "grade": {
     "canvas_id": 1495532,
@@ -124,7 +124,7 @@
    "key": "WEEKLY_QUIZ_WK02",
    "status": "pending",
    "date": "2026-09-20",
-   "note": "# weekly quiz pattern through Dec 13",
+   "note": null,
    "title": "Weekly Quiz Wk02",
    "grade": {
     "canvas_id": 1495457,
@@ -146,7 +146,7 @@
    "key": "PARTICIPATION_QUIZ_SEP22",
    "status": "blocked_inperson",
    "date": "2026-09-22",
-   "note": "# Canvas 1496696, in-class code, avail Sep 22 2pm-3:17pm MT",
+   "note": null,
    "title": "Participation Quiz Sep 22",
    "grade": {
     "canvas_id": 1496696,
@@ -168,7 +168,7 @@
    "key": "PARTICIPATION_QUIZ_SEP24",
    "status": "blocked_inperson",
    "date": "2026-09-24",
-   "note": "# Canvas 1496703, in-class code, avail Sep 24 2pm-3:17pm MT",
+   "note": null,
    "title": "Participation Quiz Sep 24",
    "grade": {
     "canvas_id": 1496703,
@@ -190,7 +190,7 @@
    "key": "WEEKLY_QUIZ_WK03",
    "status": "pending",
    "date": "2026-09-27",
-   "note": "# weekly quiz pattern through Dec 13",
+   "note": null,
    "title": "Weekly Quiz Wk03",
    "grade": {
     "canvas_id": 1495458,
@@ -212,7 +212,7 @@
    "key": "PARTICIPATION_QUIZ_SEP29",
    "status": "blocked_inperson",
    "date": "2026-09-29",
-   "note": "# Canvas 1496705, in-class code, avail Sep 29 2pm-3:17pm MT",
+   "note": null,
    "title": "Participation Quiz Sep 29",
    "grade": {
     "canvas_id": 1496705,
@@ -234,7 +234,7 @@
    "key": "PARTICIPATION_QUIZ_OCT01",
    "status": "blocked_inperson",
    "date": "2026-10-01",
-   "note": "# Canvas 1496715, in-class code, avail Oct 1 2pm-3:17pm MT",
+   "note": null,
    "title": "Participation Quiz Oct 01",
    "grade": {
     "canvas_id": 1496715,
@@ -256,7 +256,7 @@
    "key": "WEEKLY_QUIZ_WK04",
    "status": "pending",
    "date": "2026-10-04",
-   "note": "# weekly quiz pattern through Dec 13",
+   "note": null,
    "title": "Weekly Quiz Wk04",
    "grade": {
     "canvas_id": 1495459,
@@ -278,7 +278,7 @@
    "key": "PARTICIPATION_QUIZ_OCT06",
    "status": "blocked_inperson",
    "date": "2026-10-06",
-   "note": "# Canvas 1496719, in-class code, avail Oct 6 2pm-3:17pm MT",
+   "note": null,
    "title": "Participation Quiz Oct 06",
    "grade": {
     "canvas_id": 1496719,
@@ -300,7 +300,7 @@
    "key": "WEEKLY_QUIZ_WK05",
    "status": "pending",
    "date": "2026-10-11",
-   "note": "# weekly quiz pattern through Dec 13",
+   "note": null,
    "title": "Weekly Quiz Wk05",
    "grade": {
     "canvas_id": 1495460,
@@ -322,7 +322,7 @@
    "key": "WEEKLY_QUIZ_WK06",
    "status": "pending",
    "date": "2026-10-18",
-   "note": "# weekly quiz pattern through Dec 13",
+   "note": null,
    "title": "Weekly Quiz Wk06",
    "grade": {
     "canvas_id": 1495641,
@@ -344,7 +344,7 @@
    "key": "TEACHING_ETHICS_HOME",
    "status": "pending",
    "date": "2026-10-18",
-   "note": "# Canvas 1495641, online_upload 10pts, due 2026-10-18T05:59:59Z",
+   "note": null,
    "title": "Teaching Ethics Home",
    "grade": {
     "canvas_id": 1495641,
@@ -366,7 +366,7 @@
    "key": "WEEKLY_QUIZ_WK07",
    "status": "pending",
    "date": "2026-10-25",
-   "note": "# weekly quiz pattern through Dec 13",
+   "note": null,
    "title": "Weekly Quiz Wk07",
    "grade": {
     "canvas_id": 1495462,
@@ -388,7 +388,7 @@
    "key": "WEEKLY_QUIZ_WK08",
    "status": "pending",
    "date": "2026-11-01",
-   "note": "# weekly quiz pattern through Dec 13",
+   "note": null,
    "title": "Weekly Quiz Wk08",
    "grade": {
     "canvas_id": 1495463,
@@ -410,7 +410,7 @@
    "key": "WEEKLY_QUIZ_WK09",
    "status": "pending",
    "date": "2026-11-08",
-   "note": "# weekly quiz pattern through Dec 13",
+   "note": null,
    "title": "Weekly Quiz Wk09",
    "grade": {
     "canvas_id": 1495465,
@@ -432,7 +432,7 @@
    "key": "WEEKLY_QUIZ_WK10",
    "status": "pending",
    "date": "2026-11-15",
-   "note": "# weekly quiz pattern through Dec 13",
+   "note": null,
    "title": "Weekly Quiz Wk10",
    "grade": {
     "canvas_id": 1495466,
@@ -454,7 +454,7 @@
    "key": "WEEKLY_QUIZ_WK11",
    "status": "pending",
    "date": "2026-11-22",
-   "note": "# weekly quiz pattern through Dec 13",
+   "note": null,
    "title": "Weekly Quiz Wk11",
    "grade": {
     "canvas_id": 1495468,
@@ -476,7 +476,7 @@
    "key": "WEEKLY_QUIZ_WK12",
    "status": "pending",
    "date": "2026-11-29",
-   "note": "# weekly quiz pattern through Dec 13",
+   "note": null,
    "title": "Weekly Quiz Wk12",
    "grade": {
     "canvas_id": 1495469,
@@ -498,7 +498,7 @@
    "key": "WEEKLY_QUIZ_WK13",
    "status": "pending",
    "date": "2026-12-06",
-   "note": "# weekly quiz pattern through Dec 13",
+   "note": null,
    "title": "Weekly Quiz Wk13",
    "grade": {
     "canvas_id": 1495470,
@@ -520,7 +520,7 @@
    "key": "WEEKLY_QUIZ_WK14",
    "status": "pending",
    "date": "2026-12-13",
-   "note": "# weekly quiz pattern through Dec 13",
+   "note": null,
    "title": "Weekly Quiz Wk14",
    "grade": {
     "canvas_id": 1495474,
@@ -540,5 +540,5 @@
   }
  ],
  "unmatched_canvas": [],
- "built_at": "2026-09-10T05:14:28.978556+00:00"
+ "built_at": "2026-09-10T05:52:07.687505+00:00"
 }
