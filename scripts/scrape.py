@@ -92,8 +92,11 @@ def main():
             missing = bool(sub.get("missing") or ws == "unsubmitted"
                            and a.get("due_at") is not None)
             db.execute(
-                """INSERT OR REPLACE INTO assignments VALUES
-                (?,?,?,?,?,?,?,?,?,?,?,?,?,datetime('now'))""",
+                """INSERT OR REPLACE INTO assignments
+                (canvas_id, course_id, repo, name, due_at, points,
+                 workflow_state, score, grade, missing, submission_type,
+                 submitted_at, body, comments, seen_at) VALUES
+                (?,?,?,?,?,?,?,?,?,?,?,?,?,?,datetime('now'))""",
                 (a["id"], cid, repo, a.get("name"), a.get("due_at"),
                  a.get("points_possible"), ws, sub.get("score"),
                  sub.get("grade"), int(bool(sub.get("missing"))),
