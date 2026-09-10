@@ -6,8 +6,17 @@
    "status": "done",
    "date": "2026-09-05",
    "note": "# Qualtrics bio survey (facts on record)",
-   "title": "Econ Biosurvey",
-   "grade": null,
+   "title": "Qualtrics bio survey (facts on record)",
+   "grade": {
+    "name": "Biographical Survey",
+    "due": "2026-09-08T23:59:00",
+    "points": 10.0,
+    "score": 10.0,
+    "status": "graded",
+    "missing": false,
+    "submission_type": "learning_suite",
+    "comments": []
+   },
    "drift": false
   },
   {
@@ -15,7 +24,7 @@
    "status": "done",
    "date": "2026-09-08",
    "note": "# Getting Started REOPENED, due Tue 11pm per Showalter 9/7 reset",
-   "title": "Econ Mindtap Prelim",
+   "title": "Getting Started REOPENED",
    "grade": null,
    "drift": false
   },
@@ -24,7 +33,7 @@
    "status": "done",
    "date": "2026-09-08",
    "note": "# Ch1 homework REOPENED, due Tue 11pm per Showalter 9/7 reset",
-   "title": "Econ Mindtap Ch1",
+   "title": "Ch1 homework REOPENED",
    "grade": null,
    "drift": false
   },
@@ -33,7 +42,7 @@
    "status": "done",
    "date": "2026-09-09",
    "note": "# Ch 2 pre-class Cengage, due Wed 3pm per Showalter 9/7",
-   "title": "Econ Mindtap Ch2pre",
+   "title": "Ch 2 pre-class Cengage",
    "grade": null,
    "drift": false
   },
@@ -42,8 +51,17 @@
    "status": "done",
    "date": "2026-09-09",
    "note": "# Oaks Good, Better, Best Quiz 6pt",
-   "title": "Econ Oaks Quiz",
-   "grade": null,
+   "title": "Oaks Good, Better, Best Quiz",
+   "grade": {
+    "name": "Oaks \"Good, Better, Best\" Quiz -- *",
+    "due": "2026-09-09T23:59:00",
+    "points": 6.0,
+    "score": 6.0,
+    "status": "graded",
+    "missing": false,
+    "submission_type": "learning_suite",
+    "comments": []
+   },
    "drift": false
   },
   {
@@ -51,7 +69,7 @@
    "status": "done",
    "date": "2026-09-10",
    "note": "# Ch 2 Homework Cengage (Aplia), due Thu 11pm MDT",
-   "title": "Econ Mindtap Ch2",
+   "title": "Ch 2 Homework Cengage (Aplia)",
    "grade": null,
    "drift": false
   },
@@ -61,7 +79,16 @@
    "date": "2026-09-11",
    "note": "# in-person TA lab B090 JFSB",
    "title": "Meet TA",
-   "grade": null,
+   "grade": {
+    "name": "Meet Your TA",
+    "due": "2026-09-11T23:59:00",
+    "points": 10.0,
+    "score": null,
+    "status": "not_graded",
+    "missing": false,
+    "submission_type": "learning_suite",
+    "comments": []
+   },
    "drift": false
   },
   {
@@ -69,8 +96,17 @@
    "status": "pending",
    "date": "2026-09-11",
    "note": "# NE Quiz #1 5pt",
-   "title": "Econ Neq 1",
-   "grade": null,
+   "title": "NE Quiz #1",
+   "grade": {
+    "name": "NE - Quiz #1",
+    "due": "2026-09-11T23:59:00",
+    "points": 5.0,
+    "score": null,
+    "status": "not_graded",
+    "missing": false,
+    "submission_type": "learning_suite",
+    "comments": []
+   },
    "drift": false
   },
   {
@@ -78,8 +114,17 @@
    "status": "pending",
    "date": "2026-09-11",
    "note": "# Mankiw Bonus #1 essay, LS submit",
-   "title": "Econ Mankiw 1",
-   "grade": null,
+   "title": "Mankiw Bonus #1 essay, LS submit",
+   "grade": {
+    "name": "Mankiw Bonus #1 (Extra Credit)",
+    "due": "2026-09-11T23:59:00",
+    "points": 6.0,
+    "score": null,
+    "status": "not_graded",
+    "missing": false,
+    "submission_type": "learning_suite",
+    "comments": []
+   },
    "drift": false
   },
   {
@@ -87,7 +132,7 @@
    "status": "pending",
    "date": "2026-09-14",
    "note": "# Ch 3 pre-class Cengage (Read It + QuickQuizzes), due Mon 3pm MDT",
-   "title": "Econ Mindtap Ch3pre",
+   "title": "Ch 3 pre-class Cengage (Read It + QuickQuizzes)",
    "grade": null,
    "drift": false
   },
@@ -96,7 +141,7 @@
    "status": "pending",
    "date": "2026-09-15",
    "note": "# Ch 3 Homework Cengage, due Tue 11pm MDT",
-   "title": "Econ Mindtap Ch3",
+   "title": "Ch 3 Homework Cengage",
    "grade": null,
    "drift": false
   },
@@ -105,7 +150,7 @@
    "status": "pending",
    "date": "2026-09-16",
    "note": "# Ch 4 pre-class Cengage (Read It + QuickQuizzes), due Wed 3pm MDT",
-   "title": "Econ Mindtap Ch4pre",
+   "title": "Ch 4 pre-class Cengage (Read It + QuickQuizzes)",
    "grade": null,
    "drift": false
   },
@@ -114,7 +159,7 @@
    "status": "pending",
    "date": "2026-09-17",
    "note": "# Ch 4 Homework Cengage, due Thu 11pm MDT",
-   "title": "Econ Mindtap Ch4",
+   "title": "Ch 4 Homework Cengage",
    "grade": null,
    "drift": false
   },
@@ -123,8 +168,17 @@
    "status": "pending",
    "date": "2026-09-18",
    "note": "# NE Quiz #2 5pt",
-   "title": "Econ Neq 2",
-   "grade": null,
+   "title": "NE Quiz #2",
+   "grade": {
+    "name": "NE - Quiz #2",
+    "due": "2026-09-18T23:59:00",
+    "points": 5.0,
+    "score": null,
+    "status": "not_graded",
+    "missing": false,
+    "submission_type": "learning_suite",
+    "comments": []
+   },
    "drift": false
   },
   {
@@ -132,8 +186,17 @@
    "status": "pending",
    "date": "2026-09-18",
    "note": "# Mankiw Bonus #2",
-   "title": "Econ Mankiw 2",
-   "grade": null,
+   "title": "Mankiw Bonus #2",
+   "grade": {
+    "name": "Mankiw Bonus #2 (Extra Credit)",
+    "due": "2026-09-18T23:59:00",
+    "points": 6.0,
+    "score": null,
+    "status": "not_graded",
+    "missing": false,
+    "submission_type": "learning_suite",
+    "comments": []
+   },
    "drift": false
   },
   {
@@ -141,7 +204,7 @@
    "status": "pending",
    "date": "2026-09-21",
    "note": "# Ch 5 pre-class Cengage, due Mon 3pm MDT per LS schedule 2026-09-10",
-   "title": "Econ Mindtap Ch5pre",
+   "title": "Ch 5 pre-class Cengage",
    "grade": null,
    "drift": false
   },
@@ -150,7 +213,7 @@
    "status": "pending",
    "date": "2026-09-22",
    "note": "# Ch 5 Homework Cengage, due Tue 11pm MDT per LS schedule 2026-09-10",
-   "title": "Econ Mindtap Ch5",
+   "title": "Ch 5 Homework Cengage",
    "grade": null,
    "drift": false
   },
@@ -159,7 +222,7 @@
    "status": "pending",
    "date": "2026-09-23",
    "note": "# Ch 6 pre-class Cengage, due Wed 3pm MDT per LS schedule 2026-09-10",
-   "title": "Econ Mindtap Ch6pre",
+   "title": "Ch 6 pre-class Cengage",
    "grade": null,
    "drift": false
   },
@@ -168,8 +231,17 @@
    "status": "pending",
    "date": "2026-09-25",
    "note": "# NE Quiz #3 5pt",
-   "title": "Econ Neq 3",
-   "grade": null,
+   "title": "NE Quiz #3",
+   "grade": {
+    "name": "NE - Quiz #3",
+    "due": "2026-09-25T23:59:00",
+    "points": 5.0,
+    "score": null,
+    "status": "not_graded",
+    "missing": false,
+    "submission_type": "learning_suite",
+    "comments": []
+   },
    "drift": false
   },
   {
@@ -177,8 +249,17 @@
    "status": "pending",
    "date": "2026-09-25",
    "note": "# Mankiw Bonus #3",
-   "title": "Econ Mankiw 3",
-   "grade": null,
+   "title": "Mankiw Bonus #3",
+   "grade": {
+    "name": "Mankiw Bonus #3 (Extra Credit)",
+    "due": "2026-09-25T23:59:00",
+    "points": 6.0,
+    "score": null,
+    "status": "not_graded",
+    "missing": false,
+    "submission_type": "learning_suite",
+    "comments": []
+   },
    "drift": false
   },
   {
@@ -186,8 +267,17 @@
    "status": "pending",
    "date": "2026-09-28",
    "note": "# Sept News Analysis, LS submit",
-   "title": "Econ News Sept",
-   "grade": null,
+   "title": "Sept News Analysis, LS submit",
+   "grade": {
+    "name": "Sept News Analysis Participation",
+    "due": "2026-09-28T23:59:00",
+    "points": 1.0,
+    "score": null,
+    "status": "not_graded",
+    "missing": false,
+    "submission_type": "learning_suite",
+    "comments": []
+   },
    "drift": false
   },
   {
@@ -195,8 +285,17 @@
    "status": "pending",
    "date": "2026-10-02",
    "note": "# NE Quiz #4 5pt",
-   "title": "Econ Neq 4",
-   "grade": null,
+   "title": "NE Quiz #4",
+   "grade": {
+    "name": "NE - Quiz #4",
+    "due": "2026-10-02T23:59:00",
+    "points": 5.0,
+    "score": null,
+    "status": "not_graded",
+    "missing": false,
+    "submission_type": "learning_suite",
+    "comments": []
+   },
    "drift": false
   },
   {
@@ -204,8 +303,17 @@
    "status": "pending",
    "date": "2026-10-02",
    "note": "# Mankiw Bonus #4",
-   "title": "Econ Mankiw 4",
-   "grade": null,
+   "title": "Mankiw Bonus #4",
+   "grade": {
+    "name": "Mankiw Bonus #4 (Extra Credit)",
+    "due": "2026-10-02T23:59:00",
+    "points": 6.0,
+    "score": null,
+    "status": "not_graded",
+    "missing": false,
+    "submission_type": "learning_suite",
+    "comments": []
+   },
    "drift": false
   },
   {
@@ -213,8 +321,17 @@
    "status": "blocked_inperson",
    "date": "2026-10-02",
    "note": "# in-class 4:00pm",
-   "title": "Econ Midterm 1",
-   "grade": null,
+   "title": "in-class",
+   "grade": {
+    "name": "Midterm 1",
+    "due": "2026-10-02T16:00:00",
+    "points": 100.0,
+    "score": null,
+    "status": "not_graded",
+    "missing": false,
+    "submission_type": "learning_suite",
+    "comments": []
+   },
    "drift": false
   },
   {
@@ -222,8 +339,17 @@
    "status": "pending",
    "date": "2026-10-05",
    "note": "# Pre-Class Quiz Behavioral Economics EC 12pt",
-   "title": "Econ Preclass Behav",
-   "grade": null,
+   "title": "Pre-Class Quiz Behavioral Economics EC",
+   "grade": {
+    "name": "Pre-Class Quiz--Behavioral Economics (Extra Credit)",
+    "due": "2026-10-05T15:00:00",
+    "points": 12.0,
+    "score": null,
+    "status": "not_graded",
+    "missing": false,
+    "submission_type": "learning_suite",
+    "comments": []
+   },
    "drift": false
   },
   {
@@ -231,8 +357,17 @@
    "status": "pending",
    "date": "2026-10-09",
    "note": "# NE Quiz #5 5pt",
-   "title": "Econ Neq 5",
-   "grade": null,
+   "title": "NE Quiz #5",
+   "grade": {
+    "name": "NE - Quiz #5",
+    "due": "2026-10-09T23:59:00",
+    "points": 5.0,
+    "score": null,
+    "status": "not_graded",
+    "missing": false,
+    "submission_type": "learning_suite",
+    "comments": []
+   },
    "drift": false
   },
   {
@@ -240,8 +375,17 @@
    "status": "pending",
    "date": "2026-10-16",
    "note": "# NE Quiz #6 5pt",
-   "title": "Econ Neq 6",
-   "grade": null,
+   "title": "NE Quiz #6",
+   "grade": {
+    "name": "NE - Quiz #6",
+    "due": "2026-10-16T23:59:00",
+    "points": 5.0,
+    "score": null,
+    "status": "not_graded",
+    "missing": false,
+    "submission_type": "learning_suite",
+    "comments": []
+   },
    "drift": false
   },
   {
@@ -249,8 +393,17 @@
    "status": "pending",
    "date": "2026-10-16",
    "note": "# Mankiw Bonus #5",
-   "title": "Econ Mankiw 5",
-   "grade": null,
+   "title": "Mankiw Bonus #5",
+   "grade": {
+    "name": "Mankiw Bonus #5 (Extra Credit)",
+    "due": "2026-10-16T23:59:00",
+    "points": 6.0,
+    "score": null,
+    "status": "not_graded",
+    "missing": false,
+    "submission_type": "learning_suite",
+    "comments": []
+   },
    "drift": false
   },
   {
@@ -258,8 +411,17 @@
    "status": "pending",
    "date": "2026-10-16",
    "note": "# Naked Economics Essay 1 (20pt)",
-   "title": "Econ Naked Essay 1",
-   "grade": null,
+   "title": "Naked Economics Essay 1 ()",
+   "grade": {
+    "name": "Naked Economics: Essay 1",
+    "due": "2026-10-16T23:59:00",
+    "points": 20.0,
+    "score": null,
+    "status": "not_graded",
+    "missing": false,
+    "submission_type": "learning_suite",
+    "comments": []
+   },
    "drift": false
   },
   {
@@ -267,8 +429,17 @@
    "status": "pending",
    "date": "2026-10-23",
    "note": "# NE Quiz #7 5pt",
-   "title": "Econ Neq 7",
-   "grade": null,
+   "title": "NE Quiz #7",
+   "grade": {
+    "name": "NE - Quiz #7",
+    "due": "2026-10-23T23:59:00",
+    "points": 5.0,
+    "score": null,
+    "status": "not_graded",
+    "missing": false,
+    "submission_type": "learning_suite",
+    "comments": []
+   },
    "drift": false
   },
   {
@@ -276,8 +447,17 @@
    "status": "pending",
    "date": "2026-10-23",
    "note": "# Mankiw Bonus #6",
-   "title": "Econ Mankiw 6",
-   "grade": null,
+   "title": "Mankiw Bonus #6",
+   "grade": {
+    "name": "Mankiw Bonus #6 (Extra Credit)",
+    "due": "2026-10-23T23:59:00",
+    "points": 6.0,
+    "score": null,
+    "status": "not_graded",
+    "missing": false,
+    "submission_type": "learning_suite",
+    "comments": []
+   },
    "drift": false
   },
   {
@@ -285,8 +465,17 @@
    "status": "pending",
    "date": "2026-10-30",
    "note": "# NE Quiz #8 5pt",
-   "title": "Econ Neq 8",
-   "grade": null,
+   "title": "NE Quiz #8",
+   "grade": {
+    "name": "NE - Quiz #8",
+    "due": "2026-10-30T23:59:00",
+    "points": 5.0,
+    "score": null,
+    "status": "not_graded",
+    "missing": false,
+    "submission_type": "learning_suite",
+    "comments": []
+   },
    "drift": false
   },
   {
@@ -294,8 +483,17 @@
    "status": "pending",
    "date": "2026-10-30",
    "note": "# Mankiw Bonus #7",
-   "title": "Econ Mankiw 7",
-   "grade": null,
+   "title": "Mankiw Bonus #7",
+   "grade": {
+    "name": "Mankiw Bonus #7 (Extra Credit)",
+    "due": "2026-10-30T23:59:00",
+    "points": 6.0,
+    "score": null,
+    "status": "not_graded",
+    "missing": false,
+    "submission_type": "learning_suite",
+    "comments": []
+   },
    "drift": false
   },
   {
@@ -303,8 +501,17 @@
    "status": "pending",
    "date": "2026-11-04",
    "note": "# Oct News Analysis",
-   "title": "Econ News Oct",
-   "grade": null,
+   "title": "Oct News Analysis",
+   "grade": {
+    "name": "Oct News Analysis Participation",
+    "due": "2026-11-04T23:59:00",
+    "points": 1.0,
+    "score": null,
+    "status": "not_graded",
+    "missing": false,
+    "submission_type": "learning_suite",
+    "comments": []
+   },
    "drift": false
   },
   {
@@ -312,8 +519,17 @@
    "status": "pending",
    "date": "2026-11-06",
    "note": "# NE Quiz #9 5pt",
-   "title": "Econ Neq 9",
-   "grade": null,
+   "title": "NE Quiz #9",
+   "grade": {
+    "name": "NE - Quiz #9",
+    "due": "2026-11-06T23:59:00",
+    "points": 5.0,
+    "score": null,
+    "status": "not_graded",
+    "missing": false,
+    "submission_type": "learning_suite",
+    "comments": []
+   },
    "drift": false
   },
   {
@@ -321,8 +537,17 @@
    "status": "pending",
    "date": "2026-11-06",
    "note": "# Mankiw Bonus #8",
-   "title": "Econ Mankiw 8",
-   "grade": null,
+   "title": "Mankiw Bonus #8",
+   "grade": {
+    "name": "Mankiw Bonus #8 (Extra Credit)",
+    "due": "2026-11-06T23:59:00",
+    "points": 6.0,
+    "score": null,
+    "status": "not_graded",
+    "missing": false,
+    "submission_type": "learning_suite",
+    "comments": []
+   },
    "drift": false
   },
   {
@@ -330,8 +555,17 @@
    "status": "blocked_inperson",
    "date": "2026-11-06",
    "note": "# in-class 7:00pm",
-   "title": "Econ Midterm 2",
-   "grade": null,
+   "title": "in-class",
+   "grade": {
+    "name": "Midterm 2",
+    "due": "2026-11-06T19:00:00",
+    "points": 100.0,
+    "score": null,
+    "status": "not_graded",
+    "missing": false,
+    "submission_type": "learning_suite",
+    "comments": []
+   },
    "drift": false
   },
   {
@@ -339,8 +573,17 @@
    "status": "pending",
    "date": "2026-11-13",
    "note": "# NE Quiz #10 5pt",
-   "title": "Econ Neq 10",
-   "grade": null,
+   "title": "NE Quiz #10",
+   "grade": {
+    "name": "NE - Quiz #10",
+    "due": "2026-11-13T23:59:00",
+    "points": 5.0,
+    "score": null,
+    "status": "not_graded",
+    "missing": false,
+    "submission_type": "learning_suite",
+    "comments": []
+   },
    "drift": false
   },
   {
@@ -348,8 +591,17 @@
    "status": "pending",
    "date": "2026-11-13",
    "note": "# Mankiw Bonus #9",
-   "title": "Econ Mankiw 9",
-   "grade": null,
+   "title": "Mankiw Bonus #9",
+   "grade": {
+    "name": "Mankiw Bonus #9 (Extra Credit)",
+    "due": "2026-11-13T23:59:00",
+    "points": 6.0,
+    "score": null,
+    "status": "not_graded",
+    "missing": false,
+    "submission_type": "learning_suite",
+    "comments": []
+   },
    "drift": false
   },
   {
@@ -357,8 +609,17 @@
    "status": "pending",
    "date": "2026-11-20",
    "note": "# NE Quiz #11 5pt",
-   "title": "Econ Neq 11",
-   "grade": null,
+   "title": "NE Quiz #11",
+   "grade": {
+    "name": "NE - Quiz #11",
+    "due": "2026-11-20T23:59:00",
+    "points": 5.0,
+    "score": null,
+    "status": "not_graded",
+    "missing": false,
+    "submission_type": "learning_suite",
+    "comments": []
+   },
    "drift": false
   },
   {
@@ -366,8 +627,17 @@
    "status": "pending",
    "date": "2026-11-20",
    "note": "# Mankiw Bonus #10",
-   "title": "Econ Mankiw 10",
-   "grade": null,
+   "title": "Mankiw Bonus #10",
+   "grade": {
+    "name": "Mankiw Bonus #10 (Extra Credit)",
+    "due": "2026-11-20T23:59:00",
+    "points": 6.0,
+    "score": null,
+    "status": "not_graded",
+    "missing": false,
+    "submission_type": "learning_suite",
+    "comments": []
+   },
    "drift": false
   },
   {
@@ -375,8 +645,17 @@
    "status": "pending",
    "date": "2026-12-02",
    "note": "# Nov News Analysis",
-   "title": "Econ News Nov",
-   "grade": null,
+   "title": "Nov News Analysis",
+   "grade": {
+    "name": "Nov News Analysis Participation",
+    "due": "2026-12-02T23:00:00",
+    "points": 1.0,
+    "score": null,
+    "status": "not_graded",
+    "missing": false,
+    "submission_type": "learning_suite",
+    "comments": []
+   },
    "drift": false
   },
   {
@@ -384,8 +663,17 @@
    "status": "pending",
    "date": "2026-12-04",
    "note": "# NE Quiz #12 5pt",
-   "title": "Econ Neq 12",
-   "grade": null,
+   "title": "NE Quiz #12",
+   "grade": {
+    "name": "NE - Quiz #12",
+    "due": "2026-12-04T23:59:00",
+    "points": 5.0,
+    "score": null,
+    "status": "not_graded",
+    "missing": false,
+    "submission_type": "learning_suite",
+    "comments": []
+   },
    "drift": false
   },
   {
@@ -393,8 +681,17 @@
    "status": "pending",
    "date": "2026-12-04",
    "note": "# NE Quiz #13 5pt",
-   "title": "Econ Neq 13",
-   "grade": null,
+   "title": "NE Quiz #13",
+   "grade": {
+    "name": "NE - Quiz #13",
+    "due": "2026-12-04T23:59:00",
+    "points": 5.0,
+    "score": null,
+    "status": "not_graded",
+    "missing": false,
+    "submission_type": "learning_suite",
+    "comments": []
+   },
    "drift": false
   },
   {
@@ -402,8 +699,17 @@
    "status": "pending",
    "date": "2026-12-04",
    "note": "# Mankiw Bonus #11",
-   "title": "Econ Mankiw 11",
-   "grade": null,
+   "title": "Mankiw Bonus #11",
+   "grade": {
+    "name": "Mankiw Bonus #11 (Extra Credit)",
+    "due": "2026-12-04T23:59:00",
+    "points": 6.0,
+    "score": null,
+    "status": "not_graded",
+    "missing": false,
+    "submission_type": "learning_suite",
+    "comments": []
+   },
    "drift": false
   },
   {
@@ -411,8 +717,17 @@
    "status": "pending",
    "date": "2026-12-08",
    "note": "# Naked Economics Essay 2 (20pt)",
-   "title": "Econ Naked Essay 2",
-   "grade": null,
+   "title": "Naked Economics Essay 2 ()",
+   "grade": {
+    "name": "Naked Economics: Essay 2",
+    "due": "2026-12-08T23:59:00",
+    "points": 20.0,
+    "score": null,
+    "status": "not_graded",
+    "missing": false,
+    "submission_type": "learning_suite",
+    "comments": []
+   },
    "drift": false
   },
   {
@@ -420,8 +735,17 @@
    "status": "pending",
    "date": "2026-12-09",
    "note": "# Christensen Quiz 5pt",
-   "title": "Econ Christensen Quiz",
-   "grade": null,
+   "title": "Christensen Quiz",
+   "grade": {
+    "name": "Christensen Quiz -- *",
+    "due": "2026-12-09T15:00:00",
+    "points": 5.0,
+    "score": null,
+    "status": "not_graded",
+    "missing": false,
+    "submission_type": "learning_suite",
+    "comments": []
+   },
    "drift": false
   },
   {
@@ -429,8 +753,17 @@
    "status": "blocked_inperson",
    "date": "2026-12-10",
    "note": "# in-class 6:00pm",
-   "title": "Econ Final",
-   "grade": null,
+   "title": "in-class",
+   "grade": {
+    "name": "Final Semester Total Points",
+    "due": "2026-12-10T09:45:00",
+    "points": 1000.0,
+    "score": null,
+    "status": "not_graded",
+    "missing": false,
+    "submission_type": "learning_suite",
+    "comments": []
+   },
    "drift": false
   },
   {
@@ -438,11 +771,20 @@
    "status": "pending",
    "date": "2026-12-11",
    "note": "# course evaluation",
-   "title": "Econ Course Eval",
-   "grade": null,
+   "title": "course evaluation",
+   "grade": {
+    "name": "Course Evaluation",
+    "due": "2026-12-11T23:59:00",
+    "points": 10.0,
+    "score": null,
+    "status": "not_graded",
+    "missing": false,
+    "submission_type": "learning_suite",
+    "comments": []
+   },
    "drift": false
   }
  ],
  "unmatched_canvas": [],
- "built_at": "2026-09-10T20:38:03.584489+00:00"
+ "built_at": "2026-09-10T20:46:51.118847+00:00"
 }

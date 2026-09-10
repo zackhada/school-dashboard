@@ -37,10 +37,13 @@ def norm(s):
     return re.sub(r"[^a-z0-9]+", " ", str(s or "").lower()).strip()
 
 
+STOP = {"cengage", "mindtap", "class", "pre", "post"}
+
+
 def words(s):
     out = []
     for w in norm(s).split(" "):
-        if len(w) <= 2:
+        if len(w) <= 2 or w in STOP:
             continue
         out.append(w)
         bare = re.sub(r"\d+", "", w)
@@ -65,6 +68,13 @@ def title_from(key, note):
         return "Participation Quiz %s %s" % (pm.group(1).capitalize(), pm.group(2))
     if "MEET_TA" in (key or ""):
         return "Meet TA"
+    if n:
+        cut = re.split(r"(?i)\s+due(?:\s|$)", n, maxsplit=1)[0]
+        cut = re.sub(r"\b\d+(?:\.\d+)?\s*pts?\b", "", cut, flags=re.I)
+        cut = re.sub(r"\b\d{1,2}:\d{2}\s*(?:am|pm)?\b", "", cut, flags=re.I)
+        cut = re.sub(r"\s{2,}", " ", cut).strip(" ,;:-")
+        if cut:
+            return cut
     return re.sub(r"\b(\w)(\w*)\b",
                   lambda m: m.group(1).upper() + m.group(2).lower(),
                   (key or "").replace("_", " "))
@@ -123,10 +133,14 @@ def build_repo(repo):
     gwords = [words(g.get("name")) for g in grades]
     pairs = []
     for i, (x, title) in enumerate(prepped):
-        tw = words(title)
+        tw = words(str(title) + " " + str(x.get("key", "")))
         for gi, g in enumerate(grades):
-            score = overlap_count(tw, gwords[gi]) * 10 + day_bonus(
-                str(g.get("due") or "")[:10], x["date"])
+            ov = overlap_count(tw, gwords[gi])
+            # Learning Suite / MyEducator rows have no canvas_id; require a real
+            # name overlap so a shared due date cannot pair the wrong item.
+            if ov == 0 and g.get("canvas_id") is None:
+                continue
+            score = ov * 10 + day_bonus(str(g.get("due") or "")[:10], x["date"])
             if score > 0:
                 pairs.append((score, i, gi))
     pairs.sort(key=lambda t: -t[0])
@@ -147,7 +161,8 @@ def build_repo(repo):
                      "title": title, "grade": g, "drift": False})
     rows.sort(key=lambda r: r["date"])
     unmatched = [g for g in grades
-                 if g.get("canvas_id") not in matched_ids
+                 if g.get("canvas_id") is not None
+                 and g.get("canvas_id") not in matched_ids
                  and (g.get("points") or 0) > 0]
     for g in unmatched:
         rows.append({"key": "CANVAS_%s" % g.get("canvas_id"),

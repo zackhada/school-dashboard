@@ -73,7 +73,7 @@ function statusOf(x){
   if (x.status === 'blocked_inperson') return ['in person', 'blocked'];
   return ['automated', 'todo'];
 }
-function words(s){ return norm(s).split(' ').filter(function(w){ return w.length > 2; }); }
+function words(s){ return norm(s).split(' ').filter(function(w){ return w.length > 2 && ['cengage','mindtap','class','pre','post'].indexOf(w) < 0; }); }
 function tokMatch(a,b){ if(a===b) return true; return a.length>=4 && b.length>=4 && (a.indexOf(b)===0 || b.indexOf(a)===0); }
 function overlapCount(tw,gw){ return tw.filter(function(a){ return gw.some(function(b){ return tokMatch(a,b); }); }).length; }
 function matchGrade(title, dueDay, grows){
@@ -81,6 +81,9 @@ function matchGrade(title, dueDay, grows){
   grows.forEach(function(g){
     var gday = g.due ? String(g.due).slice(0,10) : '';
     var overlap = overlapCount(tw, words(g.name));
+    // Learning Suite / MyEducator rows have no canvas_id; require a real name
+    // overlap so a shared due date cannot pair the wrong item.
+    if (overlap === 0 && g.canvas_id == null) return;
     // Ledger dates are Mountain-local while Canvas due_at is UTC, so the
     // same deadline can be one calendar day apart. Exact day wins, +/-1 allowed.
     var dayBonus = 0;
@@ -146,7 +149,7 @@ Promise.all(REPOS.map(function(pair){
       var n = daysLeft(a.d);
       var rowCls = n < 0 ? 'past' : (n === 0 ? 'today' : '');
       var title = titleFrom(x.key, x.note, c.name);
-      var g = matchGrade(title, x.date, c.grows);
+      var g = matchGrade(title + ' ' + x.key, x.date, c.grows);
       html += '<tr class="'+rowCls+'"><td class="'+cls+'">'+esc(title)+'</td><td class="'+cls+'">'+st[0]+'</td><td class="days-left">'+n+'</td><td class="grade">'+gradeCell(g)+'</td><td>'+commentsCell(g)+'</td></tr>';
     });
     html += '</tbody></table></details>';

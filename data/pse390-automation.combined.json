@@ -50,7 +50,7 @@
    "status": "pending",
    "date": "2026-09-13",
    "note": "# due 2026-09-13T05:59:59Z, unsubmitted",
-   "title": "Ethics Public Quiz Wk01",
+   "title": "due 2026-09-13T05:59:59Z, unsubmitted",
    "grade": {
     "canvas_id": 1495456,
     "name": "Ethics and Public Quiz - Week 1",
@@ -116,7 +116,7 @@
    "status": "pending",
    "date": "2026-09-20",
    "note": "# weekly quiz pattern through Dec 13",
-   "title": "Weekly Quiz Wk02",
+   "title": "weekly quiz pattern through Dec 13",
    "grade": {
     "canvas_id": 1495457,
     "name": "Ethics and Public Quiz - Week 2",
@@ -182,7 +182,7 @@
    "status": "pending",
    "date": "2026-09-27",
    "note": "# weekly quiz pattern through Dec 13",
-   "title": "Weekly Quiz Wk03",
+   "title": "weekly quiz pattern through Dec 13",
    "grade": {
     "canvas_id": 1495458,
     "name": "Ethics and Public Quiz - Week 3",
@@ -248,7 +248,7 @@
    "status": "pending",
    "date": "2026-10-04",
    "note": "# weekly quiz pattern through Dec 13",
-   "title": "Weekly Quiz Wk04",
+   "title": "weekly quiz pattern through Dec 13",
    "grade": {
     "canvas_id": 1495459,
     "name": "Ethics and Public Quiz - Week 4",
@@ -292,7 +292,7 @@
    "status": "pending",
    "date": "2026-10-11",
    "note": "# weekly quiz pattern through Dec 13",
-   "title": "Weekly Quiz Wk05",
+   "title": "weekly quiz pattern through Dec 13",
    "grade": {
     "canvas_id": 1495460,
     "name": "Ethics and Public Quiz - Week 5",
@@ -314,7 +314,7 @@
    "status": "pending",
    "date": "2026-10-18",
    "note": "# weekly quiz pattern through Dec 13",
-   "title": "Weekly Quiz Wk06",
+   "title": "weekly quiz pattern through Dec 13",
    "grade": null,
    "drift": false
   },
@@ -323,7 +323,7 @@
    "status": "pending",
    "date": "2026-10-18",
    "note": "# Canvas 1495641, online_upload 10pts, due 2026-10-18T05:59:59Z",
-   "title": "Teaching Ethics Home",
+   "title": "Canvas 1495641, online_upload",
    "grade": {
     "canvas_id": 1495641,
     "name": "Teaching Ethics in the Home Assignment",
@@ -345,7 +345,7 @@
    "status": "pending",
    "date": "2026-10-25",
    "note": "# weekly quiz pattern through Dec 13",
-   "title": "Weekly Quiz Wk07",
+   "title": "weekly quiz pattern through Dec 13",
    "grade": {
     "canvas_id": 1495462,
     "name": "Ethics and Public Quiz - Week 7",
@@ -367,7 +367,7 @@
    "status": "pending",
    "date": "2026-11-01",
    "note": "# weekly quiz pattern through Dec 13",
-   "title": "Weekly Quiz Wk08",
+   "title": "weekly quiz pattern through Dec 13",
    "grade": {
     "canvas_id": 1495463,
     "name": "Ethics and Public Quiz - Week 8",
@@ -389,7 +389,7 @@
    "status": "pending",
    "date": "2026-11-08",
    "note": "# weekly quiz pattern through Dec 13",
-   "title": "Weekly Quiz Wk09",
+   "title": "weekly quiz pattern through Dec 13",
    "grade": {
     "canvas_id": 1495465,
     "name": "Ethics and Public Quiz - Week 9",
@@ -411,7 +411,7 @@
    "status": "pending",
    "date": "2026-11-15",
    "note": "# weekly quiz pattern through Dec 13",
-   "title": "Weekly Quiz Wk10",
+   "title": "weekly quiz pattern through Dec 13",
    "grade": {
     "canvas_id": 1495466,
     "name": "Ethics and Public Quiz - Week 10",
@@ -433,7 +433,7 @@
    "status": "pending",
    "date": "2026-11-22",
    "note": "# weekly quiz pattern through Dec 13",
-   "title": "Weekly Quiz Wk11",
+   "title": "weekly quiz pattern through Dec 13",
    "grade": {
     "canvas_id": 1495468,
     "name": "Ethics and Public Quiz - Week 11",
@@ -455,7 +455,7 @@
    "status": "pending",
    "date": "2026-11-29",
    "note": "# weekly quiz pattern through Dec 13",
-   "title": "Weekly Quiz Wk12",
+   "title": "weekly quiz pattern through Dec 13",
    "grade": {
     "canvas_id": 1495469,
     "name": "Ethics and Public Quiz - Week 12",
@@ -477,7 +477,7 @@
    "status": "pending",
    "date": "2026-12-06",
    "note": "# weekly quiz pattern through Dec 13",
-   "title": "Weekly Quiz Wk13",
+   "title": "weekly quiz pattern through Dec 13",
    "grade": {
     "canvas_id": 1495470,
     "name": "Ethics and Public Quiz - Week 13",
@@ -499,7 +499,7 @@
    "status": "pending",
    "date": "2026-12-13",
    "note": "# weekly quiz pattern through Dec 13",
-   "title": "Weekly Quiz Wk14",
+   "title": "weekly quiz pattern through Dec 13",
    "grade": {
     "canvas_id": 1495474,
     "name": "Ethics and Public Quiz - Week 14",
@@ -518,5 +518,5 @@
   }
  ],
  "unmatched_canvas": [],
- "built_at": "2026-09-10T20:38:03.579241+00:00"
+ "built_at": "2026-09-10T20:46:51.094601+00:00"
 }

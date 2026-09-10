@@ -1,0 +1,1087 @@
+{
+ "repo": "zackhada/econ110-automation",
+ "source": "learning-suite",
+ "url": "https://learningsuite.byu.edu/.5DK3/cid-1YPOkgOMQjjk/student/home/assignments",
+ "rows": [
+  {
+   "name": "Cengage Registration",
+   "due": "2026-09-07T23:59:00",
+   "points": 10.0,
+   "score": 10.0,
+   "status": "graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "Biographical Survey",
+   "due": "2026-09-08T23:59:00",
+   "points": 10.0,
+   "score": 10.0,
+   "status": "graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "iClicker Registration",
+   "due": "2026-09-08T23:59:00",
+   "points": 10.0,
+   "score": 10.0,
+   "status": "graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "Meet Your TA",
+   "due": "2026-09-11T23:59:00",
+   "points": 10.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "Course Evaluation",
+   "due": "2026-12-11T23:59:00",
+   "points": 10.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "Oaks \"Good, Better, Best\" Quiz -- *",
+   "due": "2026-09-09T23:59:00",
+   "points": 6.0,
+   "score": 6.0,
+   "status": "graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "Christensen Quiz -- *",
+   "due": "2026-12-09T15:00:00",
+   "points": 5.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "Mankiw Bonus #1 (Extra Credit)",
+   "due": "2026-09-11T23:59:00",
+   "points": 6.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "TA Passoff #1 (Extra Credit)",
+   "due": "2026-09-15T23:59:00",
+   "points": 2.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "Bonus: Check Answers #1 (Extra Credit)",
+   "due": "2026-09-15T23:59:00",
+   "points": 2.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "Mankiw Bonus #2 (Extra Credit)",
+   "due": "2026-09-18T23:59:00",
+   "points": 6.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "Bonus: Check Answers #2 (Extra Credit)",
+   "due": "2026-09-22T23:59:00",
+   "points": 2.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "Mankiw Bonus #3 (Extra Credit)",
+   "due": "2026-09-25T23:59:00",
+   "points": 6.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "Bonus: Check Answers #3 (Extra Credit)",
+   "due": "2026-09-29T23:59:00",
+   "points": 2.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "Mankiw Bonus #4 (Extra Credit)",
+   "due": "2026-10-02T23:59:00",
+   "points": 6.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "Bonus: Check Answers #4 (Extra Credit)",
+   "due": "2026-10-06T23:59:00",
+   "points": 2.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "Mankiw Bonus #5 (Extra Credit)",
+   "due": "2026-10-16T23:59:00",
+   "points": 6.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "Bonus: Check Answers #5 (Extra Credit)",
+   "due": "2026-10-20T23:59:00",
+   "points": 2.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "Mankiw Bonus #6 (Extra Credit)",
+   "due": "2026-10-23T23:59:00",
+   "points": 6.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "Bonus: Check Answers #6 (Extra Credit)",
+   "due": "2026-10-27T17:00:00",
+   "points": 2.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "Mankiw Bonus #7 (Extra Credit)",
+   "due": "2026-10-30T23:59:00",
+   "points": 6.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "Bonus: Check Answers #7 (Extra Credit)",
+   "due": "2026-11-03T23:59:00",
+   "points": 2.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "Mankiw Bonus #8 (Extra Credit)",
+   "due": "2026-11-06T23:59:00",
+   "points": 6.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "Bonus: Check Answers #8 (Extra Credit)",
+   "due": "2026-11-10T23:59:00",
+   "points": 2.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "Mankiw Bonus #9 (Extra Credit)",
+   "due": "2026-11-13T23:59:00",
+   "points": 6.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "Bonus: Check Answers #9 (Extra Credit)",
+   "due": "2026-11-17T23:59:00",
+   "points": 2.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "Mankiw Bonus #10 (Extra Credit)",
+   "due": "2026-11-20T23:59:00",
+   "points": 6.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "Bonus: Check Answers #10 (Extra Credit)",
+   "due": "2026-11-24T23:59:00",
+   "points": 2.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "Mankiw Bonus #11 (Extra Credit)",
+   "due": "2026-12-04T23:59:00",
+   "points": 6.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "Bonus: Check Answers #11 (Extra Credit)",
+   "due": "2026-12-08T23:59:00",
+   "points": 2.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "Pre-Class Quiz--Behavioral Economics (Extra Credit)",
+   "due": "2026-10-05T15:00:00",
+   "points": 12.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "9/2",
+   "due": "2026-09-02T23:59:00",
+   "points": 1.0,
+   "score": 0.0,
+   "status": "graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "9/9",
+   "due": "2026-09-09T23:59:00",
+   "points": 1.0,
+   "score": 1.0,
+   "status": "graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "9/9-Accuracy",
+   "due": "2026-09-09T23:59:00",
+   "points": 10.0,
+   "score": 10.0,
+   "status": "graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "9/14",
+   "due": "2026-09-14T23:59:00",
+   "points": 1.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "9/14-Accuracy",
+   "due": "2026-09-14T23:59:00",
+   "points": 10.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "9/16",
+   "due": "2026-09-16T23:59:00",
+   "points": 1.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "9/16-Accuracy",
+   "due": "2026-09-16T23:59:00",
+   "points": 10.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "9/21",
+   "due": "2026-09-21T23:59:00",
+   "points": 1.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "9/21-Accuracy",
+   "due": "2026-09-21T23:59:00",
+   "points": 10.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "9/23",
+   "due": "2026-09-23T23:59:00",
+   "points": 1.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "9/23-Accuracy",
+   "due": "2026-09-23T23:59:00",
+   "points": 10.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "9/28",
+   "due": "2026-09-28T23:59:00",
+   "points": 1.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "9/28-Accuracy",
+   "due": "2026-09-28T23:59:00",
+   "points": 10.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "Sept News Analysis Participation",
+   "due": "2026-09-28T23:59:00",
+   "points": 1.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "9/30",
+   "due": "2026-09-30T23:59:00",
+   "points": 1.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "9/30-Accuracy",
+   "due": "2026-09-30T23:59:00",
+   "points": 10.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "10/5",
+   "due": "2026-10-05T23:59:00",
+   "points": 1.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "10/5-Accuracy",
+   "due": "2026-10-05T23:59:00",
+   "points": 10.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "10/7",
+   "due": "2026-10-07T23:59:00",
+   "points": 1.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "10/7-Accuracy",
+   "due": "2026-10-07T23:59:00",
+   "points": 10.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "10/12",
+   "due": "2026-10-12T23:59:00",
+   "points": 1.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "10/12-Accuracy",
+   "due": "2026-10-12T23:59:00",
+   "points": 10.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "10/14",
+   "due": "2026-10-14T23:59:00",
+   "points": 1.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "10/14-Accuracy",
+   "due": "2026-10-14T23:59:00",
+   "points": 10.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "10/19",
+   "due": "2026-10-19T23:59:00",
+   "points": 1.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "10/19-Accuracy",
+   "due": "2026-10-19T23:59:00",
+   "points": 10.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "10/21",
+   "due": "2026-10-21T23:59:00",
+   "points": 1.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "10/21-Accuracy",
+   "due": "2026-10-21T23:59:00",
+   "points": 10.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "10/26",
+   "due": "2026-10-26T23:59:00",
+   "points": 1.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "10/26-Accuracy",
+   "due": "2026-10-26T23:59:00",
+   "points": 10.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "10/28",
+   "due": "2026-10-28T23:59:00",
+   "points": 1.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "10/28-Accuracy",
+   "due": "2026-10-28T23:59:00",
+   "points": 10.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "11/2",
+   "due": "2026-11-02T23:59:00",
+   "points": 1.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "11/2-Accuracy",
+   "due": "2026-11-02T23:59:00",
+   "points": 10.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "11/4",
+   "due": "2026-11-04T23:59:00",
+   "points": 1.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "11/4-Accuracy",
+   "due": "2026-11-04T23:59:00",
+   "points": 10.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "Oct News Analysis Participation",
+   "due": "2026-11-04T23:59:00",
+   "points": 1.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "11/9",
+   "due": "2026-11-09T23:59:00",
+   "points": 1.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "11/9-Accuracy",
+   "due": "2026-11-09T23:59:00",
+   "points": 10.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "11/11",
+   "due": "2026-11-11T23:59:00",
+   "points": 1.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "11/11-Accuracy",
+   "due": "2026-11-11T23:59:00",
+   "points": 10.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "11/16",
+   "due": "2026-11-16T23:59:00",
+   "points": 1.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "11/16-Accuracy",
+   "due": "2026-11-16T23:59:00",
+   "points": 10.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "11/18",
+   "due": "2026-11-18T23:59:00",
+   "points": 1.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "11/18-Accuracy",
+   "due": "2026-11-18T23:59:00",
+   "points": 10.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "11/30",
+   "due": "2026-11-30T23:59:00",
+   "points": 1.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "11/30-Accuracy",
+   "due": "2026-11-30T23:59:00",
+   "points": 10.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "Nov News Analysis Participation",
+   "due": "2026-12-02T23:00:00",
+   "points": 1.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "12/2",
+   "due": "2026-12-02T23:59:00",
+   "points": 1.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "12/2-Accuracy",
+   "due": "2026-12-02T23:59:00",
+   "points": 10.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "12/7",
+   "due": "2026-12-07T23:59:00",
+   "points": 1.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "12/7-Accuracy",
+   "due": "2026-12-07T23:59:00",
+   "points": 10.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "12/9",
+   "due": "2026-12-09T23:59:00",
+   "points": 1.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "12/9-Accuracy",
+   "due": "2026-12-09T23:59:00",
+   "points": 10.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "NE - Quiz #1",
+   "due": "2026-09-11T23:59:00",
+   "points": 5.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "NE - Quiz #2",
+   "due": "2026-09-18T23:59:00",
+   "points": 5.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "NE - Quiz #3",
+   "due": "2026-09-25T23:59:00",
+   "points": 5.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "NE - Quiz #4",
+   "due": "2026-10-02T23:59:00",
+   "points": 5.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "NE - Quiz #5",
+   "due": "2026-10-09T23:59:00",
+   "points": 5.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "NE - Quiz #6",
+   "due": "2026-10-16T23:59:00",
+   "points": 5.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "Naked Economics: Essay 1",
+   "due": "2026-10-16T23:59:00",
+   "points": 20.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "NE - Quiz #7",
+   "due": "2026-10-23T23:59:00",
+   "points": 5.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "NE - Quiz #8",
+   "due": "2026-10-30T23:59:00",
+   "points": 5.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "NE - Quiz #9",
+   "due": "2026-11-06T23:59:00",
+   "points": 5.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "NE - Quiz #10",
+   "due": "2026-11-13T23:59:00",
+   "points": 5.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "NE - Quiz #11",
+   "due": "2026-11-20T23:59:00",
+   "points": 5.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "NE - Quiz #12",
+   "due": "2026-12-04T23:59:00",
+   "points": 5.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "NE - Quiz #13",
+   "due": "2026-12-04T23:59:00",
+   "points": 5.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "Naked Economics: Essay 2",
+   "due": "2026-12-08T23:59:00",
+   "points": 20.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "Writing Assignments",
+   "due": "2026-12-09T23:59:00",
+   "points": 100.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "In-class",
+   "due": "2026-12-09T23:59:00",
+   "points": 100.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "Mankiw Bonus (Extra Credit)",
+   "due": "2026-12-09T23:59:00",
+   "points": 110.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "Baseline score (Extra Credit)",
+   "due": "2026-12-09T23:59:00",
+   "points": 1000.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "Final Semester Total Points",
+   "due": "2026-12-10T09:45:00",
+   "points": 1000.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "Midterm 1",
+   "due": "2026-10-02T16:00:00",
+   "points": 100.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "Midterm 2",
+   "due": "2026-11-06T19:00:00",
+   "points": 100.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "Final Exam",
+   "due": "2026-12-10T18:00:00",
+   "points": 225.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  }
+ ]
+}

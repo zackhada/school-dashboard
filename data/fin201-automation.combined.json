@@ -33,7 +33,7 @@
    "status": "blocked_inperson",
    "date": "2026-09-28",
    "note": "# in class 3:30pm",
-   "title": "Fin Midterm 1",
+   "title": "in class",
    "grade": null,
    "drift": false
   },
@@ -69,7 +69,7 @@
    "status": "blocked_inperson",
    "date": "2026-10-19",
    "note": "# in class 3:30pm",
-   "title": "Fin Midterm 2",
+   "title": "in class",
    "grade": null,
    "drift": false
   },
@@ -105,7 +105,7 @@
    "status": "blocked_inperson",
    "date": "2026-11-16",
    "note": "# in class 3:30pm",
-   "title": "Fin Midterm 3",
+   "title": "in class",
    "grade": null,
    "drift": false
   },
@@ -132,11 +132,11 @@
    "status": "blocked_inperson",
    "date": "2026-12-09",
    "note": "# in class 5:00pm",
-   "title": "Fin Final",
+   "title": "in class",
    "grade": null,
    "drift": false
   }
  ],
  "unmatched_canvas": [],
- "built_at": "2026-09-10T20:38:03.580118+00:00"
+ "built_at": "2026-09-10T20:46:51.095642+00:00"
 }

@@ -6,7 +6,7 @@
    "status": "done",
    "date": "2026-09-10",
    "note": "# Padlet post done (Zack posted himself, confirmed Telegram; no Canvas submission box exists)",
-   "title": "Preclass Padlet 0910",
+   "title": "Padlet post done (Zack posted himself, confirmed Telegram; no Canvas submission box exists)",
    "grade": {
     "canvas_id": 1466384,
     "name": "9/10 - Pre-Class Study and Padlet Sharing",
@@ -28,7 +28,7 @@
    "status": "done",
    "date": "2026-09-10",
    "note": "# submitted by Zack in class 12:15pm, graded 10/10",
-   "title": "Attendance Check 0910",
+   "title": "submitted by Zack in class , graded 10/10",
    "grade": {
     "canvas_id": 1465861,
     "name": "9/10 - Attendance Check",
@@ -72,7 +72,7 @@
    "status": "pending",
    "date": "2026-09-13",
    "note": "# Get-to-Know-You Assignment, due 2026-09-13T05:59:59Z, unsubmitted",
-   "title": "Get To Know You",
+   "title": "Get-to-Know-You Assignment",
    "grade": {
     "canvas_id": 1464249,
     "name": "Get-to-Know-You Assignment",
@@ -91,5 +91,5 @@
   }
  ],
  "unmatched_canvas": [],
- "built_at": "2026-09-10T20:38:03.574198+00:00"
+ "built_at": "2026-09-10T20:46:51.087804+00:00"
 }
