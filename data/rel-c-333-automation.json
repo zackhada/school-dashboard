@@ -1,29 +1,26 @@
 {
- "repo": "zackhada/rel-c-333-automation",
- "rows": [
-  {
-   "key": "SETUP_RECON",
-   "status": "done",
-   "date": "2026-09-04",
-   "note": "# recon 2026-09-07 LS unpublished; 2026-09-09 Canvas 38438 verified"
-  },
-  {
-   "key": "PRECLASS_PADLET_0910",
-   "status": "done",
-   "date": "2026-09-10",
-   "note": "# Padlet post done (Zack posted himself, confirmed Telegram; no Canvas submission box exists)"
-  },
-  {
-   "key": "SYLLABUS_QUIZ",
-   "status": "pending",
-   "date": "2026-09-13",
-   "note": "# Syllabus Quiz, due 2026-09-13T05:59:59Z, unsubmitted"
-  },
-  {
-   "key": "GET_TO_KNOW_YOU",
-   "status": "pending",
-   "date": "2026-09-13",
-   "note": "# Get-to-Know-You Assignment, due 2026-09-13T05:59:59Z, unsubmitted"
-  }
- ]
+  "repo": "zackhada/rel-c-333-automation",
+  "rows": [
+    {
+      "date": "2026-09-04",
+      "key": "SETUP_RECON",
+      "status": "done"
+    },
+    {
+      "date": "2026-09-10",
+      "key": "PRECLASS_PADLET_0910",
+      "status": "done"
+    },
+    {
+      "date": "2026-09-13",
+      "key": "SYLLABUS_QUIZ",
+      "status": "pending"
+    },
+    {
+      "date": "2026-09-13",
+      "key": "GET_TO_KNOW_YOU",
+      "status": "pending"
+    }
+  ],
+  "run_id": "34449151788"
 }

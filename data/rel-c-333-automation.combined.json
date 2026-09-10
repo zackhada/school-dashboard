@@ -5,7 +5,7 @@
    "key": "PRECLASS_PADLET_0910",
    "status": "done",
    "date": "2026-09-10",
-   "note": "# Padlet post done (Zack posted himself, confirmed Telegram; no Canvas submission box exists)",
+   "note": null,
    "title": "Preclass Padlet 0910",
    "grade": {
     "canvas_id": 1466384,
@@ -27,7 +27,7 @@
    "key": "SYLLABUS_QUIZ",
    "status": "pending",
    "date": "2026-09-13",
-   "note": "# Syllabus Quiz, due 2026-09-13T05:59:59Z, unsubmitted",
+   "note": null,
    "title": "Syllabus Quiz",
    "grade": {
     "canvas_id": 1464341,
@@ -49,7 +49,7 @@
    "key": "GET_TO_KNOW_YOU",
    "status": "pending",
    "date": "2026-09-13",
-   "note": "# Get-to-Know-You Assignment, due 2026-09-13T05:59:59Z, unsubmitted",
+   "note": null,
    "title": "Get To Know You",
    "grade": {
     "canvas_id": 1464249,
@@ -69,5 +69,5 @@
   }
  ],
  "unmatched_canvas": [],
- "built_at": "2026-09-10T06:37:15.699548+00:00"
+ "built_at": "2026-09-10T07:17:38.535693+00:00"
 }
