@@ -1,7 +1,11 @@
 {
  "repo": "zackhada/econ110-automation",
  "source": "learning-suite",
- "url": "https://learningsuite.byu.edu/.x3ZU/cid-1YPOkgOMQjjk/student/home/assignments",
+ "url": "https://learningsuite.byu.edu/.el3b/cid-1YPOkgOMQjjk/student/home/assignments",
+ "overall": {
+  "current_score": 97.92,
+  "source": "learning-suite-points"
+ },
  "rows": [
   {
    "name": "Cengage Registration",
