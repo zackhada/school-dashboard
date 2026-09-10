@@ -18,6 +18,7 @@ jobs:
         run: |
           if [ -z "$CANVAS_TOKEN" ]; then echo "No CANVAS_TOKEN; skipping."; exit 0; fi
           python3 scripts/scrape.py
+          python3 scripts/build.py
       - name: Commit truth
         run: |
           git config user.name "dashboard-bot"

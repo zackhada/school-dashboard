@@ -1,0 +1,439 @@
+{
+ "repo": "zackhada/econ110-automation",
+ "rows": [
+  {
+   "key": "ECON_SETUP_CENGAGE",
+   "status": "done",
+   "date": "2026-09-02",
+   "note": null,
+   "title": "Econ Setup Cengage",
+   "grade": null,
+   "drift": false
+  },
+  {
+   "key": "ECON_BIOSURVEY",
+   "status": "done",
+   "date": "2026-09-05",
+   "note": null,
+   "title": "Econ Biosurvey",
+   "grade": null,
+   "drift": false
+  },
+  {
+   "key": "ECON_SETUP_ICLICKER",
+   "status": "done",
+   "date": "2026-09-08",
+   "note": null,
+   "title": "Econ Setup Iclicker",
+   "grade": null,
+   "drift": false
+  },
+  {
+   "key": "ECON_MINDTAP_PRELIM",
+   "status": "done",
+   "date": "2026-09-08",
+   "note": null,
+   "title": "Econ Mindtap Prelim",
+   "grade": null,
+   "drift": false
+  },
+  {
+   "key": "ECON_MINDTAP_CH1",
+   "status": "done",
+   "date": "2026-09-08",
+   "note": null,
+   "title": "Econ Mindtap Ch1",
+   "grade": null,
+   "drift": false
+  },
+  {
+   "key": "ECON_MINDTAP_CH2PRE",
+   "status": "done",
+   "date": "2026-09-09",
+   "note": null,
+   "title": "Econ Mindtap Ch2pre",
+   "grade": null,
+   "drift": false
+  },
+  {
+   "key": "ECON_OAKS_QUIZ",
+   "status": "done",
+   "date": "2026-09-09",
+   "note": null,
+   "title": "Econ Oaks Quiz",
+   "grade": null,
+   "drift": false
+  },
+  {
+   "key": "ECON_MINDTAP_CH2",
+   "status": "pending",
+   "date": "2026-09-10",
+   "note": null,
+   "title": "Econ Mindtap Ch2",
+   "grade": null,
+   "drift": false
+  },
+  {
+   "key": "ECON_MEET_TA",
+   "status": "blocked_inperson",
+   "date": "2026-09-11",
+   "note": null,
+   "title": "Meet TA",
+   "grade": null,
+   "drift": false
+  },
+  {
+   "key": "ECON_NEQ_1",
+   "status": "pending",
+   "date": "2026-09-11",
+   "note": null,
+   "title": "Econ Neq 1",
+   "grade": null,
+   "drift": false
+  },
+  {
+   "key": "ECON_MANKIW_1",
+   "status": "pending",
+   "date": "2026-09-11",
+   "note": null,
+   "title": "Econ Mankiw 1",
+   "grade": null,
+   "drift": false
+  },
+  {
+   "key": "ECON_MINDTAP_CH3PRE",
+   "status": "pending",
+   "date": "2026-09-14",
+   "note": null,
+   "title": "Econ Mindtap Ch3pre",
+   "grade": null,
+   "drift": false
+  },
+  {
+   "key": "ECON_MINDTAP_CH3",
+   "status": "pending",
+   "date": "2026-09-15",
+   "note": null,
+   "title": "Econ Mindtap Ch3",
+   "grade": null,
+   "drift": false
+  },
+  {
+   "key": "ECON_MINDTAP_CH4PRE",
+   "status": "pending",
+   "date": "2026-09-16",
+   "note": null,
+   "title": "Econ Mindtap Ch4pre",
+   "grade": null,
+   "drift": false
+  },
+  {
+   "key": "ECON_MINDTAP_CH4",
+   "status": "pending",
+   "date": "2026-09-17",
+   "note": null,
+   "title": "Econ Mindtap Ch4",
+   "grade": null,
+   "drift": false
+  },
+  {
+   "key": "ECON_NEQ_2",
+   "status": "pending",
+   "date": "2026-09-18",
+   "note": null,
+   "title": "Econ Neq 2",
+   "grade": null,
+   "drift": false
+  },
+  {
+   "key": "ECON_MANKIW_2",
+   "status": "pending",
+   "date": "2026-09-18",
+   "note": null,
+   "title": "Econ Mankiw 2",
+   "grade": null,
+   "drift": false
+  },
+  {
+   "key": "ECON_NEQ_3",
+   "status": "pending",
+   "date": "2026-09-25",
+   "note": null,
+   "title": "Econ Neq 3",
+   "grade": null,
+   "drift": false
+  },
+  {
+   "key": "ECON_MANKIW_3",
+   "status": "pending",
+   "date": "2026-09-25",
+   "note": null,
+   "title": "Econ Mankiw 3",
+   "grade": null,
+   "drift": false
+  },
+  {
+   "key": "ECON_NEWS_SEPT",
+   "status": "pending",
+   "date": "2026-09-28",
+   "note": null,
+   "title": "Econ News Sept",
+   "grade": null,
+   "drift": false
+  },
+  {
+   "key": "ECON_NEQ_4",
+   "status": "pending",
+   "date": "2026-10-02",
+   "note": null,
+   "title": "Econ Neq 4",
+   "grade": null,
+   "drift": false
+  },
+  {
+   "key": "ECON_MANKIW_4",
+   "status": "pending",
+   "date": "2026-10-02",
+   "note": null,
+   "title": "Econ Mankiw 4",
+   "grade": null,
+   "drift": false
+  },
+  {
+   "key": "ECON_MIDTERM_1",
+   "status": "blocked_inperson",
+   "date": "2026-10-02",
+   "note": null,
+   "title": "Econ Midterm 1",
+   "grade": null,
+   "drift": false
+  },
+  {
+   "key": "ECON_PRECLASS_BEHAV",
+   "status": "pending",
+   "date": "2026-10-05",
+   "note": null,
+   "title": "Econ Preclass Behav",
+   "grade": null,
+   "drift": false
+  },
+  {
+   "key": "ECON_NEQ_5",
+   "status": "pending",
+   "date": "2026-10-09",
+   "note": null,
+   "title": "Econ Neq 5",
+   "grade": null,
+   "drift": false
+  },
+  {
+   "key": "ECON_NEQ_6",
+   "status": "pending",
+   "date": "2026-10-16",
+   "note": null,
+   "title": "Econ Neq 6",
+   "grade": null,
+   "drift": false
+  },
+  {
+   "key": "ECON_MANKIW_5",
+   "status": "pending",
+   "date": "2026-10-16",
+   "note": null,
+   "title": "Econ Mankiw 5",
+   "grade": null,
+   "drift": false
+  },
+  {
+   "key": "ECON_NAKED_ESSAY_1",
+   "status": "pending",
+   "date": "2026-10-16",
+   "note": null,
+   "title": "Econ Naked Essay 1",
+   "grade": null,
+   "drift": false
+  },
+  {
+   "key": "ECON_NEQ_7",
+   "status": "pending",
+   "date": "2026-10-23",
+   "note": null,
+   "title": "Econ Neq 7",
+   "grade": null,
+   "drift": false
+  },
+  {
+   "key": "ECON_MANKIW_6",
+   "status": "pending",
+   "date": "2026-10-23",
+   "note": null,
+   "title": "Econ Mankiw 6",
+   "grade": null,
+   "drift": false
+  },
+  {
+   "key": "ECON_NEQ_8",
+   "status": "pending",
+   "date": "2026-10-30",
+   "note": null,
+   "title": "Econ Neq 8",
+   "grade": null,
+   "drift": false
+  },
+  {
+   "key": "ECON_MANKIW_7",
+   "status": "pending",
+   "date": "2026-10-30",
+   "note": null,
+   "title": "Econ Mankiw 7",
+   "grade": null,
+   "drift": false
+  },
+  {
+   "key": "ECON_NEWS_OCT",
+   "status": "pending",
+   "date": "2026-11-04",
+   "note": null,
+   "title": "Econ News Oct",
+   "grade": null,
+   "drift": false
+  },
+  {
+   "key": "ECON_NEQ_9",
+   "status": "pending",
+   "date": "2026-11-06",
+   "note": null,
+   "title": "Econ Neq 9",
+   "grade": null,
+   "drift": false
+  },
+  {
+   "key": "ECON_MANKIW_8",
+   "status": "pending",
+   "date": "2026-11-06",
+   "note": null,
+   "title": "Econ Mankiw 8",
+   "grade": null,
+   "drift": false
+  },
+  {
+   "key": "ECON_MIDTERM_2",
+   "status": "blocked_inperson",
+   "date": "2026-11-06",
+   "note": null,
+   "title": "Econ Midterm 2",
+   "grade": null,
+   "drift": false
+  },
+  {
+   "key": "ECON_NEQ_10",
+   "status": "pending",
+   "date": "2026-11-13",
+   "note": null,
+   "title": "Econ Neq 10",
+   "grade": null,
+   "drift": false
+  },
+  {
+   "key": "ECON_MANKIW_9",
+   "status": "pending",
+   "date": "2026-11-13",
+   "note": null,
+   "title": "Econ Mankiw 9",
+   "grade": null,
+   "drift": false
+  },
+  {
+   "key": "ECON_NEQ_11",
+   "status": "pending",
+   "date": "2026-11-20",
+   "note": null,
+   "title": "Econ Neq 11",
+   "grade": null,
+   "drift": false
+  },
+  {
+   "key": "ECON_MANKIW_10",
+   "status": "pending",
+   "date": "2026-11-20",
+   "note": null,
+   "title": "Econ Mankiw 10",
+   "grade": null,
+   "drift": false
+  },
+  {
+   "key": "ECON_NEWS_NOV",
+   "status": "pending",
+   "date": "2026-12-02",
+   "note": null,
+   "title": "Econ News Nov",
+   "grade": null,
+   "drift": false
+  },
+  {
+   "key": "ECON_NEQ_12",
+   "status": "pending",
+   "date": "2026-12-04",
+   "note": null,
+   "title": "Econ Neq 12",
+   "grade": null,
+   "drift": false
+  },
+  {
+   "key": "ECON_NEQ_13",
+   "status": "pending",
+   "date": "2026-12-04",
+   "note": null,
+   "title": "Econ Neq 13",
+   "grade": null,
+   "drift": false
+  },
+  {
+   "key": "ECON_MANKIW_11",
+   "status": "pending",
+   "date": "2026-12-04",
+   "note": null,
+   "title": "Econ Mankiw 11",
+   "grade": null,
+   "drift": false
+  },
+  {
+   "key": "ECON_NAKED_ESSAY_2",
+   "status": "pending",
+   "date": "2026-12-08",
+   "note": null,
+   "title": "Econ Naked Essay 2",
+   "grade": null,
+   "drift": false
+  },
+  {
+   "key": "ECON_CHRISTENSEN_QUIZ",
+   "status": "pending",
+   "date": "2026-12-09",
+   "note": null,
+   "title": "Econ Christensen Quiz",
+   "grade": null,
+   "drift": false
+  },
+  {
+   "key": "ECON_FINAL",
+   "status": "blocked_inperson",
+   "date": "2026-12-10",
+   "note": null,
+   "title": "Econ Final",
+   "grade": null,
+   "drift": false
+  },
+  {
+   "key": "ECON_COURSE_EVAL",
+   "status": "pending",
+   "date": "2026-12-11",
+   "note": null,
+   "title": "Econ Course Eval",
+   "grade": null,
+   "drift": false
+  }
+ ],
+ "unmatched_canvas": [],
+ "built_at": "2026-09-10T00:02:51.117378+00:00"
+}

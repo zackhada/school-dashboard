@@ -98,9 +98,21 @@ function commentsCell(g){
   return g.comments.map(function(m){ return '<div class="cm">' + esc(m.comment||'') + ' <span class="small">— ' + esc(m.author||'grader') + '</span></div>'; }).join('');
 }
 Promise.all(REPOS.map(function(pair){
-  var led = fetch('data/' + pair[1] + '.json').then(function(r){ return r.ok ? r.json() : {rows:[]}; }).catch(function(){ return {rows:[]}; });
-  var grd = fetch('data/' + pair[1] + '.grades.json').then(function(r){ return r.ok ? r.json() : {rows:[]}; }).catch(function(){ return {rows:[]}; });
-  return Promise.all([led, grd]).then(function(p){ return {name: pair[0], repo: pair[1], rows: p[0].rows || [], grows: p[1].rows || []}; });
+  return fetch('data/' + pair[1] + '.combined.json').then(function(r){
+    if (!r.ok) throw new Error('no combined');
+    return r.json();
+  }).then(function(c){
+    return {name: pair[0], repo: pair[1],
+      rows: (c.rows || []).filter(function(x){ return !x.drift; }).map(function(x){
+        return {key: x.key, status: x.status, date: x.date, note: x.note};
+      }),
+      grows: (c.rows || []).map(function(x){ return x.grade; }).filter(Boolean),
+      drift: c.unmatched_canvas || []};
+  }).catch(function(){
+    var led = fetch('data/' + pair[1] + '.json').then(function(r){ return r.ok ? r.json() : {rows:[]}; }).catch(function(){ return {rows:[]}; });
+    var grd = fetch('data/' + pair[1] + '.grades.json').then(function(r){ return r.ok ? r.json() : {rows:[]}; }).catch(function(){ return {rows:[]}; });
+    return Promise.all([led, grd]).then(function(p){ return {name: pair[0], repo: pair[1], rows: p[0].rows || [], grows: p[1].rows || [], drift: []}; });
+  });
 })).then(function(classes){
   var html = '';
   classes.forEach(function(c){
@@ -153,6 +165,15 @@ Promise.all(REPOS.map(function(pair){
   }
   if (inperson) {
     document.getElementById('needs').innerHTML += '<h2>In person + proctored (7 days)</h2><table><colgroup><col class="c-assn"><col class="c-days"><col class="c-note"></colgroup><thead><tr><th>Assignment</th><th>Days Left</th><th>Details</th></tr></thead><tbody>'+inperson+'</tbody></table>';
+  }
+  var drift = '';
+  classes.forEach(function(c){
+    (c.drift || []).forEach(function(g){
+      drift += '<tr><td><b>' + c.name + ' — ' + esc(g.name) + '</b></td><td>' + esc(g.due ? String(g.due).slice(0,10) : 'n/a') + '</td><td>' + esc(g.score != null ? g.score : '—') + ' / ' + esc(g.points) + '</td></tr>';
+    });
+  });
+  if (drift) {
+    document.getElementById('needs').innerHTML += '<h2>Missing from ledger (' + classes.reduce(function(n,c){ return n + (c.drift||[]).length; }, 0) + ')</h2><p class="small">In Canvas but with no runner ledger row. Add them or they will never get done.</p><table><thead><tr><th>Assignment</th><th>Due</th><th>Grade</th></tr></thead><tbody>' + drift + '</tbody></table>';
   }
   document.getElementById('ts').textContent = 'Updated ' + new Date().toUTCString();
 });

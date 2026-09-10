@@ -1,0 +1,73 @@
+{
+ "repo": "zackhada/rel-c-333-automation",
+ "rows": [
+  {
+   "key": "PRECLASS_PADLET_0910",
+   "status": "done",
+   "date": "2026-09-10",
+   "note": "# Padlet post done (Zack posted himself, confirmed Telegram; no Canvas submission box exists)",
+   "title": "Preclass Padlet 0910",
+   "grade": {
+    "canvas_id": 1466384,
+    "name": "9/10 - Pre-Class Study and Padlet Sharing",
+    "due": "2026-09-10T17:59:59Z",
+    "points": 10,
+    "status": "unsubmitted",
+    "score": null,
+    "grade": null,
+    "missing": false,
+    "submitted_at": null,
+    "submission_type": null,
+    "my_submission": "",
+    "comments": []
+   },
+   "drift": false
+  },
+  {
+   "key": "SYLLABUS_QUIZ",
+   "status": "pending",
+   "date": "2026-09-13",
+   "note": "# Syllabus Quiz, due 2026-09-13T05:59:59Z, unsubmitted",
+   "title": "Syllabus Quiz",
+   "grade": {
+    "canvas_id": 1464341,
+    "name": "Syllabus Quiz",
+    "due": "2026-09-13T05:59:59Z",
+    "points": 10,
+    "status": "unsubmitted",
+    "score": null,
+    "grade": null,
+    "missing": false,
+    "submitted_at": null,
+    "submission_type": null,
+    "my_submission": "",
+    "comments": []
+   },
+   "drift": false
+  },
+  {
+   "key": "GET_TO_KNOW_YOU",
+   "status": "pending",
+   "date": "2026-09-13",
+   "note": "# Get-to-Know-You Assignment, due 2026-09-13T05:59:59Z, unsubmitted",
+   "title": "Get To Know You",
+   "grade": {
+    "canvas_id": 1464249,
+    "name": "Get-to-Know-You Assignment",
+    "due": "2026-09-13T05:59:59Z",
+    "points": 10,
+    "status": "unsubmitted",
+    "score": null,
+    "grade": null,
+    "missing": false,
+    "submitted_at": null,
+    "submission_type": null,
+    "my_submission": "",
+    "comments": []
+   },
+   "drift": false
+  }
+ ],
+ "unmatched_canvas": [],
+ "built_at": "2026-09-10T00:02:51.113011+00:00"
+}
