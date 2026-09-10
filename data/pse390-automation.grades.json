@@ -20,12 +20,12 @@
    "name": "Participation Quiz",
    "due": "2026-09-10T21:15:00Z",
    "points": 3.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
-   "missing": true,
-   "submitted_at": null,
-   "submission_type": null,
+   "status": "graded",
+   "score": 3.0,
+   "grade": "3",
+   "missing": false,
+   "submitted_at": "2026-09-10T20:25:26Z",
+   "submission_type": "online_quiz",
    "my_submission": "",
    "comments": []
   },
@@ -324,5 +324,6 @@
    "comments": []
   }
  ],
+ "overall": {},
  "source": "canvas-api"
 }
