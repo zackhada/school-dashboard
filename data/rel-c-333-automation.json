@@ -30,6 +30,30 @@
    "status": "pending",
    "date": "2026-09-13",
    "note": "# Get-to-Know-You Assignment, due 2026-09-13T05:59:59Z, unsubmitted"
+  },
+  {
+   "key": "ATTENDANCE_CHECK_0915",
+   "status": "blocked_inperson",
+   "date": "2026-09-15",
+   "note": "# Canvas 1465865, LTI external_tool, in-class window 12:00-12:50pm MT; Zack attends"
+  },
+  {
+   "key": "PRECLASS_PADLET_0915",
+   "status": "pending",
+   "date": "2026-09-15",
+   "note": "# Canvas 1466389, 10pt, Padlet post only (no Canvas box); drift-added 2026-09-10"
+  },
+  {
+   "key": "ATTENDANCE_CHECK_0917",
+   "status": "blocked_inperson",
+   "date": "2026-09-17",
+   "note": "# Canvas 1465866, LTI external_tool, in-class window 12:00-12:50pm MT; Zack attends"
+  },
+  {
+   "key": "PRECLASS_PADLET_0917",
+   "status": "pending",
+   "date": "2026-09-17",
+   "note": "# Canvas 1466454, 10pt, Padlet post only (no Canvas box); drift-added 2026-09-10"
   }
  ],
  "source": "progress.txt"

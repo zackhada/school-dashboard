@@ -90,33 +90,11 @@
    "drift": false
   },
   {
-   "key": "CANVAS_1466389",
-   "status": "missing_from_ledger",
+   "key": "ATTENDANCE_CHECK_0915",
+   "status": "blocked_inperson",
    "date": "2026-09-15",
-   "note": "# In Canvas but no ledger row; runner must add it",
-   "title": "9/15 - Pre-Class Study and Padlet Sharing",
-   "grade": {
-    "canvas_id": 1466389,
-    "name": "9/15 - Pre-Class Study and Padlet Sharing",
-    "due": "2026-09-15T17:59:59Z",
-    "points": 10.0,
-    "status": "unsubmitted",
-    "score": null,
-    "grade": null,
-    "missing": true,
-    "submitted_at": null,
-    "submission_type": null,
-    "my_submission": "",
-    "comments": []
-   },
-   "drift": true
-  },
-  {
-   "key": "CANVAS_1465865",
-   "status": "missing_from_ledger",
-   "date": "2026-09-15",
-   "note": "# In Canvas but no ledger row; runner must add it",
-   "title": "9/15 - Attendance Check",
+   "note": "# Canvas 1465865, LTI external_tool, in-class window 12:00-12:50pm MT; Zack attends",
+   "title": "Canvas 1465865, LTI external_tool, in-class window - MT; Zack attends",
    "grade": {
     "canvas_id": 1465865,
     "name": "9/15 - Attendance Check",
@@ -131,18 +109,18 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": true
+   "drift": false
   },
   {
-   "key": "CANVAS_1466454",
-   "status": "missing_from_ledger",
-   "date": "2026-09-17",
-   "note": "# In Canvas but no ledger row; runner must add it",
-   "title": "9/17 - Pre-Class Study and Padlet Sharing",
+   "key": "PRECLASS_PADLET_0915",
+   "status": "pending",
+   "date": "2026-09-15",
+   "note": "# Canvas 1466389, 10pt, Padlet post only (no Canvas box); drift-added 2026-09-10",
+   "title": "Canvas 1466389, , Padlet post only (no Canvas box); drift-added 2026-09-10",
    "grade": {
-    "canvas_id": 1466454,
-    "name": "9/17 - Pre-Class Study and Padlet Sharing",
-    "due": "2026-09-17T17:59:59Z",
+    "canvas_id": 1466389,
+    "name": "9/15 - Pre-Class Study and Padlet Sharing",
+    "due": "2026-09-15T17:59:59Z",
     "points": 10.0,
     "status": "unsubmitted",
     "score": null,
@@ -153,14 +131,14 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": true
+   "drift": false
   },
   {
-   "key": "CANVAS_1465866",
-   "status": "missing_from_ledger",
+   "key": "ATTENDANCE_CHECK_0917",
+   "status": "blocked_inperson",
    "date": "2026-09-17",
-   "note": "# In Canvas but no ledger row; runner must add it",
-   "title": "9/17 - Attendance Check",
+   "note": "# Canvas 1465866, LTI external_tool, in-class window 12:00-12:50pm MT; Zack attends",
+   "title": "Canvas 1465866, LTI external_tool, in-class window - MT; Zack attends",
    "grade": {
     "canvas_id": 1465866,
     "name": "9/17 - Attendance Check",
@@ -175,72 +153,37 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": true
+   "drift": false
+  },
+  {
+   "key": "PRECLASS_PADLET_0917",
+   "status": "pending",
+   "date": "2026-09-17",
+   "note": "# Canvas 1466454, 10pt, Padlet post only (no Canvas box); drift-added 2026-09-10",
+   "title": "Canvas 1466454, , Padlet post only (no Canvas box); drift-added 2026-09-10",
+   "grade": {
+    "canvas_id": 1466454,
+    "name": "9/17 - Pre-Class Study and Padlet Sharing",
+    "due": "2026-09-17T17:59:59Z",
+    "points": 10.0,
+    "status": "unsubmitted",
+    "score": null,
+    "grade": null,
+    "missing": true,
+    "submitted_at": null,
+    "submission_type": null,
+    "my_submission": "",
+    "comments": []
+   },
+   "drift": false
   }
  ],
- "unmatched_canvas": [
-  {
-   "canvas_id": 1466389,
-   "name": "9/15 - Pre-Class Study and Padlet Sharing",
-   "due": "2026-09-15T17:59:59Z",
-   "points": 10.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
-   "missing": true,
-   "submitted_at": null,
-   "submission_type": null,
-   "my_submission": "",
-   "comments": []
-  },
-  {
-   "canvas_id": 1465865,
-   "name": "9/15 - Attendance Check",
-   "due": "2026-09-15T18:50:00Z",
-   "points": 10.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
-   "missing": true,
-   "submitted_at": null,
-   "submission_type": null,
-   "my_submission": "",
-   "comments": []
-  },
-  {
-   "canvas_id": 1466454,
-   "name": "9/17 - Pre-Class Study and Padlet Sharing",
-   "due": "2026-09-17T17:59:59Z",
-   "points": 10.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
-   "missing": true,
-   "submitted_at": null,
-   "submission_type": null,
-   "my_submission": "",
-   "comments": []
-  },
-  {
-   "canvas_id": 1465866,
-   "name": "9/17 - Attendance Check",
-   "due": "2026-09-17T18:50:00Z",
-   "points": 10.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
-   "missing": true,
-   "submitted_at": null,
-   "submission_type": null,
-   "my_submission": "",
-   "comments": []
-  }
- ],
+ "unmatched_canvas": [],
  "overall": {
   "current_score": 100.0,
   "current_grade": "A",
   "final_score": 32.05,
   "final_grade": "E"
  },
- "built_at": "2026-09-10T22:09:46.142352+00:00"
+ "built_at": "2026-09-10T22:21:21.318024+00:00"
 }

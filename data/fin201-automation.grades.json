@@ -1,0 +1,117 @@
+{
+ "repo": "zackhada/fin201-automation",
+ "source": "myeducator",
+ "course_id": "406j",
+ "rows": [
+  {
+   "name": "Topic 2 Quiz",
+   "due": "2026-10-21T10:00:00",
+   "points": null,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "myeducator",
+   "comments": []
+  },
+  {
+   "name": "Topic 3 Quiz",
+   "due": "2026-10-28T10:00:00",
+   "points": null,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "myeducator",
+   "comments": []
+  },
+  {
+   "name": "Topic 4 Quiz",
+   "due": "2026-11-04T10:00:00",
+   "points": null,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "myeducator",
+   "comments": []
+  },
+  {
+   "name": "Topic 5 Quiz",
+   "due": "2026-09-16T10:00:00",
+   "points": null,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "myeducator",
+   "comments": []
+  },
+  {
+   "name": "Topic 6 Quiz",
+   "due": "2026-09-16T10:00:00",
+   "points": null,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "myeducator",
+   "comments": []
+  },
+  {
+   "name": "Topic 7 Quiz",
+   "due": "2026-09-23T10:00:00",
+   "points": null,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "myeducator",
+   "comments": []
+  },
+  {
+   "name": "Topic 8 Quiz",
+   "due": "2026-09-30T10:00:00",
+   "points": null,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "myeducator",
+   "comments": []
+  },
+  {
+   "name": "Topic 9 Quiz",
+   "due": "2026-10-07T10:00:00",
+   "points": null,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "myeducator",
+   "comments": []
+  },
+  {
+   "name": "Topic 11 Quiz",
+   "due": "2026-12-02T10:00:00",
+   "points": null,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "myeducator",
+   "comments": []
+  },
+  {
+   "name": "Topic 12 Quiz",
+   "due": "2026-12-09T10:00:00",
+   "points": null,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "myeducator",
+   "comments": []
+  },
+  {
+   "name": "Topic 13 Quiz",
+   "due": "2026-10-14T10:00:00",
+   "points": null,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "myeducator",
+   "comments": []
+  }
+ ]
+}
