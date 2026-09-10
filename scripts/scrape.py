@@ -49,14 +49,13 @@ def self_id():
     return json.load(urllib.request.urlopen(req, timeout=30))["id"]
 
 
-def course_overall(cid):
+def course_overall(cid, uid):
     """Current overall grade for the enrolled user in one Canvas course."""
     try:
-        data = api(f"/api/v1/courses/{cid}?include[]=enrollments")
-        course = data[0] if isinstance(data, list) and data else data
-        for e in (course or {}).get("enrollments", []):
+        data = api(f"/api/v1/courses/{cid}/enrollments?user_id={uid}&per_page=100")
+        for e in data:
             g = e.get("grades") or {}
-            if g:
+            if e.get("user_id") == uid and g.get("current_score") is not None:
                 return {"current_score": g.get("current_score"),
                         "current_grade": g.get("current_grade"),
                         "final_score": g.get("final_score"),
@@ -131,7 +130,7 @@ def main():
             )
         rows.sort(key=lambda r: (r["due"] is None, r["due"] or ""))
         os.makedirs(os.path.join(ROOT, "data"), exist_ok=True)
-        overall = course_overall(cid)
+        overall = course_overall(cid, uid)
         json.dump({"repo": f"zackhada/{repo}", "rows": rows,
                    "overall": overall, "source": "canvas-api"},
                   open(os.path.join(ROOT, "data", f"{repo}.grades.json"), "w"), indent=1)
