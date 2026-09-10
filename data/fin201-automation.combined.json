@@ -5,8 +5,8 @@
    "key": "FIN_QUIZ_5",
    "status": "pending",
    "date": "2026-09-16",
-   "note": "# Topic 5 Quiz 10:00am",
-   "title": "Topic 5 Quiz 10:00am",
+   "note": null,
+   "title": "Fin Quiz 5",
    "grade": null,
    "drift": false
   },
@@ -14,8 +14,8 @@
    "key": "FIN_QUIZ_6",
    "status": "pending",
    "date": "2026-09-16",
-   "note": "# Topic 6 Quiz",
-   "title": "Topic 6 Quiz",
+   "note": null,
+   "title": "Fin Quiz 6",
    "grade": null,
    "drift": false
   },
@@ -23,8 +23,8 @@
    "key": "FIN_QUIZ_7",
    "status": "pending",
    "date": "2026-09-23",
-   "note": "# Topic 7 Quiz",
-   "title": "Topic 7 Quiz",
+   "note": null,
+   "title": "Fin Quiz 7",
    "grade": null,
    "drift": false
   },
@@ -32,7 +32,7 @@
    "key": "FIN_MIDTERM_1",
    "status": "blocked_inperson",
    "date": "2026-09-28",
-   "note": "# in class 3:30pm",
+   "note": null,
    "title": "Fin Midterm 1",
    "grade": null,
    "drift": false
@@ -41,8 +41,8 @@
    "key": "FIN_QUIZ_8",
    "status": "pending",
    "date": "2026-09-30",
-   "note": "# Topic 8 Quiz",
-   "title": "Topic 8 Quiz",
+   "note": null,
+   "title": "Fin Quiz 8",
    "grade": null,
    "drift": false
   },
@@ -50,8 +50,8 @@
    "key": "FIN_QUIZ_9",
    "status": "pending",
    "date": "2026-10-07",
-   "note": "# Topic 9 Quiz",
-   "title": "Topic 9 Quiz",
+   "note": null,
+   "title": "Fin Quiz 9",
    "grade": null,
    "drift": false
   },
@@ -59,8 +59,8 @@
    "key": "FIN_QUIZ_13",
    "status": "pending",
    "date": "2026-10-14",
-   "note": "# Topic 13 Quiz",
-   "title": "Topic 13 Quiz",
+   "note": null,
+   "title": "Fin Quiz 13",
    "grade": null,
    "drift": false
   },
@@ -68,7 +68,7 @@
    "key": "FIN_MIDTERM_2",
    "status": "blocked_inperson",
    "date": "2026-10-19",
-   "note": "# in class 3:30pm",
+   "note": null,
    "title": "Fin Midterm 2",
    "grade": null,
    "drift": false
@@ -77,8 +77,8 @@
    "key": "FIN_QUIZ_2",
    "status": "pending",
    "date": "2026-10-21",
-   "note": "# Topic 2 Quiz",
-   "title": "Topic 2 Quiz",
+   "note": null,
+   "title": "Fin Quiz 2",
    "grade": null,
    "drift": false
   },
@@ -86,8 +86,8 @@
    "key": "FIN_QUIZ_3",
    "status": "pending",
    "date": "2026-10-28",
-   "note": "# Topic 3 Quiz",
-   "title": "Topic 3 Quiz",
+   "note": null,
+   "title": "Fin Quiz 3",
    "grade": null,
    "drift": false
   },
@@ -95,8 +95,8 @@
    "key": "FIN_QUIZ_4",
    "status": "pending",
    "date": "2026-11-04",
-   "note": "# Topic 4 Quiz",
-   "title": "Topic 4 Quiz",
+   "note": null,
+   "title": "Fin Quiz 4",
    "grade": null,
    "drift": false
   },
@@ -104,7 +104,7 @@
    "key": "FIN_MIDTERM_3",
    "status": "blocked_inperson",
    "date": "2026-11-16",
-   "note": "# in class 3:30pm",
+   "note": null,
    "title": "Fin Midterm 3",
    "grade": null,
    "drift": false
@@ -113,8 +113,8 @@
    "key": "FIN_QUIZ_11",
    "status": "pending",
    "date": "2026-11-18",
-   "note": "# Topic 11 Quiz",
-   "title": "Topic 11 Quiz",
+   "note": null,
+   "title": "Fin Quiz 11",
    "grade": null,
    "drift": false
   },
@@ -122,8 +122,8 @@
    "key": "FIN_QUIZ_12",
    "status": "pending",
    "date": "2026-11-30",
-   "note": "# Topic 12 Quiz",
-   "title": "Topic 12 Quiz",
+   "note": null,
+   "title": "Fin Quiz 12",
    "grade": null,
    "drift": false
   },
@@ -131,12 +131,12 @@
    "key": "FIN_FINAL",
    "status": "blocked_inperson",
    "date": "2026-12-09",
-   "note": "# in class 5:00pm",
+   "note": null,
    "title": "Fin Final",
    "grade": null,
    "drift": false
   }
  ],
  "unmatched_canvas": [],
- "built_at": "2026-09-10T01:27:09.448346+00:00"
+ "built_at": "2026-09-10T01:27:33.586489+00:00"
 }
