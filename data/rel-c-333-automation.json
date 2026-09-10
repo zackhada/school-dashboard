@@ -15,9 +15,9 @@
   },
   {
    "key": "ATTENDANCE_CHECK_0910",
-   "status": "blocked_inperson",
+   "status": "done",
    "date": "2026-09-10",
-   "note": "# Canvas 1465861, LTI external_tool, unlock 12:00-12:50pm MT today only; in-class attendance check, Zack attends"
+   "note": "# submitted by Zack in class 12:15pm, graded 10/10"
   },
   {
    "key": "SYLLABUS_QUIZ",
@@ -32,5 +32,5 @@
    "note": "# Get-to-Know-You Assignment, due 2026-09-13T05:59:59Z, unsubmitted"
   }
  ],
- "run_id": "34449151788"
+ "source": "progress.txt"
 }

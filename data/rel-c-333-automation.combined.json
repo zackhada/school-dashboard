@@ -25,9 +25,9 @@
   },
   {
    "key": "ATTENDANCE_CHECK_0910",
-   "status": "blocked_inperson",
+   "status": "done",
    "date": "2026-09-10",
-   "note": "# Canvas 1465861, LTI external_tool, unlock 12:00-12:50pm MT today only; in-class attendance check, Zack attends",
+   "note": "# submitted by Zack in class 12:15pm, graded 10/10",
    "title": "Attendance Check 0910",
    "grade": {
     "canvas_id": 1465861,
@@ -91,5 +91,5 @@
   }
  ],
  "unmatched_canvas": [],
- "built_at": "2026-09-10T17:00:58.445712+00:00"
+ "built_at": "2026-09-10T20:38:03.574198+00:00"
 }

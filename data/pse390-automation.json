@@ -21,9 +21,9 @@
   },
   {
    "key": "PARTICIPATION_QUIZ_SEP10",
-   "status": "blocked_inperson",
+   "status": "done",
    "date": "2026-09-10",
-   "note": "# in-class participation code, avail Sep 10 2pm-3:17pm MT (77-min window), locked until class"
+   "note": "# code 7314, 3/3 (PEPSICO was the bit.ly decoy, corrected on attempt 2)"
   },
   {
    "key": "ETHICS_PUBLIC_QUIZ_WK01",
@@ -158,5 +158,5 @@
    "note": "# Canvas 1495641, online_upload 10pts, due 2026-10-18T05:59:59Z"
   }
  ],
- "run_id": "34442771103"
+ "source": "progress.txt"
 }

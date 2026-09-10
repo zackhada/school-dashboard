@@ -25,9 +25,9 @@
   },
   {
    "key": "PARTICIPATION_QUIZ_SEP10",
-   "status": "blocked_inperson",
+   "status": "done",
    "date": "2026-09-10",
-   "note": "# in-class participation code, avail Sep 10 2pm-3:17pm MT (77-min window), locked until class",
+   "note": "# code 7314, 3/3 (PEPSICO was the bit.ly decoy, corrected on attempt 2)",
    "title": "Participation Quiz Sep 10",
    "grade": {
     "canvas_id": 1495490,
@@ -518,5 +518,5 @@
   }
  ],
  "unmatched_canvas": [],
- "built_at": "2026-09-10T17:00:58.450962+00:00"
+ "built_at": "2026-09-10T20:38:03.579241+00:00"
 }
