@@ -1044,16 +1044,6 @@
    "comments": []
   },
   {
-   "name": "Final Semester Total Points",
-   "due": "2026-12-10T09:45:00",
-   "points": 1000.0,
-   "score": null,
-   "status": "not_graded",
-   "missing": false,
-   "submission_type": "learning_suite",
-   "comments": []
-  },
-  {
    "name": "Midterm 1",
    "due": "2026-10-02T16:00:00",
    "points": 100.0,
