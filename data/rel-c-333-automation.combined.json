@@ -11,7 +11,7 @@
     "canvas_id": 1466384,
     "name": "9/10 - Pre-Class Study and Padlet Sharing",
     "due": "2026-09-10T17:59:59Z",
-    "points": 10,
+    "points": 10.0,
     "status": "unsubmitted",
     "score": null,
     "grade": null,
@@ -33,7 +33,7 @@
     "canvas_id": 1464341,
     "name": "Syllabus Quiz",
     "due": "2026-09-13T05:59:59Z",
-    "points": 10,
+    "points": 10.0,
     "status": "unsubmitted",
     "score": null,
     "grade": null,
@@ -55,7 +55,7 @@
     "canvas_id": 1464249,
     "name": "Get-to-Know-You Assignment",
     "due": "2026-09-13T05:59:59Z",
-    "points": 10,
+    "points": 10.0,
     "status": "unsubmitted",
     "score": null,
     "grade": null,
@@ -69,5 +69,5 @@
   }
  ],
  "unmatched_canvas": [],
- "built_at": "2026-09-10T01:27:33.583998+00:00"
+ "built_at": "2026-09-10T02:10:30.400150+00:00"
 }

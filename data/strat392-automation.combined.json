@@ -11,9 +11,9 @@
     "canvas_id": 1496217,
     "name": "9-8 In Class Quiz",
     "due": "2026-09-09T05:30:00Z",
-    "points": 10,
+    "points": 10.0,
     "status": "graded",
-    "score": 10,
+    "score": 10.0,
     "grade": "10",
     "missing": false,
     "submitted_at": "2026-09-09T20:29:12Z",
@@ -33,7 +33,7 @@
     "canvas_id": 1496330,
     "name": "Measuring Market Concentration",
     "due": "2026-09-12T05:59:59Z",
-    "points": 10,
+    "points": 10.0,
     "status": "unsubmitted",
     "score": null,
     "grade": null,
@@ -47,5 +47,5 @@
   }
  ],
  "unmatched_canvas": [],
- "built_at": "2026-09-10T01:27:33.583712+00:00"
+ "built_at": "2026-09-10T02:10:30.399772+00:00"
 }
