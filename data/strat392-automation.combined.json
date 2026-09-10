@@ -25,9 +25,9 @@
   },
   {
    "key": "MEASURING_MARKET_CONCENTRATION",
-   "status": "pending",
+   "status": "done",
    "date": "2026-09-12",
-   "note": "# Measuring Market Concentration, due 2026-09-12T05:59:59Z, 10pts, unsubmitted",
+   "note": "# Measuring Market Concentration, due 2026-09-12T05:59:59Z, 10pts, submitted 2026-09-10, 10/10",
    "title": "Measuring Market Concentration",
    "grade": {
     "canvas_id": 1496330,
@@ -53,5 +53,5 @@
   "final_score": 50.0,
   "final_grade": "E"
  },
- "built_at": "2026-09-10T23:13:58.778966+00:00"
+ "built_at": "2026-09-10T23:28:24.461168+00:00"
 }

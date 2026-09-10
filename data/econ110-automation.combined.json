@@ -111,10 +111,10 @@
   },
   {
    "key": "ECON_MANKIW_1",
-   "status": "pending",
+   "status": "done",
    "date": "2026-09-11",
-   "note": "# Mankiw Bonus #1 essay, LS submit",
-   "title": "Mankiw Bonus #1 essay, LS submit",
+   "note": "# Mankiw Bonus #1 (6pt EC): Ch1 Q3,5,11 + Ch2 Q2,3 textbook problems, LS file submit; TA passoff separate",
+   "title": "Mankiw Bonus #1 ( EC): Ch1 Q3,5,11 + Ch2 Q2,3 textbook problems, LS file submit; TA passoff separate",
    "grade": {
     "name": "Mankiw Bonus #1 (Extra Credit)",
     "due": "2026-09-11T23:59:00",
@@ -143,6 +143,24 @@
    "note": "# Ch 3 Homework Cengage, due Tue 11pm MDT",
    "title": "Ch 3 Homework Cengage",
    "grade": null,
+   "drift": false
+  },
+  {
+   "key": "ECON_TA_PASSOFF_1",
+   "status": "blocked_inperson",
+   "date": "2026-09-15",
+   "note": "# meet TA, pass off one Q from Mankiw #1 (found live 2026-09-10)",
+   "title": "meet TA, pass off one Q from Mankiw #1 (found live 2026-09-10)",
+   "grade": {
+    "name": "TA Passoff #1 (Extra Credit)",
+    "due": "2026-09-15T23:59:00",
+    "points": 2.0,
+    "score": null,
+    "status": "not_graded",
+    "missing": false,
+    "submission_type": "learning_suite",
+    "comments": []
+   },
    "drift": false
   },
   {
@@ -790,5 +808,5 @@
   "current_score": 97.92,
   "source": "learning-suite-points"
  },
- "built_at": "2026-09-10T23:13:58.915086+00:00"
+ "built_at": "2026-09-10T23:28:24.485608+00:00"
 }
