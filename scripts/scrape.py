@@ -99,7 +99,7 @@ def main():
                 (?,?,?,?,?,?,?,?,?,?,?,?,?,?,datetime('now'))""",
                 (a["id"], cid, repo, a.get("name"), a.get("due_at"),
                  a.get("points_possible"), ws, sub.get("score"),
-                 sub.get("grade"), int(bool(sub.get("missing"))),
+                 sub.get("grade"), int(missing),
                  sub.get("submission_type"), sub.get("submitted_at"),
                  my_text, json.dumps(comments)),
             )
@@ -107,7 +107,7 @@ def main():
                 {"canvas_id": a["id"], "name": a.get("name"),
                  "due": a.get("due_at"), "points": a.get("points_possible"),
                  "status": ws, "score": sub.get("score"),
-                 "grade": sub.get("grade"), "missing": bool(sub.get("missing")),
+                 "grade": sub.get("grade"), "missing": missing,
                  "submitted_at": sub.get("submitted_at"),
                  "submission_type": sub.get("submission_type"),
                  "my_submission": my_text, "comments": comments}

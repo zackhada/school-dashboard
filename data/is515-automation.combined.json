@@ -51,15 +51,6 @@
    "date": "2026-09-16",
    "note": null,
    "title": "Is Debug",
-   "grade": null,
-   "drift": false
-  },
-  {
-   "key": "CANVAS_1452619",
-   "status": "missing_from_ledger",
-   "date": "2026-09-17",
-   "note": "# In Canvas but no ledger row; runner must add it",
-   "title": "2.8 Debugging Assessment",
    "grade": {
     "canvas_id": 1452619,
     "name": "2.8 Debugging Assessment",
@@ -74,7 +65,7 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": true
+   "drift": false
   },
   {
    "key": "IS_DATES",
@@ -126,15 +117,6 @@
    "date": "2026-09-28",
    "note": null,
    "title": "Is Condfmt",
-   "grade": null,
-   "drift": false
-  },
-  {
-   "key": "CANVAS_1452623",
-   "status": "missing_from_ledger",
-   "date": "2026-09-29",
-   "note": "# In Canvas but no ledger row; runner must add it",
-   "title": "5.12 Conditional Formatting and Data Validation Assessment",
    "grade": {
     "canvas_id": 1452623,
     "name": "5.12 Conditional Formatting and Data Validation Assessment",
@@ -149,7 +131,7 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": true
+   "drift": false
   },
   {
    "key": "IS_TABLES",
@@ -267,15 +249,6 @@
    "date": "2026-10-28",
    "note": null,
    "title": "Is Fin",
-   "grade": null,
-   "drift": false
-  },
-  {
-   "key": "CANVAS_1452613",
-   "status": "missing_from_ledger",
-   "date": "2026-10-29",
-   "note": "# In Canvas but no ledger row; runner must add it",
-   "title": "12.7 Financial Formulas Assessment",
    "grade": {
     "canvas_id": 1452613,
     "name": "12.7 Financial Formulas Assessment",
@@ -290,7 +263,7 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": true
+   "drift": false
   },
   {
    "key": "IS_COUNT",
@@ -298,15 +271,6 @@
    "date": "2026-11-02",
    "note": null,
    "title": "Is Count",
-   "grade": null,
-   "drift": false
-  },
-  {
-   "key": "CANVAS_1452614",
-   "status": "missing_from_ledger",
-   "date": "2026-11-03",
-   "note": "# In Canvas but no ledger row; runner must add it",
-   "title": "13.11 Counting and Summing Assessment",
    "grade": {
     "canvas_id": 1452614,
     "name": "13.11 Counting and Summing Assessment",
@@ -321,7 +285,7 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": true
+   "drift": false
   },
   {
    "key": "IS_LOOKUP",
@@ -329,15 +293,6 @@
    "date": "2026-11-04",
    "note": null,
    "title": "Is Lookup",
-   "grade": null,
-   "drift": false
-  },
-  {
-   "key": "CANVAS_1452615",
-   "status": "missing_from_ledger",
-   "date": "2026-11-05",
-   "note": "# In Canvas but no ledger row; runner must add it",
-   "title": "14.9 Lookups Assessment",
    "grade": {
     "canvas_id": 1452615,
     "name": "14.9 Lookups Assessment",
@@ -352,7 +307,7 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": true
+   "drift": false
   },
   {
    "key": "IS_TEXT",
@@ -382,15 +337,6 @@
    "date": "2026-11-11",
    "note": null,
    "title": "Is Mega",
-   "grade": null,
-   "drift": false
-  },
-  {
-   "key": "CANVAS_1452617",
-   "status": "missing_from_ledger",
-   "date": "2026-11-12",
-   "note": "# In Canvas but no ledger row; runner must add it",
-   "title": "16.6 Megaformulas Assessment",
    "grade": {
     "canvas_id": 1452617,
     "name": "16.6 Megaformulas Assessment",
@@ -405,7 +351,7 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": true
+   "drift": false
   },
   {
    "key": "IS_CLEAN",
@@ -413,15 +359,6 @@
    "date": "2026-11-16",
    "note": null,
    "title": "Is Clean",
-   "grade": null,
-   "drift": false
-  },
-  {
-   "key": "CANVAS_1452618",
-   "status": "missing_from_ledger",
-   "date": "2026-11-17",
-   "note": "# In Canvas but no ledger row; runner must add it",
-   "title": "17.9 Importing and Cleaning Data Assessment",
    "grade": {
     "canvas_id": 1452618,
     "name": "17.9 Importing and Cleaning Data Assessment",
@@ -436,7 +373,7 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": true
+   "drift": false
   },
   {
    "key": "IS_VBA",
@@ -483,105 +420,6 @@
    "drift": false
   }
  ],
- "unmatched_canvas": [
-  {
-   "canvas_id": 1452619,
-   "name": "2.8 Debugging Assessment",
-   "due": "2026-09-17T05:59:59Z",
-   "points": 20.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
-   "missing": false,
-   "submitted_at": null,
-   "submission_type": null,
-   "my_submission": "",
-   "comments": []
-  },
-  {
-   "canvas_id": 1452623,
-   "name": "5.12 Conditional Formatting and Data Validation Assessment",
-   "due": "2026-09-29T05:59:59Z",
-   "points": 20.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
-   "missing": false,
-   "submitted_at": null,
-   "submission_type": null,
-   "my_submission": "",
-   "comments": []
-  },
-  {
-   "canvas_id": 1452613,
-   "name": "12.7 Financial Formulas Assessment",
-   "due": "2026-10-29T05:59:59Z",
-   "points": 20.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
-   "missing": false,
-   "submitted_at": null,
-   "submission_type": null,
-   "my_submission": "",
-   "comments": []
-  },
-  {
-   "canvas_id": 1452614,
-   "name": "13.11 Counting and Summing Assessment",
-   "due": "2026-11-03T06:59:59Z",
-   "points": 20.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
-   "missing": false,
-   "submitted_at": null,
-   "submission_type": null,
-   "my_submission": "",
-   "comments": []
-  },
-  {
-   "canvas_id": 1452615,
-   "name": "14.9 Lookups Assessment",
-   "due": "2026-11-05T06:59:59Z",
-   "points": 20.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
-   "missing": false,
-   "submitted_at": null,
-   "submission_type": null,
-   "my_submission": "",
-   "comments": []
-  },
-  {
-   "canvas_id": 1452617,
-   "name": "16.6 Megaformulas Assessment",
-   "due": "2026-11-12T06:59:59Z",
-   "points": 20.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
-   "missing": false,
-   "submitted_at": null,
-   "submission_type": null,
-   "my_submission": "",
-   "comments": []
-  },
-  {
-   "canvas_id": 1452618,
-   "name": "17.9 Importing and Cleaning Data Assessment",
-   "due": "2026-11-17T06:59:59Z",
-   "points": 20.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
-   "missing": false,
-   "submitted_at": null,
-   "submission_type": null,
-   "my_submission": "",
-   "comments": []
-  }
- ],
- "built_at": "2026-09-10T11:14:12.694322+00:00"
+ "unmatched_canvas": [],
+ "built_at": "2026-09-10T16:39:48.305842+00:00"
 }

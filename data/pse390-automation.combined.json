@@ -24,15 +24,6 @@
    "drift": false
   },
   {
-   "key": "CANVAS_RECON_0909",
-   "status": "done",
-   "date": "2026-09-09",
-   "note": null,
-   "title": "Canvas Recon 0909",
-   "grade": null,
-   "drift": false
-  },
-  {
    "key": "PARTICIPATION_QUIZ_SEP10",
    "status": "blocked_inperson",
    "date": "2026-09-10",
@@ -324,20 +315,7 @@
    "date": "2026-10-18",
    "note": null,
    "title": "Weekly Quiz Wk06",
-   "grade": {
-    "canvas_id": 1495641,
-    "name": "Teaching Ethics in the Home Assignment",
-    "due": "2026-10-18T05:59:59Z",
-    "points": 10.0,
-    "status": "unsubmitted",
-    "score": null,
-    "grade": null,
-    "missing": false,
-    "submitted_at": null,
-    "submission_type": null,
-    "my_submission": "",
-    "comments": []
-   },
+   "grade": null,
    "drift": false
   },
   {
@@ -540,5 +518,5 @@
   }
  ],
  "unmatched_canvas": [],
- "built_at": "2026-09-10T11:14:12.692249+00:00"
+ "built_at": "2026-09-10T16:39:48.301853+00:00"
 }

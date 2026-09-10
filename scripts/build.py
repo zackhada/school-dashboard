@@ -11,10 +11,14 @@ Output per repo: data/<repo>.combined.json:
     "grade": {...}|null, "drift": false}], "unmatched_canvas": [...],
    "built_at": ...}
 
-DRIFT = the case the user caught: a Canvas assignment (points > 0) with no
-ledger row. It lands in "unmatched_canvas" AND as a synthetic row with
-status "missing_from_ledger" so the dashboard shows it instead of hiding it.
-Zero-point / muted Canvas items are ignored (dashboard filters those too).
+DRIFT = a Canvas assignment (points > 0) with no ledger row. It lands in
+"unmatched_canvas" AND as a synthetic row with status "missing_from_ledger"
+so the dashboard shows it instead of hiding it. Zero-point / muted Canvas
+items are ignored (dashboard filters those too).
+
+Ledger dates are Mountain-local while Canvas due_at is UTC, so the same
+deadline can be one calendar day apart; the matcher accepts +/- 1 day and
+assigns best-first so two ledger rows cannot claim one Canvas row.
 """
 import json
 import os
@@ -74,16 +78,28 @@ def load(name):
         return json.load(f)
 
 
-def match_grade(title, due_day, grows):
-    tw = set(words(title))
-    best, best_score = None, -1
-    for g in grows:
-        gday = str(g.get("due") or "")[:10]
-        overlap = len(tw & set(words(g.get("name"))))
-        score = overlap + (100 if gday and gday == due_day else 0)
-        if score > best_score:
-            best_score, best = score, g
-    return best if best_score >= 1 else None
+def _tok_match(a, b):
+    if a == b:
+        return True
+    return len(a) >= 4 and len(b) >= 4 and (a.startswith(b) or b.startswith(a))
+
+
+def overlap_count(tw, gw):
+    return sum(1 for a in tw if any(_tok_match(a, b) for b in gw))
+
+
+def day_bonus(gday, due_day):
+    # Exact day wins (100); +/-1 day allowed (60) because ledger dates are
+    # Mountain-local and Canvas due_at is UTC.
+    if not gday or not due_day:
+        return 0
+    try:
+        d1 = datetime.strptime(gday, "%Y-%m-%d").date()
+        d2 = datetime.strptime(due_day, "%Y-%m-%d").date()
+    except ValueError:
+        return 0
+    diff = abs((d1 - d2).days)
+    return 100 if diff == 0 else (60 if diff == 1 else 0)
 
 
 def build_repo(repo):
@@ -92,23 +108,43 @@ def build_repo(repo):
     # ledger file may itself be a raw dispatch payload; be lenient
     if isinstance(ledger, dict):
         ledger = ledger.get("rows", [])
-    matched_ids = set()
-    rows = []
+    prepped = []
     for x in ledger:
         key = x.get("key", "")
-        if key.startswith("SETUP"):
+        if re.search(r"(^|_)(SETUP|RECON)", key):
             continue
         if re.search(r"\b0\s?pts?\b", x.get("note") or "", re.I):
             continue
         if not re.match(r"^\d{4}-\d{2}-\d{2}", x.get("date") or ""):
             continue
-        title = title_from(key, x.get("note"))
-        g = match_grade(title, x["date"], grades)
+        prepped.append((x, title_from(key, x.get("note"))))
+    # Global best-first assignment: highest score wins each Canvas row, so a
+    # ledger row is never silently dropped in favour of another.
+    gwords = [words(g.get("name")) for g in grades]
+    pairs = []
+    for i, (x, title) in enumerate(prepped):
+        tw = words(title)
+        for gi, g in enumerate(grades):
+            score = overlap_count(tw, gwords[gi]) * 10 + day_bonus(
+                str(g.get("due") or "")[:10], x["date"])
+            if score > 0:
+                pairs.append((score, i, gi))
+    pairs.sort(key=lambda t: -t[0])
+    assign, used_g = {}, set()
+    for score, i, gi in pairs:
+        if i in assign or gi in used_g:
+            continue
+        assign[i] = gi
+        used_g.add(gi)
+    matched_ids = set()
+    rows = []
+    for i, (x, title) in enumerate(prepped):
+        g = grades[assign[i]] if i in assign else None
         if g:
             matched_ids.add(g.get("canvas_id"))
-        rows.append({"key": key, "status": x.get("status"), "date": x.get("date"),
-                     "note": x.get("note"), "title": title,
-                     "grade": g, "drift": False})
+        rows.append({"key": x.get("key"), "status": x.get("status"),
+                     "date": x.get("date"), "note": x.get("note"),
+                     "title": title, "grade": g, "drift": False})
     rows.sort(key=lambda r: r["date"])
     unmatched = [g for g in grades
                  if g.get("canvas_id") not in matched_ids

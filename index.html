@@ -74,16 +74,27 @@ function statusOf(x){
   return ['automated', 'todo'];
 }
 function words(s){ return norm(s).split(' ').filter(function(w){ return w.length > 2; }); }
+function tokMatch(a,b){ if(a===b) return true; return a.length>=4 && b.length>=4 && (a.indexOf(b)===0 || b.indexOf(a)===0); }
+function overlapCount(tw,gw){ return tw.filter(function(a){ return gw.some(function(b){ return tokMatch(a,b); }); }).length; }
 function matchGrade(title, dueDay, grows){
   var tw = words(title), best = null, bestScore = -1;
   grows.forEach(function(g){
     var gday = g.due ? String(g.due).slice(0,10) : '';
-    var gw = words(g.name);
-    var overlap = tw.filter(function(w){ return gw.indexOf(w) >= 0; }).length;
-    var score = overlap + (gday && gday === dueDay ? 100 : 0);
+    var overlap = overlapCount(tw, words(g.name));
+    // Ledger dates are Mountain-local while Canvas due_at is UTC, so the
+    // same deadline can be one calendar day apart. Exact day wins, +/-1 allowed.
+    var dayBonus = 0;
+    if (gday && dueDay) {
+      var d1 = parseD(gday), d2 = parseD(dueDay);
+      if (d1 && d2) {
+        var diff = Math.abs((d1 - d2)/864e5);
+        if (diff === 0) dayBonus = 100; else if (diff <= 1) dayBonus = 60;
+      }
+    }
+    var score = overlap * 10 + dayBonus;
     if (score > bestScore) { bestScore = score; best = g; }
   });
-  if (!best || bestScore < 1) return null;
+  if (!best || bestScore <= 0) return null;
   return best;
 }
 function gradeCell(g){
@@ -118,7 +129,7 @@ Promise.all(REPOS.map(function(pair){
   classes.forEach(function(c){
     var items = [];
     c.rows.forEach(function(x){
-      if (x.key.indexOf('SETUP') === 0) return;
+      if (x.key.indexOf('SETUP') === 0 || x.key.indexOf('RECON') >= 0) return;
       if (/\b0\s?pts?\b/i.test(x.note || '')) return;
       var d = parseD(x.date);
       if (!d) return;
