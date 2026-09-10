@@ -77,6 +77,9 @@ def main():
         if g:
             try:
                 gd = json.loads(g)
+                if not gd.get("rows"):
+                    print(repo, "grades: empty snapshot, keeping existing")
+                    continue
                 with open(os.path.join(DATA, repo + ".grades.json"), "w") as f:
                     json.dump(gd, f, indent=1)
                 print(repo, "grades:", len(gd.get("rows", [])))
