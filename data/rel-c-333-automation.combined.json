@@ -72,10 +72,10 @@
   },
   {
    "key": "GET_TO_KNOW_YOU",
-   "status": "pending",
+   "status": "done",
    "date": "2026-09-13",
-   "note": "# Get-to-Know-You Assignment, due 2026-09-13T05:59:59Z, unsubmitted",
-   "title": "Get-to-Know-You Assignment",
+   "note": "# video uploaded 2026-09-11 (50MB .mov, 35s), Canvas workflow_state=submitted, submission 133117, attachment 13737819, on time, verified via submissions/self API",
+   "title": "video uploaded 2026-09-11 (50MB .mov, 35s), Canvas workflow_state=submitted, submission 133117, attachment 13737819, on time, verified via submissions/self API",
    "grade": {
     "canvas_id": 1464249,
     "name": "Get-to-Know-You Assignment",
@@ -91,7 +91,7 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": true
+   "needs_zack": false
   },
   {
    "key": "ATTENDANCE_CHECK_0915",
@@ -187,7 +187,7 @@
   }
  ],
  "unmatched_canvas": [],
- "needs": "RELC333 Get-to-Know-You Assignment (REL C 333-006, due 9/13 05:59 UTC, 10pts): record 60-sec video at https://byu.instructure.com/courses/38438/assignments/1464249 (1 who you are, 2 why taking, 3 hope to get, 4 memorable thing). Reply DONE in Telegram when uploaded.",
+ "needs": null,
  "course_id": 38438,
  "overall": {
   "current_score": 100.0,
@@ -195,5 +195,5 @@
   "final_score": 32.05,
   "final_grade": "E"
  },
- "built_at": "2026-09-11T22:10:06.870972+00:00"
+ "built_at": "2026-09-11T23:13:45.847412+00:00"
 }
