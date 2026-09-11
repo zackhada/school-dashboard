@@ -34,12 +34,12 @@
    "name": "2.8 Debugging Assessment",
    "due": "2026-09-17T05:59:59Z",
    "points": 20.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
-   "missing": true,
-   "submitted_at": null,
-   "submission_type": null,
+   "status": "graded",
+   "score": 19.34,
+   "grade": "19.34",
+   "missing": false,
+   "submitted_at": "2026-09-11T01:43:42Z",
+   "submission_type": "external_tool",
    "my_submission": "",
    "comments": []
   },
@@ -269,9 +269,9 @@
   }
  ],
  "overall": {
-  "current_score": 100.0,
+  "current_score": 98.9,
   "current_grade": "A",
-  "final_score": 4.33,
+  "final_score": 6.43,
   "final_grade": "E"
  },
  "source": "canvas-api"
