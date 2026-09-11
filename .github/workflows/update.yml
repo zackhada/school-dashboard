@@ -41,33 +41,55 @@ jobs:
     if: github.event_name == 'issues' && startsWith(github.event.issue.title, '[answer]')
     runs-on: ubuntu-latest
     steps:
-      - name: Forward answer to class repo
-        continue-on-error: true
+      - name: Forward answer to class repo and close
         env:
           DISPATCH_TOKEN: ${{ secrets.DISPATCH_TOKEN }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
         run: |
           if [ -z "$DISPATCH_TOKEN" ]; then echo "No DISPATCH_TOKEN; skipping."; exit 0; fi
-          TITLE='${{ github.event.issue.title }}'
-          REST=$(echo "$TITLE" | sed 's/^\[answer\] //')
-          REPO=$(echo "$REST" | awk '{print $1}')
-          KEY=$(echo "$REST" | awk '{print $2}')
-          python3 - "$DISPATCH_TOKEN" "$REPO" "$KEY" '${{ github.event.issue.number }}' <<'PYEOF'
-          import sys, json, urllib.request
-          tok, repo, key, num = sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4]
-          issue = json.load(urllib.request.urlopen(urllib.request.Request(
-            f'https://api.github.com/repos/zackhada/school-dashboard/issues/{num}',
-            headers={'Authorization': f'Bearer {tok}', 'Accept': 'application/vnd.github+json'})))
-          body = issue.get('body') or ''
-          answer = body.split('My answer:')[-1].strip() if 'My answer:' in body else body.strip()
-          payload = {'event_type': 'answer', 'client_payload': {'key': key, 'answer': answer}}
-          req = urllib.request.Request(
-            f'https://api.github.com/repos/zackhada/{repo}/dispatches',
-            data=json.dumps(payload).encode(),
-            headers={'Authorization': f'Bearer {tok}', 'Accept': 'application/vnd.github+json'})
-          urllib.request.urlopen(req)
-          print(f'forwarded answer for {key} to {repo}')
+          python3 - <<'PYEOF'
+          import json, os, urllib.request
+          tok = os.environ["DISPATCH_TOKEN"]
+          title = os.environ.get("ISSUE_TITLE", "")
+          num = os.environ.get("ISSUE_NUMBER", "")
+          rest = title[len("[answer]"):].strip() if title.startswith("[answer]") else title
+          parts = rest.split(None, 2)
+          repo, key = (parts + ["", ""])[:2]
+          if not repo or not key:
+              raise SystemExit("cannot parse repo/key from title: %r" % title)
+          api = lambda p: urllib.request.Request(
+              "https://api.github.com/repos/zackhada/%s" % p,
+              headers={"Authorization": "Bearer " + tok,
+                       "Accept": "application/vnd.github+json"})
+          issue = json.load(urllib.request.urlopen(api("school-dashboard/issues/%s" % num)))
+          body = issue.get("body") or ""
+          answer = body.split("My answer:")[-1].strip() if "My answer:" in body else body.strip()
+          if not answer and len(parts) == 3:
+              answer = parts[2].strip()  # Zack typed the reply into the title
+          if not answer:
+              raise SystemExit("empty answer; leaving issue open")
+          payload = {"event_type": "answer",
+                     "client_payload": {"key": key, "answer": answer}}
+          urllib.request.urlopen(urllib.request.Request(
+              "https://api.github.com/repos/zackhada/%s/dispatches" % repo,
+              data=json.dumps(payload).encode(),
+              headers={"Authorization": "Bearer " + tok,
+                       "Accept": "application/vnd.github+json"}))
+          print("forwarded answer for %s to %s" % (key, repo))
+          close = json.dumps({"state": "closed"}).encode()
+          urllib.request.urlopen(urllib.request.Request(
+              "https://api.github.com/repos/zackhada/school-dashboard/issues/%s" % num,
+              data=close, method="PATCH",
+              headers={"Authorization": "Bearer " + tok,
+                       "Accept": "application/vnd.github+json",
+                       "Content-Type": "application/json"}))
+          comment = json.dumps({"body": "Forwarded to the class runner."}).encode()
+          urllib.request.urlopen(urllib.request.Request(
+              "https://api.github.com/repos/zackhada/school-dashboard/issues/%s/comments" % num,
+              data=comment,
+              headers={"Authorization": "Bearer " + tok,
+                       "Accept": "application/vnd.github+json",
+                       "Content-Type": "application/json"}))
+          print("closed issue %s" % num)
           PYEOF
-      - name: Close issue
-        run: gh issue close ${{ github.event.issue.number }} --comment "Forwarded to the class runner." --repo zackhada/school-dashboard
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
