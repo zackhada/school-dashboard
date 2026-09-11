@@ -32,6 +32,12 @@ REPOS = ["hrm391-automation", "strat392-automation", "rel-c-333-automation",
          "pse390-automation", "fin201-automation", "is515-automation",
          "econ110-automation"]
 
+# Canvas course IDs (byu.instructure.com). ECON/FIN run on Learning Suite /
+# MyEducator / Cengage, so they have no Canvas course.
+COURSE_IDS = {"hrm391-automation": 37899, "strat392-automation": 39131,
+              "rel-c-333-automation": 38438, "pse390-automation": 38958,
+              "is515-automation": 38674}
+
 
 def norm(s):
     return re.sub(r"[^a-z0-9]+", " ", str(s or "").lower()).strip()
@@ -184,7 +190,10 @@ def build_repo(repo):
     unmatched = [g for g in grades
                  if g.get("canvas_id") is not None
                  and g.get("canvas_id") not in matched_ids
-                 and (g.get("points") or 0) > 0]
+                 and (g.get("points") or 0) > 0
+                 and not (g.get("score") is not None
+                          and g.get("points") is not None
+                          and g.get("score") >= g.get("points"))]
     for g in unmatched:
         rows.append({"key": "CANVAS_%s" % g.get("canvas_id"),
                      "status": "missing_from_ledger",
@@ -195,6 +204,7 @@ def build_repo(repo):
     out = {"repo": "zackhada/%s" % repo, "rows": rows,
            "unmatched_canvas": unmatched,
            "needs": needs_text,
+           "course_id": COURSE_IDS.get(repo),
            "overall": (load(repo + ".grades.json").get("overall") or {}),
            "built_at": datetime.now(timezone.utc).isoformat()}
     with open(os.path.join(DATA, repo + ".combined.json"), "w") as f:

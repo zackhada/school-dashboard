@@ -855,9 +855,10 @@
  ],
  "unmatched_canvas": [],
  "needs": null,
+ "course_id": null,
  "overall": {
   "current_score": 97.92,
   "source": "learning-suite-points"
  },
- "built_at": "2026-09-11T20:15:48.039046+00:00"
+ "built_at": "2026-09-11T21:46:09.753408+00:00"
 }

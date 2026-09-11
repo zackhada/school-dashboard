@@ -25,28 +25,6 @@
    "needs_zack": false
   },
   {
-   "key": "CANVAS_1496217",
-   "status": "missing_from_ledger",
-   "date": "2026-09-11",
-   "note": "# In Canvas but no ledger row; runner must add it",
-   "title": "9-8 In Class Quiz",
-   "grade": {
-    "canvas_id": 1496217,
-    "name": "9-8 In Class Quiz",
-    "due": "2026-09-11T05:59:59Z",
-    "points": 10.0,
-    "status": "graded",
-    "score": 10.0,
-    "grade": "10",
-    "missing": false,
-    "submitted_at": "2026-09-09T20:29:12Z",
-    "submission_type": "online_quiz",
-    "my_submission": "",
-    "comments": []
-   },
-   "drift": true
-  },
-  {
    "key": "MEASURING_MARKET_CONCENTRATION",
    "status": "done",
    "date": "2026-09-12",
@@ -70,28 +48,14 @@
    "needs_zack": false
   }
  ],
- "unmatched_canvas": [
-  {
-   "canvas_id": 1496217,
-   "name": "9-8 In Class Quiz",
-   "due": "2026-09-11T05:59:59Z",
-   "points": 10.0,
-   "status": "graded",
-   "score": 10.0,
-   "grade": "10",
-   "missing": false,
-   "submitted_at": "2026-09-09T20:29:12Z",
-   "submission_type": "online_quiz",
-   "my_submission": "",
-   "comments": []
-  }
- ],
+ "unmatched_canvas": [],
  "needs": null,
+ "course_id": 39131,
  "overall": {
   "current_score": 100.0,
   "current_grade": "A",
   "final_score": 100.0,
   "final_grade": "A"
  },
- "built_at": "2026-09-11T20:15:48.006357+00:00"
+ "built_at": "2026-09-11T21:46:09.723187+00:00"
 }

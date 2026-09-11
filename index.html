@@ -51,6 +51,14 @@ var in14 = new Date(now.getTime() + 14*864e5);
 function parseD(s){ var m = /^(\d{4})-(\d{2})-(\d{2})/.exec(s||''); return m ? new Date(+m[1],+m[2]-1,+m[3]) : null; }
 function esc(s){ return String(s||'').replace(/</g,'&lt;'); }
 function daysLeft(d){ if(!d) return ''; return Math.ceil((d - now)/864e5); }
+function canvasUrl(course, canvasId){
+  if (!course) return null;
+  if (canvasId) return 'https://byu.instructure.com/courses/' + course + '/assignments/' + canvasId;
+  return 'https://byu.instructure.com/courses/' + course;
+}
+function replyUrl(c, x, desc){
+  return 'https://github.com/zackhada/school-dashboard/issues/new?title='+encodeURIComponent('[answer] '+c.repo+' '+x.key)+'&body='+encodeURIComponent(c.name+' \u2014 '+x.key+' (due '+(x.date||'n/a')+', '+x.status+')\n\nWhat is needed: '+desc+'\n\nMy answer:\n');
+}
 function titleFrom(key, note, course){
   var n = (note||'').replace(/^#\s*/,'');
   if(/^\d+\.\d+/.test(n)) return n.split(',')[0].trim();
@@ -121,6 +129,7 @@ Promise.all(REPOS.map(function(pair){
       rows: (c.rows || []).filter(function(x){ return !x.drift; }).map(function(x){
         return {key: x.key, status: x.status, date: x.date, note: x.note, grade: x.grade || null, needs: !!x.needs_zack};
       }),
+      course: c.course_id || null,
       needs: c.needs || null,
       grows: (c.rows || []).map(function(x){ return x.grade; }).filter(Boolean),
       overall: c.overall || null,
@@ -170,13 +179,20 @@ Promise.all(REPOS.map(function(pair){
       var note = esc(parkedNote);
       if (x.status === 'blocked_inperson') {
         if (/\b0\s?pts?\b/i.test(x.note || '')) return;
-        if (d && d >= now && d <= in14) inperson += '<tr><td><b>'+c.name+' \u2014 '+esc(titleFrom(x.key, x.note, c.name))+'</b></td><td>'+daysLeft(d)+'</td><td class="small">'+note+'</td></tr>';
+        if (d && d >= now && d <= in14) {
+          var curl = canvasUrl(c.course, x.grade && x.grade.canvas_id);
+          var cell = curl ? '<a href="'+curl+'">Canvas</a>' : '';
+          var rurl = replyUrl(c, x, note);
+          inperson += '<tr><td><b>'+c.name+' \u2014 '+esc(titleFrom(x.key, x.note, c.name))+'</b></td><td>'+daysLeft(d)+'</td><td class="small">'+note+'</td><td>'+cell+'</td><td><a href="'+rurl+'">Reply</a></td></tr>';
+        }
         return;
       }
       if (d && d < now && !x.needs) return;
       var title = titleFrom(x.key, x.note, c.name);
       var stLabel = isBlocked ? x.status : 'needs you';
-      need += '<tr><td><b>'+c.name+' \u2014 '+esc(title)+'</b></td><td class="'+esc(x.status)+'">'+esc(stLabel)+(x.date?', '+daysLeft(d):'')+'</td><td class="small">'+note+'</td><td><a href="https://github.com/zackhada/school-dashboard/issues/new?title='+encodeURIComponent('[answer] '+c.repo+' '+x.key)+'&body='+encodeURIComponent(c.name+' \u2014 '+x.key+' (due '+(x.date||'n/a')+', '+x.status+')\n\nContext: '+(x.note||'none')+'\n\nMy answer:\n')+'">Reply</a></td></tr>';
+      var curl2 = canvasUrl(c.course, x.grade && x.grade.canvas_id);
+      var canvasCell = curl2 ? ' <a href="'+curl2+'">Canvas</a>' : '';
+      need += '<tr><td><b>'+c.name+' \u2014 '+esc(title)+'</b></td><td class="'+esc(x.status)+'">'+esc(stLabel)+(x.date?', '+daysLeft(d):'')+'</td><td class="small">'+note+canvasCell+'</td><td><a href="'+replyUrl(c, x, parkedNote)+'">Reply</a></td></tr>';
     });
   });
   if (need) {
@@ -185,7 +201,7 @@ Promise.all(REPOS.map(function(pair){
     document.getElementById('needs').innerHTML = '<h2>Needs your input</h2><p class="small">Nothing waiting on you.</p>';
   }
   if (inperson) {
-    document.getElementById('needs').innerHTML += '<h2>In person + proctored (next 2 weeks)</h2><table><colgroup><col class="c-assn"><col class="c-days"><col class="c-note"></colgroup><thead><tr><th>Assignment</th><th>Days Left</th><th>Details</th></tr></thead><tbody>'+inperson+'</tbody></table>';
+    document.getElementById('needs').innerHTML += '<h2>In person + proctored (next 2 weeks)</h2><table><colgroup><col class="c-assn"><col class="c-days"><col class="c-note"></colgroup><thead><tr><th>Assignment</th><th>Days Left</th><th>Details</th><th>Canvas</th><th>Action</th></tr></thead><tbody>'+inperson+'</tbody></table>';
   }
   var drift = '';
   classes.forEach(function(c){
