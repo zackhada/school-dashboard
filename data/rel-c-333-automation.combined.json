@@ -49,7 +49,7 @@
   },
   {
    "key": "SYLLABUS_QUIZ",
-   "status": "pending",
+   "status": "done",
    "date": "2026-09-13",
    "note": "# Syllabus Quiz, due 2026-09-13T05:59:59Z, unsubmitted",
    "title": "Syllabus Quiz",
@@ -195,5 +195,5 @@
   "final_score": 32.05,
   "final_grade": "E"
  },
- "built_at": "2026-09-11T23:31:31.341574+00:00"
+ "built_at": "2026-09-11T23:39:24.308119+00:00"
 }
