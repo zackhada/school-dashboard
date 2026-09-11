@@ -71,6 +71,7 @@ function norm(s){ return String(s||'').toLowerCase().replace(/[^a-z0-9]+/g,' ').
 function statusOf(x){
   if (x.status === 'done') return ['done', 'done'];
   if (x.status === 'blocked_inperson') return ['in person', 'blocked'];
+  if (x.status && x.status.indexOf('blocked') === 0) return ['needs you', 'blocked'];
   return ['automated', 'todo'];
 }
 function words(s){ return norm(s).split(' ').filter(function(w){ return w.length > 2 && ['cengage','mindtap','class','pre','post'].indexOf(w) < 0; }); }
@@ -118,7 +119,7 @@ Promise.all(REPOS.map(function(pair){
   }).then(function(c){
     return {name: pair[0], repo: pair[1],
       rows: (c.rows || []).filter(function(x){ return !x.drift; }).map(function(x){
-        return {key: x.key, status: x.status, date: x.date, note: x.note};
+        return {key: x.key, status: x.status, date: x.date, note: x.note, grade: x.grade || null};
       }),
       grows: (c.rows || []).map(function(x){ return x.grade; }).filter(Boolean),
       overall: c.overall || null,
@@ -151,7 +152,7 @@ Promise.all(REPOS.map(function(pair){
       var n = daysLeft(a.d);
       var rowCls = n < 0 ? 'past' : (n === 0 ? 'today' : '');
       var title = titleFrom(x.key, x.note, c.name);
-      var g = matchGrade(title + ' ' + x.key, x.date, c.grows);
+      var g = x.grade || matchGrade(title + ' ' + x.key, x.date, c.grows);
       html += '<tr class="'+rowCls+'"><td class="'+cls+'">'+esc(title)+'</td><td class="'+cls+'">'+st[0]+'</td><td class="days-left">'+n+'</td><td class="grade">'+gradeCell(g)+'</td><td>'+commentsCell(g)+'</td></tr>';
     });
     html += '</tbody></table></details>';
