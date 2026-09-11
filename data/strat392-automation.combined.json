@@ -21,7 +21,8 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "CANVAS_1496217",
@@ -65,7 +66,8 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   }
  ],
  "unmatched_canvas": [
@@ -84,11 +86,12 @@
    "comments": []
   }
  ],
+ "needs": null,
  "overall": {
   "current_score": 100.0,
   "current_grade": "A",
   "final_score": 100.0,
   "final_grade": "A"
  },
- "built_at": "2026-09-11T11:15:58.498616+00:00"
+ "built_at": "2026-09-11T20:15:48.006357+00:00"
 }

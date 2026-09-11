@@ -21,7 +21,8 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "IS_NAMES",
@@ -43,7 +44,8 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "IS_DEBUG",
@@ -65,7 +67,8 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "IS_DATES",
@@ -87,7 +90,8 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "IS_CHARTS",
@@ -109,7 +113,8 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "IS_CONDFMT",
@@ -131,7 +136,8 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "IS_TABLES",
@@ -153,7 +159,8 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "IS_ARRAYS",
@@ -175,7 +182,8 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "IS_SOLVER",
@@ -197,7 +205,8 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "IS_PIVOT",
@@ -219,7 +228,8 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "IS_EXAM1",
@@ -241,7 +251,8 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "IS_FIN",
@@ -263,7 +274,8 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "IS_COUNT",
@@ -285,7 +297,8 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "IS_LOOKUP",
@@ -307,7 +320,8 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "IS_TEXT",
@@ -329,7 +343,8 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "IS_MEGA",
@@ -351,7 +366,8 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "IS_CLEAN",
@@ -373,7 +389,8 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "IS_VBA",
@@ -395,7 +412,8 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "IS_EXAM2",
@@ -417,15 +435,17 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   }
  ],
  "unmatched_canvas": [],
+ "needs": null,
  "overall": {
   "current_score": 98.9,
   "current_grade": "A",
   "final_score": 6.43,
   "final_grade": "E"
  },
- "built_at": "2026-09-11T11:15:58.529288+00:00"
+ "built_at": "2026-09-11T20:15:48.022140+00:00"
 }

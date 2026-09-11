@@ -119,8 +119,9 @@ Promise.all(REPOS.map(function(pair){
   }).then(function(c){
     return {name: pair[0], repo: pair[1],
       rows: (c.rows || []).filter(function(x){ return !x.drift; }).map(function(x){
-        return {key: x.key, status: x.status, date: x.date, note: x.note, grade: x.grade || null};
+        return {key: x.key, status: x.status, date: x.date, note: x.note, grade: x.grade || null, needs: !!x.needs_zack};
       }),
+      needs: c.needs || null,
       grows: (c.rows || []).map(function(x){ return x.grade; }).filter(Boolean),
       overall: c.overall || null,
       drift: c.unmatched_canvas || []};
@@ -162,17 +163,20 @@ Promise.all(REPOS.map(function(pair){
   classes.forEach(function(c){
     c.rows.forEach(function(x){
       var isBlocked = x.status && x.status.indexOf('blocked') === 0;
-      if (!isBlocked) return;
+      var waitsOnYou = isBlocked || (x.needs && x.status !== 'done');
+      if (!waitsOnYou) return;
       var d = parseD(x.date);
-      var note = esc((x.note||'').replace(/^#\s*/,''));
+      var parkedNote = (x.needs && c.needs) ? c.needs : (x.note || '').replace(/^#\s*/,'');
+      var note = esc(parkedNote);
       if (x.status === 'blocked_inperson') {
         if (/\b0\s?pts?\b/i.test(x.note || '')) return;
         if (d && d >= now && d <= in14) inperson += '<tr><td><b>'+c.name+' \u2014 '+esc(titleFrom(x.key, x.note, c.name))+'</b></td><td>'+daysLeft(d)+'</td><td class="small">'+note+'</td></tr>';
         return;
       }
-      if (d && d < now) return;
+      if (d && d < now && !x.needs) return;
       var title = titleFrom(x.key, x.note, c.name);
-      need += '<tr><td><b>'+c.name+' \u2014 '+esc(title)+'</b></td><td class="'+esc(x.status)+'">'+esc(x.status)+(x.date?', '+daysLeft(d):'')+'</td><td class="small">'+note+'</td><td><a href="https://github.com/zackhada/school-dashboard/issues/new?title='+encodeURIComponent('[answer] '+c.repo+' '+x.key)+'&body='+encodeURIComponent(c.name+' \u2014 '+x.key+' (due '+(x.date||'n/a')+', '+x.status+')\n\nContext: '+(x.note||'none')+'\n\nMy answer:\n')+'">Reply</a></td></tr>';
+      var stLabel = isBlocked ? x.status : 'needs you';
+      need += '<tr><td><b>'+c.name+' \u2014 '+esc(title)+'</b></td><td class="'+esc(x.status)+'">'+esc(stLabel)+(x.date?', '+daysLeft(d):'')+'</td><td class="small">'+note+'</td><td><a href="https://github.com/zackhada/school-dashboard/issues/new?title='+encodeURIComponent('[answer] '+c.repo+' '+x.key)+'&body='+encodeURIComponent(c.name+' \u2014 '+x.key+' (due '+(x.date||'n/a')+', '+x.status+')\n\nContext: '+(x.note||'none')+'\n\nMy answer:\n')+'">Reply</a></td></tr>';
     });
   });
   if (need) {

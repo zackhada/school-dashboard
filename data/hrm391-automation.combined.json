@@ -21,7 +21,8 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "CHOOSE_DEFAULT_ORG",
@@ -49,7 +50,8 @@
      }
     ]
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "PROF_PERSPECTIVE_INTERVIEW",
@@ -71,7 +73,8 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "WEEK0_ORIENTATION_CHECK",
@@ -93,7 +96,8 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "EXAM1",
@@ -115,15 +119,17 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   }
  ],
  "unmatched_canvas": [],
+ "needs": null,
  "overall": {
   "current_score": 100.0,
   "current_grade": "A",
   "final_score": 23.15,
   "final_grade": "E"
  },
- "built_at": "2026-09-11T11:15:58.497541+00:00"
+ "built_at": "2026-09-11T20:15:48.005584+00:00"
 }

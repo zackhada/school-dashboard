@@ -21,7 +21,8 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "PARTICIPATION_QUIZ_SEP10",
@@ -43,7 +44,8 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "ETHICS_PUBLIC_QUIZ_WK01",
@@ -65,7 +67,8 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": true
   },
   {
    "key": "PARTICIPATION_QUIZ_SEP15",
@@ -87,7 +90,8 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "PARTICIPATION_QUIZ_SEP17",
@@ -109,7 +113,8 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "WEEKLY_QUIZ_WK02",
@@ -131,7 +136,8 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "PARTICIPATION_QUIZ_SEP22",
@@ -153,7 +159,8 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "PARTICIPATION_QUIZ_SEP24",
@@ -175,7 +182,8 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "WEEKLY_QUIZ_WK03",
@@ -197,7 +205,8 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "PARTICIPATION_QUIZ_SEP29",
@@ -219,7 +228,8 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "PARTICIPATION_QUIZ_OCT01",
@@ -241,7 +251,8 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "WEEKLY_QUIZ_WK04",
@@ -263,7 +274,8 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "PARTICIPATION_QUIZ_OCT06",
@@ -285,7 +297,8 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "WEEKLY_QUIZ_WK05",
@@ -307,7 +320,8 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "WEEKLY_QUIZ_WK06",
@@ -316,7 +330,8 @@
    "note": "# weekly quiz pattern through Dec 13",
    "title": "weekly quiz pattern through Dec 13",
    "grade": null,
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "TEACHING_ETHICS_HOME",
@@ -338,7 +353,8 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "WEEKLY_QUIZ_WK07",
@@ -360,7 +376,8 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "WEEKLY_QUIZ_WK08",
@@ -382,7 +399,8 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "WEEKLY_QUIZ_WK09",
@@ -404,7 +422,8 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "WEEKLY_QUIZ_WK10",
@@ -426,7 +445,8 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "WEEKLY_QUIZ_WK11",
@@ -448,7 +468,8 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "WEEKLY_QUIZ_WK12",
@@ -470,7 +491,8 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "WEEKLY_QUIZ_WK13",
@@ -492,7 +514,8 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "WEEKLY_QUIZ_WK14",
@@ -514,15 +537,17 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   }
  ],
  "unmatched_canvas": [],
+ "needs": "PSE390 Ethics and Public Quiz Week 1 (Canvas 38958, assign 1495456, 10pts, due Sat Sep 12 11:59pm MT): weekly personal-brand public post, submit public URL (text/url/media, accessible to professor/TA). No URL on record. Reply in Telegram with your public post link.",
  "overall": {
   "current_score": 100.0,
   "current_grade": "A",
   "final_score": 3.59,
   "final_grade": "E"
  },
- "built_at": "2026-09-11T11:15:58.512769+00:00"
+ "built_at": "2026-09-11T20:15:48.016075+00:00"
 }

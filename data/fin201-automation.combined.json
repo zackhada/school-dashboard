@@ -17,7 +17,8 @@
     "submission_type": "myeducator",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "FIN_QUIZ_6",
@@ -35,7 +36,8 @@
     "submission_type": "myeducator",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "FIN_QUIZ_7",
@@ -53,7 +55,8 @@
     "submission_type": "myeducator",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "FIN_MIDTERM_1",
@@ -62,7 +65,8 @@
    "note": "# in class 3:30pm",
    "title": "in class",
    "grade": null,
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "FIN_QUIZ_8",
@@ -80,7 +84,8 @@
     "submission_type": "myeducator",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "FIN_QUIZ_9",
@@ -98,7 +103,8 @@
     "submission_type": "myeducator",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "FIN_QUIZ_13",
@@ -116,7 +122,8 @@
     "submission_type": "myeducator",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "FIN_MIDTERM_2",
@@ -125,7 +132,8 @@
    "note": "# in class 3:30pm",
    "title": "in class",
    "grade": null,
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "FIN_QUIZ_2",
@@ -143,7 +151,8 @@
     "submission_type": "myeducator",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "FIN_QUIZ_3",
@@ -161,7 +170,8 @@
     "submission_type": "myeducator",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "FIN_QUIZ_4",
@@ -179,7 +189,8 @@
     "submission_type": "myeducator",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "FIN_MIDTERM_3",
@@ -188,7 +199,8 @@
    "note": "# in class 3:30pm",
    "title": "in class",
    "grade": null,
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "FIN_QUIZ_11",
@@ -206,7 +218,8 @@
     "submission_type": "myeducator",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "FIN_QUIZ_12",
@@ -224,7 +237,8 @@
     "submission_type": "myeducator",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "FIN_FINAL",
@@ -233,10 +247,12 @@
    "note": "# in class 5:00pm",
    "title": "in class",
    "grade": null,
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   }
  ],
  "unmatched_canvas": [],
+ "needs": null,
  "overall": {},
- "built_at": "2026-09-11T11:15:58.515904+00:00"
+ "built_at": "2026-09-11T20:15:48.018201+00:00"
 }

@@ -17,7 +17,8 @@
     "submission_type": "learning_suite",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "ECON_MINDTAP_PRELIM",
@@ -26,7 +27,8 @@
    "note": "# Getting Started REOPENED, due Tue 11pm per Showalter 9/7 reset",
    "title": "Getting Started REOPENED",
    "grade": null,
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "ECON_MINDTAP_CH1",
@@ -35,7 +37,8 @@
    "note": "# Ch1 homework REOPENED, due Tue 11pm per Showalter 9/7 reset",
    "title": "Ch1 homework REOPENED",
    "grade": null,
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "ECON_MINDTAP_CH2PRE",
@@ -44,7 +47,8 @@
    "note": "# Ch 2 pre-class Cengage, due Wed 3pm per Showalter 9/7",
    "title": "Ch 2 pre-class Cengage",
    "grade": null,
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "ECON_OAKS_QUIZ",
@@ -62,7 +66,8 @@
     "submission_type": "learning_suite",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "ECON_MINDTAP_CH2",
@@ -71,7 +76,8 @@
    "note": "# Ch 2 Homework Cengage (Aplia), due Thu 11pm MDT",
    "title": "Ch 2 Homework Cengage (Aplia)",
    "grade": null,
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "ECON_MEET_TA",
@@ -89,7 +95,8 @@
     "submission_type": "learning_suite",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "ECON_NEQ_1",
@@ -107,7 +114,8 @@
     "submission_type": "learning_suite",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "ECON_MANKIW_1",
@@ -125,7 +133,8 @@
     "submission_type": "learning_suite",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "ECON_MINDTAP_CH3PRE",
@@ -134,7 +143,8 @@
    "note": "# Ch 3 pre-class Cengage (Read It + QuickQuizzes), due Mon 3pm MDT",
    "title": "Ch 3 pre-class Cengage (Read It + QuickQuizzes)",
    "grade": null,
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "ECON_MINDTAP_CH3",
@@ -143,7 +153,8 @@
    "note": "# Ch 3 Homework Cengage, due Tue 11pm MDT",
    "title": "Ch 3 Homework Cengage",
    "grade": null,
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "ECON_TA_PASSOFF_1",
@@ -161,7 +172,8 @@
     "submission_type": "learning_suite",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "ECON_MINDTAP_CH4PRE",
@@ -170,7 +182,8 @@
    "note": "# Ch 4 pre-class Cengage (Read It + QuickQuizzes), due Wed 3pm MDT",
    "title": "Ch 4 pre-class Cengage (Read It + QuickQuizzes)",
    "grade": null,
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "ECON_MINDTAP_CH4",
@@ -179,7 +192,8 @@
    "note": "# Ch 4 Homework Cengage, due Thu 11pm MDT",
    "title": "Ch 4 Homework Cengage",
    "grade": null,
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "ECON_NEQ_2",
@@ -197,7 +211,8 @@
     "submission_type": "learning_suite",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "ECON_MANKIW_2",
@@ -215,7 +230,8 @@
     "submission_type": "learning_suite",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "ECON_MINDTAP_CH5PRE",
@@ -224,7 +240,8 @@
    "note": "# Ch 5 pre-class Cengage, due Mon 3pm MDT per LS schedule 2026-09-10",
    "title": "Ch 5 pre-class Cengage",
    "grade": null,
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "ECON_MINDTAP_CH5",
@@ -233,7 +250,8 @@
    "note": "# Ch 5 Homework Cengage, due Tue 11pm MDT per LS schedule 2026-09-10",
    "title": "Ch 5 Homework Cengage",
    "grade": null,
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "ECON_MINDTAP_CH6PRE",
@@ -242,7 +260,8 @@
    "note": "# Ch 6 pre-class Cengage, due Wed 3pm MDT per LS schedule 2026-09-10",
    "title": "Ch 6 pre-class Cengage",
    "grade": null,
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "ECON_NEQ_3",
@@ -260,7 +279,8 @@
     "submission_type": "learning_suite",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "ECON_MANKIW_3",
@@ -278,7 +298,8 @@
     "submission_type": "learning_suite",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "ECON_NEWS_SEPT",
@@ -296,7 +317,8 @@
     "submission_type": "learning_suite",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "ECON_NEQ_4",
@@ -314,7 +336,8 @@
     "submission_type": "learning_suite",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "ECON_MANKIW_4",
@@ -332,7 +355,8 @@
     "submission_type": "learning_suite",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "ECON_MIDTERM_1",
@@ -350,7 +374,8 @@
     "submission_type": "learning_suite",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "ECON_PRECLASS_BEHAV",
@@ -368,7 +393,8 @@
     "submission_type": "learning_suite",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "ECON_NEQ_5",
@@ -386,7 +412,8 @@
     "submission_type": "learning_suite",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "ECON_NEQ_6",
@@ -404,7 +431,8 @@
     "submission_type": "learning_suite",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "ECON_MANKIW_5",
@@ -422,7 +450,8 @@
     "submission_type": "learning_suite",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "ECON_NAKED_ESSAY_1",
@@ -440,7 +469,8 @@
     "submission_type": "learning_suite",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "ECON_NEQ_7",
@@ -458,7 +488,8 @@
     "submission_type": "learning_suite",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "ECON_MANKIW_6",
@@ -476,7 +507,8 @@
     "submission_type": "learning_suite",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "ECON_NEQ_8",
@@ -494,7 +526,8 @@
     "submission_type": "learning_suite",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "ECON_MANKIW_7",
@@ -512,7 +545,8 @@
     "submission_type": "learning_suite",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "ECON_NEWS_OCT",
@@ -530,7 +564,8 @@
     "submission_type": "learning_suite",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "ECON_NEQ_9",
@@ -548,7 +583,8 @@
     "submission_type": "learning_suite",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "ECON_MANKIW_8",
@@ -566,7 +602,8 @@
     "submission_type": "learning_suite",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "ECON_MIDTERM_2",
@@ -584,7 +621,8 @@
     "submission_type": "learning_suite",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "ECON_NEQ_10",
@@ -602,7 +640,8 @@
     "submission_type": "learning_suite",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "ECON_MANKIW_9",
@@ -620,7 +659,8 @@
     "submission_type": "learning_suite",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "ECON_NEQ_11",
@@ -638,7 +678,8 @@
     "submission_type": "learning_suite",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "ECON_MANKIW_10",
@@ -656,7 +697,8 @@
     "submission_type": "learning_suite",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "ECON_NEWS_NOV",
@@ -674,7 +716,8 @@
     "submission_type": "learning_suite",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "ECON_NEQ_12",
@@ -692,7 +735,8 @@
     "submission_type": "learning_suite",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "ECON_NEQ_13",
@@ -710,7 +754,8 @@
     "submission_type": "learning_suite",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "ECON_MANKIW_11",
@@ -728,7 +773,8 @@
     "submission_type": "learning_suite",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "ECON_NAKED_ESSAY_2",
@@ -746,7 +792,8 @@
     "submission_type": "learning_suite",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "ECON_CHRISTENSEN_QUIZ",
@@ -764,7 +811,8 @@
     "submission_type": "learning_suite",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "ECON_FINAL",
@@ -782,7 +830,8 @@
     "submission_type": "learning_suite",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "ECON_COURSE_EVAL",
@@ -800,13 +849,15 @@
     "submission_type": "learning_suite",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   }
  ],
  "unmatched_canvas": [],
+ "needs": null,
  "overall": {
   "current_score": 97.92,
   "source": "learning-suite-points"
  },
- "built_at": "2026-09-11T11:15:58.562275+00:00"
+ "built_at": "2026-09-11T20:15:48.039046+00:00"
 }

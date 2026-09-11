@@ -7,6 +7,11 @@ runner's "Report to dashboard" step fired. Also mirrors `.state/grades.json`
 (when a runner publishes one, e.g. Learning Suite / MyEducator) to
 `data/<repo>.grades.json`.
 
+Docs: `.state/needs_user` (free text parked when a runner waits on Zack,
+e.g. PSE ethics public-post URL, REL video DONE) is mirrored to
+`data/<repo>.needs.json` so build.py can flag the matching ledger row.
+Statuses alone cannot express this: parked rows stay `pending`.
+
 Env: DISPATCH_TOKEN (preferred; has read access to the private class repos),
 falling back to GITHUB_TOKEN / GH_SYNC_TOKEN. Without a token it exits 0.
 """
@@ -73,6 +78,12 @@ def main():
             json.dump({"repo": "zackhada/" + repo, "rows": rows,
                        "source": "progress.txt"}, f, indent=1)
         print(repo, "ledger:", len(rows), "rows")
+        n = get_file(repo, ".state/needs_user")
+        with open(os.path.join(DATA, repo + ".needs.json"), "w") as f:
+            json.dump({"repo": "zackhada/" + repo,
+                       "text": (n.strip() if n and n.strip() else None)}, f,
+                      indent=1)
+        print(repo, "needs:", "parked" if (n and n.strip()) else "none")
         g = get_file(repo, ".state/grades.json")
         if g:
             try:

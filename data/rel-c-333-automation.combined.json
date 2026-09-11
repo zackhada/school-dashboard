@@ -21,7 +21,8 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "ATTENDANCE_CHECK_0910",
@@ -43,7 +44,8 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "SYLLABUS_QUIZ",
@@ -65,7 +67,8 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "GET_TO_KNOW_YOU",
@@ -87,7 +90,8 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": true
   },
   {
    "key": "ATTENDANCE_CHECK_0915",
@@ -109,7 +113,8 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "PRECLASS_PADLET_0915",
@@ -131,7 +136,8 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "ATTENDANCE_CHECK_0917",
@@ -153,7 +159,8 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "PRECLASS_PADLET_0917",
@@ -175,15 +182,17 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": false
+   "drift": false,
+   "needs_zack": false
   }
  ],
  "unmatched_canvas": [],
+ "needs": "RELC333 Get-to-Know-You Assignment (REL C 333-006, due 9/13 05:59 UTC, 10pts): record 60-sec video at https://byu.instructure.com/courses/38438/assignments/1464249 (1 who you are, 2 why taking, 3 hope to get, 4 memorable thing). Reply DONE in Telegram when uploaded.",
  "overall": {
   "current_score": 100.0,
   "current_grade": "A",
   "final_score": 32.05,
   "final_grade": "E"
  },
- "built_at": "2026-09-11T11:15:58.501396+00:00"
+ "built_at": "2026-09-11T20:15:48.008206+00:00"
 }

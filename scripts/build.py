@@ -88,6 +88,18 @@ def load(name):
         return json.load(f)
 
 
+def needs_scores(prepped, needs_text):
+    """Overlap counts between each (row, title) and the parked needs text."""
+    if not needs_text:
+        return [0] * len(prepped)
+    nw = set(words(needs_text))
+    out = []
+    for x, title in prepped:
+        tw = set(words(str(title) + " " + str(x.get("key", ""))))
+        out.append(sum(1 for a in tw if any(_tok_match(a, b) for b in nw)))
+    return out
+
+
 def _tok_match(a, b):
     if a == b:
         return True
@@ -115,6 +127,7 @@ def day_bonus(gday, due_day):
 def build_repo(repo):
     ledger = load(repo + ".json").get("rows", []) if load(repo + ".json") else []
     grades = load(repo + ".grades.json").get("rows", [])
+    needs_text = (load(repo + ".needs.json") or {}).get("text")
     # ledger file may itself be a raw dispatch payload; be lenient
     if isinstance(ledger, dict):
         ledger = ledger.get("rows", [])
@@ -152,13 +165,21 @@ def build_repo(repo):
         used_g.add(gi)
     matched_ids = set()
     rows = []
+    # Parked `.state/needs_user` text refers to one row (which stays
+    # `pending`); flag only the single best token-overlap match (>=3) so the
+    # dashboard's "Needs your input" section surfaces exactly that row.
+    nscores = needs_scores(prepped, needs_text)
+    nbest = max(range(len(nscores)), key=lambda i: nscores[i]) if nscores else -1
+    if not nscores or nscores[nbest] < 3:
+        nbest = -1
     for i, (x, title) in enumerate(prepped):
         g = grades[assign[i]] if i in assign else None
         if g:
             matched_ids.add(g.get("canvas_id"))
         rows.append({"key": x.get("key"), "status": x.get("status"),
                      "date": x.get("date"), "note": x.get("note"),
-                     "title": title, "grade": g, "drift": False})
+                     "title": title, "grade": g, "drift": False,
+                     "needs_zack": i == nbest})
     rows.sort(key=lambda r: r["date"])
     unmatched = [g for g in grades
                  if g.get("canvas_id") is not None
@@ -173,6 +194,7 @@ def build_repo(repo):
     rows.sort(key=lambda r: r["date"])
     out = {"repo": "zackhada/%s" % repo, "rows": rows,
            "unmatched_canvas": unmatched,
+           "needs": needs_text,
            "overall": (load(repo + ".grades.json").get("overall") or {}),
            "built_at": datetime.now(timezone.utc).isoformat()}
     with open(os.path.join(DATA, repo + ".combined.json"), "w") as f:
