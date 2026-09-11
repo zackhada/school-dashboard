@@ -3,16 +3,16 @@
  "rows": [
   {
    "key": "FIN_QUIZ_5",
-   "status": "pending",
+   "status": "done",
    "date": "2026-09-16",
    "note": "# Topic 5 Quiz 10:00am",
    "title": "Topic 5 Quiz 10:00am",
    "grade": {
     "name": "Topic 5 Quiz",
     "due": "2026-09-16T10:00:00",
-    "points": null,
-    "score": null,
-    "status": "not_graded",
+    "points": 10.0,
+    "score": 10.0,
+    "status": "graded",
     "missing": false,
     "submission_type": "myeducator",
     "comments": []
@@ -238,5 +238,5 @@
  ],
  "unmatched_canvas": [],
  "overall": {},
- "built_at": "2026-09-11T01:13:11.695100+00:00"
+ "built_at": "2026-09-11T01:19:45.347170+00:00"
 }
