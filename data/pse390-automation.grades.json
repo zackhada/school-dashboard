@@ -184,6 +184,20 @@
    "comments": []
   },
   {
+   "canvas_id": 1499418,
+   "name": "Participation Quiz",
+   "due": "2026-10-08T21:15:00Z",
+   "points": 3.0,
+   "status": "unsubmitted",
+   "score": null,
+   "grade": null,
+   "missing": true,
+   "submitted_at": null,
+   "submission_type": null,
+   "my_submission": "",
+   "comments": []
+  },
+  {
    "canvas_id": 1495460,
    "name": "Ethics and Public Quiz - Week 5",
    "due": "2026-10-11T05:59:59Z",
@@ -322,12 +336,26 @@
    "submission_type": null,
    "my_submission": "",
    "comments": []
+  },
+  {
+   "canvas_id": 1499408,
+   "name": "Participation and Engagement Grade",
+   "due": null,
+   "points": 0.0,
+   "status": "unsubmitted",
+   "score": null,
+   "grade": null,
+   "missing": false,
+   "submitted_at": null,
+   "submission_type": null,
+   "my_submission": "",
+   "comments": []
   }
  ],
  "overall": {
   "current_score": 100.0,
   "current_grade": "A",
-  "final_score": 3.59,
+  "final_score": 3.53,
   "final_grade": "E"
  },
  "source": "canvas-api"
