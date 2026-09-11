@@ -47,7 +47,7 @@
   },
   {
    "key": "IS_DEBUG",
-   "status": "pending",
+   "status": "done",
    "date": "2026-09-16",
    "note": "# 2.8 Debugging Assessment, 20pts, MyEducator",
    "title": "2.8 Debugging Assessment",
@@ -427,5 +427,5 @@
   "final_score": 4.33,
   "final_grade": "E"
  },
- "built_at": "2026-09-11T01:40:36.229348+00:00"
+ "built_at": "2026-09-11T01:45:29.017905+00:00"
 }
