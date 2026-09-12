@@ -138,7 +138,7 @@
   },
   {
    "key": "ECON_MINDTAP_CH3PRE",
-   "status": "pending",
+   "status": "done",
    "date": "2026-09-14",
    "note": "# Ch 3 pre-class Cengage (Read It + QuickQuizzes), due Mon 3pm MDT",
    "title": "Ch 3 pre-class Cengage (Read It + QuickQuizzes)",
@@ -259,6 +259,16 @@
    "date": "2026-09-23",
    "note": "# Ch 6 pre-class Cengage, due Wed 3pm MDT per LS schedule 2026-09-10",
    "title": "Ch 6 pre-class Cengage",
+   "grade": null,
+   "drift": false,
+   "needs_zack": false
+  },
+  {
+   "key": "ECON_MINDTAP_CH6",
+   "status": "pending",
+   "date": "2026-09-24",
+   "note": "# Ch 6 Homework Cengage, due Thu 11pm MDT per LS dashboard 2026-09-12",
+   "title": "Ch 6 Homework Cengage",
    "grade": null,
    "drift": false,
    "needs_zack": false
@@ -860,5 +870,5 @@
   "current_score": 98.11,
   "source": "learning-suite-points"
  },
- "built_at": "2026-09-12T23:20:15.651753+00:00"
+ "built_at": "2026-09-12T23:29:37.342116+00:00"
 }
