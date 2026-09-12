@@ -68,7 +68,7 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": true
+   "needs_zack": false
   },
   {
    "key": "PARTICIPATION_QUIZ_SEP15",
@@ -555,7 +555,7 @@
   }
  ],
  "unmatched_canvas": [],
- "needs": "PSE390 Ethics and Public Quiz Week 1 (Canvas 38958, assign 1495456, 10pts, due Sat Sep 12 11:59pm MT): your reply was received (use X account + LinkedIn info/image). Draft post is ready in .state/ETHICS_PUBLIC_QUIZ_WK01_draft.md but NOT posted and NOT submitted. Reply with: (1) confirm I may publish this exact text publicly as you, (2) how to access your X account (logged-in session or post it yourself), (3) the public post URL so I can submit it to Canvas.",
+ "needs": null,
  "course_id": 38958,
  "overall": {
   "current_score": 100.0,
@@ -563,5 +563,5 @@
   "final_score": 3.53,
   "final_grade": "E"
  },
- "built_at": "2026-09-12T10:41:44.800522+00:00"
+ "built_at": "2026-09-12T23:04:18.235960+00:00"
 }
