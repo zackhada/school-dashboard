@@ -301,16 +301,16 @@
    "needs_zack": false
   },
   {
-   "key": "WEEKLY_QUIZ_WK05",
-   "status": "pending",
-   "date": "2026-10-11",
-   "note": "# weekly quiz pattern through Dec 13",
-   "title": "weekly quiz pattern through Dec 13",
+   "key": "PARTICIPATION_QUIZ_OCT08",
+   "status": "blocked_inperson",
+   "date": "2026-10-08",
+   "note": "# Canvas 1499418, 3pts, online_quiz participation; drift-added 2026-09-12 (was invisible to runner)",
+   "title": "Participation Quiz Oct 08",
    "grade": {
-    "canvas_id": 1495460,
-    "name": "Ethics and Public Quiz - Week 5",
-    "due": "2026-10-11T05:59:59Z",
-    "points": 10.0,
+    "canvas_id": 1499418,
+    "name": "Participation Quiz",
+    "due": "2026-10-08T21:15:00Z",
+    "points": 3.0,
     "status": "unsubmitted",
     "score": null,
     "grade": null,
@@ -324,16 +324,16 @@
    "needs_zack": false
   },
   {
-   "key": "WEEKLY_QUIZ_WK06",
+   "key": "WEEKLY_QUIZ_WK05",
    "status": "pending",
-   "date": "2026-10-18",
+   "date": "2026-10-11",
    "note": "# weekly quiz pattern through Dec 13",
    "title": "weekly quiz pattern through Dec 13",
    "grade": {
-    "canvas_id": 1499418,
-    "name": "Participation Quiz",
-    "due": "2026-10-08T21:15:00Z",
-    "points": 3.0,
+    "canvas_id": 1495460,
+    "name": "Ethics and Public Quiz - Week 5",
+    "due": "2026-10-11T05:59:59Z",
+    "points": 10.0,
     "status": "unsubmitted",
     "score": null,
     "grade": null,
@@ -563,5 +563,5 @@
   "final_score": 3.53,
   "final_grade": "E"
  },
- "built_at": "2026-09-11T23:39:24.321767+00:00"
+ "built_at": "2026-09-12T01:05:09.855788+00:00"
 }

@@ -56,12 +56,6 @@
    "note": "# weekly quiz pattern through Dec 13"
   },
   {
-   "key": "WEEKLY_QUIZ_WK06",
-   "status": "pending",
-   "date": "2026-10-18",
-   "note": "# weekly quiz pattern through Dec 13"
-  },
-  {
    "key": "WEEKLY_QUIZ_WK07",
    "status": "pending",
    "date": "2026-10-25",
@@ -150,6 +144,12 @@
    "status": "blocked_inperson",
    "date": "2026-10-06",
    "note": "# Canvas 1496719, in-class code, avail Oct 6 2pm-3:17pm MT"
+  },
+  {
+   "key": "PARTICIPATION_QUIZ_OCT08",
+   "status": "blocked_inperson",
+   "date": "2026-10-08",
+   "note": "# Canvas 1499418, 3pts, online_quiz participation; drift-added 2026-09-12 (was invisible to runner)"
   },
   {
    "key": "TEACHING_ETHICS_HOME",
