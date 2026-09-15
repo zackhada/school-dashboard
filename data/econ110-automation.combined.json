@@ -148,7 +148,7 @@
   },
   {
    "key": "ECON_MINDTAP_CH3",
-   "status": "pending",
+   "status": "done",
    "date": "2026-09-15",
    "note": "# Ch 3 Homework Cengage, due Tue 11pm MDT",
    "title": "Ch 3 Homework Cengage",
@@ -870,5 +870,5 @@
   "current_score": 98.11,
   "source": "learning-suite-points"
  },
- "built_at": "2026-09-14T23:59:10.069778+00:00"
+ "built_at": "2026-09-15T00:22:32.266411+00:00"
 }
