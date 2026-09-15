@@ -177,7 +177,7 @@
   },
   {
    "key": "ECON_MINDTAP_CH4PRE",
-   "status": "pending",
+   "status": "done",
    "date": "2026-09-16",
    "note": "# Ch 4 pre-class Cengage (Read It + QuickQuizzes), due Wed 3pm MDT",
    "title": "Ch 4 pre-class Cengage (Read It + QuickQuizzes)",
@@ -870,5 +870,5 @@
   "current_score": 98.11,
   "source": "learning-suite-points"
  },
- "built_at": "2026-09-15T01:34:23.506859+00:00"
+ "built_at": "2026-09-15T01:40:27.137024+00:00"
 }
