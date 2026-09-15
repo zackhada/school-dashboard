@@ -118,10 +118,10 @@
   },
   {
    "key": "WEEKLY_QUIZ_WK02",
-   "status": "pending",
+   "status": "done",
    "date": "2026-09-20",
-   "note": "# weekly quiz pattern through Dec 13",
-   "title": "weekly quiz pattern through Dec 13",
+   "note": "# Canvas 1495457 text_entry w/ public Telegraph URL https://telegra.ph/Zack-Hada-Personal-Brand-Week-2-09-15, submitted 2026-09-15T01:40:09Z, verified workflow_state=submitted",
+   "title": "Canvas 1495457 text_entry w/ public Telegraph URL https://telegra.ph/Zack-Hada-Personal-Brand-Week-2-09-15, submitted 2026-09-15T01:40:09Z, verified workflow_state=submitted",
    "grade": {
     "canvas_id": 1495457,
     "name": "Ethics and Public Quiz - Week 2",
@@ -189,8 +189,8 @@
    "key": "WEEKLY_QUIZ_WK03",
    "status": "pending",
    "date": "2026-09-27",
-   "note": "# weekly quiz pattern through Dec 13",
-   "title": "weekly quiz pattern through Dec 13",
+   "note": "# Canvas 1495458 Ethics and Public Quiz Week 3, online_text_entry/url, due 2026-09-27T05:59:59Z",
+   "title": "Canvas 1495458 Ethics and Public Quiz Week 3, online_text_entry/url",
    "grade": {
     "canvas_id": 1495458,
     "name": "Ethics and Public Quiz - Week 3",
@@ -258,8 +258,8 @@
    "key": "WEEKLY_QUIZ_WK04",
    "status": "pending",
    "date": "2026-10-04",
-   "note": "# weekly quiz pattern through Dec 13",
-   "title": "weekly quiz pattern through Dec 13",
+   "note": "# Canvas 1495459 Ethics and Public Quiz Week 4, online_text_entry/url, due 2026-10-04T05:59:59Z",
+   "title": "Canvas 1495459 Ethics and Public Quiz Week 4, online_text_entry/url",
    "grade": {
     "canvas_id": 1495459,
     "name": "Ethics and Public Quiz - Week 4",
@@ -327,8 +327,8 @@
    "key": "WEEKLY_QUIZ_WK05",
    "status": "pending",
    "date": "2026-10-11",
-   "note": "# weekly quiz pattern through Dec 13",
-   "title": "weekly quiz pattern through Dec 13",
+   "note": "# Canvas 1495460 Ethics and Public Quiz Week 5, online_text_entry/url, due 2026-10-11T05:59:59Z",
+   "title": "Canvas 1495460 Ethics and Public Quiz Week 5, online_text_entry/url",
    "grade": {
     "canvas_id": 1495460,
     "name": "Ethics and Public Quiz - Week 5",
@@ -373,8 +373,8 @@
    "key": "WEEKLY_QUIZ_WK07",
    "status": "pending",
    "date": "2026-10-25",
-   "note": "# weekly quiz pattern through Dec 13",
-   "title": "weekly quiz pattern through Dec 13",
+   "note": "# Canvas 1495462 Ethics and Public Quiz Week 7, online_text_entry/url, due 2026-10-25T05:59:59Z",
+   "title": "Canvas 1495462 Ethics and Public Quiz Week 7, online_text_entry/url",
    "grade": {
     "canvas_id": 1495462,
     "name": "Ethics and Public Quiz - Week 7",
@@ -396,8 +396,8 @@
    "key": "WEEKLY_QUIZ_WK08",
    "status": "pending",
    "date": "2026-11-01",
-   "note": "# weekly quiz pattern through Dec 13",
-   "title": "weekly quiz pattern through Dec 13",
+   "note": "# Canvas 1495463 Ethics and Public Quiz Week 8, online_text_entry/url, due 2026-11-01T05:59:59Z",
+   "title": "Canvas 1495463 Ethics and Public Quiz Week 8, online_text_entry/url",
    "grade": {
     "canvas_id": 1495463,
     "name": "Ethics and Public Quiz - Week 8",
@@ -419,8 +419,8 @@
    "key": "WEEKLY_QUIZ_WK09",
    "status": "pending",
    "date": "2026-11-08",
-   "note": "# weekly quiz pattern through Dec 13",
-   "title": "weekly quiz pattern through Dec 13",
+   "note": "# Canvas 1495465 Ethics and Public Quiz Week 9, online_text_entry/url, due 2026-11-08T06:59:59Z",
+   "title": "Canvas 1495465 Ethics and Public Quiz Week 9, online_text_entry/url",
    "grade": {
     "canvas_id": 1495465,
     "name": "Ethics and Public Quiz - Week 9",
@@ -442,8 +442,8 @@
    "key": "WEEKLY_QUIZ_WK10",
    "status": "pending",
    "date": "2026-11-15",
-   "note": "# weekly quiz pattern through Dec 13",
-   "title": "weekly quiz pattern through Dec 13",
+   "note": "# Canvas 1495466 Ethics and Public Quiz Week 10, online_text_entry/url, due 2026-11-15T06:59:59Z",
+   "title": "Canvas 1495466 Ethics and Public Quiz Week 10, online_text_entry/url",
    "grade": {
     "canvas_id": 1495466,
     "name": "Ethics and Public Quiz - Week 10",
@@ -465,8 +465,8 @@
    "key": "WEEKLY_QUIZ_WK11",
    "status": "pending",
    "date": "2026-11-22",
-   "note": "# weekly quiz pattern through Dec 13",
-   "title": "weekly quiz pattern through Dec 13",
+   "note": "# Canvas 1495468 Ethics and Public Quiz Week 11, online_text_entry/url, due 2026-11-22T06:59:59Z",
+   "title": "Canvas 1495468 Ethics and Public Quiz Week 11, online_text_entry/url",
    "grade": {
     "canvas_id": 1495468,
     "name": "Ethics and Public Quiz - Week 11",
@@ -488,8 +488,8 @@
    "key": "WEEKLY_QUIZ_WK12",
    "status": "pending",
    "date": "2026-11-29",
-   "note": "# weekly quiz pattern through Dec 13",
-   "title": "weekly quiz pattern through Dec 13",
+   "note": "# Canvas 1495469 Ethics and Public Quiz Week 12, online_text_entry/url, due 2026-11-29T06:59:59Z",
+   "title": "Canvas 1495469 Ethics and Public Quiz Week 12, online_text_entry/url",
    "grade": {
     "canvas_id": 1495469,
     "name": "Ethics and Public Quiz - Week 12",
@@ -511,8 +511,8 @@
    "key": "WEEKLY_QUIZ_WK13",
    "status": "pending",
    "date": "2026-12-06",
-   "note": "# weekly quiz pattern through Dec 13",
-   "title": "weekly quiz pattern through Dec 13",
+   "note": "# Canvas 1495470 Ethics and Public Quiz Week 13, online_text_entry/url, due 2026-12-06T06:59:59Z",
+   "title": "Canvas 1495470 Ethics and Public Quiz Week 13, online_text_entry/url",
    "grade": {
     "canvas_id": 1495470,
     "name": "Ethics and Public Quiz - Week 13",
@@ -534,8 +534,8 @@
    "key": "WEEKLY_QUIZ_WK14",
    "status": "pending",
    "date": "2026-12-13",
-   "note": "# weekly quiz pattern through Dec 13",
-   "title": "weekly quiz pattern through Dec 13",
+   "note": "# Canvas 1495474 Ethics and Public Quiz Week 14, online_text_entry/url, due 2026-12-13T06:59:59Z",
+   "title": "Canvas 1495474 Ethics and Public Quiz Week 14, online_text_entry/url",
    "grade": {
     "canvas_id": 1495474,
     "name": "Ethics and Public Quiz - Week 14",
@@ -563,5 +563,5 @@
   "final_score": 3.53,
   "final_grade": "E"
  },
- "built_at": "2026-09-15T01:40:27.102662+00:00"
+ "built_at": "2026-09-15T01:41:14.399549+00:00"
 }
