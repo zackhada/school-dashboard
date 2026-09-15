@@ -1,9 +1,9 @@
 {
  "repo": "zackhada/econ110-automation",
  "source": "learning-suite",
- "url": "https://learningsuite.byu.edu/.2lzi/cid-1YPOkgOMQjjk/student/home/assignments",
+ "url": "https://learningsuite.byu.edu/.WD41/cid-1YPOkgOMQjjk/student/home/assignments",
  "overall": {
-  "current_score": 98.11,
+  "current_score": 91.8,
   "source": "learning-suite-points"
  },
  "rows": [
@@ -320,7 +320,7 @@
   {
    "name": "9/2",
    "due": "2026-09-02T23:59:00",
-   "points": 1.0,
+   "points": 5.0,
    "score": 0.0,
    "status": "graded",
    "missing": false,
@@ -330,8 +330,8 @@
   {
    "name": "9/9",
    "due": "2026-09-09T23:59:00",
-   "points": 1.0,
-   "score": 1.0,
+   "points": 5.0,
+   "score": 5.0,
    "status": "graded",
    "missing": false,
    "submission_type": "learning_suite",
@@ -350,7 +350,7 @@
   {
    "name": "9/14",
    "due": "2026-09-14T23:59:00",
-   "points": 1.0,
+   "points": 5.0,
    "score": null,
    "status": "not_graded",
    "missing": false,
@@ -370,7 +370,7 @@
   {
    "name": "9/16",
    "due": "2026-09-16T23:59:00",
-   "points": 1.0,
+   "points": 5.0,
    "score": null,
    "status": "not_graded",
    "missing": false,
@@ -390,7 +390,7 @@
   {
    "name": "9/21",
    "due": "2026-09-21T23:59:00",
-   "points": 1.0,
+   "points": 5.0,
    "score": null,
    "status": "not_graded",
    "missing": false,
@@ -410,7 +410,7 @@
   {
    "name": "9/23",
    "due": "2026-09-23T23:59:00",
-   "points": 1.0,
+   "points": 5.0,
    "score": null,
    "status": "not_graded",
    "missing": false,
@@ -430,7 +430,7 @@
   {
    "name": "9/28",
    "due": "2026-09-28T23:59:00",
-   "points": 1.0,
+   "points": 5.0,
    "score": null,
    "status": "not_graded",
    "missing": false,
@@ -460,7 +460,7 @@
   {
    "name": "9/30",
    "due": "2026-09-30T23:59:00",
-   "points": 1.0,
+   "points": 5.0,
    "score": null,
    "status": "not_graded",
    "missing": false,
