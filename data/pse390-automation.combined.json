@@ -127,12 +127,12 @@
     "name": "Ethics and Public Quiz - Week 2",
     "due": "2026-09-20T05:59:59Z",
     "points": 10.0,
-    "status": "unsubmitted",
+    "status": "submitted",
     "score": null,
     "grade": null,
-    "missing": true,
-    "submitted_at": null,
-    "submission_type": null,
+    "missing": false,
+    "submitted_at": "2026-09-15T01:40:09Z",
+    "submission_type": "online_text_entry",
     "my_submission": "",
     "comments": []
    },
@@ -563,5 +563,5 @@
   "final_score": 3.53,
   "final_grade": "E"
  },
- "built_at": "2026-09-15T01:54:04.574575+00:00"
+ "built_at": "2026-09-15T10:16:09.887364+00:00"
 }

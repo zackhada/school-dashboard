@@ -118,12 +118,26 @@
    "submission_type": null,
    "my_submission": "",
    "comments": []
+  },
+  {
+   "canvas_id": 1466674,
+   "name": "Become Project - Part A - Self Evaluation",
+   "due": "2026-09-27T05:59:59Z",
+   "points": 100.0,
+   "status": "unsubmitted",
+   "score": null,
+   "grade": null,
+   "missing": true,
+   "submitted_at": null,
+   "submission_type": null,
+   "my_submission": "",
+   "comments": []
   }
  ],
  "overall": {
   "current_score": 100.0,
   "current_grade": "A",
-  "final_score": 33.97,
+  "final_score": 20.08,
   "final_grade": "E"
  },
  "source": "canvas-api"

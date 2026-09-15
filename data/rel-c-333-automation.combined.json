@@ -190,16 +190,53 @@
    },
    "drift": false,
    "needs_zack": false
+  },
+  {
+   "key": "CANVAS_1466674",
+   "status": "missing_from_ledger",
+   "date": "2026-09-27",
+   "note": "# In Canvas but no ledger row; runner must add it",
+   "title": "Become Project - Part A - Self Evaluation",
+   "grade": {
+    "canvas_id": 1466674,
+    "name": "Become Project - Part A - Self Evaluation",
+    "due": "2026-09-27T05:59:59Z",
+    "points": 100.0,
+    "status": "unsubmitted",
+    "score": null,
+    "grade": null,
+    "missing": true,
+    "submitted_at": null,
+    "submission_type": null,
+    "my_submission": "",
+    "comments": []
+   },
+   "drift": true
   }
  ],
- "unmatched_canvas": [],
+ "unmatched_canvas": [
+  {
+   "canvas_id": 1466674,
+   "name": "Become Project - Part A - Self Evaluation",
+   "due": "2026-09-27T05:59:59Z",
+   "points": 100.0,
+   "status": "unsubmitted",
+   "score": null,
+   "grade": null,
+   "missing": true,
+   "submitted_at": null,
+   "submission_type": null,
+   "my_submission": "",
+   "comments": []
+  }
+ ],
  "needs": null,
  "course_id": 38438,
  "overall": {
   "current_score": 100.0,
   "current_grade": "A",
-  "final_score": 33.97,
+  "final_score": 20.08,
   "final_grade": "E"
  },
- "built_at": "2026-09-15T01:54:04.560916+00:00"
+ "built_at": "2026-09-15T10:16:09.873700+00:00"
 }
