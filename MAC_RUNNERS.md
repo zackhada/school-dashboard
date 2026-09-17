@@ -4,9 +4,20 @@
 cap hit Sep 2026) onto a spare Mac. GitHub stays as scheduler; all compute
 happens on the Mac. Self-hosted runners currently cost $0 extra.
 
-**Status 2026-09-16:** duplicate workflows (`daily-selfhosted.yml`,
-`session-keepalive-selfhosted.yml`) are pushed to all 7 class repos with
-schedules DISABLED. Cloud workflows untouched and still live. Nothing runs on
+**Status 2026-09-17: LIVE on this Mac (Intel x86_64, macOS 15.7.7).** All 7
+runners (`mac-econ110` ... `mac-strat392`, v2.337.0) installed under
+`~/school-runners/` as launchd services and online. Self-hosted schedules
+active (daily 3x UTC crons + keepalive 1x cron per repo); cloud `daily.yml` +
+`session-keepalive.yml` DISABLED (not deleted) in all 7 repos. Session
+keepalive verified green on all 7 local runners 2026-09-17 (ECON 5m18s, others
+~6min). Stay-awake: `com.school.runners.caffeinate` LaunchAgent runs
+`caffeinate -dimsu` (KeepAlive + RunAtLoad); `pmset` confirms sleep prevented.
+Canonical local checkouts for git ops: `~/school-repos/<class>` (the old
+Desktop checkouts lost TCC approval for background shells).
+
+**Prior status 2026-09-16:** duplicate workflows (`daily-selfhosted.yml`,
+`session-keepalive-selfhosted.yml`) were pushed to all 7 class repos with
+schedules DISABLED. Cloud workflows untouched and still live. Nothing ran on
 the Mac until step 3 below.
 
 ## Step 1: prep the spare Mac
@@ -50,6 +61,16 @@ the self-hosted schedules.
 ## Notes
 
 - Runners are repo-scoped, so plain `runs-on: self-hosted` routes correctly.
+- `setup-mac-runners.sh` auto-detects arch (`osx-arm64` vs `osx-x64`) and uses
+  `gh api -X POST` for registration tokens (GET 404s). Runner v2.337.0.
+- `switch-to-mac.sh` accepts class checkouts beside or under school-dashboard.
+- Self-hosted fixes applied 2026-09-17 (all 7 repos): job-level
+  `AGENT_TOOLSDIRECTORY: ~/school-runners/_tools` (lets setup-node work);
+  keepalive uses system python3 + `pip --break-system-packages` because
+  `setup-python@v5` hardcodes `/Users/runner` on macOS. Keepalive keep the
+  jammed `# - cron:` single-line form out: one repo family had the cron
+  appended to a prose comment, which uncommented to an empty `schedule:` and
+  422s dispatches; fixed to a real `- cron:` entry.
 - Keepalive Chrome steps use the macOS Chrome path (`/Applications/Google
   Chrome.app/...`) with a `brew` fallback; the `apt-get` line only exists in
   the cloud files.

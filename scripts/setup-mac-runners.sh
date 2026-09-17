@@ -17,7 +17,9 @@ set -euo pipefail
 
 REPOS="econ110 fin201 hrm391 is515 pse390 rel-c-333 strat392"
 BASE="$HOME/school-runners"
-RUNNER_VERSION="2.329.0"
+RUNNER_VERSION="2.337.0"
+# Auto-detect Intel vs Apple Silicon (verified 2026-09-17 on Intel x86_64 Mac).
+if [ "$(uname -m)" = "arm64" ]; then ARCH="osx-arm64"; else ARCH="osx-x64"; fi
 
 mkdir -p "$BASE"
 
@@ -29,12 +31,13 @@ for R in $REPOS; do
   cd "$DIR"
   if [ ! -f ./run.sh ]; then
     curl -sSLo actions-runner.tar.gz \
-      "https://github.com/actions/runner/releases/download/v${RUNNER_VERSION}/actions-runner-osx-arm64-${RUNNER_VERSION}.tar.gz"
+      "https://github.com/actions/runner/releases/download/v${RUNNER_VERSION}/actions-runner-${ARCH}-${RUNNER_VERSION}.tar.gz"
     tar xzf actions-runner.tar.gz
     rm -f actions-runner.tar.gz
   fi
   if [ ! -f .runner ]; then
-    TOKEN=$(gh api "repos/${REPO}/actions/runners/registration-token" -q .token)
+    # NOTE: registration-token requires POST (GET returns 404).
+    TOKEN=$(gh api -X POST "repos/${REPO}/actions/runners/registration-token" -q .token)
     ./config.sh --unattended --url "https://github.com/${REPO}" \
       --token "$TOKEN" --name "mac-${R}" --labels self-hosted,mac \
       --work "_work" --replace
@@ -55,7 +58,7 @@ for D in "$HOME"/school-runners/*/; do
   cd "$D"
   ./svc.sh stop 2>/dev/null || true
   ./svc.sh uninstall 2>/dev/null || true
-  TOKEN=$(gh api "repos/zackhada/$(basename $D)-automation/actions/runners/registration-token" -q .token)
+  TOKEN=$(gh api -X POST "repos/zackhada/$(basename $D)-automation/actions/runners/registration-token" -q .token)
   ./config.sh remove --unattended --token "$TOKEN" || true
   echo "removed $(basename $D)"
 done

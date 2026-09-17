@@ -9,6 +9,11 @@
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+# Class checkouts may live beside school-dashboard (layout: <school>/econ110,
+# <school>/school-dashboard, ...) rather than under it; prefer whichever exists.
+if [ ! -d "$ROOT/econ110" ] && [ -d "$ROOT/../econ110" ]; then
+  ROOT="$(cd "$ROOT/.." && pwd)"
+fi
 REPOS="econ110 fin201 hrm391 is515 pse390 rel-c-333 strat392"
 
 echo "--- 1/3 checking Mac runners are online ---"
