@@ -13,7 +13,19 @@ keepalive verified green on all 7 local runners 2026-09-17 (ECON 5m18s, others
 ~6min). Stay-awake: `com.school.runners.caffeinate` LaunchAgent runs
 `caffeinate -dimsu` (KeepAlive + RunAtLoad); `pmset` confirms sleep prevented.
 Canonical local checkouts for git ops: `~/school-repos/<class>` (the old
-Desktop checkouts lost TCC approval for background shells).
+Desktop checkouts lost TCC approval for background shells; use
+`~/school-repos/<class>`).
+
+**Status 2026-09-17 late: auth bootstrap complete.** All 7 runner Chrome
+profiles verified `ok:true, seeded` with Duo remember-device trust accepted
+(rel-c-333, strat392, pse390, is515, fin201, hrm391, econ110). No Duo taps
+should be needed for ~30 days; the nightly keepalive holds sessions warm and
+nudges via Telegram if a trust ever lapses. Fixes landed in all 7 repos:
+unique CDP debug ports 9230-9236 (concurrent keepalives shared 9222 and drove
+each other's browsers), Duo Universal Prompt steering (headless has no Touch
+ID: Other options -> Duo Push -> Yes this is my device), `REFRESH_RC`
+tool-cache path, jammed keepalive cron lines, and no session stamp on
+all-visit-fail.
 
 **Prior status 2026-09-16:** duplicate workflows (`daily-selfhosted.yml`,
 `session-keepalive-selfhosted.yml`) were pushed to all 7 class repos with
