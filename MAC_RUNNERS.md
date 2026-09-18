@@ -89,3 +89,20 @@ the self-hosted schedules.
 - First-night watch: `gh run list -R zackhada/econ110-automation --limit 5`.
 - `git pull` each class checkout before anything else runs; local checkouts lag
   the cloud (ECON ledger was reconciled 2026-09-16, others not yet verified).
+- Adversarial audit 2026-09-18 (4 subagents: runners, LLM limits, dashboard
+  pipeline, machine durability). Landed in all 7 class repos: answer.yml
+  retargeted to live daily-selfhosted.yml with force_key (old target 422d and
+  destroyed replies); IS515 daily off setup-python/apt-get onto system python
+  + macOS Chrome check; excel fallback Chrome uses isolated per-process
+  profile; keepalive fails red + pages Telegram on bad REFRESH_RC/GRADES_RC;
+  stable `-v1` profile cache keys (back-compat restore prefix) + Chrome
+  teardown + per-port logs + pre-save prune of regenerable bulk;
+  run_in_progress self-reaps after 3h. Still needs Zack (sudo/money/decisions):
+  `sudo pmset -c sleep 0`, disable macOS auto-install until 30Gi free, lid-OPEN
+  policy (lid-close sleeps despite caffeinate), reboot requires GUI login
+  (FileVault, no auto-login), free 20Gi+ (Messages 20G, dup dmgs, old
+  projects), OpenRouter key tier check (`GET /api/v1/key`, fund $10+ if free
+  tier; 7 concurrent agents share one account quota), UPS. Deferred (flagged,
+  not changed): Telegram single-poller, stamp-key validation, needs_user
+  lifecycle, agent-side guard removal, dashboard staleness banners, healer
+  self-hosted coverage, update.yml push-race retry.
