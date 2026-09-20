@@ -57,9 +57,9 @@
   },
   {
    "key": "ECON_NEQ_2",
-   "status": "pending",
+   "status": "done",
    "date": "2026-09-18",
-   "note": "# NE Quiz #2 5pt"
+   "note": "# NE Quiz #2 5pt: ACCEPTED ZERO per Zack 2026-09-20 (quiz closed, no extension sought)"
   },
   {
    "key": "ECON_NEQ_3",
@@ -147,7 +147,7 @@
   },
   {
    "key": "ECON_MANKIW_2",
-   "status": "pending",
+   "status": "done",
    "date": "2026-09-18",
    "note": "# Mankiw Bonus #2"
   },
@@ -285,7 +285,7 @@
   },
   {
    "key": "ECON_MINDTAP_CH4",
-   "status": "pending",
+   "status": "done",
    "date": "2026-09-17",
    "note": "# Ch 4 Homework Cengage, due Thu 11pm MDT"
   },
@@ -318,6 +318,66 @@
    "status": "blocked_inperson",
    "date": "2026-09-15",
    "note": "# meet TA, pass off one Q from Mankiw #1 (found live 2026-09-10)"
+  },
+  {
+   "key": "ECON_TA_PASSOFF_2",
+   "status": "blocked_inperson",
+   "date": "2026-09-22",
+   "note": "# meet TA, pass off one Q from Mankiw #2 (found live 2026-09-16)"
+  },
+  {
+   "key": "ECON_TA_PASSOFF_3",
+   "status": "blocked_inperson",
+   "date": "2026-09-29",
+   "note": "# meet TA, pass off one Q from Mankiw #3 (found live 2026-09-16)"
+  },
+  {
+   "key": "ECON_TA_PASSOFF_4",
+   "status": "blocked_inperson",
+   "date": "2026-10-06",
+   "note": "# meet TA, pass off one Q from Mankiw #4 (found live 2026-09-16)"
+  },
+  {
+   "key": "ECON_TA_PASSOFF_5",
+   "status": "blocked_inperson",
+   "date": "2026-10-20",
+   "note": "# meet TA, pass off one Q from Mankiw #5 (found live 2026-09-16)"
+  },
+  {
+   "key": "ECON_TA_PASSOFF_6",
+   "status": "blocked_inperson",
+   "date": "2026-10-27",
+   "note": "# meet TA, pass off one Q from Mankiw #6 (found live 2026-09-16)"
+  },
+  {
+   "key": "ECON_TA_PASSOFF_7",
+   "status": "blocked_inperson",
+   "date": "2026-11-03",
+   "note": "# meet TA, pass off one Q from Mankiw #7 (found live 2026-09-16)"
+  },
+  {
+   "key": "ECON_TA_PASSOFF_8",
+   "status": "blocked_inperson",
+   "date": "2026-11-10",
+   "note": "# meet TA, pass off one Q from Mankiw #8 (found live 2026-09-16)"
+  },
+  {
+   "key": "ECON_TA_PASSOFF_9",
+   "status": "blocked_inperson",
+   "date": "2026-11-17",
+   "note": "# meet TA, pass off one Q from Mankiw #9 (found live 2026-09-16)"
+  },
+  {
+   "key": "ECON_TA_PASSOFF_10",
+   "status": "blocked_inperson",
+   "date": "2026-11-24",
+   "note": "# meet TA, pass off one Q from Mankiw #10 (found live 2026-09-16)"
+  },
+  {
+   "key": "ECON_TA_PASSOFF_11",
+   "status": "blocked_inperson",
+   "date": "2026-12-08",
+   "note": "# meet TA, pass off one Q from Mankiw #11 (found live 2026-09-16)"
   }
  ],
  "source": "progress.txt"

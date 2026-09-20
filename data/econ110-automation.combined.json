@@ -89,8 +89,8 @@
     "name": "Meet Your TA",
     "due": "2026-09-11T23:59:00",
     "points": 10.0,
-    "score": null,
-    "status": "not_graded",
+    "score": 0.0,
+    "status": "graded",
     "missing": false,
     "submission_type": "learning_suite",
     "comments": []
@@ -127,8 +127,8 @@
     "name": "Mankiw Bonus #1 (Extra Credit)",
     "due": "2026-09-11T23:59:00",
     "points": 6.0,
-    "score": null,
-    "status": "not_graded",
+    "score": 6.0,
+    "status": "graded",
     "missing": false,
     "submission_type": "learning_suite",
     "comments": []
@@ -187,7 +187,7 @@
   },
   {
    "key": "ECON_MINDTAP_CH4",
-   "status": "pending",
+   "status": "done",
    "date": "2026-09-17",
    "note": "# Ch 4 Homework Cengage, due Thu 11pm MDT",
    "title": "Ch 4 Homework Cengage",
@@ -197,10 +197,10 @@
   },
   {
    "key": "ECON_NEQ_2",
-   "status": "pending",
+   "status": "done",
    "date": "2026-09-18",
-   "note": "# NE Quiz #2 5pt",
-   "title": "NE Quiz #2",
+   "note": "# NE Quiz #2 5pt: ACCEPTED ZERO per Zack 2026-09-20 (quiz closed, no extension sought)",
+   "title": "NE Quiz #2 : ACCEPTED ZERO per Zack 2026-09-20 (quiz closed, no extension sought)",
    "grade": {
     "name": "NE - Quiz #2",
     "due": "2026-09-18T23:59:00",
@@ -216,7 +216,7 @@
   },
   {
    "key": "ECON_MANKIW_2",
-   "status": "pending",
+   "status": "done",
    "date": "2026-09-18",
    "note": "# Mankiw Bonus #2",
    "title": "Mankiw Bonus #2",
@@ -250,6 +250,25 @@
    "note": "# Ch 5 Homework Cengage, due Tue 11pm MDT per LS schedule 2026-09-10",
    "title": "Ch 5 Homework Cengage",
    "grade": null,
+   "drift": false,
+   "needs_zack": false
+  },
+  {
+   "key": "ECON_TA_PASSOFF_2",
+   "status": "blocked_inperson",
+   "date": "2026-09-22",
+   "note": "# meet TA, pass off one Q from Mankiw #2 (found live 2026-09-16)",
+   "title": "meet TA, pass off one Q from Mankiw #2 (found live 2026-09-16)",
+   "grade": {
+    "name": "TA Passoff #2 (Extra Credit)",
+    "due": "2026-09-22T23:59:00",
+    "points": 2.0,
+    "score": null,
+    "status": "not_graded",
+    "missing": false,
+    "submission_type": "learning_suite",
+    "comments": []
+   },
    "drift": false,
    "needs_zack": false
   },
@@ -321,6 +340,25 @@
     "name": "Sept News Analysis Participation",
     "due": "2026-09-28T23:59:00",
     "points": 1.0,
+    "score": null,
+    "status": "not_graded",
+    "missing": false,
+    "submission_type": "learning_suite",
+    "comments": []
+   },
+   "drift": false,
+   "needs_zack": false
+  },
+  {
+   "key": "ECON_TA_PASSOFF_3",
+   "status": "blocked_inperson",
+   "date": "2026-09-29",
+   "note": "# meet TA, pass off one Q from Mankiw #3 (found live 2026-09-16)",
+   "title": "meet TA, pass off one Q from Mankiw #3 (found live 2026-09-16)",
+   "grade": {
+    "name": "TA Passoff #3 (Extra Credit)",
+    "due": "2026-09-29T23:59:00",
+    "points": 2.0,
     "score": null,
     "status": "not_graded",
     "missing": false,
@@ -407,6 +445,25 @@
    "needs_zack": false
   },
   {
+   "key": "ECON_TA_PASSOFF_4",
+   "status": "blocked_inperson",
+   "date": "2026-10-06",
+   "note": "# meet TA, pass off one Q from Mankiw #4 (found live 2026-09-16)",
+   "title": "meet TA, pass off one Q from Mankiw #4 (found live 2026-09-16)",
+   "grade": {
+    "name": "TA Passoff #4 (Extra Credit)",
+    "due": "2026-10-06T23:59:00",
+    "points": 2.0,
+    "score": null,
+    "status": "not_graded",
+    "missing": false,
+    "submission_type": "learning_suite",
+    "comments": []
+   },
+   "drift": false,
+   "needs_zack": false
+  },
+  {
    "key": "ECON_NEQ_5",
    "status": "pending",
    "date": "2026-10-09",
@@ -483,6 +540,25 @@
    "needs_zack": false
   },
   {
+   "key": "ECON_TA_PASSOFF_5",
+   "status": "blocked_inperson",
+   "date": "2026-10-20",
+   "note": "# meet TA, pass off one Q from Mankiw #5 (found live 2026-09-16)",
+   "title": "meet TA, pass off one Q from Mankiw #5 (found live 2026-09-16)",
+   "grade": {
+    "name": "TA Passoff #5 (Extra Credit)",
+    "due": "2026-10-20T23:59:00",
+    "points": 2.0,
+    "score": null,
+    "status": "not_graded",
+    "missing": false,
+    "submission_type": "learning_suite",
+    "comments": []
+   },
+   "drift": false,
+   "needs_zack": false
+  },
+  {
    "key": "ECON_NEQ_7",
    "status": "pending",
    "date": "2026-10-23",
@@ -521,6 +597,25 @@
    "needs_zack": false
   },
   {
+   "key": "ECON_TA_PASSOFF_6",
+   "status": "blocked_inperson",
+   "date": "2026-10-27",
+   "note": "# meet TA, pass off one Q from Mankiw #6 (found live 2026-09-16)",
+   "title": "meet TA, pass off one Q from Mankiw #6 (found live 2026-09-16)",
+   "grade": {
+    "name": "TA Passoff #6 (Extra Credit)",
+    "due": "2026-10-27T23:59:00",
+    "points": 2.0,
+    "score": null,
+    "status": "not_graded",
+    "missing": false,
+    "submission_type": "learning_suite",
+    "comments": []
+   },
+   "drift": false,
+   "needs_zack": false
+  },
+  {
    "key": "ECON_NEQ_8",
    "status": "pending",
    "date": "2026-10-30",
@@ -549,6 +644,25 @@
     "name": "Mankiw Bonus #7 (Extra Credit)",
     "due": "2026-10-30T23:59:00",
     "points": 6.0,
+    "score": null,
+    "status": "not_graded",
+    "missing": false,
+    "submission_type": "learning_suite",
+    "comments": []
+   },
+   "drift": false,
+   "needs_zack": false
+  },
+  {
+   "key": "ECON_TA_PASSOFF_7",
+   "status": "blocked_inperson",
+   "date": "2026-11-03",
+   "note": "# meet TA, pass off one Q from Mankiw #7 (found live 2026-09-16)",
+   "title": "meet TA, pass off one Q from Mankiw #7 (found live 2026-09-16)",
+   "grade": {
+    "name": "TA Passoff #7 (Extra Credit)",
+    "due": "2026-11-03T23:59:00",
+    "points": 2.0,
     "score": null,
     "status": "not_graded",
     "missing": false,
@@ -635,6 +749,25 @@
    "needs_zack": false
   },
   {
+   "key": "ECON_TA_PASSOFF_8",
+   "status": "blocked_inperson",
+   "date": "2026-11-10",
+   "note": "# meet TA, pass off one Q from Mankiw #8 (found live 2026-09-16)",
+   "title": "meet TA, pass off one Q from Mankiw #8 (found live 2026-09-16)",
+   "grade": {
+    "name": "TA Passoff #8 (Extra Credit)",
+    "due": "2026-11-10T23:59:00",
+    "points": 2.0,
+    "score": null,
+    "status": "not_graded",
+    "missing": false,
+    "submission_type": "learning_suite",
+    "comments": []
+   },
+   "drift": false,
+   "needs_zack": false
+  },
+  {
    "key": "ECON_NEQ_10",
    "status": "pending",
    "date": "2026-11-13",
@@ -673,6 +806,25 @@
    "needs_zack": false
   },
   {
+   "key": "ECON_TA_PASSOFF_9",
+   "status": "blocked_inperson",
+   "date": "2026-11-17",
+   "note": "# meet TA, pass off one Q from Mankiw #9 (found live 2026-09-16)",
+   "title": "meet TA, pass off one Q from Mankiw #9 (found live 2026-09-16)",
+   "grade": {
+    "name": "TA Passoff #9 (Extra Credit)",
+    "due": "2026-11-17T23:59:00",
+    "points": 2.0,
+    "score": null,
+    "status": "not_graded",
+    "missing": false,
+    "submission_type": "learning_suite",
+    "comments": []
+   },
+   "drift": false,
+   "needs_zack": false
+  },
+  {
    "key": "ECON_NEQ_11",
    "status": "pending",
    "date": "2026-11-20",
@@ -701,6 +853,25 @@
     "name": "Mankiw Bonus #10 (Extra Credit)",
     "due": "2026-11-20T23:59:00",
     "points": 6.0,
+    "score": null,
+    "status": "not_graded",
+    "missing": false,
+    "submission_type": "learning_suite",
+    "comments": []
+   },
+   "drift": false,
+   "needs_zack": false
+  },
+  {
+   "key": "ECON_TA_PASSOFF_10",
+   "status": "blocked_inperson",
+   "date": "2026-11-24",
+   "note": "# meet TA, pass off one Q from Mankiw #10 (found live 2026-09-16)",
+   "title": "meet TA, pass off one Q from Mankiw #10 (found live 2026-09-16)",
+   "grade": {
+    "name": "TA Passoff #10 (Extra Credit)",
+    "due": "2026-11-24T23:59:00",
+    "points": 2.0,
     "score": null,
     "status": "not_graded",
     "missing": false,
@@ -806,6 +977,25 @@
    "needs_zack": false
   },
   {
+   "key": "ECON_TA_PASSOFF_11",
+   "status": "blocked_inperson",
+   "date": "2026-12-08",
+   "note": "# meet TA, pass off one Q from Mankiw #11 (found live 2026-09-16)",
+   "title": "meet TA, pass off one Q from Mankiw #11 (found live 2026-09-16)",
+   "grade": {
+    "name": "TA Passoff #11 (Extra Credit)",
+    "due": "2026-12-08T23:59:00",
+    "points": 2.0,
+    "score": null,
+    "status": "not_graded",
+    "missing": false,
+    "submission_type": "learning_suite",
+    "comments": []
+   },
+   "drift": false,
+   "needs_zack": false
+  },
+  {
    "key": "ECON_CHRISTENSEN_QUIZ",
    "status": "pending",
    "date": "2026-12-09",
@@ -867,8 +1057,8 @@
  "needs": null,
  "course_id": null,
  "overall": {
-  "current_score": 91.8,
+  "current_score": 83.7,
   "source": "learning-suite-points"
  },
- "built_at": "2026-09-16T01:46:57.816534+00:00"
+ "built_at": "2026-09-20T21:57:13.862773+00:00"
 }

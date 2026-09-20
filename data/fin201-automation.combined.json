@@ -41,16 +41,16 @@
   },
   {
    "key": "FIN_QUIZ_7",
-   "status": "pending",
+   "status": "done",
    "date": "2026-09-23",
    "note": "# Topic 7 Quiz",
    "title": "Topic 7 Quiz",
    "grade": {
     "name": "Topic 7 Quiz",
     "due": "2026-09-23T10:00:00",
-    "points": null,
-    "score": null,
-    "status": "not_graded",
+    "points": 10.0,
+    "score": 10.0,
+    "status": "graded",
     "missing": false,
     "submission_type": "myeducator",
     "comments": []
@@ -255,5 +255,5 @@
  "needs": null,
  "course_id": null,
  "overall": {},
- "built_at": "2026-09-16T01:46:57.793531+00:00"
+ "built_at": "2026-09-20T21:57:13.805572+00:00"
 }

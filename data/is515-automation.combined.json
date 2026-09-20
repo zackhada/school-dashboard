@@ -81,12 +81,12 @@
     "name": "3.8 Dates and Times Assessment",
     "due": "2026-09-22T05:59:59Z",
     "points": 20.0,
-    "status": "unsubmitted",
-    "score": null,
-    "grade": null,
-    "missing": true,
-    "submitted_at": null,
-    "submission_type": null,
+    "status": "graded",
+    "score": 20.0,
+    "grade": "20",
+    "missing": false,
+    "submitted_at": "2026-09-16T01:45:25Z",
+    "submission_type": "external_tool",
     "my_submission": "",
     "comments": []
    },
@@ -443,10 +443,10 @@
  "needs": null,
  "course_id": 38674,
  "overall": {
-  "current_score": 98.9,
+  "current_score": 99.18,
   "current_grade": "A",
-  "final_score": 6.43,
+  "final_score": 8.6,
   "final_grade": "E"
  },
- "built_at": "2026-09-16T01:46:57.797828+00:00"
+ "built_at": "2026-09-20T21:57:13.814049+00:00"
 }

@@ -1,9 +1,9 @@
 {
  "repo": "zackhada/econ110-automation",
  "source": "learning-suite",
- "url": "https://learningsuite.byu.edu/.WD41/cid-1YPOkgOMQjjk/student/home/assignments",
+ "url": "https://learningsuite.byu.edu/.UT9N/cid-1YPOkgOMQjjk/student/home/assignments",
  "overall": {
-  "current_score": 91.8,
+  "current_score": 83.7,
   "source": "learning-suite-points"
  },
  "rows": [
@@ -41,8 +41,8 @@
    "name": "Meet Your TA",
    "due": "2026-09-11T23:59:00",
    "points": 10.0,
-   "score": null,
-   "status": "not_graded",
+   "score": 0.0,
+   "status": "graded",
    "missing": false,
    "submission_type": "learning_suite",
    "comments": []
@@ -81,8 +81,8 @@
    "name": "Mankiw Bonus #1 (Extra Credit)",
    "due": "2026-09-11T23:59:00",
    "points": 6.0,
-   "score": null,
-   "status": "not_graded",
+   "score": 6.0,
+   "status": "graded",
    "missing": false,
    "submission_type": "learning_suite",
    "comments": []
@@ -118,6 +118,16 @@
    "comments": []
   },
   {
+   "name": "TA Passoff #2 (Extra Credit)",
+   "due": "2026-09-22T23:59:00",
+   "points": 2.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
    "name": "Bonus: Check Answers #2 (Extra Credit)",
    "due": "2026-09-22T23:59:00",
    "points": 2.0,
@@ -131,6 +141,16 @@
    "name": "Mankiw Bonus #3 (Extra Credit)",
    "due": "2026-09-25T23:59:00",
    "points": 6.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "TA Passoff #3 (Extra Credit)",
+   "due": "2026-09-29T23:59:00",
+   "points": 2.0,
    "score": null,
    "status": "not_graded",
    "missing": false,
@@ -158,6 +178,16 @@
    "comments": []
   },
   {
+   "name": "TA Passoff #4 (Extra Credit)",
+   "due": "2026-10-06T23:59:00",
+   "points": 2.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
    "name": "Bonus: Check Answers #4 (Extra Credit)",
    "due": "2026-10-06T23:59:00",
    "points": 2.0,
@@ -171,6 +201,16 @@
    "name": "Mankiw Bonus #5 (Extra Credit)",
    "due": "2026-10-16T23:59:00",
    "points": 6.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "TA Passoff #5 (Extra Credit)",
+   "due": "2026-10-20T23:59:00",
+   "points": 2.0,
    "score": null,
    "status": "not_graded",
    "missing": false,
@@ -208,9 +248,29 @@
    "comments": []
   },
   {
+   "name": "TA Passoff #6 (Extra Credit)",
+   "due": "2026-10-27T23:59:00",
+   "points": 2.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
    "name": "Mankiw Bonus #7 (Extra Credit)",
    "due": "2026-10-30T23:59:00",
    "points": 6.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "TA Passoff #7 (Extra Credit)",
+   "due": "2026-11-03T23:59:00",
+   "points": 2.0,
    "score": null,
    "status": "not_graded",
    "missing": false,
@@ -238,6 +298,16 @@
    "comments": []
   },
   {
+   "name": "TA Passoff #8 (Extra Credit)",
+   "due": "2026-11-10T23:59:00",
+   "points": 2.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
    "name": "Bonus: Check Answers #8 (Extra Credit)",
    "due": "2026-11-10T23:59:00",
    "points": 2.0,
@@ -258,6 +328,16 @@
    "comments": []
   },
   {
+   "name": "TA Passoff #9 (Extra Credit)",
+   "due": "2026-11-17T23:59:00",
+   "points": 2.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
    "name": "Bonus: Check Answers #9 (Extra Credit)",
    "due": "2026-11-17T23:59:00",
    "points": 2.0,
@@ -271,6 +351,16 @@
    "name": "Mankiw Bonus #10 (Extra Credit)",
    "due": "2026-11-20T23:59:00",
    "points": 6.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "TA Passoff #10 (Extra Credit)",
+   "due": "2026-11-24T23:59:00",
+   "points": 2.0,
    "score": null,
    "status": "not_graded",
    "missing": false,
@@ -299,6 +389,16 @@
   },
   {
    "name": "Bonus: Check Answers #11 (Extra Credit)",
+   "due": "2026-12-08T23:59:00",
+   "points": 2.0,
+   "score": null,
+   "status": "not_graded",
+   "missing": false,
+   "submission_type": "learning_suite",
+   "comments": []
+  },
+  {
+   "name": "TA Passoff #11 (Extra Credit)",
    "due": "2026-12-08T23:59:00",
    "points": 2.0,
    "score": null,
@@ -351,8 +451,8 @@
    "name": "9/14",
    "due": "2026-09-14T23:59:00",
    "points": 5.0,
-   "score": null,
-   "status": "not_graded",
+   "score": 5.0,
+   "status": "graded",
    "missing": false,
    "submission_type": "learning_suite",
    "comments": []
@@ -361,8 +461,8 @@
    "name": "9/14-Accuracy",
    "due": "2026-09-14T23:59:00",
    "points": 10.0,
-   "score": null,
-   "status": "not_graded",
+   "score": 10.0,
+   "status": "graded",
    "missing": false,
    "submission_type": "learning_suite",
    "comments": []
