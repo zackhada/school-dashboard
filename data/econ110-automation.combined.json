@@ -235,7 +235,7 @@
   },
   {
    "key": "ECON_MINDTAP_CH5PRE",
-   "status": "pending",
+   "status": "done",
    "date": "2026-09-21",
    "note": "# Ch 5 pre-class Cengage, due Mon 3pm MDT per LS schedule 2026-09-10",
    "title": "Ch 5 pre-class Cengage",
@@ -1060,5 +1060,5 @@
   "current_score": 71.96,
   "source": "learning-suite-points"
  },
- "built_at": "2026-09-21T15:49:58.734072+00:00"
+ "built_at": "2026-09-21T16:35:35.619975+00:00"
 }
