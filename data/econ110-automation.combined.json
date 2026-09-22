@@ -245,7 +245,7 @@
   },
   {
    "key": "ECON_MINDTAP_CH5",
-   "status": "pending",
+   "status": "done",
    "date": "2026-09-22",
    "note": "# Ch 5 Homework Cengage, due Tue 11pm MDT per LS schedule 2026-09-10",
    "title": "Ch 5 Homework Cengage",
@@ -1060,5 +1060,5 @@
   "current_score": 71.96,
   "source": "learning-suite-points"
  },
- "built_at": "2026-09-22T00:58:13.806260+00:00"
+ "built_at": "2026-09-22T01:18:00.050032+00:00"
 }
