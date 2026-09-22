@@ -192,11 +192,11 @@
    "needs_zack": false
   },
   {
-   "key": "CANVAS_1467847",
-   "status": "missing_from_ledger",
+   "key": "ONLINE_WEEK_PADLET_0922",
+   "status": "pending",
    "date": "2026-09-27",
-   "note": "# In Canvas but no ledger row; runner must add it",
-   "title": "9/22 & 24 - [ONLINE WEEK] Meaningfully respond to minimum of two peers on padlet in place of in-class attendance",
+   "note": "# Canvas 1467847, 10pt, online week respond to >=2 peers on Padlet (no in-class) (drift-added 2026-09-22)",
+   "title": "Canvas 1467847, , online week respond to >=2 peers on Padlet (no in-class) (drift-added 2026-09-22)",
    "grade": {
     "canvas_id": 1467847,
     "name": "9/22 & 24 - [ONLINE WEEK] Meaningfully respond to minimum of two peers on padlet in place of in-class attendance",
@@ -211,14 +211,15 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": true
+   "drift": false,
+   "needs_zack": false
   },
   {
-   "key": "CANVAS_1466458",
-   "status": "missing_from_ledger",
+   "key": "ONLINE_WEEK_STUDY_0922",
+   "status": "pending",
    "date": "2026-09-27",
-   "note": "# In Canvas but no ledger row; runner must add it",
-   "title": "9/22 & 24 - [ONLINE CLASS WEEK] Study and Padlet Sharing",
+   "note": "# Canvas 1466458, 10pt, online class week Study and Padlet Sharing (drift-added 2026-09-22)",
+   "title": "Canvas 1466458, , online class week Study and Padlet Sharing (drift-added 2026-09-22)",
    "grade": {
     "canvas_id": 1466458,
     "name": "9/22 & 24 - [ONLINE CLASS WEEK] Study and Padlet Sharing",
@@ -233,14 +234,15 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": true
+   "drift": false,
+   "needs_zack": false
   },
   {
-   "key": "CANVAS_1466674",
-   "status": "missing_from_ledger",
+   "key": "BECOME_PROJECT_A",
+   "status": "pending",
    "date": "2026-09-27",
-   "note": "# In Canvas but no ledger row; runner must add it",
-   "title": "Become Project - Part A - Self Evaluation",
+   "note": "# Canvas 1466674, 100pt, Become Project Part A Self Evaluation (drift-added 2026-09-22)",
+   "title": "Canvas 1466674, , Become Project Part A Self Evaluation (drift-added 2026-09-22)",
    "grade": {
     "canvas_id": 1466674,
     "name": "Become Project - Part A - Self Evaluation",
@@ -255,14 +257,15 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": true
+   "drift": false,
+   "needs_zack": false
   },
   {
-   "key": "CANVAS_1466461",
-   "status": "missing_from_ledger",
+   "key": "PRECLASS_PADLET_0929",
+   "status": "pending",
    "date": "2026-09-29",
-   "note": "# In Canvas but no ledger row; runner must add it",
-   "title": "9/29 - Pre-Class Study and Padlet Sharing",
+   "note": "# Canvas 1466461, 10pt, Pre-Class Study and Padlet Sharing (drift-added 2026-09-22)",
+   "title": "Canvas 1466461, , Pre-Class Study and Padlet Sharing (drift-added 2026-09-22)",
    "grade": {
     "canvas_id": 1466461,
     "name": "9/29 - Pre-Class Study and Padlet Sharing",
@@ -277,14 +280,15 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": true
+   "drift": false,
+   "needs_zack": false
   },
   {
-   "key": "CANVAS_1465868",
-   "status": "missing_from_ledger",
+   "key": "ATTENDANCE_CHECK_0929",
+   "status": "blocked_inperson",
    "date": "2026-09-29",
-   "note": "# In Canvas but no ledger row; runner must add it",
-   "title": "9/29 - Attendance Check",
+   "note": "# Canvas 1465868, in-class 12:00-12:50pm MT; Zack attends (drift-added 2026-09-22)",
+   "title": "Canvas 1465868, in-class - MT; Zack attends (drift-added 2026-09-22)",
    "grade": {
     "canvas_id": 1465868,
     "name": "9/29 - Attendance Check",
@@ -299,14 +303,15 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": true
+   "drift": false,
+   "needs_zack": false
   },
   {
-   "key": "CANVAS_1466467",
-   "status": "missing_from_ledger",
+   "key": "PRECLASS_PADLET_1001",
+   "status": "pending",
    "date": "2026-10-01",
-   "note": "# In Canvas but no ledger row; runner must add it",
-   "title": "10/1 - Pre-Class Study and Padlet Sharing",
+   "note": "# Canvas 1466467, 10pt, Pre-Class Study and Padlet Sharing (drift-added 2026-09-22)",
+   "title": "Canvas 1466467, , Pre-Class Study and Padlet Sharing (drift-added 2026-09-22)",
    "grade": {
     "canvas_id": 1466467,
     "name": "10/1 - Pre-Class Study and Padlet Sharing",
@@ -321,14 +326,15 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": true
+   "drift": false,
+   "needs_zack": false
   },
   {
-   "key": "CANVAS_1465930",
-   "status": "missing_from_ledger",
+   "key": "ATTENDANCE_CHECK_1001",
+   "status": "blocked_inperson",
    "date": "2026-10-01",
-   "note": "# In Canvas but no ledger row; runner must add it",
-   "title": "10/1 - Attendance Check",
+   "note": "# Canvas 1465930, in-class; Zack attends (drift-added 2026-09-22)",
+   "title": "Canvas 1465930, in-class; Zack attends (drift-added 2026-09-22)",
    "grade": {
     "canvas_id": 1465930,
     "name": "10/1 - Attendance Check",
@@ -343,109 +349,11 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": true
+   "drift": false,
+   "needs_zack": false
   }
  ],
- "unmatched_canvas": [
-  {
-   "canvas_id": 1467847,
-   "name": "9/22 & 24 - [ONLINE WEEK] Meaningfully respond to minimum of two peers on padlet in place of in-class attendance",
-   "due": "2026-09-27T05:59:59Z",
-   "points": 10.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
-   "missing": true,
-   "submitted_at": null,
-   "submission_type": null,
-   "my_submission": "",
-   "comments": []
-  },
-  {
-   "canvas_id": 1466458,
-   "name": "9/22 & 24 - [ONLINE CLASS WEEK] Study and Padlet Sharing",
-   "due": "2026-09-27T05:59:59Z",
-   "points": 10.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
-   "missing": true,
-   "submitted_at": null,
-   "submission_type": null,
-   "my_submission": "",
-   "comments": []
-  },
-  {
-   "canvas_id": 1466674,
-   "name": "Become Project - Part A - Self Evaluation",
-   "due": "2026-09-27T05:59:59Z",
-   "points": 100.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
-   "missing": true,
-   "submitted_at": null,
-   "submission_type": null,
-   "my_submission": "",
-   "comments": []
-  },
-  {
-   "canvas_id": 1466461,
-   "name": "9/29 - Pre-Class Study and Padlet Sharing",
-   "due": "2026-09-29T17:59:59Z",
-   "points": 10.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
-   "missing": true,
-   "submitted_at": null,
-   "submission_type": null,
-   "my_submission": "",
-   "comments": []
-  },
-  {
-   "canvas_id": 1465868,
-   "name": "9/29 - Attendance Check",
-   "due": "2026-09-29T18:50:00Z",
-   "points": 10.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
-   "missing": true,
-   "submitted_at": null,
-   "submission_type": null,
-   "my_submission": "",
-   "comments": []
-  },
-  {
-   "canvas_id": 1466467,
-   "name": "10/1 - Pre-Class Study and Padlet Sharing",
-   "due": "2026-10-01T17:59:59Z",
-   "points": 10.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
-   "missing": true,
-   "submitted_at": null,
-   "submission_type": null,
-   "my_submission": "",
-   "comments": []
-  },
-  {
-   "canvas_id": 1465930,
-   "name": "10/1 - Attendance Check",
-   "due": "2026-10-01T18:50:00Z",
-   "points": 10.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
-   "missing": true,
-   "submitted_at": null,
-   "submission_type": null,
-   "my_submission": "",
-   "comments": []
-  }
- ],
+ "unmatched_canvas": [],
  "needs": null,
  "course_id": 38438,
  "overall": {
@@ -454,5 +362,5 @@
   "final_score": 21.21,
   "final_grade": "E"
  },
- "built_at": "2026-09-22T11:32:56.110209+00:00"
+ "built_at": "2026-09-22T23:36:07.003828+00:00"
 }

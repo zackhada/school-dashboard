@@ -48,11 +48,11 @@
    "needs_zack": false
   },
   {
-   "key": "CANVAS_1500394",
-   "status": "missing_from_ledger",
+   "key": "INDUSTRY_5FORCES",
+   "status": "pending",
    "date": "2026-09-18",
-   "note": "# In Canvas but no ledger row; runner must add it",
-   "title": "Industry  Analysis 5 Forces Assignment",
+   "note": "# Canvas 1500394, 30pt, Industry Analysis 5 Forces Assignment (drift-added 2026-09-22, overdue, submit late)",
+   "title": "Canvas 1500394, , Industry Analysis 5 Forces Assignment (drift-added 2026-09-22, overdue, submit late)",
    "grade": {
     "canvas_id": 1500394,
     "name": "Industry  Analysis 5 Forces Assignment",
@@ -67,14 +67,15 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": true
+   "drift": false,
+   "needs_zack": false
   },
   {
-   "key": "CANVAS_1500422",
-   "status": "missing_from_ledger",
+   "key": "COST_CURVE",
+   "status": "pending",
    "date": "2026-09-25",
-   "note": "# In Canvas but no ledger row; runner must add it",
-   "title": "Cost Curve Assignment",
+   "note": "# Canvas 1500422, 30pt, Cost Curve Assignment (drift-added 2026-09-22)",
+   "title": "Canvas 1500422, , Cost Curve Assignment (drift-added 2026-09-22)",
    "grade": {
     "canvas_id": 1500422,
     "name": "Cost Curve Assignment",
@@ -89,14 +90,15 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": true
+   "drift": false,
+   "needs_zack": false
   },
   {
-   "key": "CANVAS_1500431",
-   "status": "missing_from_ledger",
+   "key": "ALDI_CASE_QUIZ",
+   "status": "pending",
    "date": "2026-09-30",
-   "note": "# In Canvas but no ledger row; runner must add it",
-   "title": "Aldi Case Quiz",
+   "note": "# Canvas 1500431, 10pt, Aldi Case Quiz (drift-added 2026-09-22; verify not in-class)",
+   "title": "Canvas 1500431, , Aldi Case Quiz (drift-added 2026-09-22; verify not in-class)",
    "grade": {
     "canvas_id": 1500431,
     "name": "Aldi Case Quiz",
@@ -111,14 +113,15 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": true
+   "drift": false,
+   "needs_zack": false
   },
   {
-   "key": "CANVAS_1500438",
-   "status": "missing_from_ledger",
+   "key": "DIFFERENTIATION_QUIZ",
+   "status": "pending",
    "date": "2026-10-02",
-   "note": "# In Canvas but no ledger row; runner must add it",
-   "title": "Differentiation Reading Quiz",
+   "note": "# Canvas 1500438, 10pt, Differentiation Reading Quiz (drift-added 2026-09-22)",
+   "title": "Canvas 1500438, , Differentiation Reading Quiz (drift-added 2026-09-22)",
    "grade": {
     "canvas_id": 1500438,
     "name": "Differentiation Reading Quiz",
@@ -133,14 +136,15 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": true
+   "drift": false,
+   "needs_zack": false
   },
   {
-   "key": "CANVAS_1500607",
-   "status": "missing_from_ledger",
+   "key": "MORE_COMPANY_CASE_QUIZ",
+   "status": "pending",
    "date": "2026-10-07",
-   "note": "# In Canvas but no ledger row; runner must add it",
-   "title": "A More Company Case Quiz",
+   "note": "# Canvas 1500607, 10pt, A More Company Case Quiz (drift-added 2026-09-22)",
+   "title": "Canvas 1500607, , A More Company Case Quiz (drift-added 2026-09-22)",
    "grade": {
     "canvas_id": 1500607,
     "name": "A More Company Case Quiz",
@@ -155,14 +159,15 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": true
+   "drift": false,
+   "needs_zack": false
   },
   {
-   "key": "CANVAS_1500567",
-   "status": "missing_from_ledger",
+   "key": "DUAL_ADVANTAGE_QUIZ",
+   "status": "pending",
    "date": "2026-10-09",
-   "note": "# In Canvas but no ledger row; runner must add it",
-   "title": "Dual Advantage Quiz",
+   "note": "# Canvas 1500567, 10pt, Dual Advantage Quiz (drift-added 2026-09-22)",
+   "title": "Canvas 1500567, , Dual Advantage Quiz (drift-added 2026-09-22)",
    "grade": {
     "canvas_id": 1500567,
     "name": "Dual Advantage Quiz",
@@ -177,14 +182,15 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": true
+   "drift": false,
+   "needs_zack": false
   },
   {
-   "key": "CANVAS_1500404",
-   "status": "missing_from_ledger",
-   "date": "9999-12-31",
-   "note": "# In Canvas but no ledger row; runner must add it",
-   "title": "PEST Reading Quiz",
+   "key": "PEST_READING_QUIZ",
+   "status": "pending",
+   "date": "2026-10-09",
+   "note": "# Canvas 1500404, 10pt, PEST Reading Quiz, no Canvas due date (drift-added 2026-09-22; verify due date)",
+   "title": "Canvas 1500404, , PEST Reading Quiz, no Canvas",
    "grade": {
     "canvas_id": 1500404,
     "name": "PEST Reading Quiz",
@@ -199,109 +205,11 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": true
+   "drift": false,
+   "needs_zack": false
   }
  ],
- "unmatched_canvas": [
-  {
-   "canvas_id": 1500394,
-   "name": "Industry  Analysis 5 Forces Assignment",
-   "due": "2026-09-18T05:59:59Z",
-   "points": 30.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
-   "missing": true,
-   "submitted_at": null,
-   "submission_type": null,
-   "my_submission": "",
-   "comments": []
-  },
-  {
-   "canvas_id": 1500422,
-   "name": "Cost Curve Assignment",
-   "due": "2026-09-25T05:59:59Z",
-   "points": 30.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
-   "missing": true,
-   "submitted_at": null,
-   "submission_type": null,
-   "my_submission": "",
-   "comments": []
-  },
-  {
-   "canvas_id": 1500431,
-   "name": "Aldi Case Quiz",
-   "due": "2026-09-30T05:59:59Z",
-   "points": 10.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
-   "missing": true,
-   "submitted_at": null,
-   "submission_type": null,
-   "my_submission": "",
-   "comments": []
-  },
-  {
-   "canvas_id": 1500438,
-   "name": "Differentiation Reading Quiz",
-   "due": "2026-10-02T05:59:59Z",
-   "points": 10.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
-   "missing": true,
-   "submitted_at": null,
-   "submission_type": null,
-   "my_submission": "",
-   "comments": []
-  },
-  {
-   "canvas_id": 1500607,
-   "name": "A More Company Case Quiz",
-   "due": "2026-10-07T05:59:59Z",
-   "points": 10.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
-   "missing": true,
-   "submitted_at": null,
-   "submission_type": null,
-   "my_submission": "",
-   "comments": []
-  },
-  {
-   "canvas_id": 1500567,
-   "name": "Dual Advantage Quiz",
-   "due": "2026-10-09T05:59:59Z",
-   "points": 10.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
-   "missing": true,
-   "submitted_at": null,
-   "submission_type": null,
-   "my_submission": "",
-   "comments": []
-  },
-  {
-   "canvas_id": 1500404,
-   "name": "PEST Reading Quiz",
-   "due": null,
-   "points": 10.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
-   "missing": false,
-   "submitted_at": null,
-   "submission_type": null,
-   "my_submission": "",
-   "comments": []
-  }
- ],
+ "unmatched_canvas": [],
  "needs": null,
  "course_id": 39131,
  "overall": {
@@ -310,5 +218,5 @@
   "final_score": 15.38,
   "final_grade": "E"
  },
- "built_at": "2026-09-22T11:32:56.104904+00:00"
+ "built_at": "2026-09-22T23:36:06.994959+00:00"
 }

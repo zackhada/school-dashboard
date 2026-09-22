@@ -1,9 +1,9 @@
 {
  "repo": "zackhada/econ110-automation",
  "source": "learning-suite",
- "url": "https://learningsuite.byu.edu/.CmwX/cid-1YPOkgOMQjjk/student/home/assignments",
+ "url": "https://learningsuite.byu.edu/.hpSP/cid-1YPOkgOMQjjk/student/home/assignments",
  "overall": {
-  "current_score": 71.96,
+  "current_score": 70.94,
   "source": "learning-suite-points"
  },
  "rows": [
@@ -91,8 +91,8 @@
    "name": "TA Passoff #1 (Extra Credit)",
    "due": "2026-09-15T23:59:00",
    "points": 2.0,
-   "score": null,
-   "status": "not_graded",
+   "score": 0.0,
+   "status": "graded",
    "missing": false,
    "submission_type": "learning_suite",
    "comments": []
@@ -101,8 +101,8 @@
    "name": "Bonus: Check Answers #1 (Extra Credit)",
    "due": "2026-09-15T23:59:00",
    "points": 2.0,
-   "score": null,
-   "status": "not_graded",
+   "score": 0.0,
+   "status": "graded",
    "missing": false,
    "submission_type": "learning_suite",
    "comments": []
@@ -111,8 +111,8 @@
    "name": "Mankiw Bonus #2 (Extra Credit)",
    "due": "2026-09-18T23:59:00",
    "points": 6.0,
-   "score": null,
-   "status": "not_graded",
+   "score": 6.0,
+   "status": "graded",
    "missing": false,
    "submission_type": "learning_suite",
    "comments": []

@@ -18,6 +18,48 @@
    "status": "done",
    "date": "2026-09-12",
    "note": "# Measuring Market Concentration, due 2026-09-12T05:59:59Z, 10pts, submitted 2026-09-10, 10/10"
+  },
+  {
+   "key": "INDUSTRY_5FORCES",
+   "status": "pending",
+   "date": "2026-09-18",
+   "note": "# Canvas 1500394, 30pt, Industry Analysis 5 Forces Assignment (drift-added 2026-09-22, overdue, submit late)"
+  },
+  {
+   "key": "COST_CURVE",
+   "status": "pending",
+   "date": "2026-09-25",
+   "note": "# Canvas 1500422, 30pt, Cost Curve Assignment (drift-added 2026-09-22)"
+  },
+  {
+   "key": "ALDI_CASE_QUIZ",
+   "status": "pending",
+   "date": "2026-09-30",
+   "note": "# Canvas 1500431, 10pt, Aldi Case Quiz (drift-added 2026-09-22; verify not in-class)"
+  },
+  {
+   "key": "DIFFERENTIATION_QUIZ",
+   "status": "pending",
+   "date": "2026-10-02",
+   "note": "# Canvas 1500438, 10pt, Differentiation Reading Quiz (drift-added 2026-09-22)"
+  },
+  {
+   "key": "MORE_COMPANY_CASE_QUIZ",
+   "status": "pending",
+   "date": "2026-10-07",
+   "note": "# Canvas 1500607, 10pt, A More Company Case Quiz (drift-added 2026-09-22)"
+  },
+  {
+   "key": "DUAL_ADVANTAGE_QUIZ",
+   "status": "pending",
+   "date": "2026-10-09",
+   "note": "# Canvas 1500567, 10pt, Dual Advantage Quiz (drift-added 2026-09-22)"
+  },
+  {
+   "key": "PEST_READING_QUIZ",
+   "status": "pending",
+   "date": "2026-10-09",
+   "note": "# Canvas 1500404, 10pt, PEST Reading Quiz, no Canvas due date (drift-added 2026-09-22; verify due date)"
   }
  ],
  "source": "progress.txt"

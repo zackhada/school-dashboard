@@ -54,6 +54,48 @@
    "status": "done",
    "date": "2026-09-17",
    "note": "# Canvas 1466454, 10pt, Padlet post only (no Canvas box); drift-added 2026-09-10"
+  },
+  {
+   "key": "ONLINE_WEEK_PADLET_0922",
+   "status": "pending",
+   "date": "2026-09-27",
+   "note": "# Canvas 1467847, 10pt, online week respond to >=2 peers on Padlet (no in-class) (drift-added 2026-09-22)"
+  },
+  {
+   "key": "ONLINE_WEEK_STUDY_0922",
+   "status": "pending",
+   "date": "2026-09-27",
+   "note": "# Canvas 1466458, 10pt, online class week Study and Padlet Sharing (drift-added 2026-09-22)"
+  },
+  {
+   "key": "BECOME_PROJECT_A",
+   "status": "pending",
+   "date": "2026-09-27",
+   "note": "# Canvas 1466674, 100pt, Become Project Part A Self Evaluation (drift-added 2026-09-22)"
+  },
+  {
+   "key": "PRECLASS_PADLET_0929",
+   "status": "pending",
+   "date": "2026-09-29",
+   "note": "# Canvas 1466461, 10pt, Pre-Class Study and Padlet Sharing (drift-added 2026-09-22)"
+  },
+  {
+   "key": "ATTENDANCE_CHECK_0929",
+   "status": "blocked_inperson",
+   "date": "2026-09-29",
+   "note": "# Canvas 1465868, in-class 12:00-12:50pm MT; Zack attends (drift-added 2026-09-22)"
+  },
+  {
+   "key": "PRECLASS_PADLET_1001",
+   "status": "pending",
+   "date": "2026-10-01",
+   "note": "# Canvas 1466467, 10pt, Pre-Class Study and Padlet Sharing (drift-added 2026-09-22)"
+  },
+  {
+   "key": "ATTENDANCE_CHECK_1001",
+   "status": "blocked_inperson",
+   "date": "2026-10-01",
+   "note": "# Canvas 1465930, in-class; Zack attends (drift-added 2026-09-22)"
   }
  ],
  "source": "progress.txt"
