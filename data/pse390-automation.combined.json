@@ -187,10 +187,10 @@
   },
   {
    "key": "WEEKLY_QUIZ_WK03",
-   "status": "pending",
+   "status": "done",
    "date": "2026-09-27",
-   "note": "# Canvas 1495458 Ethics and Public Quiz Week 3, online_text_entry/url, due 2026-09-27T05:59:59Z",
-   "title": "Canvas 1495458 Ethics and Public Quiz Week 3, online_text_entry/url",
+   "note": "# Canvas 1495458 text_entry w/ public Telegraph URL https://telegra.ph/Zack-Hada-Personal-Brand-Week-3-09-23, submitted 2026-09-23T00:04:28Z, verified workflow_state=submitted",
+   "title": "Canvas 1495458 text_entry w/ public Telegraph URL https://telegra.ph/Zack-Hada-Personal-Brand-Week-3-09-23, submitted 2026-09-23T00:04:28Z, verified workflow_state=submitted",
    "grade": {
     "canvas_id": 1495458,
     "name": "Ethics and Public Quiz - Week 3",
@@ -563,5 +563,5 @@
   "final_score": 11.18,
   "final_grade": "E"
  },
- "built_at": "2026-09-22T23:38:39.935452+00:00"
+ "built_at": "2026-09-23T00:05:32.520404+00:00"
 }
