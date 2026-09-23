@@ -58,14 +58,20 @@
     "name": "Ethics and Public Quiz - Week 1",
     "due": "2026-09-13T05:59:59Z",
     "points": 10.0,
-    "status": "submitted",
-    "score": null,
-    "grade": null,
+    "status": "graded",
+    "score": 10.0,
+    "grade": "10",
     "missing": false,
     "submitted_at": "2026-09-11T22:32:04Z",
     "submission_type": "online_text_entry",
     "my_submission": "",
-    "comments": []
+    "comments": [
+     {
+      "author": "Ernest Elliott",
+      "comment": "This is not exactly the effort or direction we are looking for on this assignment. We want this assignment to be helpful to build your personal brand. Is this in a public spot for people to see?\u00a0\u00a0\nWe are giving you full credit for the first assignment and half credit for the second. Please make sure you are striving to post something that will genuinely build your personal brand in these posts. Your grade moving forward will reflect that guideline.\nPlease let me know if you have any questions!\u00a0",
+      "created": "2026-09-22T20:56:07Z"
+     }
+    ]
    },
    "drift": false,
    "needs_zack": false
@@ -128,13 +134,19 @@
     "due": "2026-09-20T05:59:59Z",
     "points": 10.0,
     "status": "graded",
-    "score": 10.0,
-    "grade": "10",
+    "score": 5.0,
+    "grade": "5",
     "missing": false,
     "submitted_at": "2026-09-15T01:40:09Z",
     "submission_type": "online_text_entry",
     "my_submission": "",
-    "comments": []
+    "comments": [
+     {
+      "author": "Ernest Elliott",
+      "comment": "This is not exactly the effort or direction we are looking for on this assignment. We want this assignment to be helpful to build your personal brand. Is this in a public spot for people to see?\u00a0\u00a0\nWe are giving you full credit for the first assignment and half credit for the second. Please make sure you are striving to post something that will genuinely build your personal brand in these posts. Your grade moving forward will reflect that guideline.\nPlease let me know if you have any questions!\u00a0",
+      "created": "2026-09-22T20:55:59Z"
+     }
+    ]
    },
    "drift": false,
    "needs_zack": false
@@ -196,12 +208,12 @@
     "name": "Ethics and Public Quiz - Week 3",
     "due": "2026-09-27T05:59:59Z",
     "points": 10.0,
-    "status": "unsubmitted",
+    "status": "submitted",
     "score": null,
     "grade": null,
-    "missing": true,
-    "submitted_at": null,
-    "submission_type": null,
+    "missing": false,
+    "submitted_at": "2026-09-23T00:04:28Z",
+    "submission_type": "online_text_entry",
     "my_submission": "",
     "comments": []
    },
@@ -558,10 +570,10 @@
  "needs": null,
  "course_id": 38958,
  "overall": {
-  "current_score": 86.36,
-  "current_grade": "B",
-  "final_score": 11.18,
+  "current_score": 75.0,
+  "current_grade": "C",
+  "final_score": 14.12,
   "final_grade": "E"
  },
- "built_at": "2026-09-23T01:46:54.665515+00:00"
+ "built_at": "2026-09-23T10:11:58.750181+00:00"
 }
