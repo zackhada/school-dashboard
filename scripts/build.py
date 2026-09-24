@@ -176,7 +176,7 @@ def build_repo(repo):
     # dashboard's "Needs your input" section surfaces exactly that row.
     nscores = needs_scores(prepped, needs_text)
     nbest = max(range(len(nscores)), key=lambda i: nscores[i]) if nscores else -1
-    if not nscores or nscores[nbest] < 3:
+    if not nscores or nscores[nbest] < 2:
         nbest = -1
     for i, (x, title) in enumerate(prepped):
         g = grades[assign[i]] if i in assign else None

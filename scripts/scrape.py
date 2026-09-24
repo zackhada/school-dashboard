@@ -8,6 +8,19 @@ import json
 import os
 import sqlite3
 import urllib.request
+from datetime import datetime, timezone
+
+
+def _past(due):
+    """True only when an ISO due date is in the past (Canvas 'missing' is
+    authoritative; this fallback must not flag future items as missing)."""
+    if not due:
+        return False
+    try:
+        return (datetime.fromisoformat(str(due).replace("Z", "+00:00"))
+                < datetime.now(timezone.utc))
+    except ValueError:
+        return False
 
 BASE = os.environ.get("CANVAS_BASE", "https://byu.instructure.com")
 TOKEN = os.environ["CANVAS_TOKEN"]
@@ -105,8 +118,8 @@ def main():
             elif sub.get("body"):
                 my_text = str(sub.get("body"))[:2000]
             ws = sub.get("workflow_state") or "unsubmitted"
-            missing = bool(sub.get("missing") or ws == "unsubmitted"
-                           and a.get("due_at") is not None)
+            missing = bool(sub.get("missing") or (ws == "unsubmitted"
+                           and _past(a.get("due_at"))))
             db.execute(
                 """INSERT OR REPLACE INTO assignments
                 (canvas_id, course_id, repo, name, due_at, points,
