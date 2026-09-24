@@ -1,9 +1,9 @@
 {
  "repo": "zackhada/econ110-automation",
  "source": "learning-suite",
- "url": "https://learningsuite.byu.edu/.qu-6/cid-1YPOkgOMQjjk/student/home/assignments",
+ "url": "https://learningsuite.byu.edu/.bwcV/cid-1YPOkgOMQjjk/student/home/assignments",
  "overall": {
-  "current_score": 70.94,
+  "current_score": 74.24,
   "source": "learning-suite-points"
  },
  "rows": [
@@ -491,8 +491,8 @@
    "name": "9/21",
    "due": "2026-09-21T23:59:00",
    "points": 5.0,
-   "score": null,
-   "status": "not_graded",
+   "score": 5.0,
+   "status": "graded",
    "missing": false,
    "submission_type": "learning_suite",
    "comments": []
@@ -501,8 +501,8 @@
    "name": "9/21-Accuracy",
    "due": "2026-09-21T23:59:00",
    "points": 10.0,
-   "score": null,
-   "status": "not_graded",
+   "score": 10.0,
+   "status": "graded",
    "missing": false,
    "submission_type": "learning_suite",
    "comments": []

@@ -313,7 +313,7 @@
   },
   {
    "key": "ECON_MANKIW_3",
-   "status": "pending",
+   "status": "done",
    "date": "2026-09-25",
    "note": "# Mankiw Bonus #3",
    "title": "Mankiw Bonus #3",
@@ -1057,8 +1057,8 @@
  "needs": null,
  "course_id": null,
  "overall": {
-  "current_score": 70.94,
+  "current_score": 74.24,
   "source": "learning-suite-points"
  },
- "built_at": "2026-09-24T01:32:39.786035+00:00"
+ "built_at": "2026-09-24T01:34:37.563842+00:00"
 }
