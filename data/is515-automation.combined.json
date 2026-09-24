@@ -440,7 +440,7 @@
   }
  ],
  "unmatched_canvas": [],
- "needs": "IS515: Charts assessment (due tonight Sep 23, 11:59pm MDT) is ready to do but Excel login needs you. 3 Duo pushes sent over 20 min, all timed out unapproved, no reply. Next run will push again: approve within a minute, or reply here with a 6-digit Duo Mobile passcode.",
+ "needs": "IS515: Charts assessment (due tonight Sep 23, 11:59pm MDT) is ready but Excel login needs you. 3 Duo pushes sent over 20 min, all timed out unapproved, no reply. Next run will push again: approve within a minute, or reply here with a 6-digit Duo Mobile passcode.",
  "course_id": 38674,
  "overall": {
   "current_score": 99.18,
@@ -448,5 +448,5 @@
   "final_score": 8.6,
   "final_grade": "E"
  },
- "built_at": "2026-09-23T23:56:10.698436+00:00"
+ "built_at": "2026-09-24T00:39:48.399223+00:00"
 }
