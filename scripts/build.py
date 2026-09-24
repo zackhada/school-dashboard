@@ -171,12 +171,15 @@ def build_repo(repo):
         used_g.add(gi)
     matched_ids = set()
     rows = []
-    # Parked `.state/needs_user` text refers to one row (which stays
-    # `pending`); flag only the single best token-overlap match (>=3) so the
-    # dashboard's "Needs your input" section surfaces exactly that row.
+    # Parked `.state/needs_user` text refers to one unfinished row; flag only
+    # the single best token-overlap match (>=2) among NON-done rows so the
+    # dashboard's "Needs your input" section surfaces exactly that row (a done
+    # row would be hidden there, silently dropping the parked item).
     nscores = needs_scores(prepped, needs_text)
-    nbest = max(range(len(nscores)), key=lambda i: nscores[i]) if nscores else -1
-    if not nscores or nscores[nbest] < 2:
+    cand = [i for i, (x, _) in enumerate(prepped)
+            if (x.get("status") or "") != "done"]
+    nbest = max(cand, key=lambda i: nscores[i]) if (cand and nscores) else -1
+    if nbest < 0 or not nscores or nscores[nbest] < 2:
         nbest = -1
     for i, (x, title) in enumerate(prepped):
         g = grades[assign[i]] if i in assign else None

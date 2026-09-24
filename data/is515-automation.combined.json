@@ -440,7 +440,7 @@
   }
  ],
  "unmatched_canvas": [],
- "needs": "IS515: Charts assessment (due tonight Sep 23, 11:59pm MDT) is ready but Excel login needs you. 3 Duo pushes sent over 20 min, all timed out unapproved, no reply. Next run will push again: approve within a minute, or reply here with a 6-digit Duo Mobile passcode.",
+ "needs": "IS515: 4.9 Charts Assessment (20pt, due Sep 23 11:59pm MT) still unsubmitted, now overdue. Duo is hands-free (fixed Sep 24) and the workbook is done through task 1.4, but the MyEducator chart autograder requires each chart's top-left anchored at the yellow \"Place Chart Here\" cells (H5/H22/H38) and task 1.2 needs a true combo chart (column + line, 2 axes) which Office.js cannot set per-series. Needs a short call: extend the Excel chart tooling, or Zack finishes/submits it in Excel, or skip. The prior \"Duo push\" ask is obsolete.",
  "course_id": 38674,
  "overall": {
   "current_score": 99.18,
@@ -448,5 +448,5 @@
   "final_score": 8.6,
   "final_grade": "E"
  },
- "built_at": "2026-09-24T16:09:25.587570+00:00"
+ "built_at": "2026-09-24T18:34:55.693050+00:00"
 }
