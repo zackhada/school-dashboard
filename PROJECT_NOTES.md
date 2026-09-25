@@ -27,3 +27,20 @@
   `gh api repos/zackhada/school-dashboard/pages/builds -X POST`
 - Verify live content, e.g.:
   `curl -s "https://zackhada.github.io/school-dashboard/index.html" | grep -c "<table"`
+
+## Pages 404 root cause + fix (2026-09-25)
+- Symptom: https://zackhada.github.io/school-dashboard/ returned HTTP 404 for
+  every path (/, /index.html, /data/*.json) even though the Pages API still
+  reported `status: built` with a successful deployment.
+- Cause: the `school-dashboard` repo had been flipped to **private**. GitHub
+  Pages on a private repo requires GitHub Pro; on Free the Pages config stays
+  "enabled" in the API but the site is unpublished and 404s. No new Pages
+  builds were queued after the visibility change (last build 0995e78, 2026-09-24
+  18:35Z), which is the tell.
+- Fix: `gh repo edit zackhada/school-dashboard --visibility public
+  --accept-visibility-change-consequences`, then rebuild:
+  `gh api repos/zackhada/school-dashboard/pages/builds -X POST`. Site verified
+  200 with 4 tables + needs section.
+- Guard: `school-healer/scripts/heal.py` now checks the live Pages URL and the
+  repo visibility every run so this fails loudly instead of silently.
+- NOTE: keep this repo **public** or the sole dashboard interface disappears.
