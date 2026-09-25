@@ -205,8 +205,8 @@
     "name": "NE - Quiz #2",
     "due": "2026-09-18T23:59:00",
     "points": 5.0,
-    "score": null,
-    "status": "not_graded",
+    "score": 0.0,
+    "status": "graded",
     "missing": false,
     "submission_type": "learning_suite",
     "comments": []
@@ -302,8 +302,8 @@
     "name": "NE - Quiz #3",
     "due": "2026-09-25T23:59:00",
     "points": 5.0,
-    "score": null,
-    "status": "not_graded",
+    "score": 5.0,
+    "status": "graded",
     "missing": false,
     "submission_type": "learning_suite",
     "comments": []
@@ -1057,8 +1057,8 @@
  "needs": null,
  "course_id": null,
  "overall": {
-  "current_score": 74.24,
+  "current_score": 72.54,
   "source": "learning-suite-points"
  },
- "built_at": "2026-09-25T11:46:36.827580+00:00"
+ "built_at": "2026-09-25T18:09:46.915355+00:00"
 }
