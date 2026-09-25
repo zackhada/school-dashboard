@@ -193,7 +193,7 @@
   },
   {
    "key": "ONLINE_WEEK_PADLET_0922",
-   "status": "pending",
+   "status": "done",
    "date": "2026-09-27",
    "note": "# Canvas 1467847, 10pt, online week respond to >=2 peers on Padlet (no in-class) (drift-added 2026-09-22)",
    "title": "Canvas 1467847, , online week respond to >=2 peers on Padlet (no in-class) (drift-added 2026-09-22)",
@@ -362,5 +362,5 @@
   "final_score": 21.21,
   "final_grade": "E"
  },
- "built_at": "2026-09-25T00:13:49.229073+00:00"
+ "built_at": "2026-09-25T00:16:34.648140+00:00"
 }
