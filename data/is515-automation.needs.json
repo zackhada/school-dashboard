@@ -1,4 +1,4 @@
 {
  "repo": "zackhada/is515-automation",
- "text": "IS515: 4.9 Charts Assessment (20pt, due Sep 23 11:59pm MT) still unsubmitted, now overdue. Duo is hands-free (fixed Sep 24) and the workbook is done through task 1.4, but the MyEducator chart autograder requires each chart's top-left anchored at the yellow \"Place Chart Here\" cells (H5/H22/H38) and task 1.2 needs a true combo chart (column + line, 2 axes) which Office.js cannot set per-series. Needs a short call: extend the Excel chart tooling, or Zack finishes/submits it in Excel, or skip. The prior \"Duo push\" ask is obsolete."
+ "text": null
 }

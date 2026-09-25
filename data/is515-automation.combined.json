@@ -95,7 +95,7 @@
   },
   {
    "key": "IS_CHARTS",
-   "status": "pending",
+   "status": "done",
    "date": "2026-09-23",
    "note": "# 4.9 Charts Assessment, 20pts, MyEducator",
    "title": "4.9 Charts Assessment",
@@ -114,7 +114,7 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": true
+   "needs_zack": false
   },
   {
    "key": "IS_CONDFMT",
@@ -440,7 +440,7 @@
   }
  ],
  "unmatched_canvas": [],
- "needs": "IS515: 4.9 Charts Assessment (20pt, due Sep 23 11:59pm MT) still unsubmitted, now overdue. Duo is hands-free (fixed Sep 24) and the workbook is done through task 1.4, but the MyEducator chart autograder requires each chart's top-left anchored at the yellow \"Place Chart Here\" cells (H5/H22/H38) and task 1.2 needs a true combo chart (column + line, 2 axes) which Office.js cannot set per-series. Needs a short call: extend the Excel chart tooling, or Zack finishes/submits it in Excel, or skip. The prior \"Duo push\" ask is obsolete.",
+ "needs": null,
  "course_id": 38674,
  "overall": {
   "current_score": 99.18,
@@ -448,5 +448,5 @@
   "final_score": 8.6,
   "final_grade": "E"
  },
- "built_at": "2026-09-25T18:09:46.618596+00:00"
+ "built_at": "2026-09-25T23:57:00.117203+00:00"
 }
