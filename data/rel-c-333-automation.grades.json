@@ -124,12 +124,12 @@
    "name": "9/22 & 24 - [ONLINE WEEK] Meaningfully respond to minimum of two peers on padlet in place of in-class attendance",
    "due": "2026-09-27T05:59:59Z",
    "points": 10.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
+   "status": "graded",
+   "score": 10.0,
+   "grade": "10",
    "missing": false,
-   "submitted_at": null,
-   "submission_type": null,
+   "submitted_at": "2026-09-25T00:10:04Z",
+   "submission_type": "basic_lti_launch",
    "my_submission": "",
    "comments": []
   },
@@ -221,7 +221,7 @@
  "overall": {
   "current_score": 100.0,
   "current_grade": "A",
-  "final_score": 21.21,
+  "final_score": 25.95,
   "final_grade": "E"
  },
  "source": "canvas-api"

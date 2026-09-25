@@ -81,12 +81,12 @@
     "name": "Cost Curve Assignment",
     "due": "2026-09-25T05:59:59Z",
     "points": 30.0,
-    "status": "unsubmitted",
+    "status": "submitted",
     "score": null,
     "grade": null,
     "missing": false,
-    "submitted_at": null,
-    "submission_type": null,
+    "submitted_at": "2026-09-25T00:11:35Z",
+    "submission_type": "online_upload",
     "my_submission": "",
     "comments": []
    },
@@ -218,5 +218,5 @@
   "final_score": 15.38,
   "final_grade": "E"
  },
- "built_at": "2026-09-25T01:55:15.788904+00:00"
+ "built_at": "2026-09-25T10:24:14.236374+00:00"
 }
