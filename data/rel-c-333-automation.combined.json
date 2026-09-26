@@ -216,7 +216,7 @@
   },
   {
    "key": "ONLINE_WEEK_STUDY_0922",
-   "status": "pending",
+   "status": "done",
    "date": "2026-09-27",
    "note": "# Canvas 1466458, 10pt, online class week Study and Padlet Sharing (drift-added 2026-09-22)",
    "title": "Canvas 1466458, , online class week Study and Padlet Sharing (drift-added 2026-09-22)",
@@ -362,5 +362,5 @@
   "final_score": 25.95,
   "final_grade": "E"
  },
- "built_at": "2026-09-26T00:08:40.010455+00:00"
+ "built_at": "2026-09-26T00:15:33.641291+00:00"
 }
