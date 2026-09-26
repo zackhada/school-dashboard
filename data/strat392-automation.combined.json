@@ -95,7 +95,7 @@
   },
   {
    "key": "ALDI_CASE_QUIZ",
-   "status": "pending",
+   "status": "done",
    "date": "2026-09-30",
    "note": "# Canvas 1500431, 10pt, Aldi Case Quiz (drift-added 2026-09-22; verify not in-class)",
    "title": "Canvas 1500431, , Aldi Case Quiz (drift-added 2026-09-22; verify not in-class)",
@@ -218,5 +218,5 @@
   "final_score": 15.38,
   "final_grade": "E"
  },
- "built_at": "2026-09-26T01:51:53.074923+00:00"
+ "built_at": "2026-09-26T02:08:37.346191+00:00"
 }
