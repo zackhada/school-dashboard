@@ -104,12 +104,12 @@
     "name": "Aldi Case Quiz",
     "due": "2026-09-30T05:59:59Z",
     "points": 10.0,
-    "status": "unsubmitted",
-    "score": null,
-    "grade": null,
+    "status": "graded",
+    "score": 10.0,
+    "grade": "10",
     "missing": false,
-    "submitted_at": null,
-    "submission_type": null,
+    "submitted_at": "2026-09-26T02:07:22Z",
+    "submission_type": "basic_lti_launch",
     "my_submission": "",
     "comments": []
    },
@@ -215,8 +215,8 @@
  "overall": {
   "current_score": 100.0,
   "current_grade": "A",
-  "final_score": 15.38,
+  "final_score": 23.08,
   "final_grade": "E"
  },
- "built_at": "2026-09-26T02:08:37.346191+00:00"
+ "built_at": "2026-09-26T10:30:56.548541+00:00"
 }
