@@ -127,12 +127,12 @@
     "name": "5.12 Conditional Formatting and Data Validation Assessment",
     "due": "2026-09-29T05:59:59Z",
     "points": 20.0,
-    "status": "unsubmitted",
-    "score": null,
-    "grade": null,
+    "status": "graded",
+    "score": 9.63,
+    "grade": "9.63",
     "missing": false,
-    "submitted_at": null,
-    "submission_type": null,
+    "submitted_at": "2026-09-27T00:15:23Z",
+    "submission_type": "external_tool",
     "my_submission": "",
     "comments": []
    },
@@ -443,10 +443,10 @@
  "needs": null,
  "course_id": 38674,
  "overall": {
-  "current_score": 97.59,
-  "current_grade": "A",
-  "final_score": 10.57,
+  "current_score": 89.35,
+  "current_grade": "B+",
+  "final_score": 11.62,
   "final_grade": "E"
  },
- "built_at": "2026-09-27T01:52:11.033851+00:00"
+ "built_at": "2026-09-27T10:54:37.740433+00:00"
 }
