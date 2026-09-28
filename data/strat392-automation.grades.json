@@ -90,12 +90,12 @@
    "name": "Differentiation Reading Quiz",
    "due": "2026-10-02T05:59:59Z",
    "points": 10.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
+   "status": "graded",
+   "score": 10.0,
+   "grade": "10",
    "missing": false,
-   "submitted_at": null,
-   "submission_type": null,
+   "submitted_at": "2026-09-28T00:05:01Z",
+   "submission_type": "basic_lti_launch",
    "my_submission": "",
    "comments": []
   },
@@ -173,7 +173,7 @@
  "overall": {
   "current_score": 100.0,
   "current_grade": "A",
-  "final_score": 23.08,
+  "final_score": 30.77,
   "final_grade": "E"
  },
  "source": "canvas-api"
