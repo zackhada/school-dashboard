@@ -118,7 +118,7 @@
   },
   {
    "key": "DIFFERENTIATION_QUIZ",
-   "status": "pending",
+   "status": "done",
    "date": "2026-10-02",
    "note": "# Canvas 1500438, 10pt, Differentiation Reading Quiz (drift-added 2026-09-22)",
    "title": "Canvas 1500438, , Differentiation Reading Quiz (drift-added 2026-09-22)",
@@ -218,5 +218,5 @@
   "final_score": 23.08,
   "final_grade": "E"
  },
- "built_at": "2026-09-27T23:54:11.484681+00:00"
+ "built_at": "2026-09-28T00:06:24.617338+00:00"
 }
