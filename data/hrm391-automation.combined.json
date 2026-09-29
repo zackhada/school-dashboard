@@ -100,6 +100,28 @@
    "needs_zack": false
   },
   {
+   "key": "CANVAS_1505959",
+   "status": "missing_from_ledger",
+   "date": "2026-10-11",
+   "note": "# In Canvas but no ledger row; runner must add it",
+   "title": "Observation Notebook Entries",
+   "grade": {
+    "canvas_id": 1505959,
+    "name": "Observation Notebook Entries",
+    "due": "2026-10-11T05:59:59Z",
+    "points": 10.0,
+    "status": "unsubmitted",
+    "score": null,
+    "grade": null,
+    "missing": false,
+    "submitted_at": null,
+    "submission_type": null,
+    "my_submission": "",
+    "comments": []
+   },
+   "drift": true
+  },
+  {
    "key": "EXAM1",
    "status": "blocked_inperson",
    "date": "2026-12-01",
@@ -123,14 +145,29 @@
    "needs_zack": false
   }
  ],
- "unmatched_canvas": [],
+ "unmatched_canvas": [
+  {
+   "canvas_id": 1505959,
+   "name": "Observation Notebook Entries",
+   "due": "2026-10-11T05:59:59Z",
+   "points": 10.0,
+   "status": "unsubmitted",
+   "score": null,
+   "grade": null,
+   "missing": false,
+   "submitted_at": null,
+   "submission_type": null,
+   "my_submission": "",
+   "comments": []
+  }
+ ],
  "needs": null,
  "course_id": 37899,
  "overall": {
   "current_score": 100.0,
   "current_grade": "A",
-  "final_score": 23.15,
+  "final_score": 15.57,
   "final_grade": "E"
  },
- "built_at": "2026-09-29T03:26:01.895009+00:00"
+ "built_at": "2026-09-29T11:28:37.830980+00:00"
 }

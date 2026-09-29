@@ -64,6 +64,20 @@
    "comments": []
   },
   {
+   "canvas_id": 1505959,
+   "name": "Observation Notebook Entries",
+   "due": "2026-10-11T05:59:59Z",
+   "points": 10.0,
+   "status": "unsubmitted",
+   "score": null,
+   "grade": null,
+   "missing": false,
+   "submitted_at": null,
+   "submission_type": null,
+   "my_submission": "",
+   "comments": []
+  },
+  {
    "canvas_id": 1491210,
    "name": "Exam 1 \u2014 Understanding the Organizational System",
    "due": null,
@@ -81,7 +95,7 @@
  "overall": {
   "current_score": 100.0,
   "current_grade": "A",
-  "final_score": 23.15,
+  "final_score": 15.57,
   "final_grade": "E"
  },
  "source": "canvas-api"
