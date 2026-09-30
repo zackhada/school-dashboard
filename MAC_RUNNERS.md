@@ -106,3 +106,40 @@ the self-hosted schedules.
   not changed): Telegram single-poller, stamp-key validation, needs_user
   lifecycle, agent-side guard removal, dashboard staleness banners, healer
   self-hosted coverage, update.yml push-race retry.
+
+## 2026-09-29: host identity, control channel, fixes
+
+Host is **MacBookPro.lan** (user `zackhada`), Intel x86_64. Runner root
+`~/school-runners/<class>`; canonical school-healer checkout
+`~/school-repos/school-healer`; launchd guard `com.school.guard`; live channel
+agent `com.school.host-agent`.
+
+- **Live control channel** (`school-healer/HOST_CHANNEL.md`): the Mac runs
+  `com.school.host-agent`, which polls `.state/host_cmd.json` on
+  `zackhada/school-healer` every 30s and writes `.state/host_out.json` +
+  `.state/host_heartbeat.json`. Talk to it with
+  `python3 school-healer/scripts/host_mail.py send|wait|out|hb`. It does not
+  depend on any Actions runner.
+- **Repair/bootstrap channel**: `econ110-automation/.github/workflows/host-command.yml`
+  (a `workflow_dispatch` that runs a command on the host via econ110's runner
+  and seeds `~/.school-guard/gh_token` from the `OPS_TOKEN` secret). Helper
+  `scripts/host_bootstrap.sh` starts runners, reinstalls guard/agent/caffeinate,
+  repairs the healer runner, refreshes wakes, prints a report.
+- **Cross-repo auth**: `gh` in an Actions runner has no keychain token, so
+  `OPS_TOKEN` (a `repo`+`workflow` PAT-class token) is a secret in
+  econ110/school-healer and is written to `~/.school-guard/gh_token` (chmod 600);
+  host scripts export `GH_TOKEN` from it.
+- **Duo/keepalive fix (all 7 repos)**: `scripts/session_refresh.py` called the
+  async `on_duo_url` without `await`, so the passcode retry/steering never
+  worked and keepalives died at the 12-minute timeout with `REFRESH_RC=3`. Now
+  awaited.
+- **Keep-awake (no root)**: `com.school.runners.caffeinate` runs
+  `caffeinate -i -m -s` (installed by `scripts/install_caffeinate.sh`) so the Mac
+  does not idle-sleep outside run windows (it was flapping the runners).
+  Lid-close still needs `sudo pmset -c disablesleep 1` (needs Zack once).
+- **Healer**: the `school-healer` runner is a wedged GitHub-side registration
+  (online but stuck busy on an unstartable job; cannot be deleted while busy),
+  so `healer.yml` there is disabled and the daily healer now runs on econ110's
+  runner (`econ110-automation/.github/workflows/healer.yml`, fetches
+  school-healer with `OPS_TOKEN`).
+

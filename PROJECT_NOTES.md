@@ -44,3 +44,15 @@
 - Guard: `school-healer/scripts/heal.py` now checks the live Pages URL and the
   repo visibility every run so this fails loudly instead of silently.
 - NOTE: keep this repo **public** or the sole dashboard interface disappears.
+
+## 2026-09-29: host reached, channel + Duo fix
+- Host Mac identity: **MacBookPro.lan** (Intel x86_64), runner root
+  `~/school-runners`, healer checkout `~/school-repos/school-healer`.
+- Live control channel to the host (does not need an Actions runner):
+  `python3 school-healer/scripts/host_mail.py send|wait|out|hb`.
+- `session_refresh.py` missing `await` on `on_duo_url` fixed in all 7 repos
+  (Duo passcode steering was broken; keepalives died at 12m).
+- Keep-awake without root installed (`com.school.runners.caffeinate`).
+- Healer moved onto econ110's runner; the school-healer runner is a wedged
+  GitHub-side registration. Details in `MAC_RUNNERS.md`.
+
