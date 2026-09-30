@@ -59,8 +59,8 @@
     "due": "2026-09-17T05:59:59Z",
     "points": 20.0,
     "status": "graded",
-    "score": 19.34,
-    "grade": "19.34",
+    "score": 20.0,
+    "grade": "20",
     "missing": false,
     "submitted_at": "2026-09-11T01:43:42Z",
     "submission_type": "external_tool",
@@ -443,10 +443,10 @@
  "needs": null,
  "course_id": 38674,
  "overall": {
-  "current_score": 89.35,
+  "current_score": 89.9,
   "current_grade": "B+",
-  "final_score": 11.62,
+  "final_score": 11.69,
   "final_grade": "E"
  },
- "built_at": "2026-09-30T02:28:22.616321+00:00"
+ "built_at": "2026-09-30T15:19:35.146358+00:00"
 }

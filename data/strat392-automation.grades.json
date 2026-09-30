@@ -48,14 +48,20 @@
    "name": "Industry  Analysis 5 Forces Assignment",
    "due": "2026-09-18T05:59:59Z",
    "points": 30.0,
-   "status": "submitted",
-   "score": null,
-   "grade": null,
+   "status": "graded",
+   "score": 24.0,
+   "grade": "24",
    "missing": false,
    "submitted_at": "2026-09-23T00:05:43Z",
    "submission_type": "online_upload",
    "my_submission": "",
-   "comments": []
+   "comments": [
+    {
+     "author": "Riley Fitzpatrick",
+     "comment": "late fee",
+     "created": "2026-09-30T15:12:24Z"
+    }
+   ]
   },
   {
    "canvas_id": 1500422,
@@ -171,9 +177,9 @@
   }
  ],
  "overall": {
-  "current_score": 100.0,
-  "current_grade": "A",
-  "final_score": 30.77,
+  "current_score": 91.43,
+  "current_grade": "A-",
+  "final_score": 49.23,
   "final_grade": "E"
  },
  "source": "canvas-api"

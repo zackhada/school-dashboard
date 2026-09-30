@@ -231,12 +231,12 @@
     "name": "Participation Quiz",
     "due": "2026-09-29T21:15:00Z",
     "points": 3.0,
-    "status": "unsubmitted",
-    "score": null,
-    "grade": null,
+    "status": "graded",
+    "score": 3.0,
+    "grade": "3",
     "missing": false,
-    "submitted_at": null,
-    "submission_type": null,
+    "submitted_at": "2026-09-29T21:03:58Z",
+    "submission_type": "online_quiz",
     "my_submission": "",
     "comments": []
    },
@@ -570,10 +570,10 @@
  "needs": "PSE390 WK04 (Ethics and Public Quiz Week 4, due Sat Oct 3 11:59pm MT): weekly X brand post is written but I cannot publish it. The canonical Chrome (port 9222, your X sign-in) cannot open any new tab right now: every new target hangs, even example.com, while your existing tabs still work. The X composer never opens, so x_post.py cannot post. Likely needs a browser restart or your touch. I will not fake a URL or use telegra.ph. Canvas slot is open and unsubmitted. Next run retries the post.",
  "course_id": 38958,
  "overall": {
-  "current_score": 75.0,
-  "current_grade": "C",
-  "final_score": 14.12,
+  "current_score": 77.14,
+  "current_grade": "C+",
+  "final_score": 15.88,
   "final_grade": "E"
  },
- "built_at": "2026-09-30T02:28:22.596018+00:00"
+ "built_at": "2026-09-30T15:19:35.067412+00:00"
 }
