@@ -78,9 +78,9 @@
   },
   {
    "key": "PARTICIPATION_QUIZ_SEP15",
-   "status": "blocked_inperson",
+   "status": "done",
    "date": "2026-09-15",
-   "note": "# Canvas 1495491, in-class code, avail Sep 15 2pm-3:17pm MT",
+   "note": "# Canvas 1495491, graded 3/3 in class, Zack attended",
    "title": "Participation Quiz Sep 15",
    "grade": {
     "canvas_id": 1495491,
@@ -222,9 +222,9 @@
   },
   {
    "key": "PARTICIPATION_QUIZ_SEP29",
-   "status": "blocked_inperson",
+   "status": "done",
    "date": "2026-09-29",
-   "note": "# Canvas 1496705, in-class code, avail Sep 29 2pm-3:17pm MT",
+   "note": "# Canvas 1496705, graded 3/3 in class, submitted 2026-09-29T21:03:58Z, Zack attended",
    "title": "Participation Quiz Sep 29",
    "grade": {
     "canvas_id": 1496705,
@@ -287,7 +287,7 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": true
   },
   {
    "key": "PARTICIPATION_QUIZ_OCT06",
@@ -567,7 +567,7 @@
   }
  ],
  "unmatched_canvas": [],
- "needs": null,
+ "needs": "PSE390 WK04 (Ethics and Public Quiz Week 4, due Sat Oct 3 11:59pm MT): weekly X brand post is written but I cannot publish it. The canonical Chrome (port 9222, your X sign-in) cannot open any new tab right now: every new target hangs, even example.com, while your existing tabs still work. The X composer never opens, so x_post.py cannot post. Likely needs a browser restart or your touch. I will not fake a URL or use telegra.ph. Canvas slot is open and unsubmitted. Next run retries the post.",
  "course_id": 38958,
  "overall": {
   "current_score": 75.0,
@@ -575,5 +575,5 @@
   "final_score": 14.12,
   "final_grade": "E"
  },
- "built_at": "2026-09-30T02:22:42.141948+00:00"
+ "built_at": "2026-09-30T02:28:22.596018+00:00"
 }
