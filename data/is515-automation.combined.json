@@ -150,12 +150,12 @@
     "name": "7.8 Data Tables and Lists Assessment",
     "due": "2026-10-06T05:59:59Z",
     "points": 20.0,
-    "status": "unsubmitted",
-    "score": null,
-    "grade": null,
+    "status": "graded",
+    "score": 17.0,
+    "grade": "17",
     "missing": false,
-    "submitted_at": null,
-    "submission_type": null,
+    "submitted_at": "2026-10-01T02:41:44Z",
+    "submission_type": "external_tool",
     "my_submission": "",
     "comments": []
    },
@@ -443,10 +443,10 @@
  "needs": null,
  "course_id": 38674,
  "overall": {
-  "current_score": 89.9,
+  "current_score": 89.2,
   "current_grade": "B+",
-  "final_score": 11.69,
+  "final_score": 13.53,
   "final_grade": "E"
  },
- "built_at": "2026-10-01T02:49:18.024629+00:00"
+ "built_at": "2026-10-01T11:44:09.703527+00:00"
 }

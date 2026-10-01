@@ -277,12 +277,12 @@
     "name": "Ethics and Public Quiz - Week 4",
     "due": "2026-10-04T05:59:59Z",
     "points": 10.0,
-    "status": "unsubmitted",
+    "status": "submitted",
     "score": null,
     "grade": null,
     "missing": false,
-    "submitted_at": null,
-    "submission_type": null,
+    "submitted_at": "2026-09-30T17:44:40Z",
+    "submission_type": "online_url",
     "my_submission": "",
     "comments": []
    },
@@ -575,5 +575,5 @@
   "final_score": 15.88,
   "final_grade": "E"
  },
- "built_at": "2026-10-01T02:49:18.005720+00:00"
+ "built_at": "2026-10-01T11:44:09.684971+00:00"
 }
