@@ -418,7 +418,7 @@
   {
    "key": "IS_EXAM2",
    "status": "blocked_inperson",
-   "date": "2026-12-18",
+   "date": "2026-12-17",
    "note": "# Exam 2, 100pts, timed comprehensive take-home, NOT collaborative. Locked until Dec 12. Zack takes manually in a quiet window after Dec 12.",
    "title": "Exam 2",
    "grade": {
@@ -448,5 +448,5 @@
   "final_score": 11.69,
   "final_grade": "E"
  },
- "built_at": "2026-10-01T00:49:03.295250+00:00"
+ "built_at": "2026-10-01T01:39:18.504953+00:00"
 }
