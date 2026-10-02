@@ -3,7 +3,7 @@
  "rows": [
   {
    "canvas_id": 1495477,
-   "name": "Participation Quiz",
+   "name": "Participation Quiz 09.08",
    "due": "2026-09-08T21:15:00Z",
    "points": 3.0,
    "status": "graded",
@@ -31,7 +31,7 @@
   },
   {
    "canvas_id": 1495456,
-   "name": "Ethics and Public Quiz - Week 1",
+   "name": "Ethics and Public Quiz 09.10",
    "due": "2026-09-13T05:59:59Z",
    "points": 10.0,
    "status": "graded",
@@ -51,7 +51,7 @@
   },
   {
    "canvas_id": 1495491,
-   "name": "Participation Quiz",
+   "name": "Participation Quiz 09.15",
    "due": "2026-09-15T21:15:00Z",
    "points": 3.0,
    "status": "graded",
@@ -65,7 +65,7 @@
   },
   {
    "canvas_id": 1495532,
-   "name": "Participation Quiz",
+   "name": "Participation Quiz 09.17",
    "due": "2026-09-17T21:15:00Z",
    "points": 3.0,
    "status": "graded",
@@ -99,13 +99,13 @@
   },
   {
    "canvas_id": 1496696,
-   "name": "Participation Quiz",
+   "name": "Participation Quiz 09.22",
    "due": "2026-09-22T21:15:00Z",
    "points": 3.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
-   "missing": true,
+   "status": "graded",
+   "score": 0.0,
+   "grade": "0",
+   "missing": false,
    "submitted_at": null,
    "submission_type": null,
    "my_submission": "",
@@ -113,13 +113,13 @@
   },
   {
    "canvas_id": 1496703,
-   "name": "Participation Quiz",
+   "name": "Participation Quiz 09.24",
    "due": "2026-09-24T21:15:00Z",
    "points": 3.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
-   "missing": true,
+   "status": "graded",
+   "score": 0.0,
+   "grade": "0",
+   "missing": false,
    "submitted_at": null,
    "submission_type": null,
    "my_submission": "",
@@ -141,7 +141,7 @@
   },
   {
    "canvas_id": 1496705,
-   "name": "Participation Quiz",
+   "name": "Participation Quiz 09.29",
    "due": "2026-09-29T21:15:00Z",
    "points": 3.0,
    "status": "graded",
@@ -155,15 +155,15 @@
   },
   {
    "canvas_id": 1496715,
-   "name": "Participation Quiz",
+   "name": "Participation Quiz 10.01",
    "due": "2026-10-01T21:15:00Z",
    "points": 3.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
+   "status": "graded",
+   "score": 3.0,
+   "grade": "3",
    "missing": false,
-   "submitted_at": null,
-   "submission_type": null,
+   "submitted_at": "2026-10-01T20:57:59Z",
+   "submission_type": "online_quiz",
    "my_submission": "",
    "comments": []
   },
@@ -183,7 +183,7 @@
   },
   {
    "canvas_id": 1496719,
-   "name": "Participation Quiz",
+   "name": "Participation Quiz 10.06",
    "due": "2026-10-06T21:15:00Z",
    "points": 3.0,
    "status": "unsubmitted",
@@ -197,7 +197,7 @@
   },
   {
    "canvas_id": 1499418,
-   "name": "Participation Quiz",
+   "name": "Participation Quiz 10.08",
    "due": "2026-10-08T21:15:00Z",
    "points": 3.0,
    "status": "unsubmitted",
@@ -365,9 +365,9 @@
   }
  ],
  "overall": {
-  "current_score": 77.14,
-  "current_grade": "C+",
-  "final_score": 15.88,
+  "current_score": 68.18,
+  "current_grade": "D+",
+  "final_score": 17.65,
   "final_grade": "E"
  },
  "source": "canvas-api"
