@@ -435,8 +435,8 @@
     "name": "Pre-Class Quiz--Behavioral Economics (Extra Credit)",
     "due": "2026-10-05T15:00:00",
     "points": 12.0,
-    "score": null,
-    "status": "not_graded",
+    "score": 12.0,
+    "status": "graded",
     "missing": false,
     "submission_type": "learning_suite",
     "comments": []
@@ -1057,8 +1057,8 @@
  "needs": null,
  "course_id": null,
  "overall": {
-  "current_score": 74.1,
+  "current_score": 75.84,
   "source": "learning-suite-points"
  },
- "built_at": "2026-10-01T13:06:42.297613+00:00"
+ "built_at": "2026-10-02T00:43:24.374005+00:00"
 }

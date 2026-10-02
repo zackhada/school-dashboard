@@ -1,9 +1,9 @@
 {
  "repo": "zackhada/econ110-automation",
  "source": "learning-suite",
- "url": "https://learningsuite.byu.edu/.NDh2/cid-1YPOkgOMQjjk/student/home/assignments",
+ "url": "https://learningsuite.byu.edu/.8Kf1/cid-1YPOkgOMQjjk/student/home/assignments",
  "overall": {
-  "current_score": 74.1,
+  "current_score": 75.84,
   "source": "learning-suite-points"
  },
  "rows": [
@@ -411,8 +411,8 @@
    "name": "Pre-Class Quiz--Behavioral Economics (Extra Credit)",
    "due": "2026-10-05T15:00:00",
    "points": 12.0,
-   "score": null,
-   "status": "not_graded",
+   "score": 12.0,
+   "status": "graded",
    "missing": false,
    "submission_type": "learning_suite",
    "comments": []
