@@ -96,6 +96,36 @@
    "status": "blocked_inperson",
    "date": "2026-10-01",
    "note": "# Canvas 1465930, in-class; Zack attends (drift-added 2026-09-22)"
+  },
+  {
+   "key": "10_6_ATTENDANCE_CHECK",
+   "status": "blocked_inperson",
+   "date": "2026-10-06",
+   "note": "# Canvas 1465981, 10pt, 10/6 - Attendance Check (in-class/participation; drift-added 2026-10-02)"
+  },
+  {
+   "key": "10_8_ATTENDANCE_CHECK",
+   "status": "blocked_inperson",
+   "date": "2026-10-08",
+   "note": "# Canvas 1466079, 10pt, 10/8 - Attendance Check (in-class/participation; drift-added 2026-10-02)"
+  },
+  {
+   "key": "10_6_PRE_CLASS_STUDY_AND_PADLET_SHARING",
+   "status": "pending",
+   "date": "2026-10-06",
+   "note": "# Canvas 1466470, 10pt, 10/6 - Pre-Class Study and Padlet Sharing (remote, grade-only; drift-added 2026-10-02)"
+  },
+  {
+   "key": "10_8_PRE_CLASS_STUDY_AND_PADLET_SHARING",
+   "status": "pending",
+   "date": "2026-10-08",
+   "note": "# Canvas 1466473, 10pt, 10/8 - Pre-Class Study and Padlet Sharing (remote, grade-only; drift-added 2026-10-02)"
+  },
+  {
+   "key": "A_PROFILE_OF_A_PROPHET_GROUP_PROJECT",
+   "status": "blocked_ask_zack",
+   "date": "2026-12-11",
+   "note": "# Canvas 1468925, 100pt, A Profile of a Prophet Group Project (needs Zack's input/decision; drift-added 2026-10-02)"
   }
  ],
  "source": "progress.txt"

@@ -36,6 +36,12 @@
    "status": "blocked_inperson",
    "date": "2026-12-01",
    "note": "# Exam 1 Understanding the Organizational System, 1pt, Testing Center, no Canvas submission; Zack takes in person"
+  },
+  {
+   "key": "OBSERVATION_NOTEBOOK_ENTRIES",
+   "status": "blocked_ask_zack",
+   "date": "2026-10-11",
+   "note": "# Canvas 1505959, 10pt, Observation Notebook Entries (needs Zack's input/decision; drift-added 2026-10-02)"
   }
  ],
  "source": "progress.txt"
