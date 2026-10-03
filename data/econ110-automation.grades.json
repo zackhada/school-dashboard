@@ -1,9 +1,9 @@
 {
  "repo": "zackhada/econ110-automation",
  "source": "learning-suite",
- "url": "https://learningsuite.byu.edu/.iCHR/cid-1YPOkgOMQjjk/student/home/assignments",
+ "url": "https://learningsuite.byu.edu/.5wHe/cid-1YPOkgOMQjjk/student/home/assignments",
  "overall": {
-  "current_score": 79.33,
+  "current_score": 79.91,
   "source": "learning-suite-points"
  },
  "rows": [
@@ -141,8 +141,8 @@
    "name": "Mankiw Bonus #3 (Extra Credit)",
    "due": "2026-09-25T23:59:00",
    "points": 6.0,
-   "score": null,
-   "status": "not_graded",
+   "score": 6.0,
+   "status": "graded",
    "missing": false,
    "submission_type": "learning_suite",
    "comments": []
