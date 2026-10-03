@@ -44,26 +44,6 @@
    "comments": []
   },
   {
-   "canvas_id": 1464249,
-   "name": "Get-to-Know-You Assignment",
-   "due": "2026-09-13T05:59:59Z",
-   "points": 10.0,
-   "status": "graded",
-   "score": 10.0,
-   "grade": "10",
-   "missing": false,
-   "submitted_at": "2026-09-11T22:26:11Z",
-   "submission_type": "online_upload",
-   "my_submission": "",
-   "comments": [
-    {
-     "author": "Zack Hada",
-     "comment": "Here is my intro video. Thanks for a great first week of class.",
-     "created": "2026-09-11T22:26:12Z"
-    }
-   ]
-  },
-  {
    "canvas_id": 1466389,
    "name": "9/15 - Pre-Class Study and Padlet Sharing",
    "due": "2026-09-15T17:59:59Z",
@@ -110,9 +90,9 @@
    "name": "9/17 - Attendance Check",
    "due": "2026-09-17T18:50:00Z",
    "points": 10.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
+   "status": "graded",
+   "score": 0.0,
+   "grade": "0",
    "missing": true,
    "submitted_at": null,
    "submission_type": null,
@@ -208,9 +188,9 @@
    "name": "10/1 - Attendance Check",
    "due": "2026-10-01T18:50:00Z",
    "points": 10.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
+   "status": "graded",
+   "score": 0.0,
+   "grade": "0",
    "missing": true,
    "submitted_at": null,
    "submission_type": null,
@@ -303,9 +283,9 @@
   }
  ],
  "overall": {
-  "current_score": 100.0,
-  "current_grade": "A",
-  "final_score": 33.25,
+  "current_score": 83.66,
+  "current_grade": "B",
+  "final_score": 32.58,
   "final_grade": "E"
  },
  "source": "canvas-api"

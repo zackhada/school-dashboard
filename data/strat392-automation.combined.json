@@ -87,9 +87,9 @@
     "name": "Cost Curve Assignment",
     "due": "2026-09-25T05:59:59Z",
     "points": 30.0,
-    "status": "submitted",
-    "score": null,
-    "grade": null,
+    "status": "graded",
+    "score": 30.0,
+    "grade": "30",
     "missing": false,
     "submitted_at": "2026-09-25T00:11:35Z",
     "submission_type": "online_upload",
@@ -156,12 +156,12 @@
     "name": "A More Company Case Quiz",
     "due": "2026-10-07T05:59:59Z",
     "points": 10.0,
-    "status": "unsubmitted",
-    "score": null,
-    "grade": null,
+    "status": "graded",
+    "score": 10.0,
+    "grade": "10",
     "missing": false,
-    "submitted_at": null,
-    "submission_type": null,
+    "submitted_at": "2026-10-03T00:47:59Z",
+    "submission_type": "basic_lti_launch",
     "my_submission": "",
     "comments": []
    },
@@ -219,10 +219,10 @@
  "needs": null,
  "course_id": 39131,
  "overall": {
-  "current_score": 91.43,
-  "current_grade": "A-",
-  "final_score": 49.23,
-  "final_grade": "E"
+  "current_score": 94.55,
+  "current_grade": "A",
+  "final_score": 80.0,
+  "final_grade": "B-"
  },
- "built_at": "2026-10-03T02:19:16.408803+00:00"
+ "built_at": "2026-10-03T10:31:07.815982+00:00"
 }

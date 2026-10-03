@@ -76,26 +76,7 @@
    "date": "2026-09-13",
    "note": "# video uploaded 2026-09-11 (50MB .mov, 35s), Canvas workflow_state=submitted, submission 133117, attachment 13737819, on time, verified via submissions/self API",
    "title": "video uploaded 2026-09-11 (50MB .mov, 35s), Canvas workflow_state=submitted, submission 133117, attachment 13737819, on time, verified via submissions/self API",
-   "grade": {
-    "canvas_id": 1464249,
-    "name": "Get-to-Know-You Assignment",
-    "due": "2026-09-13T05:59:59Z",
-    "points": 10.0,
-    "status": "graded",
-    "score": 10.0,
-    "grade": "10",
-    "missing": false,
-    "submitted_at": "2026-09-11T22:26:11Z",
-    "submission_type": "online_upload",
-    "my_submission": "",
-    "comments": [
-     {
-      "author": "Zack Hada",
-      "comment": "Here is my intro video. Thanks for a great first week of class.",
-      "created": "2026-09-11T22:26:12Z"
-     }
-    ]
-   },
+   "grade": null,
    "drift": false,
    "needs_zack": false
   },
@@ -156,9 +137,9 @@
     "name": "9/17 - Attendance Check",
     "due": "2026-09-17T18:50:00Z",
     "points": 10.0,
-    "status": "unsubmitted",
-    "score": null,
-    "grade": null,
+    "status": "graded",
+    "score": 0.0,
+    "grade": "0",
     "missing": true,
     "submitted_at": null,
     "submission_type": null,
@@ -340,9 +321,9 @@
     "name": "10/1 - Attendance Check",
     "due": "2026-10-01T18:50:00Z",
     "points": 10.0,
-    "status": "unsubmitted",
-    "score": null,
-    "grade": null,
+    "status": "graded",
+    "score": 0.0,
+    "grade": "0",
     "missing": true,
     "submitted_at": null,
     "submission_type": null,
@@ -472,10 +453,10 @@
  "needs": null,
  "course_id": 38438,
  "overall": {
-  "current_score": 100.0,
-  "current_grade": "A",
-  "final_score": 33.25,
+  "current_score": 83.66,
+  "current_grade": "B",
+  "final_score": 32.58,
   "final_grade": "E"
  },
- "built_at": "2026-10-03T02:19:16.422337+00:00"
+ "built_at": "2026-10-03T10:31:07.830754+00:00"
 }
