@@ -101,10 +101,10 @@
   },
   {
    "key": "OBSERVATION_NOTEBOOK_ENTRIES",
-   "status": "blocked_ask_zack",
+   "status": "done",
    "date": "2026-10-11",
-   "note": "# Canvas 1505959, 10pt, Observation Notebook Entries (needs Zack's input/decision; drift-added 2026-10-02)",
-   "title": "Canvas 1505959, , Observation Notebook Entries (needs Zack's input/decision; drift-added 2026-10-02)",
+   "note": "# Canvas 1505959, 10pt, submitted 2026-10-02 as 1 PDF (Observation Notebook #1 + 4 Default Org analyses), online_upload, on time, attempt 1, attachment 13958079",
+   "title": "Canvas 1505959, , submitted 2026-10-02 as 1 PDF (Observation Notebook #1 + 4 Default Org analyses), online_upload, on time, attempt 1, attachment 13958079",
    "grade": {
     "canvas_id": 1505959,
     "name": "Observation Notebook Entries",
@@ -155,5 +155,5 @@
   "final_score": 15.57,
   "final_grade": "E"
  },
- "built_at": "2026-10-02T19:43:23.060140+00:00"
+ "built_at": "2026-10-03T00:34:05.721632+00:00"
 }
