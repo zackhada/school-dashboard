@@ -89,7 +89,7 @@
   },
   {
    "key": "FIN_QUIZ_9",
-   "status": "pending",
+   "status": "done",
    "date": "2026-10-07",
    "note": "# Topic 9 Quiz",
    "title": "Topic 9 Quiz",
@@ -255,5 +255,5 @@
  "needs": null,
  "course_id": null,
  "overall": {},
- "built_at": "2026-10-03T23:45:44.506867+00:00"
+ "built_at": "2026-10-03T23:52:19.863659+00:00"
 }
