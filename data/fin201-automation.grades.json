@@ -76,9 +76,9 @@
   {
    "name": "Topic 9 Quiz",
    "due": "2026-10-07T10:00:00",
-   "points": null,
-   "score": null,
-   "status": "not_graded",
+   "points": 10.0,
+   "score": 10.0,
+   "status": "graded",
    "missing": false,
    "submission_type": "myeducator",
    "comments": []
