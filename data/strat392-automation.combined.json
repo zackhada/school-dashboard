@@ -147,7 +147,7 @@
   },
   {
    "key": "MORE_COMPANY_CASE_QUIZ",
-   "status": "pending",
+   "status": "done",
    "date": "2026-10-07",
    "note": "# Canvas 1500607, 10pt, A More Company Case Quiz (drift-added 2026-09-22)",
    "title": "Canvas 1500607, , A More Company Case Quiz (drift-added 2026-09-22)",
@@ -224,5 +224,5 @@
   "final_score": 49.23,
   "final_grade": "E"
  },
- "built_at": "2026-10-03T00:34:05.727333+00:00"
+ "built_at": "2026-10-03T00:48:56.186873+00:00"
 }
