@@ -170,7 +170,7 @@
   },
   {
    "key": "DUAL_ADVANTAGE_QUIZ",
-   "status": "pending",
+   "status": "done",
    "date": "2026-10-09",
    "note": "# Canvas 1500567, 10pt, Dual Advantage Quiz (drift-added 2026-09-22)",
    "title": "Canvas 1500567, , Dual Advantage Quiz (drift-added 2026-09-22)",
@@ -224,5 +224,5 @@
   "final_score": 80.0,
   "final_grade": "B-"
  },
- "built_at": "2026-10-05T00:11:16.072568+00:00"
+ "built_at": "2026-10-05T00:26:09.976355+00:00"
 }
