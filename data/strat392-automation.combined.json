@@ -179,12 +179,12 @@
     "name": "Dual Advantage Quiz",
     "due": "2026-10-09T05:59:59Z",
     "points": 10.0,
-    "status": "unsubmitted",
-    "score": null,
-    "grade": null,
+    "status": "graded",
+    "score": 10.0,
+    "grade": "10",
     "missing": false,
-    "submitted_at": null,
-    "submission_type": null,
+    "submitted_at": "2026-10-05T00:24:30Z",
+    "submission_type": "basic_lti_launch",
     "my_submission": "",
     "comments": []
    },
@@ -219,10 +219,10 @@
  "needs": null,
  "course_id": 39131,
  "overall": {
-  "current_score": 94.55,
+  "current_score": 95.0,
   "current_grade": "A",
-  "final_score": 80.0,
-  "final_grade": "B-"
+  "final_score": 87.69,
+  "final_grade": "B+"
  },
- "built_at": "2026-10-05T02:24:01.097987+00:00"
+ "built_at": "2026-10-05T12:28:16.471240+00:00"
 }
