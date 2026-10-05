@@ -465,7 +465,7 @@
   },
   {
    "key": "ECON_NEQ_5",
-   "status": "pending",
+   "status": "done",
    "date": "2026-10-09",
    "note": "# NE Quiz #5 5pt",
    "title": "NE Quiz #5",
@@ -1060,5 +1060,5 @@
   "current_score": 79.91,
   "source": "learning-suite-points"
  },
- "built_at": "2026-10-05T00:02:08.378072+00:00"
+ "built_at": "2026-10-05T00:11:16.157581+00:00"
 }
