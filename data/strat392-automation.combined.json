@@ -193,7 +193,7 @@
   },
   {
    "key": "PEST_READING_QUIZ",
-   "status": "pending",
+   "status": "done",
    "date": "2026-10-09",
    "note": "# Canvas 1500404, 10pt, PEST Reading Quiz, no Canvas due date (drift-added 2026-09-22; verify due date)",
    "title": "Canvas 1500404, , PEST Reading Quiz, no Canvas",
@@ -224,5 +224,5 @@
   "final_score": 87.69,
   "final_grade": "B+"
  },
- "built_at": "2026-10-06T01:49:02.359315+00:00"
+ "built_at": "2026-10-06T02:00:25.088288+00:00"
 }
