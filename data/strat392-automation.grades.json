@@ -166,21 +166,21 @@
    "name": "PEST Reading Quiz",
    "due": null,
    "points": 10.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
+   "status": "graded",
+   "score": 10.0,
+   "grade": "10",
    "missing": false,
-   "submitted_at": null,
-   "submission_type": null,
+   "submitted_at": "2026-10-06T01:59:26Z",
+   "submission_type": "basic_lti_launch",
    "my_submission": "",
    "comments": []
   }
  ],
  "overall": {
-  "current_score": 95.0,
+  "current_score": 95.38,
   "current_grade": "A",
-  "final_score": 87.69,
-  "final_grade": "B+"
+  "final_score": 95.38,
+  "final_grade": "A"
  },
  "source": "canvas-api"
 }
