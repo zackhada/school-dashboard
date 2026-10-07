@@ -1,9 +1,9 @@
 {
  "repo": "zackhada/econ110-automation",
  "source": "learning-suite",
- "url": "https://learningsuite.byu.edu/.RnKF/cid-1YPOkgOMQjjk/student/home/assignments",
+ "url": "https://learningsuite.byu.edu/.2D5A/cid-1YPOkgOMQjjk/student/home/assignments",
  "overall": {
-  "current_score": 80.37,
+  "current_score": 69.98,
   "source": "learning-suite-points"
  },
  "rows": [
@@ -58,7 +58,7 @@
    "comments": []
   },
   {
-   "name": "Oaks \"Good, Better, Best\" Quiz -- *",
+   "name": "Oaks \"Good, Better, Best\" Quiz --",
    "due": "2026-09-09T23:59:00",
    "points": 6.0,
    "score": 6.0,
@@ -68,7 +68,7 @@
    "comments": []
   },
   {
-   "name": "Christensen Quiz -- *",
+   "name": "Christensen Quiz --",
    "due": "2026-12-09T15:00:00",
    "points": 5.0,
    "score": null,
@@ -151,8 +151,8 @@
    "name": "TA Passoff #3 (Extra Credit)",
    "due": "2026-09-29T23:59:00",
    "points": 2.0,
-   "score": null,
-   "status": "not_graded",
+   "score": 0.0,
+   "status": "graded",
    "missing": false,
    "submission_type": "learning_suite",
    "comments": []
@@ -161,8 +161,8 @@
    "name": "Bonus: Check Answers #3 (Extra Credit)",
    "due": "2026-09-29T23:59:00",
    "points": 2.0,
-   "score": null,
-   "status": "not_graded",
+   "score": 0.0,
+   "status": "graded",
    "missing": false,
    "submission_type": "learning_suite",
    "comments": []
@@ -409,7 +409,7 @@
   },
   {
    "name": "Pre-Class Quiz--Behavioral Economics (Extra Credit)",
-   "due": "2026-10-05T15:00:00",
+   "due": "2026-10-05T23:59:00",
    "points": 12.0,
    "score": 12.0,
    "status": "graded",
@@ -1149,10 +1149,10 @@
   },
   {
    "name": "Midterm 1",
-   "due": "2026-10-02T16:00:00",
-   "points": 100.0,
-   "score": null,
-   "status": "not_graded",
+   "due": "2026-10-02T21:00:00",
+   "points": 200.0,
+   "score": 120.0,
+   "status": "graded",
    "missing": false,
    "submission_type": "learning_suite",
    "comments": []
