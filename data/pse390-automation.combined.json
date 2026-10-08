@@ -339,7 +339,7 @@
    "key": "WEEKLY_QUIZ_WK05",
    "status": "pending",
    "date": "2026-10-11",
-   "note": "# Canvas 1495460 Ethics and Public Quiz Week 5, online_text_entry/url, due 2026-10-11T05:59:59Z",
+   "note": "# Canvas 1495460 Ethics and Public Quiz Week 5, online_text_entry/url, due 2026-10-11T05:59:59Z; X post published https://x.com/zack_hada/status/2108316609689579817 (in .state/wk_post_url), Canvas submission pending Duo approval",
    "title": "Canvas 1495460 Ethics and Public Quiz Week 5, online_text_entry/url",
    "grade": {
     "canvas_id": 1495460,
@@ -355,6 +355,39 @@
     "my_submission": "",
     "comments": []
    },
+   "drift": false,
+   "needs_zack": true
+  },
+  {
+   "key": "PARTICIPATION_QUIZ_10_13",
+   "status": "blocked_inperson",
+   "date": "2026-10-13",
+   "note": "# Canvas 1509629, 3pt, Participation Quiz 10.13 (in-class/participation; drift-added 2026-10-08)",
+   "title": "Canvas 1509629, , Participation Quiz 10.13 (in-class/participation; drift-added 2026-10-08)",
+   "grade": {
+    "canvas_id": 1499408,
+    "name": "Participation and Engagement Grade",
+    "due": null,
+    "points": 0.0,
+    "status": "unsubmitted",
+    "score": null,
+    "grade": null,
+    "missing": false,
+    "submitted_at": null,
+    "submission_type": null,
+    "my_submission": "",
+    "comments": []
+   },
+   "drift": false,
+   "needs_zack": false
+  },
+  {
+   "key": "PARTICIPATION_QUIZ_10_13_2",
+   "status": "blocked_inperson",
+   "date": "2026-10-13",
+   "note": "# Canvas 1509632, 3pt, Participation Quiz 10.13 (in-class/participation; drift-added 2026-10-08)",
+   "title": "Canvas 1509632, , Participation Quiz 10.13 (in-class/participation; drift-added 2026-10-08)",
+   "grade": null,
    "drift": false,
    "needs_zack": false
   },
@@ -567,7 +600,7 @@
   }
  ],
  "unmatched_canvas": [],
- "needs": null,
+ "needs": "PSE390: WK05 brand post is PUBLISHED and public: https://x.com/zack_hada/status/2108316609689579817 (saved in .state/wk_post_url, do NOT re-post). Canvas submission is blocked: BYU login needed Duo and 3 Duo Pushes to your iPhone (ending 8843) timed out unapproved. Open Duo Mobile and approve the next push, then trigger a run. Canvas item: Ethics and Public Quiz Week 5 (id 1495460), due Sun Oct 11 11:59pm MT. Next run only needs to submit the saved URL.",
  "course_id": 38958,
  "overall": {
   "current_score": 68.18,
@@ -575,5 +608,5 @@
   "final_score": 17.65,
   "final_grade": "E"
  },
- "built_at": "2026-10-08T20:06:53.977122+00:00"
+ "built_at": "2026-10-08T22:01:57.316303+00:00"
 }
