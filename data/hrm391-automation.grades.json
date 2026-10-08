@@ -65,9 +65,9 @@
   },
   {
    "canvas_id": 1505959,
-   "name": "Observation Notebook Entries",
-   "due": "2026-10-11T05:59:59Z",
-   "points": 10.0,
+   "name": "Unit 1 Observation Notebook/Default Organization Entries",
+   "due": "2026-10-14T05:59:59Z",
+   "points": 30.0,
    "status": "submitted",
    "score": null,
    "grade": null,
@@ -78,9 +78,37 @@
    "comments": []
   },
   {
-   "canvas_id": 1491210,
-   "name": "Exam 1 \u2014 Understanding the Organizational System",
-   "due": "2026-10-14T04:00:00Z",
+   "canvas_id": 1509308,
+   "name": "Breaking Bread - Counts toward final grade!",
+   "due": "2026-10-21T05:59:59Z",
+   "points": 25.0,
+   "status": "unsubmitted",
+   "score": null,
+   "grade": null,
+   "missing": false,
+   "submitted_at": null,
+   "submission_type": null,
+   "my_submission": "",
+   "comments": []
+  },
+  {
+   "canvas_id": 1508899,
+   "name": "HRM 391 Exam 1 \u2014 Understanding the Organizational System (Multiple Choice) (Remotely Proctored)",
+   "due": null,
+   "points": 56.0,
+   "status": "unsubmitted",
+   "score": null,
+   "grade": null,
+   "missing": false,
+   "submitted_at": null,
+   "submission_type": null,
+   "my_submission": "",
+   "comments": []
+  },
+  {
+   "canvas_id": 1508956,
+   "name": "Mid-term Checkpoint",
+   "due": null,
    "points": 1.0,
    "status": "unsubmitted",
    "score": null,
@@ -95,7 +123,7 @@
  "overall": {
   "current_score": 100.0,
   "current_grade": "A",
-  "final_score": 15.57,
+  "final_score": 13.6,
   "final_grade": "E"
  },
  "source": "canvas-api"
