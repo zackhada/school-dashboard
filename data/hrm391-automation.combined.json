@@ -123,11 +123,11 @@
    "needs_zack": false
   },
   {
-   "key": "CANVAS_1509308",
-   "status": "missing_from_ledger",
+   "key": "BREAKING_BREAD_COUNTS_TOWARD_FINAL_GRADE",
+   "status": "blocked_ask_zack",
    "date": "2026-10-21",
-   "note": "# In Canvas but no ledger row; runner must add it",
-   "title": "Breaking Bread - Counts toward final grade!",
+   "note": "# Canvas 1509308, 25pt, Breaking Bread - Counts toward final grade! (needs Zack's input/decision; drift-added 2026-10-08)",
+   "title": "Canvas 1509308, , Breaking Bread - Counts toward final grade! (needs Zack's input/decision; drift-added 2026-10-08)",
    "grade": {
     "canvas_id": 1509308,
     "name": "Breaking Bread - Counts toward final grade!",
@@ -142,7 +142,8 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": true
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "EXAM1",
@@ -168,11 +169,11 @@
    "needs_zack": false
   },
   {
-   "key": "CANVAS_1508956",
-   "status": "missing_from_ledger",
+   "key": "MID_TERM_CHECKPOINT",
+   "status": "pending",
    "date": "9999-12-31",
-   "note": "# In Canvas but no ledger row; runner must add it",
-   "title": "Mid-term Checkpoint",
+   "note": "# Canvas 1508956, 1pt, Mid-term Checkpoint (remote; drift-added 2026-10-08)",
+   "title": "Canvas 1508956, , Mid-term Checkpoint (remote; drift-added 2026-10-08)",
    "grade": {
     "canvas_id": 1508956,
     "name": "Mid-term Checkpoint",
@@ -187,39 +188,11 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": true
+   "drift": false,
+   "needs_zack": false
   }
  ],
- "unmatched_canvas": [
-  {
-   "canvas_id": 1509308,
-   "name": "Breaking Bread - Counts toward final grade!",
-   "due": "2026-10-21T05:59:59Z",
-   "points": 25.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
-   "missing": false,
-   "submitted_at": null,
-   "submission_type": null,
-   "my_submission": "",
-   "comments": []
-  },
-  {
-   "canvas_id": 1508956,
-   "name": "Mid-term Checkpoint",
-   "due": null,
-   "points": 1.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
-   "missing": false,
-   "submitted_at": null,
-   "submission_type": null,
-   "my_submission": "",
-   "comments": []
-  }
- ],
+ "unmatched_canvas": [],
  "needs": null,
  "course_id": 37899,
  "overall": {
@@ -228,5 +201,5 @@
   "final_score": 13.6,
   "final_grade": "E"
  },
- "built_at": "2026-10-08T16:30:17.350046+00:00"
+ "built_at": "2026-10-08T20:04:41.069718+00:00"
 }

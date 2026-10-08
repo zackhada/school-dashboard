@@ -42,6 +42,18 @@
    "status": "done",
    "date": "2026-10-11",
    "note": "# Canvas 1505959, 10pt, submitted 2026-10-02 as 1 PDF (Observation Notebook #1 + 4 Default Org analyses), online_upload, on time, attempt 1, attachment 13958079"
+  },
+  {
+   "key": "MID_TERM_CHECKPOINT",
+   "status": "pending",
+   "date": "9999-12-31",
+   "note": "# Canvas 1508956, 1pt, Mid-term Checkpoint (remote; drift-added 2026-10-08)"
+  },
+  {
+   "key": "BREAKING_BREAD_COUNTS_TOWARD_FINAL_GRADE",
+   "status": "blocked_ask_zack",
+   "date": "2026-10-21",
+   "note": "# Canvas 1509308, 25pt, Breaking Bread - Counts toward final grade! (needs Zack's input/decision; drift-added 2026-10-08)"
   }
  ],
  "source": "progress.txt"

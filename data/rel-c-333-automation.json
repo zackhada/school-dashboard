@@ -126,6 +126,192 @@
    "status": "blocked_ask_zack",
    "date": "2026-12-11",
    "note": "# Canvas 1468925, 100pt, A Profile of a Prophet Group Project (Zack's group: Elder Gerald Causse, in-class Oct 13 w/ Robert Cardon, Bree Cardon, Jamie Lewis; slides due Oct 12 11:59pm; in-class delivery is Zack's, cannot automate; research/slides automatable on request; no Canvas group, coordinate via Canvas Inbox; drift-added 2026-10-02)"
+  },
+  {
+   "key": "10_13_ATTENDANCE_CHECK",
+   "status": "blocked_inperson",
+   "date": "2026-10-13",
+   "note": "# Canvas 1466080, 10pt, 10/13 - Attendance Check (in-class/participation; drift-added 2026-10-08)"
+  },
+  {
+   "key": "10_15_ATTENDANCE_CHECK",
+   "status": "blocked_inperson",
+   "date": "2026-10-15",
+   "note": "# Canvas 1466081, 10pt, 10/15 - Attendance Check (in-class/participation; drift-added 2026-10-08)"
+  },
+  {
+   "key": "10_20_ATTENDANCE_CHECK",
+   "status": "blocked_inperson",
+   "date": "2026-10-20",
+   "note": "# Canvas 1466083, 10pt, 10/20 - Attendance Check (in-class/participation; drift-added 2026-10-08)"
+  },
+  {
+   "key": "10_22_ATTENDANCE_CHECK",
+   "status": "blocked_inperson",
+   "date": "2026-10-22",
+   "note": "# Canvas 1466086, 10pt, 10/22 - Attendance Check (in-class/participation; drift-added 2026-10-08)"
+  },
+  {
+   "key": "10_27_ATTENDANCE_CHECK",
+   "status": "blocked_inperson",
+   "date": "2026-10-27",
+   "note": "# Canvas 1466087, 10pt, 10/27 - Attendance Check (in-class/participation; drift-added 2026-10-08)"
+  },
+  {
+   "key": "10_29_ATTENDANCE_CHECK",
+   "status": "blocked_inperson",
+   "date": "2026-10-29",
+   "note": "# Canvas 1466090, 10pt, 10/29 - Attendance Check (in-class/participation; drift-added 2026-10-08)"
+  },
+  {
+   "key": "11_3_ATTENDANCE_CHECK",
+   "status": "blocked_inperson",
+   "date": "2026-11-03",
+   "note": "# Canvas 1466123, 10pt, 11/3 - Attendance Check (in-class/participation; drift-added 2026-10-08)"
+  },
+  {
+   "key": "11_5_ATTENDANCE_CHECK",
+   "status": "blocked_inperson",
+   "date": "2026-11-05",
+   "note": "# Canvas 1466143, 10pt, 11/5 - Attendance Check (in-class/participation; drift-added 2026-10-08)"
+  },
+  {
+   "key": "11_10_ATTENDANCE_CHECK",
+   "status": "blocked_inperson",
+   "date": "2026-11-10",
+   "note": "# Canvas 1466166, 10pt, 11/10 - Attendance Check (in-class/participation; drift-added 2026-10-08)"
+  },
+  {
+   "key": "11_12_ATTENDANCE_CHECK",
+   "status": "blocked_inperson",
+   "date": "2026-11-12",
+   "note": "# Canvas 1466168, 10pt, 11/12 - Attendance Check (in-class/participation; drift-added 2026-10-08)"
+  },
+  {
+   "key": "11_17_ATTENDANCE_CHECK",
+   "status": "blocked_inperson",
+   "date": "2026-11-17",
+   "note": "# Canvas 1466170, 10pt, 11/17 - Attendance Check (in-class/participation; drift-added 2026-10-08)"
+  },
+  {
+   "key": "11_19_ATTENDANCE_CHECK",
+   "status": "blocked_inperson",
+   "date": "2026-11-19",
+   "note": "# Canvas 1466171, 10pt, 11/19 - Attendance Check (in-class/participation; drift-added 2026-10-08)"
+  },
+  {
+   "key": "11_24_ATTENDANCE_CHECK",
+   "status": "blocked_inperson",
+   "date": "2026-11-24",
+   "note": "# Canvas 1466174, 10pt, 11/24 - Attendance Check (in-class/participation; drift-added 2026-10-08)"
+  },
+  {
+   "key": "12_1_ATTENDANCE_CHECK",
+   "status": "blocked_inperson",
+   "date": "2026-12-01",
+   "note": "# Canvas 1466185, 10pt, 12/1 - Attendance Check (in-class/participation; drift-added 2026-10-08)"
+  },
+  {
+   "key": "12_3_ATTENDANCE_CHECK",
+   "status": "blocked_inperson",
+   "date": "2026-12-03",
+   "note": "# Canvas 1466190, 10pt, 12/3 - Attendance Check (in-class/participation; drift-added 2026-10-08)"
+  },
+  {
+   "key": "12_8_ATTENDANCE_CHECK",
+   "status": "blocked_inperson",
+   "date": "2026-12-08",
+   "note": "# Canvas 1466191, 10pt, 12/8 - Attendance Check (in-class/participation; drift-added 2026-10-08)"
+  },
+  {
+   "key": "12_10_ATTENDANCE_CHECK",
+   "status": "blocked_inperson",
+   "date": "2026-12-10",
+   "note": "# Canvas 1466192, 10pt, 12/10 - Attendance Check (in-class/participation; drift-added 2026-10-08)"
+  },
+  {
+   "key": "10_13_PRE_CLASS_STUDY_AND_PADLET_SHARING",
+   "status": "pending",
+   "date": "2026-10-13",
+   "note": "# Canvas 1466475, 10pt, 10/13 - Pre-Class Study and Padlet Sharing (remote, grade-only; drift-added 2026-10-08)"
+  },
+  {
+   "key": "10_15_PRE_CLASS_STUDY_AND_PADLET_SHARING",
+   "status": "pending",
+   "date": "2026-10-15",
+   "note": "# Canvas 1466477, 10pt, 10/15 - Pre-Class Study and Padlet Sharing (remote, grade-only; drift-added 2026-10-08)"
+  },
+  {
+   "key": "10_20_PRE_CLASS_STUDY_AND_PADLET_SHARING",
+   "status": "pending",
+   "date": "2026-10-20",
+   "note": "# Canvas 1466495, 10pt, 10/20 - Pre-Class Study and Padlet Sharing (remote, grade-only; drift-added 2026-10-08)"
+  },
+  {
+   "key": "10_22_PRE_CLASS_STUDY_AND_PADLET_SHARING",
+   "status": "pending",
+   "date": "2026-10-22",
+   "note": "# Canvas 1466496, 10pt, 10/22 - Pre-Class Study and Padlet Sharing (remote, grade-only; drift-added 2026-10-08)"
+  },
+  {
+   "key": "10_27_PRE_CLASS_STUDY_AND_PADLET_SHARING",
+   "status": "pending",
+   "date": "2026-10-27",
+   "note": "# Canvas 1466498, 10pt, 10/27 - Pre-Class Study and Padlet Sharing (remote, grade-only; drift-added 2026-10-08)"
+  },
+  {
+   "key": "10_29_PRE_CLASS_STUDY_AND_PADLET_SHARING",
+   "status": "pending",
+   "date": "2026-10-29",
+   "note": "# Canvas 1466499, 10pt, 10/29 - Pre-Class Study and Padlet Sharing (remote, grade-only; drift-added 2026-10-08)"
+  },
+  {
+   "key": "11_3_PRE_CLASS_STUDY_AND_PADLET_SHARING",
+   "status": "pending",
+   "date": "2026-11-03",
+   "note": "# Canvas 1466501, 10pt, 11/3 - Pre-Class Study and Padlet Sharing (remote, grade-only; drift-added 2026-10-08)"
+  },
+  {
+   "key": "11_5_PRE_CLASS_STUDY_AND_PADLET_SHARING",
+   "status": "pending",
+   "date": "2026-11-05",
+   "note": "# Canvas 1466502, 10pt, 11/5 - Pre-Class Study and Padlet Sharing (remote, grade-only; drift-added 2026-10-08)"
+  },
+  {
+   "key": "11_10_PRE_CLASS_STUDY_AND_PADLET_SHARING",
+   "status": "pending",
+   "date": "2026-11-10",
+   "note": "# Canvas 1466545, 10pt, 11/10 - Pre-Class Study and Padlet Sharing (remote, grade-only; drift-added 2026-10-08)"
+  },
+  {
+   "key": "11_12_PRE_CLASS_STUDY_AND_PADLET_SHARING",
+   "status": "pending",
+   "date": "2026-11-12",
+   "note": "# Canvas 1466627, 10pt, 11/12 - Pre-Class Study and Padlet Sharing (remote, grade-only; drift-added 2026-10-08)"
+  },
+  {
+   "key": "11_17_PRE_CLASS_STUDY_AND_PADLET_SHARING",
+   "status": "pending",
+   "date": "2026-11-17",
+   "note": "# Canvas 1466630, 10pt, 11/17 - Pre-Class Study and Padlet Sharing (remote, grade-only; drift-added 2026-10-08)"
+  },
+  {
+   "key": "11_19_PRE_CLASS_STUDY_AND_PADLET_SHARING",
+   "status": "pending",
+   "date": "2026-11-19",
+   "note": "# Canvas 1466632, 10pt, 11/19 - Pre-Class Study and Padlet Sharing (remote, grade-only; drift-added 2026-10-08)"
+  },
+  {
+   "key": "12_1_PRE_CLASS_STUDY_AND_PADLET_SHARING",
+   "status": "pending",
+   "date": "2026-12-01",
+   "note": "# Canvas 1466637, 10pt, 12/1 - Pre-Class Study and Padlet Sharing (remote, grade-only; drift-added 2026-10-08)"
+  },
+  {
+   "key": "12_8_PRE_CLASS_STUDY_AND_PADLET_SHARING",
+   "status": "pending",
+   "date": "2026-12-08",
+   "note": "# Canvas 1466639, 10pt, 12/8 - Pre-Class Study and Padlet Sharing (remote, grade-only; drift-added 2026-10-08)"
   }
  ],
  "source": "progress.txt"
