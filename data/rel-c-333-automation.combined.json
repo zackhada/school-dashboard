@@ -1159,11 +1159,11 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": true
   }
  ],
  "unmatched_canvas": [],
- "needs": null,
+ "needs": "Needs Zack (in person / decision):\n- Attendance Checks (Canvas, 10 points each) on 10/13, 10/15, 10/20, 10/22, 10/27, 10/29, 11/3, 11/5, 11/10, 11/12, 11/17, 11/19, 11/24, 12/1, 12/3, 12/8, 12/10: in-class LTI checks during TTh 12:00-12:50pm. Attend class and click the check in person.\n- A Profile of a Prophet Group Project (Canvas 1468925, 100 points, in-class delivery Tue 2026-10-13, slides due Mon Oct 12 11:59pm): your group presents in class; the shared Google Slides deck is ready for the group.",
  "course_id": 38438,
  "overall": {
   "current_score": 83.66,
@@ -1171,5 +1171,5 @@
   "final_score": 11.94,
   "final_grade": "E"
  },
- "built_at": "2026-10-08T20:04:41.160649+00:00"
+ "built_at": "2026-10-08T20:06:53.959565+00:00"
 }

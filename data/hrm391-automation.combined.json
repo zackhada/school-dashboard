@@ -143,7 +143,7 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": true
   },
   {
    "key": "EXAM1",
@@ -193,7 +193,7 @@
   }
  ],
  "unmatched_canvas": [],
- "needs": null,
+ "needs": "Needs Zack (in person / decision):\n- Breaking Bread - Counts toward final grade! (Canvas 1509308, 25 points, due 2026-10-21 11:59pm MT): meet as a group in person, share food or drink, then each member writes one paragraph and one person submits the compiled document. The automation cannot attend the group meeting. Reply on the dashboard with your group's meeting plan, or say whether you want the agent to draft your paragraph from the notes you provide.",
  "course_id": 37899,
  "overall": {
   "current_score": 100.0,
@@ -201,5 +201,5 @@
   "final_score": 13.6,
   "final_grade": "E"
  },
- "built_at": "2026-10-08T20:04:41.069718+00:00"
+ "built_at": "2026-10-08T20:06:53.868616+00:00"
 }
