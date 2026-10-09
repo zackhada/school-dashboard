@@ -344,9 +344,9 @@
     "name": "10/6 - Attendance Check",
     "due": "2026-10-06T18:50:00Z",
     "points": 10.0,
-    "status": "unsubmitted",
-    "score": null,
-    "grade": null,
+    "status": "graded",
+    "score": 0.0,
+    "grade": "0",
     "missing": true,
     "submitted_at": null,
     "submission_type": null,
@@ -390,12 +390,12 @@
     "name": "10/8 - Attendance Check",
     "due": "2026-10-08T18:50:00Z",
     "points": 10.0,
-    "status": "unsubmitted",
-    "score": null,
-    "grade": null,
+    "status": "graded",
+    "score": 10.0,
+    "grade": "10",
     "missing": false,
-    "submitted_at": null,
-    "submission_type": null,
+    "submitted_at": "2026-10-08T18:31:41Z",
+    "submission_type": "basic_lti_launch",
     "my_submission": "",
     "comments": []
    },
@@ -416,7 +416,7 @@
     "status": "unsubmitted",
     "score": null,
     "grade": null,
-    "missing": false,
+    "missing": true,
     "submitted_at": null,
     "submission_type": null,
     "my_submission": "",
@@ -1163,13 +1163,13 @@
   }
  ],
  "unmatched_canvas": [],
- "needs": "Needs Zack (in person / decision):\n- Attendance Checks (Canvas, 10 points each) on 10/13, 10/15, 10/20, 10/22, 10/27, 10/29, 11/3, 11/5, 11/10, 11/12, 11/17, 11/19, 11/24, 12/1, 12/3, 12/8, 12/10: in-class LTI checks during TTh 12:00-12:50pm. Attend class and click the check in person.\n- A Profile of a Prophet Group Project (Canvas 1468925, 100 points, in-class delivery Tue 2026-10-13, slides due Mon Oct 12 11:59pm): your group presents in class; the shared Google Slides deck is ready for the group.",
+ "needs": "Needs Zack (login blocked):\n- 10/13 Pre-Class Study and Padlet Sharing (Canvas 1466475, 10pts, due Tue 10/13): BYU login reached Duo, but the Duo Push was denied and Duo then said the account is disabled. Check Duo Mobile on your phone (re-enable or re-enroll if you got a new phone), then reply READY and the next run will retry. Nothing was submitted; the row stays pending.\nIn person (unchanged):\n- Attendance Checks (10pts each) on 10/13, 10/15, 10/20, 10/22, 10/27, 10/29, 11/3, 11/5, 11/10, 11/12, 11/17, 11/19, 11/24, 12/1, 12/3, 12/8, 12/10: in-class LTI checks TTh 12:00-12:50pm.\n- Prophet Group Project (Canvas 1468925, 100pts, in-class Tue 10/13, slides due Mon 10/12 11:59pm): group presents in class.",
  "course_id": 38438,
  "overall": {
-  "current_score": 83.66,
-  "current_grade": "B",
-  "final_score": 11.94,
+  "current_score": 81.62,
+  "current_grade": "B-",
+  "final_score": 12.95,
   "final_grade": "E"
  },
- "built_at": "2026-10-09T03:36:49.504761+00:00"
+ "built_at": "2026-10-09T12:01:08.232710+00:00"
 }
