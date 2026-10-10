@@ -57,7 +57,7 @@
   },
   {
    "key": "IS_SOLVER",
-   "status": "pending",
+   "status": "done",
    "date": "2026-10-12",
    "note": "# 9.11 Circular References and Solver, 20pts, MyEducator"
   },
