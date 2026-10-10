@@ -1,9 +1,9 @@
 {
  "repo": "zackhada/econ110-automation",
  "source": "learning-suite",
- "url": "https://learningsuite.byu.edu/.2D5A/cid-1YPOkgOMQjjk/student/home/assignments",
+ "url": "https://learningsuite.byu.edu/.Azo-/cid-1YPOkgOMQjjk/student/home/assignments",
  "overall": {
-  "current_score": 69.98,
+  "current_score": 72.28,
   "source": "learning-suite-points"
  },
  "rows": [
@@ -171,8 +171,8 @@
    "name": "Mankiw Bonus #4 (Extra Credit)",
    "due": "2026-10-02T23:59:00",
    "points": 6.0,
-   "score": null,
-   "status": "not_graded",
+   "score": 0.0,
+   "status": "graded",
    "missing": false,
    "submission_type": "learning_suite",
    "comments": []
@@ -581,8 +581,8 @@
    "name": "10/5",
    "due": "2026-10-05T23:59:00",
    "points": 1.0,
-   "score": null,
-   "status": "not_graded",
+   "score": 5.0,
+   "status": "graded",
    "missing": false,
    "submission_type": "learning_suite",
    "comments": []
@@ -591,8 +591,8 @@
    "name": "10/5-Accuracy",
    "due": "2026-10-05T23:59:00",
    "points": 10.0,
-   "score": null,
-   "status": "not_graded",
+   "score": 10.0,
+   "status": "graded",
    "missing": false,
    "submission_type": "learning_suite",
    "comments": []
@@ -601,8 +601,8 @@
    "name": "10/7",
    "due": "2026-10-07T23:59:00",
    "points": 1.0,
-   "score": null,
-   "status": "not_graded",
+   "score": 5.0,
+   "status": "graded",
    "missing": false,
    "submission_type": "learning_suite",
    "comments": []
@@ -611,8 +611,8 @@
    "name": "10/7-Accuracy",
    "due": "2026-10-07T23:59:00",
    "points": 10.0,
-   "score": null,
-   "status": "not_graded",
+   "score": 10.0,
+   "status": "graded",
    "missing": false,
    "submission_type": "learning_suite",
    "comments": []

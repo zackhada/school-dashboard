@@ -613,7 +613,7 @@
   }
  ],
  "unmatched_canvas": [],
- "needs": "PSE390: WK05 brand post is PUBLISHED and public: https://x.com/zack_hada/status/2108316609689579817 (saved in .state/wk_post_url, do NOT re-post). Canvas submission is blocked: BYU login needed Duo and 3 Duo Pushes to your iPhone (ending 8843) timed out unapproved. Open Duo Mobile and approve the next push, then trigger a run. Canvas item: Ethics and Public Quiz Week 5 (id 1495460), due Sun Oct 11 11:59pm MT. Next run only needs to submit the saved URL.",
+ "needs": "PSE390: Week 5 brand post is PUBLISHED and public: https://x.com/zack_hada/status/2108316609689579817 (saved in .state/wk_post_url, do NOT re-post). Canvas submission of Ethics and Public Quiz Week 5 (10 pts, id 1495460, due Sun Oct 11 11:59pm MT) is pending; the next daily run submits the saved URL automatically. The Duo text passcode is now auto-read from this Mac, so no push or phone approval is needed. No action needed from you.",
  "course_id": 38958,
  "overall": {
   "current_score": 74.07,
@@ -621,5 +621,5 @@
   "final_score": 22.73,
   "final_grade": "E"
  },
- "built_at": "2026-10-09T13:10:55.810625+00:00"
+ "built_at": "2026-10-10T00:44:44.089229+00:00"
 }
