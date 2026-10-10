@@ -337,10 +337,10 @@
   },
   {
    "key": "WEEKLY_QUIZ_WK05",
-   "status": "pending",
+   "status": "done",
    "date": "2026-10-11",
-   "note": "# Canvas 1495460 Ethics and Public Quiz Week 5, online_text_entry/url, due 2026-10-11T05:59:59Z; X post published https://x.com/zack_hada/status/2108316609689579817 (in .state/wk_post_url), Canvas submission pending Duo approval",
-   "title": "Canvas 1495460 Ethics and Public Quiz Week 5, online_text_entry/url",
+   "note": "# Canvas 1495460 Ethics and Public Quiz Week 5, online_url w/ X post https://x.com/zack_hada/status/2108316609689579817, submitted 2026-10-10T01:06:43Z, verified workflow_state=submitted attempt 1",
+   "title": "Canvas 1495460 Ethics and Public Quiz Week 5, online_url w/ X post https://x.com/zack_hada/status/2108316609689579817, submitted 2026-10-10T01:06:43Z, verified workflow_state=submitted attempt 1",
    "grade": {
     "canvas_id": 1495460,
     "name": "Ethics and Public Quiz - Week 5",
@@ -356,7 +356,7 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": true
+   "needs_zack": false
   },
   {
    "key": "PARTICIPATION_QUIZ_10_13",
@@ -613,7 +613,7 @@
   }
  ],
  "unmatched_canvas": [],
- "needs": "PSE390: Week 5 brand post is PUBLISHED and public: https://x.com/zack_hada/status/2108316609689579817 (saved in .state/wk_post_url, do NOT re-post). Canvas submission of Ethics and Public Quiz Week 5 (10 pts, id 1495460, due Sun Oct 11 11:59pm MT) is pending; the next daily run submits the saved URL automatically. The Duo text passcode is now auto-read from this Mac, so no push or phone approval is needed. No action needed from you.",
+ "needs": null,
  "course_id": 38958,
  "overall": {
   "current_score": 74.07,
@@ -621,5 +621,5 @@
   "final_score": 22.73,
   "final_grade": "E"
  },
- "built_at": "2026-10-10T00:44:44.089229+00:00"
+ "built_at": "2026-10-10T01:07:50.658743+00:00"
 }
