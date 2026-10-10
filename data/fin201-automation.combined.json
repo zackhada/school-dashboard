@@ -108,16 +108,16 @@
   },
   {
    "key": "FIN_QUIZ_13",
-   "status": "pending",
+   "status": "done",
    "date": "2026-10-14",
    "note": "# Topic 13 Quiz",
    "title": "Topic 13 Quiz",
    "grade": {
     "name": "Topic 13 Quiz",
     "due": "2026-10-14T10:00:00",
-    "points": null,
-    "score": null,
-    "status": "not_graded",
+    "points": 10.0,
+    "score": 10.0,
+    "status": "graded",
     "missing": false,
     "submission_type": "myeducator",
     "comments": []
@@ -255,5 +255,5 @@
  "needs": null,
  "course_id": null,
  "overall": {},
- "built_at": "2026-10-10T01:13:12.516586+00:00"
+ "built_at": "2026-10-10T01:16:47.658083+00:00"
 }

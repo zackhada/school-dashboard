@@ -450,7 +450,7 @@
   },
   {
    "key": "10_13_PRE_CLASS_STUDY_AND_PADLET_SHARING",
-   "status": "pending",
+   "status": "done",
    "date": "2026-10-13",
    "note": "# Canvas 1466475, 10pt, 10/13 - Pre-Class Study and Padlet Sharing (remote, grade-only; drift-added 2026-10-08)",
    "title": "Canvas 1466475, , 10/13 - Pre-Class Study and Padlet Sharing (remote, grade-only; drift-added 2026-10-08)",
@@ -1163,7 +1163,7 @@
   }
  ],
  "unmatched_canvas": [],
- "needs": "Needs Zack (login blocked):\n- 10/13 Pre-Class Study and Padlet Sharing (Canvas 1466475, 10pts, due Tue 10/13): BYU login reached Duo, but the Duo Push was denied and Duo then said the account is disabled. Check Duo Mobile on your phone (re-enable or re-enroll if you got a new phone), then reply READY and the next run will retry. Nothing was submitted; the row stays pending.\nIn person (unchanged):\n- Attendance Checks (10pts each) on 10/13, 10/15, 10/20, 10/22, 10/27, 10/29, 11/3, 11/5, 11/10, 11/12, 11/17, 11/19, 11/24, 12/1, 12/3, 12/8, 12/10: in-class LTI checks TTh 12:00-12:50pm.\n- Prophet Group Project (Canvas 1468925, 100pts, in-class Tue 10/13, slides due Mon 10/12 11:59pm): group presents in class.",
+ "needs": "In person (unchanged):\n- Attendance Checks (10pts each) on 10/13, 10/15, 10/20, 10/22, 10/27, 10/29, 11/3, 11/5, 11/10, 11/12, 11/17, 11/19, 11/24, 12/1, 12/3, 12/8, 12/10: in-class LTI checks TTh 12:00-12:50pm.\n- Prophet Group Project (Canvas 1468925, 100pts, in-class Tue 10/13, slides due Mon 10/12 11:59pm): group presents in class.",
  "course_id": 38438,
  "overall": {
   "current_score": 81.62,
@@ -1171,5 +1171,5 @@
   "final_score": 12.95,
   "final_grade": "E"
  },
- "built_at": "2026-10-10T01:13:12.491195+00:00"
+ "built_at": "2026-10-10T01:16:47.634043+00:00"
 }
