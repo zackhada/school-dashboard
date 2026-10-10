@@ -229,14 +229,20 @@
     "name": "Become Project - Part A - Self Evaluation",
     "due": "2026-09-27T05:59:59Z",
     "points": 100.0,
-    "status": "submitted",
-    "score": null,
-    "grade": null,
+    "status": "graded",
+    "score": 85.0,
+    "grade": "85",
     "missing": false,
     "submitted_at": "2026-09-23T00:06:56Z",
     "submission_type": "online_upload",
     "my_submission": "",
-    "comments": []
+    "comments": [
+     {
+      "author": "EVAN FOX",
+      "comment": "Zack - Thank you for your reflection. It is a lifelong journey of learning how the Lord speaks to us individually but a skill that is the most important skill you can develop on earth.\u00a0\nThis class is largely about developing the ability to prioritize the things that matter most. As you put the kingdom of heaven first in your life and learn of Christ he will open your mind and make you a better engineer.\u00a0\nPractice the slow down and study not just for knowledge and understanding but for feeling and action. Great things ahead as you work to prioritize deepening your relationship with your Savior first.\u00a0\nOn the next become project part rally work on putting your paper into a cohesive reflection.\u00a0\nKeep becoming!\n\u00a0",
+      "created": "2026-10-09T23:45:57Z"
+     }
+    ]
    },
    "drift": false,
    "needs_zack": false
@@ -367,10 +373,10 @@
     "name": "10/6 - Pre-Class Study and Padlet Sharing",
     "due": "2026-10-06T17:59:59Z",
     "points": 10.0,
-    "status": "unsubmitted",
-    "score": null,
-    "grade": null,
-    "missing": true,
+    "status": "graded",
+    "score": 10.0,
+    "grade": "10",
+    "missing": false,
     "submitted_at": null,
     "submission_type": null,
     "my_submission": "",
@@ -413,10 +419,10 @@
     "name": "10/8 - Pre-Class Study and Padlet Sharing",
     "due": "2026-10-08T17:59:59Z",
     "points": 10.0,
-    "status": "unsubmitted",
-    "score": null,
-    "grade": null,
-    "missing": true,
+    "status": "graded",
+    "score": 10.0,
+    "grade": "10",
+    "missing": false,
     "submitted_at": null,
     "submission_type": null,
     "my_submission": "",
@@ -1166,10 +1172,10 @@
  "needs": "In person (unchanged):\n- Attendance Checks (10pts each) on 10/13, 10/15, 10/20, 10/22, 10/27, 10/29, 11/3, 11/5, 11/10, 11/12, 11/17, 11/19, 11/24, 12/1, 12/3, 12/8, 12/10: in-class LTI checks TTh 12:00-12:50pm.\n- Prophet Group Project (Canvas 1468925, 100pts, in-class Tue 10/13, slides due Mon 10/12 11:59pm): group presents in class.",
  "course_id": 38438,
  "overall": {
-  "current_score": 81.62,
-  "current_grade": "B-",
-  "final_score": 12.95,
+  "current_score": 83.02,
+  "current_grade": "B",
+  "final_score": 46.15,
   "final_grade": "E"
  },
- "built_at": "2026-10-10T02:45:10.318385+00:00"
+ "built_at": "2026-10-10T11:17:42.114186+00:00"
 }

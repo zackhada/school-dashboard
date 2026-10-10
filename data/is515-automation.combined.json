@@ -196,12 +196,12 @@
     "name": "9.11 Circular References and Solver",
     "due": "2026-10-13T05:59:59Z",
     "points": 20.0,
-    "status": "unsubmitted",
-    "score": null,
-    "grade": null,
+    "status": "graded",
+    "score": 14.0,
+    "grade": "14",
     "missing": false,
-    "submitted_at": null,
-    "submission_type": null,
+    "submitted_at": "2026-10-10T01:24:02Z",
+    "submission_type": "external_tool",
     "my_submission": "",
     "comments": []
    },
@@ -443,10 +443,10 @@
  "needs": null,
  "course_id": 38674,
  "overall": {
-  "current_score": 90.55,
-  "current_grade": "A-",
-  "final_score": 15.7,
+  "current_score": 88.27,
+  "current_grade": "B+",
+  "final_score": 17.22,
   "final_grade": "E"
  },
- "built_at": "2026-10-10T02:45:10.349779+00:00"
+ "built_at": "2026-10-10T11:17:42.146244+00:00"
 }
