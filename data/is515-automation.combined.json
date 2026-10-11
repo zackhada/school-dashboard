@@ -219,12 +219,12 @@
     "name": "10.8 Pivot Tables",
     "due": "2026-10-15T05:59:59Z",
     "points": 20.0,
-    "status": "unsubmitted",
-    "score": null,
-    "grade": null,
+    "status": "graded",
+    "score": 20.0,
+    "grade": "20",
     "missing": false,
-    "submitted_at": null,
-    "submission_type": null,
+    "submitted_at": "2026-10-11T02:30:52Z",
+    "submission_type": "external_tool",
     "my_submission": "",
     "comments": []
    },
@@ -443,10 +443,10 @@
  "needs": null,
  "course_id": 38674,
  "overall": {
-  "current_score": 88.27,
+  "current_score": 89.44,
   "current_grade": "B+",
-  "final_score": 17.22,
+  "final_score": 19.38,
   "final_grade": "E"
  },
- "built_at": "2026-10-11T02:32:06.681241+00:00"
+ "built_at": "2026-10-11T11:31:05.492357+00:00"
 }
