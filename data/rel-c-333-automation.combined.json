@@ -76,7 +76,26 @@
    "date": "2026-09-13",
    "note": "# video uploaded 2026-09-11 (50MB .mov, 35s), Canvas workflow_state=submitted, submission 133117, attachment 13737819, on time, verified via submissions/self API",
    "title": "video uploaded 2026-09-11 (50MB .mov, 35s), Canvas workflow_state=submitted, submission 133117, attachment 13737819, on time, verified via submissions/self API",
-   "grade": null,
+   "grade": {
+    "canvas_id": 1464249,
+    "name": "Get-to-Know-You Assignment",
+    "due": "2026-09-13T05:59:59Z",
+    "points": 10.0,
+    "status": "graded",
+    "score": 10.0,
+    "grade": "10",
+    "missing": false,
+    "submitted_at": "2026-09-11T22:26:11Z",
+    "submission_type": "online_upload",
+    "my_submission": "",
+    "comments": [
+     {
+      "author": "Zack Hada",
+      "comment": "Here is my intro video. Thanks for a great first week of class.",
+      "created": "2026-09-11T22:26:12Z"
+     }
+    ]
+   },
    "drift": false,
    "needs_zack": false
   },
@@ -1172,10 +1191,10 @@
  "needs": "In person (unchanged):\n- Attendance Checks (10pts each) on 10/13, 10/15, 10/20, 10/22, 10/27, 10/29, 11/3, 11/5, 11/10, 11/12, 11/17, 11/19, 11/24, 12/1, 12/3, 12/8, 12/10: in-class LTI checks TTh 12:00-12:50pm.\n- Prophet Group Project (Canvas 1468925, 100pts, in-class Tue 10/13, slides due Mon 10/12 11:59pm): group presents in class.",
  "course_id": 38438,
  "overall": {
-  "current_score": 83.02,
+  "current_score": 83.21,
   "current_grade": "B",
-  "final_score": 46.15,
+  "final_score": 46.69,
   "final_grade": "E"
  },
- "built_at": "2026-10-13T03:51:54.542358+00:00"
+ "built_at": "2026-10-13T12:51:30.692815+00:00"
 }

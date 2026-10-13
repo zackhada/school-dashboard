@@ -44,6 +44,26 @@
    "comments": []
   },
   {
+   "canvas_id": 1464249,
+   "name": "Get-to-Know-You Assignment",
+   "due": "2026-09-13T05:59:59Z",
+   "points": 10.0,
+   "status": "graded",
+   "score": 10.0,
+   "grade": "10",
+   "missing": false,
+   "submitted_at": "2026-09-11T22:26:11Z",
+   "submission_type": "online_upload",
+   "my_submission": "",
+   "comments": [
+    {
+     "author": "Zack Hada",
+     "comment": "Here is my intro video. Thanks for a great first week of class.",
+     "created": "2026-09-11T22:26:12Z"
+    }
+   ]
+  },
+  {
    "canvas_id": 1466389,
    "name": "9/15 - Pre-Class Study and Padlet Sharing",
    "due": "2026-09-15T17:59:59Z",
@@ -919,9 +939,9 @@
   }
  ],
  "overall": {
-  "current_score": 83.02,
+  "current_score": 83.21,
   "current_grade": "B",
-  "final_score": 46.15,
+  "final_score": 46.69,
   "final_grade": "E"
  },
  "source": "canvas-api"
