@@ -454,8 +454,8 @@
     "name": "TA Passoff #4 (Extra Credit)",
     "due": "2026-10-06T23:59:00",
     "points": 2.0,
-    "score": null,
-    "status": "not_graded",
+    "score": 0.0,
+    "status": "graded",
     "missing": false,
     "submission_type": "learning_suite",
     "comments": []
@@ -1057,8 +1057,8 @@
  "needs": null,
  "course_id": null,
  "overall": {
-  "current_score": 72.28,
+  "current_score": 71.65,
   "source": "learning-suite-points"
  },
- "built_at": "2026-10-13T14:06:01.233224+00:00"
+ "built_at": "2026-10-13T20:51:07.646452+00:00"
 }
