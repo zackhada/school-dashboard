@@ -522,7 +522,7 @@
   },
   {
    "key": "ECON_NAKED_ESSAY_1",
-   "status": "pending",
+   "status": "done",
    "date": "2026-10-16",
    "note": "# Naked Economics Essay 1 (20pt)",
    "title": "Naked Economics Essay 1 ()",
@@ -1060,5 +1060,5 @@
   "current_score": 72.28,
   "source": "learning-suite-points"
  },
- "built_at": "2026-10-13T02:42:48.886130+00:00"
+ "built_at": "2026-10-13T02:45:18.710862+00:00"
 }
