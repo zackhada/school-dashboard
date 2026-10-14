@@ -612,11 +612,11 @@
    "needs_zack": false
   },
   {
-   "key": "CANVAS_1511337",
-   "status": "missing_from_ledger",
+   "key": "PARTICIPATION_QUIZ_11_05",
+   "status": "blocked_inperson",
    "date": "2026-11-05",
-   "note": "# In Canvas but no ledger row; runner must add it",
-   "title": "Participation Quiz 11.05",
+   "note": "# Canvas 1511337, 3pt, Participation Quiz 11.05 (in-class/participation; drift-added 2026-10-14)",
+   "title": "Canvas 1511337, , Participation Quiz 11.05 (in-class/participation; drift-added 2026-10-14)",
    "grade": {
     "canvas_id": 1511337,
     "name": "Participation Quiz 11.05",
@@ -631,7 +631,8 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": true
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "WEEKLY_QUIZ_WK09",
@@ -657,11 +658,11 @@
    "needs_zack": false
   },
   {
-   "key": "CANVAS_1511339",
-   "status": "missing_from_ledger",
+   "key": "PARTICIPATION_QUIZ_11_10",
+   "status": "blocked_inperson",
    "date": "2026-11-10",
-   "note": "# In Canvas but no ledger row; runner must add it",
-   "title": "Participation Quiz 11.10",
+   "note": "# Canvas 1511339, 3pt, Participation Quiz 11.10 (in-class/participation; drift-added 2026-10-14)",
+   "title": "Canvas 1511339, , Participation Quiz 11.10 (in-class/participation; drift-added 2026-10-14)",
    "grade": {
     "canvas_id": 1511339,
     "name": "Participation Quiz 11.10",
@@ -676,14 +677,15 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": true
+   "drift": false,
+   "needs_zack": false
   },
   {
-   "key": "CANVAS_1511340",
-   "status": "missing_from_ledger",
+   "key": "PARTICIPATION_QUIZ_11_12",
+   "status": "blocked_inperson",
    "date": "2026-11-12",
-   "note": "# In Canvas but no ledger row; runner must add it",
-   "title": "Participation Quiz 11.12",
+   "note": "# Canvas 1511340, 3pt, Participation Quiz 11.12 (in-class/participation; drift-added 2026-10-14)",
+   "title": "Canvas 1511340, , Participation Quiz 11.12 (in-class/participation; drift-added 2026-10-14)",
    "grade": {
     "canvas_id": 1511340,
     "name": "Participation Quiz 11.12",
@@ -698,7 +700,8 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": true
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "WEEKLY_QUIZ_WK10",
@@ -724,11 +727,11 @@
    "needs_zack": false
   },
   {
-   "key": "CANVAS_1511341",
-   "status": "missing_from_ledger",
+   "key": "PARTICIPATION_QUIZ_11_17",
+   "status": "blocked_inperson",
    "date": "2026-11-17",
-   "note": "# In Canvas but no ledger row; runner must add it",
-   "title": "Participation Quiz 11.17",
+   "note": "# Canvas 1511341, 3pt, Participation Quiz 11.17 (in-class/participation; drift-added 2026-10-14)",
+   "title": "Canvas 1511341, , Participation Quiz 11.17 (in-class/participation; drift-added 2026-10-14)",
    "grade": {
     "canvas_id": 1511341,
     "name": "Participation Quiz 11.17",
@@ -743,14 +746,15 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": true
+   "drift": false,
+   "needs_zack": false
   },
   {
-   "key": "CANVAS_1511342",
-   "status": "missing_from_ledger",
+   "key": "PARTICIPATION_QUIZ_11_19",
+   "status": "blocked_inperson",
    "date": "2026-11-19",
-   "note": "# In Canvas but no ledger row; runner must add it",
-   "title": "Participation Quiz 11.19",
+   "note": "# Canvas 1511342, 3pt, Participation Quiz 11.19 (in-class/participation; drift-added 2026-10-14)",
+   "title": "Canvas 1511342, , Participation Quiz 11.19 (in-class/participation; drift-added 2026-10-14)",
    "grade": {
     "canvas_id": 1511342,
     "name": "Participation Quiz 11.19",
@@ -765,7 +769,8 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": true
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "WEEKLY_QUIZ_WK11",
@@ -791,11 +796,11 @@
    "needs_zack": false
   },
   {
-   "key": "CANVAS_1511344",
-   "status": "missing_from_ledger",
+   "key": "PARTICIPATION_QUIZ_11_24",
+   "status": "blocked_inperson",
    "date": "2026-11-24",
-   "note": "# In Canvas but no ledger row; runner must add it",
-   "title": "Participation Quiz 11.24",
+   "note": "# Canvas 1511344, 3pt, Participation Quiz 11.24 (in-class/participation; drift-added 2026-10-14)",
+   "title": "Canvas 1511344, , Participation Quiz 11.24 (in-class/participation; drift-added 2026-10-14)",
    "grade": {
     "canvas_id": 1511344,
     "name": "Participation Quiz 11.24",
@@ -810,7 +815,8 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": true
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "WEEKLY_QUIZ_WK12",
@@ -836,11 +842,11 @@
    "needs_zack": false
   },
   {
-   "key": "CANVAS_1511345",
-   "status": "missing_from_ledger",
+   "key": "PARTICIPATION_QUIZ_12_01",
+   "status": "blocked_inperson",
    "date": "2026-12-01",
-   "note": "# In Canvas but no ledger row; runner must add it",
-   "title": "Participation Quiz 12.01",
+   "note": "# Canvas 1511345, 3pt, Participation Quiz 12.01 (in-class/participation; drift-added 2026-10-14)",
+   "title": "Canvas 1511345, , Participation Quiz 12.01 (in-class/participation; drift-added 2026-10-14)",
    "grade": {
     "canvas_id": 1511345,
     "name": "Participation Quiz 12.01",
@@ -855,14 +861,15 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": true
+   "drift": false,
+   "needs_zack": false
   },
   {
-   "key": "CANVAS_1511346",
-   "status": "missing_from_ledger",
+   "key": "PARTICIPATION_QUIZ_12_03",
+   "status": "blocked_inperson",
    "date": "2026-12-03",
-   "note": "# In Canvas but no ledger row; runner must add it",
-   "title": "Participation Quiz 12.03",
+   "note": "# Canvas 1511346, 3pt, Participation Quiz 12.03 (in-class/participation; drift-added 2026-10-14)",
+   "title": "Canvas 1511346, , Participation Quiz 12.03 (in-class/participation; drift-added 2026-10-14)",
    "grade": {
     "canvas_id": 1511346,
     "name": "Participation Quiz 12.03",
@@ -877,7 +884,8 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": true
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "WEEKLY_QUIZ_WK13",
@@ -903,11 +911,11 @@
    "needs_zack": false
   },
   {
-   "key": "CANVAS_1511347",
-   "status": "missing_from_ledger",
+   "key": "PARTICIPATION_QUIZ_12_08",
+   "status": "blocked_inperson",
    "date": "2026-12-08",
-   "note": "# In Canvas but no ledger row; runner must add it",
-   "title": "Participation Quiz 12.08",
+   "note": "# Canvas 1511347, 3pt, Participation Quiz 12.08 (in-class/participation; drift-added 2026-10-14)",
+   "title": "Canvas 1511347, , Participation Quiz 12.08 (in-class/participation; drift-added 2026-10-14)",
    "grade": {
     "canvas_id": 1511347,
     "name": "Participation Quiz 12.08",
@@ -922,14 +930,15 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": true
+   "drift": false,
+   "needs_zack": false
   },
   {
-   "key": "CANVAS_1511348",
-   "status": "missing_from_ledger",
+   "key": "PARTICIPATION_QUIZ_12_10",
+   "status": "blocked_inperson",
    "date": "2026-12-10",
-   "note": "# In Canvas but no ledger row; runner must add it",
-   "title": "Participation Quiz 12.10",
+   "note": "# Canvas 1511348, 3pt, Participation Quiz 12.10 (in-class/participation; drift-added 2026-10-14)",
+   "title": "Canvas 1511348, , Participation Quiz 12.10 (in-class/participation; drift-added 2026-10-14)",
    "grade": {
     "canvas_id": 1511348,
     "name": "Participation Quiz 12.10",
@@ -944,7 +953,8 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": true
+   "drift": false,
+   "needs_zack": false
   },
   {
    "key": "WEEKLY_QUIZ_WK14",
@@ -970,148 +980,7 @@
    "needs_zack": false
   }
  ],
- "unmatched_canvas": [
-  {
-   "canvas_id": 1511337,
-   "name": "Participation Quiz 11.05",
-   "due": "2026-11-05T22:30:00Z",
-   "points": 3.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
-   "missing": false,
-   "submitted_at": null,
-   "submission_type": null,
-   "my_submission": "",
-   "comments": []
-  },
-  {
-   "canvas_id": 1511339,
-   "name": "Participation Quiz 11.10",
-   "due": "2026-11-10T22:30:00Z",
-   "points": 3.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
-   "missing": false,
-   "submitted_at": null,
-   "submission_type": null,
-   "my_submission": "",
-   "comments": []
-  },
-  {
-   "canvas_id": 1511340,
-   "name": "Participation Quiz 11.12",
-   "due": "2026-11-12T22:30:00Z",
-   "points": 3.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
-   "missing": false,
-   "submitted_at": null,
-   "submission_type": null,
-   "my_submission": "",
-   "comments": []
-  },
-  {
-   "canvas_id": 1511341,
-   "name": "Participation Quiz 11.17",
-   "due": "2026-11-17T22:30:00Z",
-   "points": 3.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
-   "missing": false,
-   "submitted_at": null,
-   "submission_type": null,
-   "my_submission": "",
-   "comments": []
-  },
-  {
-   "canvas_id": 1511342,
-   "name": "Participation Quiz 11.19",
-   "due": "2026-11-19T22:30:00Z",
-   "points": 3.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
-   "missing": false,
-   "submitted_at": null,
-   "submission_type": null,
-   "my_submission": "",
-   "comments": []
-  },
-  {
-   "canvas_id": 1511344,
-   "name": "Participation Quiz 11.24",
-   "due": "2026-11-24T22:30:00Z",
-   "points": 3.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
-   "missing": false,
-   "submitted_at": null,
-   "submission_type": null,
-   "my_submission": "",
-   "comments": []
-  },
-  {
-   "canvas_id": 1511345,
-   "name": "Participation Quiz 12.01",
-   "due": "2026-12-01T22:30:00Z",
-   "points": 3.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
-   "missing": false,
-   "submitted_at": null,
-   "submission_type": null,
-   "my_submission": "",
-   "comments": []
-  },
-  {
-   "canvas_id": 1511346,
-   "name": "Participation Quiz 12.03",
-   "due": "2026-12-03T22:30:00Z",
-   "points": 3.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
-   "missing": false,
-   "submitted_at": null,
-   "submission_type": null,
-   "my_submission": "",
-   "comments": []
-  },
-  {
-   "canvas_id": 1511347,
-   "name": "Participation Quiz 12.08",
-   "due": "2026-12-08T22:30:00Z",
-   "points": 3.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
-   "missing": false,
-   "submitted_at": null,
-   "submission_type": null,
-   "my_submission": "",
-   "comments": []
-  },
-  {
-   "canvas_id": 1511348,
-   "name": "Participation Quiz 12.10",
-   "due": "2026-12-10T22:30:00Z",
-   "points": 3.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
-   "missing": false,
-   "submitted_at": null,
-   "submission_type": null,
-   "my_submission": "",
-   "comments": []
-  }
- ],
+ "unmatched_canvas": [],
  "needs": null,
  "course_id": 38958,
  "overall": {
@@ -1120,5 +989,5 @@
   "final_score": 18.61,
   "final_grade": "E"
  },
- "built_at": "2026-10-14T11:45:56.689513+00:00"
+ "built_at": "2026-10-14T19:25:40.513503+00:00"
 }
