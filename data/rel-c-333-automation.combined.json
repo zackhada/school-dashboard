@@ -461,12 +461,12 @@
     "name": "10/13 - Attendance Check",
     "due": "2026-10-13T18:50:00Z",
     "points": 10.0,
-    "status": "unsubmitted",
-    "score": null,
-    "grade": null,
+    "status": "graded",
+    "score": 10.0,
+    "grade": "10",
     "missing": false,
-    "submitted_at": null,
-    "submission_type": null,
+    "submitted_at": "2026-10-13T18:25:45Z",
+    "submission_type": "basic_lti_launch",
     "my_submission": "",
     "comments": []
    },
@@ -487,7 +487,7 @@
     "status": "unsubmitted",
     "score": null,
     "grade": null,
-    "missing": false,
+    "missing": true,
     "submitted_at": null,
     "submission_type": null,
     "my_submission": "",
@@ -1191,10 +1191,10 @@
  "needs": "In person (unchanged):\n- Attendance Checks (10pts each) on 10/13, 10/15, 10/20, 10/22, 10/27, 10/29, 11/3, 11/5, 11/10, 11/12, 11/17, 11/19, 11/24, 12/1, 12/3, 12/8, 12/10: in-class LTI checks TTh 12:00-12:50pm.\n- Prophet Group Project (Canvas 1468925, 100pts, in-class Tue 10/13, slides due Mon 10/12 11:59pm): group presents in class.",
  "course_id": 38438,
  "overall": {
-  "current_score": 83.21,
+  "current_score": 84.39,
   "current_grade": "B",
-  "final_score": 46.69,
+  "final_score": 47.69,
   "final_grade": "E"
  },
- "built_at": "2026-10-14T02:09:35.346998+00:00"
+ "built_at": "2026-10-14T10:25:16.156804+00:00"
 }

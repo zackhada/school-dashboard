@@ -287,7 +287,7 @@
    "status": "unsubmitted",
    "score": null,
    "grade": null,
-   "missing": false,
+   "missing": true,
    "submitted_at": null,
    "submission_type": null,
    "my_submission": "",
@@ -298,12 +298,12 @@
    "name": "10/13 - Attendance Check",
    "due": "2026-10-13T18:50:00Z",
    "points": 10.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
+   "status": "graded",
+   "score": 10.0,
+   "grade": "10",
    "missing": false,
-   "submitted_at": null,
-   "submission_type": null,
+   "submitted_at": "2026-10-13T18:25:45Z",
+   "submission_type": "basic_lti_launch",
    "my_submission": "",
    "comments": []
   },
@@ -939,9 +939,9 @@
   }
  ],
  "overall": {
-  "current_score": 83.21,
+  "current_score": 84.39,
   "current_grade": "B",
-  "final_score": 46.69,
+  "final_score": 47.69,
   "final_grade": "E"
  },
  "source": "canvas-api"
