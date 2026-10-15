@@ -50,6 +50,13 @@ var now = new Date(); now.setHours(0,0,0,0);
 var in14 = new Date(now.getTime() + 14*864e5);
 function parseD(s){ var m = /^(\d{4})-(\d{2})-(\d{2})/.exec(s||''); return m ? new Date(+m[1],+m[2]-1,+m[3]) : null; }
 function esc(s){ return String(s||'').replace(/</g,'&lt;'); }
+// Deadline for countdown/sort: Canvas due_at is truth when the row is matched
+// to a Canvas item, else the ledger date. Prevents a stale ledger placeholder
+// (e.g. HRM 391 Exam 1's 2026-12-01) from showing a false "48 days left".
+function dueOf(x){
+  if (x.grade && x.grade.due) { var cd = parseD(String(x.grade.due)); if (cd) return cd; }
+  return parseD(x.date);
+}
 function daysLeft(d){ if(!d) return ''; return Math.ceil((d - now)/864e5); }
 function canvasUrl(course, canvasId){
   if (!course) return null;
@@ -146,7 +153,7 @@ Promise.all(REPOS.map(function(pair){
     c.rows.forEach(function(x){
       if (x.key.indexOf('SETUP') === 0 || x.key.indexOf('RECON') >= 0) return;
       if (/\b0\s?pts?\b/i.test(x.note || '')) return;
-      var d = parseD(x.date);
+      var d = dueOf(x);
       if (!d) return;
       items.push({x: x, d: d});
     });
@@ -174,7 +181,7 @@ Promise.all(REPOS.map(function(pair){
       var isBlocked = x.status && x.status.indexOf('blocked') === 0;
       var waitsOnYou = isBlocked || (x.needs && x.status !== 'done');
       if (!waitsOnYou) return;
-      var d = parseD(x.date);
+      var d = dueOf(x);
       var parkedNote = (x.needs && c.needs) ? c.needs : (x.note || '').replace(/^#\s*/,'');
       var note = esc(parkedNote);
       if (x.status === 'blocked_inperson') {
