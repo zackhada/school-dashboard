@@ -175,7 +175,7 @@ Promise.all(REPOS.map(function(pair){
     html += '</tbody></table></details>';
   });
   document.getElementById('app').innerHTML = html;
-  var need = '', inperson = '';
+  var need = '', inperson = [];
   classes.forEach(function(c){
     c.rows.forEach(function(x){
       var isBlocked = x.status && x.status.indexOf('blocked') === 0;
@@ -186,11 +186,17 @@ Promise.all(REPOS.map(function(pair){
       var note = esc(parkedNote);
       if (x.status === 'blocked_inperson') {
         if (/\b0\s?pts?\b/i.test(x.note || '')) return;
-        if (d && d >= now && d <= in14) {
+        // Skip phantom rows for Canvas items deleted upstream (e.g. pse390
+        // PARTICIPATION_QUIZ_10_13_2, "404 deleted upstream"); they are not
+        // real upcoming deadlines and must never surface here.
+        if (/\b(404|deleted|removed upstream|no longer)\b/i.test(x.note || '')) return;
+        // Show ALL upcoming in-person/proctored items (no 14-day cap) so a
+        // further-out exam can never hide; sort soonest-first below.
+        if (d && d >= now) {
           var curl = canvasUrl(c.course, x.grade && x.grade.canvas_id);
           var cell = curl ? '<a href="'+curl+'">Canvas</a>' : '';
           var rurl = replyUrl(c, x, note);
-          inperson += '<tr><td><b>'+c.name+' \u2014 '+esc(titleFrom(x.key, x.note, c.name))+'</b></td><td>'+daysLeft(d)+'</td><td class="small">'+note+'</td><td>'+cell+'</td><td><a href="'+rurl+'">Reply</a></td></tr>';
+          inperson.push({d: d, html: '<tr><td><b>'+c.name+' \u2014 '+esc(titleFrom(x.key, x.note, c.name))+'</b></td><td class="days-left">'+daysLeft(d)+'</td><td class="small">'+note+'</td><td>'+cell+'</td><td><a href="'+rurl+'">Reply</a></td></tr>'});
         }
         return;
       }
@@ -207,8 +213,10 @@ Promise.all(REPOS.map(function(pair){
   } else {
     document.getElementById('needs').innerHTML = '<h2>Needs your input</h2><p class="small">Nothing waiting on you.</p>';
   }
-  if (inperson) {
-    document.getElementById('needs').innerHTML += '<h2>In person + proctored (next 2 weeks)</h2><table><colgroup><col class="c-assn"><col class="c-days"><col class="c-note"></colgroup><thead><tr><th>Assignment</th><th>Days Left</th><th>Details</th><th>Canvas</th><th>Action</th></tr></thead><tbody>'+inperson+'</tbody></table>';
+  if (inperson.length) {
+    inperson.sort(function(a,b){ return a.d - b.d; });
+    var ipRows = inperson.map(function(r){ return r.html; }).join('');
+    document.getElementById('needs').innerHTML += '<h2>In person + proctored (soonest first)</h2><table><colgroup><col class="c-assn"><col class="c-days"><col class="c-note"></colgroup><thead><tr><th>Assignment</th><th>Days Left</th><th>Details</th><th>Canvas</th><th>Action</th></tr></thead><tbody>'+ipRows+'</tbody></table>';
   }
   var drift = '';
   classes.forEach(function(c){
