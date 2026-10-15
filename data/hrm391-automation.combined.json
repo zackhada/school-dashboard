@@ -175,8 +175,8 @@
    "note": "# Canvas 1508956, 1pt, Mid-term Checkpoint (remote; drift-added 2026-10-08)",
    "title": "Canvas 1508956, , Mid-term Checkpoint (remote; drift-added 2026-10-08)",
    "grade": {
-    "canvas_id": 1508956,
-    "name": "Mid-term Checkpoint",
+    "canvas_id": 1511530,
+    "name": "Unit 1 Mid-term Checkpoint",
     "due": null,
     "points": 1.0,
     "status": "unsubmitted",
@@ -197,7 +197,20 @@
    "date": "9999-12-31",
    "note": "# Canvas 1511530, 1pt, Unit 1 Mid-term Checkpoint (remote; drift-added 2026-10-14)",
    "title": "Canvas 1511530, , Unit 1 Mid-term Checkpoint (remote; drift-added 2026-10-14)",
-   "grade": null,
+   "grade": {
+    "canvas_id": 1508956,
+    "name": "Unit 1 Mid-term Checkpoint",
+    "due": null,
+    "points": 1.0,
+    "status": "unsubmitted",
+    "score": null,
+    "grade": null,
+    "missing": false,
+    "submitted_at": null,
+    "submission_type": null,
+    "my_submission": "",
+    "comments": []
+   },
    "drift": false,
    "needs_zack": false
   }
@@ -211,5 +224,5 @@
   "final_score": 21.67,
   "final_grade": "E"
  },
- "built_at": "2026-10-15T01:50:22.235471+00:00"
+ "built_at": "2026-10-15T10:10:00.478139+00:00"
 }

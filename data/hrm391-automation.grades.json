@@ -107,7 +107,21 @@
   },
   {
    "canvas_id": 1508956,
-   "name": "Mid-term Checkpoint",
+   "name": "Unit 1 Mid-term Checkpoint",
+   "due": null,
+   "points": 1.0,
+   "status": "unsubmitted",
+   "score": null,
+   "grade": null,
+   "missing": false,
+   "submitted_at": null,
+   "submission_type": null,
+   "my_submission": "",
+   "comments": []
+  },
+  {
+   "canvas_id": 1511530,
+   "name": "Unit 1 Mid-term Checkpoint",
    "due": null,
    "points": 1.0,
    "status": "unsubmitted",
