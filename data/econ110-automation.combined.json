@@ -492,8 +492,8 @@
     "name": "NE - Quiz #6",
     "due": "2026-10-16T23:59:00",
     "points": 5.0,
-    "score": null,
-    "status": "not_graded",
+    "score": 5.0,
+    "status": "graded",
     "missing": false,
     "submission_type": "learning_suite",
     "comments": []
@@ -1057,8 +1057,8 @@
  "needs": null,
  "course_id": null,
  "overall": {
-  "current_score": 71.65,
+  "current_score": 71.96,
   "source": "learning-suite-points"
  },
- "built_at": "2026-10-15T11:22:11.913330+00:00"
+ "built_at": "2026-10-15T18:31:16.529622+00:00"
 }

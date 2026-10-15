@@ -123,6 +123,29 @@
    "needs_zack": false
   },
   {
+   "key": "EXAM1",
+   "status": "blocked_inperson",
+   "date": "2026-10-14",
+   "note": "# Exam 1 Understanding the Organizational System, 56pt, Remotely Proctored (Canvas 1508899), window 2026-10-07 to 2026-10-13 11:59pm MT; proctored, Zack takes manually",
+   "title": "Exam 1 Understanding the Organizational System",
+   "grade": {
+    "canvas_id": 1508899,
+    "name": "HRM 391 Exam 1 \u2014 Understanding the Organizational System (Multiple Choice) (Remotely Proctored)",
+    "due": "2026-10-14T05:59:59Z",
+    "points": 56.0,
+    "status": "unsubmitted",
+    "score": null,
+    "grade": null,
+    "missing": true,
+    "submitted_at": null,
+    "submission_type": null,
+    "my_submission": "",
+    "comments": []
+   },
+   "drift": false,
+   "needs_zack": false
+  },
+  {
    "key": "BREAKING_BREAD_COUNTS_TOWARD_FINAL_GRADE",
    "status": "blocked_ask_zack",
    "date": "2026-10-21",
@@ -144,29 +167,6 @@
    },
    "drift": false,
    "needs_zack": true
-  },
-  {
-   "key": "EXAM1",
-   "status": "blocked_inperson",
-   "date": "2026-12-01",
-   "note": "# Exam 1 Understanding the Organizational System, 1pt, Testing Center, no Canvas submission; Zack takes in person",
-   "title": "Exam 1 Understanding the Organizational System",
-   "grade": {
-    "canvas_id": 1508899,
-    "name": "HRM 391 Exam 1 \u2014 Understanding the Organizational System (Multiple Choice) (Remotely Proctored)",
-    "due": "2026-10-14T05:59:59Z",
-    "points": 56.0,
-    "status": "unsubmitted",
-    "score": null,
-    "grade": null,
-    "missing": true,
-    "submitted_at": null,
-    "submission_type": null,
-    "my_submission": "",
-    "comments": []
-   },
-   "drift": false,
-   "needs_zack": false
   },
   {
    "key": "MID_TERM_CHECKPOINT",
@@ -224,5 +224,5 @@
   "final_score": 21.67,
   "final_grade": "E"
  },
- "built_at": "2026-10-15T11:22:11.724474+00:00"
+ "built_at": "2026-10-15T18:31:16.342242+00:00"
 }
