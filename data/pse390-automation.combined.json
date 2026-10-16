@@ -418,7 +418,7 @@
     "status": "unsubmitted",
     "score": null,
     "grade": null,
-    "missing": false,
+    "missing": true,
     "submitted_at": null,
     "submission_type": null,
     "my_submission": "",
@@ -541,6 +541,28 @@
    },
    "drift": false,
    "needs_zack": false
+  },
+  {
+   "key": "CANVAS_1475548",
+   "status": "missing_from_ledger",
+   "date": "2026-10-25",
+   "note": "# In Canvas but no ledger row; runner must add it",
+   "title": "Midterm Assignment",
+   "grade": {
+    "canvas_id": 1475548,
+    "name": "Midterm Assignment",
+    "due": "2026-10-25T05:59:59Z",
+    "points": 30.0,
+    "status": "unsubmitted",
+    "score": null,
+    "grade": null,
+    "missing": false,
+    "submitted_at": null,
+    "submission_type": null,
+    "my_submission": "",
+    "comments": []
+   },
+   "drift": true
   },
   {
    "key": "PARTICIPATION_QUIZ_OCT27",
@@ -980,14 +1002,29 @@
    "needs_zack": false
   }
  ],
- "unmatched_canvas": [],
+ "unmatched_canvas": [
+  {
+   "canvas_id": 1475548,
+   "name": "Midterm Assignment",
+   "due": "2026-10-25T05:59:59Z",
+   "points": 30.0,
+   "status": "unsubmitted",
+   "score": null,
+   "grade": null,
+   "missing": false,
+   "submitted_at": null,
+   "submission_type": null,
+   "my_submission": "",
+   "comments": []
+  }
+ ],
  "needs": null,
  "course_id": 38958,
  "overall": {
   "current_score": 68.25,
   "current_grade": "D+",
-  "final_score": 18.61,
+  "final_score": 16.48,
   "final_grade": "E"
  },
- "built_at": "2026-10-16T01:39:08.439128+00:00"
+ "built_at": "2026-10-16T10:01:39.789852+00:00"
 }

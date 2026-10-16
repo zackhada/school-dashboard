@@ -245,7 +245,7 @@
    "status": "unsubmitted",
    "score": null,
    "grade": null,
-   "missing": false,
+   "missing": true,
    "submitted_at": null,
    "submission_type": null,
    "my_submission": "",
@@ -284,6 +284,20 @@
    "name": "Participation Quiz 10.22",
    "due": "2026-10-22T21:30:00Z",
    "points": 3.0,
+   "status": "unsubmitted",
+   "score": null,
+   "grade": null,
+   "missing": false,
+   "submitted_at": null,
+   "submission_type": null,
+   "my_submission": "",
+   "comments": []
+  },
+  {
+   "canvas_id": 1475548,
+   "name": "Midterm Assignment",
+   "due": "2026-10-25T05:59:59Z",
+   "points": 30.0,
    "status": "unsubmitted",
    "score": null,
    "grade": null,
@@ -619,7 +633,7 @@
  "overall": {
   "current_score": 68.25,
   "current_grade": "D+",
-  "final_score": 18.61,
+  "final_score": 16.48,
   "final_grade": "E"
  },
  "source": "canvas-api"
