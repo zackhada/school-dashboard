@@ -233,9 +233,9 @@
   },
   {
    "key": "IS_EXAM1",
-   "status": "blocked_inperson",
+   "status": "pending",
    "date": "2026-10-17",
-   "note": "# Exam 1, 100pts, timed take-home, NOT collaborative. Locked until Oct 10. Zack takes manually in a quiet window after Oct 10.",
+   "note": "# Exam 1, 100pts, timed take-home, open book/note, NOT proctored. Unblocked by Zack 2026-10-17; covers Names through Pivot Tables (no Debugging/External Data). Due 11:59pm MT tonight.",
    "title": "Exam 1",
    "grade": {
     "canvas_id": 1452628,
@@ -448,5 +448,5 @@
   "final_score": 19.38,
   "final_grade": "E"
  },
- "built_at": "2026-10-17T10:36:59.137531+00:00"
+ "built_at": "2026-10-17T23:04:21.126958+00:00"
 }
