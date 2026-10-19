@@ -72,6 +72,24 @@
    "status": "blocked_inperson",
    "date": "2026-10-09",
    "note": "# Canvas 1500517 \"Dual Advantage\", 0pts, submission_types=none, no Canvas due date; read the dual advantage article; no online submission exists (drift-added 2026-09-23)"
+  },
+  {
+   "key": "STRATEGY_AS_LEVERAGE_READING_QUIZ",
+   "status": "blocked_inperson",
+   "date": "2026-10-23",
+   "note": "# Canvas 1512930, 10pt, Strategy as Leverage Reading Quiz (in-class/participation; drift-added 2026-10-19)"
+  },
+  {
+   "key": "THE_BOUNDARIES_OF_THE_FIRM_MAKE_VS_BUY_Q",
+   "status": "blocked_inperson",
+   "date": "2026-10-28",
+   "note": "# Canvas 1512994, 10pt, The Boundaries of the Firm: Make vs Buy \u2014 Quiz (in-class/participation; drift-added 2026-10-19)"
+  },
+  {
+   "key": "GLOBAL_VS_LOCAL_READING_QUIZ",
+   "status": "blocked_inperson",
+   "date": "2026-10-30",
+   "note": "# Canvas 1512995, 10pt, Global vs Local \u2014 Reading Quiz (in-class/participation; drift-added 2026-10-19)"
   }
  ],
  "source": "progress.txt"

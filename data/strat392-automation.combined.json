@@ -213,6 +213,49 @@
    },
    "drift": false,
    "needs_zack": false
+  },
+  {
+   "key": "STRATEGY_AS_LEVERAGE_READING_QUIZ",
+   "status": "blocked_inperson",
+   "date": "2026-10-23",
+   "note": "# Canvas 1512930, 10pt, Strategy as Leverage Reading Quiz (in-class/participation; drift-added 2026-10-19)",
+   "title": "Canvas 1512930, , Strategy as Leverage Reading Quiz (in-class/participation; drift-added 2026-10-19)",
+   "grade": {
+    "canvas_id": 1496217,
+    "name": "9-8 In Class Quiz",
+    "due": "2026-09-11T05:59:59Z",
+    "points": 10.0,
+    "status": "graded",
+    "score": 10.0,
+    "grade": "10",
+    "missing": false,
+    "submitted_at": "2026-09-09T20:29:12Z",
+    "submission_type": "online_quiz",
+    "my_submission": "",
+    "comments": []
+   },
+   "drift": false,
+   "needs_zack": false
+  },
+  {
+   "key": "THE_BOUNDARIES_OF_THE_FIRM_MAKE_VS_BUY_Q",
+   "status": "blocked_inperson",
+   "date": "2026-10-28",
+   "note": "# Canvas 1512994, 10pt, The Boundaries of the Firm: Make vs Buy \u2014 Quiz (in-class/participation; drift-added 2026-10-19)",
+   "title": "Canvas 1512994, , The Boundaries of the Firm: Make vs Buy \u2014 Quiz (in-class/participation; drift-added 2026-10-19)",
+   "grade": null,
+   "drift": false,
+   "needs_zack": false
+  },
+  {
+   "key": "GLOBAL_VS_LOCAL_READING_QUIZ",
+   "status": "blocked_inperson",
+   "date": "2026-10-30",
+   "note": "# Canvas 1512995, 10pt, Global vs Local \u2014 Reading Quiz (in-class/participation; drift-added 2026-10-19)",
+   "title": "Canvas 1512995, , Global vs Local \u2014 Reading Quiz (in-class/participation; drift-added 2026-10-19)",
+   "grade": null,
+   "drift": false,
+   "needs_zack": false
   }
  ],
  "unmatched_canvas": [],
@@ -224,5 +267,5 @@
   "final_score": 95.38,
   "final_grade": "A"
  },
- "built_at": "2026-10-19T13:04:16.900214+00:00"
+ "built_at": "2026-10-19T21:31:38.496217+00:00"
 }

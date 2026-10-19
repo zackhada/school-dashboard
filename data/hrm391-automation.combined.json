@@ -126,7 +126,7 @@
    "key": "EXAM1",
    "status": "blocked_inperson",
    "date": "2026-10-14",
-   "note": "# Exam 1 Understanding the Organizational System, 56pt, Remotely Proctored (Canvas 1508899), window 2026-10-07 to 2026-10-13 11:59pm MT; proctored, Zack takes manually",
+   "note": "# Exam 1 Understanding the Organizational System, 56pt, Remotely Proctored (Canvas 1508899), locked 2026-10-14T05:59:59Z, unsubmitted. Makeup requested from the TAs by email 2026-10-19. Proctored, Zack takes manually.",
    "title": "Exam 1 Understanding the Organizational System",
    "grade": {
     "canvas_id": 1508899,
@@ -137,6 +137,29 @@
     "score": null,
     "grade": null,
     "missing": true,
+    "submitted_at": null,
+    "submission_type": null,
+    "my_submission": "",
+    "comments": []
+   },
+   "drift": false,
+   "needs_zack": false
+  },
+  {
+   "key": "MID_TERM_CHECKPOINT",
+   "status": "pending",
+   "date": "2026-10-20",
+   "note": "# Canvas 1508956, 1pt online quiz, Canvas has no due date; take on the next remote run",
+   "title": "Canvas 1508956, online quiz, Canvas has no",
+   "grade": {
+    "canvas_id": 1511530,
+    "name": "Unit 1 Mid-term Checkpoint",
+    "due": null,
+    "points": 1.0,
+    "status": "unsubmitted",
+    "score": null,
+    "grade": null,
+    "missing": false,
     "submitted_at": null,
     "submission_type": null,
     "my_submission": "",
@@ -169,34 +192,11 @@
    "needs_zack": true
   },
   {
-   "key": "MID_TERM_CHECKPOINT",
-   "status": "pending",
-   "date": "9999-12-31",
-   "note": "# Canvas 1508956, 1pt, Mid-term Checkpoint (remote; drift-added 2026-10-08)",
-   "title": "Canvas 1508956, , Mid-term Checkpoint (remote; drift-added 2026-10-08)",
-   "grade": {
-    "canvas_id": 1511530,
-    "name": "Unit 1 Mid-term Checkpoint",
-    "due": null,
-    "points": 1.0,
-    "status": "unsubmitted",
-    "score": null,
-    "grade": null,
-    "missing": false,
-    "submitted_at": null,
-    "submission_type": null,
-    "my_submission": "",
-    "comments": []
-   },
-   "drift": false,
-   "needs_zack": false
-  },
-  {
    "key": "UNIT_1_MID_TERM_CHECKPOINT",
    "status": "pending",
-   "date": "9999-12-31",
-   "note": "# Canvas 1511530, 1pt, Unit 1 Mid-term Checkpoint (remote; drift-added 2026-10-14)",
-   "title": "Canvas 1511530, , Unit 1 Mid-term Checkpoint (remote; drift-added 2026-10-14)",
+   "date": "2026-10-21",
+   "note": "# Canvas 1511530, 1pt online quiz, Canvas has no due date; take after the first checkpoint",
+   "title": "Canvas 1511530, online quiz, Canvas has no",
    "grade": {
     "canvas_id": 1508956,
     "name": "Unit 1 Mid-term Checkpoint",
@@ -216,7 +216,7 @@
   }
  ],
  "unmatched_canvas": [],
- "needs": "Needs Zack (in person / decision):\n- Breaking Bread - Counts toward final grade! (Canvas 1509308, 25 points, due 2026-10-21 11:59pm MT): meet as a group in person, share food or drink, then each member writes one paragraph and one person submits the compiled document. The automation cannot attend the group meeting. Reply on the dashboard with your group's meeting plan, or say whether you want the agent to draft your paragraph from the notes you provide.",
+ "needs": "Needs Zack (in person / decision):\n- Breaking Bread - Counts toward final grade! (Canvas 1509308, 25 points, due 2026-10-21 11:59pm MT): meet as a group in person, share food or drink, then each member writes one paragraph and one person submits the compiled document. The automation cannot attend the group meeting. Reply on the dashboard with your group's meeting plan, or say whether you want the agent to draft your paragraph from the notes you provide.\n- HRM 391 Exam 1 (56 pts, remotely proctored) locked Oct 13 without a submission. A makeup request was emailed to the TAs on 2026-10-19; the original message had been stuck in Mail since Oct 15. Zack takes any makeup himself.\n- HRM 391 Exam 1: TAs asked for professor approval first. Escalation emailed to peter.tennis@byu.edu on 2026-10-19 with both TAs copied. Waiting on his reply.",
  "course_id": 37899,
  "overall": {
   "current_score": 100.0,
@@ -224,5 +224,5 @@
   "final_score": 21.67,
   "final_grade": "E"
  },
- "built_at": "2026-10-19T13:04:16.896073+00:00"
+ "built_at": "2026-10-19T21:31:38.490141+00:00"
 }

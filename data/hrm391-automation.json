@@ -35,7 +35,7 @@
    "key": "EXAM1",
    "status": "blocked_inperson",
    "date": "2026-10-14",
-   "note": "# Exam 1 Understanding the Organizational System, 56pt, Remotely Proctored (Canvas 1508899), window 2026-10-07 to 2026-10-13 11:59pm MT; proctored, Zack takes manually"
+   "note": "# Exam 1 Understanding the Organizational System, 56pt, Remotely Proctored (Canvas 1508899), locked 2026-10-14T05:59:59Z, unsubmitted. Makeup requested from the TAs by email 2026-10-19. Proctored, Zack takes manually."
   },
   {
    "key": "OBSERVATION_NOTEBOOK_ENTRIES",
@@ -46,8 +46,8 @@
   {
    "key": "MID_TERM_CHECKPOINT",
    "status": "pending",
-   "date": "9999-12-31",
-   "note": "# Canvas 1508956, 1pt, Mid-term Checkpoint (remote; drift-added 2026-10-08)"
+   "date": "2026-10-20",
+   "note": "# Canvas 1508956, 1pt online quiz, Canvas has no due date; take on the next remote run"
   },
   {
    "key": "BREAKING_BREAD_COUNTS_TOWARD_FINAL_GRADE",
@@ -58,8 +58,8 @@
   {
    "key": "UNIT_1_MID_TERM_CHECKPOINT",
    "status": "pending",
-   "date": "9999-12-31",
-   "note": "# Canvas 1511530, 1pt, Unit 1 Mid-term Checkpoint (remote; drift-added 2026-10-14)"
+   "date": "2026-10-21",
+   "note": "# Canvas 1511530, 1pt online quiz, Canvas has no due date; take after the first checkpoint"
   }
  ],
  "source": "progress.txt"

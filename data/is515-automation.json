@@ -69,9 +69,9 @@
   },
   {
    "key": "IS_EXAM1",
-   "status": "pending",
+   "status": "blocked_ask_zack",
    "date": "2026-10-17",
-   "note": "# Exam 1, 100pts, timed take-home, open book/note, NOT proctored. Unblocked by Zack 2026-10-17; covers Names through Pivot Tables (no Debugging/External Data). Due 11:59pm MT tonight."
+   "note": "# Exam 1, 100pts, locked 2026-10-18T05:59:59Z. Agent attempt on 2026-10-17 was killed mid-run by the expired OpenCode key; never submitted. Reopen requested from Professor Carroll by email 2026-10-19. If he reopens, set this row back to pending and reply on the dashboard."
   },
   {
    "key": "IS_FIN",
