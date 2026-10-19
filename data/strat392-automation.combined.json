@@ -266,6 +266,16 @@
    "grade": null,
    "drift": false,
    "needs_zack": false
+  },
+  {
+   "key": "STRATEGIC_ALIGNMENT_READING_QUIZ",
+   "status": "blocked_inperson",
+   "date": "2026-11-20",
+   "note": "# Canvas 1513162, 10pt, Strategic Alignment \u2014 Reading Quiz (in-class/participation; drift-added 2026-10-19)",
+   "title": "Canvas 1513162, , Strategic Alignment \u2014 Reading Quiz (in-class/participation; drift-added 2026-10-19)",
+   "grade": null,
+   "drift": false,
+   "needs_zack": false
   }
  ],
  "unmatched_canvas": [],
@@ -277,5 +287,5 @@
   "final_score": 95.38,
   "final_grade": "A"
  },
- "built_at": "2026-10-19T21:38:24.429758+00:00"
+ "built_at": "2026-10-19T21:48:43.204489+00:00"
 }

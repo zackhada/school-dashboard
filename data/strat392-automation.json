@@ -96,6 +96,12 @@
    "status": "blocked_inperson",
    "date": "2026-11-18",
    "note": "# Canvas 1513158, 10pt, Disruption \u2014 Reading Quiz (in-class/participation; drift-added 2026-10-19)"
+  },
+  {
+   "key": "STRATEGIC_ALIGNMENT_READING_QUIZ",
+   "status": "blocked_inperson",
+   "date": "2026-11-20",
+   "note": "# Canvas 1513162, 10pt, Strategic Alignment \u2014 Reading Quiz (in-class/participation; drift-added 2026-10-19)"
   }
  ],
  "source": "progress.txt"
