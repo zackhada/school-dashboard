@@ -90,6 +90,12 @@
    "status": "blocked_inperson",
    "date": "2026-10-30",
    "note": "# Canvas 1512995, 10pt, Global vs Local \u2014 Reading Quiz (in-class/participation; drift-added 2026-10-19)"
+  },
+  {
+   "key": "DISRUPTION_READING_QUIZ",
+   "status": "blocked_inperson",
+   "date": "2026-11-18",
+   "note": "# Canvas 1513158, 10pt, Disruption \u2014 Reading Quiz (in-class/participation; drift-added 2026-10-19)"
   }
  ],
  "source": "progress.txt"
