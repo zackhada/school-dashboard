@@ -511,8 +511,8 @@
     "name": "Mankiw Bonus #5 (Extra Credit)",
     "due": "2026-10-16T23:59:00",
     "points": 6.0,
-    "score": null,
-    "status": "not_graded",
+    "score": 6.0,
+    "status": "graded",
     "missing": false,
     "submission_type": "learning_suite",
     "comments": []
@@ -1057,8 +1057,8 @@
  "needs": null,
  "course_id": null,
  "overall": {
-  "current_score": 71.96,
+  "current_score": 72.32,
   "source": "learning-suite-points"
  },
- "built_at": "2026-10-20T11:30:07.965526+00:00"
+ "built_at": "2026-10-20T19:20:47.909025+00:00"
 }
