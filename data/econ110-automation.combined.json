@@ -579,7 +579,7 @@
   },
   {
    "key": "ECON_MANKIW_6",
-   "status": "pending",
+   "status": "done",
    "date": "2026-10-23",
    "note": "# Mankiw Bonus #6",
    "title": "Mankiw Bonus #6",
@@ -1060,5 +1060,5 @@
   "current_score": 71.96,
   "source": "learning-suite-points"
  },
- "built_at": "2026-10-20T00:28:51.677806+00:00"
+ "built_at": "2026-10-20T00:34:20.506157+00:00"
 }
