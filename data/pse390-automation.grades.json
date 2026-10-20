@@ -256,14 +256,20 @@
    "name": "Teaching Ethics in the Home Assignment",
    "due": "2026-10-19T05:59:59Z",
    "points": 10.0,
-   "status": "submitted",
-   "score": null,
-   "grade": null,
+   "status": "graded",
+   "score": 5.0,
+   "grade": "5",
    "missing": false,
    "submitted_at": "2026-10-13T20:49:14Z",
    "submission_type": "online_upload",
    "my_submission": "",
-   "comments": []
+   "comments": [
+    {
+     "author": "Gabi Tellez",
+     "comment": "Where is your family mission statement?\u00a0",
+     "created": "2026-10-20T04:17:16Z"
+    }
+   ]
   },
   {
    "canvas_id": 1511330,
@@ -631,9 +637,9 @@
   }
  ],
  "overall": {
-  "current_score": 68.25,
-  "current_grade": "D+",
-  "final_score": 16.48,
+  "current_score": 65.75,
+  "current_grade": "D",
+  "final_score": 18.39,
   "final_grade": "E"
  },
  "source": "canvas-api"

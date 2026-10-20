@@ -221,16 +221,16 @@
    "note": "# Canvas 1512930, 10pt, Strategy as Leverage Reading Quiz (in-class/participation; drift-added 2026-10-19)",
    "title": "Canvas 1512930, , Strategy as Leverage Reading Quiz (in-class/participation; drift-added 2026-10-19)",
    "grade": {
-    "canvas_id": 1496217,
-    "name": "9-8 In Class Quiz",
-    "due": "2026-09-11T05:59:59Z",
+    "canvas_id": 1512930,
+    "name": "Strategy as Leverage Reading Quiz",
+    "due": "2026-10-23T05:59:59Z",
     "points": 10.0,
-    "status": "graded",
-    "score": 10.0,
-    "grade": "10",
+    "status": "unsubmitted",
+    "score": null,
+    "grade": null,
     "missing": false,
-    "submitted_at": "2026-09-09T20:29:12Z",
-    "submission_type": "online_quiz",
+    "submitted_at": null,
+    "submission_type": null,
     "my_submission": "",
     "comments": []
    },
@@ -243,7 +243,20 @@
    "date": "2026-10-28",
    "note": "# Canvas 1512994, 10pt, The Boundaries of the Firm: Make vs Buy \u2014 Quiz (in-class/participation; drift-added 2026-10-19)",
    "title": "Canvas 1512994, , The Boundaries of the Firm: Make vs Buy \u2014 Quiz (in-class/participation; drift-added 2026-10-19)",
-   "grade": null,
+   "grade": {
+    "canvas_id": 1512994,
+    "name": "The Boundaries of the Firm: Make vs Buy \u2014 Quiz",
+    "due": "2026-10-28T05:59:59Z",
+    "points": 10.0,
+    "status": "unsubmitted",
+    "score": null,
+    "grade": null,
+    "missing": false,
+    "submitted_at": null,
+    "submission_type": null,
+    "my_submission": "",
+    "comments": []
+   },
    "drift": false,
    "needs_zack": false
   },
@@ -253,7 +266,20 @@
    "date": "2026-10-30",
    "note": "# Canvas 1512995, 10pt, Global vs Local \u2014 Reading Quiz (in-class/participation; drift-added 2026-10-19)",
    "title": "Canvas 1512995, , Global vs Local \u2014 Reading Quiz (in-class/participation; drift-added 2026-10-19)",
-   "grade": null,
+   "grade": {
+    "canvas_id": 1512995,
+    "name": "Global vs Local \u2014 Reading Quiz",
+    "due": "2026-10-30T05:59:59Z",
+    "points": 10.0,
+    "status": "unsubmitted",
+    "score": null,
+    "grade": null,
+    "missing": false,
+    "submitted_at": null,
+    "submission_type": null,
+    "my_submission": "",
+    "comments": []
+   },
    "drift": false,
    "needs_zack": false
   },
@@ -263,7 +289,20 @@
    "date": "2026-11-18",
    "note": "# Canvas 1513158, 10pt, Disruption \u2014 Reading Quiz (in-class/participation; drift-added 2026-10-19)",
    "title": "Canvas 1513158, , Disruption \u2014 Reading Quiz (in-class/participation; drift-added 2026-10-19)",
-   "grade": null,
+   "grade": {
+    "canvas_id": 1513158,
+    "name": "Disruption \u2014 Reading Quiz",
+    "due": "2026-11-18T06:59:59Z",
+    "points": 10.0,
+    "status": "unsubmitted",
+    "score": null,
+    "grade": null,
+    "missing": false,
+    "submitted_at": null,
+    "submission_type": null,
+    "my_submission": "",
+    "comments": []
+   },
    "drift": false,
    "needs_zack": false
   },
@@ -273,7 +312,20 @@
    "date": "2026-11-20",
    "note": "# Canvas 1513162, 10pt, Strategic Alignment \u2014 Reading Quiz (in-class/participation; drift-added 2026-10-19)",
    "title": "Canvas 1513162, , Strategic Alignment \u2014 Reading Quiz (in-class/participation; drift-added 2026-10-19)",
-   "grade": null,
+   "grade": {
+    "canvas_id": 1513162,
+    "name": "Strategic Alignment \u2014 Reading Quiz",
+    "due": "2026-11-20T06:59:59Z",
+    "points": 10.0,
+    "status": "unsubmitted",
+    "score": null,
+    "grade": null,
+    "missing": false,
+    "submitted_at": null,
+    "submission_type": null,
+    "my_submission": "",
+    "comments": []
+   },
    "drift": false,
    "needs_zack": false
   },
@@ -283,7 +335,20 @@
    "date": "2026-12-02",
    "note": "# Canvas 1513165, 10pt, Platforms as Strategy \u2014 Reading Quiz (in-class/participation; drift-added 2026-10-19)",
    "title": "Canvas 1513165, , Platforms as Strategy \u2014 Reading Quiz (in-class/participation; drift-added 2026-10-19)",
-   "grade": null,
+   "grade": {
+    "canvas_id": 1513165,
+    "name": "Platforms as Strategy \u2014 Reading Quiz",
+    "due": "2026-12-02T06:59:59Z",
+    "points": 10.0,
+    "status": "unsubmitted",
+    "score": null,
+    "grade": null,
+    "missing": false,
+    "submitted_at": null,
+    "submission_type": null,
+    "my_submission": "",
+    "comments": []
+   },
    "drift": false,
    "needs_zack": false
   }
@@ -294,8 +359,8 @@
  "overall": {
   "current_score": 95.38,
   "current_grade": "A",
-  "final_score": 95.38,
-  "final_grade": "A"
+  "final_score": 65.26,
+  "final_grade": "D"
  },
- "built_at": "2026-10-20T02:04:52.739348+00:00"
+ "built_at": "2026-10-20T10:15:58.763306+00:00"
 }

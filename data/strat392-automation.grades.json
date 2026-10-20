@@ -148,6 +148,90 @@
    "comments": []
   },
   {
+   "canvas_id": 1512930,
+   "name": "Strategy as Leverage Reading Quiz",
+   "due": "2026-10-23T05:59:59Z",
+   "points": 10.0,
+   "status": "unsubmitted",
+   "score": null,
+   "grade": null,
+   "missing": false,
+   "submitted_at": null,
+   "submission_type": null,
+   "my_submission": "",
+   "comments": []
+  },
+  {
+   "canvas_id": 1512994,
+   "name": "The Boundaries of the Firm: Make vs Buy \u2014 Quiz",
+   "due": "2026-10-28T05:59:59Z",
+   "points": 10.0,
+   "status": "unsubmitted",
+   "score": null,
+   "grade": null,
+   "missing": false,
+   "submitted_at": null,
+   "submission_type": null,
+   "my_submission": "",
+   "comments": []
+  },
+  {
+   "canvas_id": 1512995,
+   "name": "Global vs Local \u2014 Reading Quiz",
+   "due": "2026-10-30T05:59:59Z",
+   "points": 10.0,
+   "status": "unsubmitted",
+   "score": null,
+   "grade": null,
+   "missing": false,
+   "submitted_at": null,
+   "submission_type": null,
+   "my_submission": "",
+   "comments": []
+  },
+  {
+   "canvas_id": 1513158,
+   "name": "Disruption \u2014 Reading Quiz",
+   "due": "2026-11-18T06:59:59Z",
+   "points": 10.0,
+   "status": "unsubmitted",
+   "score": null,
+   "grade": null,
+   "missing": false,
+   "submitted_at": null,
+   "submission_type": null,
+   "my_submission": "",
+   "comments": []
+  },
+  {
+   "canvas_id": 1513162,
+   "name": "Strategic Alignment \u2014 Reading Quiz",
+   "due": "2026-11-20T06:59:59Z",
+   "points": 10.0,
+   "status": "unsubmitted",
+   "score": null,
+   "grade": null,
+   "missing": false,
+   "submitted_at": null,
+   "submission_type": null,
+   "my_submission": "",
+   "comments": []
+  },
+  {
+   "canvas_id": 1513165,
+   "name": "Platforms as Strategy \u2014 Reading Quiz",
+   "due": "2026-12-02T06:59:59Z",
+   "points": 10.0,
+   "status": "unsubmitted",
+   "score": null,
+   "grade": null,
+   "missing": false,
+   "submitted_at": null,
+   "submission_type": null,
+   "my_submission": "",
+   "comments": []
+  },
+  {
    "canvas_id": 1500517,
    "name": "Dual Advantage",
    "due": null,
@@ -179,8 +263,8 @@
  "overall": {
   "current_score": 95.38,
   "current_grade": "A",
-  "final_score": 95.38,
-  "final_grade": "A"
+  "final_score": 65.26,
+  "final_grade": "D"
  },
  "source": "canvas-api"
 }
