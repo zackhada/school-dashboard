@@ -279,7 +279,7 @@
    "status": "unsubmitted",
    "score": null,
    "grade": null,
-   "missing": false,
+   "missing": true,
    "submitted_at": null,
    "submission_type": null,
    "my_submission": "",
@@ -314,30 +314,16 @@
    "comments": []
   },
   {
-   "canvas_id": 1495462,
-   "name": "Ethics and Public Quiz - Week 7",
-   "due": "2026-10-25T05:59:59Z",
-   "points": 10.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
-   "missing": false,
-   "submitted_at": null,
-   "submission_type": null,
-   "my_submission": "",
-   "comments": []
-  },
-  {
    "canvas_id": 1511324,
    "name": "Ethics and Public Quiz - Week 7",
    "due": "2026-10-25T05:59:59Z",
    "points": 10.0,
-   "status": "unsubmitted",
+   "status": "submitted",
    "score": null,
    "grade": null,
    "missing": false,
-   "submitted_at": null,
-   "submission_type": null,
+   "submitted_at": "2026-10-21T00:07:39Z",
+   "submission_type": "online_url",
    "my_submission": "",
    "comments": []
   },
@@ -639,7 +625,7 @@
  "overall": {
   "current_score": 65.75,
   "current_grade": "D",
-  "final_score": 18.39,
+  "final_score": 19.12,
   "final_grade": "E"
  },
  "source": "canvas-api"

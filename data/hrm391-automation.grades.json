@@ -99,6 +99,34 @@
    "status": "unsubmitted",
    "score": null,
    "grade": null,
+   "missing": true,
+   "submitted_at": null,
+   "submission_type": null,
+   "my_submission": "",
+   "comments": []
+  },
+  {
+   "canvas_id": 1489056,
+   "name": "Unit 2 Group Service Project (No Submission)",
+   "due": "2026-11-08T06:59:59Z",
+   "points": 0.0,
+   "status": "unsubmitted",
+   "score": null,
+   "grade": null,
+   "missing": false,
+   "submitted_at": null,
+   "submission_type": null,
+   "my_submission": "",
+   "comments": []
+  },
+  {
+   "canvas_id": 1513919,
+   "name": "Service Project\u2014Part 2: Group Analysis and Individual Reflection",
+   "due": "2026-11-22T06:59:59Z",
+   "points": 100.0,
+   "status": "unsubmitted",
+   "score": null,
+   "grade": null,
    "missing": false,
    "submitted_at": null,
    "submission_type": null,
@@ -137,7 +165,7 @@
  "overall": {
   "current_score": 100.0,
   "current_grade": "A",
-  "final_score": 21.67,
+  "final_score": 16.25,
   "final_grade": "E"
  },
  "source": "canvas-api"

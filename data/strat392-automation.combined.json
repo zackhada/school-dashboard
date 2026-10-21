@@ -290,16 +290,16 @@
    "note": "# Canvas 1513528, 10pt, Global Entry Modes \u2014 Reading Quiz (in-class/participation; drift-added 2026-10-20)",
    "title": "Canvas 1513528, , Global Entry Modes \u2014 Reading Quiz (in-class/participation; drift-added 2026-10-20)",
    "grade": {
-    "canvas_id": 1496217,
-    "name": "9-8 In Class Quiz",
-    "due": "2026-09-11T05:59:59Z",
+    "canvas_id": 1513528,
+    "name": "Global Entry Modes \u2014 Reading Quiz",
+    "due": "2026-11-04T06:59:59Z",
     "points": 10.0,
-    "status": "graded",
-    "score": 10.0,
-    "grade": "10",
+    "status": "unsubmitted",
+    "score": null,
+    "grade": null,
     "missing": false,
-    "submitted_at": "2026-09-09T20:29:12Z",
-    "submission_type": "online_quiz",
+    "submitted_at": null,
+    "submission_type": null,
     "my_submission": "",
     "comments": []
    },
@@ -312,7 +312,20 @@
    "date": "2026-11-11",
    "note": "# Canvas 1513602, 10pt, Building Competitive Moats \u2014 Reading Quiz (in-class/participation; drift-added 2026-10-20)",
    "title": "Canvas 1513602, , Building Competitive Moats \u2014 Reading Quiz (in-class/participation; drift-added 2026-10-20)",
-   "grade": null,
+   "grade": {
+    "canvas_id": 1513602,
+    "name": "Building Competitive Moats \u2014 Reading Quiz",
+    "due": "2026-11-11T06:59:59Z",
+    "points": 10.0,
+    "status": "unsubmitted",
+    "score": null,
+    "grade": null,
+    "missing": false,
+    "submitted_at": null,
+    "submission_type": null,
+    "my_submission": "",
+    "comments": []
+   },
    "drift": false,
    "needs_zack": false
   },
@@ -391,7 +404,20 @@
    "date": "2026-12-09",
    "note": "# Canvas 1513613, 10pt, Strategy and Innovation \u2014 Reading Quiz (in-class/participation; drift-added 2026-10-20)",
    "title": "Canvas 1513613, , Strategy and Innovation \u2014 Reading Quiz (in-class/participation; drift-added 2026-10-20)",
-   "grade": null,
+   "grade": {
+    "canvas_id": 1513613,
+    "name": "Strategy and Innovation \u2014 Reading Quiz",
+    "due": "2026-12-09T06:59:59Z",
+    "points": 10.0,
+    "status": "unsubmitted",
+    "score": null,
+    "grade": null,
+    "missing": false,
+    "submitted_at": null,
+    "submission_type": null,
+    "my_submission": "",
+    "comments": []
+   },
    "drift": false,
    "needs_zack": false
   }
@@ -402,8 +428,8 @@
  "overall": {
   "current_score": 95.38,
   "current_grade": "A",
-  "final_score": 65.26,
-  "final_grade": "D"
+  "final_score": 56.36,
+  "final_grade": "E"
  },
- "built_at": "2026-10-21T02:00:43.217272+00:00"
+ "built_at": "2026-10-21T10:25:41.339527+00:00"
 }

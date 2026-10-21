@@ -470,7 +470,7 @@
     "status": "unsubmitted",
     "score": null,
     "grade": null,
-    "missing": false,
+    "missing": true,
     "submitted_at": null,
     "submission_type": null,
     "my_submission": "",
@@ -509,16 +509,16 @@
    "note": "# same assignment as ETHICS_AND_PUBLIC_QUIZ_WEEK_7 (Canvas 1511324, \"Ethics and Public Quiz - Week 7\"); stale pattern ID 1495462 is not live, submitted under the other key 2026-10-21",
    "title": "same assignment as ETHICS_AND_PUBLIC_QUIZ_WEEK_7 (Canvas 1511324, \"Ethics and Public Quiz - Week 7\"); stale pattern ID 1495462 is not live, submitted under the other key 2026-10-21",
    "grade": {
-    "canvas_id": 1495462,
+    "canvas_id": 1511324,
     "name": "Ethics and Public Quiz - Week 7",
     "due": "2026-10-25T05:59:59Z",
     "points": 10.0,
-    "status": "unsubmitted",
+    "status": "submitted",
     "score": null,
     "grade": null,
     "missing": false,
-    "submitted_at": null,
-    "submission_type": null,
+    "submitted_at": "2026-10-21T00:07:39Z",
+    "submission_type": "online_url",
     "my_submission": "",
     "comments": []
    },
@@ -531,20 +531,7 @@
    "date": "2026-10-25",
    "note": "# Canvas 1511324, 10pt, submitted 2026-10-21T00:07:39Z as online_url https://x.com/zack_hada/status/2112696758082126216, verified workflow_state=submitted attempt 1",
    "title": "Canvas 1511324, , submitted 2026-10-21T00:07:39Z as online_url https://x.com/zack_hada/status/2112696758082126216, verified workflow_state=submitted attempt 1",
-   "grade": {
-    "canvas_id": 1511324,
-    "name": "Ethics and Public Quiz - Week 7",
-    "due": "2026-10-25T05:59:59Z",
-    "points": 10.0,
-    "status": "unsubmitted",
-    "score": null,
-    "grade": null,
-    "missing": false,
-    "submitted_at": null,
-    "submission_type": null,
-    "my_submission": "",
-    "comments": []
-   },
+   "grade": null,
    "drift": false,
    "needs_zack": false
   },
@@ -1038,8 +1025,8 @@
  "overall": {
   "current_score": 65.75,
   "current_grade": "D",
-  "final_score": 18.39,
+  "final_score": 19.12,
   "final_grade": "E"
  },
- "built_at": "2026-10-21T02:00:43.370253+00:00"
+ "built_at": "2026-10-21T10:25:41.470555+00:00"
 }

@@ -182,7 +182,7 @@
     "status": "unsubmitted",
     "score": null,
     "grade": null,
-    "missing": false,
+    "missing": true,
     "submitted_at": null,
     "submission_type": null,
     "my_submission": "",
@@ -213,16 +213,53 @@
    },
    "drift": false,
    "needs_zack": false
+  },
+  {
+   "key": "CANVAS_1513919",
+   "status": "missing_from_ledger",
+   "date": "2026-11-22",
+   "note": "# In Canvas but no ledger row; runner must add it",
+   "title": "Service Project\u2014Part 2: Group Analysis and Individual Reflection",
+   "grade": {
+    "canvas_id": 1513919,
+    "name": "Service Project\u2014Part 2: Group Analysis and Individual Reflection",
+    "due": "2026-11-22T06:59:59Z",
+    "points": 100.0,
+    "status": "unsubmitted",
+    "score": null,
+    "grade": null,
+    "missing": false,
+    "submitted_at": null,
+    "submission_type": null,
+    "my_submission": "",
+    "comments": []
+   },
+   "drift": true
   }
  ],
- "unmatched_canvas": [],
+ "unmatched_canvas": [
+  {
+   "canvas_id": 1513919,
+   "name": "Service Project\u2014Part 2: Group Analysis and Individual Reflection",
+   "due": "2026-11-22T06:59:59Z",
+   "points": 100.0,
+   "status": "unsubmitted",
+   "score": null,
+   "grade": null,
+   "missing": false,
+   "submitted_at": null,
+   "submission_type": null,
+   "my_submission": "",
+   "comments": []
+  }
+ ],
  "needs": "Needs Zack (in person / decision):\n- Breaking Bread - Counts toward final grade! (Canvas 1509308, 25 points, due 2026-10-21 11:59pm MT): meet as a group in person, share food or drink, then each member writes one paragraph and one person submits the compiled document. The automation cannot attend the group meeting. Reply on the dashboard with your group's meeting plan, or say whether you want the agent to draft your paragraph from the notes you provide.\n- HRM 391 Exam 1 (56 pts, remotely proctored) locked Oct 13 without a submission. A makeup request was emailed to the TAs on 2026-10-19; the original message had been stuck in Mail since Oct 15. Zack takes any makeup himself.\n- HRM 391 Exam 1: TAs asked for professor approval first. Escalation emailed to peter.tennis@byu.edu on 2026-10-19 with both TAs copied. Waiting on his reply.\n- HRM 391 Exam 1: Professor Tennis is open to working something out and asked for an appointment. Reply sent 2026-10-19 offering Thu after 4pm, Fri morning, or after 5pm. Waiting on his time. Focus on Unit 2 meanwhile.\n- HRM 391 Exam 1: appointment booked with Professor Tennis for Wed 2026-10-21, 11:00-11:15 AM MT, in person. Attend, then update the TAs.",
  "course_id": 37899,
  "overall": {
   "current_score": 100.0,
   "current_grade": "A",
-  "final_score": 21.67,
+  "final_score": 16.25,
   "final_grade": "E"
  },
- "built_at": "2026-10-21T02:00:43.205506+00:00"
+ "built_at": "2026-10-21T10:25:41.326435+00:00"
 }

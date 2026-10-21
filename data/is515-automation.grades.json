@@ -144,14 +144,14 @@
   {
    "canvas_id": 1452628,
    "name": "Exam 1",
-   "due": "2026-10-18T05:59:59Z",
+   "due": "2026-10-21T05:59:59Z",
    "points": 100.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
-   "missing": true,
-   "submitted_at": null,
-   "submission_type": null,
+   "status": "graded",
+   "score": 89.74,
+   "grade": "89.74",
+   "missing": false,
+   "submitted_at": "2026-10-20T20:31:16Z",
+   "submission_type": "external_tool",
    "my_submission": "",
    "comments": []
   },
@@ -269,9 +269,9 @@
   }
  ],
  "overall": {
-  "current_score": 89.44,
+  "current_score": 89.57,
   "current_grade": "B+",
-  "final_score": 19.38,
+  "final_score": 43.0,
   "final_grade": "E"
  },
  "source": "canvas-api"
