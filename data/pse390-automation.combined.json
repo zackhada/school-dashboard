@@ -133,10 +133,7 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": {
-    "verdict": "manual",
-    "why": "Participation quiz; description requires today's code handed out in class (2pm-3:17pm MT)."
-   },
+   "judge": null,
    "surface": false,
    "actionable": false
   },
@@ -194,10 +191,7 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": {
-    "verdict": "manual",
-    "why": "Requires the student in person."
-   },
+   "judge": null,
    "surface": false,
    "actionable": false
   },
@@ -223,10 +217,7 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": {
-    "verdict": "manual",
-    "why": "Requires the student in person."
-   },
+   "judge": null,
    "surface": false,
    "actionable": false
   },
@@ -304,10 +295,7 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": {
-    "verdict": "manual",
-    "why": "Requires the student in person."
-   },
+   "judge": null,
    "surface": false,
    "actionable": false
   },
@@ -359,10 +347,7 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": {
-    "verdict": "manual",
-    "why": "Requires the student in person."
-   },
+   "judge": null,
    "surface": false,
    "actionable": false
   },
@@ -388,10 +373,7 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": {
-    "verdict": "manual",
-    "why": "Participation quiz; description asks for today's code, which is given in the room."
-   },
+   "judge": null,
    "surface": false,
    "actionable": false
   },
@@ -445,7 +427,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Participation quiz item deleted upstream (404); no online path exists, never attempt."
+    "why": "Participation quiz series; deleted upstream (404), no online path"
    },
    "surface": true,
    "actionable": true
@@ -472,10 +454,7 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": {
-    "verdict": "manual",
-    "why": "Participation quiz; in-class participation credit requires being present."
-   },
+   "judge": null,
    "surface": false,
    "actionable": false
   },
@@ -503,7 +482,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Participation quiz 10.15; code given in class to attendees only."
+    "why": "Participation quiz: student fills in today's in-class participation code"
    },
    "surface": true,
    "actionable": false
@@ -564,7 +543,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Participation quiz; in-class participation credit requires being present."
+    "why": "Participation quiz: credit earned by in-class participation"
    },
    "surface": true,
    "actionable": false
@@ -593,7 +572,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Participation quiz; in-class participation credit requires being present."
+    "why": "Participation quiz: credit earned by in-class participation"
    },
    "surface": true,
    "actionable": false
@@ -687,7 +666,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Participation quiz; in-class participation credit requires being present."
+    "why": "Participation quiz: credit earned by in-class participation"
    },
    "surface": true,
    "actionable": false
@@ -716,7 +695,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Participation quiz; in-class participation credit requires being present."
+    "why": "Participation quiz: credit earned by in-class participation"
    },
    "surface": true,
    "actionable": false
@@ -771,7 +750,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Participation quiz; in-class participation credit requires being present."
+    "why": "Participation quiz: credit earned by in-class participation"
    },
    "surface": true,
    "actionable": false
@@ -800,7 +779,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Participation quiz; in-class participation credit requires being present."
+    "why": "Participation quiz: credit earned by in-class participation"
    },
    "surface": true,
    "actionable": false
@@ -855,7 +834,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Participation quiz; in-class participation credit requires being present."
+    "why": "Participation quiz: credit earned by in-class participation"
    },
    "surface": true,
    "actionable": false
@@ -884,7 +863,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Participation quiz; in-class participation credit requires being present."
+    "why": "Participation quiz: credit earned by in-class participation"
    },
    "surface": true,
    "actionable": false
@@ -939,7 +918,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Participation quiz; in-class participation credit requires being present."
+    "why": "Participation quiz: credit earned by in-class participation"
    },
    "surface": true,
    "actionable": false
@@ -968,7 +947,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Participation quiz; in-class participation credit requires being present."
+    "why": "Participation quiz: credit earned by in-class participation"
    },
    "surface": true,
    "actionable": false
@@ -1023,7 +1002,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Participation quiz; in-class participation credit requires being present."
+    "why": "Participation quiz: credit earned by in-class participation"
    },
    "surface": true,
    "actionable": false
@@ -1078,7 +1057,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Participation quiz; in-class participation credit requires being present."
+    "why": "Participation quiz: credit earned by in-class participation"
    },
    "surface": true,
    "actionable": false
@@ -1107,7 +1086,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Participation quiz; in-class participation credit requires being present."
+    "why": "Participation quiz: credit earned by in-class participation"
    },
    "surface": true,
    "actionable": false
@@ -1162,7 +1141,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Participation quiz; in-class participation credit requires being present."
+    "why": "Participation quiz: credit earned by in-class participation"
    },
    "surface": true,
    "actionable": false
@@ -1191,7 +1170,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Participation quiz; in-class participation credit requires being present."
+    "why": "Participation quiz: credit earned by in-class participation"
    },
    "surface": true,
    "actionable": false
@@ -1232,5 +1211,5 @@
   "final_score": 19.12,
   "final_grade": "E"
  },
- "built_at": "2026-10-21T22:18:16.642468+00:00"
+ "built_at": "2026-10-21T22:22:17.751489+00:00"
 }

@@ -45,9 +45,9 @@
   },
   {
    "key": "MID_TERM_CHECKPOINT",
-   "status": "pending",
+   "status": "blocked_ask_zack",
    "date": "2026-10-20",
-   "note": "# Canvas 1508956 / quiz 663151, 1pt graded survey, LOCKED 2026-10-07T17:00:00Z (closed Oct 7 11am MT), never takeable; missed Unit 1 item. Zack decides whether to request a makeup. (judged automatable 2026-10-21: Online submission path, no proctoring evidence.)"
+   "note": "# Canvas 1508956 / quiz 663151, 1pt graded survey, LOCKED 2026-10-07T17:00:00Z (closed Oct 7 11am MT), never takeable; missed Unit 1 item. Zack decides whether to request a makeup. (judged automatable 2026-10-21: Online submission path, no proctoring evidence.) [manual:verify-closed-survey-zack-decides-on-makeup]"
   },
   {
    "key": "BREAKING_BREAD_COUNTS_TOWARD_FINAL_GRADE",
@@ -57,9 +57,9 @@
   },
   {
    "key": "UNIT_1_MID_TERM_CHECKPOINT",
-   "status": "pending",
+   "status": "blocked_ask_zack",
    "date": "2026-10-21",
-   "note": "# Canvas 1511530 / quiz 663964, 1pt graded survey, LOCKED 2026-10-07T17:00:00Z (closed Oct 7 11am MT), never takeable; missed Unit 1 item. Zack decides whether to request a makeup. (judged automatable 2026-10-21: Online submission path, no proctoring evidence.)"
+   "note": "# Canvas 1511530 / quiz 663964, 1pt graded survey, LOCKED 2026-10-07T17:00:00Z (closed Oct 7 11am MT), never takeable; missed Unit 1 item. Zack decides whether to request a makeup. (judged automatable 2026-10-21: Online submission path, no proctoring evidence.) [manual:verify-closed-survey-zack-decides-on-makeup]"
   },
   {
    "key": "SERVICE_PROJECT_PART_2_GROUP_ANALYSIS_AN",
@@ -69,9 +69,9 @@
   },
   {
    "key": "UNIT_1_MID_TERM_CHECKPOINT_2",
-   "status": "pending",
+   "status": "blocked_ask_zack",
    "date": "9999-12-31",
-   "note": "# DUPLICATE row for Canvas 1511530 (same closed survey); superseded by UNIT_1_MID_TERM_CHECKPOINT. No action. (judged automatable 2026-10-21: Online submission path, no proctoring evidence.)"
+   "note": "# DUPLICATE row for Canvas 1511530 (same closed survey); superseded by UNIT_1_MID_TERM_CHECKPOINT. No action. (judged automatable 2026-10-21: Online submission path, no proctoring evidence.) [manual:verify-duplicate-of-closed-survey]"
   }
  ],
  "source": "progress.txt"

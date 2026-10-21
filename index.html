@@ -156,7 +156,7 @@ Promise.all(REPOS.map(function(pair){
     return Promise.all([led, grd]).then(function(p){ return {name: pair[0], repo: pair[1], rows: p[0].rows || [], grows: p[1].rows || [], overall: (p[1] && p[1].overall) || null, drift: []}; });
   });
 })).then(function(classes){
-  var html = '';
+  var html = '', queue = [];
   classes.forEach(function(c){
     var items = [];
     c.rows.forEach(function(x){
@@ -179,10 +179,30 @@ Promise.all(REPOS.map(function(pair){
       var rowCls = n < 0 ? 'past' : (n === 0 ? 'today' : '');
       var title = titleFrom(x.key, x.note, c.name);
       var g = x.grade || matchGrade(title + ' ' + x.key, x.date, c.grows);
+      // The queue is what the runner still has to do. It is the answer to
+      // "what is next", which the manual lists alone never answered.
+      if (x.status === 'pending' && a.d >= now) {
+        queue.push({d: a.d, cls: c.name, title: title});
+      }
       html += '<tr class="'+rowCls+'"><td class="'+cls+'">'+esc(title)+'</td><td class="'+cls+'">'+st[0]+'</td><td class="days-left">'+n+'</td><td class="grade">'+gradeCell(g)+'</td><td>'+commentsCell(g)+'</td></tr>';
     });
     html += '</tbody></table></details>';
   });
+  // Consolidated next-up list: the nearest work across every class, whether the
+  // agent does it or Zack has to.
+  queue.sort(function(a,b){ return a.d - b.d; });
+  if (queue.length) {
+    var qrows = queue.slice(0, 10).map(function(q){
+      return '<tr><td class="days-left">' + daysLeft(q.d) + '</td><td>' + esc(q.cls) +
+             '</td><td>' + esc(q.title) + '</td><td class="small">automation</td></tr>';
+    }).join('');
+    html = '<h2>Next up (everything, soonest first)</h2>' +
+      '<p class="small">The next 10 items the runner still has to complete, plus anything on your lists below. ' +
+      'One per day, inside the realistic window (1 to 3 days before due).</p>' +
+      '<table><colgroup><col class="c-days"><col class="c-assn"><col class="c-assn"><col></colgroup>' +
+      '<thead><tr><th>Days</th><th>Class</th><th>Assignment</th><th>Who</th></tr></thead><tbody>' +
+      qrows + '</tbody></table>' + html;
+  }
   document.getElementById('app').innerHTML = html;
   var need = '', inperson = [], unchecked = 0;
   classes.forEach(function(c){

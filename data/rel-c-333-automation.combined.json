@@ -133,10 +133,7 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": {
-    "verdict": "manual",
-    "why": "Attendance check; credit comes from being in the room 12:00-12:50 MT"
-   },
+   "judge": null,
    "surface": false,
    "actionable": false
   },
@@ -188,10 +185,7 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": {
-    "verdict": "manual",
-    "why": "Attendance check tied to physical presence in that class meeting"
-   },
+   "judge": null,
    "surface": false,
    "actionable": false
   },
@@ -353,10 +347,7 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": {
-    "verdict": "manual",
-    "why": "In-class attendance check; presence is the graded act, not a submission"
-   },
+   "judge": null,
    "surface": false,
    "actionable": false
   },
@@ -408,10 +399,7 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": {
-    "verdict": "manual",
-    "why": "Name is an attendance check for the in-person session"
-   },
+   "judge": null,
    "surface": false,
    "actionable": false
   },
@@ -437,10 +425,7 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": {
-    "verdict": "manual",
-    "why": "Attendance recorded in the room; LTI tool box does not change that"
-   },
+   "judge": null,
    "surface": false,
    "actionable": false
   },
@@ -492,10 +477,7 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": {
-    "verdict": "manual",
-    "why": "In-class attendance/participation credit; no remote equivalent"
-   },
+   "judge": null,
    "surface": false,
    "actionable": false
   },
@@ -547,10 +529,7 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": {
-    "verdict": "manual",
-    "why": "Attendance check; physical presence is the graded act"
-   },
+   "judge": null,
    "surface": false,
    "actionable": false
   },
@@ -602,10 +581,7 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": {
-    "verdict": "manual",
-    "why": "Attendance check for the in-person session"
-   },
+   "judge": null,
    "surface": false,
    "actionable": false
   },
@@ -659,7 +635,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Attendance taken in the classroom, not an online quiz path"
+    "why": "Attendance recorded in the classroom, not an online quiz despite the external tool."
    },
    "surface": true,
    "actionable": false
@@ -714,7 +690,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Attendance check requiring presence in the room that day"
+    "why": "Attendance recorded in the classroom, not an online quiz despite the external tool."
    },
    "surface": true,
    "actionable": false
@@ -769,7 +745,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "In-class attendance/participation credit earned in person"
+    "why": "Attendance recorded in the classroom, not an online quiz despite the external tool."
    },
    "surface": true,
    "actionable": false
@@ -824,7 +800,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Attendance check recorded during the in-person class"
+    "why": "Attendance recorded in the classroom, not an online quiz despite the external tool."
    },
    "surface": true,
    "actionable": false
@@ -879,7 +855,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Attendance graded on physical presence in class"
+    "why": "Attendance recorded in the classroom, not an online quiz despite the external tool."
    },
    "surface": true,
    "actionable": false
@@ -934,7 +910,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "In-class attendance check, not completable online by an agent"
+    "why": "Attendance recorded in the classroom, not an online quiz despite the external tool."
    },
    "surface": true,
    "actionable": false
@@ -989,7 +965,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Attendance check for the in-person session"
+    "why": "Attendance recorded in the classroom, not an online quiz despite the external tool."
    },
    "surface": true,
    "actionable": false
@@ -1044,7 +1020,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Attendance check; room presence required"
+    "why": "Attendance recorded in the classroom, not an online quiz despite the external tool."
    },
    "surface": true,
    "actionable": false
@@ -1099,7 +1075,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "In-class attendance check; participation earned in class"
+    "why": "Attendance recorded in the classroom, not an online quiz despite the external tool."
    },
    "surface": true,
    "actionable": false
@@ -1154,7 +1130,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Attendance check recorded in the classroom"
+    "why": "Attendance recorded in the classroom, not an online quiz despite the external tool."
    },
    "surface": true,
    "actionable": false
@@ -1209,7 +1185,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Attendance check where only in-person presence counts"
+    "why": "Attendance recorded in the classroom, not an online quiz despite the external tool."
    },
    "surface": true,
    "actionable": false
@@ -1238,7 +1214,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Attendance check for the in-person session"
+    "why": "Attendance recorded in the classroom, not an online quiz despite the external tool."
    },
    "surface": true,
    "actionable": false
@@ -1293,7 +1269,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Attendance check; body in the room is the requirement"
+    "why": "Attendance recorded in the classroom, not an online quiz despite the external tool."
    },
    "surface": true,
    "actionable": false
@@ -1322,7 +1298,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "In-class attendance check, not remotely completable"
+    "why": "Attendance recorded in the classroom, not an online quiz despite the external tool."
    },
    "surface": true,
    "actionable": false
@@ -1377,7 +1353,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Attendance check recorded during the in-person class"
+    "why": "Attendance recorded in the classroom, not an online quiz despite the external tool."
    },
    "surface": true,
    "actionable": false
@@ -1404,10 +1380,7 @@
    },
    "drift": false,
    "needs_zack": true,
-   "judge": {
-    "verdict": "verify",
-    "why": "Slides upload online, but 100pt grade requires in-class group presentation by Zack"
-   },
+   "judge": null,
    "surface": true,
    "actionable": true
   }
@@ -1421,5 +1394,5 @@
   "final_score": 50.96,
   "final_grade": "E"
  },
- "built_at": "2026-10-21T22:18:16.618678+00:00"
+ "built_at": "2026-10-21T22:22:17.727343+00:00"
 }

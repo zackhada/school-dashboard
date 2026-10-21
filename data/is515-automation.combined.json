@@ -493,7 +493,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Named exam; timed non-collaborative comprehensive exam, no online submission path, note marks it student-taken in person"
+    "why": "Named EXAM2, comprehensive non-collaborative exam; exam-name rule makes it manual despite take-home format"
    },
    "surface": true,
    "actionable": true
@@ -508,5 +508,5 @@
   "final_score": 43.0,
   "final_grade": "E"
  },
- "built_at": "2026-10-21T22:18:16.649150+00:00"
+ "built_at": "2026-10-21T22:22:17.757779+00:00"
 }

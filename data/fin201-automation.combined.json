@@ -78,7 +78,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Named midterm exam, no online submission path, note says taken in class 3:30pm"
+    "why": "Named midterm exam taken in class at 3:30pm, no submission_types and no online path."
    },
    "surface": true,
    "actionable": true
@@ -160,7 +160,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Named midterm exam, no online submission path, note says taken in class 3:30pm"
+    "why": "Named midterm exam taken in class at 3:30pm, no submission_types and no online path."
    },
    "surface": true,
    "actionable": true
@@ -242,7 +242,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Named midterm exam, no online submission path, note says taken in class 3:30pm"
+    "why": "Named midterm exam taken in class at 3:30pm, no submission_types and no online path."
    },
    "surface": true,
    "actionable": true
@@ -302,7 +302,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Final exam held in class 5:00pm, no online submission path"
+    "why": "Final exam held in class at 5:00pm, no submission_types and no online submission path."
    },
    "surface": true,
    "actionable": true
@@ -312,5 +312,5 @@
  "needs": null,
  "course_id": null,
  "overall": {},
- "built_at": "2026-10-21T22:18:16.644976+00:00"
+ "built_at": "2026-10-21T22:22:17.753826+00:00"
 }

@@ -117,7 +117,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Requires meeting a TA in person at lab room B090 JFSB; no online path"
+    "why": "Requires meeting a TA in person at the B090 JFSB lab; no online submission path."
    },
    "surface": true,
    "actionable": true
@@ -212,7 +212,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Must meet TA in person and pass off a Mankiw 1 question"
+    "why": "Must meet the TA in person and verbally pass off a Mankiw 1 question."
    },
    "surface": true,
    "actionable": true
@@ -333,7 +333,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Must meet TA in person and pass off a Mankiw 2 question"
+    "why": "Must meet the TA in person and verbally pass off a Mankiw 2 question."
    },
    "surface": true,
    "actionable": true
@@ -450,7 +450,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Must meet TA in person and pass off a Mankiw 3 question"
+    "why": "Must meet the TA in person and verbally pass off a Mankiw 3 question."
    },
    "surface": true,
    "actionable": true
@@ -519,7 +519,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Midterm exam held in class at 4:00pm; no online submission path"
+    "why": "In-class midterm exam at 4:00pm, no online submission path."
    },
    "surface": true,
    "actionable": true
@@ -566,7 +566,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Must meet TA in person and pass off a Mankiw 4 question"
+    "why": "Must meet the TA in person and verbally pass off a Mankiw 4 question."
    },
    "surface": true,
    "actionable": true
@@ -679,7 +679,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Must meet TA in person and pass off a Mankiw 5 question"
+    "why": "Must meet the TA in person and verbally pass off a Mankiw 5 question."
    },
    "surface": true,
    "actionable": true
@@ -748,7 +748,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Must meet TA in person and pass off a Mankiw 6 question"
+    "why": "Must meet the TA in person and verbally pass off a Mankiw 6 question."
    },
    "surface": true,
    "actionable": true
@@ -817,7 +817,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Must meet TA in person and pass off a Mankiw 7 question"
+    "why": "Must meet the TA in person and verbally pass off a Mankiw 7 question."
    },
    "surface": true,
    "actionable": true
@@ -908,7 +908,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Midterm exam held in class at 7:00pm; no online submission path"
+    "why": "In-class midterm exam at 7:00pm, no online submission path."
    },
    "surface": true,
    "actionable": true
@@ -933,7 +933,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Must meet TA in person and pass off a Mankiw 8 question"
+    "why": "Must meet the TA in person and verbally pass off a Mankiw 8 question."
    },
    "surface": true,
    "actionable": true
@@ -1002,7 +1002,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Must meet TA in person and pass off a Mankiw 9 question"
+    "why": "Must meet the TA in person and verbally pass off a Mankiw 9 question."
    },
    "surface": true,
    "actionable": true
@@ -1071,7 +1071,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Must meet TA in person and pass off a Mankiw 10 question"
+    "why": "Must meet the TA in person and verbally pass off a Mankiw 10 question."
    },
    "surface": true,
    "actionable": true
@@ -1206,7 +1206,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Must meet TA in person and pass off a Mankiw 11 question"
+    "why": "Must meet the TA in person and verbally pass off a Mankiw 11 question."
    },
    "surface": true,
    "actionable": true
@@ -1253,7 +1253,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Final exam held in class at 6:00pm; no online submission path"
+    "why": "In-class final exam at 6:00pm, no online submission path."
    },
    "surface": true,
    "actionable": true
@@ -1288,5 +1288,5 @@
   "current_score": 72.61,
   "source": "learning-suite-points"
  },
- "built_at": "2026-10-21T22:18:16.672471+00:00"
+ "built_at": "2026-10-21T22:22:17.780798+00:00"
 }
