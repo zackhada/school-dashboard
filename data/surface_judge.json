@@ -1,41 +1,268 @@
 {
- "generated_at": "2026-10-21T22:16:47.195745+00:00",
+ "generated_at": "2026-10-21T22:18:01.662957+00:00",
  "model": "opencode-go/deepseek-v4.1-flash",
  "repos": {
   "econ110-automation": {
-   "detail": "ERROR:opencode/deepseek-v4.1-flash-free: rc=1 \u001b[0m\n> build \u00b7 deepseek-v4.1-flash-free\n\u001b[0m\n\u001b[91m\u001b[1mError: \u001b[0mUpstream request failed: Invalid credential\n",
+   "detail": null,
    "judged": 15,
-   "verdicts": {}
+   "verdicts": {
+    "ECON_FINAL": {
+     "verdict": "manual",
+     "why": "In-class final exam at 6:00pm, no online submission path."
+    },
+    "ECON_MEET_TA": {
+     "verdict": "manual",
+     "why": "Requires meeting a TA in person at the B090 JFSB lab; no online submission path."
+    },
+    "ECON_MIDTERM_1": {
+     "verdict": "manual",
+     "why": "In-class midterm exam at 4:00pm, no online submission path."
+    },
+    "ECON_MIDTERM_2": {
+     "verdict": "manual",
+     "why": "In-class midterm exam at 7:00pm, no online submission path."
+    },
+    "ECON_TA_PASSOFF_1": {
+     "verdict": "manual",
+     "why": "Must meet the TA in person and verbally pass off a Mankiw 1 question."
+    },
+    "ECON_TA_PASSOFF_10": {
+     "verdict": "manual",
+     "why": "Must meet the TA in person and verbally pass off a Mankiw 10 question."
+    },
+    "ECON_TA_PASSOFF_11": {
+     "verdict": "manual",
+     "why": "Must meet the TA in person and verbally pass off a Mankiw 11 question."
+    },
+    "ECON_TA_PASSOFF_2": {
+     "verdict": "manual",
+     "why": "Must meet the TA in person and verbally pass off a Mankiw 2 question."
+    },
+    "ECON_TA_PASSOFF_3": {
+     "verdict": "manual",
+     "why": "Must meet the TA in person and verbally pass off a Mankiw 3 question."
+    },
+    "ECON_TA_PASSOFF_4": {
+     "verdict": "manual",
+     "why": "Must meet the TA in person and verbally pass off a Mankiw 4 question."
+    },
+    "ECON_TA_PASSOFF_5": {
+     "verdict": "manual",
+     "why": "Must meet the TA in person and verbally pass off a Mankiw 5 question."
+    },
+    "ECON_TA_PASSOFF_6": {
+     "verdict": "manual",
+     "why": "Must meet the TA in person and verbally pass off a Mankiw 6 question."
+    },
+    "ECON_TA_PASSOFF_7": {
+     "verdict": "manual",
+     "why": "Must meet the TA in person and verbally pass off a Mankiw 7 question."
+    },
+    "ECON_TA_PASSOFF_8": {
+     "verdict": "manual",
+     "why": "Must meet the TA in person and verbally pass off a Mankiw 8 question."
+    },
+    "ECON_TA_PASSOFF_9": {
+     "verdict": "manual",
+     "why": "Must meet the TA in person and verbally pass off a Mankiw 9 question."
+    }
+   }
   },
   "fin201-automation": {
-   "detail": "ERROR:opencode/deepseek-v4.1-flash-free: rc=1 \u001b[0m\n> build \u00b7 deepseek-v4.1-flash-free\n\u001b[0m\n\u001b[91m\u001b[1mError: \u001b[0mUpstream request failed: Invalid credential\n",
+   "detail": null,
    "judged": 4,
-   "verdicts": {}
+   "verdicts": {
+    "FIN_FINAL": {
+     "verdict": "manual",
+     "why": "Final exam held in class at 5:00pm, no submission_types and no online submission path."
+    },
+    "FIN_MIDTERM_1": {
+     "verdict": "manual",
+     "why": "Named midterm exam taken in class at 3:30pm, no submission_types and no online path."
+    },
+    "FIN_MIDTERM_2": {
+     "verdict": "manual",
+     "why": "Named midterm exam taken in class at 3:30pm, no submission_types and no online path."
+    },
+    "FIN_MIDTERM_3": {
+     "verdict": "manual",
+     "why": "Named midterm exam taken in class at 3:30pm, no submission_types and no online path."
+    }
+   }
   },
   "hrm391-automation": {
-   "detail": "ERROR:opencode/deepseek-v4.1-flash-free: rc=1 \u001b[0m\n> build \u00b7 deepseek-v4.1-flash-free\n\u001b[0m\n\u001b[91m\u001b[1mError: \u001b[0mUpstream request failed: Invalid credential\n",
+   "detail": null,
    "judged": 2,
-   "verdicts": {}
+   "verdicts": {
+    "PROF_PERSPECTIVE_INTERVIEW": {
+     "verdict": "manual",
+     "why": "On-paper item: printed notes and summary must be brought to class for in-class peer check"
+    },
+    "SERVICE_PROJECT_PART_2_GROUP_ANALYSIS_AN": {
+     "verdict": "verify",
+     "why": "model called it automatable, but the item name needs a human call: Service Project\u2014Part 2: Group Analysis and Individual Reflec"
+    }
+   }
   },
   "is515-automation": {
-   "detail": "ERROR:opencode/deepseek-v4.1-flash-free: rc=1 \u001b[0m\n> build \u00b7 deepseek-v4.1-flash-free\n\u001b[0m\n\u001b[91m\u001b[1mError: \u001b[0mUpstream request failed: Invalid credential\n",
+   "detail": null,
    "judged": 1,
-   "verdicts": {}
+   "verdicts": {
+    "IS_EXAM2": {
+     "verdict": "manual",
+     "why": "Named EXAM2, comprehensive non-collaborative exam; exam-name rule makes it manual despite take-home format"
+    }
+   }
   },
   "pse390-automation": {
-   "detail": "ERROR:opencode/deepseek-v4.1-flash-free: rc=1 \u001b[0m\n> build \u00b7 deepseek-v4.1-flash-free\n\u001b[0m\n\u001b[91m\u001b[1mError: \u001b[0mUpstream request failed: Invalid credential\n",
+   "detail": null,
    "judged": 17,
-   "verdicts": {}
+   "verdicts": {
+    "PARTICIPATION_QUIZ_10_13": {
+     "verdict": "manual",
+     "why": "Participation quiz: student fills in today's in-class participation code"
+    },
+    "PARTICIPATION_QUIZ_10_13_2": {
+     "verdict": "manual",
+     "why": "Participation quiz series; deleted upstream (404), no online path"
+    },
+    "PARTICIPATION_QUIZ_11_03": {
+     "verdict": "manual",
+     "why": "Participation quiz: credit earned by in-class participation"
+    },
+    "PARTICIPATION_QUIZ_11_05": {
+     "verdict": "manual",
+     "why": "Participation quiz: credit earned by in-class participation"
+    },
+    "PARTICIPATION_QUIZ_11_10": {
+     "verdict": "manual",
+     "why": "Participation quiz: credit earned by in-class participation"
+    },
+    "PARTICIPATION_QUIZ_11_12": {
+     "verdict": "manual",
+     "why": "Participation quiz: credit earned by in-class participation"
+    },
+    "PARTICIPATION_QUIZ_11_17": {
+     "verdict": "manual",
+     "why": "Participation quiz: credit earned by in-class participation"
+    },
+    "PARTICIPATION_QUIZ_11_19": {
+     "verdict": "manual",
+     "why": "Participation quiz: credit earned by in-class participation"
+    },
+    "PARTICIPATION_QUIZ_11_24": {
+     "verdict": "manual",
+     "why": "Participation quiz: credit earned by in-class participation"
+    },
+    "PARTICIPATION_QUIZ_12_01": {
+     "verdict": "manual",
+     "why": "Participation quiz: credit earned by in-class participation"
+    },
+    "PARTICIPATION_QUIZ_12_03": {
+     "verdict": "manual",
+     "why": "Participation quiz: credit earned by in-class participation"
+    },
+    "PARTICIPATION_QUIZ_12_08": {
+     "verdict": "manual",
+     "why": "Participation quiz: credit earned by in-class participation"
+    },
+    "PARTICIPATION_QUIZ_12_10": {
+     "verdict": "manual",
+     "why": "Participation quiz: credit earned by in-class participation"
+    },
+    "PARTICIPATION_QUIZ_OCT20": {
+     "verdict": "manual",
+     "why": "Participation quiz: credit earned by in-class participation"
+    },
+    "PARTICIPATION_QUIZ_OCT22": {
+     "verdict": "manual",
+     "why": "Participation quiz: credit earned by in-class participation"
+    },
+    "PARTICIPATION_QUIZ_OCT27": {
+     "verdict": "manual",
+     "why": "Participation quiz: credit earned by in-class participation"
+    },
+    "PARTICIPATION_QUIZ_OCT29": {
+     "verdict": "manual",
+     "why": "Participation quiz: credit earned by in-class participation"
+    }
+   }
   },
   "rel-c-333-automation": {
-   "detail": "ERROR:opencode/deepseek-v4.1-flash-free: rc=1 \u001b[0m\n> build \u00b7 deepseek-v4.1-flash-free\n\u001b[0m\n\u001b[91m\u001b[1mError: \u001b[0mUpstream request failed: Invalid credential\n",
-   "judged": 16,
-   "verdicts": {}
+   "detail": null,
+   "judged": 15,
+   "verdicts": {
+    "10_20_ATTENDANCE_CHECK": {
+     "verdict": "manual",
+     "why": "Attendance recorded in the classroom, not an online quiz despite the external tool."
+    },
+    "10_22_ATTENDANCE_CHECK": {
+     "verdict": "manual",
+     "why": "Attendance recorded in the classroom, not an online quiz despite the external tool."
+    },
+    "10_27_ATTENDANCE_CHECK": {
+     "verdict": "manual",
+     "why": "Attendance recorded in the classroom, not an online quiz despite the external tool."
+    },
+    "10_29_ATTENDANCE_CHECK": {
+     "verdict": "manual",
+     "why": "Attendance recorded in the classroom, not an online quiz despite the external tool."
+    },
+    "11_10_ATTENDANCE_CHECK": {
+     "verdict": "manual",
+     "why": "Attendance recorded in the classroom, not an online quiz despite the external tool."
+    },
+    "11_12_ATTENDANCE_CHECK": {
+     "verdict": "manual",
+     "why": "Attendance recorded in the classroom, not an online quiz despite the external tool."
+    },
+    "11_17_ATTENDANCE_CHECK": {
+     "verdict": "manual",
+     "why": "Attendance recorded in the classroom, not an online quiz despite the external tool."
+    },
+    "11_19_ATTENDANCE_CHECK": {
+     "verdict": "manual",
+     "why": "Attendance recorded in the classroom, not an online quiz despite the external tool."
+    },
+    "11_24_ATTENDANCE_CHECK": {
+     "verdict": "manual",
+     "why": "Attendance recorded in the classroom, not an online quiz despite the external tool."
+    },
+    "11_3_ATTENDANCE_CHECK": {
+     "verdict": "manual",
+     "why": "Attendance recorded in the classroom, not an online quiz despite the external tool."
+    },
+    "11_5_ATTENDANCE_CHECK": {
+     "verdict": "manual",
+     "why": "Attendance recorded in the classroom, not an online quiz despite the external tool."
+    },
+    "12_10_ATTENDANCE_CHECK": {
+     "verdict": "manual",
+     "why": "Attendance recorded in the classroom, not an online quiz despite the external tool."
+    },
+    "12_1_ATTENDANCE_CHECK": {
+     "verdict": "manual",
+     "why": "Attendance recorded in the classroom, not an online quiz despite the external tool."
+    },
+    "12_3_ATTENDANCE_CHECK": {
+     "verdict": "manual",
+     "why": "Attendance recorded in the classroom, not an online quiz despite the external tool."
+    },
+    "12_8_ATTENDANCE_CHECK": {
+     "verdict": "manual",
+     "why": "Attendance recorded in the classroom, not an online quiz despite the external tool."
+    }
+   }
   },
   "strat392-automation": {
-   "detail": "ERROR:opencode/deepseek-v4.1-flash-free: rc=1 \u001b[0m\n> build \u00b7 deepseek-v4.1-flash-free\n\u001b[0m\n\u001b[91m\u001b[1mError: \u001b[0mUpstream request failed: Invalid credential\n",
-   "judged": 2,
-   "verdicts": {}
+   "detail": null,
+   "judged": 1,
+   "verdicts": {
+    "SESSION1_WHAT_IS_STRATEGY": {
+     "verdict": "manual",
+     "why": "No online submission (submission_types=none); deliverable was bringing examples to the Sep 8 class in person"
+    }
+   }
   }
  }
 }
