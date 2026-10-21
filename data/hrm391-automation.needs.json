@@ -1,4 +1,4 @@
 {
  "repo": "zackhada/hrm391-automation",
- "text": "Needs Zack (action / decision):\n- HRM 391 Exam 1 (56 pts, remotely proctored) is OPEN and due TONIGHT Wed Oct 21 11:59pm MT (Canvas shows due 2026-10-22T05:59:59Z, not yet late). Zack takes it himself (proctored). Do not automate.\n- Unit 1 Mid-term Checkpoints (2 surveys, 1 pt each, Canvas 1508956 / 1511530): both LOCKED since Oct 7 11:00am MT and never taken. Zack decides whether to ask Tennis for a makeup; the automation cannot open them.\n- Breaking Bread group doc (25 pts) was submitted 2026-10-21 4:13pm UTC. No action needed."
+ "text": "Needs Zack (decision):\n- Unit 1 Mid-term Checkpoints (Canvas 1508956 / 1511530, 1 pt each): both LOCKED since Oct 7 11:00am MT and never taken. Zack decides whether to ask Tennis for a makeup; the automation cannot open them.\nNo other action needed:\n- Exam 1 (56 pts, remotely proctored) submitted 2026-10-21T20:54:12Z, 36/56, awaiting review. Zack took it himself, as it should be.\n- Breaking Bread group doc (25 pts) submitted 2026-10-21T16:13:02Z, late, no action."
 }

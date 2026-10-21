@@ -240,10 +240,10 @@
   },
   {
    "key": "SERVICE_PROJECT_PART_2_GROUP_ANALYSIS_AN",
-   "status": "pending",
+   "status": "blocked_ask_zack",
    "date": "2026-11-22",
-   "note": "# Canvas 1513919, 100pt, Service Project\u2014Part 2: Group Analysis and Individual Reflection (in-class/participation; drift-added 2026-10-21) (judged automatable 2026-10-21: online, no proctoring)",
-   "title": "Service Project\u2014Part 2: Group Analysis and Individual Reflection (in-class/participation; drift-added 2026-10-21)",
+   "note": "# Canvas 1513919, 100pt, Service Project\u2014Part 2: Group Analysis and Individual Reflection. Group analysis plus an individual reflection, so it needs the group's inputs and his own accounting before upload. Not a solo automation job. [manual:verify-group-analysis-needs-zack-and-his-team]",
+   "title": "Service Project\u2014Part 2: Group Analysis and Individual Reflection. Group analysis plus an individual reflection, so it needs the group's inputs and his own accounting before upload. Not a solo automation job.",
    "grade": {
     "canvas_id": 1513919,
     "name": "Service Project\u2014Part 2: Group Analysis and Individual Reflection",
@@ -264,7 +264,7 @@
     "verdict": "verify",
     "why": "model called it automatable, but the item name needs a human call: Service Project\u2014Part 2: Group Analysis and Individual Reflec"
    },
-   "surface": false
+   "surface": true
   },
   {
    "key": "UNIT_1_MID_TERM_CHECKPOINT_2",
@@ -293,7 +293,7 @@
   }
  ],
  "unmatched_canvas": [],
- "needs": "Needs Zack (action / decision):\n- HRM 391 Exam 1 (56 pts, remotely proctored) is OPEN and due TONIGHT Wed Oct 21 11:59pm MT (Canvas shows due 2026-10-22T05:59:59Z, not yet late). Zack takes it himself (proctored). Do not automate.\n- Unit 1 Mid-term Checkpoints (2 surveys, 1 pt each, Canvas 1508956 / 1511530): both LOCKED since Oct 7 11:00am MT and never taken. Zack decides whether to ask Tennis for a makeup; the automation cannot open them.\n- Breaking Bread group doc (25 pts) was submitted 2026-10-21 4:13pm UTC. No action needed.",
+ "needs": "Needs Zack (decision):\n- Unit 1 Mid-term Checkpoints (Canvas 1508956 / 1511530, 1 pt each): both LOCKED since Oct 7 11:00am MT and never taken. Zack decides whether to ask Tennis for a makeup; the automation cannot open them.\nNo other action needed:\n- Exam 1 (56 pts, remotely proctored) submitted 2026-10-21T20:54:12Z, 36/56, awaiting review. Zack took it himself, as it should be.\n- Breaking Bread group doc (25 pts) submitted 2026-10-21T16:13:02Z, late, no action.",
  "course_id": 37899,
  "overall": {
   "current_score": 100.0,
@@ -301,5 +301,5 @@
   "final_score": 16.25,
   "final_grade": "E"
  },
- "built_at": "2026-10-21T22:09:52.453266+00:00"
+ "built_at": "2026-10-21T22:11:44.348972+00:00"
 }
