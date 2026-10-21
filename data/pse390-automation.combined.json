@@ -425,10 +425,7 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": {
-    "verdict": "manual",
-    "why": "Participation quiz series; deleted upstream (404), no online path"
-   },
+   "judge": null,
    "surface": true,
    "actionable": true
   },
@@ -480,10 +477,7 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": {
-    "verdict": "manual",
-    "why": "Participation quiz: student fills in today's in-class participation code"
-   },
+   "judge": null,
    "surface": true,
    "actionable": false
   },
@@ -541,10 +535,7 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": {
-    "verdict": "manual",
-    "why": "Participation quiz: credit earned by in-class participation"
-   },
+   "judge": null,
    "surface": true,
    "actionable": false
   },
@@ -570,10 +561,7 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": {
-    "verdict": "manual",
-    "why": "Participation quiz: credit earned by in-class participation"
-   },
+   "judge": null,
    "surface": true,
    "actionable": false
   },
@@ -664,10 +652,7 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": {
-    "verdict": "manual",
-    "why": "Participation quiz: credit earned by in-class participation"
-   },
+   "judge": null,
    "surface": true,
    "actionable": false
   },
@@ -693,10 +678,7 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": {
-    "verdict": "manual",
-    "why": "Participation quiz: credit earned by in-class participation"
-   },
+   "judge": null,
    "surface": true,
    "actionable": false
   },
@@ -748,10 +730,7 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": {
-    "verdict": "manual",
-    "why": "Participation quiz: credit earned by in-class participation"
-   },
+   "judge": null,
    "surface": true,
    "actionable": false
   },
@@ -777,10 +756,7 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": {
-    "verdict": "manual",
-    "why": "Participation quiz: credit earned by in-class participation"
-   },
+   "judge": null,
    "surface": true,
    "actionable": false
   },
@@ -832,10 +808,7 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": {
-    "verdict": "manual",
-    "why": "Participation quiz: credit earned by in-class participation"
-   },
+   "judge": null,
    "surface": true,
    "actionable": false
   },
@@ -861,10 +834,7 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": {
-    "verdict": "manual",
-    "why": "Participation quiz: credit earned by in-class participation"
-   },
+   "judge": null,
    "surface": true,
    "actionable": false
   },
@@ -916,10 +886,7 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": {
-    "verdict": "manual",
-    "why": "Participation quiz: credit earned by in-class participation"
-   },
+   "judge": null,
    "surface": true,
    "actionable": false
   },
@@ -945,10 +912,7 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": {
-    "verdict": "manual",
-    "why": "Participation quiz: credit earned by in-class participation"
-   },
+   "judge": null,
    "surface": true,
    "actionable": false
   },
@@ -1000,10 +964,7 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": {
-    "verdict": "manual",
-    "why": "Participation quiz: credit earned by in-class participation"
-   },
+   "judge": null,
    "surface": true,
    "actionable": false
   },
@@ -1055,10 +1016,7 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": {
-    "verdict": "manual",
-    "why": "Participation quiz: credit earned by in-class participation"
-   },
+   "judge": null,
    "surface": true,
    "actionable": false
   },
@@ -1084,10 +1042,7 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": {
-    "verdict": "manual",
-    "why": "Participation quiz: credit earned by in-class participation"
-   },
+   "judge": null,
    "surface": true,
    "actionable": false
   },
@@ -1139,10 +1094,7 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": {
-    "verdict": "manual",
-    "why": "Participation quiz: credit earned by in-class participation"
-   },
+   "judge": null,
    "surface": true,
    "actionable": false
   },
@@ -1168,10 +1120,7 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": {
-    "verdict": "manual",
-    "why": "Participation quiz: credit earned by in-class participation"
-   },
+   "judge": null,
    "surface": true,
    "actionable": false
   },
@@ -1211,5 +1160,5 @@
   "final_score": 19.12,
   "final_grade": "E"
  },
- "built_at": "2026-10-21T22:31:50.961390+00:00"
+ "built_at": "2026-10-21T22:52:43.074347+00:00"
 }

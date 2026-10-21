@@ -115,10 +115,7 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": {
-    "verdict": "manual",
-    "why": "Requires meeting a TA in person at the B090 JFSB lab; no online submission path."
-   },
+   "judge": null,
    "surface": true,
    "actionable": true
   },
@@ -210,10 +207,7 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": {
-    "verdict": "manual",
-    "why": "Must meet the TA in person and verbally pass off a Mankiw 1 question."
-   },
+   "judge": null,
    "surface": true,
    "actionable": true
   },
@@ -331,10 +325,7 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": {
-    "verdict": "manual",
-    "why": "Must meet the TA in person and verbally pass off a Mankiw 2 question."
-   },
+   "judge": null,
    "surface": true,
    "actionable": true
   },
@@ -448,10 +439,7 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": {
-    "verdict": "manual",
-    "why": "Must meet the TA in person and verbally pass off a Mankiw 3 question."
-   },
+   "judge": null,
    "surface": true,
    "actionable": true
   },
@@ -517,10 +505,7 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": {
-    "verdict": "manual",
-    "why": "In-class midterm exam at 4:00pm, no online submission path."
-   },
+   "judge": null,
    "surface": true,
    "actionable": true
   },
@@ -564,10 +549,7 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": {
-    "verdict": "manual",
-    "why": "Must meet the TA in person and verbally pass off a Mankiw 4 question."
-   },
+   "judge": null,
    "surface": true,
    "actionable": true
   },
@@ -677,10 +659,7 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": {
-    "verdict": "manual",
-    "why": "Must meet the TA in person and verbally pass off a Mankiw 5 question."
-   },
+   "judge": null,
    "surface": true,
    "actionable": true
   },
@@ -746,10 +725,7 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": {
-    "verdict": "manual",
-    "why": "Must meet the TA in person and verbally pass off a Mankiw 6 question."
-   },
+   "judge": null,
    "surface": true,
    "actionable": true
   },
@@ -815,10 +791,7 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": {
-    "verdict": "manual",
-    "why": "Must meet the TA in person and verbally pass off a Mankiw 7 question."
-   },
+   "judge": null,
    "surface": true,
    "actionable": true
   },
@@ -906,10 +879,7 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": {
-    "verdict": "manual",
-    "why": "In-class midterm exam at 7:00pm, no online submission path."
-   },
+   "judge": null,
    "surface": true,
    "actionable": true
   },
@@ -931,10 +901,7 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": {
-    "verdict": "manual",
-    "why": "Must meet the TA in person and verbally pass off a Mankiw 8 question."
-   },
+   "judge": null,
    "surface": true,
    "actionable": true
   },
@@ -1000,10 +967,7 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": {
-    "verdict": "manual",
-    "why": "Must meet the TA in person and verbally pass off a Mankiw 9 question."
-   },
+   "judge": null,
    "surface": true,
    "actionable": true
   },
@@ -1069,10 +1033,7 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": {
-    "verdict": "manual",
-    "why": "Must meet the TA in person and verbally pass off a Mankiw 10 question."
-   },
+   "judge": null,
    "surface": true,
    "actionable": true
   },
@@ -1204,10 +1165,7 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": {
-    "verdict": "manual",
-    "why": "Must meet the TA in person and verbally pass off a Mankiw 11 question."
-   },
+   "judge": null,
    "surface": true,
    "actionable": true
   },
@@ -1251,10 +1209,7 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": {
-    "verdict": "manual",
-    "why": "In-class final exam at 6:00pm, no online submission path."
-   },
+   "judge": null,
    "surface": true,
    "actionable": true
   },
@@ -1288,5 +1243,5 @@
   "current_score": 72.61,
   "source": "learning-suite-points"
  },
- "built_at": "2026-10-21T22:31:50.991735+00:00"
+ "built_at": "2026-10-21T22:52:43.128274+00:00"
 }

@@ -59,13 +59,13 @@
    "key": "UNIT_1_MID_TERM_CHECKPOINT",
    "status": "blocked_ask_zack",
    "date": "2026-10-21",
-   "note": "# Canvas 1511530 / quiz 663964, 1pt graded survey, LOCKED 2026-10-07T17:00:00Z (closed Oct 7 11am MT), never takeable; missed Unit 1 item. Zack decides whether to request a makeup. (judged automatable 2026-10-21: Online submission path, no proctoring evidence.) [manual:verify-closed-survey-zack-decides-on-makeup]"
+   "note": "# Canvas 1511530 / quiz 663964, 1pt graded survey, LOCKED 2026-10-07T17:00:00Z (closed Oct 7 11am MT). Re-verified live 2026-10-21: quiz page says \"locked Oct 7 at 11am\", no Take button, submission unsubmitted. Missed Unit 1 item; only Zack can ask Tennis for a makeup or decide to let it go. If Tennis reopens it, set this row back to pending."
   },
   {
    "key": "SERVICE_PROJECT_PART_2_GROUP_ANALYSIS_AN",
    "status": "blocked_ask_zack",
    "date": "2026-11-22",
-   "note": "# Canvas 1513919, 100pt, Service Project\u2014Part 2: Group Analysis and Individual Reflection. Group analysis plus an individual reflection, so it needs the group's inputs and his own accounting before upload. Not a solo automation job. [manual:verify-model-called-it-automatable-but-the-item-name-needs-a-human-]"
+   "note": "# Canvas 1513919, 100pt, Service Project\u2014Part 2: Group Analysis and Individual Reflection. Group analysis plus an individual reflection, so it needs the group's inputs and his own accounting before upload. Not a solo automation job. [manual:verify-safety-net]"
   },
   {
    "key": "UNIT_1_MID_TERM_CHECKPOINT_2",
