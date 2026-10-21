@@ -16,8 +16,12 @@ mechanisms decide it, in this order:
 `index.html::statusOf` labels a blocked row `in person`, `verify`, `automated`,
 or `agent checking`, and only judged-manual rows enter the "In person +
 proctored" and "Needs your input" lists. Counted-but-unverified rows are shown
-as a footnote, never as an action item. The in-person list also keeps the last
-7 days of missed items so a reopened proctored exam cannot fall off.
+as a footnote, never as an action item.
+Display rules (Zack 2026-10-21): the in-person list shows FUTURE items only (a
+past item is done or missed, not an action) and never shows attendance or
+participation items, because being in class is obvious. `build.py` marks those
+rows `actionable=false`; they still show truthfully as `in person` in the class
+table, they just do not appear on the action list.
 
 ## Refresh model (verified 2026-09-10)
 - Ledger/status: every class runner dispatches `status` after each run and

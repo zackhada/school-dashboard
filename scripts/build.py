@@ -107,6 +107,12 @@ REAL_MANUAL = re.compile(
     r"in-class code|access code|proctor|lockdown browser|testing center|"
     r"webcam|submission_types=none|no online submission|on paper|"
     r"bring to class)")
+# Attendance and participation are class presence, not a task: Zack is in the
+# room anyway, so they never belong in an action list (Zack 2026-10-21).
+ATTENDANCE = re.compile(
+    r"(?i)\battendance\b|participation quiz|participation and engagement|"
+    r"attendance check")
+
 # A block claim that names no evidence at all (the 2026-10-21 STRAT bug).
 VAGUE_BLOCK = re.compile(r"(?i)\(in-class/participation|in-class/participation")
 
@@ -243,7 +249,14 @@ def build_repo(repo):
                      "title": title, "grade": g, "drift": False,
                      "needs_zack": i == nbest,
                      "judge": v or None,
-                     "surface": bool(surface and blocked)})
+                     "surface": bool(surface and blocked),
+                     # Only future, non-attendance manual work is an action
+                     # item. Past items are done or missed, and attendance is
+                     # obvious, so neither belongs on the human's list.
+                     "actionable": bool(surface and blocked
+                                        and not ATTENDANCE.search(
+                                            str(x.get("note") or "") + " "
+                                            + str(title or "")))})
     rows.sort(key=lambda r: r["date"])
     unmatched = [g for g in grades
                  if g.get("canvas_id") is not None

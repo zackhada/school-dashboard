@@ -24,7 +24,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "ATTENDANCE_CHECK_0910",
@@ -49,7 +50,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "SYLLABUS_QUIZ",
@@ -74,7 +76,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "GET_TO_KNOW_YOU",
@@ -105,7 +108,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "ATTENDANCE_CHECK_0915",
@@ -133,7 +137,8 @@
     "verdict": "manual",
     "why": "Attendance check; credit comes from being in the room 12:00-12:50 MT"
    },
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "PRECLASS_PADLET_0915",
@@ -158,7 +163,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "ATTENDANCE_CHECK_0917",
@@ -186,7 +192,8 @@
     "verdict": "manual",
     "why": "Attendance check tied to physical presence in that class meeting"
    },
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "PRECLASS_PADLET_0917",
@@ -211,7 +218,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "ONLINE_WEEK_PADLET_0922",
@@ -236,7 +244,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "ONLINE_WEEK_STUDY_0922",
@@ -261,7 +270,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "BECOME_PROJECT_A",
@@ -292,7 +302,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "PRECLASS_PADLET_0929",
@@ -317,7 +328,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "ATTENDANCE_CHECK_0929",
@@ -345,7 +357,8 @@
     "verdict": "manual",
     "why": "In-class attendance check; presence is the graded act, not a submission"
    },
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "PRECLASS_PADLET_1001",
@@ -370,7 +383,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "ATTENDANCE_CHECK_1001",
@@ -398,7 +412,8 @@
     "verdict": "manual",
     "why": "Name is an attendance check for the in-person session"
    },
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "10_6_ATTENDANCE_CHECK",
@@ -426,7 +441,8 @@
     "verdict": "manual",
     "why": "Attendance recorded in the room; LTI tool box does not change that"
    },
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "10_6_PRE_CLASS_STUDY_AND_PADLET_SHARING",
@@ -451,7 +467,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "10_8_ATTENDANCE_CHECK",
@@ -479,7 +496,8 @@
     "verdict": "manual",
     "why": "In-class attendance/participation credit; no remote equivalent"
    },
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "10_8_PRE_CLASS_STUDY_AND_PADLET_SHARING",
@@ -504,7 +522,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "10_13_ATTENDANCE_CHECK",
@@ -532,7 +551,8 @@
     "verdict": "manual",
     "why": "Attendance check; physical presence is the graded act"
    },
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "10_13_PRE_CLASS_STUDY_AND_PADLET_SHARING",
@@ -557,7 +577,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "10_15_ATTENDANCE_CHECK",
@@ -585,7 +606,8 @@
     "verdict": "manual",
     "why": "Attendance check for the in-person session"
    },
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "10_15_PRE_CLASS_STUDY_AND_PADLET_SHARING",
@@ -610,7 +632,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "10_20_ATTENDANCE_CHECK",
@@ -638,7 +661,8 @@
     "verdict": "manual",
     "why": "Attendance taken in the classroom, not an online quiz path"
    },
-   "surface": true
+   "surface": true,
+   "actionable": false
   },
   {
    "key": "10_20_PRE_CLASS_STUDY_AND_PADLET_SHARING",
@@ -663,7 +687,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "10_22_ATTENDANCE_CHECK",
@@ -691,7 +716,8 @@
     "verdict": "manual",
     "why": "Attendance check requiring presence in the room that day"
    },
-   "surface": true
+   "surface": true,
+   "actionable": false
   },
   {
    "key": "10_22_PRE_CLASS_STUDY_AND_PADLET_SHARING",
@@ -716,7 +742,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "10_27_ATTENDANCE_CHECK",
@@ -744,7 +771,8 @@
     "verdict": "manual",
     "why": "In-class attendance/participation credit earned in person"
    },
-   "surface": true
+   "surface": true,
+   "actionable": false
   },
   {
    "key": "10_27_PRE_CLASS_STUDY_AND_PADLET_SHARING",
@@ -769,7 +797,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "10_29_ATTENDANCE_CHECK",
@@ -797,7 +826,8 @@
     "verdict": "manual",
     "why": "Attendance check recorded during the in-person class"
    },
-   "surface": true
+   "surface": true,
+   "actionable": false
   },
   {
    "key": "10_29_PRE_CLASS_STUDY_AND_PADLET_SHARING",
@@ -822,7 +852,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "11_3_ATTENDANCE_CHECK",
@@ -850,7 +881,8 @@
     "verdict": "manual",
     "why": "Attendance graded on physical presence in class"
    },
-   "surface": true
+   "surface": true,
+   "actionable": false
   },
   {
    "key": "11_3_PRE_CLASS_STUDY_AND_PADLET_SHARING",
@@ -875,7 +907,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "11_5_ATTENDANCE_CHECK",
@@ -903,7 +936,8 @@
     "verdict": "manual",
     "why": "In-class attendance check, not completable online by an agent"
    },
-   "surface": true
+   "surface": true,
+   "actionable": false
   },
   {
    "key": "11_5_PRE_CLASS_STUDY_AND_PADLET_SHARING",
@@ -928,7 +962,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "11_10_ATTENDANCE_CHECK",
@@ -956,7 +991,8 @@
     "verdict": "manual",
     "why": "Attendance check for the in-person session"
    },
-   "surface": true
+   "surface": true,
+   "actionable": false
   },
   {
    "key": "11_10_PRE_CLASS_STUDY_AND_PADLET_SHARING",
@@ -981,7 +1017,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "11_12_ATTENDANCE_CHECK",
@@ -1009,7 +1046,8 @@
     "verdict": "manual",
     "why": "Attendance check; room presence required"
    },
-   "surface": true
+   "surface": true,
+   "actionable": false
   },
   {
    "key": "11_12_PRE_CLASS_STUDY_AND_PADLET_SHARING",
@@ -1034,7 +1072,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "11_17_ATTENDANCE_CHECK",
@@ -1062,7 +1101,8 @@
     "verdict": "manual",
     "why": "In-class attendance check; participation earned in class"
    },
-   "surface": true
+   "surface": true,
+   "actionable": false
   },
   {
    "key": "11_17_PRE_CLASS_STUDY_AND_PADLET_SHARING",
@@ -1087,7 +1127,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "11_19_ATTENDANCE_CHECK",
@@ -1115,7 +1156,8 @@
     "verdict": "manual",
     "why": "Attendance check recorded in the classroom"
    },
-   "surface": true
+   "surface": true,
+   "actionable": false
   },
   {
    "key": "11_19_PRE_CLASS_STUDY_AND_PADLET_SHARING",
@@ -1140,7 +1182,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "11_24_ATTENDANCE_CHECK",
@@ -1168,7 +1211,8 @@
     "verdict": "manual",
     "why": "Attendance check where only in-person presence counts"
    },
-   "surface": true
+   "surface": true,
+   "actionable": false
   },
   {
    "key": "12_1_ATTENDANCE_CHECK",
@@ -1196,7 +1240,8 @@
     "verdict": "manual",
     "why": "Attendance check for the in-person session"
    },
-   "surface": true
+   "surface": true,
+   "actionable": false
   },
   {
    "key": "12_1_PRE_CLASS_STUDY_AND_PADLET_SHARING",
@@ -1221,7 +1266,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "12_3_ATTENDANCE_CHECK",
@@ -1249,7 +1295,8 @@
     "verdict": "manual",
     "why": "Attendance check; body in the room is the requirement"
    },
-   "surface": true
+   "surface": true,
+   "actionable": false
   },
   {
    "key": "12_8_ATTENDANCE_CHECK",
@@ -1277,7 +1324,8 @@
     "verdict": "manual",
     "why": "In-class attendance check, not remotely completable"
    },
-   "surface": true
+   "surface": true,
+   "actionable": false
   },
   {
    "key": "12_8_PRE_CLASS_STUDY_AND_PADLET_SHARING",
@@ -1302,7 +1350,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "12_10_ATTENDANCE_CHECK",
@@ -1330,7 +1379,8 @@
     "verdict": "manual",
     "why": "Attendance check recorded during the in-person class"
    },
-   "surface": true
+   "surface": true,
+   "actionable": false
   },
   {
    "key": "A_PROFILE_OF_A_PROPHET_GROUP_PROJECT",
@@ -1358,7 +1408,8 @@
     "verdict": "verify",
     "why": "Slides upload online, but 100pt grade requires in-class group presentation by Zack"
    },
-   "surface": true
+   "surface": true,
+   "actionable": true
   }
  ],
  "unmatched_canvas": [],
@@ -1370,5 +1421,5 @@
   "final_score": 50.96,
   "final_grade": "E"
  },
- "built_at": "2026-10-21T22:11:44.436400+00:00"
+ "built_at": "2026-10-21T22:12:00.433480+00:00"
 }

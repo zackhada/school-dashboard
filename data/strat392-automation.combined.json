@@ -24,7 +24,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "MEASURING_MARKET_CONCENTRATION",
@@ -49,7 +50,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "INDUSTRY_5FORCES",
@@ -80,7 +82,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "COST_CURVE",
@@ -105,7 +108,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "ALDI_CASE_QUIZ",
@@ -130,7 +134,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "DIFFERENTIATION_QUIZ",
@@ -155,7 +160,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "MORE_COMPANY_CASE_QUIZ",
@@ -180,7 +186,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "DUAL_ADVANTAGE_QUIZ",
@@ -205,7 +212,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "PEST_READING_QUIZ",
@@ -230,7 +238,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "STRATEGY_AS_LEVERAGE_READING_QUIZ",
@@ -255,7 +264,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "THE_BOUNDARIES_OF_THE_FIRM_MAKE_VS_BUY_Q",
@@ -280,7 +290,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "GLOBAL_VS_LOCAL_READING_QUIZ",
@@ -305,7 +316,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "GLOBAL_ENTRY_MODES_READING_QUIZ",
@@ -330,7 +342,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "BUILDING_COMPETITIVE_MOATS_READING_QUIZ",
@@ -355,7 +368,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "DISRUPTION_READING_QUIZ",
@@ -380,7 +394,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "STRATEGIC_ALIGNMENT_READING_QUIZ",
@@ -405,7 +420,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "PLATFORMS_AS_STRATEGY_READING_QUIZ",
@@ -430,7 +446,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "STRATEGY_AND_INNOVATION_READING_QUIZ",
@@ -455,7 +472,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   }
  ],
  "unmatched_canvas": [],
@@ -467,5 +485,5 @@
   "final_score": 56.36,
   "final_grade": "E"
  },
- "built_at": "2026-10-21T22:11:44.364939+00:00"
+ "built_at": "2026-10-21T22:12:00.399695+00:00"
 }

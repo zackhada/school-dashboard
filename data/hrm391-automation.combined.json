@@ -24,7 +24,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "CHOOSE_DEFAULT_ORG",
@@ -55,7 +56,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "PROF_PERSPECTIVE_INTERVIEW",
@@ -83,7 +85,8 @@
     "verdict": "manual",
     "why": "On-paper artifact: printed notes and summary brought to class for in-class peer check"
    },
-   "surface": true
+   "surface": true,
+   "actionable": true
   },
   {
    "key": "WEEK0_ORIENTATION_CHECK",
@@ -108,7 +111,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "OBSERVATION_NOTEBOOK_ENTRIES",
@@ -133,7 +137,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "MID_TERM_CHECKPOINT",
@@ -158,7 +163,8 @@
    "drift": false,
    "needs_zack": true,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "BREAKING_BREAD_COUNTS_TOWARD_FINAL_GRADE",
@@ -183,7 +189,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "UNIT_1_MID_TERM_CHECKPOINT",
@@ -208,7 +215,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "EXAM1",
@@ -236,7 +244,8 @@
     "verdict": "manual",
     "why": "Requires the student in person."
    },
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "SERVICE_PROJECT_PART_2_GROUP_ANALYSIS_AN",
@@ -264,7 +273,8 @@
     "verdict": "verify",
     "why": "model called it automatable, but the item name needs a human call: Service Project\u2014Part 2: Group Analysis and Individual Reflec"
    },
-   "surface": true
+   "surface": true,
+   "actionable": true
   },
   {
    "key": "UNIT_1_MID_TERM_CHECKPOINT_2",
@@ -289,7 +299,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   }
  ],
  "unmatched_canvas": [],
@@ -301,5 +312,5 @@
   "final_score": 16.25,
   "final_grade": "E"
  },
- "built_at": "2026-10-21T22:11:44.348972+00:00"
+ "built_at": "2026-10-21T22:12:00.393171+00:00"
 }

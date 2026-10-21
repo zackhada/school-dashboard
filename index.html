@@ -143,7 +143,7 @@ Promise.all(REPOS.map(function(pair){
   }).then(function(c){
     return {name: pair[0], repo: pair[1],
       rows: (c.rows || []).filter(function(x){ return !x.drift; }).map(function(x){
-        return {key: x.key, status: x.status, date: x.date, note: x.note, grade: x.grade || null, needs: !!x.needs_zack, judge: x.judge || null, surface: !!x.surface};
+        return {key: x.key, status: x.status, date: x.date, note: x.note, grade: x.grade || null, needs: !!x.needs_zack, judge: x.judge || null, surface: !!x.surface, actionable: (x.actionable === undefined ? !!x.surface : !!x.actionable)};
       }),
       course: c.course_id || null,
       needs: c.needs || null,
@@ -192,6 +192,7 @@ Promise.all(REPOS.map(function(pair){
       // evidence gate, if the judge has not run) says a human is really
       // required. Everything else is work the runner can still do.
       var surfaced = !!x.surface || (x.judge && (x.judge.verdict === 'manual' || x.judge.verdict === 'verify')) || x.status === 'blocked_ask_zack';
+      var actionable = (x.actionable !== undefined) ? !!x.actionable : surfaced;
       if (isBlocked && !surfaced && !x.needs) { if (x.status !== 'done') unchecked++; return; }
       var waitsOnYou = (isBlocked && surfaced) || (x.needs && x.status !== 'done');
       if (!waitsOnYou) return;
@@ -204,11 +205,11 @@ Promise.all(REPOS.map(function(pair){
         // PARTICIPATION_QUIZ_10_13_2, "404 deleted upstream"); they are not
         // real upcoming deadlines and must never surface here.
         if (/\b(404|deleted|removed upstream|no longer)\b/i.test(x.note || '')) return;
-        // Show ALL upcoming in-person/proctored items (no forward cap) so a
-        // further-out exam can never hide, plus anything missed in the last
-        // fortnight (a just-missed proctored exam is the most urgent row there
-        // is). Sort soonest-first below.
-        if (d && d >= now - 7*864e5) {
+        // Future items only. A past item is either done or already missed, and
+        // attendance is not a task at all, so neither is an action item. Show
+        // ALL upcoming in-person/proctored items (no forward cap) so a
+        // further-out exam can never hide; sort soonest-first below.
+        if (d && d >= now && actionable) {
           var curl = canvasUrl(c.course, x.grade && x.grade.canvas_id);
           var cell = curl ? '<a href="'+curl+'">Canvas</a>' : '';
           var rurl = replyUrl(c, x, note);

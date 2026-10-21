@@ -24,7 +24,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "PARTICIPATION_QUIZ_SEP10",
@@ -49,7 +50,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "ETHICS_PUBLIC_QUIZ_WK01",
@@ -80,7 +82,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "PARTICIPATION_QUIZ_SEP15",
@@ -105,7 +108,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "PARTICIPATION_QUIZ_SEP17",
@@ -133,7 +137,8 @@
     "verdict": "manual",
     "why": "Participation quiz; description requires today's code handed out in class (2pm-3:17pm MT)."
    },
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "WEEKLY_QUIZ_WK02",
@@ -164,7 +169,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "PARTICIPATION_QUIZ_SEP22",
@@ -192,7 +198,8 @@
     "verdict": "manual",
     "why": "Requires the student in person."
    },
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "PARTICIPATION_QUIZ_SEP24",
@@ -220,7 +227,8 @@
     "verdict": "manual",
     "why": "Requires the student in person."
    },
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "WEEKLY_QUIZ_WK03",
@@ -245,7 +253,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "PARTICIPATION_QUIZ_SEP29",
@@ -270,7 +279,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "PARTICIPATION_QUIZ_OCT01",
@@ -298,7 +308,8 @@
     "verdict": "manual",
     "why": "Requires the student in person."
    },
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "WEEKLY_QUIZ_WK04",
@@ -323,7 +334,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "PARTICIPATION_QUIZ_OCT06",
@@ -351,7 +363,8 @@
     "verdict": "manual",
     "why": "Requires the student in person."
    },
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "PARTICIPATION_QUIZ_OCT08",
@@ -379,7 +392,8 @@
     "verdict": "manual",
     "why": "Participation quiz; description asks for today's code, which is given in the room."
    },
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "WEEKLY_QUIZ_WK05",
@@ -404,7 +418,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "PARTICIPATION_QUIZ_10_13_2",
@@ -432,7 +447,8 @@
     "verdict": "manual",
     "why": "Participation quiz item deleted upstream (404); no online path exists, never attempt."
    },
-   "surface": true
+   "surface": true,
+   "actionable": true
   },
   {
    "key": "PARTICIPATION_QUIZ_OCT13_LIVE",
@@ -460,7 +476,8 @@
     "verdict": "manual",
     "why": "Participation quiz; in-class participation credit requires being present."
    },
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "PARTICIPATION_QUIZ_10_13",
@@ -488,7 +505,8 @@
     "verdict": "manual",
     "why": "Participation quiz 10.15; code given in class to attendees only."
    },
-   "surface": true
+   "surface": true,
+   "actionable": false
   },
   {
    "key": "TEACHING_ETHICS_HOME",
@@ -519,7 +537,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "PARTICIPATION_QUIZ_OCT20",
@@ -547,7 +566,8 @@
     "verdict": "manual",
     "why": "Participation quiz; in-class participation credit requires being present."
    },
-   "surface": true
+   "surface": true,
+   "actionable": false
   },
   {
    "key": "PARTICIPATION_QUIZ_OCT22",
@@ -575,7 +595,8 @@
     "verdict": "manual",
     "why": "Participation quiz; in-class participation credit requires being present."
    },
-   "surface": true
+   "surface": true,
+   "actionable": false
   },
   {
    "key": "WEEKLY_QUIZ_WK07",
@@ -600,7 +621,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "ETHICS_AND_PUBLIC_QUIZ_WEEK_7",
@@ -612,7 +634,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "MIDTERM_ASSIGNMENT",
@@ -637,7 +660,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "PARTICIPATION_QUIZ_OCT27",
@@ -665,7 +689,8 @@
     "verdict": "manual",
     "why": "Participation quiz; in-class participation credit requires being present."
    },
-   "surface": true
+   "surface": true,
+   "actionable": false
   },
   {
    "key": "PARTICIPATION_QUIZ_OCT29",
@@ -693,7 +718,8 @@
     "verdict": "manual",
     "why": "Participation quiz; in-class participation credit requires being present."
    },
-   "surface": true
+   "surface": true,
+   "actionable": false
   },
   {
    "key": "WEEKLY_QUIZ_WK08",
@@ -718,7 +744,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "PARTICIPATION_QUIZ_11_03",
@@ -746,7 +773,8 @@
     "verdict": "manual",
     "why": "Participation quiz; in-class participation credit requires being present."
    },
-   "surface": true
+   "surface": true,
+   "actionable": false
   },
   {
    "key": "PARTICIPATION_QUIZ_11_05",
@@ -774,7 +802,8 @@
     "verdict": "manual",
     "why": "Participation quiz; in-class participation credit requires being present."
    },
-   "surface": true
+   "surface": true,
+   "actionable": false
   },
   {
    "key": "WEEKLY_QUIZ_WK09",
@@ -799,7 +828,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "PARTICIPATION_QUIZ_11_10",
@@ -827,7 +857,8 @@
     "verdict": "manual",
     "why": "Participation quiz; in-class participation credit requires being present."
    },
-   "surface": true
+   "surface": true,
+   "actionable": false
   },
   {
    "key": "PARTICIPATION_QUIZ_11_12",
@@ -855,7 +886,8 @@
     "verdict": "manual",
     "why": "Participation quiz; in-class participation credit requires being present."
    },
-   "surface": true
+   "surface": true,
+   "actionable": false
   },
   {
    "key": "WEEKLY_QUIZ_WK10",
@@ -880,7 +912,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "PARTICIPATION_QUIZ_11_17",
@@ -908,7 +941,8 @@
     "verdict": "manual",
     "why": "Participation quiz; in-class participation credit requires being present."
    },
-   "surface": true
+   "surface": true,
+   "actionable": false
   },
   {
    "key": "PARTICIPATION_QUIZ_11_19",
@@ -936,7 +970,8 @@
     "verdict": "manual",
     "why": "Participation quiz; in-class participation credit requires being present."
    },
-   "surface": true
+   "surface": true,
+   "actionable": false
   },
   {
    "key": "WEEKLY_QUIZ_WK11",
@@ -961,7 +996,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "PARTICIPATION_QUIZ_11_24",
@@ -989,7 +1025,8 @@
     "verdict": "manual",
     "why": "Participation quiz; in-class participation credit requires being present."
    },
-   "surface": true
+   "surface": true,
+   "actionable": false
   },
   {
    "key": "WEEKLY_QUIZ_WK12",
@@ -1014,7 +1051,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "PARTICIPATION_QUIZ_12_01",
@@ -1042,7 +1080,8 @@
     "verdict": "manual",
     "why": "Participation quiz; in-class participation credit requires being present."
    },
-   "surface": true
+   "surface": true,
+   "actionable": false
   },
   {
    "key": "PARTICIPATION_QUIZ_12_03",
@@ -1070,7 +1109,8 @@
     "verdict": "manual",
     "why": "Participation quiz; in-class participation credit requires being present."
    },
-   "surface": true
+   "surface": true,
+   "actionable": false
   },
   {
    "key": "WEEKLY_QUIZ_WK13",
@@ -1095,7 +1135,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "PARTICIPATION_QUIZ_12_08",
@@ -1123,7 +1164,8 @@
     "verdict": "manual",
     "why": "Participation quiz; in-class participation credit requires being present."
    },
-   "surface": true
+   "surface": true,
+   "actionable": false
   },
   {
    "key": "PARTICIPATION_QUIZ_12_10",
@@ -1151,7 +1193,8 @@
     "verdict": "manual",
     "why": "Participation quiz; in-class participation credit requires being present."
    },
-   "surface": true
+   "surface": true,
+   "actionable": false
   },
   {
    "key": "WEEKLY_QUIZ_WK14",
@@ -1176,7 +1219,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   }
  ],
  "unmatched_canvas": [],
@@ -1188,5 +1232,5 @@
   "final_score": 19.12,
   "final_grade": "E"
  },
- "built_at": "2026-10-21T22:11:44.484123+00:00"
+ "built_at": "2026-10-21T22:12:00.456904+00:00"
 }

@@ -24,7 +24,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "IS_NAMES",
@@ -49,7 +50,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "IS_DEBUG",
@@ -74,7 +76,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "IS_DATES",
@@ -99,7 +102,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "IS_CHARTS",
@@ -124,7 +128,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "IS_CONDFMT",
@@ -149,7 +154,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "IS_TABLES",
@@ -174,7 +180,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "IS_ARRAYS",
@@ -199,7 +206,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "IS_SOLVER",
@@ -224,7 +232,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "IS_PIVOT",
@@ -249,7 +258,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "IS_EXAM1",
@@ -274,7 +284,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "IS_FIN",
@@ -299,7 +310,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "IS_COUNT",
@@ -324,7 +336,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "IS_LOOKUP",
@@ -349,7 +362,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "IS_TEXT",
@@ -374,7 +388,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "IS_MEGA",
@@ -399,7 +414,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "IS_CLEAN",
@@ -424,7 +440,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "IS_VBA",
@@ -449,7 +466,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": false
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "IS_EXAM2",
@@ -477,7 +495,8 @@
     "verdict": "manual",
     "why": "Named exam; timed non-collaborative comprehensive exam, no online submission path, note marks it student-taken in person"
    },
-   "surface": true
+   "surface": true,
+   "actionable": true
   }
  ],
  "unmatched_canvas": [],
@@ -489,5 +508,5 @@
   "final_score": 43.0,
   "final_grade": "E"
  },
- "built_at": "2026-10-21T22:11:44.497138+00:00"
+ "built_at": "2026-10-21T22:12:00.463080+00:00"
 }
