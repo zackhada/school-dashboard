@@ -142,15 +142,15 @@
   },
   {
    "key": "MID_TERM_CHECKPOINT",
-   "status": "blocked_ask_zack",
+   "status": "done",
    "date": "2026-10-20",
-   "note": "# Canvas 1508956 / quiz 663151, 1pt graded survey, LOCKED 2026-10-07T17:00:00Z (closed Oct 7 11am MT), never takeable; missed Unit 1 item. Zack decides whether to request a makeup. (judged automatable 2026-10-21: Online submission path, no proctoring evidence.) [manual:verify-closed-survey-zack-decides-on-makeup]",
-   "title": "Canvas 1508956 / quiz 663151, graded survey, LOCKED 2026-10-07T17:00:00Z (closed Oct 7 11am MT), never takeable; missed Unit 1 item. Zack decides whether to request a makeup.",
+   "note": "# Canvas 1508956, 1pt graded survey, closed Oct 7 11am MT and never takeable. Duplicate of UNIT_1_MID_TERM_CHECKPOINT, which carries the one open decision (ask Tennis for a makeup). Kept for the record only.",
+   "title": "Canvas 1508956, graded survey, closed Oct 7 11am MT and never takeable. Duplicate of UNIT_1_MID_TERM_CHECKPOINT, which carries the one open decision (ask Tennis for a makeup). Kept for the record only.",
    "grade": {
-    "canvas_id": 1489056,
-    "name": "Unit 2 Group Service Project (No Submission)",
-    "due": "2026-11-08T06:59:59Z",
-    "points": 0.0,
+    "canvas_id": 1511530,
+    "name": "Unit 1 Mid-term Checkpoint",
+    "due": null,
+    "points": 1.0,
     "status": "unsubmitted",
     "score": null,
     "grade": null,
@@ -161,10 +161,10 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": true,
+   "needs_zack": false,
    "judge": null,
-   "surface": true,
-   "actionable": true
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "BREAKING_BREAD_COUNTS_TOWARD_FINAL_GRADE",
@@ -199,10 +199,10 @@
    "note": "# Canvas 1511530 / quiz 663964, 1pt graded survey, LOCKED 2026-10-07T17:00:00Z (closed Oct 7 11am MT), never takeable; missed Unit 1 item. Zack decides whether to request a makeup. (judged automatable 2026-10-21: Online submission path, no proctoring evidence.) [manual:verify-closed-survey-zack-decides-on-makeup]",
    "title": "Canvas 1511530 / quiz 663964, graded survey, LOCKED 2026-10-07T17:00:00Z (closed Oct 7 11am MT), never takeable; missed Unit 1 item. Zack decides whether to request a makeup.",
    "grade": {
-    "canvas_id": 1511530,
-    "name": "Unit 1 Mid-term Checkpoint",
-    "due": null,
-    "points": 1.0,
+    "canvas_id": 1489056,
+    "name": "Unit 2 Group Service Project (No Submission)",
+    "due": "2026-11-08T06:59:59Z",
+    "points": 0.0,
     "status": "unsubmitted",
     "score": null,
     "grade": null,
@@ -213,7 +213,7 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false,
+   "needs_zack": true,
    "judge": null,
    "surface": true,
    "actionable": true
@@ -275,10 +275,10 @@
   },
   {
    "key": "UNIT_1_MID_TERM_CHECKPOINT_2",
-   "status": "blocked_ask_zack",
+   "status": "done",
    "date": "9999-12-31",
-   "note": "# DUPLICATE row for Canvas 1511530 (same closed survey); superseded by UNIT_1_MID_TERM_CHECKPOINT. No action. (judged automatable 2026-10-21: Online submission path, no proctoring evidence.) [manual:verify-duplicate-of-closed-survey]",
-   "title": "DUPLICATE row for Canvas 1511530 (same closed survey); superseded by UNIT_1_MID_TERM_CHECKPOINT. No action.",
+   "note": "# Duplicate row for Canvas 1511530, the same closed survey as UNIT_1_MID_TERM_CHECKPOINT. No separate action; decision tracked on that row.",
+   "title": "Duplicate row for Canvas 1511530, the same closed survey as UNIT_1_MID_TERM_CHECKPOINT. No separate action; decision tracked on that row.",
    "grade": {
     "canvas_id": 1508956,
     "name": "Unit 1 Mid-term Checkpoint",
@@ -296,8 +296,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": true,
-   "actionable": true
+   "surface": false,
+   "actionable": false
   }
  ],
  "unmatched_canvas": [],
@@ -309,5 +309,5 @@
   "final_score": 16.25,
   "final_grade": "E"
  },
- "built_at": "2026-10-21T22:23:45.520057+00:00"
+ "built_at": "2026-10-21T22:24:20.065267+00:00"
 }
