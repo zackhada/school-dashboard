@@ -365,10 +365,10 @@
    "note": "# Canvas 1509632 404 deleted upstream (drift-checked 2026-10-13; left blocked, never attempt)",
    "title": "Canvas 1509632 404 deleted upstream (drift-checked 2026-10-13; left blocked, never attempt)",
    "grade": {
-    "canvas_id": 1511335,
-    "name": "Participation Quiz 11.03",
-    "due": "2026-11-03T22:30:00Z",
-    "points": 3.0,
+    "canvas_id": 1499408,
+    "name": "Participation and Engagement Grade",
+    "due": null,
+    "points": 0.0,
     "status": "unsubmitted",
     "score": null,
     "grade": null,
@@ -504,12 +504,12 @@
   },
   {
    "key": "WEEKLY_QUIZ_WK07",
-   "status": "pending",
+   "status": "done",
    "date": "2026-10-25",
-   "note": "# Canvas 1495462 Ethics and Public Quiz Week 7, online_text_entry/url, due 2026-10-25T05:59:59Z",
-   "title": "Canvas 1495462 Ethics and Public Quiz Week 7, online_text_entry/url",
+   "note": "# same assignment as ETHICS_AND_PUBLIC_QUIZ_WEEK_7 (Canvas 1511324, \"Ethics and Public Quiz - Week 7\"); stale pattern ID 1495462 is not live, submitted under the other key 2026-10-21",
+   "title": "same assignment as ETHICS_AND_PUBLIC_QUIZ_WEEK_7 (Canvas 1511324, \"Ethics and Public Quiz - Week 7\"); stale pattern ID 1495462 is not live, submitted under the other key 2026-10-21",
    "grade": {
-    "canvas_id": 1511324,
+    "canvas_id": 1495462,
     "name": "Ethics and Public Quiz - Week 7",
     "due": "2026-10-25T05:59:59Z",
     "points": 10.0,
@@ -527,12 +527,12 @@
   },
   {
    "key": "ETHICS_AND_PUBLIC_QUIZ_WEEK_7",
-   "status": "pending",
+   "status": "done",
    "date": "2026-10-25",
-   "note": "# Canvas 1511324, 10pt, Ethics and Public Quiz - Week 7 (remote; drift-added 2026-10-13)",
-   "title": "Canvas 1511324, , Ethics and Public Quiz - Week 7 (remote; drift-added 2026-10-13)",
+   "note": "# Canvas 1511324, 10pt, submitted 2026-10-21T00:07:39Z as online_url https://x.com/zack_hada/status/2112696758082126216, verified workflow_state=submitted attempt 1",
+   "title": "Canvas 1511324, , submitted 2026-10-21T00:07:39Z as online_url https://x.com/zack_hada/status/2112696758082126216, verified workflow_state=submitted attempt 1",
    "grade": {
-    "canvas_id": 1495462,
+    "canvas_id": 1511324,
     "name": "Ethics and Public Quiz - Week 7",
     "due": "2026-10-25T05:59:59Z",
     "points": 10.0,
@@ -628,6 +628,29 @@
     "name": "Ethics and Public Quiz - Week 8",
     "due": "2026-11-01T05:59:59Z",
     "points": 10.0,
+    "status": "unsubmitted",
+    "score": null,
+    "grade": null,
+    "missing": false,
+    "submitted_at": null,
+    "submission_type": null,
+    "my_submission": "",
+    "comments": []
+   },
+   "drift": false,
+   "needs_zack": false
+  },
+  {
+   "key": "PARTICIPATION_QUIZ_11_03",
+   "status": "blocked_inperson",
+   "date": "2026-11-03",
+   "note": "# Canvas 1511335, 3pt, Participation Quiz 11.03 (in-class/participation; drift-added 2026-10-20)",
+   "title": "Canvas 1511335, , Participation Quiz 11.03 (in-class/participation; drift-added 2026-10-20)",
+   "grade": {
+    "canvas_id": 1511335,
+    "name": "Participation Quiz 11.03",
+    "due": "2026-11-03T22:30:00Z",
+    "points": 3.0,
     "status": "unsubmitted",
     "score": null,
     "grade": null,
@@ -1018,5 +1041,5 @@
   "final_score": 18.39,
   "final_grade": "E"
  },
- "built_at": "2026-10-21T00:07:06.509803+00:00"
+ "built_at": "2026-10-21T00:09:36.734428+00:00"
 }

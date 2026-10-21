@@ -57,9 +57,9 @@
   },
   {
    "key": "WEEKLY_QUIZ_WK07",
-   "status": "pending",
+   "status": "done",
    "date": "2026-10-25",
-   "note": "# Canvas 1495462 Ethics and Public Quiz Week 7, online_text_entry/url, due 2026-10-25T05:59:59Z"
+   "note": "# same assignment as ETHICS_AND_PUBLIC_QUIZ_WEEK_7 (Canvas 1511324, \"Ethics and Public Quiz - Week 7\"); stale pattern ID 1495462 is not live, submitted under the other key 2026-10-21"
   },
   {
    "key": "WEEKLY_QUIZ_WK08",
@@ -171,9 +171,9 @@
   },
   {
    "key": "ETHICS_AND_PUBLIC_QUIZ_WEEK_7",
-   "status": "pending",
+   "status": "done",
    "date": "2026-10-25",
-   "note": "# Canvas 1511324, 10pt, Ethics and Public Quiz - Week 7 (remote; drift-added 2026-10-13)"
+   "note": "# Canvas 1511324, 10pt, submitted 2026-10-21T00:07:39Z as online_url https://x.com/zack_hada/status/2112696758082126216, verified workflow_state=submitted attempt 1"
   },
   {
    "key": "PARTICIPATION_QUIZ_OCT13_LIVE",
@@ -204,6 +204,12 @@
    "status": "blocked_inperson",
    "date": "2026-10-29",
    "note": "# Canvas 1511333, 3pt, Participation Quiz 10.29 (in-class/participation; drift-added 2026-10-13)"
+  },
+  {
+   "key": "PARTICIPATION_QUIZ_11_03",
+   "status": "blocked_inperson",
+   "date": "2026-11-03",
+   "note": "# Canvas 1511335, 3pt, Participation Quiz 11.03 (in-class/participation; drift-added 2026-10-20)"
   },
   {
    "key": "PARTICIPATION_QUIZ_11_05",
