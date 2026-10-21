@@ -1,41 +1,34 @@
 {
- "generated_at": "2026-10-21T21:41:51.548667+00:00",
+ "generated_at": "2026-10-21T21:42:32.358731+00:00",
  "model": "opencode-go/deepseek-v4.1-flash",
  "repos": {
   "hrm391-automation": {
    "detail": null,
-   "judged": 6,
+   "judged": 3,
    "verdicts": {
     "EXAM1": {
      "verdict": "manual",
      "why": "Requires the student in person."
     },
-    "MID_TERM_CHECKPOINT": {
-     "verdict": "automatable",
-     "why": "Online submission path, no proctoring evidence."
-    },
     "PROF_PERSPECTIVE_INTERVIEW": {
      "verdict": "manual",
-     "why": "Printed notes+summary brought to class for in-person peer check; no online submission path"
+     "why": "Printed notes and summary must be brought to class for in-person peer check; no online path"
     },
     "SERVICE_PROJECT_PART_2_GROUP_ANALYSIS_AN": {
      "verdict": "verify",
      "why": "model called it automatable, but the item name needs a human call: Service Project\u2014Part 2: Group Analysis and Individual Reflec"
-    },
-    "UNIT_1_MID_TERM_CHECKPOINT": {
-     "verdict": "automatable",
-     "why": "Online submission path, no proctoring evidence."
-    },
-    "UNIT_1_MID_TERM_CHECKPOINT_2": {
-     "verdict": "automatable",
-     "why": "Online submission path, no proctoring evidence."
     }
    }
   },
   "is515-automation": {
-   "detail": "no verdict array in model output",
+   "detail": null,
    "judged": 1,
-   "verdicts": {}
+   "verdicts": {
+    "IS_EXAM2": {
+     "verdict": "manual",
+     "why": "Name is an exam and note says timed, comprehensive, NOT collaborative; non-collaborative exam is manual."
+    }
+   }
   },
   "pse390-automation": {
    "detail": null,
@@ -43,55 +36,55 @@
    "verdicts": {
     "PARTICIPATION_QUIZ_10_13": {
      "verdict": "manual",
-     "why": "Participation quiz 10.15 requires in-class participation code"
+     "why": "Participation quiz 10.15: code given in class, attendance/participation based"
     },
     "PARTICIPATION_QUIZ_10_13_2": {
      "verdict": "manual",
-     "why": "Participation quiz, deleted upstream (404); participation type, never attempt"
+     "why": "Participation quiz, deleted upstream (404); in-class type, never attempt"
     },
     "PARTICIPATION_QUIZ_11_03": {
      "verdict": "manual",
-     "why": "Participation quiz requires in-class participation code"
+     "why": "Requires the student in person."
     },
     "PARTICIPATION_QUIZ_11_05": {
      "verdict": "manual",
-     "why": "Participation quiz requires in-class participation code"
+     "why": "Requires the student in person."
     },
     "PARTICIPATION_QUIZ_11_10": {
      "verdict": "manual",
-     "why": "Participation quiz requires in-class participation code"
+     "why": "Requires the student in person."
     },
     "PARTICIPATION_QUIZ_11_12": {
      "verdict": "manual",
-     "why": "Participation quiz requires in-class participation code"
+     "why": "Requires the student in person."
     },
     "PARTICIPATION_QUIZ_11_17": {
      "verdict": "manual",
-     "why": "Participation quiz requires in-class participation code"
+     "why": "Requires the student in person."
     },
     "PARTICIPATION_QUIZ_11_19": {
      "verdict": "manual",
-     "why": "Participation quiz requires in-class participation code"
+     "why": "Requires the student in person."
     },
     "PARTICIPATION_QUIZ_11_24": {
      "verdict": "manual",
-     "why": "Participation quiz requires in-class participation code"
+     "why": "Requires the student in person."
     },
     "PARTICIPATION_QUIZ_12_01": {
      "verdict": "manual",
-     "why": "Participation quiz requires in-class participation code"
+     "why": "Requires the student in person."
     },
     "PARTICIPATION_QUIZ_12_03": {
      "verdict": "manual",
-     "why": "Participation quiz requires in-class participation code"
+     "why": "Requires the student in person."
     },
     "PARTICIPATION_QUIZ_12_08": {
      "verdict": "manual",
-     "why": "Participation quiz requires in-class participation code"
+     "why": "Requires the student in person."
     },
     "PARTICIPATION_QUIZ_12_10": {
      "verdict": "manual",
-     "why": "Participation quiz requires in-class participation code"
+     "why": "Requires the student in person."
     },
     "PARTICIPATION_QUIZ_OCT01": {
      "verdict": "manual",
@@ -103,27 +96,27 @@
     },
     "PARTICIPATION_QUIZ_OCT08": {
      "verdict": "manual",
-     "why": "Participation quiz; description requires today's in-class participation code"
+     "why": "Name and description are a participation code handed out in class"
     },
     "PARTICIPATION_QUIZ_OCT13_LIVE": {
      "verdict": "manual",
-     "why": "Participation quiz requires in-class participation code"
+     "why": "Requires the student in person."
     },
     "PARTICIPATION_QUIZ_OCT20": {
      "verdict": "manual",
-     "why": "Participation quiz requires in-class participation code"
+     "why": "Requires the student in person."
     },
     "PARTICIPATION_QUIZ_OCT22": {
      "verdict": "manual",
-     "why": "Participation quiz requires in-class participation code"
+     "why": "Requires the student in person."
     },
     "PARTICIPATION_QUIZ_OCT27": {
      "verdict": "manual",
-     "why": "Participation quiz requires in-class participation code"
+     "why": "Requires the student in person."
     },
     "PARTICIPATION_QUIZ_OCT29": {
      "verdict": "manual",
-     "why": "Participation quiz requires in-class participation code"
+     "why": "Requires the student in person."
     },
     "PARTICIPATION_QUIZ_SEP17": {
      "verdict": "manual",
@@ -145,7 +138,7 @@
    "verdicts": {
     "10_13_ATTENDANCE_CHECK": {
      "verdict": "manual",
-     "why": "In-class attendance check; presence is the graded act"
+     "why": "In-class attendance check; presence itself is the graded act"
     },
     "10_15_ATTENDANCE_CHECK": {
      "verdict": "manual",
@@ -153,15 +146,15 @@
     },
     "10_20_ATTENDANCE_CHECK": {
      "verdict": "manual",
-     "why": "Attendance taken in the classroom; tool box does not make it online"
+     "why": "Attendance taken in the classroom; tool box does not make it remote"
     },
     "10_22_ATTENDANCE_CHECK": {
      "verdict": "manual",
-     "why": "Attendance check; requires being in the room that day"
+     "why": "Attendance check requiring presence in the room that day"
     },
     "10_27_ATTENDANCE_CHECK": {
      "verdict": "manual",
-     "why": "In-class attendance check, participation credit earned in person"
+     "why": "In-class attendance/participation credit earned in person"
     },
     "10_29_ATTENDANCE_CHECK": {
      "verdict": "manual",
@@ -173,7 +166,7 @@
     },
     "10_8_ATTENDANCE_CHECK": {
      "verdict": "manual",
-     "why": "Attendance check, in-class participation; not automatable remotely"
+     "why": "In-class attendance/participation check; not completable remotely"
     },
     "11_10_ATTENDANCE_CHECK": {
      "verdict": "manual",
@@ -185,7 +178,7 @@
     },
     "11_17_ATTENDANCE_CHECK": {
      "verdict": "manual",
-     "why": "In-class attendance check, participation earned in class"
+     "why": "In-class attendance check; participation earned in class"
     },
     "11_19_ATTENDANCE_CHECK": {
      "verdict": "manual",
@@ -197,7 +190,7 @@
     },
     "11_3_ATTENDANCE_CHECK": {
      "verdict": "manual",
-     "why": "Attendance check; graded on physical presence in class"
+     "why": "Attendance check graded on physical presence in class"
     },
     "11_5_ATTENDANCE_CHECK": {
      "verdict": "manual",
@@ -221,41 +214,37 @@
     },
     "ATTENDANCE_CHECK_0915": {
      "verdict": "manual",
-     "why": "Attendance recorded in the classroom during the 12:00-12:50pm session"
+     "why": "Attendance check; 10 pts recorded by being in the room during the 12:00-12:50 MT session"
     },
     "ATTENDANCE_CHECK_0917": {
      "verdict": "manual",
-     "why": "Attendance check earned by being present in class, not by an online submission"
+     "why": "Attendance check; credit comes from physical presence in class, LTI box does not make it remote"
     },
     "ATTENDANCE_CHECK_0929": {
      "verdict": "manual",
-     "why": "In-class attendance check; physical presence in the room is the requirement"
+     "why": "In-class attendance check; presence in the room is the graded act"
     },
     "ATTENDANCE_CHECK_1001": {
      "verdict": "manual",
-     "why": "Attendance check tied to the in-class session; body in room required"
+     "why": "Attendance check tied to the in-person session; requires body in the room"
     },
     "A_PROFILE_OF_A_PROPHET_GROUP_PROJECT": {
      "verdict": "manual",
-     "why": "Group presentation delivered in class; slides alone do not satisfy the delivery"
+     "why": "Group presentation delivered in class; showing the group in person is the graded act"
     }
    }
   },
   "strat392-automation": {
    "detail": null,
-   "judged": 3,
+   "judged": 2,
    "verdicts": {
     "AMORECO_PREP": {
      "verdict": "manual",
-     "why": "submission_types=none; prepare case before coming to class, nothing to submit online"
-    },
-    "DUALADV_READING": {
-     "verdict": "automatable",
-     "why": "Online submission path, no proctoring evidence."
+     "why": "submission_types=none; prepare case for in-class discussion, nothing submitted online"
     },
     "SESSION1_WHAT_IS_STRATEGY": {
      "verdict": "manual",
-     "why": "submission_types=none; deliverable was bringing examples to the Sep 8 class, no online submission"
+     "why": "submission_types=none; deliverable was bringing examples to the Sep 8 in-person class, no online path"
     }
    }
   }
