@@ -18,7 +18,9 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "FIN_QUIZ_6",
@@ -37,7 +39,9 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "FIN_QUIZ_7",
@@ -56,17 +60,24 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "FIN_MIDTERM_1",
    "status": "blocked_inperson",
    "date": "2026-09-28",
-   "note": "# in class 3:30pm",
+   "note": "# in class 3:30pm [manual:named-exam-no-online-submission-path-note-says-taken-in-clas]",
    "title": "in class",
    "grade": null,
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": {
+    "verdict": "manual",
+    "why": "Named exam; no online submission path; note says taken in class at 3:30pm"
+   },
+   "surface": true
   },
   {
    "key": "FIN_QUIZ_8",
@@ -85,7 +96,9 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "FIN_QUIZ_9",
@@ -104,7 +117,9 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "FIN_QUIZ_13",
@@ -123,17 +138,24 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "FIN_MIDTERM_2",
    "status": "blocked_inperson",
    "date": "2026-10-19",
-   "note": "# in class 3:30pm",
+   "note": "# in class 3:30pm [manual:named-exam-no-online-submission-path-note-says-taken-in-clas]",
    "title": "in class",
    "grade": null,
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": {
+    "verdict": "manual",
+    "why": "Named exam; no online submission path; note says taken in class at 3:30pm"
+   },
+   "surface": true
   },
   {
    "key": "FIN_QUIZ_2",
@@ -152,7 +174,9 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "FIN_QUIZ_3",
@@ -171,7 +195,9 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "FIN_QUIZ_4",
@@ -190,17 +216,24 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "FIN_MIDTERM_3",
    "status": "blocked_inperson",
    "date": "2026-11-16",
-   "note": "# in class 3:30pm",
+   "note": "# in class 3:30pm [manual:named-exam-no-online-submission-path-note-says-taken-in-clas]",
    "title": "in class",
    "grade": null,
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": {
+    "verdict": "manual",
+    "why": "Named exam; no online submission path; note says taken in class at 3:30pm"
+   },
+   "surface": true
   },
   {
    "key": "FIN_QUIZ_11",
@@ -219,7 +252,9 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "FIN_QUIZ_12",
@@ -238,22 +273,29 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "FIN_FINAL",
    "status": "blocked_inperson",
    "date": "2026-12-09",
-   "note": "# in class 5:00pm",
+   "note": "# in class 5:00pm [manual:final-exam-held-in-class-5-00pm-no-online-submission-path]",
    "title": "in class",
    "grade": null,
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": {
+    "verdict": "manual",
+    "why": "Final exam held in class 5:00pm; no online submission path"
+   },
+   "surface": true
   }
  ],
  "unmatched_canvas": [],
  "needs": null,
  "course_id": null,
  "overall": {},
- "built_at": "2026-10-21T19:32:14.824299+00:00"
+ "built_at": "2026-10-21T21:52:40.892951+00:00"
 }

@@ -23,7 +23,7 @@
    "key": "PROF_PERSPECTIVE_INTERVIEW",
    "status": "blocked_inperson",
    "date": "2026-09-09",
-   "note": "# Professional Perspective Interview: on_paper, bring printed notes+summary to class Wed for in-class peer check (due Tue 2026-09-08 11:59pm MT); in person, Zack handles"
+   "note": "# Professional Perspective Interview: on_paper, bring printed notes+summary to class Wed for in-class peer check (due Tue 2026-09-08 11:59pm MT); in person, Zack handles [manual:on-paper-printed-notes-and-summary-must-be-brought-to-class-]"
   },
   {
    "key": "WEEK0_ORIENTATION_CHECK",
@@ -35,7 +35,7 @@
    "key": "EXAM1",
    "status": "blocked_inperson",
    "date": "2026-10-22",
-   "note": "# Exam 1 Understanding the Organizational System, 56pt, Remotely Proctored (Canvas 1508899 / quiz 663124), REOPENED: due 2026-10-22T05:59:59Z, unsubmitted (not yet late). Proctored, Zack takes manually."
+   "note": "# Exam 1 Understanding the Organizational System, 56pt, Remotely Proctored (Canvas 1508899 / quiz 663124), REOPENED: due 2026-10-22T05:59:59Z, unsubmitted (not yet late). Proctored, Zack takes manually. [manual:requires-the-student-in-person]"
   },
   {
    "key": "OBSERVATION_NOTEBOOK_ENTRIES",
@@ -45,9 +45,9 @@
   },
   {
    "key": "MID_TERM_CHECKPOINT",
-   "status": "blocked_ask_zack",
+   "status": "pending",
    "date": "2026-10-20",
-   "note": "# Canvas 1508956 / quiz 663151, 1pt graded survey, LOCKED 2026-10-07T17:00:00Z (closed Oct 7 11am MT), never takeable; missed Unit 1 item. Zack decides whether to request a makeup."
+   "note": "# Canvas 1508956 / quiz 663151, 1pt graded survey, LOCKED 2026-10-07T17:00:00Z (closed Oct 7 11am MT), never takeable; missed Unit 1 item. Zack decides whether to request a makeup. (judged automatable 2026-10-21: Online submission path, no proctoring evidence.)"
   },
   {
    "key": "BREAKING_BREAD_COUNTS_TOWARD_FINAL_GRADE",
@@ -57,21 +57,21 @@
   },
   {
    "key": "UNIT_1_MID_TERM_CHECKPOINT",
-   "status": "blocked_ask_zack",
+   "status": "pending",
    "date": "2026-10-21",
-   "note": "# Canvas 1511530 / quiz 663964, 1pt graded survey, LOCKED 2026-10-07T17:00:00Z (closed Oct 7 11am MT), never takeable; missed Unit 1 item. Zack decides whether to request a makeup."
+   "note": "# Canvas 1511530 / quiz 663964, 1pt graded survey, LOCKED 2026-10-07T17:00:00Z (closed Oct 7 11am MT), never takeable; missed Unit 1 item. Zack decides whether to request a makeup. (judged automatable 2026-10-21: Online submission path, no proctoring evidence.)"
   },
   {
    "key": "SERVICE_PROJECT_PART_2_GROUP_ANALYSIS_AN",
-   "status": "blocked_inperson",
+   "status": "blocked_ask_zack",
    "date": "2026-11-22",
-   "note": "# Canvas 1513919, 100pt, Service Project\u2014Part 2: Group Analysis and Individual Reflection (in-class/participation; drift-added 2026-10-21)"
+   "note": "# Canvas 1513919, 100pt, Service Project\u2014Part 2: Group Analysis and Individual Reflection (in-class/participation; drift-added 2026-10-21) [manual:verify-model-called-it-automatable-but-the-item-name-needs-a-human-]"
   },
   {
    "key": "UNIT_1_MID_TERM_CHECKPOINT_2",
-   "status": "blocked_ask_zack",
+   "status": "pending",
    "date": "9999-12-31",
-   "note": "# DUPLICATE row for Canvas 1511530 (same closed survey); superseded by UNIT_1_MID_TERM_CHECKPOINT. No action."
+   "note": "# DUPLICATE row for Canvas 1511530 (same closed survey); superseded by UNIT_1_MID_TERM_CHECKPOINT. No action. (judged automatable 2026-10-21: Online submission path, no proctoring evidence.)"
   }
  ],
  "source": "progress.txt"

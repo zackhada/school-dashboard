@@ -113,19 +113,19 @@
    "key": "PARTICIPATION_QUIZ_SEP17",
    "status": "blocked_inperson",
    "date": "2026-09-17",
-   "note": "# Canvas 1495532, in-class code, avail Sep 17 2pm-3:17pm MT"
+   "note": "# Canvas 1495532, in-class code, avail Sep 17 2pm-3:17pm MT [manual:requires-the-student-in-person]"
   },
   {
    "key": "PARTICIPATION_QUIZ_SEP22",
    "status": "blocked_inperson",
    "date": "2026-09-22",
-   "note": "# Canvas 1496696, in-class code, avail Sep 22 2pm-3:17pm MT"
+   "note": "# Canvas 1496696, in-class code, avail Sep 22 2pm-3:17pm MT [manual:requires-the-student-in-person]"
   },
   {
    "key": "PARTICIPATION_QUIZ_SEP24",
    "status": "blocked_inperson",
    "date": "2026-09-24",
-   "note": "# Canvas 1496703, in-class code, avail Sep 24 2pm-3:17pm MT"
+   "note": "# Canvas 1496703, in-class code, avail Sep 24 2pm-3:17pm MT [manual:requires-the-student-in-person]"
   },
   {
    "key": "PARTICIPATION_QUIZ_SEP29",
@@ -137,19 +137,19 @@
    "key": "PARTICIPATION_QUIZ_OCT01",
    "status": "blocked_inperson",
    "date": "2026-10-01",
-   "note": "# Canvas 1496715, in-class code, avail Oct 1 2pm-3:17pm MT"
+   "note": "# Canvas 1496715, in-class code, avail Oct 1 2pm-3:17pm MT [manual:requires-the-student-in-person]"
   },
   {
    "key": "PARTICIPATION_QUIZ_OCT06",
    "status": "blocked_inperson",
    "date": "2026-10-06",
-   "note": "# Canvas 1496719, in-class code, avail Oct 6 2pm-3:17pm MT"
+   "note": "# Canvas 1496719, in-class code, avail Oct 6 2pm-3:17pm MT [manual:requires-the-student-in-person]"
   },
   {
    "key": "PARTICIPATION_QUIZ_OCT08",
    "status": "blocked_inperson",
    "date": "2026-10-08",
-   "note": "# Canvas 1499418, 3pts, online_quiz participation; drift-added 2026-09-12 (was invisible to runner)"
+   "note": "# Canvas 1499418, 3pts, online_quiz participation; drift-added 2026-09-12 (was invisible to runner) [manual:participation-quiz-description-asks-for-today-s-participatio]"
   },
   {
    "key": "TEACHING_ETHICS_HOME",
@@ -161,13 +161,13 @@
    "key": "PARTICIPATION_QUIZ_10_13",
    "status": "blocked_inperson",
    "date": "2026-10-15",
-   "note": "# Canvas 1509629, 3pt, Participation Quiz 10.15 (in-class/participation; drift-corrected 2026-10-13: ID is 10.15 due Oct 15, not 10.13)"
+   "note": "# Canvas 1509629, 3pt, Participation Quiz 10.15 (in-class/participation; drift-corrected 2026-10-13: ID is 10.15 due Oct 15, not 10.13) [manual:participation-quiz-10-15-code-given-in-class-for-attendees]"
   },
   {
    "key": "PARTICIPATION_QUIZ_10_13_2",
    "status": "blocked_inperson",
    "date": "2026-10-13",
-   "note": "# Canvas 1509632 404 deleted upstream (drift-checked 2026-10-13; left blocked, never attempt)"
+   "note": "# Canvas 1509632 404 deleted upstream (drift-checked 2026-10-13; left blocked, never attempt) [manual:participation-quiz-type-deleted-upstream-404-remains-manual-]"
   },
   {
    "key": "ETHICS_AND_PUBLIC_QUIZ_WEEK_7",
@@ -179,97 +179,97 @@
    "key": "PARTICIPATION_QUIZ_OCT13_LIVE",
    "status": "blocked_inperson",
    "date": "2026-10-13",
-   "note": "# Canvas 1511328, 3pt, Participation Quiz 10.13 (in-class/participation; drift-added 2026-10-13)"
+   "note": "# Canvas 1511328, 3pt, Participation Quiz 10.13 (in-class/participation; drift-added 2026-10-13) [manual:participation-quiz-in-class-participation-credit]"
   },
   {
    "key": "PARTICIPATION_QUIZ_OCT20",
    "status": "blocked_inperson",
    "date": "2026-10-20",
-   "note": "# Canvas 1511330, 3pt, Participation Quiz 10.20 (in-class/participation; drift-added 2026-10-13)"
+   "note": "# Canvas 1511330, 3pt, Participation Quiz 10.20 (in-class/participation; drift-added 2026-10-13) [manual:participation-quiz-in-class-participation-credit]"
   },
   {
    "key": "PARTICIPATION_QUIZ_OCT22",
    "status": "blocked_inperson",
    "date": "2026-10-22",
-   "note": "# Canvas 1511331, 3pt, Participation Quiz 10.22 (in-class/participation; drift-added 2026-10-13)"
+   "note": "# Canvas 1511331, 3pt, Participation Quiz 10.22 (in-class/participation; drift-added 2026-10-13) [manual:participation-quiz-in-class-participation-credit]"
   },
   {
    "key": "PARTICIPATION_QUIZ_OCT27",
    "status": "blocked_inperson",
    "date": "2026-10-27",
-   "note": "# Canvas 1511332, 3pt, Participation Quiz 10.27 (in-class/participation; drift-added 2026-10-13)"
+   "note": "# Canvas 1511332, 3pt, Participation Quiz 10.27 (in-class/participation; drift-added 2026-10-13) [manual:participation-quiz-in-class-participation-credit]"
   },
   {
    "key": "PARTICIPATION_QUIZ_OCT29",
    "status": "blocked_inperson",
    "date": "2026-10-29",
-   "note": "# Canvas 1511333, 3pt, Participation Quiz 10.29 (in-class/participation; drift-added 2026-10-13)"
+   "note": "# Canvas 1511333, 3pt, Participation Quiz 10.29 (in-class/participation; drift-added 2026-10-13) [manual:participation-quiz-in-class-participation-credit]"
   },
   {
    "key": "PARTICIPATION_QUIZ_11_03",
    "status": "blocked_inperson",
    "date": "2026-11-03",
-   "note": "# Canvas 1511335, 3pt, Participation Quiz 11.03 (in-class/participation; drift-added 2026-10-20)"
+   "note": "# Canvas 1511335, 3pt, Participation Quiz 11.03 (in-class/participation; drift-added 2026-10-20) [manual:participation-quiz-in-class-participation-credit]"
   },
   {
    "key": "PARTICIPATION_QUIZ_11_05",
    "status": "blocked_inperson",
    "date": "2026-11-05",
-   "note": "# Canvas 1511337, 3pt, Participation Quiz 11.05 (in-class/participation; drift-added 2026-10-14)"
+   "note": "# Canvas 1511337, 3pt, Participation Quiz 11.05 (in-class/participation; drift-added 2026-10-14) [manual:participation-quiz-in-class-participation-credit]"
   },
   {
    "key": "PARTICIPATION_QUIZ_11_10",
    "status": "blocked_inperson",
    "date": "2026-11-10",
-   "note": "# Canvas 1511339, 3pt, Participation Quiz 11.10 (in-class/participation; drift-added 2026-10-14)"
+   "note": "# Canvas 1511339, 3pt, Participation Quiz 11.10 (in-class/participation; drift-added 2026-10-14) [manual:participation-quiz-in-class-participation-credit]"
   },
   {
    "key": "PARTICIPATION_QUIZ_11_12",
    "status": "blocked_inperson",
    "date": "2026-11-12",
-   "note": "# Canvas 1511340, 3pt, Participation Quiz 11.12 (in-class/participation; drift-added 2026-10-14)"
+   "note": "# Canvas 1511340, 3pt, Participation Quiz 11.12 (in-class/participation; drift-added 2026-10-14) [manual:participation-quiz-in-class-participation-credit]"
   },
   {
    "key": "PARTICIPATION_QUIZ_11_17",
    "status": "blocked_inperson",
    "date": "2026-11-17",
-   "note": "# Canvas 1511341, 3pt, Participation Quiz 11.17 (in-class/participation; drift-added 2026-10-14)"
+   "note": "# Canvas 1511341, 3pt, Participation Quiz 11.17 (in-class/participation; drift-added 2026-10-14) [manual:participation-quiz-in-class-participation-credit]"
   },
   {
    "key": "PARTICIPATION_QUIZ_11_19",
    "status": "blocked_inperson",
    "date": "2026-11-19",
-   "note": "# Canvas 1511342, 3pt, Participation Quiz 11.19 (in-class/participation; drift-added 2026-10-14)"
+   "note": "# Canvas 1511342, 3pt, Participation Quiz 11.19 (in-class/participation; drift-added 2026-10-14) [manual:participation-quiz-in-class-participation-credit]"
   },
   {
    "key": "PARTICIPATION_QUIZ_11_24",
    "status": "blocked_inperson",
    "date": "2026-11-24",
-   "note": "# Canvas 1511344, 3pt, Participation Quiz 11.24 (in-class/participation; drift-added 2026-10-14)"
+   "note": "# Canvas 1511344, 3pt, Participation Quiz 11.24 (in-class/participation; drift-added 2026-10-14) [manual:participation-quiz-in-class-participation-credit]"
   },
   {
    "key": "PARTICIPATION_QUIZ_12_01",
    "status": "blocked_inperson",
    "date": "2026-12-01",
-   "note": "# Canvas 1511345, 3pt, Participation Quiz 12.01 (in-class/participation; drift-added 2026-10-14)"
+   "note": "# Canvas 1511345, 3pt, Participation Quiz 12.01 (in-class/participation; drift-added 2026-10-14) [manual:participation-quiz-in-class-participation-credit]"
   },
   {
    "key": "PARTICIPATION_QUIZ_12_03",
    "status": "blocked_inperson",
    "date": "2026-12-03",
-   "note": "# Canvas 1511346, 3pt, Participation Quiz 12.03 (in-class/participation; drift-added 2026-10-14)"
+   "note": "# Canvas 1511346, 3pt, Participation Quiz 12.03 (in-class/participation; drift-added 2026-10-14) [manual:participation-quiz-in-class-participation-credit]"
   },
   {
    "key": "PARTICIPATION_QUIZ_12_08",
    "status": "blocked_inperson",
    "date": "2026-12-08",
-   "note": "# Canvas 1511347, 3pt, Participation Quiz 12.08 (in-class/participation; drift-added 2026-10-14)"
+   "note": "# Canvas 1511347, 3pt, Participation Quiz 12.08 (in-class/participation; drift-added 2026-10-14) [manual:participation-quiz-in-class-participation-credit]"
   },
   {
    "key": "PARTICIPATION_QUIZ_12_10",
    "status": "blocked_inperson",
    "date": "2026-12-10",
-   "note": "# Canvas 1511348, 3pt, Participation Quiz 12.10 (in-class/participation; drift-added 2026-10-14)"
+   "note": "# Canvas 1511348, 3pt, Participation Quiz 12.10 (in-class/participation; drift-added 2026-10-14) [manual:participation-quiz-in-class-participation-credit]"
   },
   {
    "key": "MIDTERM_ASSIGNMENT",

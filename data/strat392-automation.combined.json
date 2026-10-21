@@ -6,7 +6,7 @@
    "status": "done",
    "date": "2026-09-09",
    "note": "# 9-8 In Class Quiz submitted 2026-09-09 by Zack locally, 10/10 (late, completion credit)",
-   "title": "9-8 In Class Quiz submitted 2026-09-09 by Zack locally, 10/10 (late, completion credit)",
+   "title": "9-8 In Class Quiz submitted 2026-09-09 by Zack locally, 10/10",
    "grade": {
     "canvas_id": 1493120,
     "name": "Session 1 What is Strategy",
@@ -22,7 +22,9 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "MEASURING_MARKET_CONCENTRATION",
@@ -45,14 +47,16 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "INDUSTRY_5FORCES",
    "status": "done",
    "date": "2026-09-18",
    "note": "# Canvas 1500394, 30pt, Industry Analysis 5 Forces Assignment (drift-added 2026-09-22, overdue, submit late)",
-   "title": "Canvas 1500394, , Industry Analysis 5 Forces Assignment (drift-added 2026-09-22, overdue, submit late)",
+   "title": "Industry Analysis 5 Forces Assignment",
    "grade": {
     "canvas_id": 1500394,
     "name": "Industry  Analysis 5 Forces Assignment",
@@ -74,14 +78,16 @@
     ]
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "COST_CURVE",
    "status": "done",
    "date": "2026-09-25",
    "note": "# Canvas 1500422, 30pt, Cost Curve Assignment (drift-added 2026-09-22)",
-   "title": "Canvas 1500422, , Cost Curve Assignment (drift-added 2026-09-22)",
+   "title": "Cost Curve Assignment",
    "grade": {
     "canvas_id": 1500422,
     "name": "Cost Curve Assignment",
@@ -97,14 +103,16 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "ALDI_CASE_QUIZ",
    "status": "done",
    "date": "2026-09-30",
    "note": "# Canvas 1500431, 10pt, Aldi Case Quiz (drift-added 2026-09-22; verify not in-class)",
-   "title": "Canvas 1500431, , Aldi Case Quiz (drift-added 2026-09-22; verify not in-class)",
+   "title": "Aldi Case Quiz",
    "grade": {
     "canvas_id": 1500431,
     "name": "Aldi Case Quiz",
@@ -120,14 +128,16 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "DIFFERENTIATION_QUIZ",
    "status": "done",
    "date": "2026-10-02",
    "note": "# Canvas 1500438, 10pt, Differentiation Reading Quiz (drift-added 2026-09-22)",
-   "title": "Canvas 1500438, , Differentiation Reading Quiz (drift-added 2026-09-22)",
+   "title": "Differentiation Reading Quiz",
    "grade": {
     "canvas_id": 1500438,
     "name": "Differentiation Reading Quiz",
@@ -143,14 +153,16 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "MORE_COMPANY_CASE_QUIZ",
    "status": "done",
    "date": "2026-10-07",
    "note": "# Canvas 1500607, 10pt, A More Company Case Quiz (drift-added 2026-09-22)",
-   "title": "Canvas 1500607, , A More Company Case Quiz (drift-added 2026-09-22)",
+   "title": "A More Company Case Quiz",
    "grade": {
     "canvas_id": 1500607,
     "name": "A More Company Case Quiz",
@@ -166,14 +178,16 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "DUAL_ADVANTAGE_QUIZ",
    "status": "done",
    "date": "2026-10-09",
    "note": "# Canvas 1500567, 10pt, Dual Advantage Quiz (drift-added 2026-09-22)",
-   "title": "Canvas 1500567, , Dual Advantage Quiz (drift-added 2026-09-22)",
+   "title": "Dual Advantage Quiz",
    "grade": {
     "canvas_id": 1500567,
     "name": "Dual Advantage Quiz",
@@ -189,14 +203,16 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "PEST_READING_QUIZ",
    "status": "done",
    "date": "2026-10-09",
    "note": "# Canvas 1500404, 10pt, PEST Reading Quiz, no Canvas due date (drift-added 2026-09-22; verify due date)",
-   "title": "Canvas 1500404, , PEST Reading Quiz, no Canvas",
+   "title": "PEST Reading Quiz, no Canvas",
    "grade": {
     "canvas_id": 1500404,
     "name": "PEST Reading Quiz",
@@ -212,14 +228,16 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "STRATEGY_AS_LEVERAGE_READING_QUIZ",
-   "status": "blocked_inperson",
-   "date": "2026-10-23",
-   "note": "# Canvas 1512930, 10pt, Strategy as Leverage Reading Quiz (in-class/participation; drift-added 2026-10-19)",
-   "title": "Canvas 1512930, , Strategy as Leverage Reading Quiz (in-class/participation; drift-added 2026-10-19)",
+   "status": "done",
+   "date": "2026-10-21",
+   "note": "# Canvas 1512930, 10pt, Strategy as Leverage Reading Quiz, submitted 2026-10-21 (attempt 1, graded 10/10, on time). Reclassified from blocked_inperson: Canvas config identical to the five quizzes already taken (New Quizzes LTI, no lockdown browser, no access code, no time limit, unlimited attempts)",
+   "title": "Strategy as Leverage Reading Quiz, submitted 2026-10-21 (attempt 1, graded 10/10, on time). Reclassified from blocked_inperson: Canvas config identical to the five quizzes already taken",
    "grade": {
     "canvas_id": 1512930,
     "name": "Strategy as Leverage Reading Quiz",
@@ -235,14 +253,16 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "THE_BOUNDARIES_OF_THE_FIRM_MAKE_VS_BUY_Q",
-   "status": "blocked_inperson",
+   "status": "pending",
    "date": "2026-10-28",
-   "note": "# Canvas 1512994, 10pt, The Boundaries of the Firm: Make vs Buy \u2014 Quiz (in-class/participation; drift-added 2026-10-19)",
-   "title": "Canvas 1512994, , The Boundaries of the Firm: Make vs Buy \u2014 Quiz (in-class/participation; drift-added 2026-10-19)",
+   "note": "# Canvas 1512994, 10pt, Make vs Buy Quiz; online New Quizzes (no lockdown/access code), reclassified from blocked_inperson 2026-10-21",
+   "title": "Make vs Buy Quiz; online New Quizzes (no lockdown/access code), reclassified from blocked_inperson 2026-10-21",
    "grade": {
     "canvas_id": 1512994,
     "name": "The Boundaries of the Firm: Make vs Buy \u2014 Quiz",
@@ -258,14 +278,16 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "GLOBAL_VS_LOCAL_READING_QUIZ",
-   "status": "blocked_inperson",
+   "status": "pending",
    "date": "2026-10-30",
-   "note": "# Canvas 1512995, 10pt, Global vs Local \u2014 Reading Quiz (in-class/participation; drift-added 2026-10-19)",
-   "title": "Canvas 1512995, , Global vs Local \u2014 Reading Quiz (in-class/participation; drift-added 2026-10-19)",
+   "note": "# Canvas 1512995, 10pt, Global vs Local Reading Quiz; online New Quizzes (no lockdown/access code), reclassified from blocked_inperson 2026-10-21",
+   "title": "Global vs Local Reading Quiz; online New Quizzes (no lockdown/access code), reclassified from blocked_inperson 2026-10-21",
    "grade": {
     "canvas_id": 1512995,
     "name": "Global vs Local \u2014 Reading Quiz",
@@ -281,14 +303,16 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "GLOBAL_ENTRY_MODES_READING_QUIZ",
-   "status": "blocked_inperson",
+   "status": "pending",
    "date": "2026-11-04",
-   "note": "# Canvas 1513528, 10pt, Global Entry Modes \u2014 Reading Quiz (in-class/participation; drift-added 2026-10-20)",
-   "title": "Canvas 1513528, , Global Entry Modes \u2014 Reading Quiz (in-class/participation; drift-added 2026-10-20)",
+   "note": "# Canvas 1513528, 10pt, Global Entry Modes Reading Quiz; online New Quizzes (no lockdown/access code), reclassified from blocked_inperson 2026-10-21",
+   "title": "Global Entry Modes Reading Quiz; online New Quizzes (no lockdown/access code), reclassified from blocked_inperson 2026-10-21",
    "grade": {
     "canvas_id": 1513528,
     "name": "Global Entry Modes \u2014 Reading Quiz",
@@ -304,14 +328,16 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "BUILDING_COMPETITIVE_MOATS_READING_QUIZ",
-   "status": "blocked_inperson",
+   "status": "pending",
    "date": "2026-11-11",
-   "note": "# Canvas 1513602, 10pt, Building Competitive Moats \u2014 Reading Quiz (in-class/participation; drift-added 2026-10-20)",
-   "title": "Canvas 1513602, , Building Competitive Moats \u2014 Reading Quiz (in-class/participation; drift-added 2026-10-20)",
+   "note": "# Canvas 1513602, 10pt, Building Competitive Moats Reading Quiz; online New Quizzes (no lockdown/access code), reclassified from blocked_inperson 2026-10-21",
+   "title": "Building Competitive Moats Reading Quiz; online New Quizzes (no lockdown/access code), reclassified from blocked_inperson 2026-10-21",
    "grade": {
     "canvas_id": 1513602,
     "name": "Building Competitive Moats \u2014 Reading Quiz",
@@ -327,14 +353,16 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "DISRUPTION_READING_QUIZ",
-   "status": "blocked_inperson",
+   "status": "pending",
    "date": "2026-11-18",
-   "note": "# Canvas 1513158, 10pt, Disruption \u2014 Reading Quiz (in-class/participation; drift-added 2026-10-19)",
-   "title": "Canvas 1513158, , Disruption \u2014 Reading Quiz (in-class/participation; drift-added 2026-10-19)",
+   "note": "# Canvas 1513158, 10pt, Disruption Reading Quiz; online New Quizzes (no lockdown/access code), reclassified from blocked_inperson 2026-10-21",
+   "title": "Disruption Reading Quiz; online New Quizzes (no lockdown/access code), reclassified from blocked_inperson 2026-10-21",
    "grade": {
     "canvas_id": 1513158,
     "name": "Disruption \u2014 Reading Quiz",
@@ -350,14 +378,16 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "STRATEGIC_ALIGNMENT_READING_QUIZ",
-   "status": "blocked_inperson",
+   "status": "pending",
    "date": "2026-11-20",
-   "note": "# Canvas 1513162, 10pt, Strategic Alignment \u2014 Reading Quiz (in-class/participation; drift-added 2026-10-19)",
-   "title": "Canvas 1513162, , Strategic Alignment \u2014 Reading Quiz (in-class/participation; drift-added 2026-10-19)",
+   "note": "# Canvas 1513162, 10pt, Strategic Alignment Reading Quiz; online New Quizzes (no lockdown/access code), reclassified from blocked_inperson 2026-10-21",
+   "title": "Strategic Alignment Reading Quiz; online New Quizzes (no lockdown/access code), reclassified from blocked_inperson 2026-10-21",
    "grade": {
     "canvas_id": 1513162,
     "name": "Strategic Alignment \u2014 Reading Quiz",
@@ -373,14 +403,16 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "PLATFORMS_AS_STRATEGY_READING_QUIZ",
-   "status": "blocked_inperson",
+   "status": "pending",
    "date": "2026-12-02",
-   "note": "# Canvas 1513165, 10pt, Platforms as Strategy \u2014 Reading Quiz (in-class/participation; drift-added 2026-10-19)",
-   "title": "Canvas 1513165, , Platforms as Strategy \u2014 Reading Quiz (in-class/participation; drift-added 2026-10-19)",
+   "note": "# Canvas 1513165, 10pt, Platforms as Strategy Reading Quiz; online New Quizzes (no lockdown/access code), reclassified from blocked_inperson 2026-10-21",
+   "title": "Platforms as Strategy Reading Quiz; online New Quizzes (no lockdown/access code), reclassified from blocked_inperson 2026-10-21",
    "grade": {
     "canvas_id": 1513165,
     "name": "Platforms as Strategy \u2014 Reading Quiz",
@@ -396,14 +428,16 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "STRATEGY_AND_INNOVATION_READING_QUIZ",
-   "status": "blocked_inperson",
+   "status": "pending",
    "date": "2026-12-09",
-   "note": "# Canvas 1513613, 10pt, Strategy and Innovation \u2014 Reading Quiz (in-class/participation; drift-added 2026-10-20)",
-   "title": "Canvas 1513613, , Strategy and Innovation \u2014 Reading Quiz (in-class/participation; drift-added 2026-10-20)",
+   "note": "# Canvas 1513613, 10pt, Strategy and Innovation Reading Quiz; online New Quizzes (no lockdown/access code), reclassified from blocked_inperson 2026-10-21",
+   "title": "Strategy and Innovation Reading Quiz; online New Quizzes (no lockdown/access code), reclassified from blocked_inperson 2026-10-21",
    "grade": {
     "canvas_id": 1513613,
     "name": "Strategy and Innovation \u2014 Reading Quiz",
@@ -419,7 +453,9 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   }
  ],
  "unmatched_canvas": [],
@@ -431,5 +467,5 @@
   "final_score": 56.36,
   "final_grade": "E"
  },
- "built_at": "2026-10-21T19:32:14.679918+00:00"
+ "built_at": "2026-10-21T21:52:40.832291+00:00"
 }

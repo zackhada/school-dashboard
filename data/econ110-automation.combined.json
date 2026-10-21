@@ -6,7 +6,7 @@
    "status": "done",
    "date": "2026-09-05",
    "note": "# Qualtrics bio survey (facts on record)",
-   "title": "Qualtrics bio survey (facts on record)",
+   "title": "Qualtrics bio survey",
    "grade": {
     "name": "Biographical Survey",
     "due": "2026-09-08T23:59:00",
@@ -18,7 +18,9 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "ECON_MINDTAP_PRELIM",
@@ -28,7 +30,9 @@
    "title": "Getting Started REOPENED",
    "grade": null,
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "ECON_MINDTAP_CH1",
@@ -38,7 +42,9 @@
    "title": "Ch1 homework REOPENED",
    "grade": null,
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "ECON_MINDTAP_CH2PRE",
@@ -48,7 +54,9 @@
    "title": "Ch 2 pre-class Cengage",
    "grade": null,
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "ECON_OAKS_QUIZ",
@@ -67,7 +75,9 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "ECON_MINDTAP_CH2",
@@ -77,13 +87,15 @@
    "title": "Ch 2 Homework Cengage (Aplia)",
    "grade": null,
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "ECON_MEET_TA",
    "status": "blocked_inperson",
    "date": "2026-09-11",
-   "note": "# in-person TA lab B090 JFSB",
+   "note": "# in-person TA lab B090 JFSB [manual:requires-meeting-a-ta-in-person-at-a-lab-room-b090-jfsb]",
    "title": "Meet TA",
    "grade": {
     "name": "Meet Your TA",
@@ -96,7 +108,12 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": {
+    "verdict": "manual",
+    "why": "Requires meeting a TA in person at a lab room (B090 JFSB)"
+   },
+   "surface": true
   },
   {
    "key": "ECON_NEQ_1",
@@ -115,7 +132,9 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "ECON_MANKIW_1",
@@ -134,7 +153,9 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "ECON_MINDTAP_CH3PRE",
@@ -144,7 +165,9 @@
    "title": "Ch 3 pre-class Cengage (Read It + QuickQuizzes)",
    "grade": null,
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "ECON_MINDTAP_CH3",
@@ -154,14 +177,16 @@
    "title": "Ch 3 Homework Cengage",
    "grade": null,
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "ECON_TA_PASSOFF_1",
    "status": "blocked_inperson",
    "date": "2026-09-15",
-   "note": "# meet TA, pass off one Q from Mankiw #1 (found live 2026-09-10)",
-   "title": "meet TA, pass off one Q from Mankiw #1 (found live 2026-09-10)",
+   "note": "# meet TA, pass off one Q from Mankiw #1 (found live 2026-09-10) [manual:must-meet-ta-in-person-and-pass-off-a-mankiw-1-question]",
+   "title": "meet TA, pass off one Q from Mankiw #1",
    "grade": {
     "name": "TA Passoff #1 (Extra Credit)",
     "due": "2026-09-15T23:59:00",
@@ -173,7 +198,12 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": {
+    "verdict": "manual",
+    "why": "Must meet TA in person and pass off a Mankiw 1 question"
+   },
+   "surface": true
   },
   {
    "key": "ECON_MINDTAP_CH4PRE",
@@ -183,7 +213,9 @@
    "title": "Ch 4 pre-class Cengage (Read It + QuickQuizzes)",
    "grade": null,
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "ECON_MINDTAP_CH4",
@@ -193,14 +225,16 @@
    "title": "Ch 4 Homework Cengage",
    "grade": null,
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "ECON_NEQ_2",
    "status": "done",
    "date": "2026-09-18",
    "note": "# NE Quiz #2 5pt: ACCEPTED ZERO per Zack 2026-09-20 (quiz closed, no extension sought)",
-   "title": "NE Quiz #2 : ACCEPTED ZERO per Zack 2026-09-20 (quiz closed, no extension sought)",
+   "title": "NE Quiz #2 : ACCEPTED ZERO per Zack 2026-09-20",
    "grade": {
     "name": "NE - Quiz #2",
     "due": "2026-09-18T23:59:00",
@@ -212,7 +246,9 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "ECON_MANKIW_2",
@@ -231,7 +267,9 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "ECON_MINDTAP_CH5PRE",
@@ -241,7 +279,9 @@
    "title": "Ch 5 pre-class Cengage",
    "grade": null,
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "ECON_MINDTAP_CH5",
@@ -251,14 +291,16 @@
    "title": "Ch 5 Homework Cengage",
    "grade": null,
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "ECON_TA_PASSOFF_2",
    "status": "blocked_inperson",
    "date": "2026-09-22",
-   "note": "# meet TA, pass off one Q from Mankiw #2 (found live 2026-09-16)",
-   "title": "meet TA, pass off one Q from Mankiw #2 (found live 2026-09-16)",
+   "note": "# meet TA, pass off one Q from Mankiw #2 (found live 2026-09-16) [manual:must-meet-ta-in-person-and-pass-off-a-mankiw-2-question]",
+   "title": "meet TA, pass off one Q from Mankiw #2",
    "grade": {
     "name": "TA Passoff #2 (Extra Credit)",
     "due": "2026-09-22T23:59:00",
@@ -270,7 +312,12 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": {
+    "verdict": "manual",
+    "why": "Must meet TA in person and pass off a Mankiw 2 question"
+   },
+   "surface": true
   },
   {
    "key": "ECON_MINDTAP_CH6PRE",
@@ -280,7 +327,9 @@
    "title": "Ch 6 pre-class Cengage",
    "grade": null,
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "ECON_MINDTAP_CH6",
@@ -290,7 +339,9 @@
    "title": "Ch 6 Homework Cengage",
    "grade": null,
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "ECON_NEQ_3",
@@ -309,7 +360,9 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "ECON_MANKIW_3",
@@ -328,7 +381,9 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "ECON_NEWS_SEPT",
@@ -347,14 +402,16 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "ECON_TA_PASSOFF_3",
    "status": "blocked_inperson",
    "date": "2026-09-29",
-   "note": "# meet TA, pass off one Q from Mankiw #3 (found live 2026-09-16)",
-   "title": "meet TA, pass off one Q from Mankiw #3 (found live 2026-09-16)",
+   "note": "# meet TA, pass off one Q from Mankiw #3 (found live 2026-09-16) [manual:must-meet-ta-in-person-and-pass-off-a-mankiw-3-question]",
+   "title": "meet TA, pass off one Q from Mankiw #3",
    "grade": {
     "name": "TA Passoff #3 (Extra Credit)",
     "due": "2026-09-29T23:59:00",
@@ -366,7 +423,12 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": {
+    "verdict": "manual",
+    "why": "Must meet TA in person and pass off a Mankiw 3 question"
+   },
+   "surface": true
   },
   {
    "key": "ECON_NEQ_4",
@@ -385,7 +447,9 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "ECON_MANKIW_4",
@@ -404,13 +468,15 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "ECON_MIDTERM_1",
    "status": "blocked_inperson",
    "date": "2026-10-02",
-   "note": "# in-class 4:00pm",
+   "note": "# in-class 4:00pm [manual:exam-held-in-class-at-4-00pm-no-online-path]",
    "title": "in-class",
    "grade": {
     "name": "Midterm 1",
@@ -423,7 +489,12 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": {
+    "verdict": "manual",
+    "why": "Exam held in class at 4:00pm, no online path"
+   },
+   "surface": true
   },
   {
    "key": "ECON_PRECLASS_BEHAV",
@@ -442,14 +513,16 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "ECON_TA_PASSOFF_4",
    "status": "blocked_inperson",
    "date": "2026-10-06",
-   "note": "# meet TA, pass off one Q from Mankiw #4 (found live 2026-09-16)",
-   "title": "meet TA, pass off one Q from Mankiw #4 (found live 2026-09-16)",
+   "note": "# meet TA, pass off one Q from Mankiw #4 (found live 2026-09-16) [manual:must-meet-ta-in-person-and-pass-off-a-mankiw-4-question]",
+   "title": "meet TA, pass off one Q from Mankiw #4",
    "grade": {
     "name": "TA Passoff #4 (Extra Credit)",
     "due": "2026-10-06T23:59:00",
@@ -461,7 +534,12 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": {
+    "verdict": "manual",
+    "why": "Must meet TA in person and pass off a Mankiw 4 question"
+   },
+   "surface": true
   },
   {
    "key": "ECON_NEQ_5",
@@ -480,7 +558,9 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "ECON_NEQ_6",
@@ -499,7 +579,9 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "ECON_MANKIW_5",
@@ -518,14 +600,16 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "ECON_NAKED_ESSAY_1",
    "status": "done",
    "date": "2026-10-16",
    "note": "# Naked Economics Essay 1 (20pt)",
-   "title": "Naked Economics Essay 1 ()",
+   "title": "Naked Economics Essay 1",
    "grade": {
     "name": "Naked Economics: Essay 1",
     "due": "2026-10-16T23:59:00",
@@ -537,14 +621,16 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "ECON_TA_PASSOFF_5",
    "status": "blocked_inperson",
    "date": "2026-10-20",
-   "note": "# meet TA, pass off one Q from Mankiw #5 (found live 2026-09-16)",
-   "title": "meet TA, pass off one Q from Mankiw #5 (found live 2026-09-16)",
+   "note": "# meet TA, pass off one Q from Mankiw #5 (found live 2026-09-16) [manual:must-meet-ta-in-person-and-pass-off-a-mankiw-5-question]",
+   "title": "meet TA, pass off one Q from Mankiw #5",
    "grade": {
     "name": "TA Passoff #5 (Extra Credit)",
     "due": "2026-10-20T23:59:00",
@@ -556,7 +642,12 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": {
+    "verdict": "manual",
+    "why": "Must meet TA in person and pass off a Mankiw 5 question"
+   },
+   "surface": true
   },
   {
    "key": "ECON_NEQ_7",
@@ -575,7 +666,9 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "ECON_MANKIW_6",
@@ -594,14 +687,16 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "ECON_TA_PASSOFF_6",
    "status": "blocked_inperson",
    "date": "2026-10-27",
-   "note": "# meet TA, pass off one Q from Mankiw #6 (found live 2026-09-16)",
-   "title": "meet TA, pass off one Q from Mankiw #6 (found live 2026-09-16)",
+   "note": "# meet TA, pass off one Q from Mankiw #6 (found live 2026-09-16) [manual:must-meet-ta-in-person-and-pass-off-a-mankiw-6-question]",
+   "title": "meet TA, pass off one Q from Mankiw #6",
    "grade": {
     "name": "TA Passoff #6 (Extra Credit)",
     "due": "2026-10-27T23:59:00",
@@ -613,7 +708,12 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": {
+    "verdict": "manual",
+    "why": "Must meet TA in person and pass off a Mankiw 6 question"
+   },
+   "surface": true
   },
   {
    "key": "ECON_NEQ_8",
@@ -632,7 +732,9 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "ECON_MANKIW_7",
@@ -651,14 +753,16 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "ECON_TA_PASSOFF_7",
    "status": "blocked_inperson",
    "date": "2026-11-03",
-   "note": "# meet TA, pass off one Q from Mankiw #7 (found live 2026-09-16)",
-   "title": "meet TA, pass off one Q from Mankiw #7 (found live 2026-09-16)",
+   "note": "# meet TA, pass off one Q from Mankiw #7 (found live 2026-09-16) [manual:must-meet-ta-in-person-and-pass-off-a-mankiw-7-question]",
+   "title": "meet TA, pass off one Q from Mankiw #7",
    "grade": {
     "name": "TA Passoff #7 (Extra Credit)",
     "due": "2026-11-03T23:59:00",
@@ -670,7 +774,12 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": {
+    "verdict": "manual",
+    "why": "Must meet TA in person and pass off a Mankiw 7 question"
+   },
+   "surface": true
   },
   {
    "key": "ECON_NEWS_OCT",
@@ -689,7 +798,9 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "ECON_NEQ_9",
@@ -708,7 +819,9 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "ECON_MANKIW_8",
@@ -727,13 +840,15 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "ECON_MIDTERM_2",
    "status": "blocked_inperson",
    "date": "2026-11-06",
-   "note": "# in-class 7:00pm",
+   "note": "# in-class 7:00pm [manual:exam-held-in-class-at-7-00pm-no-online-path]",
    "title": "in-class",
    "grade": {
     "name": "Midterm 2",
@@ -746,14 +861,19 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": {
+    "verdict": "manual",
+    "why": "Exam held in class at 7:00pm, no online path"
+   },
+   "surface": true
   },
   {
    "key": "ECON_TA_PASSOFF_8",
    "status": "blocked_inperson",
    "date": "2026-11-10",
-   "note": "# meet TA, pass off one Q from Mankiw #8 (found live 2026-09-16)",
-   "title": "meet TA, pass off one Q from Mankiw #8 (found live 2026-09-16)",
+   "note": "# meet TA, pass off one Q from Mankiw #8 (found live 2026-09-16) [manual:must-meet-ta-in-person-and-pass-off-a-mankiw-8-question]",
+   "title": "meet TA, pass off one Q from Mankiw #8",
    "grade": {
     "name": "TA Passoff #8 (Extra Credit)",
     "due": "2026-11-10T23:59:00",
@@ -765,7 +885,12 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": {
+    "verdict": "manual",
+    "why": "Must meet TA in person and pass off a Mankiw 8 question"
+   },
+   "surface": true
   },
   {
    "key": "ECON_NEQ_10",
@@ -784,7 +909,9 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "ECON_MANKIW_9",
@@ -803,14 +930,16 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "ECON_TA_PASSOFF_9",
    "status": "blocked_inperson",
    "date": "2026-11-17",
-   "note": "# meet TA, pass off one Q from Mankiw #9 (found live 2026-09-16)",
-   "title": "meet TA, pass off one Q from Mankiw #9 (found live 2026-09-16)",
+   "note": "# meet TA, pass off one Q from Mankiw #9 (found live 2026-09-16) [manual:must-meet-ta-in-person-and-pass-off-a-mankiw-9-question]",
+   "title": "meet TA, pass off one Q from Mankiw #9",
    "grade": {
     "name": "TA Passoff #9 (Extra Credit)",
     "due": "2026-11-17T23:59:00",
@@ -822,7 +951,12 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": {
+    "verdict": "manual",
+    "why": "Must meet TA in person and pass off a Mankiw 9 question"
+   },
+   "surface": true
   },
   {
    "key": "ECON_NEQ_11",
@@ -841,7 +975,9 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "ECON_MANKIW_10",
@@ -860,14 +996,16 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "ECON_TA_PASSOFF_10",
    "status": "blocked_inperson",
    "date": "2026-11-24",
-   "note": "# meet TA, pass off one Q from Mankiw #10 (found live 2026-09-16)",
-   "title": "meet TA, pass off one Q from Mankiw #10 (found live 2026-09-16)",
+   "note": "# meet TA, pass off one Q from Mankiw #10 (found live 2026-09-16) [manual:must-meet-ta-in-person-and-pass-off-a-mankiw-10-question]",
+   "title": "meet TA, pass off one Q from Mankiw #10",
    "grade": {
     "name": "TA Passoff #10 (Extra Credit)",
     "due": "2026-11-24T23:59:00",
@@ -879,7 +1017,12 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": {
+    "verdict": "manual",
+    "why": "Must meet TA in person and pass off a Mankiw 10 question"
+   },
+   "surface": true
   },
   {
    "key": "ECON_NEWS_NOV",
@@ -898,7 +1041,9 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "ECON_NEQ_12",
@@ -917,7 +1062,9 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "ECON_NEQ_13",
@@ -936,7 +1083,9 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "ECON_MANKIW_11",
@@ -955,14 +1104,16 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "ECON_NAKED_ESSAY_2",
    "status": "pending",
    "date": "2026-12-08",
    "note": "# Naked Economics Essay 2 (20pt)",
-   "title": "Naked Economics Essay 2 ()",
+   "title": "Naked Economics Essay 2",
    "grade": {
     "name": "Naked Economics: Essay 2",
     "due": "2026-12-08T23:59:00",
@@ -974,14 +1125,16 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "ECON_TA_PASSOFF_11",
    "status": "blocked_inperson",
    "date": "2026-12-08",
-   "note": "# meet TA, pass off one Q from Mankiw #11 (found live 2026-09-16)",
-   "title": "meet TA, pass off one Q from Mankiw #11 (found live 2026-09-16)",
+   "note": "# meet TA, pass off one Q from Mankiw #11 (found live 2026-09-16) [manual:must-meet-ta-in-person-and-pass-off-a-mankiw-11-question]",
+   "title": "meet TA, pass off one Q from Mankiw #11",
    "grade": {
     "name": "TA Passoff #11 (Extra Credit)",
     "due": "2026-12-08T23:59:00",
@@ -993,7 +1146,12 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": {
+    "verdict": "manual",
+    "why": "Must meet TA in person and pass off a Mankiw 11 question"
+   },
+   "surface": true
   },
   {
    "key": "ECON_CHRISTENSEN_QUIZ",
@@ -1012,13 +1170,15 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "ECON_FINAL",
    "status": "blocked_inperson",
    "date": "2026-12-10",
-   "note": "# in-class 6:00pm",
+   "note": "# in-class 6:00pm [manual:final-exam-held-in-class-at-6-00pm-no-online-path]",
    "title": "in-class",
    "grade": {
     "name": "Final Exam",
@@ -1031,7 +1191,12 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": {
+    "verdict": "manual",
+    "why": "Final exam held in class at 6:00pm, no online path"
+   },
+   "surface": true
   },
   {
    "key": "ECON_COURSE_EVAL",
@@ -1050,7 +1215,9 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   }
  ],
  "unmatched_canvas": [],
@@ -1060,5 +1227,5 @@
   "current_score": 72.61,
   "source": "learning-suite-points"
  },
- "built_at": "2026-10-21T19:32:14.875816+00:00"
+ "built_at": "2026-10-21T21:52:40.920557+00:00"
 }

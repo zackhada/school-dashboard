@@ -35,7 +35,7 @@
    "key": "ATTENDANCE_CHECK_0915",
    "status": "blocked_inperson",
    "date": "2026-09-15",
-   "note": "# Canvas 1465865, LTI external_tool, in-class window 12:00-12:50pm MT; Zack attends"
+   "note": "# Canvas 1465865, LTI external_tool, in-class window 12:00-12:50pm MT; Zack attends [manual:attendance-check-credit-comes-from-being-in-the-room-during-]"
   },
   {
    "key": "PRECLASS_PADLET_0915",
@@ -47,7 +47,7 @@
    "key": "ATTENDANCE_CHECK_0917",
    "status": "blocked_inperson",
    "date": "2026-09-17",
-   "note": "# Canvas 1465866, LTI external_tool, in-class window 12:00-12:50pm MT; Zack attends"
+   "note": "# Canvas 1465866, LTI external_tool, in-class window 12:00-12:50pm MT; Zack attends [manual:attendance-check-tied-to-physical-presence-in-that-class-mee]"
   },
   {
    "key": "PRECLASS_PADLET_0917",
@@ -83,7 +83,7 @@
    "key": "ATTENDANCE_CHECK_0929",
    "status": "blocked_inperson",
    "date": "2026-09-29",
-   "note": "# Canvas 1465868, in-class 12:00-12:50pm MT; Zack attends (drift-added 2026-09-22)"
+   "note": "# Canvas 1465868, in-class 12:00-12:50pm MT; Zack attends (drift-added 2026-09-22) [manual:in-class-attendance-check-presence-is-the-graded-act-not-a-s]"
   },
   {
    "key": "PRECLASS_PADLET_1001",
@@ -95,19 +95,19 @@
    "key": "ATTENDANCE_CHECK_1001",
    "status": "blocked_inperson",
    "date": "2026-10-01",
-   "note": "# Canvas 1465930, in-class; Zack attends (drift-added 2026-09-22)"
+   "note": "# Canvas 1465930, in-class; Zack attends (drift-added 2026-09-22) [manual:name-is-an-attendance-check-for-the-in-person-session]"
   },
   {
    "key": "10_6_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-10-06",
-   "note": "# Canvas 1465981, 10pt, 10/6 - Attendance Check (in-class/participation; drift-added 2026-10-02)"
+   "note": "# Canvas 1465981, 10pt, 10/6 - Attendance Check (in-class/participation; drift-added 2026-10-02) [manual:attendance-check-recorded-in-the-room-tool-box-does-not-make]"
   },
   {
    "key": "10_8_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-10-08",
-   "note": "# Canvas 1466079, 10pt, 10/8 - Attendance Check (in-class/participation; drift-added 2026-10-02)"
+   "note": "# Canvas 1466079, 10pt, 10/8 - Attendance Check (in-class/participation; drift-added 2026-10-02) [manual:in-class-attendance-participation-credit-no-remote-equivalen]"
   },
   {
    "key": "10_6_PRE_CLASS_STUDY_AND_PADLET_SHARING",
@@ -123,111 +123,111 @@
   },
   {
    "key": "A_PROFILE_OF_A_PROPHET_GROUP_PROJECT",
-   "status": "blocked_ask_zack",
+   "status": "blocked_inperson",
    "date": "2026-12-11",
-   "note": "# Canvas 1468925, 100pt, A Profile of a Prophet Group Project (Zack's group: Elder Gerald Causse, in-class Oct 13 w/ Robert Cardon, Bree Cardon, Jamie Lewis; slides due Oct 12 11:59pm; in-class delivery is Zack's, cannot automate; research/slides automatable on request; no Canvas group, coordinate via Canvas Inbox; drift-added 2026-10-02)"
+   "note": "# Canvas 1468925, 100pt, A Profile of a Prophet Group Project (Zack's group: Elder Gerald Causse, in-class Oct 13 w/ Robert Cardon, Bree Cardon, Jamie Lewis; slides due Oct 12 11:59pm; in-class delivery is Zack's, cannot automate; research/slides automatable on request; no Canvas group, coordinate via Canvas Inbox; drift-added 2026-10-02) [manual:group-presentation-delivered-live-in-class-upload-path-does-]"
   },
   {
    "key": "10_13_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-10-13",
-   "note": "# Canvas 1466080, 10pt, 10/13 - Attendance Check (in-class/participation; drift-added 2026-10-08)"
+   "note": "# Canvas 1466080, 10pt, 10/13 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-check-physical-presence-is-the-graded-act]"
   },
   {
    "key": "10_15_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-10-15",
-   "note": "# Canvas 1466081, 10pt, 10/15 - Attendance Check (in-class/participation; drift-added 2026-10-08)"
+   "note": "# Canvas 1466081, 10pt, 10/15 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-check-for-the-in-person-session]"
   },
   {
    "key": "10_20_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-10-20",
-   "note": "# Canvas 1466083, 10pt, 10/20 - Attendance Check (in-class/participation; drift-added 2026-10-08)"
+   "note": "# Canvas 1466083, 10pt, 10/20 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-taken-in-the-classroom-not-an-online-quiz-path]"
   },
   {
    "key": "10_22_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-10-22",
-   "note": "# Canvas 1466086, 10pt, 10/22 - Attendance Check (in-class/participation; drift-added 2026-10-08)"
+   "note": "# Canvas 1466086, 10pt, 10/22 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-check-requiring-presence-in-the-room-that-day]"
   },
   {
    "key": "10_27_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-10-27",
-   "note": "# Canvas 1466087, 10pt, 10/27 - Attendance Check (in-class/participation; drift-added 2026-10-08)"
+   "note": "# Canvas 1466087, 10pt, 10/27 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:in-class-attendance-participation-credit-earned-in-person]"
   },
   {
    "key": "10_29_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-10-29",
-   "note": "# Canvas 1466090, 10pt, 10/29 - Attendance Check (in-class/participation; drift-added 2026-10-08)"
+   "note": "# Canvas 1466090, 10pt, 10/29 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-check-recorded-during-the-in-person-class]"
   },
   {
    "key": "11_3_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-11-03",
-   "note": "# Canvas 1466123, 10pt, 11/3 - Attendance Check (in-class/participation; drift-added 2026-10-08)"
+   "note": "# Canvas 1466123, 10pt, 11/3 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-graded-on-physical-presence-in-class]"
   },
   {
    "key": "11_5_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-11-05",
-   "note": "# Canvas 1466143, 10pt, 11/5 - Attendance Check (in-class/participation; drift-added 2026-10-08)"
+   "note": "# Canvas 1466143, 10pt, 11/5 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:in-class-attendance-check-not-completable-online-by-an-agent]"
   },
   {
    "key": "11_10_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-11-10",
-   "note": "# Canvas 1466166, 10pt, 11/10 - Attendance Check (in-class/participation; drift-added 2026-10-08)"
+   "note": "# Canvas 1466166, 10pt, 11/10 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-check-for-the-in-person-session]"
   },
   {
    "key": "11_12_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-11-12",
-   "note": "# Canvas 1466168, 10pt, 11/12 - Attendance Check (in-class/participation; drift-added 2026-10-08)"
+   "note": "# Canvas 1466168, 10pt, 11/12 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-check-room-presence-required]"
   },
   {
    "key": "11_17_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-11-17",
-   "note": "# Canvas 1466170, 10pt, 11/17 - Attendance Check (in-class/participation; drift-added 2026-10-08)"
+   "note": "# Canvas 1466170, 10pt, 11/17 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:in-class-attendance-check-participation-earned-in-class]"
   },
   {
    "key": "11_19_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-11-19",
-   "note": "# Canvas 1466171, 10pt, 11/19 - Attendance Check (in-class/participation; drift-added 2026-10-08)"
+   "note": "# Canvas 1466171, 10pt, 11/19 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-check-recorded-in-the-classroom]"
   },
   {
    "key": "11_24_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-11-24",
-   "note": "# Canvas 1466174, 10pt, 11/24 - Attendance Check (in-class/participation; drift-added 2026-10-08)"
+   "note": "# Canvas 1466174, 10pt, 11/24 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-check-where-only-in-person-presence-counts]"
   },
   {
    "key": "12_1_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-12-01",
-   "note": "# Canvas 1466185, 10pt, 12/1 - Attendance Check (in-class/participation; drift-added 2026-10-08)"
+   "note": "# Canvas 1466185, 10pt, 12/1 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-check-for-the-in-person-session]"
   },
   {
    "key": "12_3_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-12-03",
-   "note": "# Canvas 1466190, 10pt, 12/3 - Attendance Check (in-class/participation; drift-added 2026-10-08)"
+   "note": "# Canvas 1466190, 10pt, 12/3 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-check-body-in-the-room-is-the-requirement]"
   },
   {
    "key": "12_8_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-12-08",
-   "note": "# Canvas 1466191, 10pt, 12/8 - Attendance Check (in-class/participation; drift-added 2026-10-08)"
+   "note": "# Canvas 1466191, 10pt, 12/8 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:in-class-attendance-check-not-remotely-completable]"
   },
   {
    "key": "12_10_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-12-10",
-   "note": "# Canvas 1466192, 10pt, 12/10 - Attendance Check (in-class/participation; drift-added 2026-10-08)"
+   "note": "# Canvas 1466192, 10pt, 12/10 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-check-recorded-during-the-in-person-class]"
   },
   {
    "key": "10_13_PRE_CLASS_STUDY_AND_PADLET_SHARING",

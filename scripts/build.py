@@ -60,6 +60,9 @@ def words(s):
 
 def title_from(key, note):
     n = re.sub(r"^#\s*", "", str(note or ""), count=1)
+    n = re.sub(r"^Canvas\s+\d+,\s*[\d.]+\s*pts?,\s*", "", n, flags=re.I)
+    n = re.sub(r"\s*\[manual:[^\]]*\]", "", n, flags=re.I)
+    n = re.sub(r"\s*\([^()]*\)\s*$", "", n).strip()
     m = re.match(r"^(\d+\.\d+[^,]*|Topic\s+\d+[^,]*|Quiz\s+\d+[^,]*|"
                  r"Exam\s+\d+[^,]*|Assessment[^,]*)", n)
     if m:
@@ -92,6 +95,38 @@ def load(name):
         return {}
     with open(p) as f:
         return json.load(f)
+
+
+# Deterministic evidence gate. The LLM surface judge decides what a human must
+# do; this is the fallback when no verdict exists (model outage, new row before
+# the next healer run). Kept deliberately narrow: a module label such as "Tues
+# Oct 20 In Class" and a quiz name are NOT evidence. REAL_MANUAL mirrors
+# school-healer/scripts/surface_judge.py.
+REAL_MANUAL = re.compile(
+    r"(?i)(\[manual:(?!verify)[a-z0-9-]+|attendance check|participation quiz|"
+    r"in-class code|access code|proctor|lockdown browser|testing center|"
+    r"webcam|submission_types=none|no online submission|on paper|"
+    r"bring to class)")
+# A block claim that names no evidence at all (the 2026-10-21 STRAT bug).
+VAGUE_BLOCK = re.compile(r"(?i)\(in-class/participation|in-class/participation")
+
+
+def manual_evidence(note):
+    n = re.sub(r"^#\s*", "", str(note or ""))
+    if VAGUE_BLOCK.search(n) and not re.search(
+            r"(?i)(attendance|participation quiz|proctor|lockdown|testing center|"
+            r"submission_types=none|no online submission)", n):
+        return False
+    return bool(REAL_MANUAL.search(n))
+
+
+def judge_map():
+    """repo -> {key: {verdict, why}} from the healer's LLM verdicts."""
+    j = load("surface_judge.json")
+    out = {}
+    for repo, blob in (j.get("repos") or {}).items():
+        out[repo] = (blob or {}).get("verdicts") or {}
+    return out
 
 
 def needs_scores(prepped, needs_text):
@@ -134,6 +169,7 @@ def build_repo(repo):
     ledger = load(repo + ".json").get("rows", []) if load(repo + ".json") else []
     grades = load(repo + ".grades.json").get("rows", [])
     needs_text = (load(repo + ".needs.json") or {}).get("text")
+    verdicts = (judge_map().get(repo) or {})
     # ledger file may itself be a raw dispatch payload; be lenient
     if isinstance(ledger, dict):
         ledger = ledger.get("rows", [])
@@ -185,10 +221,29 @@ def build_repo(repo):
         g = grades[assign[i]] if i in assign else None
         if g:
             matched_ids.add(g.get("canvas_id"))
-        rows.append({"key": x.get("key"), "status": x.get("status"),
+        key = x.get("key")
+        v = verdicts.get(key) or {}
+        # surface: does this row belong in the human's action lists?
+        #   judge verdict wins; evidence gate is the fallback.
+        blocked = str(x.get("status") or "").startswith("blocked")
+        if v.get("verdict") == "manual":
+            surface = True
+        elif v.get("verdict") == "verify":
+            surface = True
+        elif v.get("verdict") == "automatable":
+            surface = False
+        elif str(x.get("status") or "") == "blocked_ask_zack":
+            # A row parked on Zack's decision stays visible unless the judge
+            # explicitly clears it; only blocked_inperson needs evidence.
+            surface = True
+        else:
+            surface = blocked and manual_evidence(x.get("note"))
+        rows.append({"key": key, "status": x.get("status"),
                      "date": x.get("date"), "note": x.get("note"),
                      "title": title, "grade": g, "drift": False,
-                     "needs_zack": i == nbest})
+                     "needs_zack": i == nbest,
+                     "judge": v or None,
+                     "surface": bool(surface and blocked)})
     rows.sort(key=lambda r: r["date"])
     unmatched = [g for g in grades
                  if g.get("canvas_id") is not None

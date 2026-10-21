@@ -6,7 +6,7 @@
    "status": "done",
    "date": "2026-09-10",
    "note": "# Padlet post done (Zack posted himself, confirmed Telegram; no Canvas submission box exists)",
-   "title": "Padlet post done (Zack posted himself, confirmed Telegram; no Canvas submission box exists)",
+   "title": "Padlet post done",
    "grade": {
     "canvas_id": 1466384,
     "name": "9/10 - Pre-Class Study and Padlet Sharing",
@@ -22,7 +22,9 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "ATTENDANCE_CHECK_0910",
@@ -45,7 +47,9 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "SYLLABUS_QUIZ",
@@ -68,7 +72,9 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "GET_TO_KNOW_YOU",
@@ -97,13 +103,15 @@
     ]
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "ATTENDANCE_CHECK_0915",
    "status": "blocked_inperson",
    "date": "2026-09-15",
-   "note": "# Canvas 1465865, LTI external_tool, in-class window 12:00-12:50pm MT; Zack attends",
+   "note": "# Canvas 1465865, LTI external_tool, in-class window 12:00-12:50pm MT; Zack attends [manual:attendance-check-credit-comes-from-being-in-the-room-during-]",
    "title": "Canvas 1465865, LTI external_tool, in-class window - MT; Zack attends",
    "grade": {
     "canvas_id": 1465865,
@@ -120,14 +128,19 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": true,
+   "judge": {
+    "verdict": "manual",
+    "why": "Attendance check; credit comes from being in the room during the 12:00-12:50 session"
+   },
+   "surface": true
   },
   {
    "key": "PRECLASS_PADLET_0915",
    "status": "done",
    "date": "2026-09-15",
    "note": "# Canvas 1466389, 10pt, Padlet post only (no Canvas box); drift-added 2026-09-10",
-   "title": "Canvas 1466389, , Padlet post only (no Canvas box); drift-added 2026-09-10",
+   "title": "Padlet post only (no Canvas box); drift-added 2026-09-10",
    "grade": {
     "canvas_id": 1466389,
     "name": "9/15 - Pre-Class Study and Padlet Sharing",
@@ -143,13 +156,15 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "ATTENDANCE_CHECK_0917",
    "status": "blocked_inperson",
    "date": "2026-09-17",
-   "note": "# Canvas 1465866, LTI external_tool, in-class window 12:00-12:50pm MT; Zack attends",
+   "note": "# Canvas 1465866, LTI external_tool, in-class window 12:00-12:50pm MT; Zack attends [manual:attendance-check-tied-to-physical-presence-in-that-class-mee]",
    "title": "Canvas 1465866, LTI external_tool, in-class window - MT; Zack attends",
    "grade": {
     "canvas_id": 1465866,
@@ -166,14 +181,19 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": {
+    "verdict": "manual",
+    "why": "Attendance check tied to physical presence in that class meeting"
+   },
+   "surface": true
   },
   {
    "key": "PRECLASS_PADLET_0917",
    "status": "done",
    "date": "2026-09-17",
    "note": "# Canvas 1466454, 10pt, Padlet post only (no Canvas box); drift-added 2026-09-10",
-   "title": "Canvas 1466454, , Padlet post only (no Canvas box); drift-added 2026-09-10",
+   "title": "Padlet post only (no Canvas box); drift-added 2026-09-10",
    "grade": {
     "canvas_id": 1466454,
     "name": "9/17 - Pre-Class Study and Padlet Sharing",
@@ -189,14 +209,16 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "ONLINE_WEEK_PADLET_0922",
    "status": "done",
    "date": "2026-09-27",
    "note": "# Canvas 1467847, 10pt, online week respond to >=2 peers on Padlet (no in-class) (drift-added 2026-09-22)",
-   "title": "Canvas 1467847, , online week respond to >=2 peers on Padlet (no in-class) (drift-added 2026-09-22)",
+   "title": "online week respond to >=2 peers on Padlet (no in-class)",
    "grade": {
     "canvas_id": 1467847,
     "name": "9/22 & 24 - [ONLINE WEEK] Meaningfully respond to minimum of two peers on padlet in place of in-class attendance",
@@ -212,14 +234,16 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "ONLINE_WEEK_STUDY_0922",
    "status": "done",
    "date": "2026-09-27",
    "note": "# Canvas 1466458, 10pt, online class week Study and Padlet Sharing (drift-added 2026-09-22)",
-   "title": "Canvas 1466458, , online class week Study and Padlet Sharing (drift-added 2026-09-22)",
+   "title": "online class week Study and Padlet Sharing",
    "grade": {
     "canvas_id": 1466458,
     "name": "9/22 & 24 - [ONLINE CLASS WEEK] Study and Padlet Sharing",
@@ -235,14 +259,16 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "BECOME_PROJECT_A",
    "status": "done",
    "date": "2026-09-27",
    "note": "# Canvas 1466674, 100pt, Become Project Part A Self Evaluation (drift-added 2026-09-22)",
-   "title": "Canvas 1466674, , Become Project Part A Self Evaluation (drift-added 2026-09-22)",
+   "title": "Become Project Part A Self Evaluation",
    "grade": {
     "canvas_id": 1466674,
     "name": "Become Project - Part A - Self Evaluation",
@@ -264,14 +290,16 @@
     ]
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "PRECLASS_PADLET_0929",
    "status": "done",
    "date": "2026-09-29",
    "note": "# Canvas 1466461, 10pt, Pre-Class Study and Padlet Sharing (drift-added 2026-09-22)",
-   "title": "Canvas 1466461, , Pre-Class Study and Padlet Sharing (drift-added 2026-09-22)",
+   "title": "Pre-Class Study and Padlet Sharing",
    "grade": {
     "canvas_id": 1466461,
     "name": "9/29 - Pre-Class Study and Padlet Sharing",
@@ -287,14 +315,16 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "ATTENDANCE_CHECK_0929",
    "status": "blocked_inperson",
    "date": "2026-09-29",
-   "note": "# Canvas 1465868, in-class 12:00-12:50pm MT; Zack attends (drift-added 2026-09-22)",
-   "title": "Canvas 1465868, in-class - MT; Zack attends (drift-added 2026-09-22)",
+   "note": "# Canvas 1465868, in-class 12:00-12:50pm MT; Zack attends (drift-added 2026-09-22) [manual:in-class-attendance-check-presence-is-the-graded-act-not-a-s]",
+   "title": "Canvas 1465868, in-class - MT; Zack attends",
    "grade": {
     "canvas_id": 1465868,
     "name": "9/29 - Attendance Check",
@@ -310,14 +340,19 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": {
+    "verdict": "manual",
+    "why": "In-class attendance check; presence is the graded act, not a submission"
+   },
+   "surface": true
   },
   {
    "key": "PRECLASS_PADLET_1001",
    "status": "done",
    "date": "2026-10-01",
    "note": "# Canvas 1466467, 10pt, Pre-Class Study and Padlet Sharing (drift-added 2026-09-22)",
-   "title": "Canvas 1466467, , Pre-Class Study and Padlet Sharing (drift-added 2026-09-22)",
+   "title": "Pre-Class Study and Padlet Sharing",
    "grade": {
     "canvas_id": 1466467,
     "name": "10/1 - Pre-Class Study and Padlet Sharing",
@@ -333,14 +368,16 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "ATTENDANCE_CHECK_1001",
    "status": "blocked_inperson",
    "date": "2026-10-01",
-   "note": "# Canvas 1465930, in-class; Zack attends (drift-added 2026-09-22)",
-   "title": "Canvas 1465930, in-class; Zack attends (drift-added 2026-09-22)",
+   "note": "# Canvas 1465930, in-class; Zack attends (drift-added 2026-09-22) [manual:name-is-an-attendance-check-for-the-in-person-session]",
+   "title": "Canvas 1465930, in-class; Zack attends",
    "grade": {
     "canvas_id": 1465930,
     "name": "10/1 - Attendance Check",
@@ -356,14 +393,19 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": {
+    "verdict": "manual",
+    "why": "Name is an attendance check for the in-person session"
+   },
+   "surface": true
   },
   {
    "key": "10_6_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-10-06",
-   "note": "# Canvas 1465981, 10pt, 10/6 - Attendance Check (in-class/participation; drift-added 2026-10-02)",
-   "title": "Canvas 1465981, , 10/6 - Attendance Check (in-class/participation; drift-added 2026-10-02)",
+   "note": "# Canvas 1465981, 10pt, 10/6 - Attendance Check (in-class/participation; drift-added 2026-10-02) [manual:attendance-check-recorded-in-the-room-tool-box-does-not-make]",
+   "title": "10/6 - Attendance Check",
    "grade": {
     "canvas_id": 1465981,
     "name": "10/6 - Attendance Check",
@@ -379,14 +421,19 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": {
+    "verdict": "manual",
+    "why": "Attendance check recorded in the room; tool box does not make it remote"
+   },
+   "surface": true
   },
   {
    "key": "10_6_PRE_CLASS_STUDY_AND_PADLET_SHARING",
    "status": "done",
    "date": "2026-10-06",
    "note": "# Canvas 1466470, 10pt, 10/6 - Pre-Class Study and Padlet Sharing (remote, grade-only; drift-added 2026-10-02; done 2026-10-02 by daily run before a push race was fixed)",
-   "title": "Canvas 1466470, , 10/6 - Pre-Class Study and Padlet Sharing (remote, grade-only; drift-added 2026-10-02; done 2026-10-02 by daily run before a push race was fixed)",
+   "title": "10/6 - Pre-Class Study and Padlet Sharing",
    "grade": {
     "canvas_id": 1466470,
     "name": "10/6 - Pre-Class Study and Padlet Sharing",
@@ -402,14 +449,16 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "10_8_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-10-08",
-   "note": "# Canvas 1466079, 10pt, 10/8 - Attendance Check (in-class/participation; drift-added 2026-10-02)",
-   "title": "Canvas 1466079, , 10/8 - Attendance Check (in-class/participation; drift-added 2026-10-02)",
+   "note": "# Canvas 1466079, 10pt, 10/8 - Attendance Check (in-class/participation; drift-added 2026-10-02) [manual:in-class-attendance-participation-credit-no-remote-equivalen]",
+   "title": "10/8 - Attendance Check",
    "grade": {
     "canvas_id": 1466079,
     "name": "10/8 - Attendance Check",
@@ -425,14 +474,19 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": {
+    "verdict": "manual",
+    "why": "In-class attendance/participation credit, no remote equivalent"
+   },
+   "surface": true
   },
   {
    "key": "10_8_PRE_CLASS_STUDY_AND_PADLET_SHARING",
    "status": "done",
    "date": "2026-10-08",
    "note": "# Canvas 1466473, 10pt, 10/8 - Pre-Class Study and Padlet Sharing (remote, grade-only; drift-added 2026-10-02)",
-   "title": "Canvas 1466473, , 10/8 - Pre-Class Study and Padlet Sharing (remote, grade-only; drift-added 2026-10-02)",
+   "title": "10/8 - Pre-Class Study and Padlet Sharing",
    "grade": {
     "canvas_id": 1466473,
     "name": "10/8 - Pre-Class Study and Padlet Sharing",
@@ -448,14 +502,16 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "10_13_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-10-13",
-   "note": "# Canvas 1466080, 10pt, 10/13 - Attendance Check (in-class/participation; drift-added 2026-10-08)",
-   "title": "Canvas 1466080, , 10/13 - Attendance Check (in-class/participation; drift-added 2026-10-08)",
+   "note": "# Canvas 1466080, 10pt, 10/13 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-check-physical-presence-is-the-graded-act]",
+   "title": "10/13 - Attendance Check",
    "grade": {
     "canvas_id": 1466080,
     "name": "10/13 - Attendance Check",
@@ -471,14 +527,19 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": {
+    "verdict": "manual",
+    "why": "Attendance check; physical presence is the graded act"
+   },
+   "surface": true
   },
   {
    "key": "10_13_PRE_CLASS_STUDY_AND_PADLET_SHARING",
    "status": "done",
    "date": "2026-10-13",
    "note": "# Canvas 1466475, 10pt, 10/13 - Pre-Class Study and Padlet Sharing (remote, grade-only; drift-added 2026-10-08)",
-   "title": "Canvas 1466475, , 10/13 - Pre-Class Study and Padlet Sharing (remote, grade-only; drift-added 2026-10-08)",
+   "title": "10/13 - Pre-Class Study and Padlet Sharing",
    "grade": {
     "canvas_id": 1466475,
     "name": "10/13 - Pre-Class Study and Padlet Sharing",
@@ -494,14 +555,16 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "10_15_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-10-15",
-   "note": "# Canvas 1466081, 10pt, 10/15 - Attendance Check (in-class/participation; drift-added 2026-10-08)",
-   "title": "Canvas 1466081, , 10/15 - Attendance Check (in-class/participation; drift-added 2026-10-08)",
+   "note": "# Canvas 1466081, 10pt, 10/15 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-check-for-the-in-person-session]",
+   "title": "10/15 - Attendance Check",
    "grade": {
     "canvas_id": 1466081,
     "name": "10/15 - Attendance Check",
@@ -517,14 +580,19 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": {
+    "verdict": "manual",
+    "why": "Attendance check for the in-person session"
+   },
+   "surface": true
   },
   {
    "key": "10_15_PRE_CLASS_STUDY_AND_PADLET_SHARING",
    "status": "done",
    "date": "2026-10-15",
    "note": "# Canvas 1466477, 10pt, 10/15 - Pre-Class Study and Padlet Sharing (remote, grade-only; drift-added 2026-10-08)",
-   "title": "Canvas 1466477, , 10/15 - Pre-Class Study and Padlet Sharing (remote, grade-only; drift-added 2026-10-08)",
+   "title": "10/15 - Pre-Class Study and Padlet Sharing",
    "grade": {
     "canvas_id": 1466477,
     "name": "10/15 - Pre-Class Study and Padlet Sharing",
@@ -540,14 +608,16 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "10_20_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-10-20",
-   "note": "# Canvas 1466083, 10pt, 10/20 - Attendance Check (in-class/participation; drift-added 2026-10-08)",
-   "title": "Canvas 1466083, , 10/20 - Attendance Check (in-class/participation; drift-added 2026-10-08)",
+   "note": "# Canvas 1466083, 10pt, 10/20 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-taken-in-the-classroom-not-an-online-quiz-path]",
+   "title": "10/20 - Attendance Check",
    "grade": {
     "canvas_id": 1466083,
     "name": "10/20 - Attendance Check",
@@ -563,14 +633,19 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": {
+    "verdict": "manual",
+    "why": "Attendance taken in the classroom, not an online quiz path"
+   },
+   "surface": true
   },
   {
    "key": "10_20_PRE_CLASS_STUDY_AND_PADLET_SHARING",
    "status": "done",
    "date": "2026-10-20",
    "note": "# Canvas 1466495, 10pt, 10/20 - Pre-Class Study and Padlet Sharing (remote, grade-only; drift-added 2026-10-08)",
-   "title": "Canvas 1466495, , 10/20 - Pre-Class Study and Padlet Sharing (remote, grade-only; drift-added 2026-10-08)",
+   "title": "10/20 - Pre-Class Study and Padlet Sharing",
    "grade": {
     "canvas_id": 1466495,
     "name": "10/20 - Pre-Class Study and Padlet Sharing",
@@ -586,14 +661,16 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "10_22_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-10-22",
-   "note": "# Canvas 1466086, 10pt, 10/22 - Attendance Check (in-class/participation; drift-added 2026-10-08)",
-   "title": "Canvas 1466086, , 10/22 - Attendance Check (in-class/participation; drift-added 2026-10-08)",
+   "note": "# Canvas 1466086, 10pt, 10/22 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-check-requiring-presence-in-the-room-that-day]",
+   "title": "10/22 - Attendance Check",
    "grade": {
     "canvas_id": 1466086,
     "name": "10/22 - Attendance Check",
@@ -609,14 +686,19 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": {
+    "verdict": "manual",
+    "why": "Attendance check requiring presence in the room that day"
+   },
+   "surface": true
   },
   {
    "key": "10_22_PRE_CLASS_STUDY_AND_PADLET_SHARING",
    "status": "done",
    "date": "2026-10-22",
    "note": "# Canvas 1466496, 10pt, 10/22 - Pre-Class Study and Padlet Sharing (remote, grade-only; drift-added 2026-10-08; done 2026-10-19 Padlet post as Zack Hada, subject 10/22, section 10/22 - Elder Gerrit W. Gong)",
-   "title": "Canvas 1466496, , 10/22 - Pre-Class Study and Padlet Sharing (remote, grade-only; drift-added 2026-10-08; done 2026-10-19 Padlet post as Zack Hada, subject 10/22, section 10/22 - Elder Gerrit W. Gong)",
+   "title": "10/22 - Pre-Class Study and Padlet Sharing",
    "grade": {
     "canvas_id": 1466496,
     "name": "10/22 - Pre-Class Study and Padlet Sharing",
@@ -632,14 +714,16 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "10_27_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-10-27",
-   "note": "# Canvas 1466087, 10pt, 10/27 - Attendance Check (in-class/participation; drift-added 2026-10-08)",
-   "title": "Canvas 1466087, , 10/27 - Attendance Check (in-class/participation; drift-added 2026-10-08)",
+   "note": "# Canvas 1466087, 10pt, 10/27 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:in-class-attendance-participation-credit-earned-in-person]",
+   "title": "10/27 - Attendance Check",
    "grade": {
     "canvas_id": 1466087,
     "name": "10/27 - Attendance Check",
@@ -655,14 +739,19 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": {
+    "verdict": "manual",
+    "why": "In-class attendance/participation credit earned in person"
+   },
+   "surface": true
   },
   {
    "key": "10_27_PRE_CLASS_STUDY_AND_PADLET_SHARING",
    "status": "pending",
    "date": "2026-10-27",
    "note": "# Canvas 1466498, 10pt, 10/27 - Pre-Class Study and Padlet Sharing (remote, grade-only; drift-added 2026-10-08)",
-   "title": "Canvas 1466498, , 10/27 - Pre-Class Study and Padlet Sharing (remote, grade-only; drift-added 2026-10-08)",
+   "title": "10/27 - Pre-Class Study and Padlet Sharing",
    "grade": {
     "canvas_id": 1466498,
     "name": "10/27 - Pre-Class Study and Padlet Sharing",
@@ -678,14 +767,16 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "10_29_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-10-29",
-   "note": "# Canvas 1466090, 10pt, 10/29 - Attendance Check (in-class/participation; drift-added 2026-10-08)",
-   "title": "Canvas 1466090, , 10/29 - Attendance Check (in-class/participation; drift-added 2026-10-08)",
+   "note": "# Canvas 1466090, 10pt, 10/29 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-check-recorded-during-the-in-person-class]",
+   "title": "10/29 - Attendance Check",
    "grade": {
     "canvas_id": 1466090,
     "name": "10/29 - Attendance Check",
@@ -701,14 +792,19 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": {
+    "verdict": "manual",
+    "why": "Attendance check recorded during the in-person class"
+   },
+   "surface": true
   },
   {
    "key": "10_29_PRE_CLASS_STUDY_AND_PADLET_SHARING",
    "status": "pending",
    "date": "2026-10-29",
    "note": "# Canvas 1466499, 10pt, 10/29 - Pre-Class Study and Padlet Sharing (remote, grade-only; drift-added 2026-10-08)",
-   "title": "Canvas 1466499, , 10/29 - Pre-Class Study and Padlet Sharing (remote, grade-only; drift-added 2026-10-08)",
+   "title": "10/29 - Pre-Class Study and Padlet Sharing",
    "grade": {
     "canvas_id": 1466499,
     "name": "10/29 - Pre-Class Study and Padlet Sharing",
@@ -724,14 +820,16 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "11_3_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-11-03",
-   "note": "# Canvas 1466123, 10pt, 11/3 - Attendance Check (in-class/participation; drift-added 2026-10-08)",
-   "title": "Canvas 1466123, , 11/3 - Attendance Check (in-class/participation; drift-added 2026-10-08)",
+   "note": "# Canvas 1466123, 10pt, 11/3 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-graded-on-physical-presence-in-class]",
+   "title": "11/3 - Attendance Check",
    "grade": {
     "canvas_id": 1466123,
     "name": "11/3 - Attendance Check",
@@ -747,14 +845,19 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": {
+    "verdict": "manual",
+    "why": "Attendance graded on physical presence in class"
+   },
+   "surface": true
   },
   {
    "key": "11_3_PRE_CLASS_STUDY_AND_PADLET_SHARING",
    "status": "pending",
    "date": "2026-11-03",
    "note": "# Canvas 1466501, 10pt, 11/3 - Pre-Class Study and Padlet Sharing (remote, grade-only; drift-added 2026-10-08)",
-   "title": "Canvas 1466501, , 11/3 - Pre-Class Study and Padlet Sharing (remote, grade-only; drift-added 2026-10-08)",
+   "title": "11/3 - Pre-Class Study and Padlet Sharing",
    "grade": {
     "canvas_id": 1466501,
     "name": "11/3 - Pre-Class Study and Padlet Sharing",
@@ -770,14 +873,16 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "11_5_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-11-05",
-   "note": "# Canvas 1466143, 10pt, 11/5 - Attendance Check (in-class/participation; drift-added 2026-10-08)",
-   "title": "Canvas 1466143, , 11/5 - Attendance Check (in-class/participation; drift-added 2026-10-08)",
+   "note": "# Canvas 1466143, 10pt, 11/5 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:in-class-attendance-check-not-completable-online-by-an-agent]",
+   "title": "11/5 - Attendance Check",
    "grade": {
     "canvas_id": 1466143,
     "name": "11/5 - Attendance Check",
@@ -793,14 +898,19 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": {
+    "verdict": "manual",
+    "why": "In-class attendance check, not completable online by an agent"
+   },
+   "surface": true
   },
   {
    "key": "11_5_PRE_CLASS_STUDY_AND_PADLET_SHARING",
    "status": "pending",
    "date": "2026-11-05",
    "note": "# Canvas 1466502, 10pt, 11/5 - Pre-Class Study and Padlet Sharing (remote, grade-only; drift-added 2026-10-08)",
-   "title": "Canvas 1466502, , 11/5 - Pre-Class Study and Padlet Sharing (remote, grade-only; drift-added 2026-10-08)",
+   "title": "11/5 - Pre-Class Study and Padlet Sharing",
    "grade": {
     "canvas_id": 1466502,
     "name": "11/5 - Pre-Class Study and Padlet Sharing",
@@ -816,14 +926,16 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "11_10_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-11-10",
-   "note": "# Canvas 1466166, 10pt, 11/10 - Attendance Check (in-class/participation; drift-added 2026-10-08)",
-   "title": "Canvas 1466166, , 11/10 - Attendance Check (in-class/participation; drift-added 2026-10-08)",
+   "note": "# Canvas 1466166, 10pt, 11/10 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-check-for-the-in-person-session]",
+   "title": "11/10 - Attendance Check",
    "grade": {
     "canvas_id": 1466166,
     "name": "11/10 - Attendance Check",
@@ -839,14 +951,19 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": {
+    "verdict": "manual",
+    "why": "Attendance check for the in-person session"
+   },
+   "surface": true
   },
   {
    "key": "11_10_PRE_CLASS_STUDY_AND_PADLET_SHARING",
    "status": "pending",
    "date": "2026-11-10",
    "note": "# Canvas 1466545, 10pt, 11/10 - Pre-Class Study and Padlet Sharing (remote, grade-only; drift-added 2026-10-08)",
-   "title": "Canvas 1466545, , 11/10 - Pre-Class Study and Padlet Sharing (remote, grade-only; drift-added 2026-10-08)",
+   "title": "11/10 - Pre-Class Study and Padlet Sharing",
    "grade": {
     "canvas_id": 1466545,
     "name": "11/10 - Pre-Class Study and Padlet Sharing",
@@ -862,14 +979,16 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "11_12_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-11-12",
-   "note": "# Canvas 1466168, 10pt, 11/12 - Attendance Check (in-class/participation; drift-added 2026-10-08)",
-   "title": "Canvas 1466168, , 11/12 - Attendance Check (in-class/participation; drift-added 2026-10-08)",
+   "note": "# Canvas 1466168, 10pt, 11/12 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-check-room-presence-required]",
+   "title": "11/12 - Attendance Check",
    "grade": {
     "canvas_id": 1466168,
     "name": "11/12 - Attendance Check",
@@ -885,14 +1004,19 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": {
+    "verdict": "manual",
+    "why": "Attendance check; room presence required"
+   },
+   "surface": true
   },
   {
    "key": "11_12_PRE_CLASS_STUDY_AND_PADLET_SHARING",
    "status": "pending",
    "date": "2026-11-12",
    "note": "# Canvas 1466627, 10pt, 11/12 - Pre-Class Study and Padlet Sharing (remote, grade-only; drift-added 2026-10-08)",
-   "title": "Canvas 1466627, , 11/12 - Pre-Class Study and Padlet Sharing (remote, grade-only; drift-added 2026-10-08)",
+   "title": "11/12 - Pre-Class Study and Padlet Sharing",
    "grade": {
     "canvas_id": 1466627,
     "name": "11/12 - Pre-Class Study and Padlet Sharing",
@@ -908,14 +1032,16 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "11_17_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-11-17",
-   "note": "# Canvas 1466170, 10pt, 11/17 - Attendance Check (in-class/participation; drift-added 2026-10-08)",
-   "title": "Canvas 1466170, , 11/17 - Attendance Check (in-class/participation; drift-added 2026-10-08)",
+   "note": "# Canvas 1466170, 10pt, 11/17 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:in-class-attendance-check-participation-earned-in-class]",
+   "title": "11/17 - Attendance Check",
    "grade": {
     "canvas_id": 1466170,
     "name": "11/17 - Attendance Check",
@@ -931,14 +1057,19 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": {
+    "verdict": "manual",
+    "why": "In-class attendance check, participation earned in class"
+   },
+   "surface": true
   },
   {
    "key": "11_17_PRE_CLASS_STUDY_AND_PADLET_SHARING",
    "status": "pending",
    "date": "2026-11-17",
    "note": "# Canvas 1466630, 10pt, 11/17 - Pre-Class Study and Padlet Sharing (remote, grade-only; drift-added 2026-10-08)",
-   "title": "Canvas 1466630, , 11/17 - Pre-Class Study and Padlet Sharing (remote, grade-only; drift-added 2026-10-08)",
+   "title": "11/17 - Pre-Class Study and Padlet Sharing",
    "grade": {
     "canvas_id": 1466630,
     "name": "11/17 - Pre-Class Study and Padlet Sharing",
@@ -954,14 +1085,16 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "11_19_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-11-19",
-   "note": "# Canvas 1466171, 10pt, 11/19 - Attendance Check (in-class/participation; drift-added 2026-10-08)",
-   "title": "Canvas 1466171, , 11/19 - Attendance Check (in-class/participation; drift-added 2026-10-08)",
+   "note": "# Canvas 1466171, 10pt, 11/19 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-check-recorded-in-the-classroom]",
+   "title": "11/19 - Attendance Check",
    "grade": {
     "canvas_id": 1466171,
     "name": "11/19 - Attendance Check",
@@ -977,14 +1110,19 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": {
+    "verdict": "manual",
+    "why": "Attendance check recorded in the classroom"
+   },
+   "surface": true
   },
   {
    "key": "11_19_PRE_CLASS_STUDY_AND_PADLET_SHARING",
    "status": "pending",
    "date": "2026-11-19",
    "note": "# Canvas 1466632, 10pt, 11/19 - Pre-Class Study and Padlet Sharing (remote, grade-only; drift-added 2026-10-08)",
-   "title": "Canvas 1466632, , 11/19 - Pre-Class Study and Padlet Sharing (remote, grade-only; drift-added 2026-10-08)",
+   "title": "11/19 - Pre-Class Study and Padlet Sharing",
    "grade": {
     "canvas_id": 1466632,
     "name": "11/19 - Pre-Class Study and Padlet Sharing",
@@ -1000,14 +1138,16 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "11_24_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-11-24",
-   "note": "# Canvas 1466174, 10pt, 11/24 - Attendance Check (in-class/participation; drift-added 2026-10-08)",
-   "title": "Canvas 1466174, , 11/24 - Attendance Check (in-class/participation; drift-added 2026-10-08)",
+   "note": "# Canvas 1466174, 10pt, 11/24 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-check-where-only-in-person-presence-counts]",
+   "title": "11/24 - Attendance Check",
    "grade": {
     "canvas_id": 1466174,
     "name": "11/24 - Attendance Check",
@@ -1023,14 +1163,19 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": {
+    "verdict": "manual",
+    "why": "Attendance check where only in-person presence counts"
+   },
+   "surface": true
   },
   {
    "key": "12_1_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-12-01",
-   "note": "# Canvas 1466185, 10pt, 12/1 - Attendance Check (in-class/participation; drift-added 2026-10-08)",
-   "title": "Canvas 1466185, , 12/1 - Attendance Check (in-class/participation; drift-added 2026-10-08)",
+   "note": "# Canvas 1466185, 10pt, 12/1 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-check-for-the-in-person-session]",
+   "title": "12/1 - Attendance Check",
    "grade": {
     "canvas_id": 1466185,
     "name": "12/1 - Attendance Check",
@@ -1046,14 +1191,19 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": {
+    "verdict": "manual",
+    "why": "Attendance check for the in-person session"
+   },
+   "surface": true
   },
   {
    "key": "12_1_PRE_CLASS_STUDY_AND_PADLET_SHARING",
    "status": "pending",
    "date": "2026-12-01",
    "note": "# Canvas 1466637, 10pt, 12/1 - Pre-Class Study and Padlet Sharing (remote, grade-only; drift-added 2026-10-08)",
-   "title": "Canvas 1466637, , 12/1 - Pre-Class Study and Padlet Sharing (remote, grade-only; drift-added 2026-10-08)",
+   "title": "12/1 - Pre-Class Study and Padlet Sharing",
    "grade": {
     "canvas_id": 1466637,
     "name": "12/1 - Pre-Class Study and Padlet Sharing",
@@ -1069,14 +1219,16 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "12_3_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-12-03",
-   "note": "# Canvas 1466190, 10pt, 12/3 - Attendance Check (in-class/participation; drift-added 2026-10-08)",
-   "title": "Canvas 1466190, , 12/3 - Attendance Check (in-class/participation; drift-added 2026-10-08)",
+   "note": "# Canvas 1466190, 10pt, 12/3 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-check-body-in-the-room-is-the-requirement]",
+   "title": "12/3 - Attendance Check",
    "grade": {
     "canvas_id": 1466190,
     "name": "12/3 - Attendance Check",
@@ -1092,14 +1244,19 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": {
+    "verdict": "manual",
+    "why": "Attendance check; body in the room is the requirement"
+   },
+   "surface": true
   },
   {
    "key": "12_8_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-12-08",
-   "note": "# Canvas 1466191, 10pt, 12/8 - Attendance Check (in-class/participation; drift-added 2026-10-08)",
-   "title": "Canvas 1466191, , 12/8 - Attendance Check (in-class/participation; drift-added 2026-10-08)",
+   "note": "# Canvas 1466191, 10pt, 12/8 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:in-class-attendance-check-not-remotely-completable]",
+   "title": "12/8 - Attendance Check",
    "grade": {
     "canvas_id": 1466191,
     "name": "12/8 - Attendance Check",
@@ -1115,14 +1272,19 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": {
+    "verdict": "manual",
+    "why": "In-class attendance check, not remotely completable"
+   },
+   "surface": true
   },
   {
    "key": "12_8_PRE_CLASS_STUDY_AND_PADLET_SHARING",
    "status": "pending",
    "date": "2026-12-08",
    "note": "# Canvas 1466639, 10pt, 12/8 - Pre-Class Study and Padlet Sharing (remote, grade-only; drift-added 2026-10-08)",
-   "title": "Canvas 1466639, , 12/8 - Pre-Class Study and Padlet Sharing (remote, grade-only; drift-added 2026-10-08)",
+   "title": "12/8 - Pre-Class Study and Padlet Sharing",
    "grade": {
     "canvas_id": 1466639,
     "name": "12/8 - Pre-Class Study and Padlet Sharing",
@@ -1138,14 +1300,16 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "12_10_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-12-10",
-   "note": "# Canvas 1466192, 10pt, 12/10 - Attendance Check (in-class/participation; drift-added 2026-10-08)",
-   "title": "Canvas 1466192, , 12/10 - Attendance Check (in-class/participation; drift-added 2026-10-08)",
+   "note": "# Canvas 1466192, 10pt, 12/10 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-check-recorded-during-the-in-person-class]",
+   "title": "12/10 - Attendance Check",
    "grade": {
     "canvas_id": 1466192,
     "name": "12/10 - Attendance Check",
@@ -1161,14 +1325,19 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": {
+    "verdict": "manual",
+    "why": "Attendance check recorded during the in-person class"
+   },
+   "surface": true
   },
   {
    "key": "A_PROFILE_OF_A_PROPHET_GROUP_PROJECT",
-   "status": "blocked_ask_zack",
+   "status": "blocked_inperson",
    "date": "2026-12-11",
-   "note": "# Canvas 1468925, 100pt, A Profile of a Prophet Group Project (Zack's group: Elder Gerald Causse, in-class Oct 13 w/ Robert Cardon, Bree Cardon, Jamie Lewis; slides due Oct 12 11:59pm; in-class delivery is Zack's, cannot automate; research/slides automatable on request; no Canvas group, coordinate via Canvas Inbox; drift-added 2026-10-02)",
-   "title": "Canvas 1468925, , A Profile of a Prophet Group Project (Zack's group: Elder Gerald Causse, in-class Oct 13 w/ Robert Cardon, Bree Cardon, Jamie Lewis; slides",
+   "note": "# Canvas 1468925, 100pt, A Profile of a Prophet Group Project (Zack's group: Elder Gerald Causse, in-class Oct 13 w/ Robert Cardon, Bree Cardon, Jamie Lewis; slides due Oct 12 11:59pm; in-class delivery is Zack's, cannot automate; research/slides automatable on request; no Canvas group, coordinate via Canvas Inbox; drift-added 2026-10-02) [manual:group-presentation-delivered-live-in-class-upload-path-does-]",
+   "title": "A Profile of a Prophet Group Project",
    "grade": {
     "canvas_id": 1468925,
     "name": "A Profile of a Prophet Group Project",
@@ -1184,7 +1353,12 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": true
+   "needs_zack": false,
+   "judge": {
+    "verdict": "manual",
+    "why": "Group presentation delivered live in class; upload path does not replace the in-class delivery"
+   },
+   "surface": true
   }
  ],
  "unmatched_canvas": [],
@@ -1196,5 +1370,5 @@
   "final_score": 50.96,
   "final_grade": "E"
  },
- "built_at": "2026-10-21T19:32:14.770667+00:00"
+ "built_at": "2026-10-21T21:52:40.866090+00:00"
 }

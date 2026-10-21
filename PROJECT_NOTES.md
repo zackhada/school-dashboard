@@ -1,5 +1,24 @@
 # school-dashboard notes
 
+## Surfacing rule (2026-10-21, Zack)
+The dashboard surfaces ONLY work that genuinely cannot be automated. Two
+mechanisms decide it, in this order:
+1. `data/surface_judge.json`, written by `school-healer/scripts/surface_judge.py`.
+   An LLM judges each `blocked_*` row (`manual` / `automatable` / `verify`) from
+   the Canvas facts plus the ledger note and stores the verdict and a one-line
+   reason. `build.py` copies it onto every row as `judge` and computes
+   `surface`. A `verify` verdict surfaces as a question, not as manual work.
+2. The deterministic gate (`REAL_MANUAL` / `manual_evidence` in `build.py`) is
+   the fallback when there is no verdict: attendance, participation, proctoring,
+   lockdown, Testing Center, `submission_types=none`, on paper. A module label
+   such as "Tues Oct 20 In Class" is NOT evidence, which was the 2026-10-21
+   STRAT 392 bug (nine reading quizzes, 90 points, parked as in person).
+`index.html::statusOf` labels a blocked row `in person`, `verify`, `automated`,
+or `agent checking`, and only judged-manual rows enter the "In person +
+proctored" and "Needs your input" lists. Counted-but-unverified rows are shown
+as a footnote, never as an action item. The in-person list also keeps the last
+7 days of missed items so a reopened proctored exam cannot fall off.
+
 ## Refresh model (verified 2026-09-10)
 - Ledger/status: every class runner dispatches `status` after each run and
   `update.yml` rebuilds. Nightly `scripts/sync_ledgers.py` also pulls each

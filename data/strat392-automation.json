@@ -11,7 +11,7 @@
    "key": "SESSION1_WHAT_IS_STRATEGY",
    "status": "blocked_inperson",
    "date": "2026-09-09",
-   "note": "# Session 1 What is Strategy, due 2026-09-09T05:59:59Z, 0pts muted, submission_types=none; deliverable was bringing examples to Sep 8 class; no online submission exists"
+   "note": "# Session 1 What is Strategy, due 2026-09-09T05:59:59Z, 0pts muted, submission_types=none; deliverable was bringing examples to Sep 8 class; no online submission exists [manual:submission-types-none-deliverable-was-bringing-examples-to-t]"
   },
   {
    "key": "MEASURING_MARKET_CONCENTRATION",
@@ -65,67 +65,67 @@
    "key": "AMORECO_PREP",
    "status": "blocked_inperson",
    "date": "2026-10-07",
-   "note": "# Canvas 1500445 \"A More Co\", 0pts, submission_types=none; prepare case before coming to class; no online submission exists (drift-added 2026-09-23)"
+   "note": "# Canvas 1500445 \"A More Co\", 0pts, submission_types=none; prepare case before coming to class; no online submission exists (drift-added 2026-09-23) [manual:submission-types-none-prepare-case-for-in-class-discussion-n]"
   },
   {
    "key": "DUALADV_READING",
-   "status": "blocked_inperson",
+   "status": "pending",
    "date": "2026-10-09",
-   "note": "# Canvas 1500517 \"Dual Advantage\", 0pts, submission_types=none, no Canvas due date; read the dual advantage article; no online submission exists (drift-added 2026-09-23)"
+   "note": "# Canvas 1500517 \"Dual Advantage\", 0pts, submission_types=none, no Canvas due date; read the dual advantage article; no online submission exists (drift-added 2026-09-23) (judged automatable 2026-10-21: Online submission path, no proctoring evidence.)"
   },
   {
    "key": "STRATEGY_AS_LEVERAGE_READING_QUIZ",
-   "status": "blocked_inperson",
-   "date": "2026-10-23",
-   "note": "# Canvas 1512930, 10pt, Strategy as Leverage Reading Quiz (in-class/participation; drift-added 2026-10-19)"
+   "status": "done",
+   "date": "2026-10-21",
+   "note": "# Canvas 1512930, 10pt, Strategy as Leverage Reading Quiz, submitted 2026-10-21 (attempt 1, graded 10/10, on time). Reclassified from blocked_inperson: Canvas config identical to the five quizzes already taken (New Quizzes LTI, no lockdown browser, no access code, no time limit, unlimited attempts)"
   },
   {
    "key": "THE_BOUNDARIES_OF_THE_FIRM_MAKE_VS_BUY_Q",
-   "status": "blocked_inperson",
+   "status": "pending",
    "date": "2026-10-28",
-   "note": "# Canvas 1512994, 10pt, The Boundaries of the Firm: Make vs Buy \u2014 Quiz (in-class/participation; drift-added 2026-10-19)"
+   "note": "# Canvas 1512994, 10pt, Make vs Buy Quiz; online New Quizzes (no lockdown/access code), reclassified from blocked_inperson 2026-10-21"
   },
   {
    "key": "GLOBAL_VS_LOCAL_READING_QUIZ",
-   "status": "blocked_inperson",
+   "status": "pending",
    "date": "2026-10-30",
-   "note": "# Canvas 1512995, 10pt, Global vs Local \u2014 Reading Quiz (in-class/participation; drift-added 2026-10-19)"
+   "note": "# Canvas 1512995, 10pt, Global vs Local Reading Quiz; online New Quizzes (no lockdown/access code), reclassified from blocked_inperson 2026-10-21"
   },
   {
    "key": "DISRUPTION_READING_QUIZ",
-   "status": "blocked_inperson",
+   "status": "pending",
    "date": "2026-11-18",
-   "note": "# Canvas 1513158, 10pt, Disruption \u2014 Reading Quiz (in-class/participation; drift-added 2026-10-19)"
+   "note": "# Canvas 1513158, 10pt, Disruption Reading Quiz; online New Quizzes (no lockdown/access code), reclassified from blocked_inperson 2026-10-21"
   },
   {
    "key": "STRATEGIC_ALIGNMENT_READING_QUIZ",
-   "status": "blocked_inperson",
+   "status": "pending",
    "date": "2026-11-20",
-   "note": "# Canvas 1513162, 10pt, Strategic Alignment \u2014 Reading Quiz (in-class/participation; drift-added 2026-10-19)"
+   "note": "# Canvas 1513162, 10pt, Strategic Alignment Reading Quiz; online New Quizzes (no lockdown/access code), reclassified from blocked_inperson 2026-10-21"
   },
   {
    "key": "PLATFORMS_AS_STRATEGY_READING_QUIZ",
-   "status": "blocked_inperson",
+   "status": "pending",
    "date": "2026-12-02",
-   "note": "# Canvas 1513165, 10pt, Platforms as Strategy \u2014 Reading Quiz (in-class/participation; drift-added 2026-10-19)"
+   "note": "# Canvas 1513165, 10pt, Platforms as Strategy Reading Quiz; online New Quizzes (no lockdown/access code), reclassified from blocked_inperson 2026-10-21"
   },
   {
    "key": "GLOBAL_ENTRY_MODES_READING_QUIZ",
-   "status": "blocked_inperson",
+   "status": "pending",
    "date": "2026-11-04",
-   "note": "# Canvas 1513528, 10pt, Global Entry Modes \u2014 Reading Quiz (in-class/participation; drift-added 2026-10-20)"
+   "note": "# Canvas 1513528, 10pt, Global Entry Modes Reading Quiz; online New Quizzes (no lockdown/access code), reclassified from blocked_inperson 2026-10-21"
   },
   {
    "key": "BUILDING_COMPETITIVE_MOATS_READING_QUIZ",
-   "status": "blocked_inperson",
+   "status": "pending",
    "date": "2026-11-11",
-   "note": "# Canvas 1513602, 10pt, Building Competitive Moats \u2014 Reading Quiz (in-class/participation; drift-added 2026-10-20)"
+   "note": "# Canvas 1513602, 10pt, Building Competitive Moats Reading Quiz; online New Quizzes (no lockdown/access code), reclassified from blocked_inperson 2026-10-21"
   },
   {
    "key": "STRATEGY_AND_INNOVATION_READING_QUIZ",
-   "status": "blocked_inperson",
+   "status": "pending",
    "date": "2026-12-09",
-   "note": "# Canvas 1513613, 10pt, Strategy and Innovation \u2014 Reading Quiz (in-class/participation; drift-added 2026-10-20)"
+   "note": "# Canvas 1513613, 10pt, Strategy and Innovation Reading Quiz; online New Quizzes (no lockdown/access code), reclassified from blocked_inperson 2026-10-21"
   }
  ],
  "source": "progress.txt"

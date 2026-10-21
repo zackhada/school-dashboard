@@ -22,7 +22,9 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "IS_NAMES",
@@ -45,7 +47,9 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "IS_DEBUG",
@@ -68,7 +72,9 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "IS_DATES",
@@ -91,7 +97,9 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "IS_CHARTS",
@@ -114,7 +122,9 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "IS_CONDFMT",
@@ -137,7 +147,9 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "IS_TABLES",
@@ -160,7 +172,9 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "IS_ARRAYS",
@@ -183,7 +197,9 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "IS_SOLVER",
@@ -206,7 +222,9 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "IS_PIVOT",
@@ -229,7 +247,9 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "IS_EXAM1",
@@ -252,7 +272,9 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "IS_FIN",
@@ -275,7 +297,9 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "IS_COUNT",
@@ -298,7 +322,9 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "IS_LOOKUP",
@@ -321,7 +347,9 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "IS_TEXT",
@@ -344,7 +372,9 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "IS_MEGA",
@@ -367,7 +397,9 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "IS_CLEAN",
@@ -390,7 +422,9 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "IS_VBA",
@@ -413,13 +447,15 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": null,
+   "surface": false
   },
   {
    "key": "IS_EXAM2",
    "status": "blocked_inperson",
    "date": "2026-12-17",
-   "note": "# Exam 2, 100pts, timed comprehensive take-home, NOT collaborative. Locked until Dec 12. Zack takes manually in a quiet window after Dec 12.",
+   "note": "# Exam 2, 100pts, timed comprehensive take-home, NOT collaborative. Locked until Dec 12. Zack takes manually in a quiet window after Dec 12. [manual:requires-the-student-in-person]",
    "title": "Exam 2",
    "grade": {
     "canvas_id": 1452629,
@@ -436,7 +472,12 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false
+   "needs_zack": false,
+   "judge": {
+    "verdict": "manual",
+    "why": "Requires the student in person."
+   },
+   "surface": true
   }
  ],
  "unmatched_canvas": [],
@@ -448,5 +489,5 @@
   "final_score": 43.0,
   "final_grade": "E"
  },
- "built_at": "2026-10-21T19:32:14.832026+00:00"
+ "built_at": "2026-10-21T21:52:40.896856+00:00"
 }

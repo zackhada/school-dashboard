@@ -119,7 +119,7 @@
    "key": "IS_EXAM2",
    "status": "blocked_inperson",
    "date": "2026-12-17",
-   "note": "# Exam 2, 100pts, timed comprehensive take-home, NOT collaborative. Locked until Dec 12. Zack takes manually in a quiet window after Dec 12."
+   "note": "# Exam 2, 100pts, timed comprehensive take-home, NOT collaborative. Locked until Dec 12. Zack takes manually in a quiet window after Dec 12. [manual:requires-the-student-in-person]"
   }
  ],
  "source": "progress.txt"

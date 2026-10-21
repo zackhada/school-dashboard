@@ -67,7 +67,8 @@ function replyUrl(c, x, desc){
   return 'https://github.com/zackhada/school-dashboard/issues/new?title='+encodeURIComponent('[answer] '+c.repo+' '+x.key)+'&body='+encodeURIComponent(c.name+' \u2014 '+x.key+' (due '+(x.date||'n/a')+', '+x.status+')\n\nWhat is needed: '+desc+'\n\nMy answer:\n');
 }
 function titleFrom(key, note, course){
-  var n = (note||'').replace(/^#\s*/,'');
+  var n = (note||'').replace(/^#\s*/,'').replace(/^Canvas\s+\d+,\s*[\d.]+\s*pts?,\s*/i,'')
+            .replace(/\s*\[manual:[^\]]*\]/gi,'').replace(/\s*\([^()]*\)\s*$/,'').trim();
   if(/^\d+\.\d+/.test(n)) return n.split(',')[0].trim();
   if(/Topic\s+\d+/.test(n)) return n.split(',')[0].trim().replace(/^Topic\s+/,'Topic ');
   if(/Quiz\s+\d+/.test(n)) return n.split(',')[0].trim();
@@ -85,8 +86,16 @@ function titleFrom(key, note, course){
 function norm(s){ return String(s||'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim(); }
 function statusOf(x){
   if (x.status === 'done') return ['done', 'done'];
-  if (x.status === 'blocked_inperson') return ['in person', 'blocked'];
-  if (x.status && x.status.indexOf('blocked') === 0) return ['needs you', 'blocked'];
+  if (x.status && x.status.indexOf('blocked') === 0) {
+    // What the human sees is decided by the LLM surface judge, with the
+    // evidence gate as fallback (see scripts/build.py). A blocked row with no
+    // judge verdict and no evidence is "agent checking", never an action item.
+    if (x.judge && x.judge.verdict === 'manual') return ['in person', 'blocked'];
+    if (x.judge && x.judge.verdict === 'verify') return ['verify', 'blocked'];
+    if (x.judge && x.judge.verdict === 'automatable') return ['automated', 'todo'];
+    if (x.surface) return ['in person', 'blocked'];
+    return ['agent checking', 'todo'];
+  }
   return ['automated', 'todo'];
 }
 function words(s){ return norm(s).split(' ').filter(function(w){ return w.length > 2 && ['cengage','mindtap','class','pre','post'].indexOf(w) < 0; }); }
@@ -134,7 +143,7 @@ Promise.all(REPOS.map(function(pair){
   }).then(function(c){
     return {name: pair[0], repo: pair[1],
       rows: (c.rows || []).filter(function(x){ return !x.drift; }).map(function(x){
-        return {key: x.key, status: x.status, date: x.date, note: x.note, grade: x.grade || null, needs: !!x.needs_zack};
+        return {key: x.key, status: x.status, date: x.date, note: x.note, grade: x.grade || null, needs: !!x.needs_zack, judge: x.judge || null, surface: !!x.surface};
       }),
       course: c.course_id || null,
       needs: c.needs || null,
@@ -175,24 +184,31 @@ Promise.all(REPOS.map(function(pair){
     html += '</tbody></table></details>';
   });
   document.getElementById('app').innerHTML = html;
-  var need = '', inperson = [];
+  var need = '', inperson = [], unchecked = 0;
   classes.forEach(function(c){
     c.rows.forEach(function(x){
       var isBlocked = x.status && x.status.indexOf('blocked') === 0;
-      var waitsOnYou = isBlocked || (x.needs && x.status !== 'done');
+      // A blocked row only reaches a human action list when the judge (or the
+      // evidence gate, if the judge has not run) says a human is really
+      // required. Everything else is work the runner can still do.
+      var surfaced = !!x.surface || (x.judge && (x.judge.verdict === 'manual' || x.judge.verdict === 'verify')) || x.status === 'blocked_ask_zack';
+      if (isBlocked && !surfaced && !x.needs) { if (x.status !== 'done') unchecked++; return; }
+      var waitsOnYou = (isBlocked && surfaced) || (x.needs && x.status !== 'done');
       if (!waitsOnYou) return;
       var d = dueOf(x);
       var parkedNote = (x.needs && c.needs) ? c.needs : (x.note || '').replace(/^#\s*/,'');
       var note = esc(parkedNote);
-      if (x.status === 'blocked_inperson') {
+      if (isBlocked && surfaced) {
         if (/\b0\s?pts?\b/i.test(x.note || '')) return;
         // Skip phantom rows for Canvas items deleted upstream (e.g. pse390
         // PARTICIPATION_QUIZ_10_13_2, "404 deleted upstream"); they are not
         // real upcoming deadlines and must never surface here.
         if (/\b(404|deleted|removed upstream|no longer)\b/i.test(x.note || '')) return;
-        // Show ALL upcoming in-person/proctored items (no 14-day cap) so a
-        // further-out exam can never hide; sort soonest-first below.
-        if (d && d >= now) {
+        // Show ALL upcoming in-person/proctored items (no forward cap) so a
+        // further-out exam can never hide, plus anything missed in the last
+        // fortnight (a just-missed proctored exam is the most urgent row there
+        // is). Sort soonest-first below.
+        if (d && d >= now - 7*864e5) {
           var curl = canvasUrl(c.course, x.grade && x.grade.canvas_id);
           var cell = curl ? '<a href="'+curl+'">Canvas</a>' : '';
           var rurl = replyUrl(c, x, note);
@@ -217,6 +233,9 @@ Promise.all(REPOS.map(function(pair){
     inperson.sort(function(a,b){ return a.d - b.d; });
     var ipRows = inperson.map(function(r){ return r.html; }).join('');
     document.getElementById('needs').innerHTML += '<h2>In person + proctored (soonest first)</h2><table><colgroup><col class="c-assn"><col class="c-days"><col class="c-note"></colgroup><thead><tr><th>Assignment</th><th>Days Left</th><th>Details</th><th>Canvas</th><th>Action</th></tr></thead><tbody>'+ipRows+'</tbody></table>';
+  }
+  if (unchecked) {
+    document.getElementById('needs').innerHTML += '<p class="small">' + unchecked + ' item(s) are marked manual but have no verified reason yet. The agent re-judges them every night and they stay off your list until that judgment lands.</p>';
   }
   var drift = '';
   classes.forEach(function(c){
