@@ -126,6 +126,18 @@
    "status": "pending",
    "date": "2026-12-09",
    "note": "# Canvas 1513613, 10pt, Strategy and Innovation Reading Quiz; online New Quizzes (no lockdown/access code), reclassified from blocked_inperson 2026-10-21"
+  },
+  {
+   "key": "STRATEGY_JOURNAL",
+   "status": "blocked_inperson",
+   "date": "2026-12-10",
+   "note": "# Syllabus: Strategy Journal, 50 pts, due the last session (Session 27, Thu Dec 10). Not created as a Canvas assignment yet, so no online box exists today. Written work, Zack's own voice. [manual:syllabus-only-assignment-not-in-canvas]"
+  },
+  {
+   "key": "STRAT_FINAL_EXAM",
+   "status": "blocked_inperson",
+   "date": "2026-12-18",
+   "note": "# Syllabus: Final Exam, 210 pts, cumulative, \"date and location follow the university final exam schedule\" (finals week Dec 14-18, 2026). Not in Canvas yet. Zack takes it in person. [manual:in-person-final-exam-syllabus-date]"
   }
  ],
  "source": "progress.txt"

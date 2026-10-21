@@ -72,6 +72,12 @@
    "status": "done",
    "date": "9999-12-31",
    "note": "# Duplicate row for Canvas 1511530, the same closed survey as UNIT_1_MID_TERM_CHECKPOINT. No separate action; decision tracked on that row."
+  },
+  {
+   "key": "HRM_REMAINING_EXAMS_AND_FINAL",
+   "status": "blocked_inperson",
+   "date": "2026-12-18",
+   "note": "# Syllabus: \"the three exams and final\" are the primary evidence of individual mastery. Canvas currently publishes Exam 1 only (56 pts). Exam 2, Exam 3 and the final are not created yet, so no date exists. Placeholder date is the end of finals week; confirm dates with Tennis. Zack takes every exam himself. [manual:in-person-exams-dates-unpublished]"
   }
  ],
  "source": "progress.txt"
