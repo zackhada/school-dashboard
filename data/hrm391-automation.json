@@ -34,8 +34,8 @@
   {
    "key": "EXAM1",
    "status": "blocked_inperson",
-   "date": "2026-10-14",
-   "note": "# Exam 1 Understanding the Organizational System, 56pt, Remotely Proctored (Canvas 1508899), locked 2026-10-14T05:59:59Z, unsubmitted. Makeup requested from the TAs by email 2026-10-19. Proctored, Zack takes manually."
+   "date": "2026-10-22",
+   "note": "# Exam 1 Understanding the Organizational System, 56pt, Remotely Proctored (Canvas 1508899 / quiz 663124), REOPENED: due 2026-10-22T05:59:59Z, unsubmitted (not yet late). Proctored, Zack takes manually."
   },
   {
    "key": "OBSERVATION_NOTEBOOK_ENTRIES",
@@ -45,21 +45,33 @@
   },
   {
    "key": "MID_TERM_CHECKPOINT",
-   "status": "pending",
+   "status": "blocked_ask_zack",
    "date": "2026-10-20",
-   "note": "# Canvas 1508956, 1pt online quiz, Canvas has no due date; take on the next remote run"
+   "note": "# Canvas 1508956 / quiz 663151, 1pt graded survey, LOCKED 2026-10-07T17:00:00Z (closed Oct 7 11am MT), never takeable; missed Unit 1 item. Zack decides whether to request a makeup."
   },
   {
    "key": "BREAKING_BREAD_COUNTS_TOWARD_FINAL_GRADE",
-   "status": "blocked_ask_zack",
+   "status": "done",
    "date": "2026-10-21",
-   "note": "# Canvas 1509308, 25pt, Breaking Bread - Counts toward final grade! (needs Zack's input/decision; drift-added 2026-10-08)"
+   "note": "# Canvas 1509308, 25pt group doc; submitted 2026-10-21T16:13:02Z (late 10.2h), attachment Breaking_Bread_Group19.docx. Reconciled from live Canvas."
   },
   {
    "key": "UNIT_1_MID_TERM_CHECKPOINT",
-   "status": "pending",
+   "status": "blocked_ask_zack",
    "date": "2026-10-21",
-   "note": "# Canvas 1511530, 1pt online quiz, Canvas has no due date; take after the first checkpoint"
+   "note": "# Canvas 1511530 / quiz 663964, 1pt graded survey, LOCKED 2026-10-07T17:00:00Z (closed Oct 7 11am MT), never takeable; missed Unit 1 item. Zack decides whether to request a makeup."
+  },
+  {
+   "key": "SERVICE_PROJECT_PART_2_GROUP_ANALYSIS_AN",
+   "status": "blocked_inperson",
+   "date": "2026-11-22",
+   "note": "# Canvas 1513919, 100pt, Service Project\u2014Part 2: Group Analysis and Individual Reflection (in-class/participation; drift-added 2026-10-21)"
+  },
+  {
+   "key": "UNIT_1_MID_TERM_CHECKPOINT_2",
+   "status": "blocked_ask_zack",
+   "date": "9999-12-31",
+   "note": "# DUPLICATE row for Canvas 1511530 (same closed survey); superseded by UNIT_1_MID_TERM_CHECKPOINT. No action."
   }
  ],
  "source": "progress.txt"

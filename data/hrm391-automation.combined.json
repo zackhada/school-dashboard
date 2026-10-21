@@ -123,10 +123,79 @@
    "needs_zack": false
   },
   {
+   "key": "MID_TERM_CHECKPOINT",
+   "status": "blocked_ask_zack",
+   "date": "2026-10-20",
+   "note": "# Canvas 1508956 / quiz 663151, 1pt graded survey, LOCKED 2026-10-07T17:00:00Z (closed Oct 7 11am MT), never takeable; missed Unit 1 item. Zack decides whether to request a makeup.",
+   "title": "Canvas 1508956 / quiz 663151, graded survey, LOCKED 2026-10-07T17:00:00Z (closed Oct 7 11am MT), never takeable; missed Unit 1 item. Zack decides whether to request a makeup.",
+   "grade": {
+    "canvas_id": 1489056,
+    "name": "Unit 2 Group Service Project (No Submission)",
+    "due": "2026-11-08T06:59:59Z",
+    "points": 0.0,
+    "status": "unsubmitted",
+    "score": null,
+    "grade": null,
+    "missing": false,
+    "submitted_at": null,
+    "submission_type": null,
+    "my_submission": "",
+    "comments": []
+   },
+   "drift": false,
+   "needs_zack": true
+  },
+  {
+   "key": "BREAKING_BREAD_COUNTS_TOWARD_FINAL_GRADE",
+   "status": "done",
+   "date": "2026-10-21",
+   "note": "# Canvas 1509308, 25pt group doc; submitted 2026-10-21T16:13:02Z (late 10.2h), attachment Breaking_Bread_Group19.docx. Reconciled from live Canvas.",
+   "title": "Canvas 1509308, group doc; submitted 2026-10-21T16:13:02Z (late 10.2h), attachment Breaking_Bread_Group19.docx. Reconciled from live Canvas.",
+   "grade": {
+    "canvas_id": 1509308,
+    "name": "Breaking Bread - Counts toward final grade!",
+    "due": "2026-10-21T05:59:59Z",
+    "points": 25.0,
+    "status": "unsubmitted",
+    "score": null,
+    "grade": null,
+    "missing": true,
+    "submitted_at": null,
+    "submission_type": null,
+    "my_submission": "",
+    "comments": []
+   },
+   "drift": false,
+   "needs_zack": false
+  },
+  {
+   "key": "UNIT_1_MID_TERM_CHECKPOINT",
+   "status": "blocked_ask_zack",
+   "date": "2026-10-21",
+   "note": "# Canvas 1511530 / quiz 663964, 1pt graded survey, LOCKED 2026-10-07T17:00:00Z (closed Oct 7 11am MT), never takeable; missed Unit 1 item. Zack decides whether to request a makeup.",
+   "title": "Canvas 1511530 / quiz 663964, graded survey, LOCKED 2026-10-07T17:00:00Z (closed Oct 7 11am MT), never takeable; missed Unit 1 item. Zack decides whether to request a makeup.",
+   "grade": {
+    "canvas_id": 1511530,
+    "name": "Unit 1 Mid-term Checkpoint",
+    "due": null,
+    "points": 1.0,
+    "status": "unsubmitted",
+    "score": null,
+    "grade": null,
+    "missing": false,
+    "submitted_at": null,
+    "submission_type": null,
+    "my_submission": "",
+    "comments": []
+   },
+   "drift": false,
+   "needs_zack": false
+  },
+  {
    "key": "EXAM1",
    "status": "blocked_inperson",
-   "date": "2026-10-14",
-   "note": "# Exam 1 Understanding the Organizational System, 56pt, Remotely Proctored (Canvas 1508899), locked 2026-10-14T05:59:59Z, unsubmitted. Makeup requested from the TAs by email 2026-10-19. Proctored, Zack takes manually.",
+   "date": "2026-10-22",
+   "note": "# Exam 1 Understanding the Organizational System, 56pt, Remotely Proctored (Canvas 1508899 / quiz 663124), REOPENED: due 2026-10-22T05:59:59Z, unsubmitted (not yet late). Proctored, Zack takes manually.",
    "title": "Exam 1 Understanding the Organizational System",
    "grade": {
     "canvas_id": 1508899,
@@ -146,16 +215,16 @@
    "needs_zack": false
   },
   {
-   "key": "MID_TERM_CHECKPOINT",
-   "status": "pending",
-   "date": "2026-10-20",
-   "note": "# Canvas 1508956, 1pt online quiz, Canvas has no due date; take on the next remote run",
-   "title": "Canvas 1508956, online quiz, Canvas has no",
+   "key": "SERVICE_PROJECT_PART_2_GROUP_ANALYSIS_AN",
+   "status": "blocked_inperson",
+   "date": "2026-11-22",
+   "note": "# Canvas 1513919, 100pt, Service Project\u2014Part 2: Group Analysis and Individual Reflection (in-class/participation; drift-added 2026-10-21)",
+   "title": "Canvas 1513919, , Service Project\u2014Part 2: Group Analysis and Individual Reflection (in-class/participation; drift-added 2026-10-21)",
    "grade": {
-    "canvas_id": 1511530,
-    "name": "Unit 1 Mid-term Checkpoint",
-    "due": null,
-    "points": 1.0,
+    "canvas_id": 1513919,
+    "name": "Service Project\u2014Part 2: Group Analysis and Individual Reflection",
+    "due": "2026-11-22T06:59:59Z",
+    "points": 100.0,
     "status": "unsubmitted",
     "score": null,
     "grade": null,
@@ -169,34 +238,11 @@
    "needs_zack": false
   },
   {
-   "key": "BREAKING_BREAD_COUNTS_TOWARD_FINAL_GRADE",
+   "key": "UNIT_1_MID_TERM_CHECKPOINT_2",
    "status": "blocked_ask_zack",
-   "date": "2026-10-21",
-   "note": "# Canvas 1509308, 25pt, Breaking Bread - Counts toward final grade! (needs Zack's input/decision; drift-added 2026-10-08)",
-   "title": "Canvas 1509308, , Breaking Bread - Counts toward final grade! (needs Zack's input/decision; drift-added 2026-10-08)",
-   "grade": {
-    "canvas_id": 1509308,
-    "name": "Breaking Bread - Counts toward final grade!",
-    "due": "2026-10-21T05:59:59Z",
-    "points": 25.0,
-    "status": "unsubmitted",
-    "score": null,
-    "grade": null,
-    "missing": true,
-    "submitted_at": null,
-    "submission_type": null,
-    "my_submission": "",
-    "comments": []
-   },
-   "drift": false,
-   "needs_zack": true
-  },
-  {
-   "key": "UNIT_1_MID_TERM_CHECKPOINT",
-   "status": "pending",
-   "date": "2026-10-21",
-   "note": "# Canvas 1511530, 1pt online quiz, Canvas has no due date; take after the first checkpoint",
-   "title": "Canvas 1511530, online quiz, Canvas has no",
+   "date": "9999-12-31",
+   "note": "# DUPLICATE row for Canvas 1511530 (same closed survey); superseded by UNIT_1_MID_TERM_CHECKPOINT. No action.",
+   "title": "DUPLICATE row for Canvas 1511530 (same closed survey); superseded by UNIT_1_MID_TERM_CHECKPOINT. No action.",
    "grade": {
     "canvas_id": 1508956,
     "name": "Unit 1 Mid-term Checkpoint",
@@ -213,47 +259,10 @@
    },
    "drift": false,
    "needs_zack": false
-  },
-  {
-   "key": "CANVAS_1513919",
-   "status": "missing_from_ledger",
-   "date": "2026-11-22",
-   "note": "# In Canvas but no ledger row; runner must add it",
-   "title": "Service Project\u2014Part 2: Group Analysis and Individual Reflection",
-   "grade": {
-    "canvas_id": 1513919,
-    "name": "Service Project\u2014Part 2: Group Analysis and Individual Reflection",
-    "due": "2026-11-22T06:59:59Z",
-    "points": 100.0,
-    "status": "unsubmitted",
-    "score": null,
-    "grade": null,
-    "missing": false,
-    "submitted_at": null,
-    "submission_type": null,
-    "my_submission": "",
-    "comments": []
-   },
-   "drift": true
   }
  ],
- "unmatched_canvas": [
-  {
-   "canvas_id": 1513919,
-   "name": "Service Project\u2014Part 2: Group Analysis and Individual Reflection",
-   "due": "2026-11-22T06:59:59Z",
-   "points": 100.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
-   "missing": false,
-   "submitted_at": null,
-   "submission_type": null,
-   "my_submission": "",
-   "comments": []
-  }
- ],
- "needs": "Needs Zack (in person / decision):\n- Breaking Bread - Counts toward final grade! (Canvas 1509308, 25 points, due 2026-10-21 11:59pm MT): meet as a group in person, share food or drink, then each member writes one paragraph and one person submits the compiled document. The automation cannot attend the group meeting. Reply on the dashboard with your group's meeting plan, or say whether you want the agent to draft your paragraph from the notes you provide.\n- HRM 391 Exam 1 (56 pts, remotely proctored) locked Oct 13 without a submission. A makeup request was emailed to the TAs on 2026-10-19; the original message had been stuck in Mail since Oct 15. Zack takes any makeup himself.\n- HRM 391 Exam 1: TAs asked for professor approval first. Escalation emailed to peter.tennis@byu.edu on 2026-10-19 with both TAs copied. Waiting on his reply.\n- HRM 391 Exam 1: Professor Tennis is open to working something out and asked for an appointment. Reply sent 2026-10-19 offering Thu after 4pm, Fri morning, or after 5pm. Waiting on his time. Focus on Unit 2 meanwhile.\n- HRM 391 Exam 1: appointment booked with Professor Tennis for Wed 2026-10-21, 11:00-11:15 AM MT, in person. Attend, then update the TAs.",
+ "unmatched_canvas": [],
+ "needs": "Needs Zack (action / decision):\n- HRM 391 Exam 1 (56 pts, remotely proctored) is OPEN and due TONIGHT Wed Oct 21 11:59pm MT (Canvas shows due 2026-10-22T05:59:59Z, not yet late). Zack takes it himself (proctored). Do not automate.\n- Unit 1 Mid-term Checkpoints (2 surveys, 1 pt each, Canvas 1508956 / 1511530): both LOCKED since Oct 7 11:00am MT and never taken. Zack decides whether to ask Tennis for a makeup; the automation cannot open them.\n- Breaking Bread group doc (25 pts) was submitted 2026-10-21 4:13pm UTC. No action needed.",
  "course_id": 37899,
  "overall": {
   "current_score": 100.0,
@@ -261,5 +270,5 @@
   "final_score": 16.25,
   "final_grade": "E"
  },
- "built_at": "2026-10-21T11:42:02.169761+00:00"
+ "built_at": "2026-10-21T19:32:14.668010+00:00"
 }
