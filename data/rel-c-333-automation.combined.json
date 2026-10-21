@@ -131,7 +131,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Attendance check; credit comes from being in the room during the 12:00-12:50 session"
+    "why": "Attendance check; credit comes from being in the room 12:00-12:50 MT"
    },
    "surface": false
   },
@@ -424,7 +424,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Attendance check recorded in the room; tool box does not make it remote"
+    "why": "Attendance recorded in the room; LTI tool box does not change that"
    },
    "surface": false
   },
@@ -477,7 +477,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "In-class attendance/participation credit, no remote equivalent"
+    "why": "In-class attendance/participation credit; no remote equivalent"
    },
    "surface": false
   },
@@ -1060,7 +1060,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "In-class attendance check, participation earned in class"
+    "why": "In-class attendance check; participation earned in class"
    },
    "surface": true
   },
@@ -1355,8 +1355,8 @@
    "drift": false,
    "needs_zack": true,
    "judge": {
-    "verdict": "manual",
-    "why": "Group presentation delivered live in class; upload path does not replace the in-class delivery"
+    "verdict": "verify",
+    "why": "Slides upload online, but 100pt grade requires in-class group presentation by Zack"
    },
    "surface": true
   }
@@ -1370,5 +1370,5 @@
   "final_score": 50.96,
   "final_grade": "E"
  },
- "built_at": "2026-10-21T21:58:24.773584+00:00"
+ "built_at": "2026-10-21T22:02:14.962192+00:00"
 }

@@ -81,7 +81,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "on_paper; printed notes and summary must be brought to class for in-class peer check, no online path"
+    "why": "On-paper artifact: printed notes and summary brought to class for in-class peer check"
    },
    "surface": true
   },
@@ -301,5 +301,5 @@
   "final_score": 16.25,
   "final_grade": "E"
  },
- "built_at": "2026-10-21T21:58:24.732228+00:00"
+ "built_at": "2026-10-21T22:02:14.878783+00:00"
 }

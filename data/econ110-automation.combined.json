@@ -111,7 +111,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Requires meeting a TA in person at a lab room (B090 JFSB)"
+    "why": "Requires meeting a TA in person at lab room B090 JFSB; no online path"
    },
    "surface": true
   },
@@ -492,7 +492,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Exam held in class at 4:00pm, no online path"
+    "why": "Midterm exam held in class at 4:00pm; no online submission path"
    },
    "surface": true
   },
@@ -864,7 +864,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Exam held in class at 7:00pm, no online path"
+    "why": "Midterm exam held in class at 7:00pm; no online submission path"
    },
    "surface": true
   },
@@ -1194,7 +1194,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Final exam held in class at 6:00pm, no online path"
+    "why": "Final exam held in class at 6:00pm; no online submission path"
    },
    "surface": true
   },
@@ -1227,5 +1227,5 @@
   "current_score": 72.61,
   "source": "learning-suite-points"
  },
- "built_at": "2026-10-21T21:58:24.826973+00:00"
+ "built_at": "2026-10-21T22:02:15.074587+00:00"
 }
