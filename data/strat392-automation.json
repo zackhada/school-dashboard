@@ -63,9 +63,9 @@
   },
   {
    "key": "AMORECO_PREP",
-   "status": "blocked_inperson",
+   "status": "pending",
    "date": "2026-10-07",
-   "note": "# Canvas 1500445 \"A More Co\", 0pts, submission_types=none; prepare case before coming to class; no online submission exists (drift-added 2026-09-23) [manual:submission-types-none-prepare-case-for-in-class-discussion-n]"
+   "note": "# Canvas 1500445 \"A More Co\", 0pts, submission_types=none; prepare case before coming to class; no online submission exists (drift-added 2026-09-23) (judged automatable 2026-10-21: online, no proctoring)"
   },
   {
    "key": "DUALADV_READING",

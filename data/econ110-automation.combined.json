@@ -101,7 +101,7 @@
    "key": "ECON_MEET_TA",
    "status": "blocked_inperson",
    "date": "2026-09-11",
-   "note": "# in-person TA lab B090 JFSB [manual:requires-meeting-a-ta-in-person-at-lab-room-b090-jfsb-no-onl]",
+   "note": "# in-person TA lab B090 JFSB [manual:requires-meeting-a-ta-in-person-at-the-b090-jfsb-lab-no-onli]",
    "title": "Meet TA",
    "grade": {
     "name": "Meet Your TA",
@@ -196,7 +196,7 @@
    "key": "ECON_TA_PASSOFF_1",
    "status": "blocked_inperson",
    "date": "2026-09-15",
-   "note": "# meet TA, pass off one Q from Mankiw #1 (found live 2026-09-10) [manual:must-meet-ta-in-person-and-pass-off-a-mankiw-1-question]",
+   "note": "# meet TA, pass off one Q from Mankiw #1 (found live 2026-09-10) [manual:must-meet-the-ta-in-person-and-verbally-pass-off-a-mankiw-1-]",
    "title": "meet TA, pass off one Q from Mankiw #1",
    "grade": {
     "name": "TA Passoff #1 (Extra Credit)",
@@ -317,7 +317,7 @@
    "key": "ECON_TA_PASSOFF_2",
    "status": "blocked_inperson",
    "date": "2026-09-22",
-   "note": "# meet TA, pass off one Q from Mankiw #2 (found live 2026-09-16) [manual:must-meet-ta-in-person-and-pass-off-a-mankiw-2-question]",
+   "note": "# meet TA, pass off one Q from Mankiw #2 (found live 2026-09-16) [manual:must-meet-the-ta-in-person-and-verbally-pass-off-a-mankiw-2-]",
    "title": "meet TA, pass off one Q from Mankiw #2",
    "grade": {
     "name": "TA Passoff #2 (Extra Credit)",
@@ -434,7 +434,7 @@
    "key": "ECON_TA_PASSOFF_3",
    "status": "blocked_inperson",
    "date": "2026-09-29",
-   "note": "# meet TA, pass off one Q from Mankiw #3 (found live 2026-09-16) [manual:must-meet-ta-in-person-and-pass-off-a-mankiw-3-question]",
+   "note": "# meet TA, pass off one Q from Mankiw #3 (found live 2026-09-16) [manual:must-meet-the-ta-in-person-and-verbally-pass-off-a-mankiw-3-]",
    "title": "meet TA, pass off one Q from Mankiw #3",
    "grade": {
     "name": "TA Passoff #3 (Extra Credit)",
@@ -503,7 +503,7 @@
    "key": "ECON_MIDTERM_1",
    "status": "blocked_inperson",
    "date": "2026-10-02",
-   "note": "# in-class 4:00pm [manual:midterm-exam-held-in-class-at-4-00pm-no-online-submission-pa]",
+   "note": "# in-class 4:00pm [manual:in-class-midterm-exam-at-4-00pm-no-online-submission-path]",
    "title": "in-class",
    "grade": {
     "name": "Midterm 1",
@@ -550,7 +550,7 @@
    "key": "ECON_TA_PASSOFF_4",
    "status": "blocked_inperson",
    "date": "2026-10-06",
-   "note": "# meet TA, pass off one Q from Mankiw #4 (found live 2026-09-16) [manual:must-meet-ta-in-person-and-pass-off-a-mankiw-4-question]",
+   "note": "# meet TA, pass off one Q from Mankiw #4 (found live 2026-09-16) [manual:must-meet-the-ta-in-person-and-verbally-pass-off-a-mankiw-4-]",
    "title": "meet TA, pass off one Q from Mankiw #4",
    "grade": {
     "name": "TA Passoff #4 (Extra Credit)",
@@ -663,7 +663,7 @@
    "key": "ECON_TA_PASSOFF_5",
    "status": "blocked_inperson",
    "date": "2026-10-20",
-   "note": "# meet TA, pass off one Q from Mankiw #5 (found live 2026-09-16) [manual:must-meet-ta-in-person-and-pass-off-a-mankiw-5-question]",
+   "note": "# meet TA, pass off one Q from Mankiw #5 (found live 2026-09-16) [manual:must-meet-the-ta-in-person-and-verbally-pass-off-a-mankiw-5-]",
    "title": "meet TA, pass off one Q from Mankiw #5",
    "grade": {
     "name": "TA Passoff #5 (Extra Credit)",
@@ -732,7 +732,7 @@
    "key": "ECON_TA_PASSOFF_6",
    "status": "blocked_inperson",
    "date": "2026-10-27",
-   "note": "# meet TA, pass off one Q from Mankiw #6 (found live 2026-09-16) [manual:must-meet-ta-in-person-and-pass-off-a-mankiw-6-question]",
+   "note": "# meet TA, pass off one Q from Mankiw #6 (found live 2026-09-16) [manual:must-meet-the-ta-in-person-and-verbally-pass-off-a-mankiw-6-]",
    "title": "meet TA, pass off one Q from Mankiw #6",
    "grade": {
     "name": "TA Passoff #6 (Extra Credit)",
@@ -801,7 +801,7 @@
    "key": "ECON_TA_PASSOFF_7",
    "status": "blocked_inperson",
    "date": "2026-11-03",
-   "note": "# meet TA, pass off one Q from Mankiw #7 (found live 2026-09-16) [manual:must-meet-ta-in-person-and-pass-off-a-mankiw-7-question]",
+   "note": "# meet TA, pass off one Q from Mankiw #7 (found live 2026-09-16) [manual:must-meet-the-ta-in-person-and-verbally-pass-off-a-mankiw-7-]",
    "title": "meet TA, pass off one Q from Mankiw #7",
    "grade": {
     "name": "TA Passoff #7 (Extra Credit)",
@@ -892,7 +892,7 @@
    "key": "ECON_MIDTERM_2",
    "status": "blocked_inperson",
    "date": "2026-11-06",
-   "note": "# in-class 7:00pm [manual:midterm-exam-held-in-class-at-7-00pm-no-online-submission-pa]",
+   "note": "# in-class 7:00pm [manual:in-class-midterm-exam-at-7-00pm-no-online-submission-path]",
    "title": "in-class",
    "grade": {
     "name": "Midterm 2",
@@ -917,7 +917,7 @@
    "key": "ECON_TA_PASSOFF_8",
    "status": "blocked_inperson",
    "date": "2026-11-10",
-   "note": "# meet TA, pass off one Q from Mankiw #8 (found live 2026-09-16) [manual:must-meet-ta-in-person-and-pass-off-a-mankiw-8-question]",
+   "note": "# meet TA, pass off one Q from Mankiw #8 (found live 2026-09-16) [manual:must-meet-the-ta-in-person-and-verbally-pass-off-a-mankiw-8-]",
    "title": "meet TA, pass off one Q from Mankiw #8",
    "grade": {
     "name": "TA Passoff #8 (Extra Credit)",
@@ -986,7 +986,7 @@
    "key": "ECON_TA_PASSOFF_9",
    "status": "blocked_inperson",
    "date": "2026-11-17",
-   "note": "# meet TA, pass off one Q from Mankiw #9 (found live 2026-09-16) [manual:must-meet-ta-in-person-and-pass-off-a-mankiw-9-question]",
+   "note": "# meet TA, pass off one Q from Mankiw #9 (found live 2026-09-16) [manual:must-meet-the-ta-in-person-and-verbally-pass-off-a-mankiw-9-]",
    "title": "meet TA, pass off one Q from Mankiw #9",
    "grade": {
     "name": "TA Passoff #9 (Extra Credit)",
@@ -1055,7 +1055,7 @@
    "key": "ECON_TA_PASSOFF_10",
    "status": "blocked_inperson",
    "date": "2026-11-24",
-   "note": "# meet TA, pass off one Q from Mankiw #10 (found live 2026-09-16) [manual:must-meet-ta-in-person-and-pass-off-a-mankiw-10-question]",
+   "note": "# meet TA, pass off one Q from Mankiw #10 (found live 2026-09-16) [manual:must-meet-the-ta-in-person-and-verbally-pass-off-a-mankiw-10]",
    "title": "meet TA, pass off one Q from Mankiw #10",
    "grade": {
     "name": "TA Passoff #10 (Extra Credit)",
@@ -1190,7 +1190,7 @@
    "key": "ECON_TA_PASSOFF_11",
    "status": "blocked_inperson",
    "date": "2026-12-08",
-   "note": "# meet TA, pass off one Q from Mankiw #11 (found live 2026-09-16) [manual:must-meet-ta-in-person-and-pass-off-a-mankiw-11-question]",
+   "note": "# meet TA, pass off one Q from Mankiw #11 (found live 2026-09-16) [manual:must-meet-the-ta-in-person-and-verbally-pass-off-a-mankiw-11]",
    "title": "meet TA, pass off one Q from Mankiw #11",
    "grade": {
     "name": "TA Passoff #11 (Extra Credit)",
@@ -1237,7 +1237,7 @@
    "key": "ECON_FINAL",
    "status": "blocked_inperson",
    "date": "2026-12-10",
-   "note": "# in-class 6:00pm [manual:final-exam-held-in-class-at-6-00pm-no-online-submission-path]",
+   "note": "# in-class 6:00pm [manual:in-class-final-exam-at-6-00pm-no-online-submission-path]",
    "title": "in-class",
    "grade": {
     "name": "Final Exam",
@@ -1288,5 +1288,5 @@
   "current_score": 72.61,
   "source": "learning-suite-points"
  },
- "built_at": "2026-10-21T22:14:26.132752+00:00"
+ "built_at": "2026-10-21T22:18:16.672471+00:00"
 }

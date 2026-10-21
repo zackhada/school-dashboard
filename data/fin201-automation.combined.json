@@ -71,7 +71,7 @@
    "key": "FIN_MIDTERM_1",
    "status": "blocked_inperson",
    "date": "2026-09-28",
-   "note": "# in class 3:30pm [manual:named-midterm-exam-no-online-submission-path-note-says-taken]",
+   "note": "# in class 3:30pm [manual:named-midterm-exam-taken-in-class-at-3-30pm-no-submission-ty]",
    "title": "in class",
    "grade": null,
    "drift": false,
@@ -153,7 +153,7 @@
    "key": "FIN_MIDTERM_2",
    "status": "blocked_inperson",
    "date": "2026-10-19",
-   "note": "# in class 3:30pm [manual:named-midterm-exam-no-online-submission-path-note-says-taken]",
+   "note": "# in class 3:30pm [manual:named-midterm-exam-taken-in-class-at-3-30pm-no-submission-ty]",
    "title": "in class",
    "grade": null,
    "drift": false,
@@ -235,7 +235,7 @@
    "key": "FIN_MIDTERM_3",
    "status": "blocked_inperson",
    "date": "2026-11-16",
-   "note": "# in class 3:30pm [manual:named-midterm-exam-no-online-submission-path-note-says-taken]",
+   "note": "# in class 3:30pm [manual:named-midterm-exam-taken-in-class-at-3-30pm-no-submission-ty]",
    "title": "in class",
    "grade": null,
    "drift": false,
@@ -295,7 +295,7 @@
    "key": "FIN_FINAL",
    "status": "blocked_inperson",
    "date": "2026-12-09",
-   "note": "# in class 5:00pm [manual:final-exam-held-in-class-5-00pm-no-online-submission-path]",
+   "note": "# in class 5:00pm [manual:final-exam-held-in-class-at-5-00pm-no-submission-types-and-n]",
    "title": "in class",
    "grade": null,
    "drift": false,
@@ -312,5 +312,5 @@
  "needs": null,
  "course_id": null,
  "overall": {},
- "built_at": "2026-10-21T22:14:26.079738+00:00"
+ "built_at": "2026-10-21T22:18:16.644976+00:00"
 }
