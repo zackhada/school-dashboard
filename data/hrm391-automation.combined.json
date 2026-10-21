@@ -224,7 +224,20 @@
    "date": "2026-10-22",
    "note": "# Exam 1 Understanding the Organizational System, 56pt, Remotely Proctored (Canvas 1508899 / quiz 663124), REOPENED: due 2026-10-22T05:59:59Z, unsubmitted (not yet late). Proctored, Zack takes manually. [manual:requires-the-student-in-person] (audited 2026-10-21: already pending_review in Canvas)",
    "title": "Exam 1 Understanding the Organizational System",
-   "grade": null,
+   "grade": {
+    "canvas_id": 1508899,
+    "name": "HRM 391 Exam 1 \u2014 Understanding the Organizational System (Multiple Choice) (Remotely Proctored)",
+    "due": "2026-10-14T05:59:59Z",
+    "points": 56.0,
+    "status": "unsubmitted",
+    "score": null,
+    "grade": null,
+    "missing": true,
+    "submitted_at": null,
+    "submission_type": null,
+    "my_submission": "",
+    "comments": []
+   },
    "drift": false,
    "needs_zack": false,
    "judge": null,
@@ -264,22 +277,9 @@
    "key": "HRM_REMAINING_EXAMS_AND_FINAL",
    "status": "blocked_inperson",
    "date": "2026-12-18",
-   "note": "# Syllabus: \"the three exams and final\" are the primary evidence of individual mastery. Canvas currently publishes Exam 1 only (56 pts). Exam 2, Exam 3 and the final are not created yet, so no date exists. Placeholder date is the end of finals week; confirm dates with Tennis. Zack takes every exam himself. [manual:in-person-exams-dates-unpublished]",
-   "title": "Syllabus: \"the three exams and final\" are the primary evidence of individual mastery. Canvas currently publishes Exam 1 only (). Exam 2, Exam 3 and the final are not created yet, so no date exists. Placeholder date is the end of finals week; confirm dates with Tennis. Zack takes every exam himself.",
-   "grade": {
-    "canvas_id": 1508899,
-    "name": "HRM 391 Exam 1 \u2014 Understanding the Organizational System (Multiple Choice) (Remotely Proctored)",
-    "due": "2026-10-14T05:59:59Z",
-    "points": 56.0,
-    "status": "unsubmitted",
-    "score": null,
-    "grade": null,
-    "missing": true,
-    "submitted_at": null,
-    "submission_type": null,
-    "my_submission": "",
-    "comments": []
-   },
+   "note": "# Remaining exams: Exam 2, Exam 3 and the Final. Syllabus-only for now, not in Canvas yet (Canvas publishes Exam 1 only, 56 pts). Syllabi call the three exams and final the primary evidence of individual mastery. Dates unpublished, placeholder is the end of finals week; confirm with Tennis. Zack takes every exam himself. [manual:in-person-exams-dates-unpublished]",
+   "title": "Remaining exams: Exam 2, Exam 3 and the Final. Syllabus-only for now, not in Canvas yet (Canvas publishes Exam 1 only, ). Syllabi call the three exams and final the primary evidence of individual mastery. Dates unpublished, placeholder is the end of finals week; confirm with Tennis. Zack takes every exam himself.",
+   "grade": null,
    "drift": false,
    "needs_zack": false,
    "judge": null,
@@ -322,5 +322,5 @@
   "final_score": 16.25,
   "final_grade": "E"
  },
- "built_at": "2026-10-21T22:31:29.086530+00:00"
+ "built_at": "2026-10-21T22:31:50.892701+00:00"
 }

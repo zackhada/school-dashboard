@@ -180,6 +180,7 @@ def build_repo(repo):
     if isinstance(ledger, dict):
         ledger = ledger.get("rows", [])
     prepped = []
+    syllabus_only = set()
     for x in ledger:
         key = x.get("key", "")
         if re.search(r"(^|_)(SETUP|RECON)", key):
@@ -188,12 +189,20 @@ def build_repo(repo):
             continue
         if not re.match(r"^\d{4}-\d{2}-\d{2}", x.get("date") or ""):
             continue
+        # A row that exists only in the syllabus must never inherit a Canvas
+        # date or link from a similarly named assignment. It once matched
+        # "Exam 1" and showed a 210 pt final as already 7 days past.
+        if re.search(r"(?i)syllabus[- ]only|not (?:created |published )?in canvas|"
+                     r"not in canvas yet", x.get("note") or ""):
+            syllabus_only.add(len(prepped))
         prepped.append((x, title_from(key, x.get("note"))))
     # Global best-first assignment: highest score wins each Canvas row, so a
     # ledger row is never silently dropped in favour of another.
     gwords = [words(g.get("name")) for g in grades]
     pairs = []
     for i, (x, title) in enumerate(prepped):
+        if i in syllabus_only:
+            continue
         tw = words(str(title) + " " + str(x.get("key", "")))
         for gi, g in enumerate(grades):
             ov = overlap_count(tw, gwords[gi])
