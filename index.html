@@ -229,7 +229,10 @@ Promise.all(REPOS.map(function(pair){
         // attendance is not a task at all, so neither is an action item. Show
         // ALL upcoming in-person/proctored items (no forward cap) so a
         // further-out exam can never hide; sort soonest-first below.
-        if (d && d >= now && actionable) {
+        // A decision row (blocked_ask_zack, e.g. "ask the professor for a
+        // makeup") does not expire with its date, so it stays visible. Plain
+        // manual work must still be upcoming.
+        if (d && actionable && (d >= now || x.status === 'blocked_ask_zack')) {
           var curl = canvasUrl(c.course, x.grade && x.grade.canvas_id);
           var cell = curl ? '<a href="'+curl+'">Canvas</a>' : '';
           var rurl = replyUrl(c, x, note);
