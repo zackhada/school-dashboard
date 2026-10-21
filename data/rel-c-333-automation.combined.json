@@ -639,7 +639,7 @@
    "key": "10_20_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-10-20",
-   "note": "# Canvas 1466083, 10pt, 10/20 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-taken-in-the-classroom-not-an-online-quiz-path]",
+   "note": "# Canvas 1466083, 10pt, 10/20 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-or-participation]",
    "title": "10/20 - Attendance Check",
    "grade": {
     "canvas_id": 1466083,
@@ -694,7 +694,7 @@
    "key": "10_22_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-10-22",
-   "note": "# Canvas 1466086, 10pt, 10/22 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-check-requiring-presence-in-the-room-that-day]",
+   "note": "# Canvas 1466086, 10pt, 10/22 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-or-participation]",
    "title": "10/22 - Attendance Check",
    "grade": {
     "canvas_id": 1466086,
@@ -749,7 +749,7 @@
    "key": "10_27_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-10-27",
-   "note": "# Canvas 1466087, 10pt, 10/27 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:in-class-attendance-participation-credit-earned-in-person]",
+   "note": "# Canvas 1466087, 10pt, 10/27 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-or-participation]",
    "title": "10/27 - Attendance Check",
    "grade": {
     "canvas_id": 1466087,
@@ -804,7 +804,7 @@
    "key": "10_29_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-10-29",
-   "note": "# Canvas 1466090, 10pt, 10/29 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-check-recorded-during-the-in-person-class]",
+   "note": "# Canvas 1466090, 10pt, 10/29 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-or-participation]",
    "title": "10/29 - Attendance Check",
    "grade": {
     "canvas_id": 1466090,
@@ -859,7 +859,7 @@
    "key": "11_3_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-11-03",
-   "note": "# Canvas 1466123, 10pt, 11/3 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-graded-on-physical-presence-in-class]",
+   "note": "# Canvas 1466123, 10pt, 11/3 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-or-participation]",
    "title": "11/3 - Attendance Check",
    "grade": {
     "canvas_id": 1466123,
@@ -914,7 +914,7 @@
    "key": "11_5_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-11-05",
-   "note": "# Canvas 1466143, 10pt, 11/5 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:in-class-attendance-check-not-completable-online-by-an-agent]",
+   "note": "# Canvas 1466143, 10pt, 11/5 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-or-participation]",
    "title": "11/5 - Attendance Check",
    "grade": {
     "canvas_id": 1466143,
@@ -969,7 +969,7 @@
    "key": "11_10_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-11-10",
-   "note": "# Canvas 1466166, 10pt, 11/10 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-check-for-the-in-person-session]",
+   "note": "# Canvas 1466166, 10pt, 11/10 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-or-participation]",
    "title": "11/10 - Attendance Check",
    "grade": {
     "canvas_id": 1466166,
@@ -1024,7 +1024,7 @@
    "key": "11_12_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-11-12",
-   "note": "# Canvas 1466168, 10pt, 11/12 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-check-room-presence-required]",
+   "note": "# Canvas 1466168, 10pt, 11/12 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-or-participation]",
    "title": "11/12 - Attendance Check",
    "grade": {
     "canvas_id": 1466168,
@@ -1079,7 +1079,7 @@
    "key": "11_17_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-11-17",
-   "note": "# Canvas 1466170, 10pt, 11/17 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:in-class-attendance-check-participation-earned-in-class]",
+   "note": "# Canvas 1466170, 10pt, 11/17 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-or-participation]",
    "title": "11/17 - Attendance Check",
    "grade": {
     "canvas_id": 1466170,
@@ -1134,7 +1134,7 @@
    "key": "11_19_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-11-19",
-   "note": "# Canvas 1466171, 10pt, 11/19 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-check-recorded-in-the-classroom]",
+   "note": "# Canvas 1466171, 10pt, 11/19 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-or-participation]",
    "title": "11/19 - Attendance Check",
    "grade": {
     "canvas_id": 1466171,
@@ -1189,7 +1189,7 @@
    "key": "11_24_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-11-24",
-   "note": "# Canvas 1466174, 10pt, 11/24 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-check-where-only-in-person-presence-counts]",
+   "note": "# Canvas 1466174, 10pt, 11/24 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-or-participation]",
    "title": "11/24 - Attendance Check",
    "grade": {
     "canvas_id": 1466174,
@@ -1218,7 +1218,7 @@
    "key": "12_1_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-12-01",
-   "note": "# Canvas 1466185, 10pt, 12/1 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-check-for-the-in-person-session]",
+   "note": "# Canvas 1466185, 10pt, 12/1 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-or-participation]",
    "title": "12/1 - Attendance Check",
    "grade": {
     "canvas_id": 1466185,
@@ -1273,7 +1273,7 @@
    "key": "12_3_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-12-03",
-   "note": "# Canvas 1466190, 10pt, 12/3 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-check-body-in-the-room-is-the-requirement]",
+   "note": "# Canvas 1466190, 10pt, 12/3 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-or-participation]",
    "title": "12/3 - Attendance Check",
    "grade": {
     "canvas_id": 1466190,
@@ -1302,7 +1302,7 @@
    "key": "12_8_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-12-08",
-   "note": "# Canvas 1466191, 10pt, 12/8 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:in-class-attendance-check-not-remotely-completable]",
+   "note": "# Canvas 1466191, 10pt, 12/8 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-or-participation]",
    "title": "12/8 - Attendance Check",
    "grade": {
     "canvas_id": 1466191,
@@ -1357,7 +1357,7 @@
    "key": "12_10_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-12-10",
-   "note": "# Canvas 1466192, 10pt, 12/10 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-check-recorded-during-the-in-person-class]",
+   "note": "# Canvas 1466192, 10pt, 12/10 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-or-participation]",
    "title": "12/10 - Attendance Check",
    "grade": {
     "canvas_id": 1466192,
@@ -1384,10 +1384,10 @@
   },
   {
    "key": "A_PROFILE_OF_A_PROPHET_GROUP_PROJECT",
-   "status": "blocked_ask_zack",
+   "status": "pending",
    "date": "2026-12-11",
-   "note": "# Canvas 1468925, 100pt, A Profile of a Prophet Group Project (Zack's group: Elder Gerald Causse, in-class Oct 13 w/ Robert Cardon, Bree Cardon, Jamie Lewis; slides due Oct 12 11:59pm; in-class delivery is Zack's, cannot automate; research/slides automatable on request; no Canvas group, coordinate via Canvas Inbox; drift-added 2026-10-02) [manual:verify-slides-upload-online-but-100pt-grade-requires-in-class-group]",
-   "title": "A Profile of a Prophet Group Project",
+   "note": "# Canvas 1468925, 100pt, A Profile of a Prophet Group Project (Zack's group: Elder Gerald Causse, in-class Oct 13 w/ Robert Cardon, Bree Cardon, Jamie Lewis; slides due Oct 12 11:59pm; in-class delivery is Zack's, cannot automate; research/slides automatable on request; no Canvas group, coordinate via Canvas Inbox; drift-added 2026-10-02) (judged automatable 2026-10-21: online, no proctoring)",
+   "title": "A Profile of a Prophet Group Project (Zack's group: Elder Gerald Causse, in-class Oct 13 w/ Robert Cardon, Bree Cardon, Jamie Lewis; slides",
    "grade": {
     "canvas_id": 1468925,
     "name": "A Profile of a Prophet Group Project",
@@ -1408,8 +1408,8 @@
     "verdict": "verify",
     "why": "Slides upload online, but 100pt grade requires in-class group presentation by Zack"
    },
-   "surface": true,
-   "actionable": true
+   "surface": false,
+   "actionable": false
   }
  ],
  "unmatched_canvas": [],
@@ -1421,5 +1421,5 @@
   "final_score": 50.96,
   "final_grade": "E"
  },
- "built_at": "2026-10-21T22:12:00.433480+00:00"
+ "built_at": "2026-10-21T22:14:26.025889+00:00"
 }
