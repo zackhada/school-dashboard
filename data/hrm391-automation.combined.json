@@ -212,9 +212,9 @@
   },
   {
    "key": "EXAM1",
-   "status": "blocked_inperson",
+   "status": "done",
    "date": "2026-10-22",
-   "note": "# Exam 1 Understanding the Organizational System, 56pt, Remotely Proctored (Canvas 1508899 / quiz 663124), REOPENED: due 2026-10-22T05:59:59Z, unsubmitted (not yet late). Proctored, Zack takes manually. [manual:requires-the-student-in-person]",
+   "note": "# Exam 1 Understanding the Organizational System, 56pt, Remotely Proctored (Canvas 1508899 / quiz 663124), REOPENED: due 2026-10-22T05:59:59Z, unsubmitted (not yet late). Proctored, Zack takes manually. [manual:requires-the-student-in-person] (audited 2026-10-21: already pending_review in Canvas)",
    "title": "Exam 1 Understanding the Organizational System",
    "grade": {
     "canvas_id": 1508899,
@@ -236,7 +236,7 @@
     "verdict": "manual",
     "why": "Requires the student in person."
    },
-   "surface": true
+   "surface": false
   },
   {
    "key": "SERVICE_PROJECT_PART_2_GROUP_ANALYSIS_AN",
@@ -301,5 +301,5 @@
   "final_score": 16.25,
   "final_grade": "E"
  },
- "built_at": "2026-10-21T21:52:40.825770+00:00"
+ "built_at": "2026-10-21T21:58:24.732228+00:00"
 }

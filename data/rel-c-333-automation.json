@@ -33,9 +33,9 @@
   },
   {
    "key": "ATTENDANCE_CHECK_0915",
-   "status": "blocked_inperson",
+   "status": "done",
    "date": "2026-09-15",
-   "note": "# Canvas 1465865, LTI external_tool, in-class window 12:00-12:50pm MT; Zack attends [manual:attendance-check-credit-comes-from-being-in-the-room-during-]"
+   "note": "# Canvas 1465865, LTI external_tool, in-class window 12:00-12:50pm MT; Zack attends [manual:attendance-check-credit-comes-from-being-in-the-room-during-] (audited 2026-10-21: already graded in Canvas)"
   },
   {
    "key": "PRECLASS_PADLET_0915",
@@ -45,9 +45,9 @@
   },
   {
    "key": "ATTENDANCE_CHECK_0917",
-   "status": "blocked_inperson",
+   "status": "done",
    "date": "2026-09-17",
-   "note": "# Canvas 1465866, LTI external_tool, in-class window 12:00-12:50pm MT; Zack attends [manual:attendance-check-tied-to-physical-presence-in-that-class-mee]"
+   "note": "# Canvas 1465866, LTI external_tool, in-class window 12:00-12:50pm MT; Zack attends [manual:attendance-check-tied-to-physical-presence-in-that-class-mee] (audited 2026-10-21: already graded in Canvas)"
   },
   {
    "key": "PRECLASS_PADLET_0917",
@@ -81,9 +81,9 @@
   },
   {
    "key": "ATTENDANCE_CHECK_0929",
-   "status": "blocked_inperson",
+   "status": "done",
    "date": "2026-09-29",
-   "note": "# Canvas 1465868, in-class 12:00-12:50pm MT; Zack attends (drift-added 2026-09-22) [manual:in-class-attendance-check-presence-is-the-graded-act-not-a-s]"
+   "note": "# Canvas 1465868, in-class 12:00-12:50pm MT; Zack attends (drift-added 2026-09-22) [manual:in-class-attendance-check-presence-is-the-graded-act-not-a-s] (audited 2026-10-21: already graded in Canvas)"
   },
   {
    "key": "PRECLASS_PADLET_1001",
@@ -93,21 +93,21 @@
   },
   {
    "key": "ATTENDANCE_CHECK_1001",
-   "status": "blocked_inperson",
+   "status": "done",
    "date": "2026-10-01",
-   "note": "# Canvas 1465930, in-class; Zack attends (drift-added 2026-09-22) [manual:name-is-an-attendance-check-for-the-in-person-session]"
+   "note": "# Canvas 1465930, in-class; Zack attends (drift-added 2026-09-22) [manual:name-is-an-attendance-check-for-the-in-person-session] (audited 2026-10-21: already graded in Canvas)"
   },
   {
    "key": "10_6_ATTENDANCE_CHECK",
-   "status": "blocked_inperson",
+   "status": "done",
    "date": "2026-10-06",
-   "note": "# Canvas 1465981, 10pt, 10/6 - Attendance Check (in-class/participation; drift-added 2026-10-02) [manual:attendance-check-recorded-in-the-room-tool-box-does-not-make]"
+   "note": "# Canvas 1465981, 10pt, 10/6 - Attendance Check (in-class/participation; drift-added 2026-10-02) [manual:attendance-check-recorded-in-the-room-tool-box-does-not-make] (audited 2026-10-21: already graded in Canvas)"
   },
   {
    "key": "10_8_ATTENDANCE_CHECK",
-   "status": "blocked_inperson",
+   "status": "done",
    "date": "2026-10-08",
-   "note": "# Canvas 1466079, 10pt, 10/8 - Attendance Check (in-class/participation; drift-added 2026-10-02) [manual:in-class-attendance-participation-credit-no-remote-equivalen]"
+   "note": "# Canvas 1466079, 10pt, 10/8 - Attendance Check (in-class/participation; drift-added 2026-10-02) [manual:in-class-attendance-participation-credit-no-remote-equivalen] (audited 2026-10-21: already graded in Canvas)"
   },
   {
    "key": "10_6_PRE_CLASS_STUDY_AND_PADLET_SHARING",
@@ -123,21 +123,21 @@
   },
   {
    "key": "A_PROFILE_OF_A_PROPHET_GROUP_PROJECT",
-   "status": "blocked_inperson",
+   "status": "blocked_ask_zack",
    "date": "2026-12-11",
-   "note": "# Canvas 1468925, 100pt, A Profile of a Prophet Group Project (Zack's group: Elder Gerald Causse, in-class Oct 13 w/ Robert Cardon, Bree Cardon, Jamie Lewis; slides due Oct 12 11:59pm; in-class delivery is Zack's, cannot automate; research/slides automatable on request; no Canvas group, coordinate via Canvas Inbox; drift-added 2026-10-02) [manual:group-presentation-delivered-live-in-class-upload-path-does-]"
+   "note": "# Canvas 1468925, 100pt, A Profile of a Prophet Group Project (Zack's group: Elder Gerald Causse, in-class Oct 13 w/ Robert Cardon, Bree Cardon, Jamie Lewis; slides due Oct 12 11:59pm; in-class delivery is Zack's, cannot automate; research/slides automatable on request; no Canvas group, coordinate via Canvas Inbox; drift-added 2026-10-02) [manual:verify-slides-upload-online-but-100pt-grade-requires-in-class-group]"
   },
   {
    "key": "10_13_ATTENDANCE_CHECK",
-   "status": "blocked_inperson",
+   "status": "done",
    "date": "2026-10-13",
-   "note": "# Canvas 1466080, 10pt, 10/13 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-check-physical-presence-is-the-graded-act]"
+   "note": "# Canvas 1466080, 10pt, 10/13 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-check-physical-presence-is-the-graded-act] (audited 2026-10-21: already graded in Canvas)"
   },
   {
    "key": "10_15_ATTENDANCE_CHECK",
-   "status": "blocked_inperson",
+   "status": "done",
    "date": "2026-10-15",
-   "note": "# Canvas 1466081, 10pt, 10/15 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-check-for-the-in-person-session]"
+   "note": "# Canvas 1466081, 10pt, 10/15 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-check-for-the-in-person-session] (audited 2026-10-21: already graded in Canvas)"
   },
   {
    "key": "10_20_ATTENDANCE_CHECK",

@@ -69,9 +69,9 @@
   },
   {
    "key": "DUALADV_READING",
-   "status": "pending",
+   "status": "done",
    "date": "2026-10-09",
-   "note": "# Canvas 1500517 \"Dual Advantage\", 0pts, submission_types=none, no Canvas due date; read the dual advantage article; no online submission exists (drift-added 2026-09-23) (judged automatable 2026-10-21: Online submission path, no proctoring evidence.)"
+   "note": "# Canvas 1500517 \"Dual Advantage\", 0pts, submission_types=none, no Canvas due date; read the article for the Oct 8 session, which has passed. No submission exists, so nothing to hand in. Retired 2026-10-21 so it stops consuming a run slot."
   },
   {
    "key": "STRATEGY_AS_LEVERAGE_READING_QUIZ",

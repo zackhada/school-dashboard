@@ -41,7 +41,7 @@
    "key": "ECON_MEET_TA",
    "status": "blocked_inperson",
    "date": "2026-09-11",
-   "note": "# in-person TA lab B090 JFSB [manual:requires-meeting-a-ta-in-person-at-a-lab-room-b090-jfsb]"
+   "note": "# in-person TA lab B090 JFSB [manual:requires-meeting-a-ta-in-person-at-lab-room-b090-jfsb-no-onl]"
   },
   {
    "key": "ECON_OAKS_QUIZ",
@@ -245,19 +245,19 @@
    "key": "ECON_MIDTERM_1",
    "status": "blocked_inperson",
    "date": "2026-10-02",
-   "note": "# in-class 4:00pm [manual:exam-held-in-class-at-4-00pm-no-online-path]"
+   "note": "# in-class 4:00pm [manual:midterm-exam-held-in-class-at-4-00pm-no-online-submission-pa]"
   },
   {
    "key": "ECON_MIDTERM_2",
    "status": "blocked_inperson",
    "date": "2026-11-06",
-   "note": "# in-class 7:00pm [manual:exam-held-in-class-at-7-00pm-no-online-path]"
+   "note": "# in-class 7:00pm [manual:midterm-exam-held-in-class-at-7-00pm-no-online-submission-pa]"
   },
   {
    "key": "ECON_FINAL",
    "status": "blocked_inperson",
    "date": "2026-12-10",
-   "note": "# in-class 6:00pm [manual:final-exam-held-in-class-at-6-00pm-no-online-path]"
+   "note": "# in-class 6:00pm [manual:final-exam-held-in-class-at-6-00pm-no-online-submission-path]"
   },
   {
    "key": "ECON_MINDTAP_CH2",
