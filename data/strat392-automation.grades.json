@@ -152,12 +152,12 @@
    "name": "Strategy as Leverage Reading Quiz",
    "due": "2026-10-23T05:59:59Z",
    "points": 10.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
+   "status": "graded",
+   "score": 10.0,
+   "grade": "10",
    "missing": false,
-   "submitted_at": null,
-   "submission_type": null,
+   "submitted_at": "2026-10-21T21:25:02Z",
+   "submission_type": "basic_lti_launch",
    "my_submission": "",
    "comments": []
   },
@@ -303,10 +303,10 @@
   }
  ],
  "overall": {
-  "current_score": 95.38,
+  "current_score": 95.71,
   "current_grade": "A",
-  "final_score": 56.36,
-  "final_grade": "E"
+  "final_score": 60.91,
+  "final_grade": "D-"
  },
  "source": "canvas-api"
 }

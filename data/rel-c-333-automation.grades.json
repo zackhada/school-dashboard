@@ -448,6 +448,20 @@
    "comments": []
   },
   {
+   "canvas_id": 1466689,
+   "name": "Become Project - Part B - Mid Term Reflection",
+   "due": "2026-11-01T05:59:59Z",
+   "points": 100.0,
+   "status": "unsubmitted",
+   "score": null,
+   "grade": null,
+   "missing": false,
+   "submitted_at": null,
+   "submission_type": null,
+   "my_submission": "",
+   "comments": []
+  },
+  {
    "canvas_id": 1466501,
    "name": "11/3 - Pre-Class Study and Padlet Sharing",
    "due": "2026-11-03T18:59:59Z",
@@ -941,7 +955,7 @@
  "overall": {
   "current_score": 85.34,
   "current_grade": "B",
-  "final_score": 50.96,
+  "final_score": 35.66,
   "final_grade": "E"
  },
  "source": "canvas-api"

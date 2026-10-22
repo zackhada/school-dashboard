@@ -174,12 +174,12 @@
     "name": "Breaking Bread - Counts toward final grade!",
     "due": "2026-10-21T05:59:59Z",
     "points": 25.0,
-    "status": "unsubmitted",
+    "status": "submitted",
     "score": null,
     "grade": null,
-    "missing": true,
-    "submitted_at": null,
-    "submission_type": null,
+    "missing": false,
+    "submitted_at": "2026-10-22T03:33:16Z",
+    "submission_type": "online_upload",
     "my_submission": "",
     "comments": []
    },
@@ -224,14 +224,14 @@
    "grade": {
     "canvas_id": 1508899,
     "name": "HRM 391 Exam 1 \u2014 Understanding the Organizational System (Multiple Choice) (Remotely Proctored)",
-    "due": "2026-10-14T05:59:59Z",
+    "due": "2026-10-22T05:59:59Z",
     "points": 56.0,
-    "status": "unsubmitted",
-    "score": null,
-    "grade": null,
-    "missing": true,
-    "submitted_at": null,
-    "submission_type": null,
+    "status": "pending_review",
+    "score": 36.0,
+    "grade": "36",
+    "missing": false,
+    "submitted_at": "2026-10-21T20:54:12Z",
+    "submission_type": "online_quiz",
     "my_submission": "",
     "comments": []
    },
@@ -313,8 +313,8 @@
  "overall": {
   "current_score": 100.0,
   "current_grade": "A",
-  "final_score": 16.25,
+  "final_score": 52.41,
   "final_grade": "E"
  },
- "built_at": "2026-10-22T01:40:21.947315+00:00"
+ "built_at": "2026-10-22T10:24:10.160819+00:00"
 }
