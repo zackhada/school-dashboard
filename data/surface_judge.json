@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T17:44:48.695661+00:00",
+ "generated_at": "2026-10-22T19:34:21.342727+00:00",
  "model": "opencode-go/deepseek-v4.1-flash",
  "repos": {
   "econ110-automation": {
@@ -14,7 +14,7 @@
   },
   "hrm391-automation": {
    "detail": "ERROR:opencode/deepseek-v4.1-flash-free: rc=1 \u001b[0m\n> build \u00b7 deepseek-v4.1-flash-free\n\u001b[0m\n\u001b[91m\u001b[1mError: \u001b[0mUpstream request failed: Invalid credential\n",
-   "judged": 4,
+   "judged": 3,
    "verdicts": {}
   },
   "is515-automation": {
