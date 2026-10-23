@@ -622,9 +622,9 @@
     "name": "10/20 - Attendance Check",
     "due": "2026-10-20T18:50:00Z",
     "points": 10.0,
-    "status": "unsubmitted",
-    "score": null,
-    "grade": null,
+    "status": "graded",
+    "score": 0.0,
+    "grade": "0",
     "missing": true,
     "submitted_at": null,
     "submission_type": null,
@@ -674,12 +674,12 @@
     "name": "10/22 - Attendance Check",
     "due": "2026-10-22T18:50:00Z",
     "points": 10.0,
-    "status": "unsubmitted",
-    "score": null,
-    "grade": null,
+    "status": "graded",
+    "score": 10.0,
+    "grade": "10",
     "missing": false,
-    "submitted_at": null,
-    "submission_type": null,
+    "submitted_at": "2026-10-22T18:28:52Z",
+    "submission_type": "basic_lti_launch",
     "my_submission": "",
     "comments": []
    },
@@ -703,7 +703,7 @@
     "status": "unsubmitted",
     "score": null,
     "grade": null,
-    "missing": false,
+    "missing": true,
     "submitted_at": null,
     "submission_type": null,
     "my_submission": "",
@@ -1370,10 +1370,10 @@
  "needs": "In person (unchanged):\n- Attendance Checks (10pts each) on 10/13, 10/15, 10/20, 10/22, 10/27, 10/29, 11/3, 11/5, 11/10, 11/12, 11/17, 11/19, 11/24, 12/1, 12/3, 12/8, 12/10: in-class LTI checks TTh 12:00-12:50pm.\n- Prophet Group Project (Canvas 1468925, 100pts, in-class Tue 10/13, slides due Mon 10/12 11:59pm): group presents in class.",
  "course_id": 38438,
  "overall": {
-  "current_score": 85.34,
+  "current_score": 84.39,
   "current_grade": "B",
-  "final_score": 35.66,
+  "final_score": 36.66,
   "final_grade": "E"
  },
- "built_at": "2026-10-23T01:38:41.964285+00:00"
+ "built_at": "2026-10-23T10:21:48.520005+00:00"
 }

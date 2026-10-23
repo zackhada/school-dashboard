@@ -550,12 +550,12 @@
     "name": "Participation Quiz 10.22",
     "due": "2026-10-22T21:30:00Z",
     "points": 3.0,
-    "status": "unsubmitted",
-    "score": null,
-    "grade": null,
+    "status": "graded",
+    "score": 3.0,
+    "grade": "3",
     "missing": false,
-    "submitted_at": null,
-    "submission_type": null,
+    "submitted_at": "2026-10-22T21:02:11Z",
+    "submission_type": "online_quiz",
     "my_submission": "",
     "comments": []
    },
@@ -615,14 +615,20 @@
     "name": "Midterm Assignment",
     "due": "2026-10-25T05:59:59Z",
     "points": 30.0,
-    "status": "unsubmitted",
+    "status": "submitted",
     "score": null,
     "grade": null,
     "missing": false,
-    "submitted_at": null,
-    "submission_type": null,
+    "submitted_at": "2026-10-22T18:23:39Z",
+    "submission_type": "online_upload",
     "my_submission": "",
-    "comments": []
+    "comments": [
+     {
+      "author": "Zack Hada",
+      "comment": "Ethics toolkit reflection and the 2026 Professional Goals Table, plus the slide deck used for the in-class presentation.",
+      "created": "2026-10-22T18:23:39Z"
+     }
+    ]
    },
    "drift": false,
    "needs_zack": false,
@@ -1155,10 +1161,10 @@
  "needs": null,
  "course_id": 38958,
  "overall": {
-  "current_score": 65.75,
-  "current_grade": "D",
-  "final_score": 19.12,
+  "current_score": 67.11,
+  "current_grade": "D+",
+  "final_score": 20.32,
   "final_grade": "E"
  },
- "built_at": "2026-10-23T01:38:42.011985+00:00"
+ "built_at": "2026-10-23T10:21:48.567990+00:00"
 }
