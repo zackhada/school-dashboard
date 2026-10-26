@@ -72,17 +72,17 @@
   },
   {
    "key": "FIN_MIDTERM_1",
-   "status": "blocked_inperson",
+   "status": "done",
    "date": "2026-09-28",
-   "note": "# in class 3:30pm [manual:named-midterm-exam-taken-in-class-at-3-30pm-no-submission-ty]",
-   "title": "in class",
+   "note": "# Testing Center, taken Sep 28 12:08pm, scored 9/20 = 45% (Testing Center record 2026-10-26)",
+   "title": "Testing Center, taken Sep 28 , scored 9/20 = 45%",
    "grade": null,
    "drift": false,
    "needs_zack": false,
    "judge": null,
    "optional_ec": false,
-   "surface": true,
-   "actionable": true
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "FIN_QUIZ_8",
@@ -155,17 +155,17 @@
   },
   {
    "key": "FIN_MIDTERM_2",
-   "status": "blocked_inperson",
+   "status": "done",
    "date": "2026-10-19",
-   "note": "# in class 3:30pm [manual:named-midterm-exam-taken-in-class-at-3-30pm-no-submission-ty]",
-   "title": "in class",
+   "note": "# Testing Center, taken Oct 16 4:13pm, scored 14/25 = 56% (Testing Center record 2026-10-26)",
+   "title": "Testing Center, taken Oct 16 , scored 14/25 = 56%",
    "grade": null,
    "drift": false,
    "needs_zack": false,
    "judge": null,
    "optional_ec": false,
-   "surface": true,
-   "actionable": true
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "FIN_QUIZ_2",
@@ -315,5 +315,5 @@
  "needs": null,
  "course_id": null,
  "overall": {},
- "built_at": "2026-10-26T21:16:47.211447+00:00"
+ "built_at": "2026-10-26T21:40:13.171046+00:00"
 }

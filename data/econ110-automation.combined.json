@@ -516,10 +516,10 @@
   },
   {
    "key": "ECON_MIDTERM_1",
-   "status": "blocked_inperson",
+   "status": "done",
    "date": "2026-10-02",
-   "note": "# in-class 4:00pm [manual:in-class-midterm-exam-at-4-00pm-no-online-submission-path]",
-   "title": "in-class",
+   "note": "# Testing Center, taken Oct 2 11:21am, 120/200 = 60% (Testing Center record 2026-10-26)",
+   "title": "Testing Center, taken Oct 2 , 120/200 = 60%",
    "grade": {
     "name": "Midterm 1",
     "due": "2026-10-02T21:00:00",
@@ -534,8 +534,8 @@
    "needs_zack": false,
    "judge": null,
    "optional_ec": false,
-   "surface": true,
-   "actionable": true
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "ECON_PRECLASS_BEHAV",
@@ -1304,5 +1304,5 @@
   "current_score": 72.61,
   "source": "learning-suite-points"
  },
- "built_at": "2026-10-26T21:16:47.248346+00:00"
+ "built_at": "2026-10-26T21:40:13.207090+00:00"
 }

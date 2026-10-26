@@ -69,15 +69,15 @@
   },
   {
    "key": "FIN_MIDTERM_1",
-   "status": "blocked_inperson",
+   "status": "done",
    "date": "2026-09-28",
-   "note": "# in class 3:30pm [manual:named-midterm-exam-taken-in-class-at-3-30pm-no-submission-ty]"
+   "note": "# Testing Center, taken Sep 28 12:08pm, scored 9/20 = 45% (Testing Center record 2026-10-26)"
   },
   {
    "key": "FIN_MIDTERM_2",
-   "status": "blocked_inperson",
+   "status": "done",
    "date": "2026-10-19",
-   "note": "# in class 3:30pm [manual:named-midterm-exam-taken-in-class-at-3-30pm-no-submission-ty]"
+   "note": "# Testing Center, taken Oct 16 4:13pm, scored 14/25 = 56% (Testing Center record 2026-10-26)"
   },
   {
    "key": "FIN_MIDTERM_3",
