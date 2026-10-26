@@ -254,9 +254,22 @@
    "key": "STRAT_MIDTERM",
    "status": "blocked_ask_zack",
    "date": "2026-10-20",
-   "note": "# Testing Center 150pt (21.4%), window Oct 9 8:00am to Oct 20 9:00pm. CONFIRMED NOT TAKEN 2026-10-25 (blank score on the Testing Center record). TA FIRST: email fitzpatr@student.byu.edu / dgugler@student.byu.edu / ky275373@student.byu.edu asking about a late sit or reweight; only go to oldroyd@byu.edu if the TA says it is his call. A zero caps the course at 78.6% [manual:missed-testing-center-window-tas-emailed-2026-10-25]",
-   "title": "Testing Center (21.4%), window Oct 9 to Oct 20 . CONFIRMED NOT TAKEN 2026-10-25 (blank score on the Testing Center record). TA FIRST: email fitzpatr@student.byu.edu / dgugler@student.byu.edu / ky275373@student.byu.edu asking about a late sit or reweight; only go to oldroyd@byu.edu if the TA says it is his call. A zero caps the course at 78.6%",
-   "grade": null,
+   "note": "# Testing Center 150pt, window Oct 9 to Oct 20 9:00pm. CONFIRMED NOT TAKEN 2026-10-25. CREDIT RISK, not just grade: with this zero plus a 60% final the course lands near 61.6% (D-), and 80% on the last 190 points puts it at 58.9%, an E with no credits. Needs ~84% on the remaining quizzes, Market Entry Lab (60) and Strategy Journal (50). TA FIRST: fitzpatr@student.byu.edu / dgugler@student.byu.edu / ky275373@student.byu.edu, emailed 2026-10-25, no reply yet [manual:missed-testing-center-window-credit-risk-tas-emailed]",
+   "title": "Testing Center , window Oct 9 to Oct 20 . CONFIRMED NOT TAKEN 2026-10-25. CREDIT RISK, not just grade: with this zero plus a 60% final the course lands near 61.6% (D-), and 80% on the last 190 points puts it at 58.9%, an E with no credits. Needs ~84% on the remaining quizzes, Market Entry Lab (60) and Strategy Journal (50). TA FIRST: fitzpatr@student.byu.edu / dgugler@student.byu.edu / ky275373@student.byu.edu, emailed 2026-10-25, no reply yet",
+   "grade": {
+    "canvas_id": 1496217,
+    "name": "9-8 In Class Quiz",
+    "due": "2026-09-11T05:59:59Z",
+    "points": 10.0,
+    "status": "graded",
+    "score": 10.0,
+    "grade": "10",
+    "missing": false,
+    "submitted_at": "2026-09-09T20:29:12Z",
+    "submission_type": "online_quiz",
+    "my_submission": "",
+    "comments": []
+   },
    "drift": false,
    "needs_zack": false,
    "judge": null,
@@ -559,5 +572,5 @@
   "final_score": 60.91,
   "final_grade": "D-"
  },
- "built_at": "2026-10-26T05:55:12.971501+00:00"
+ "built_at": "2026-10-26T21:16:47.142204+00:00"
 }
