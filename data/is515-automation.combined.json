@@ -24,6 +24,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -50,6 +51,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -76,6 +78,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -102,6 +105,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -128,6 +132,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -154,6 +159,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -180,6 +186,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -206,6 +213,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -232,6 +240,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -258,6 +267,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -284,6 +294,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -310,6 +321,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -336,6 +348,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -362,6 +375,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -388,6 +402,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -414,6 +429,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -440,6 +456,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -466,6 +483,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -492,6 +510,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": true,
    "actionable": true
   }
@@ -505,5 +524,5 @@
   "final_score": 43.0,
   "final_grade": "E"
  },
- "built_at": "2026-10-23T11:32:48.798239+00:00"
+ "built_at": "2026-10-26T04:55:28.197706+00:00"
 }

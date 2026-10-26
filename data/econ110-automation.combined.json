@@ -20,6 +20,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -33,6 +34,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -46,6 +48,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -59,6 +62,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -81,6 +85,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -94,6 +99,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -116,6 +122,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": true,
    "actionable": true
   },
@@ -138,6 +145,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -160,6 +168,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -173,6 +182,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -186,6 +196,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -193,8 +204,8 @@
    "key": "ECON_TA_PASSOFF_1",
    "status": "blocked_inperson",
    "date": "2026-09-15",
-   "note": "# meet TA, pass off one Q from Mankiw #1 (found live 2026-09-10) [manual:must-meet-the-ta-in-person-and-verbally-pass-off-a-mankiw-1-]",
-   "title": "meet TA, pass off one Q from Mankiw #1",
+   "note": "# TA Passoff #1 (optional extra credit, not required; one random Q from Mankiw #1) [optional-ec:extra-credit-2026-09-29-ta-announcement]",
+   "title": "TA Passoff #1 (optional extra credit, not required; one random Q from Mankiw #1) [optional-ec:extra-credit-2026-09-29-ta-announcement]",
    "grade": {
     "name": "TA Passoff #1 (Extra Credit)",
     "due": "2026-09-15T23:59:00",
@@ -208,8 +219,9 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": true,
-   "actionable": true
+   "optional_ec": true,
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "ECON_MINDTAP_CH4PRE",
@@ -221,6 +233,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -234,6 +247,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -256,6 +270,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -278,6 +293,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -291,6 +307,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -304,6 +321,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -311,8 +329,8 @@
    "key": "ECON_TA_PASSOFF_2",
    "status": "blocked_inperson",
    "date": "2026-09-22",
-   "note": "# meet TA, pass off one Q from Mankiw #2 (found live 2026-09-16) [manual:must-meet-the-ta-in-person-and-verbally-pass-off-a-mankiw-2-]",
-   "title": "meet TA, pass off one Q from Mankiw #2",
+   "note": "# TA Passoff #2 (optional extra credit, not required; one random Q from Mankiw #2) [optional-ec:extra-credit-2026-09-29-ta-announcement]",
+   "title": "TA Passoff #2 (optional extra credit, not required; one random Q from Mankiw #2) [optional-ec:extra-credit-2026-09-29-ta-announcement]",
    "grade": {
     "name": "TA Passoff #2 (Extra Credit)",
     "due": "2026-09-22T23:59:00",
@@ -326,8 +344,9 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": true,
-   "actionable": true
+   "optional_ec": true,
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "ECON_MINDTAP_CH6PRE",
@@ -339,6 +358,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -352,6 +372,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -374,6 +395,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -396,6 +418,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -418,6 +441,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -425,8 +449,8 @@
    "key": "ECON_TA_PASSOFF_3",
    "status": "blocked_inperson",
    "date": "2026-09-29",
-   "note": "# meet TA, pass off one Q from Mankiw #3 (found live 2026-09-16) [manual:must-meet-the-ta-in-person-and-verbally-pass-off-a-mankiw-3-]",
-   "title": "meet TA, pass off one Q from Mankiw #3",
+   "note": "# TA Passoff #3 (optional extra credit, not required; one random Q from Mankiw #3) [optional-ec:extra-credit-2026-09-29-ta-announcement]",
+   "title": "TA Passoff #3 (optional extra credit, not required; one random Q from Mankiw #3) [optional-ec:extra-credit-2026-09-29-ta-announcement]",
    "grade": {
     "name": "TA Passoff #3 (Extra Credit)",
     "due": "2026-09-29T23:59:00",
@@ -440,8 +464,9 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": true,
-   "actionable": true
+   "optional_ec": true,
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "ECON_NEQ_4",
@@ -462,6 +487,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -484,6 +510,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -506,6 +533,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": true,
    "actionable": true
   },
@@ -528,6 +556,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -535,8 +564,8 @@
    "key": "ECON_TA_PASSOFF_4",
    "status": "blocked_inperson",
    "date": "2026-10-06",
-   "note": "# meet TA, pass off one Q from Mankiw #4 (found live 2026-09-16) [manual:must-meet-the-ta-in-person-and-verbally-pass-off-a-mankiw-4-]",
-   "title": "meet TA, pass off one Q from Mankiw #4",
+   "note": "# TA Passoff #4 (optional extra credit, not required; one random Q from Mankiw #4) [optional-ec:extra-credit-2026-09-29-ta-announcement]",
+   "title": "TA Passoff #4 (optional extra credit, not required; one random Q from Mankiw #4) [optional-ec:extra-credit-2026-09-29-ta-announcement]",
    "grade": {
     "name": "TA Passoff #4 (Extra Credit)",
     "due": "2026-10-06T23:59:00",
@@ -550,8 +579,9 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": true,
-   "actionable": true
+   "optional_ec": true,
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "ECON_NEQ_5",
@@ -572,6 +602,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -594,6 +625,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -616,6 +648,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -638,6 +671,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -645,8 +679,8 @@
    "key": "ECON_TA_PASSOFF_5",
    "status": "blocked_inperson",
    "date": "2026-10-20",
-   "note": "# meet TA, pass off one Q from Mankiw #5 (found live 2026-09-16) [manual:must-meet-the-ta-in-person-and-verbally-pass-off-a-mankiw-5-]",
-   "title": "meet TA, pass off one Q from Mankiw #5",
+   "note": "# TA Passoff #5 (optional extra credit, not required; one random Q from Mankiw #5) [optional-ec:extra-credit-2026-09-29-ta-announcement]",
+   "title": "TA Passoff #5 (optional extra credit, not required; one random Q from Mankiw #5) [optional-ec:extra-credit-2026-09-29-ta-announcement]",
    "grade": {
     "name": "TA Passoff #5 (Extra Credit)",
     "due": "2026-10-20T23:59:00",
@@ -660,8 +694,9 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": true,
-   "actionable": true
+   "optional_ec": true,
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "ECON_NEQ_7",
@@ -682,6 +717,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -704,6 +740,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -711,8 +748,8 @@
    "key": "ECON_TA_PASSOFF_6",
    "status": "blocked_inperson",
    "date": "2026-10-27",
-   "note": "# meet TA, pass off one Q from Mankiw #6 (found live 2026-09-16) [manual:must-meet-the-ta-in-person-and-verbally-pass-off-a-mankiw-6-]",
-   "title": "meet TA, pass off one Q from Mankiw #6",
+   "note": "# TA Passoff #6 (optional extra credit, not required; one random Q from Mankiw #6) [optional-ec:extra-credit-2026-09-29-ta-announcement]",
+   "title": "TA Passoff #6 (optional extra credit, not required; one random Q from Mankiw #6) [optional-ec:extra-credit-2026-09-29-ta-announcement]",
    "grade": {
     "name": "TA Passoff #6 (Extra Credit)",
     "due": "2026-10-27T23:59:00",
@@ -726,8 +763,9 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": true,
-   "actionable": true
+   "optional_ec": true,
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "ECON_NEQ_8",
@@ -748,6 +786,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -770,6 +809,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -777,8 +817,8 @@
    "key": "ECON_TA_PASSOFF_7",
    "status": "blocked_inperson",
    "date": "2026-11-03",
-   "note": "# meet TA, pass off one Q from Mankiw #7 (found live 2026-09-16) [manual:must-meet-the-ta-in-person-and-verbally-pass-off-a-mankiw-7-]",
-   "title": "meet TA, pass off one Q from Mankiw #7",
+   "note": "# TA Passoff #7 (optional extra credit, not required; one random Q from Mankiw #7) [optional-ec:extra-credit-2026-09-29-ta-announcement]",
+   "title": "TA Passoff #7 (optional extra credit, not required; one random Q from Mankiw #7) [optional-ec:extra-credit-2026-09-29-ta-announcement]",
    "grade": {
     "name": "TA Passoff #7 (Extra Credit)",
     "due": "2026-11-03T23:59:00",
@@ -792,8 +832,9 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": true,
-   "actionable": true
+   "optional_ec": true,
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "ECON_NEWS_OCT",
@@ -814,6 +855,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -836,6 +878,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -858,6 +901,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -880,6 +924,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": true,
    "actionable": true
   },
@@ -887,8 +932,8 @@
    "key": "ECON_TA_PASSOFF_8",
    "status": "blocked_inperson",
    "date": "2026-11-10",
-   "note": "# meet TA, pass off one Q from Mankiw #8 (found live 2026-09-16) [manual:must-meet-the-ta-in-person-and-verbally-pass-off-a-mankiw-8-]",
-   "title": "meet TA, pass off one Q from Mankiw #8",
+   "note": "# TA Passoff #8 (optional extra credit, not required; one random Q from Mankiw #8) [optional-ec:extra-credit-2026-09-29-ta-announcement]",
+   "title": "TA Passoff #8 (optional extra credit, not required; one random Q from Mankiw #8) [optional-ec:extra-credit-2026-09-29-ta-announcement]",
    "grade": {
     "name": "TA Passoff #8 (Extra Credit)",
     "due": "2026-11-10T23:59:00",
@@ -902,8 +947,9 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": true,
-   "actionable": true
+   "optional_ec": true,
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "ECON_NEQ_10",
@@ -924,6 +970,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -946,6 +993,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -953,8 +1001,8 @@
    "key": "ECON_TA_PASSOFF_9",
    "status": "blocked_inperson",
    "date": "2026-11-17",
-   "note": "# meet TA, pass off one Q from Mankiw #9 (found live 2026-09-16) [manual:must-meet-the-ta-in-person-and-verbally-pass-off-a-mankiw-9-]",
-   "title": "meet TA, pass off one Q from Mankiw #9",
+   "note": "# TA Passoff #9 (optional extra credit, not required; one random Q from Mankiw #9) [optional-ec:extra-credit-2026-09-29-ta-announcement]",
+   "title": "TA Passoff #9 (optional extra credit, not required; one random Q from Mankiw #9) [optional-ec:extra-credit-2026-09-29-ta-announcement]",
    "grade": {
     "name": "TA Passoff #9 (Extra Credit)",
     "due": "2026-11-17T23:59:00",
@@ -968,8 +1016,9 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": true,
-   "actionable": true
+   "optional_ec": true,
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "ECON_NEQ_11",
@@ -990,6 +1039,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -1012,6 +1062,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -1019,8 +1070,8 @@
    "key": "ECON_TA_PASSOFF_10",
    "status": "blocked_inperson",
    "date": "2026-11-24",
-   "note": "# meet TA, pass off one Q from Mankiw #10 (found live 2026-09-16) [manual:must-meet-the-ta-in-person-and-verbally-pass-off-a-mankiw-10]",
-   "title": "meet TA, pass off one Q from Mankiw #10",
+   "note": "# TA Passoff #10 (optional extra credit, not required; one random Q from Mankiw #10) [optional-ec:extra-credit-2026-09-29-ta-announcement]",
+   "title": "TA Passoff #10 (optional extra credit, not required; one random Q from Mankiw #10) [optional-ec:extra-credit-2026-09-29-ta-announcement]",
    "grade": {
     "name": "TA Passoff #10 (Extra Credit)",
     "due": "2026-11-24T23:59:00",
@@ -1034,8 +1085,9 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": true,
-   "actionable": true
+   "optional_ec": true,
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "ECON_NEWS_NOV",
@@ -1056,6 +1108,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -1078,6 +1131,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -1100,6 +1154,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -1122,6 +1177,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -1144,6 +1200,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -1151,8 +1208,8 @@
    "key": "ECON_TA_PASSOFF_11",
    "status": "blocked_inperson",
    "date": "2026-12-08",
-   "note": "# meet TA, pass off one Q from Mankiw #11 (found live 2026-09-16) [manual:must-meet-the-ta-in-person-and-verbally-pass-off-a-mankiw-11]",
-   "title": "meet TA, pass off one Q from Mankiw #11",
+   "note": "# TA Passoff #11 (optional extra credit, not required; one random Q from Mankiw #11) [optional-ec:extra-credit-2026-09-29-ta-announcement]",
+   "title": "TA Passoff #11 (optional extra credit, not required; one random Q from Mankiw #11) [optional-ec:extra-credit-2026-09-29-ta-announcement]",
    "grade": {
     "name": "TA Passoff #11 (Extra Credit)",
     "due": "2026-12-08T23:59:00",
@@ -1166,8 +1223,9 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
-   "surface": true,
-   "actionable": true
+   "optional_ec": true,
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "ECON_CHRISTENSEN_QUIZ",
@@ -1188,6 +1246,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   },
@@ -1210,6 +1269,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": true,
    "actionable": true
   },
@@ -1232,6 +1292,7 @@
    "drift": false,
    "needs_zack": false,
    "judge": null,
+   "optional_ec": false,
    "surface": false,
    "actionable": false
   }
@@ -1243,5 +1304,5 @@
   "current_score": 72.61,
   "source": "learning-suite-points"
  },
- "built_at": "2026-10-23T11:32:48.840876+00:00"
+ "built_at": "2026-10-26T04:55:28.232670+00:00"
 }
