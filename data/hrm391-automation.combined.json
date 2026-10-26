@@ -116,6 +116,33 @@
    "actionable": false
   },
   {
+   "key": "UNIT_1_MID_TERM_CHECKPOINT",
+   "status": "blocked_ask_zack",
+   "date": "2026-10-07",
+   "note": "# Canvas 1511530 / quiz 663964, 1pt graded survey, LOCKED 2026-10-07T17:00:00Z (closed Oct 7 11am MT), due_at null. Re-verified live 2026-10-22 in the signed-in profile: page reads \"This quiz was locked Oct 7 at 11am\", no Take button, submission unsubmitted. The 2026-10-22 \"judged automatable\" note was wrong (a closed quiz is not takeable); reverted. Missed Unit 1 item; only Zack can ask Tennis for a makeup or let it go. If Tennis reopens it, set this row back to pending.",
+   "title": "Canvas 1511530 / quiz 663964, graded survey, LOCKED 2026-10-07T17:00:00Z (closed Oct 7 11am MT), due_at null. Re-verified live 2026-10-22 in the signed-in profile: page reads \"This quiz was locked Oct 7 at 11am\", no Take button, submission unsubmitted. The 2026-10-22 \"judged automatable\" note was wrong (a closed quiz is not takeable); reverted. Missed Unit 1 item; only Zack can ask Tennis for a makeup or let it go. If Tennis reopens it, set this row back to pending.",
+   "grade": {
+    "canvas_id": 1489056,
+    "name": "Unit 2 Group Service Project (No Submission)",
+    "due": "2026-11-08T06:59:59Z",
+    "points": 0.0,
+    "status": "unsubmitted",
+    "score": null,
+    "grade": null,
+    "missing": false,
+    "submitted_at": null,
+    "submission_type": null,
+    "my_submission": "",
+    "comments": []
+   },
+   "drift": false,
+   "needs_zack": true,
+   "judge": null,
+   "optional_ec": false,
+   "surface": true,
+   "actionable": true
+  },
+  {
    "key": "OBSERVATION_NOTEBOOK_ENTRIES",
    "status": "done",
    "date": "2026-10-11",
@@ -197,33 +224,6 @@
    "actionable": false
   },
   {
-   "key": "UNIT_1_MID_TERM_CHECKPOINT",
-   "status": "blocked_ask_zack",
-   "date": "2026-10-21",
-   "note": "# Canvas 1511530 / quiz 663964, 1pt graded survey, LOCKED 2026-10-07T17:00:00Z (closed Oct 7 11am MT). Re-verified live 2026-10-21: quiz page says \"locked Oct 7 at 11am\", no Take button, submission unsubmitted. Missed Unit 1 item; only Zack can ask Tennis for a makeup or decide to let it go. If Tennis reopens it, set this row back to pending.",
-   "title": "Canvas 1511530 / quiz 663964, graded survey, LOCKED 2026-10-07T17:00:00Z (closed Oct 7 11am MT). Re-verified live 2026-10-21: quiz page says \"locked Oct 7 at 11am\", no Take button, submission unsubmitted. Missed Unit 1 item; only Zack can ask Tennis for a makeup or decide to let it go. If Tennis reopens it, set this row back to pending.",
-   "grade": {
-    "canvas_id": 1489056,
-    "name": "Unit 2 Group Service Project (No Submission)",
-    "due": "2026-11-08T06:59:59Z",
-    "points": 0.0,
-    "status": "unsubmitted",
-    "score": null,
-    "grade": null,
-    "missing": false,
-    "submitted_at": null,
-    "submission_type": null,
-    "my_submission": "",
-    "comments": []
-   },
-   "drift": false,
-   "needs_zack": true,
-   "judge": null,
-   "optional_ec": false,
-   "surface": true,
-   "actionable": true
-  },
-  {
    "key": "EXAM1",
    "status": "done",
    "date": "2026-10-22",
@@ -281,7 +281,7 @@
    "key": "HRM_REMAINING_EXAMS_AND_FINAL",
    "status": "blocked_ask_zack",
    "date": "2026-12-18",
-   "note": "# Exam 2, Exam 3 and Final = 50% of the grade (15/15/20). Canvas publishes only Exam 1; syllabus has no dates; Canvas calendar returns zero events (checked 2026-10-25). Ask peter.tennis@byu.edu for the dates. [manual:dates-unpublished-needs-instructor]",
+   "note": "# Exam 2, Exam 3 and Final = 50% of the grade. NOT Testing Center: Testing Center shows no tests scheduled for HRM 391, and Exam 1 was a remotely proctored Canvas quiz, so expect the same. Dates unpublished; ask peter.tennis@byu.edu [manual:dates-unpublished-needs-instructor]",
    "title": "Exam 2",
    "grade": null,
    "drift": false,
@@ -328,5 +328,5 @@
   "final_score": 52.41,
   "final_grade": "E"
  },
- "built_at": "2026-10-26T05:19:28.078076+00:00"
+ "built_at": "2026-10-26T05:27:28.874039+00:00"
 }

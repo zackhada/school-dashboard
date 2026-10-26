@@ -254,8 +254,8 @@
    "key": "STRAT_MIDTERM",
    "status": "blocked_ask_zack",
    "date": "2026-10-20",
-   "note": "# Testing Center, 150pt (21.4%), window Oct 9-20. NOT TAKEN per Zack 2026-10-25. Recover by emailing oldroyd@byu.edu for a makeup sit or a reweight to the final; a zero caps the course at 78.6% [manual:missed-testing-center-window-needs-instructor-decision]",
-   "title": "Testing Center, (21.4%), window Oct 9-20. NOT TAKEN per Zack 2026-10-25. Recover by emailing oldroyd@byu.edu for a makeup sit or a reweight to the final; a zero caps the course at 78.6%",
+   "note": "# Testing Center 150pt (21.4%), window Oct 9 8:00am to Oct 20 9:00pm. CONFIRMED NOT TAKEN 2026-10-25: Testing Center personal report and course exam page both show a blank score. Email oldroyd@byu.edu for a makeup or a reweight; a zero caps the course at 78.6% [manual:missed-testing-center-window-needs-instructor-decision]",
+   "title": "Testing Center (21.4%), window Oct 9 to Oct 20 . CONFIRMED NOT TAKEN 2026-10-25: Testing Center personal report and course exam page both show a blank score. Email oldroyd@byu.edu for a makeup or a reweight; a zero caps the course at 78.6%",
    "grade": null,
    "drift": false,
    "needs_zack": false,
@@ -559,5 +559,5 @@
   "final_score": 60.91,
   "final_grade": "D-"
  },
- "built_at": "2026-10-26T05:19:28.086473+00:00"
+ "built_at": "2026-10-26T05:27:28.882432+00:00"
 }

@@ -82,14 +82,14 @@
   {
    "key": "FIN_MIDTERM_3",
    "status": "blocked_inperson",
-   "date": "2026-11-16",
-   "note": "# Testing Center (syllabus: ALL EXAMS IN TESTING CENTER), up to 200 of 1200 pts; Mon Nov 16, opens Fri Nov 13 [manual:testing-center-exam-window]"
+   "date": "2026-11-13",
+   "note": "# Testing Center verified: opens Fri Nov 13 8:00am, $5 late fee from Mon Nov 16 11:00am, closes Mon Nov 16 6:00pm. Test 1 45%, Test 2 56%: this exam decides the course [manual:testing-center-exam-window]"
   },
   {
    "key": "FIN_FINAL",
    "status": "blocked_inperson",
    "date": "2026-12-12",
-   "note": "# Testing Center, at least 400 of 1200 pts; opens Dec 12, open entire exam period [manual:testing-center-final-window]"
+   "note": "# Testing Center verified: opens Dec 12 8:00am, closes Dec 17 8:00pm, no late fee window. At least 400 of 1200 pts [manual:testing-center-final-window]"
   }
  ],
  "source": "progress.txt"

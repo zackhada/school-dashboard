@@ -863,8 +863,8 @@
    "key": "ECON_MIDTERM_2",
    "status": "blocked_inperson",
    "date": "2026-11-05",
-   "note": "# Testing Center (syllabus lines 165-168, 264), 100pt, window Thu Nov 5 to Fri Nov 6; $5 late fee after 2pm Fri [manual:testing-center-exam-window-2026-11-05-06]",
-   "title": "Testing Center (syllabus lines 165-168, 264), , window Thu Nov 5 to Fri Nov 6; $5 late fee after 2pm Fri",
+   "note": "# Testing Center verified 2026-10-25: opens Thu Nov 5 8:00am, $5 late fee from Fri Nov 6 2:00pm, closes Fri Nov 6 9:00pm. Midterm 1 was 120/200 (60%) on Oct 2 [manual:testing-center-exam-window]",
+   "title": "Testing Center verified 2026-10-25: opens Thu Nov 5 , $5 late fee from Fri Nov 6 , closes Fri Nov 6 . Midterm 1 was 120/200 (60%) on Oct 2",
    "grade": {
     "name": "Midterm 2",
     "due": "2026-11-06T19:00:00",
@@ -1277,8 +1277,8 @@
    "key": "ECON_FINAL",
    "status": "blocked_inperson",
    "date": "2026-12-12",
-   "note": "# Testing Center (syllabus line 279), 225pt, finals week window Dec 12-17 [manual:testing-center-final-window-2026-12-12-17]",
-   "title": "Testing Center (syllabus line 279), , finals week window Dec 12-17",
+   "note": "# Testing Center, finals week; not yet scheduled on the Testing Center site as of 2026-10-25. Check /my-exams for the exact window [manual:testing-center-final-window]",
+   "title": "Testing Center, finals week; not yet scheduled on the Testing Center site as of 2026-10-25. Check /my-exams for the exact window",
    "grade": {
     "name": "Final Exam",
     "due": "2026-12-10T18:00:00",
@@ -1304,5 +1304,5 @@
   "current_score": 72.61,
   "source": "learning-suite-points"
  },
- "built_at": "2026-10-26T05:19:28.187148+00:00"
+ "built_at": "2026-10-26T05:27:28.984556+00:00"
 }

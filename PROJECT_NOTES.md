@@ -112,3 +112,23 @@ table, they just do not appear on the action list.
 - Open question the audit could not answer from data: FIN 201 Test 1 (Sep 28)
   and Test 2 (Oct 19) have no score in the Learning Suite gradebook, and Canvas
   is not used for FIN. Must confirm he sat both.
+
+## Testing Center is the authority on exam completion (Zack 2026-10-25)
+- Access method saved as `school-healer/scripts/testing_center.py` (report,
+  exams, check). It attaches to the canonical headless Chrome on 9222, opens
+  testing.byu.edu/my-exams, and lets `scripts/cas_login.py --success-host
+  testing.byu.edu` handle CAS and Duo (the 30-day browsertrust usually skips the
+  passcode entirely). The site is server-rendered, so no JS scraping is needed:
+  `/my-exams?yearTerm=20265&course=STRAT392002` gives Test / Opens / Late Fee /
+  Closes / Score, and `/personal-report?yearTerm=20265` lists everything taken
+  with score, date, entry time, elapsed time and answer-sheet number. Term codes
+  are year + term digit (20265 = Fall 2026).
+- What it proved: the STRAT 392 midterm (150 pts, opens Oct 9 8:00am, closes
+  Oct 20 9:00pm) has a blank score and does not appear on the personal report,
+  so it was never sat. FIN 201 Exam 1 was 45% (Sep 28) and Test 2 was 56%
+  (Oct 16), which puts FIN on a D trajectory because exams are about 82% of that
+  grade. HRM 391 has no Testing Center tests at all, so its remaining exams are
+  Canvas remotely-proctored like Exam 1, not Testing Center.
+- Rule going forward: a blank Score cell on an exam whose Closes date has passed
+  means never taken, not ungraded. Check the Testing Center before trusting a
+  class-level pass/fail claim.
