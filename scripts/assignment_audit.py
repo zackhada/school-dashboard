@@ -141,7 +141,7 @@ def parse_dt(s):
     return dt
 
 
-def sync_alerts(windows):
+def sync_alerts(windows, extra_missing=None):
     """Any unscored Testing Center exam that has a real window becomes a
     calendar alert, so a syllabus-only exam can never be invisible again."""
     reg = os.path.join(AGENT, "scripts", "in_person_required.json")
@@ -150,7 +150,7 @@ def sync_alerts(windows):
     d = json.load(open(reg))
     items = d.get("items") or []
     added = 0
-    for w in windows:
+    for w in list(windows) + list(extra_missing):
         start, end = parse_dt(w.get("opens")), parse_dt(w.get("closes"))
         if not start or not end:
             continue
@@ -310,7 +310,12 @@ def main():
          lambda r: "%-10s %-52s due %s  %spt" % (r["course"], r["assignment"][:52], r["due"], r["points"]))
 
     if a.sync_alerts:
-        added = sync_alerts(findings["exam_windows"])
+        extra = [{"course": r["course"],
+                  "test": r["assignment"] + " due",
+                  "opens": datetime.datetime.fromisoformat(r["due"] + "T09:00:00").strftime("%b %d, %Y 9:00 AM"),
+                  "closes": datetime.datetime.fromisoformat(r["due"] + "T23:59:00").strftime("%b %d, %Y 11:59 PM")}
+                 for r in findings["missing_from_ledger"]]
+        added = sync_alerts(findings["exam_windows"], extra)
         print("\nregistry: %d new exam alert(s)" % added)
 
     with open(a.json, "w") as f:

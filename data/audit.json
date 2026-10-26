@@ -33,22 +33,7 @@
   }
  ],
  "missing_from_ledger": [],
- "date_drift": [
-  {
-   "course": "HRM 391",
-   "assignment": "Unit 1 Observation Notebook/Default Organization Entries",
-   "canvas_due": "2026-10-14",
-   "ledger_date": "2026-10-11",
-   "ledger_key": "OBSERVATION_NOTEBOOK_ENTRIES"
-  },
-  {
-   "course": "PSE 390",
-   "assignment": "Midterm Assignment",
-   "canvas_due": "2026-10-25",
-   "ledger_date": "2026-10-22",
-   "ledger_key": "MIDTERM_ASSIGNMENT"
-  }
- ],
+ "date_drift": [],
  "zero_watch": [
   {
    "course": "HRM 391",
