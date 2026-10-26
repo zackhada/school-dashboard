@@ -116,6 +116,21 @@ ATTENDANCE = re.compile(
 # A block claim that names no evidence at all (the 2026-10-21 STRAT bug).
 VAGUE_BLOCK = re.compile(r"(?i)\(in-class/participation|in-class/participation")
 
+# Optional extra credit (Zack 2026-10-25). These are real, in-person items, but
+# the course says they are not required, so they must never sit on the human's
+# action lists as if they were homework. ECON 110 TA Passoffs are the first
+# case: the TA announcement of 2026-09-29 ("TA passoff assignments are part of
+# the bonus assignments so they are extra credit and are not required") plus the
+# syllabus bonus breakdown (2 of 10 weekly bonus points) settle it. The ledger
+# row keeps its own [optional-ec:...] tag; the key pattern is the safety net so
+# a re-added row stays hidden.
+OPTIONAL_EC = re.compile(r"(?i)\[optional-ec[:/\]]|optional[- ]ec\b")
+OPTIONAL_KEY = re.compile(r"(?i)(^|_)TA_PASSOFF(_|$)")
+
+
+def is_optional_ec(key, note):
+    return bool(OPTIONAL_EC.search(str(note or "")) or OPTIONAL_KEY.search(str(key or "")))
+
 
 def manual_evidence(note):
     n = re.sub(r"^#\s*", "", str(note or ""))
@@ -241,7 +256,11 @@ def build_repo(repo):
         # surface: does this row belong in the human's action lists?
         #   judge verdict wins; evidence gate is the fallback.
         blocked = str(x.get("status") or "").startswith("blocked")
-        if v.get("verdict") == "manual":
+        # Optional extra credit: tracked, never surfaced as work Zack owes.
+        optional_ec = is_optional_ec(key, x.get("note"))
+        if optional_ec:
+            surface = False
+        elif v.get("verdict") == "manual":
             surface = True
         elif v.get("verdict") == "verify":
             surface = True
@@ -258,11 +277,12 @@ def build_repo(repo):
                      "title": title, "grade": g, "drift": False,
                      "needs_zack": i == nbest,
                      "judge": v or None,
+                     "optional_ec": bool(optional_ec),
                      "surface": bool(surface and blocked),
                      # Only future, non-attendance manual work is an action
                      # item. Past items are done or missed, and attendance is
                      # obvious, so neither belongs on the human's list.
-                     "actionable": bool(surface and blocked
+                     "actionable": bool(surface and blocked and not optional_ec
                                         and not ATTENDANCE.search(
                                             str(x.get("note") or "") + " "
                                             + str(title or "")))})

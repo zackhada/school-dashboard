@@ -317,67 +317,67 @@
    "key": "ECON_TA_PASSOFF_1",
    "status": "blocked_inperson",
    "date": "2026-09-15",
-   "note": "# meet TA, pass off one Q from Mankiw #1 (found live 2026-09-10) [manual:must-meet-the-ta-in-person-and-verbally-pass-off-a-mankiw-1-]"
+   "note": "# TA Passoff #1 (optional extra credit, not required; one random Q from Mankiw #1) [optional-ec:extra-credit-2026-09-29-ta-announcement]"
   },
   {
    "key": "ECON_TA_PASSOFF_2",
    "status": "blocked_inperson",
    "date": "2026-09-22",
-   "note": "# meet TA, pass off one Q from Mankiw #2 (found live 2026-09-16) [manual:must-meet-the-ta-in-person-and-verbally-pass-off-a-mankiw-2-]"
+   "note": "# TA Passoff #2 (optional extra credit, not required; one random Q from Mankiw #2) [optional-ec:extra-credit-2026-09-29-ta-announcement]"
   },
   {
    "key": "ECON_TA_PASSOFF_3",
    "status": "blocked_inperson",
    "date": "2026-09-29",
-   "note": "# meet TA, pass off one Q from Mankiw #3 (found live 2026-09-16) [manual:must-meet-the-ta-in-person-and-verbally-pass-off-a-mankiw-3-]"
+   "note": "# TA Passoff #3 (optional extra credit, not required; one random Q from Mankiw #3) [optional-ec:extra-credit-2026-09-29-ta-announcement]"
   },
   {
    "key": "ECON_TA_PASSOFF_4",
    "status": "blocked_inperson",
    "date": "2026-10-06",
-   "note": "# meet TA, pass off one Q from Mankiw #4 (found live 2026-09-16) [manual:must-meet-the-ta-in-person-and-verbally-pass-off-a-mankiw-4-]"
+   "note": "# TA Passoff #4 (optional extra credit, not required; one random Q from Mankiw #4) [optional-ec:extra-credit-2026-09-29-ta-announcement]"
   },
   {
    "key": "ECON_TA_PASSOFF_5",
    "status": "blocked_inperson",
    "date": "2026-10-20",
-   "note": "# meet TA, pass off one Q from Mankiw #5 (found live 2026-09-16) [manual:must-meet-the-ta-in-person-and-verbally-pass-off-a-mankiw-5-]"
+   "note": "# TA Passoff #5 (optional extra credit, not required; one random Q from Mankiw #5) [optional-ec:extra-credit-2026-09-29-ta-announcement]"
   },
   {
    "key": "ECON_TA_PASSOFF_6",
    "status": "blocked_inperson",
    "date": "2026-10-27",
-   "note": "# meet TA, pass off one Q from Mankiw #6 (found live 2026-09-16) [manual:must-meet-the-ta-in-person-and-verbally-pass-off-a-mankiw-6-]"
+   "note": "# TA Passoff #6 (optional extra credit, not required; one random Q from Mankiw #6) [optional-ec:extra-credit-2026-09-29-ta-announcement]"
   },
   {
    "key": "ECON_TA_PASSOFF_7",
    "status": "blocked_inperson",
    "date": "2026-11-03",
-   "note": "# meet TA, pass off one Q from Mankiw #7 (found live 2026-09-16) [manual:must-meet-the-ta-in-person-and-verbally-pass-off-a-mankiw-7-]"
+   "note": "# TA Passoff #7 (optional extra credit, not required; one random Q from Mankiw #7) [optional-ec:extra-credit-2026-09-29-ta-announcement]"
   },
   {
    "key": "ECON_TA_PASSOFF_8",
    "status": "blocked_inperson",
    "date": "2026-11-10",
-   "note": "# meet TA, pass off one Q from Mankiw #8 (found live 2026-09-16) [manual:must-meet-the-ta-in-person-and-verbally-pass-off-a-mankiw-8-]"
+   "note": "# TA Passoff #8 (optional extra credit, not required; one random Q from Mankiw #8) [optional-ec:extra-credit-2026-09-29-ta-announcement]"
   },
   {
    "key": "ECON_TA_PASSOFF_9",
    "status": "blocked_inperson",
    "date": "2026-11-17",
-   "note": "# meet TA, pass off one Q from Mankiw #9 (found live 2026-09-16) [manual:must-meet-the-ta-in-person-and-verbally-pass-off-a-mankiw-9-]"
+   "note": "# TA Passoff #9 (optional extra credit, not required; one random Q from Mankiw #9) [optional-ec:extra-credit-2026-09-29-ta-announcement]"
   },
   {
    "key": "ECON_TA_PASSOFF_10",
    "status": "blocked_inperson",
    "date": "2026-11-24",
-   "note": "# meet TA, pass off one Q from Mankiw #10 (found live 2026-09-16) [manual:must-meet-the-ta-in-person-and-verbally-pass-off-a-mankiw-10]"
+   "note": "# TA Passoff #10 (optional extra credit, not required; one random Q from Mankiw #10) [optional-ec:extra-credit-2026-09-29-ta-announcement]"
   },
   {
    "key": "ECON_TA_PASSOFF_11",
    "status": "blocked_inperson",
    "date": "2026-12-08",
-   "note": "# meet TA, pass off one Q from Mankiw #11 (found live 2026-09-16) [manual:must-meet-the-ta-in-person-and-verbally-pass-off-a-mankiw-11]"
+   "note": "# TA Passoff #11 (optional extra credit, not required; one random Q from Mankiw #11) [optional-ec:extra-credit-2026-09-29-ta-announcement]"
   }
  ],
  "source": "progress.txt"

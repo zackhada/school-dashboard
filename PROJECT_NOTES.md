@@ -79,3 +79,15 @@ table, they just do not appear on the action list.
 - Healer moved onto econ110's runner; the school-healer runner is a wedged
   GitHub-side registration. Details in `MAC_RUNNERS.md`.
 
+
+## Optional extra credit is tracked, never surfaced (Zack 2026-10-25)
+- ECON 110 TA Passoffs are labeled "(Extra Credit)" in the gradebook and the TA
+  announcement of 2026-09-29 says they are not required, yet all 11 were sitting
+  in "In person + proctored" as if Zack owed them.
+- `scripts/build.py` now sets `optional_ec` from a `[optional-ec:...]` ledger tag
+  (with `TA_PASSOFF` in the key as a safety net), and forces `surface` and
+  `actionable` false. `index.html` drops those rows from the class tables, the
+  next-up queue, and both action lists, so the data stays auditable while the
+  page shows nothing for them.
+- `school-healer/scripts/surface_judge.py` skips the same rows, so the nightly
+  judge no longer spends calls on them or re-stamps `[manual:...]` evidence.
