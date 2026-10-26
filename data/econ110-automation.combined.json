@@ -860,6 +860,29 @@
    "actionable": false
   },
   {
+   "key": "ECON_MIDTERM_2",
+   "status": "blocked_inperson",
+   "date": "2026-11-05",
+   "note": "# Testing Center (syllabus lines 165-168, 264), 100pt, window Thu Nov 5 to Fri Nov 6; $5 late fee after 2pm Fri [manual:testing-center-exam-window-2026-11-05-06]",
+   "title": "Testing Center (syllabus lines 165-168, 264), , window Thu Nov 5 to Fri Nov 6; $5 late fee after 2pm Fri",
+   "grade": {
+    "name": "Midterm 2",
+    "due": "2026-11-06T19:00:00",
+    "points": 100.0,
+    "score": null,
+    "status": "not_graded",
+    "missing": false,
+    "submission_type": "learning_suite",
+    "comments": []
+   },
+   "drift": false,
+   "needs_zack": false,
+   "judge": null,
+   "optional_ec": false,
+   "surface": true,
+   "actionable": true
+  },
+  {
    "key": "ECON_NEQ_9",
    "status": "pending",
    "date": "2026-11-06",
@@ -904,29 +927,6 @@
    "optional_ec": false,
    "surface": false,
    "actionable": false
-  },
-  {
-   "key": "ECON_MIDTERM_2",
-   "status": "blocked_inperson",
-   "date": "2026-11-06",
-   "note": "# in-class 7:00pm [manual:in-class-midterm-exam-at-7-00pm-no-online-submission-path]",
-   "title": "in-class",
-   "grade": {
-    "name": "Midterm 2",
-    "due": "2026-11-06T19:00:00",
-    "points": 100.0,
-    "score": null,
-    "status": "not_graded",
-    "missing": false,
-    "submission_type": "learning_suite",
-    "comments": []
-   },
-   "drift": false,
-   "needs_zack": false,
-   "judge": null,
-   "optional_ec": false,
-   "surface": true,
-   "actionable": true
   },
   {
    "key": "ECON_TA_PASSOFF_8",
@@ -1251,29 +1251,6 @@
    "actionable": false
   },
   {
-   "key": "ECON_FINAL",
-   "status": "blocked_inperson",
-   "date": "2026-12-10",
-   "note": "# in-class 6:00pm [manual:in-class-final-exam-at-6-00pm-no-online-submission-path]",
-   "title": "in-class",
-   "grade": {
-    "name": "Final Exam",
-    "due": "2026-12-10T18:00:00",
-    "points": 225.0,
-    "score": null,
-    "status": "not_graded",
-    "missing": false,
-    "submission_type": "learning_suite",
-    "comments": []
-   },
-   "drift": false,
-   "needs_zack": false,
-   "judge": null,
-   "optional_ec": false,
-   "surface": true,
-   "actionable": true
-  },
-  {
    "key": "ECON_COURSE_EVAL",
    "status": "pending",
    "date": "2026-12-11",
@@ -1295,6 +1272,29 @@
    "optional_ec": false,
    "surface": false,
    "actionable": false
+  },
+  {
+   "key": "ECON_FINAL",
+   "status": "blocked_inperson",
+   "date": "2026-12-12",
+   "note": "# Testing Center (syllabus line 279), 225pt, finals week window Dec 12-17 [manual:testing-center-final-window-2026-12-12-17]",
+   "title": "Testing Center (syllabus line 279), , finals week window Dec 12-17",
+   "grade": {
+    "name": "Final Exam",
+    "due": "2026-12-10T18:00:00",
+    "points": 225.0,
+    "score": null,
+    "status": "not_graded",
+    "missing": false,
+    "submission_type": "learning_suite",
+    "comments": []
+   },
+   "drift": false,
+   "needs_zack": false,
+   "judge": null,
+   "optional_ec": false,
+   "surface": true,
+   "actionable": true
   }
  ],
  "unmatched_canvas": [],
@@ -1304,5 +1304,5 @@
   "current_score": 72.61,
   "source": "learning-suite-points"
  },
- "built_at": "2026-10-26T04:55:28.232670+00:00"
+ "built_at": "2026-10-26T05:19:28.187148+00:00"
 }

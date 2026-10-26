@@ -147,9 +147,9 @@
   },
   {
    "key": "10_22_ATTENDANCE_CHECK",
-   "status": "done",
+   "status": "blocked_inperson",
    "date": "2026-10-22",
-   "note": "# Canvas 1466086, 10pt, 10/22 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-or-participation] (audited 2026-10-22: already graded in Canvas)"
+   "note": "# Canvas 1466086, 10pt, 10/22 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-or-participation]"
   },
   {
    "key": "10_27_ATTENDANCE_CHECK",

@@ -129,15 +129,27 @@
   },
   {
    "key": "STRATEGY_JOURNAL",
-   "status": "blocked_inperson",
-   "date": "2026-09-09",
-   "note": "# Syllabus: Strategy Journal, 50 pts, due the last session (Session 27, Thu Dec 10). Not created as a Canvas assignment yet, so no online box exists today. Written work, Zack's own voice. [manual:syllabus-only-assignment-not-in-canvas]"
+   "status": "pending",
+   "date": "2026-12-15",
+   "note": "# Syllabus: Strategy Journal, 50 pts, due last day of class (Session 28, Tue Dec 15). Syllable-only, not a Canvas assignment yet. Personal entries, Zack's own voice."
   },
   {
    "key": "STRAT_FINAL_EXAM",
    "status": "blocked_inperson",
-   "date": "2026-12-18",
-   "note": "# Syllabus: Final Exam, 210 pts, cumulative, \"date and location follow the university final exam schedule\" (finals week Dec 14-18, 2026). Not in Canvas yet. Zack takes it in person. [manual:in-person-final-exam-syllabus-date]"
+   "date": "2026-12-14",
+   "note": "# Syllabus: Final Exam, 210 pts, cumulative, emphasis Sessions 14-27. Date/location per university final schedule (finals week Dec 14-18), not posted yet. [manual:in-person-final-exam-syllabus-date]"
+  },
+  {
+   "key": "STRAT_MIDTERM",
+   "status": "blocked_ask_zack",
+   "date": "2026-10-20",
+   "note": "# Testing Center, 150pt (21.4%), window Oct 9-20. NOT TAKEN per Zack 2026-10-25. Recover by emailing oldroyd@byu.edu for a makeup sit or a reweight to the final; a zero caps the course at 78.6% [manual:missed-testing-center-window-needs-instructor-decision]"
+  },
+  {
+   "key": "STRAT_MARKET_ENTRY_LAB",
+   "status": "blocked_ask_zack",
+   "date": "2026-11-05",
+   "note": "# Syllabus: Market Entry Lab, 60pt team deliverable (Session 19, Thu Nov 5), recorded presentation plus deck plus responses to two other teams. Not in Canvas yet. Needs Zack's team. [manual:team-deliverable-needs-his-team]"
   }
  ],
  "source": "progress.txt"

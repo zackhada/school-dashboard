@@ -58,8 +58,8 @@
   {
    "key": "UNIT_1_MID_TERM_CHECKPOINT",
    "status": "blocked_ask_zack",
-   "date": "2026-10-07",
-   "note": "# Canvas 1511530 / quiz 663964, 1pt graded survey, LOCKED 2026-10-07T17:00:00Z (closed Oct 7 11am MT), due_at null. Re-verified live 2026-10-22 in the signed-in profile: page reads \"This quiz was locked Oct 7 at 11am\", no Take button, submission unsubmitted. The 2026-10-22 \"judged automatable\" note was wrong (a closed quiz is not takeable); reverted. Missed Unit 1 item; only Zack can ask Tennis for a makeup or let it go. If Tennis reopens it, set this row back to pending."
+   "date": "2026-10-21",
+   "note": "# Canvas 1511530 / quiz 663964, 1pt graded survey, LOCKED 2026-10-07T17:00:00Z (closed Oct 7 11am MT). Re-verified live 2026-10-21: quiz page says \"locked Oct 7 at 11am\", no Take button, submission unsubmitted. Missed Unit 1 item; only Zack can ask Tennis for a makeup or decide to let it go. If Tennis reopens it, set this row back to pending."
   },
   {
    "key": "SERVICE_PROJECT_PART_2_GROUP_ANALYSIS_AN",
@@ -75,9 +75,9 @@
   },
   {
    "key": "HRM_REMAINING_EXAMS_AND_FINAL",
-   "status": "blocked_inperson",
+   "status": "blocked_ask_zack",
    "date": "2026-12-18",
-   "note": "# Remaining exams: Exam 2, Exam 3 and the Final. Syllabus-only for now, not in Canvas yet (Canvas publishes Exam 1 only, 56 pts). Syllabi call the three exams and final the primary evidence of individual mastery. Dates unpublished, placeholder is the end of finals week; confirm with Tennis. Zack takes every exam himself. [manual:in-person-exams-dates-unpublished]"
+   "note": "# Exam 2, Exam 3 and Final = 50% of the grade (15/15/20). Canvas publishes only Exam 1; syllabus has no dates; Canvas calendar returns zero events (checked 2026-10-25). Ask peter.tennis@byu.edu for the dates. [manual:dates-unpublished-needs-instructor]"
   }
  ],
  "source": "progress.txt"

@@ -690,10 +690,10 @@
   },
   {
    "key": "10_22_ATTENDANCE_CHECK",
-   "status": "done",
+   "status": "blocked_inperson",
    "date": "2026-10-22",
-   "note": "# Canvas 1466086, 10pt, 10/22 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-or-participation] (audited 2026-10-22: already graded in Canvas)",
-   "title": "10/22 - Attendance Check (in-class/participation; drift-added 2026-10-08)",
+   "note": "# Canvas 1466086, 10pt, 10/22 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-or-participation]",
+   "title": "10/22 - Attendance Check",
    "grade": {
     "canvas_id": 1466086,
     "name": "10/22 - Attendance Check",
@@ -712,7 +712,7 @@
    "needs_zack": false,
    "judge": null,
    "optional_ec": false,
-   "surface": false,
+   "surface": true,
    "actionable": false
   },
   {
@@ -1427,5 +1427,5 @@
   "final_score": 36.66,
   "final_grade": "E"
  },
- "built_at": "2026-10-26T04:55:28.133408+00:00"
+ "built_at": "2026-10-26T05:19:28.123080+00:00"
 }

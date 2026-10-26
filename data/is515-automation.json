@@ -120,6 +120,18 @@
    "status": "blocked_inperson",
    "date": "2026-12-17",
    "note": "# Exam 2, 100pts, timed comprehensive take-home, NOT collaborative. Locked until Dec 12. Zack takes manually in a quiet window after Dec 12. [manual:requires-the-student-in-person]"
+  },
+  {
+   "key": "IS_PROJECT",
+   "status": "pending",
+   "date": "2026-11-30",
+   "note": "# Course Project, 5% of grade, workbook due 11:59pm Nov 30 (Canvas Project Overview page, no assignment row yet)"
+  },
+  {
+   "key": "IS_PROJECT_PRESENT",
+   "status": "blocked_ask_zack",
+   "date": "2026-12-09",
+   "note": "# Course Project presentation: in class Dec 9 or to a TA, sign-up required. Zack must present. [manual:in-person-presentation]"
   }
  ],
  "source": "progress.txt"

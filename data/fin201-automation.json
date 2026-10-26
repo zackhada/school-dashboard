@@ -83,13 +83,13 @@
    "key": "FIN_MIDTERM_3",
    "status": "blocked_inperson",
    "date": "2026-11-16",
-   "note": "# in class 3:30pm [manual:named-midterm-exam-taken-in-class-at-3-30pm-no-submission-ty]"
+   "note": "# Testing Center (syllabus: ALL EXAMS IN TESTING CENTER), up to 200 of 1200 pts; Mon Nov 16, opens Fri Nov 13 [manual:testing-center-exam-window]"
   },
   {
    "key": "FIN_FINAL",
    "status": "blocked_inperson",
-   "date": "2026-12-09",
-   "note": "# in class 5:00pm [manual:final-exam-held-in-class-at-5-00pm-no-submission-types-and-n]"
+   "date": "2026-12-12",
+   "note": "# Testing Center, at least 400 of 1200 pts; opens Dec 12, open entire exam period [manual:testing-center-final-window]"
   }
  ],
  "source": "progress.txt"

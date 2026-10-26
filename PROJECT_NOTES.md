@@ -91,3 +91,24 @@ table, they just do not appear on the action list.
   page shows nothing for them.
 - `school-healer/scripts/surface_judge.py` skips the same rows, so the nightly
   judge no longer spends calls on them or re-stamps `[manual:...]` evidence.
+
+## Exam coverage audit + calendar alerts (Zack 2026-10-25)
+- Root cause of a real miss: the dashboard only knew about items that exist as
+  Canvas assignments. The STRAT 392 midterm (150 of 700 points, Testing Center
+  window Oct 9-20) exists only in the syllabus, so it never appeared, and Zack
+  never took it. Same shape of gap found for STRAT Market Entry Lab (60, Nov 5),
+  STRAT Strategy Journal (50, Dec 15, the ledger row was stale-dated to Sep 9),
+  IS 515 Course Project (Nov 30 + Dec 9 presentation), and HRM Exam 2/3/Final
+  (50% of the grade, no dates published anywhere).
+- Also wrong on the dashboard: ECON Midterm 2, ECON Final, FIN Test 3 and FIN
+  Final were labelled in-class. All four are BYU Testing Center exams per the
+  syllabi. Ledger notes corrected in all five repos (2026-10-25).
+- New alerting layer: `scripts/in_person_required.json` is the verified list of
+  everything Zack must personally do, and `scripts/exam_alerts.py sync` pushes
+  each item to his Google Calendar as an event with popup reminders at 7 days,
+  3 days, 1 day and 3 hours plus an email a day out. Idempotent via an
+  `[alert:<id>]` marker in the description. The calendar is the alert channel
+  because the dashboard only helps if he opens it.
+- Open question the audit could not answer from data: FIN 201 Test 1 (Sep 28)
+  and Test 2 (Oct 19) have no score in the Learning Suite gradebook, and Canvas
+  is not used for FIN. Must confirm he sat both.

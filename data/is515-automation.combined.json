@@ -488,6 +488,34 @@
    "actionable": false
   },
   {
+   "key": "IS_PROJECT",
+   "status": "pending",
+   "date": "2026-11-30",
+   "note": "# Course Project, 5% of grade, workbook due 11:59pm Nov 30 (Canvas Project Overview page, no assignment row yet)",
+   "title": "Course Project, 5% of grade, workbook",
+   "grade": null,
+   "drift": false,
+   "needs_zack": false,
+   "judge": null,
+   "optional_ec": false,
+   "surface": false,
+   "actionable": false
+  },
+  {
+   "key": "IS_PROJECT_PRESENT",
+   "status": "blocked_ask_zack",
+   "date": "2026-12-09",
+   "note": "# Course Project presentation: in class Dec 9 or to a TA, sign-up required. Zack must present. [manual:in-person-presentation]",
+   "title": "Course Project presentation: in class Dec 9 or to a TA, sign-up required. Zack must present.",
+   "grade": null,
+   "drift": false,
+   "needs_zack": false,
+   "judge": null,
+   "optional_ec": false,
+   "surface": true,
+   "actionable": true
+  },
+  {
    "key": "IS_EXAM2",
    "status": "blocked_inperson",
    "date": "2026-12-17",
@@ -524,5 +552,5 @@
   "final_score": 43.0,
   "final_grade": "E"
  },
- "built_at": "2026-10-26T04:55:28.197706+00:00"
+ "built_at": "2026-10-26T05:19:28.157120+00:00"
 }
