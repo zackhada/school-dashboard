@@ -281,7 +281,7 @@
    "key": "HRM_REMAINING_EXAMS_AND_FINAL",
    "status": "blocked_ask_zack",
    "date": "2026-12-18",
-   "note": "# Exam 2, Exam 3 and Final = 50% of the grade. NOT Testing Center: Testing Center shows no tests scheduled for HRM 391, and Exam 1 was a remotely proctored Canvas quiz, so expect the same. Dates unpublished; ask peter.tennis@byu.edu [manual:dates-unpublished-needs-instructor]",
+   "note": "# Exam 2, Exam 3 and Final = 50% of the grade. NOT Testing Center: Testing Center shows no tests scheduled for HRM 391, and Exam 1 was a remotely proctored Canvas quiz, so expect the same. Dates unpublished; TA FIRST: ask Julia Gazdik jgazdik3@student.byu.edu or Elise Owens eliselo@student.byu.edu [manual:dates-unpublished-needs-instructor]",
    "title": "Exam 2",
    "grade": null,
    "drift": false,
@@ -328,5 +328,5 @@
   "final_score": 52.41,
   "final_grade": "E"
  },
- "built_at": "2026-10-26T05:54:42.852575+00:00"
+ "built_at": "2026-10-26T05:55:12.963117+00:00"
 }
