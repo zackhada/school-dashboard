@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T21:13:02.407515+00:00",
+ "generated_at": "2026-10-29T21:33:00.092558+00:00",
  "model": "opencode-go/deepseek-v4.1-flash",
  "repos": {
   "econ110-automation": {
@@ -14,7 +14,7 @@
   },
   "hrm391-automation": {
    "detail": "ERROR:opencode/deepseek-v4.1-flash-free: rc=1 \u001b[0m\n> build \u00b7 deepseek-v4.1-flash-free\n\u001b[0m\n\u001b[91m\u001b[1mError: \u001b[0mUpstream request failed: Invalid credential\n",
-   "judged": 4,
+   "judged": 3,
    "verdicts": {}
   },
   "is515-automation": {
@@ -24,12 +24,12 @@
   },
   "pse390-automation": {
    "detail": "ERROR:opencode/deepseek-v4.1-flash-free: rc=1 \u001b[0m\n> build \u00b7 deepseek-v4.1-flash-free\n\u001b[0m\n\u001b[91m\u001b[1mError: \u001b[0mUpstream request failed: Invalid credential\n",
-   "judged": 17,
+   "judged": 12,
    "verdicts": {}
   },
   "rel-c-333-automation": {
    "detail": "ERROR:opencode/deepseek-v4.1-flash-free: rc=1 \u001b[0m\n> build \u00b7 deepseek-v4.1-flash-free\n\u001b[0m\n\u001b[91m\u001b[1mError: \u001b[0mUpstream request failed: Invalid credential\n",
-   "judged": 15,
+   "judged": 13,
    "verdicts": {}
   },
   "strat392-automation": {
