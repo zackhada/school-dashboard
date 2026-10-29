@@ -207,9 +207,9 @@
     "name": "Breaking Bread - Counts toward final grade!",
     "due": "2026-10-21T05:59:59Z",
     "points": 25.0,
-    "status": "submitted",
-    "score": null,
-    "grade": null,
+    "status": "graded",
+    "score": 25.0,
+    "grade": "complete",
     "missing": false,
     "submitted_at": "2026-10-22T03:33:16Z",
     "submission_type": "online_upload",
@@ -325,8 +325,8 @@
  "overall": {
   "current_score": 100.0,
   "current_grade": "A",
-  "final_score": 52.41,
+  "final_score": 57.41,
   "final_grade": "E"
  },
- "built_at": "2026-10-27T18:32:07.607884+00:00"
+ "built_at": "2026-10-29T20:39:29.638643+00:00"
 }

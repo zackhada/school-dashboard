@@ -1,68 +1,10 @@
 {
- "generated": "2026-10-26",
- "missed": [
-  {
-   "course": "STRAT 392",
-   "test": "STRAT 392 Midterm",
-   "opens": "Oct 9, 2026 8:00 AM",
-   "closes": "Oct 20, 2026 9:00 PM",
-   "score": ""
-  }
- ],
- "exam_windows": [
-  {
-   "course": "ECON 110",
-   "test": "(unnamed, opens Nov 5, 2026 8:00 AM)",
-   "opens": "Nov 5, 2026 8:00 AM",
-   "closes": "Nov 6, 2026 9:00 PM",
-   "score": ""
-  },
-  {
-   "course": "FIN 201",
-   "test": "(unnamed, opens Nov 13, 2026 8:00 AM)",
-   "opens": "Nov 13, 2026 8:00 AM",
-   "closes": "Nov 16, 2026 6:00 PM",
-   "score": ""
-  },
-  {
-   "course": "FIN 201",
-   "test": "(unnamed, opens Dec 12, 2026 8:00 AM)",
-   "opens": "Dec 12, 2026 8:00 AM",
-   "closes": "Dec 17, 2026 8:00 PM",
-   "score": ""
-  }
- ],
+ "generated": "2026-10-29",
+ "missed": [],
+ "exam_windows": [],
  "missing_from_ledger": [],
  "date_drift": [],
  "zero_watch": [
-  {
-   "course": "HRM 391",
-   "assignment": "Professional Perspective Interview",
-   "due": "2026-09-09",
-   "points": 1.0,
-   "score": null
-  },
-  {
-   "course": "HRM 391",
-   "assignment": "Student Information Questionnaire",
-   "due": "2026-09-06",
-   "points": 1.0,
-   "score": null
-  },
-  {
-   "course": "REL C 333",
-   "assignment": "10/20 - Pre-Class Study and Padlet Sharing",
-   "due": "2026-10-20",
-   "points": 10.0,
-   "score": null
-  },
-  {
-   "course": "REL C 333",
-   "assignment": "10/22 - Pre-Class Study and Padlet Sharing",
-   "due": "2026-10-22",
-   "points": 10.0,
-   "score": null
-  },
   {
    "course": "ECON 110",
    "assignment": "Meet Your TA",
@@ -83,6 +25,24 @@
    "due": "2026-09-18",
    "points": 5.0,
    "score": 0.0
+  }
+ ],
+ "testing_center_error": "InterruptedError: [Errno 4] Interrupted system call: '/Users/zackhada/Desktop/school agent/school-healer/scripts'",
+ "canvas_errors": [
+  {
+   "hrm391-automation": "<urlopen error [Errno 4] Interrupted system call: '/Users/zackhada/Desktop/school agent/school-healer/scripts'>"
+  },
+  {
+   "is515-automation": "<urlopen error [Errno 4] Interrupted system call: '/Users/zackhada/Desktop/school agent/school-healer/scripts'>"
+  },
+  {
+   "pse390-automation": "<urlopen error [Errno 4] Interrupted system call: '/Users/zackhada/Desktop/school agent/school-healer/scripts'>"
+  },
+  {
+   "rel-c-333-automation": "<urlopen error [Errno 4] Interrupted system call: '/Users/zackhada/Desktop/school agent/school-healer/scripts'>"
+  },
+  {
+   "strat392-automation": "<urlopen error [Errno 4] Interrupted system call: '/Users/zackhada/Desktop/school agent/school-healer/scripts'>"
   }
  ]
 }

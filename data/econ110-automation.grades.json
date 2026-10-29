@@ -1,9 +1,9 @@
 {
  "repo": "zackhada/econ110-automation",
  "source": "learning-suite",
- "url": "https://learningsuite.byu.edu/.Ja4X/cid-1YPOkgOMQjjk/student/home/assignments",
+ "url": "https://learningsuite.byu.edu/.bzys/cid-1YPOkgOMQjjk/student/home/assignments",
  "overall": {
-  "current_score": 72.61,
+  "current_score": 75.47,
   "source": "learning-suite-points"
  },
  "rows": [
@@ -621,8 +621,8 @@
    "name": "10/12",
    "due": "2026-10-12T23:59:00",
    "points": 1.0,
-   "score": null,
-   "status": "not_graded",
+   "score": 5.0,
+   "status": "graded",
    "missing": false,
    "submission_type": "learning_suite",
    "comments": []
@@ -631,8 +631,8 @@
    "name": "10/12-Accuracy",
    "due": "2026-10-12T23:59:00",
    "points": 10.0,
-   "score": null,
-   "status": "not_graded",
+   "score": 10.0,
+   "status": "graded",
    "missing": false,
    "submission_type": "learning_suite",
    "comments": []
@@ -641,8 +641,8 @@
    "name": "10/14",
    "due": "2026-10-14T23:59:00",
    "points": 1.0,
-   "score": null,
-   "status": "not_graded",
+   "score": 5.0,
+   "status": "graded",
    "missing": false,
    "submission_type": "learning_suite",
    "comments": []
@@ -651,8 +651,8 @@
    "name": "10/14-Accuracy",
    "due": "2026-10-14T23:59:00",
    "points": 10.0,
-   "score": null,
-   "status": "not_graded",
+   "score": 10.0,
+   "status": "graded",
    "missing": false,
    "submission_type": "learning_suite",
    "comments": []
@@ -661,8 +661,8 @@
    "name": "10/19",
    "due": "2026-10-19T23:59:00",
    "points": 1.0,
-   "score": null,
-   "status": "not_graded",
+   "score": 5.0,
+   "status": "graded",
    "missing": false,
    "submission_type": "learning_suite",
    "comments": []
@@ -671,8 +671,8 @@
    "name": "10/19-Accuracy",
    "due": "2026-10-19T23:59:00",
    "points": 10.0,
-   "score": null,
-   "status": "not_graded",
+   "score": 0.0,
+   "status": "graded",
    "missing": false,
    "submission_type": "learning_suite",
    "comments": []
@@ -681,8 +681,8 @@
    "name": "10/21",
    "due": "2026-10-21T23:59:00",
    "points": 1.0,
-   "score": null,
-   "status": "not_graded",
+   "score": 5.0,
+   "status": "graded",
    "missing": false,
    "submission_type": "learning_suite",
    "comments": []
@@ -691,8 +691,8 @@
    "name": "10/21-Accuracy",
    "due": "2026-10-21T23:59:00",
    "points": 10.0,
-   "score": null,
-   "status": "not_graded",
+   "score": 6.67,
+   "status": "graded",
    "missing": false,
    "submission_type": "learning_suite",
    "comments": []

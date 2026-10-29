@@ -305,7 +305,7 @@
     "status": "unsubmitted",
     "score": null,
     "grade": null,
-    "missing": false,
+    "missing": true,
     "submitted_at": null,
     "submission_type": null,
     "my_submission": "",
@@ -559,5 +559,5 @@
   "final_score": 60.91,
   "final_grade": "D-"
  },
- "built_at": "2026-10-27T18:32:07.617126+00:00"
+ "built_at": "2026-10-29T20:39:29.667462+00:00"
 }
