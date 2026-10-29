@@ -254,8 +254,8 @@
    "key": "STRAT_MIDTERM",
    "status": "blocked_ask_zack",
    "date": "2026-10-20",
-   "note": "# Testing Center 150pt, window closed Oct 20 9:00pm, CONFIRMED NOT TAKEN. RESOLUTION IN PROGRESS 2026-10-27: the TAs will EMAIL Zack a make-up test he can take. Watch the BYU inbox for it (launchd com.school.strat-test-watch polls every 30 min, notifies on hit). Take the test the day it arrives and record the score here. Fallback if nothing arrives by 2026-10-30: email oldroyd@byu.edu. A zero caps the course at 78.6% and puts an E in play below 60% [manual:awaiting-ta-emailed-makeup-test]",
-   "title": "Testing Center , window closed Oct 20 , CONFIRMED NOT TAKEN. RESOLUTION IN PROGRESS 2026-10-27: the TAs will EMAIL Zack a make-up test he can take. Watch the BYU inbox for it (launchd com.school.strat-test-watch polls every 30 min, notifies on hit). Take the test the day it arrives and record the score here. Fallback if nothing arrives by 2026-10-30: email oldroyd@byu.edu. A zero caps the course at 78.6% and puts an E in play below 60%",
+   "note": "# Testing Center 150pt, window closed Oct 20 9:00pm, CONFIRMED NOT TAKEN. TEST RECEIVED 2026-10-29 2:21 PM: Daniel Gugler emailed \"STRAT_392_Midterm_Fall 12.docx\" (real Fall 2026 midterm, created Oct 2, last edited by Oldroyd Oct 5) to Zack, Riley and Katya. Parts: 32 MC x2 = 64, 5 short answer = 30, mini-case = 10, total 104 (gradebook item is 150, unexplained). No deadline, no time limit, no submission format in the email. Saved at ~/.config/school-agent/exams/. ZACK IS TAKING THIS ONE HIMSELF (his call, 2026-10-29): do not answer exam content, do not submit it for him. A zero caps the course at 78.6% and puts an E in play below 60% [manual:zack-taking-emailed-makeup-test]",
+   "title": "Testing Center , window closed Oct 20 , CONFIRMED NOT TAKEN. TEST RECEIVED 2026-10-29 : Daniel Gugler emailed \"STRAT_392_Midterm_Fall 12.docx\" (real Fall 2026 midterm, created Oct 2, last edited by Oldroyd Oct 5) to Zack, Riley and Katya. Parts: 32 MC x2 = 64, 5 short answer = 30, mini-case = 10, total 104 (gradebook item is 150, unexplained). No deadline, no time limit, no submission format in the email. Saved at ~/.config/school-agent/exams/. ZACK IS TAKING THIS ONE HIMSELF (his call, 2026-10-29): do not answer exam content, do not submit it for him. A zero caps the course at 78.6% and puts an E in play below 60%",
    "grade": null,
    "drift": false,
    "needs_zack": false,
@@ -293,10 +293,10 @@
   },
   {
    "key": "THE_BOUNDARIES_OF_THE_FIRM_MAKE_VS_BUY_Q",
-   "status": "pending",
+   "status": "done",
    "date": "2026-10-28",
-   "note": "# Canvas 1512994, 10pt, Make vs Buy Quiz; online New Quizzes (no lockdown/access code), reclassified from blocked_inperson 2026-10-21",
-   "title": "Make vs Buy Quiz; online New Quizzes (no lockdown/access code), reclassified from blocked_inperson 2026-10-21",
+   "note": "# Canvas 1512994, 10pt, Make vs Buy Quiz; graded 10/10 (Canvas 2026-10-29)",
+   "title": "Make vs Buy Quiz; graded 10/10",
    "grade": {
     "canvas_id": 1512994,
     "name": "The Boundaries of the Firm: Make vs Buy \u2014 Quiz",
@@ -320,10 +320,10 @@
   },
   {
    "key": "GLOBAL_VS_LOCAL_READING_QUIZ",
-   "status": "pending",
+   "status": "done",
    "date": "2026-10-30",
-   "note": "# Canvas 1512995, 10pt, Global vs Local Reading Quiz; online New Quizzes (no lockdown/access code), reclassified from blocked_inperson 2026-10-21",
-   "title": "Global vs Local Reading Quiz; online New Quizzes (no lockdown/access code), reclassified from blocked_inperson 2026-10-21",
+   "note": "# Canvas 1512995, 10pt, Global vs Local Reading Quiz; submitted 2026-10-29T23:50Z (attempt 1, 3m13s, graded 10/10, on time); online New Quizzes (no lockdown/access code), reclassified from blocked_inperson 2026-10-21",
+   "title": "Global vs Local Reading Quiz; submitted 2026-10-29T23:50Z (attempt 1, 3m13s, graded 10/10, on time); online New Quizzes (no lockdown/access code), reclassified from blocked_inperson 2026-10-21",
    "grade": {
     "canvas_id": 1512995,
     "name": "Global vs Local \u2014 Reading Quiz",
@@ -539,7 +539,7 @@
    "key": "STRATEGY_JOURNAL",
    "status": "pending",
    "date": "2026-12-15",
-   "note": "# Syllabus: Strategy Journal, 50 pts, due last day of class (Session 28, Tue Dec 15). Syllable-only, not a Canvas assignment yet. Personal entries, Zack's own voice.",
+   "note": "# Syllabus: Strategy Journal, 50 pts, due last day of class (Session 28, Tue Dec 15). Syllabus-only, not a Canvas assignment yet. Personal entries, Zack's own voice. Date corrected 2026-10-29 (was 2026-09-09, a transcription error that made the guard treat it as 7 weeks overdue and pick it ahead of the real next item).",
    "title": "Syllabus: Strategy Journal",
    "grade": null,
    "drift": false,
@@ -559,5 +559,5 @@
   "final_score": 60.91,
   "final_grade": "D-"
  },
- "built_at": "2026-10-29T20:39:29.667462+00:00"
+ "built_at": "2026-10-29T23:54:28.636023+00:00"
 }

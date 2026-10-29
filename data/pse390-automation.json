@@ -63,9 +63,9 @@
   },
   {
    "key": "WEEKLY_QUIZ_WK08",
-   "status": "pending",
+   "status": "done",
    "date": "2026-11-01",
-   "note": "# Canvas 1495463 Ethics and Public Quiz Week 8, online_text_entry/url, due 2026-11-01T05:59:59Z"
+   "note": "# Canvas 1495463 Ethics and Public Quiz - Week 8, 10pt, online_url w/ public X post https://x.com/zack_hada/status/2115919819954610185 (posted 2026-10-29T21:32:51Z). Canvas submission verified workflow_state=submitted, attempt 1, submitted_at 2026-10-29T21:35:26Z by the 21:30Z run; its ledger commit was lost when the disk guard wiped _work mid-run, so reconciled here."
   },
   {
    "key": "WEEKLY_QUIZ_WK09",
@@ -159,9 +159,9 @@
   },
   {
    "key": "PARTICIPATION_QUIZ_10_13",
-   "status": "blocked_inperson",
+   "status": "done",
    "date": "2026-10-15",
-   "note": "# Canvas 1509629, 3pt, Participation Quiz 10.15 (in-class/participation; drift-corrected 2026-10-13: ID is 10.15 due Oct 15, not 10.13) [manual:attendance-or-participation]"
+   "note": "# Canvas 1509629, 3pt, Participation Quiz 10.15 (in-class/participation; drift-corrected 2026-10-13: ID is 10.15 due Oct 15, not 10.13) [manual:attendance-or-participation] (audited 2026-10-29: already graded in Canvas)"
   },
   {
    "key": "PARTICIPATION_QUIZ_10_13_2",
@@ -183,27 +183,27 @@
   },
   {
    "key": "PARTICIPATION_QUIZ_OCT20",
-   "status": "blocked_inperson",
+   "status": "done",
    "date": "2026-10-20",
-   "note": "# Canvas 1511330, 3pt, Participation Quiz 10.20 (in-class/participation; drift-added 2026-10-13) [manual:attendance-or-participation]"
+   "note": "# Canvas 1511330, 3pt, Participation Quiz 10.20 (in-class/participation; drift-added 2026-10-13) [manual:attendance-or-participation] (audited 2026-10-29: already graded in Canvas)"
   },
   {
    "key": "PARTICIPATION_QUIZ_OCT22",
-   "status": "blocked_inperson",
+   "status": "done",
    "date": "2026-10-22",
-   "note": "# Canvas 1511331, 3pt, Participation Quiz 10.22 (in-class/participation; drift-added 2026-10-13) [manual:attendance-or-participation]"
+   "note": "# Canvas 1511331, 3pt, Participation Quiz 10.22 (in-class/participation; drift-added 2026-10-13) [manual:attendance-or-participation] (audited 2026-10-29: already graded in Canvas)"
   },
   {
    "key": "PARTICIPATION_QUIZ_OCT27",
-   "status": "blocked_inperson",
+   "status": "done",
    "date": "2026-10-27",
-   "note": "# Canvas 1511332, 3pt, Participation Quiz 10.27 (in-class/participation; drift-added 2026-10-13) [manual:attendance-or-participation]"
+   "note": "# Canvas 1511332, 3pt, Participation Quiz 10.27 (in-class/participation; drift-added 2026-10-13) [manual:attendance-or-participation] (audited 2026-10-29: already graded in Canvas)"
   },
   {
    "key": "PARTICIPATION_QUIZ_OCT29",
-   "status": "blocked_inperson",
+   "status": "done",
    "date": "2026-10-29",
-   "note": "# Canvas 1511333, 3pt, Participation Quiz 10.29 (in-class/participation; drift-added 2026-10-13) [manual:attendance-or-participation]"
+   "note": "# Canvas 1511333, 3pt, Participation Quiz 10.29 (in-class/participation; drift-added 2026-10-13) [manual:attendance-or-participation] (audited 2026-10-29: already graded in Canvas)"
   },
   {
    "key": "PARTICIPATION_QUIZ_11_03",

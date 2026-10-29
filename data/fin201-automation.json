@@ -45,9 +45,9 @@
   },
   {
    "key": "FIN_QUIZ_3",
-   "status": "pending",
+   "status": "blocked_ask_zack",
    "date": "2026-10-28",
-   "note": "# Topic 3 Quiz"
+   "note": "# Topic 3 Quiz. Past due Oct 28 10:00am; MyEducator closed to late submissions on 2026-10-29 (no answer UI, radios 0, only \"past due\" message). Runner had no successful run Oct 21-28. Only an instructor reopen can make it submittable. needs_user written 2026-10-29."
   },
   {
    "key": "FIN_QUIZ_4",

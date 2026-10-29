@@ -1,9 +1,9 @@
 {
  "repo": "zackhada/econ110-automation",
  "source": "learning-suite",
- "url": "https://learningsuite.byu.edu/.bzys/cid-1YPOkgOMQjjk/student/home/assignments",
+ "url": "https://learningsuite.byu.edu/.dzXe/cid-1YPOkgOMQjjk/student/home/assignments",
  "overall": {
-  "current_score": 75.47,
+  "current_score": 75.95,
   "source": "learning-suite-points"
  },
  "rows": [
@@ -211,8 +211,8 @@
    "name": "TA Passoff #5 (Extra Credit)",
    "due": "2026-10-20T23:59:00",
    "points": 2.0,
-   "score": null,
-   "status": "not_graded",
+   "score": 0.0,
+   "status": "graded",
    "missing": false,
    "submission_type": "learning_suite",
    "comments": []
@@ -221,8 +221,8 @@
    "name": "Bonus: Check Answers #5 (Extra Credit)",
    "due": "2026-10-20T23:59:00",
    "points": 2.0,
-   "score": null,
-   "status": "not_graded",
+   "score": 0.0,
+   "status": "graded",
    "missing": false,
    "submission_type": "learning_suite",
    "comments": []
@@ -231,8 +231,8 @@
    "name": "Mankiw Bonus #6 (Extra Credit)",
    "due": "2026-10-23T23:59:00",
    "points": 6.0,
-   "score": null,
-   "status": "not_graded",
+   "score": 6.0,
+   "status": "graded",
    "missing": false,
    "submission_type": "learning_suite",
    "comments": []
@@ -551,8 +551,8 @@
    "name": "Sept News Analysis Participation",
    "due": "2026-09-28T23:59:00",
    "points": 1.0,
-   "score": null,
-   "status": "not_graded",
+   "score": 0.0,
+   "status": "graded",
    "missing": false,
    "submission_type": "learning_suite",
    "comments": []
@@ -1021,8 +1021,8 @@
    "name": "Naked Economics: Essay 1",
    "due": "2026-10-16T23:59:00",
    "points": 20.0,
-   "score": null,
-   "status": "not_graded",
+   "score": 20.0,
+   "status": "graded",
    "missing": false,
    "submission_type": "learning_suite",
    "comments": []
