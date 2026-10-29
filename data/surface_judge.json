@@ -1,25 +1,25 @@
 {
- "generated_at": "2026-10-22T19:34:21.342727+00:00",
+ "generated_at": "2026-10-29T21:13:02.407515+00:00",
  "model": "opencode-go/deepseek-v4.1-flash",
  "repos": {
   "econ110-automation": {
    "detail": "ERROR:opencode/deepseek-v4.1-flash-free: rc=1 \u001b[0m\n> build \u00b7 deepseek-v4.1-flash-free\n\u001b[0m\n\u001b[91m\u001b[1mError: \u001b[0mUpstream request failed: Invalid credential\n",
-   "judged": 15,
+   "judged": 3,
    "verdicts": {}
   },
   "fin201-automation": {
    "detail": "ERROR:opencode/deepseek-v4.1-flash-free: rc=1 \u001b[0m\n> build \u00b7 deepseek-v4.1-flash-free\n\u001b[0m\n\u001b[91m\u001b[1mError: \u001b[0mUpstream request failed: Invalid credential\n",
-   "judged": 4,
+   "judged": 2,
    "verdicts": {}
   },
   "hrm391-automation": {
    "detail": "ERROR:opencode/deepseek-v4.1-flash-free: rc=1 \u001b[0m\n> build \u00b7 deepseek-v4.1-flash-free\n\u001b[0m\n\u001b[91m\u001b[1mError: \u001b[0mUpstream request failed: Invalid credential\n",
-   "judged": 3,
+   "judged": 4,
    "verdicts": {}
   },
   "is515-automation": {
    "detail": "ERROR:opencode/deepseek-v4.1-flash-free: rc=1 \u001b[0m\n> build \u00b7 deepseek-v4.1-flash-free\n\u001b[0m\n\u001b[91m\u001b[1mError: \u001b[0mUpstream request failed: Invalid credential\n",
-   "judged": 1,
+   "judged": 2,
    "verdicts": {}
   },
   "pse390-automation": {
@@ -29,12 +29,12 @@
   },
   "rel-c-333-automation": {
    "detail": "ERROR:opencode/deepseek-v4.1-flash-free: rc=1 \u001b[0m\n> build \u00b7 deepseek-v4.1-flash-free\n\u001b[0m\n\u001b[91m\u001b[1mError: \u001b[0mUpstream request failed: Invalid credential\n",
-   "judged": 16,
+   "judged": 15,
    "verdicts": {}
   },
   "strat392-automation": {
    "detail": "ERROR:opencode/deepseek-v4.1-flash-free: rc=1 \u001b[0m\n> build \u00b7 deepseek-v4.1-flash-free\n\u001b[0m\n\u001b[91m\u001b[1mError: \u001b[0mUpstream request failed: Invalid credential\n",
-   "judged": 3,
+   "judged": 4,
    "verdicts": {}
   }
  }
