@@ -29,6 +29,20 @@
    "actionable": false
   },
   {
+   "key": "STRATEGY_JOURNAL",
+   "status": "pending",
+   "date": "2026-09-09",
+   "note": "# Syllabus: Strategy Journal, 50 pts, due last day of class (Session 28, Tue Dec 15). Syllabus-only, not a Canvas assignment yet. Personal entries, Zack's own voice. Date corrected 2026-10-29 (was 2026-09-09, a transcription error that made the guard treat it as 7 weeks overdue and pick it ahead of the real next item).",
+   "title": "Syllabus: Strategy Journal",
+   "grade": null,
+   "drift": false,
+   "needs_zack": false,
+   "judge": null,
+   "optional_ec": false,
+   "surface": false,
+   "actionable": false
+  },
+  {
    "key": "MEASURING_MARKET_CONCENTRATION",
    "status": "done",
    "date": "2026-09-12",
@@ -534,20 +548,6 @@
    "optional_ec": false,
    "surface": true,
    "actionable": true
-  },
-  {
-   "key": "STRATEGY_JOURNAL",
-   "status": "pending",
-   "date": "2026-12-15",
-   "note": "# Syllabus: Strategy Journal, 50 pts, due last day of class (Session 28, Tue Dec 15). Syllabus-only, not a Canvas assignment yet. Personal entries, Zack's own voice. Date corrected 2026-10-29 (was 2026-09-09, a transcription error that made the guard treat it as 7 weeks overdue and pick it ahead of the real next item).",
-   "title": "Syllabus: Strategy Journal",
-   "grade": null,
-   "drift": false,
-   "needs_zack": false,
-   "judge": null,
-   "optional_ec": false,
-   "surface": false,
-   "actionable": false
   }
  ],
  "unmatched_canvas": [],
@@ -559,5 +559,5 @@
   "final_score": 60.91,
   "final_grade": "D-"
  },
- "built_at": "2026-10-29T23:54:28.636023+00:00"
+ "built_at": "2026-10-30T01:01:46.256010+00:00"
 }

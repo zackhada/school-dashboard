@@ -300,9 +300,9 @@
   },
   {
    "key": "IS_FIN",
-   "status": "pending",
-   "date": "2026-10-28",
-   "note": "# 12.7 Financial Formulas Assessment, 20pts, MyEducator",
+   "status": "done",
+   "date": "2026-10-30",
+   "note": "# 12.7 Financial Formulas Assessment, Canvas 1452613, 20pts, MyEducator. 17.5/20 (87.5%), attempt 1, submitted 2026-10-30T00:25:21Z (late 18.4h). All 7 formula tasks full credit; lost 2.5 on the one-way/two-way data-table formula rules (Excel web cannot create What-If data tables; values were correct).",
    "title": "12.7 Financial Formulas Assessment",
    "grade": {
     "canvas_id": 1452613,
@@ -552,5 +552,5 @@
   "final_score": 43.0,
   "final_grade": "E"
  },
- "built_at": "2026-10-29T23:54:28.770958+00:00"
+ "built_at": "2026-10-30T01:01:46.403484+00:00"
 }
