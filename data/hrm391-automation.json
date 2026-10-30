@@ -59,7 +59,7 @@
    "key": "UNIT_1_MID_TERM_CHECKPOINT",
    "status": "blocked_ask_zack",
    "date": "2026-10-07",
-   "note": "# Canvas 1511530 / quiz 663964, 1pt graded survey LOCKED since 2026-10-07T17:00:00Z (Oct 7 11am MT). Re-verified live 2026-10-29: quiz page reads \"Available until Oct 7 at 11am\" and \"This quiz was locked Oct 7 at 11am\", no Take button. Never automatable; Zack decides on a makeup. The 2026-10-29 \"judged automatable\" note was wrong and is removed."
+   "note": "# Canvas 1511530 / quiz 663964, 1pt graded survey LOCKED since 2026-10-07T17:00:00Z (Oct 7 11am MT), due_at null, submission unsubmitted. Re-verified live 2026-10-29 in the signed-in session: page reads \"Available until Oct 7 at 11am\" and \"This quiz was locked Oct 7 at 11am\", no Take button. Never automatable; Zack decides on a makeup. Do not flip this row back to pending."
   },
   {
    "key": "SERVICE_PROJECT_PART_2_GROUP_ANALYSIS_AN",
