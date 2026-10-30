@@ -769,7 +769,7 @@
   },
   {
    "key": "ECON_NEQ_8",
-   "status": "pending",
+   "status": "done",
    "date": "2026-10-30",
    "note": "# NE Quiz #8 5pt",
    "title": "NE Quiz #8",
@@ -1304,5 +1304,5 @@
   "current_score": 75.95,
   "source": "learning-suite-points"
  },
- "built_at": "2026-10-30T02:42:04.729741+00:00"
+ "built_at": "2026-10-30T12:47:26.424310+00:00"
 }

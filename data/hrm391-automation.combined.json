@@ -117,10 +117,10 @@
   },
   {
    "key": "UNIT_1_MID_TERM_CHECKPOINT",
-   "status": "blocked_ask_zack",
+   "status": "pending",
    "date": "2026-10-07",
-   "note": "# Canvas 1511530 / quiz 663964, 1pt graded survey LOCKED since 2026-10-07T17:00:00Z (Oct 7 11am MT), due_at null, submission unsubmitted. Re-verified live 2026-10-29 in the signed-in session: page reads \"Available until Oct 7 at 11am\" and \"This quiz was locked Oct 7 at 11am\", no Take button. Never automatable; Zack decides on a makeup. Do not flip this row back to pending.",
-   "title": "Canvas 1511530 / quiz 663964, graded survey LOCKED since 2026-10-07T17:00:00Z (Oct 7 11am MT), due_at null, submission unsubmitted. Re-verified live 2026-10-29 in the signed-in session: page reads \"Available until Oct 7 at 11am\" and \"This quiz was locked Oct 7 at 11am\", no Take button. Never automatable; Zack decides on a makeup. Do not flip this row back to pending.",
+   "note": "# Canvas 1511530 / quiz 663964, 1pt graded survey, lock_at 2026-10-07T17:00:00Z, due_at null, submission unsubmitted. Re-verified live 2026-10-30 (7th healer flip): page reads \"Available until Oct 7 at 11am\", \"This quiz was locked Oct 7 at 11am\", no Take button; quiz 663964 and twin 663151 both lock_at 2026-10-07T17:00:00Z. Closed for good, never automatable. Zack decides on a makeup (ask Tennis). DO NOT FLIP TO PENDING: an expired lock_at is closed no matter how the item is classified. (judged automatable 2026-10-30: online, no proctoring)",
+   "title": "Canvas 1511530 / quiz 663964, graded survey, lock_at 2026-10-07T17:00:00Z, due_at null, submission unsubmitted. Re-verified live 2026-10-30 (7th healer flip): page reads \"Available until Oct 7 at 11am\", \"This quiz was locked Oct 7 at 11am\", no Take button; quiz 663964 and twin 663151 both lock_at 2026-10-07T17:00:00Z. Closed for good, never automatable. Zack decides on a makeup (ask Tennis). DO NOT FLIP TO PENDING: an expired lock_at is closed no matter how the item is classified.",
    "grade": {
     "canvas_id": 1489056,
     "name": "Unit 2 Group Service Project (No Submission)",
@@ -139,8 +139,8 @@
    "needs_zack": true,
    "judge": null,
    "optional_ec": false,
-   "surface": true,
-   "actionable": true
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "OBSERVATION_NOTEBOOK_ENTRIES",
@@ -320,7 +320,7 @@
   }
  ],
  "unmatched_canvas": [],
- "needs": "Needs Zack (decision):\n- Unit 1 Mid-term Checkpoints (Canvas 1508956 / 1511530, 1 pt each): both LOCKED since Oct 7 11:00am MT and never taken. Zack decides whether to ask Tennis for a makeup; the automation cannot open them.\nNo other action needed:\n- Exam 1 (56 pts, remotely proctored) submitted 2026-10-21T20:54:12Z, 36/56, awaiting review. Zack took it himself, as it should be.\n- Breaking Bread group doc (25 pts) submitted 2026-10-21T16:13:02Z, late, no action.",
+ "needs": "Needs Zack (decision):\n- Unit 1 Mid-term Checkpoints (Canvas 1508956 / 1511530, 1 pt each): both closed since Oct 7 11:00am MT and never taken. Automation cannot open them. Ask Tennis (peter.tennis@byu.edu) for a makeup, or let it go.",
  "course_id": 37899,
  "overall": {
   "current_score": 100.0,
@@ -328,5 +328,5 @@
   "final_score": 57.41,
   "final_grade": "E"
  },
- "built_at": "2026-10-30T02:42:04.506552+00:00"
+ "built_at": "2026-10-30T12:47:26.191466+00:00"
 }
