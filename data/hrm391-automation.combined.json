@@ -119,8 +119,8 @@
    "key": "UNIT_1_MID_TERM_CHECKPOINT",
    "status": "pending",
    "date": "2026-10-07",
-   "note": "# Canvas 1511530 / quiz 663964, 1pt graded survey, lock_at 2026-10-07T17:00:00Z, due_at null, submission unsubmitted. Re-verified live 2026-10-30 (7th healer flip): page reads \"Available until Oct 7 at 11am\", \"This quiz was locked Oct 7 at 11am\", no Take button; quiz 663964 and twin 663151 both lock_at 2026-10-07T17:00:00Z. Closed for good, never automatable. Zack decides on a makeup (ask Tennis). DO NOT FLIP TO PENDING: an expired lock_at is closed no matter how the item is classified. (judged automatable 2026-10-30: online, no proctoring)",
-   "title": "Canvas 1511530 / quiz 663964, graded survey, lock_at 2026-10-07T17:00:00Z, due_at null, submission unsubmitted. Re-verified live 2026-10-30 (7th healer flip): page reads \"Available until Oct 7 at 11am\", \"This quiz was locked Oct 7 at 11am\", no Take button; quiz 663964 and twin 663151 both lock_at 2026-10-07T17:00:00Z. Closed for good, never automatable. Zack decides on a makeup (ask Tennis). DO NOT FLIP TO PENDING: an expired lock_at is closed no matter how the item is classified.",
+   "note": "# Canvas 1511530 / quiz 663964, 1pt graded survey, lock_at 2026-10-07T17:00:00Z, due_at null, submission unsubmitted. Re-verified live 2026-10-30 run 8 (9th healer flip): page reads \"Available until Oct 7 at 11am\", \"This quiz was locked Oct 7 at 11am\", no Take button; quiz 663964 and twin 663151 both lock_at 2026-10-07T17:00:00Z. Closed for good, never automatable. Zack decides on a makeup (ask Tennis). DO NOT FLIP TO PENDING: an expired lock_at is closed no matter how the item is classified. (judged automatable 2026-10-30: online, no proctoring)",
+   "title": "Canvas 1511530 / quiz 663964, graded survey, lock_at 2026-10-07T17:00:00Z, due_at null, submission unsubmitted. Re-verified live 2026-10-30 run 8 (9th healer flip): page reads \"Available until Oct 7 at 11am\", \"This quiz was locked Oct 7 at 11am\", no Take button; quiz 663964 and twin 663151 both lock_at 2026-10-07T17:00:00Z. Closed for good, never automatable. Zack decides on a makeup (ask Tennis). DO NOT FLIP TO PENDING: an expired lock_at is closed no matter how the item is classified.",
    "grade": {
     "canvas_id": 1489056,
     "name": "Unit 2 Group Service Project (No Submission)",
@@ -251,6 +251,34 @@
    "actionable": false
   },
   {
+   "key": "HRM_REMAINING_EXAMS_AND_FINAL",
+   "status": "blocked_ask_zack",
+   "date": "2026-11-04",
+   "note": "# HRM 391 Exam 2, Exam 3 and Final, 50% of the grade (15/15/20). Windows now published in the Canvas Key Dates module: 2nd Exam Nov 4-10, 3rd Exam Dec 9-15, Final Dec 12-17. Not Testing Center: Exam 1 was a remotely proctored Canvas quiz. Proctored, Zack takes these. TA FIRST: Julia Gazdik jgazdik3@student.byu.edu or Elise Owens eliselo@student.byu.edu [manual:three-proctored-exams-nov4-nov9-dec9-zack-takes]",
+   "title": "HRM 391 Exam 2, Exam 3 and Final, 50% of the grade (15/15/20). Windows now published in the Canvas Key Dates module: 2nd Exam Nov 4-10, 3rd Exam Dec 9-15, Final Dec 12-17. Not Testing Center: Exam 1 was a remotely proctored Canvas quiz. Proctored, Zack takes these. TA FIRST: Julia Gazdik jgazdik3@student.byu.edu or Elise Owens eliselo@student.byu.edu",
+   "grade": null,
+   "drift": false,
+   "needs_zack": false,
+   "judge": null,
+   "optional_ec": false,
+   "surface": true,
+   "actionable": true
+  },
+  {
+   "key": "UNIT_2_OBSERVATION_NOTEBOOK_DEFAULT_ORGA",
+   "status": "pending",
+   "date": "2026-11-11",
+   "note": "# Canvas 1518004, 30pt, Unit 2 Observation Notebook/Default Organization Entries (remote; drift-added 2026-10-30)",
+   "title": "Unit 2 Observation Notebook/Default Organization Entries",
+   "grade": null,
+   "drift": false,
+   "needs_zack": false,
+   "judge": null,
+   "optional_ec": false,
+   "surface": false,
+   "actionable": false
+  },
+  {
    "key": "SERVICE_PROJECT_PART_2_GROUP_ANALYSIS_AN",
    "status": "blocked_ask_zack",
    "date": "2026-11-22",
@@ -270,20 +298,6 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": false,
-   "needs_zack": false,
-   "judge": null,
-   "optional_ec": false,
-   "surface": true,
-   "actionable": true
-  },
-  {
-   "key": "HRM_REMAINING_EXAMS_AND_FINAL",
-   "status": "blocked_ask_zack",
-   "date": "2026-12-18",
-   "note": "# HRM 391 Exam 2, Exam 3 and Final, 50% of the grade (15/15/20). Not Testing Center: the Testing Center reports no tests for HRM 391 and Exam 1 was a remotely proctored Canvas quiz (36/56 = 64%). Dates unpublished. TA FIRST: Julia Gazdik jgazdik3@student.byu.edu or Elise Owens eliselo@student.byu.edu [manual:three-exams-dates-unpublished-needs-ta]",
-   "title": "HRM 391 Exam 2, Exam 3 and Final, 50% of the grade (15/15/20). Not Testing Center: the Testing Center reports no tests for HRM 391 and Exam 1 was a remotely proctored Canvas quiz (36/56 = 64%). Dates unpublished. TA FIRST: Julia Gazdik jgazdik3@student.byu.edu or Elise Owens eliselo@student.byu.edu",
-   "grade": null,
    "drift": false,
    "needs_zack": false,
    "judge": null,
@@ -320,7 +334,7 @@
   }
  ],
  "unmatched_canvas": [],
- "needs": "Needs Zack (decision):\n- Unit 1 Mid-term Checkpoints (Canvas 1508956 / 1511530, 1 pt each): both closed since Oct 7 11:00am MT and never taken. Automation cannot open them. Ask Tennis (peter.tennis@byu.edu) for a makeup, or let it go.",
+ "needs": "Needs Zack (decision):\n- Unit 1 Mid-term Checkpoints (Canvas 1508956 / 1511530, 1 pt each): both closed since Oct 7 11:00am MT and never taken. Automation cannot open them. Ask Tennis (peter.tennis@byu.edu) for a makeup, or let it go.\n- Remaining exams (proctored, you take them): Exam 2 Nov 4-10, Exam 3 Dec 9-15, Final Dec 12-17.",
  "course_id": 37899,
  "overall": {
   "current_score": 100.0,
@@ -328,5 +342,5 @@
   "final_score": 57.41,
   "final_grade": "E"
  },
- "built_at": "2026-10-30T12:47:26.191466+00:00"
+ "built_at": "2026-10-30T18:29:08.543243+00:00"
 }
