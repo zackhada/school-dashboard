@@ -59,7 +59,7 @@
    "key": "UNIT_1_MID_TERM_CHECKPOINT",
    "status": "pending",
    "date": "2026-10-07",
-   "note": "# Canvas 1511530 / quiz 663964, 1pt graded survey, lock_at 2026-10-07T17:00:00Z, due_at null, submission unsubmitted. Re-verified live 2026-10-30 run 8 (9th healer flip): page reads \"Available until Oct 7 at 11am\", \"This quiz was locked Oct 7 at 11am\", no Take button; quiz 663964 and twin 663151 both lock_at 2026-10-07T17:00:00Z. Closed for good, never automatable. Zack decides on a makeup (ask Tennis). DO NOT FLIP TO PENDING: an expired lock_at is closed no matter how the item is classified. (judged automatable 2026-10-30: online, no proctoring)"
+   "note": "# Canvas 1511530 / quiz 663964, 1pt graded survey, lock_at 2026-10-07T17:00:00Z, due_at null, submission unsubmitted. Re-verified live 2026-10-30 run 10: page reads \"Available until Oct 7 at 11am\", \"This quiz was locked Oct 7 at 11am\", no Take button; in-page API quiz 663964 and twin 663151 both lock_at 2026-10-07T17:00:00Z, no due_at. Closed for good, never automatable. Zack decides on a makeup (ask Tennis). DO NOT FLIP TO PENDING: an expired lock_at is closed no matter how the healer classifies it. (judged automatable 2026-10-30: online, no proctoring)"
   },
   {
    "key": "SERVICE_PROJECT_PART_2_GROUP_ANALYSIS_AN",
