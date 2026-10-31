@@ -119,22 +119,9 @@
    "key": "UNIT_1_MID_TERM_CHECKPOINT",
    "status": "pending",
    "date": "2026-10-07",
-   "note": "# Canvas 1511530 / quiz 663964, 1pt graded survey, lock_at 2026-10-07T17:00:00Z, due_at null, submission unsubmitted. Re-verified live 2026-10-30 run 10: page reads \"Available until Oct 7 at 11am\", \"This quiz was locked Oct 7 at 11am\", no Take button; in-page API quiz 663964 and twin 663151 both lock_at 2026-10-07T17:00:00Z, no due_at. Closed for good, never automatable. Zack decides on a makeup (ask Tennis). DO NOT FLIP TO PENDING: an expired lock_at is closed no matter how the healer classifies it. (judged automatable 2026-10-30: online, no proctoring)",
-   "title": "Canvas 1511530 / quiz 663964, graded survey, lock_at 2026-10-07T17:00:00Z, due_at null, submission unsubmitted. Re-verified live 2026-10-30 run 10: page reads \"Available until Oct 7 at 11am\", \"This quiz was locked Oct 7 at 11am\", no Take button; in-page API quiz 663964 and twin 663151 both lock_at 2026-10-07T17:00:00Z, no due_at. Closed for good, never automatable. Zack decides on a makeup (ask Tennis). DO NOT FLIP TO PENDING: an expired lock_at is closed no matter how the healer classifies it.",
-   "grade": {
-    "canvas_id": 1489056,
-    "name": "Unit 2 Group Service Project (No Submission)",
-    "due": "2026-11-08T06:59:59Z",
-    "points": 0.0,
-    "status": "unsubmitted",
-    "score": null,
-    "grade": null,
-    "missing": false,
-    "submitted_at": null,
-    "submission_type": null,
-    "my_submission": "",
-    "comments": []
-   },
+   "note": "# Canvas 1511530 / quiz 663964, 1pt graded survey, lock_at 2026-10-07T17:00:00Z, due_at null, never submitted. Re-verified live 2026-10-31 (run 15): page reads \"Available until Oct 7 at 11am\", \"This quiz was locked Oct 7 at 11am\", no Take or Resume button; in-page API shows twin quizzes 663964 and 663151 both lock_at 2026-10-07T17:00:00Z. Closed 24 days, never automatable. Zack asks Tennis for a makeup or lets it go. DO NOT FLIP TO PENDING: an expired lock_at means closed regardless of healer classification. (judged automatable 2026-10-31: online, no proctoring)",
+   "title": "Canvas 1511530 / quiz 663964, graded survey, lock_at 2026-10-07T17:00:00Z, due_at null, never submitted. Re-verified live 2026-10-31 (run 15): page reads \"Available until Oct 7 at 11am\", \"This quiz was locked Oct 7 at 11am\", no Take or Resume button; in-page API shows twin quizzes 663964 and 663151 both lock_at 2026-10-07T17:00:00Z. Closed 24 days, never automatable. Zack asks Tennis for a makeup or lets it go. DO NOT FLIP TO PENDING: an expired lock_at means closed regardless of healer classification.",
+   "grade": null,
    "drift": false,
    "needs_zack": true,
    "judge": null,
@@ -270,7 +257,20 @@
    "date": "2026-11-11",
    "note": "# Canvas 1518004, 30pt, Unit 2 Observation Notebook/Default Organization Entries (remote; drift-added 2026-10-30)",
    "title": "Unit 2 Observation Notebook/Default Organization Entries",
-   "grade": null,
+   "grade": {
+    "canvas_id": 1489056,
+    "name": "Unit 2 Group Service Project (No Submission)",
+    "due": "2026-11-08T06:59:59Z",
+    "points": 0.0,
+    "status": "unsubmitted",
+    "score": null,
+    "grade": null,
+    "missing": false,
+    "submitted_at": null,
+    "submission_type": null,
+    "my_submission": "",
+    "comments": []
+   },
    "drift": false,
    "needs_zack": false,
    "judge": null,
@@ -342,5 +342,5 @@
   "final_score": 57.41,
   "final_grade": "E"
  },
- "built_at": "2026-10-31T02:16:52.416629+00:00"
+ "built_at": "2026-10-31T12:18:15.225198+00:00"
 }
