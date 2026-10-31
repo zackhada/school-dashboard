@@ -1,4 +1,4 @@
 {
  "repo": "zackhada/strat392-automation",
- "text": null
+ "text": "STRAT392 (no assignment due until Nov 4, nothing skipped): Canvas login needs a Duo code, but the SMS bridge stopped delivering them. CAS accepts the saved password, then Duo never texts a new code (3 sends over 15 min, ~/.school-sms-code stuck on one stale code while the bridge keeps rewriting the file). Fix iPhone SMS forwarding or restart the SMS bridge when you can. Delete this file once it works."
 }

@@ -32,7 +32,7 @@
    "key": "STRATEGY_JOURNAL",
    "status": "pending",
    "date": "2026-09-09",
-   "note": "# Syllabus: Strategy Journal, 50 pts, due last day of class (Session 28, Tue Dec 15). Syllabus-only, not a Canvas assignment yet. Personal entries, Zack's own voice. Date corrected 2026-10-29 (was 2026-09-09, a transcription error that made the guard treat it as 7 weeks overdue and pick it ahead of the real next item).",
+   "note": "# Syllabus: Strategy Journal, 50 pts, due last day of class (Session 28, Tue Dec 15). Syllabus-only, not a Canvas assignment yet. Personal entries, Zack's own voice. Date actually corrected 2026-10-30 (the 2026-10-29 note claimed the fix but the date field still read 2026-09-09, so the guard kept picking it as 7 weeks overdue and bypassed the submission window).",
    "title": "Syllabus: Strategy Journal",
    "grade": null,
    "drift": false,
@@ -272,7 +272,7 @@
    "title": "Testing Center , window closed Oct 20 , CONFIRMED NOT TAKEN. TEST RECEIVED 2026-10-29 : Daniel Gugler emailed \"STRAT_392_Midterm_Fall 12.docx\" (real Fall 2026 midterm, created Oct 2, last edited by Oldroyd Oct 5) to Zack, Riley and Katya. Parts: 32 MC x2 = 64, 5 short answer = 30, mini-case = 10, total 104 (gradebook item is 150, unexplained). No deadline, no time limit, no submission format in the email. Saved at ~/.config/school-agent/exams/. ZACK IS TAKING THIS ONE HIMSELF (his call, 2026-10-29): do not answer exam content, do not submit it for him. A zero caps the course at 78.6% and puts an E in play below 60%",
    "grade": null,
    "drift": false,
-   "needs_zack": false,
+   "needs_zack": true,
    "judge": null,
    "optional_ec": false,
    "surface": true,
@@ -551,7 +551,7 @@
   }
  ],
  "unmatched_canvas": [],
- "needs": null,
+ "needs": "STRAT392 (no assignment due until Nov 4, nothing skipped): Canvas login needs a Duo code, but the SMS bridge stopped delivering them. CAS accepts the saved password, then Duo never texts a new code (3 sends over 15 min, ~/.school-sms-code stuck on one stale code while the bridge keeps rewriting the file). Fix iPhone SMS forwarding or restart the SMS bridge when you can. Delete this file once it works.",
  "course_id": 39131,
  "overall": {
   "current_score": 95.71,
@@ -559,5 +559,5 @@
   "final_score": 60.91,
   "final_grade": "D-"
  },
- "built_at": "2026-10-31T00:48:49.876291+00:00"
+ "built_at": "2026-10-31T02:16:52.436480+00:00"
 }
