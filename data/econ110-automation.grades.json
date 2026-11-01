@@ -1,9 +1,9 @@
 {
  "repo": "zackhada/econ110-automation",
  "source": "learning-suite",
- "url": "https://learningsuite.byu.edu/.dzXe/cid-1YPOkgOMQjjk/student/home/assignments",
+ "url": "https://learningsuite.byu.edu/.XrXZ/cid-1YPOkgOMQjjk/student/home/assignments",
  "overall": {
-  "current_score": 75.95,
+  "current_score": 76.17,
   "source": "learning-suite-points"
  },
  "rows": [
@@ -1041,8 +1041,8 @@
    "name": "NE - Quiz #8",
    "due": "2026-10-30T23:59:00",
    "points": 5.0,
-   "score": null,
-   "status": "not_graded",
+   "score": 5.0,
+   "status": "graded",
    "missing": false,
    "submission_type": "learning_suite",
    "comments": []
