@@ -117,17 +117,17 @@
   },
   {
    "key": "UNIT_1_MID_TERM_CHECKPOINT",
-   "status": "blocked_ask_zack",
+   "status": "pending",
    "date": "2026-10-07",
-   "note": "# Canvas 1511530 / quiz 663964, 1pt graded survey, lock_at 2026-10-07T17:00:00Z, due_at null, never submitted. Re-verified live 2026-11-01 (run 18): page reads \"Available until Oct 7 at 11am\", \"This quiz was locked Oct 7 at 11am\", no Take or Resume button; in-page API shows assignment 1511530 unsubmitted and twin quizzes 663964 and 663151 both lock_at 2026-10-07T17:00:00Z. Closed 25 days, never automatable. Zack asks Tennis for a makeup or lets it go. DO NOT FLIP TO PENDING: an expired lock_at means closed regardless of healer classification. [manual:closed-quiz-lock-at-2026-10-07-never-takeable-zack-asks-tennis-for-makeup]",
-   "title": "Canvas 1511530 / quiz 663964, graded survey, lock_at 2026-10-07T17:00:00Z, due_at null, never submitted. Re-verified live 2026-11-01 (run 18): page reads \"Available until Oct 7 at 11am\", \"This quiz was locked Oct 7 at 11am\", no Take or Resume button; in-page API shows assignment 1511530 unsubmitted and twin quizzes 663964 and 663151 both lock_at 2026-10-07T17:00:00Z. Closed 25 days, never automatable. Zack asks Tennis for a makeup or lets it go. DO NOT FLIP TO PENDING: an expired lock_at means closed regardless of healer classification.",
+   "note": "# Canvas 1511530 / quiz 663964, 1pt graded survey, lock_at 2026-10-07T17:00:00Z, due_at null, never submitted. Re-verified live 2026-11-01 (run 20): page reads \"Available until Oct 7 at 11am\", \"This quiz was locked Oct 7 at 11am\", no Take or Resume button; in-page API (200 OK) shows assignment 1511530 unsubmitted, due_at null, lock_at 2026-10-07T17:00:00Z, and twin quizzes 663964 and 663151 both graded_survey 1 pt, same lock. Closed 25 days. Zack asks Tennis for a makeup or lets it go. DO NOT FLIP TO PENDING: an expired lock_at means closed regardless of healer classification. (judged automatable 2026-11-01: online, no proctoring)",
+   "title": "Canvas 1511530 / quiz 663964, graded survey, lock_at 2026-10-07T17:00:00Z, due_at null, never submitted. Re-verified live 2026-11-01 (run 20): page reads \"Available until Oct 7 at 11am\", \"This quiz was locked Oct 7 at 11am\", no Take or Resume button; in-page API (200 OK) shows assignment 1511530 unsubmitted, due_at null, lock_at 2026-10-07T17:00:00Z, and twin quizzes 663964 and 663151 both graded_survey , same lock. Closed 25 days. Zack asks Tennis for a makeup or lets it go. DO NOT FLIP TO PENDING: an expired lock_at means closed regardless of healer classification.",
    "grade": null,
    "drift": false,
    "needs_zack": true,
    "judge": null,
    "optional_ec": false,
-   "surface": true,
-   "actionable": true
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "OBSERVATION_NOTEBOOK_ENTRIES",
@@ -342,5 +342,5 @@
   "final_score": 57.41,
   "final_grade": "E"
  },
- "built_at": "2026-11-01T06:37:00.078807+00:00"
+ "built_at": "2026-11-01T13:14:36.212802+00:00"
 }
