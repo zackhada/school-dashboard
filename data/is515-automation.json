@@ -81,9 +81,9 @@
   },
   {
    "key": "IS_COUNT",
-   "status": "pending",
+   "status": "done",
    "date": "2026-11-02",
-   "note": "# 13.11 Counting and Summing Assessment, 20pts, MyEducator"
+   "note": "# 13.11 Counting and Summing Assessment, Canvas 1452614, 20pts, MyEducator. 19.13/20 (95.65%), attempt 1, submitted 2026-10-31T02:46:11Z, graded_at 02:48:47Z, Canvas workflow_state graded. Ledger reconciled 2026-11-01 (submission landed after the prior run died before committing the row); no resubmit used."
   },
   {
    "key": "IS_LOOKUP",
