@@ -130,8 +130,8 @@
   {
    "key": "STRATEGY_JOURNAL",
    "status": "pending",
-   "date": "2026-09-09",
-   "note": "# Syllabus: Strategy Journal, 50 pts, due last day of class (Session 28, Tue Dec 15). Syllabus-only, not a Canvas assignment yet. Personal entries, Zack's own voice. Date actually corrected 2026-10-30 (the 2026-10-29 note claimed the fix but the date field still read 2026-09-09, so the guard kept picking it as 7 weeks overdue and bypassed the submission window)."
+   "date": "2026-12-15",
+   "note": "# Syllabus: Strategy Journal, 50 pts, due last day of class (Session 28, Tue Dec 15). Syllabus-only, not a Canvas assignment yet. Personal entries, Zack's own voice: confirm with Zack before drafting, do not auto-write. Date field fixed for real 2026-10-31 (prior runs only edited the note; the field still read 2026-09-09, so the guard kept treating it as 7 weeks overdue and bypassed the 3-day window)."
   },
   {
    "key": "STRAT_FINAL_EXAM",
