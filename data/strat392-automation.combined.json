@@ -265,20 +265,6 @@
    "actionable": false
   },
   {
-   "key": "STRAT_MIDTERM",
-   "status": "blocked_ask_zack",
-   "date": "2026-10-20",
-   "note": "# Testing Center 150pt, window closed Oct 20 9:00pm, CONFIRMED NOT TAKEN. TEST RECEIVED 2026-10-29 2:21 PM: Daniel Gugler emailed \"STRAT_392_Midterm_Fall 12.docx\" (real Fall 2026 midterm, created Oct 2, last edited by Oldroyd Oct 5) to Zack, Riley and Katya. Parts: 32 MC x2 = 64, 5 short answer = 30, mini-case = 10, total 104 (gradebook item is 150, unexplained). No deadline, no time limit, no submission format in the email. Saved at ~/.config/school-agent/exams/. ZACK IS TAKING THIS ONE HIMSELF (his call, 2026-10-29): do not answer exam content, do not submit it for him. A zero caps the course at 78.6% and puts an E in play below 60% [manual:zack-taking-emailed-makeup-test]",
-   "title": "Testing Center , window closed Oct 20 , CONFIRMED NOT TAKEN. TEST RECEIVED 2026-10-29 : Daniel Gugler emailed \"STRAT_392_Midterm_Fall 12.docx\" (real Fall 2026 midterm, created Oct 2, last edited by Oldroyd Oct 5) to Zack, Riley and Katya. Parts: 32 MC x2 = 64, 5 short answer = 30, mini-case = 10, total 104 (gradebook item is 150, unexplained). No deadline, no time limit, no submission format in the email. Saved at ~/.config/school-agent/exams/. ZACK IS TAKING THIS ONE HIMSELF (his call, 2026-10-29): do not answer exam content, do not submit it for him. A zero caps the course at 78.6% and puts an E in play below 60%",
-   "grade": null,
-   "drift": false,
-   "needs_zack": true,
-   "judge": null,
-   "optional_ec": false,
-   "surface": true,
-   "actionable": true
-  },
-  {
    "key": "STRATEGY_AS_LEVERAGE_READING_QUIZ",
    "status": "done",
    "date": "2026-10-21",
@@ -325,6 +311,20 @@
     "my_submission": "",
     "comments": []
    },
+   "drift": false,
+   "needs_zack": false,
+   "judge": null,
+   "optional_ec": false,
+   "surface": false,
+   "actionable": false
+  },
+  {
+   "key": "STRAT_MIDTERM",
+   "status": "done",
+   "date": "2026-10-29",
+   "note": "# Testing Center 150pt, missed the Oct 20 9:00pm window. Make-up test emailed by Daniel Gugler 2026-10-29 2:21 PM (32 MC x2, 5 short answer, mini-case; gradebook item is 150). ZACK COMPLETED IT HIMSELF and emailed it back to the TA (confirmed by Zack 2026-11-02); the agent did not answer or submit any exam content. Midterms are proctored and Zack's own, never an autonomous agent task. Awaiting the graded score.",
+   "title": "Testing Center , missed the Oct 20 window. Make-up test emailed by Daniel Gugler 2026-10-29 (32 MC x2, 5 short answer, mini-case; gradebook item is 150). ZACK COMPLETED IT HIMSELF and emailed it back to the TA (confirmed by Zack 2026-11-02); the agent did not answer or submit any exam content. Midterms are proctored and Zack's own, never an autonomous agent task. Awaiting the graded score.",
+   "grade": null,
    "drift": false,
    "needs_zack": false,
    "judge": null,
@@ -551,7 +551,7 @@
   }
  ],
  "unmatched_canvas": [],
- "needs": "STRAT392 (no assignment due until Nov 4, nothing skipped): Canvas login needs a Duo code, but the SMS bridge stopped delivering them. CAS accepts the saved password, then Duo never texts a new code (3 sends over 15 min, ~/.school-sms-code stuck on one stale code while the bridge keeps rewriting the file). Fix iPhone SMS forwarding or restart the SMS bridge when you can. Delete this file once it works.",
+ "needs": null,
  "course_id": 39131,
  "overall": {
   "current_score": 95.71,
@@ -559,5 +559,5 @@
   "final_score": 60.91,
   "final_grade": "D-"
  },
- "built_at": "2026-11-01T13:14:36.232424+00:00"
+ "built_at": "2026-11-02T18:03:17.464289+00:00"
 }

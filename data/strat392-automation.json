@@ -141,9 +141,9 @@
   },
   {
    "key": "STRAT_MIDTERM",
-   "status": "blocked_ask_zack",
-   "date": "2026-10-20",
-   "note": "# Testing Center 150pt, window closed Oct 20 9:00pm, CONFIRMED NOT TAKEN. TEST RECEIVED 2026-10-29 2:21 PM: Daniel Gugler emailed \"STRAT_392_Midterm_Fall 12.docx\" (real Fall 2026 midterm, created Oct 2, last edited by Oldroyd Oct 5) to Zack, Riley and Katya. Parts: 32 MC x2 = 64, 5 short answer = 30, mini-case = 10, total 104 (gradebook item is 150, unexplained). No deadline, no time limit, no submission format in the email. Saved at ~/.config/school-agent/exams/. ZACK IS TAKING THIS ONE HIMSELF (his call, 2026-10-29): do not answer exam content, do not submit it for him. A zero caps the course at 78.6% and puts an E in play below 60% [manual:zack-taking-emailed-makeup-test]"
+   "status": "done",
+   "date": "2026-10-29",
+   "note": "# Testing Center 150pt, missed the Oct 20 9:00pm window. Make-up test emailed by Daniel Gugler 2026-10-29 2:21 PM (32 MC x2, 5 short answer, mini-case; gradebook item is 150). ZACK COMPLETED IT HIMSELF and emailed it back to the TA (confirmed by Zack 2026-11-02); the agent did not answer or submit any exam content. Midterms are proctored and Zack's own, never an autonomous agent task. Awaiting the graded score."
   },
   {
    "key": "STRAT_MARKET_ENTRY_LAB",
