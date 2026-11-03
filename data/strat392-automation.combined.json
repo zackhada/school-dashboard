@@ -395,7 +395,10 @@
    "grade": null,
    "drift": false,
    "needs_zack": true,
-   "judge": null,
+   "judge": {
+    "verdict": "manual",
+    "why": "Requires a recorded presentation of Zack plus team coordination; student's body/voice needed"
+   },
    "optional_ec": false,
    "surface": true,
    "actionable": true
@@ -544,7 +547,10 @@
    "grade": null,
    "drift": false,
    "needs_zack": false,
-   "judge": null,
+   "judge": {
+    "verdict": "manual",
+    "why": "Requires the student in person."
+   },
    "optional_ec": false,
    "surface": true,
    "actionable": true
@@ -559,5 +565,5 @@
   "final_score": 60.91,
   "final_grade": "D-"
  },
- "built_at": "2026-11-03T06:36:21.779395+00:00"
+ "built_at": "2026-11-03T06:41:30.499532+00:00"
 }

@@ -440,7 +440,10 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": null,
+   "judge": {
+    "verdict": "manual",
+    "why": "Name is a participation quiz; participation is earned in class, no online path."
+   },
    "optional_ec": false,
    "surface": true,
    "actionable": true
@@ -745,7 +748,7 @@
    "key": "PARTICIPATION_QUIZ_11_03",
    "status": "blocked_inperson",
    "date": "2026-11-03",
-   "note": "# Canvas 1511335, 3pt, Participation Quiz 11.03 (in-class/participation; drift-added 2026-10-20) [manual:attendance-or-participation]",
+   "note": "# Canvas 1511335, 3pt, Participation Quiz 11.03 (in-class/participation; drift-added 2026-10-20) [manual:name-is-participation-quiz-participation-earned-in-class-des]",
    "title": "Participation Quiz 11.03",
    "grade": {
     "canvas_id": 1511335,
@@ -763,7 +766,10 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": null,
+   "judge": {
+    "verdict": "manual",
+    "why": "Name is participation quiz; participation earned in class despite online_quiz tool."
+   },
    "optional_ec": false,
    "surface": true,
    "actionable": false
@@ -772,7 +778,7 @@
    "key": "PARTICIPATION_QUIZ_11_05",
    "status": "blocked_inperson",
    "date": "2026-11-05",
-   "note": "# Canvas 1511337, 3pt, Participation Quiz 11.05 (in-class/participation; drift-added 2026-10-14) [manual:attendance-or-participation]",
+   "note": "# Canvas 1511337, 3pt, Participation Quiz 11.05 (in-class/participation; drift-added 2026-10-14) [manual:name-is-participation-quiz-participation-earned-in-class-des]",
    "title": "Participation Quiz 11.05",
    "grade": {
     "canvas_id": 1511337,
@@ -790,7 +796,10 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": null,
+   "judge": {
+    "verdict": "manual",
+    "why": "Name is participation quiz; participation earned in class despite online_quiz tool."
+   },
    "optional_ec": false,
    "surface": true,
    "actionable": false
@@ -826,7 +835,7 @@
    "key": "PARTICIPATION_QUIZ_11_10",
    "status": "blocked_inperson",
    "date": "2026-11-10",
-   "note": "# Canvas 1511339, 3pt, Participation Quiz 11.10 (in-class/participation; drift-added 2026-10-14) [manual:attendance-or-participation]",
+   "note": "# Canvas 1511339, 3pt, Participation Quiz 11.10 (in-class/participation; drift-added 2026-10-14) [manual:name-is-participation-quiz-participation-earned-in-class-des]",
    "title": "Participation Quiz 11.10",
    "grade": {
     "canvas_id": 1511339,
@@ -844,7 +853,10 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": null,
+   "judge": {
+    "verdict": "manual",
+    "why": "Name is participation quiz; participation earned in class despite online_quiz tool."
+   },
    "optional_ec": false,
    "surface": true,
    "actionable": false
@@ -853,7 +865,7 @@
    "key": "PARTICIPATION_QUIZ_11_12",
    "status": "blocked_inperson",
    "date": "2026-11-12",
-   "note": "# Canvas 1511340, 3pt, Participation Quiz 11.12 (in-class/participation; drift-added 2026-10-14) [manual:attendance-or-participation]",
+   "note": "# Canvas 1511340, 3pt, Participation Quiz 11.12 (in-class/participation; drift-added 2026-10-14) [manual:name-is-participation-quiz-participation-earned-in-class-des]",
    "title": "Participation Quiz 11.12",
    "grade": {
     "canvas_id": 1511340,
@@ -871,7 +883,10 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": null,
+   "judge": {
+    "verdict": "manual",
+    "why": "Name is participation quiz; participation earned in class despite online_quiz tool."
+   },
    "optional_ec": false,
    "surface": true,
    "actionable": false
@@ -907,7 +922,7 @@
    "key": "PARTICIPATION_QUIZ_11_17",
    "status": "blocked_inperson",
    "date": "2026-11-17",
-   "note": "# Canvas 1511341, 3pt, Participation Quiz 11.17 (in-class/participation; drift-added 2026-10-14) [manual:attendance-or-participation]",
+   "note": "# Canvas 1511341, 3pt, Participation Quiz 11.17 (in-class/participation; drift-added 2026-10-14) [manual:name-is-participation-quiz-participation-earned-in-class-des]",
    "title": "Participation Quiz 11.17",
    "grade": {
     "canvas_id": 1511341,
@@ -925,7 +940,10 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": null,
+   "judge": {
+    "verdict": "manual",
+    "why": "Name is participation quiz; participation earned in class despite online_quiz tool."
+   },
    "optional_ec": false,
    "surface": true,
    "actionable": false
@@ -934,7 +952,7 @@
    "key": "PARTICIPATION_QUIZ_11_19",
    "status": "blocked_inperson",
    "date": "2026-11-19",
-   "note": "# Canvas 1511342, 3pt, Participation Quiz 11.19 (in-class/participation; drift-added 2026-10-14) [manual:attendance-or-participation]",
+   "note": "# Canvas 1511342, 3pt, Participation Quiz 11.19 (in-class/participation; drift-added 2026-10-14) [manual:name-is-participation-quiz-participation-earned-in-class-des]",
    "title": "Participation Quiz 11.19",
    "grade": {
     "canvas_id": 1511342,
@@ -952,7 +970,10 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": null,
+   "judge": {
+    "verdict": "manual",
+    "why": "Name is participation quiz; participation earned in class despite online_quiz tool."
+   },
    "optional_ec": false,
    "surface": true,
    "actionable": false
@@ -988,7 +1009,7 @@
    "key": "PARTICIPATION_QUIZ_11_24",
    "status": "blocked_inperson",
    "date": "2026-11-24",
-   "note": "# Canvas 1511344, 3pt, Participation Quiz 11.24 (in-class/participation; drift-added 2026-10-14) [manual:attendance-or-participation]",
+   "note": "# Canvas 1511344, 3pt, Participation Quiz 11.24 (in-class/participation; drift-added 2026-10-14) [manual:name-is-participation-quiz-participation-earned-in-class-des]",
    "title": "Participation Quiz 11.24",
    "grade": {
     "canvas_id": 1511344,
@@ -1006,7 +1027,10 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": null,
+   "judge": {
+    "verdict": "manual",
+    "why": "Name is participation quiz; participation earned in class despite online_quiz tool."
+   },
    "optional_ec": false,
    "surface": true,
    "actionable": false
@@ -1042,7 +1066,7 @@
    "key": "PARTICIPATION_QUIZ_12_01",
    "status": "blocked_inperson",
    "date": "2026-12-01",
-   "note": "# Canvas 1511345, 3pt, Participation Quiz 12.01 (in-class/participation; drift-added 2026-10-14) [manual:attendance-or-participation]",
+   "note": "# Canvas 1511345, 3pt, Participation Quiz 12.01 (in-class/participation; drift-added 2026-10-14) [manual:name-is-participation-quiz-participation-earned-in-class-des]",
    "title": "Participation Quiz 12.01",
    "grade": {
     "canvas_id": 1511345,
@@ -1060,7 +1084,10 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": null,
+   "judge": {
+    "verdict": "manual",
+    "why": "Name is participation quiz; participation earned in class despite online_quiz tool."
+   },
    "optional_ec": false,
    "surface": true,
    "actionable": false
@@ -1069,7 +1096,7 @@
    "key": "PARTICIPATION_QUIZ_12_03",
    "status": "blocked_inperson",
    "date": "2026-12-03",
-   "note": "# Canvas 1511346, 3pt, Participation Quiz 12.03 (in-class/participation; drift-added 2026-10-14) [manual:attendance-or-participation]",
+   "note": "# Canvas 1511346, 3pt, Participation Quiz 12.03 (in-class/participation; drift-added 2026-10-14) [manual:name-is-participation-quiz-participation-earned-in-class-des]",
    "title": "Participation Quiz 12.03",
    "grade": {
     "canvas_id": 1511346,
@@ -1087,7 +1114,10 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": null,
+   "judge": {
+    "verdict": "manual",
+    "why": "Name is participation quiz; participation earned in class despite online_quiz tool."
+   },
    "optional_ec": false,
    "surface": true,
    "actionable": false
@@ -1123,7 +1153,7 @@
    "key": "PARTICIPATION_QUIZ_12_08",
    "status": "blocked_inperson",
    "date": "2026-12-08",
-   "note": "# Canvas 1511347, 3pt, Participation Quiz 12.08 (in-class/participation; drift-added 2026-10-14) [manual:attendance-or-participation]",
+   "note": "# Canvas 1511347, 3pt, Participation Quiz 12.08 (in-class/participation; drift-added 2026-10-14) [manual:name-is-participation-quiz-participation-earned-in-class-des]",
    "title": "Participation Quiz 12.08",
    "grade": {
     "canvas_id": 1511347,
@@ -1141,7 +1171,10 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": null,
+   "judge": {
+    "verdict": "manual",
+    "why": "Name is participation quiz; participation earned in class despite online_quiz tool."
+   },
    "optional_ec": false,
    "surface": true,
    "actionable": false
@@ -1150,7 +1183,7 @@
    "key": "PARTICIPATION_QUIZ_12_10",
    "status": "blocked_inperson",
    "date": "2026-12-10",
-   "note": "# Canvas 1511348, 3pt, Participation Quiz 12.10 (in-class/participation; drift-added 2026-10-14) [manual:attendance-or-participation]",
+   "note": "# Canvas 1511348, 3pt, Participation Quiz 12.10 (in-class/participation; drift-added 2026-10-14) [manual:name-is-participation-quiz-participation-earned-in-class-des]",
    "title": "Participation Quiz 12.10",
    "grade": {
     "canvas_id": 1511348,
@@ -1168,7 +1201,10 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": null,
+   "judge": {
+    "verdict": "manual",
+    "why": "Name is participation quiz; participation earned in class despite online_quiz tool."
+   },
    "optional_ec": false,
    "surface": true,
    "actionable": false
@@ -1210,5 +1246,5 @@
   "final_score": 20.32,
   "final_grade": "E"
  },
- "built_at": "2026-11-03T06:36:21.905763+00:00"
+ "built_at": "2026-11-03T06:41:30.635475+00:00"
 }

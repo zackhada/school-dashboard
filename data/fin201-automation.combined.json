@@ -192,9 +192,9 @@
   },
   {
    "key": "FIN_QUIZ_3",
-   "status": "blocked_ask_zack",
+   "status": "pending",
    "date": "2026-10-28",
-   "note": "# Topic 3 Quiz. Past due Oct 28 10:00am; MyEducator shows \"past due and does not allow late submissions\" (no answer UI). Reopen request emailed to the course TA at byufin201@gmail.com 2026-11-02 (address confirmed on the Fall 2026 syllabus PDF, sent from zackhada@byu.edu, verified in Sent Items). Escalating to Holmes (andy.holmes678@gmail.com) needs Zack's explicit approval. If it is reopened, Zack takes it himself.",
+   "note": "# Topic 3 Quiz. Past due Oct 28 10:00am; MyEducator shows \"past due and does not allow late submissions\" (no answer UI). Reopen request emailed to the course TA at byufin201@gmail.com 2026-11-02 (address confirmed on the Fall 2026 syllabus PDF, sent from zackhada@byu.edu, verified in Sent Items). Escalating to Holmes (andy.holmes678@gmail.com) needs Zack's explicit approval. If it is reopened, Zack takes it himself. (judged automatable 2026-11-02: online-submission-path-no-proctoring-evidence)",
    "title": "Topic 3 Quiz. Past due Oct 28 10:00am; MyEducator shows \"past due and does not allow late submissions\" (no answer UI). Reopen request emailed to the course TA at byufin201@gmail.com 2026-11-02 (address confirmed on the Fall 2026 syllabus PDF",
    "grade": {
     "name": "Topic 3 Quiz",
@@ -208,10 +208,13 @@
    },
    "drift": false,
    "needs_zack": true,
-   "judge": null,
+   "judge": {
+    "verdict": "automatable",
+    "why": "Online submission path, no proctoring evidence."
+   },
    "optional_ec": false,
-   "surface": true,
-   "actionable": true
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "FIN_QUIZ_4",
@@ -240,12 +243,15 @@
    "key": "FIN_MIDTERM_3",
    "status": "blocked_inperson",
    "date": "2026-11-13",
-   "note": "# Testing Center verified: opens Fri Nov 13 8:00am, $5 late fee from Mon Nov 16 11:00am, closes Mon Nov 16 6:00pm. Test 1 45%, Test 2 56%: this exam decides the course [manual:testing-center-exam-window]",
+   "note": "# Testing Center verified: opens Fri Nov 13 8:00am, $5 late fee from Mon Nov 16 11:00am, closes Mon Nov 16 6:00pm. Test 1 45%, Test 2 56%: this exam decides the course [manual:requires-the-student-in-person]",
    "title": "Testing Center verified: opens Fri Nov 13 , $5 late fee from Mon Nov 16 , closes Mon Nov 16 . Test 1 45%, Test 2 56%: this exam decides the course",
    "grade": null,
    "drift": false,
    "needs_zack": false,
-   "judge": null,
+   "judge": {
+    "verdict": "manual",
+    "why": "Requires the student in person."
+   },
    "optional_ec": false,
    "surface": true,
    "actionable": true
@@ -300,12 +306,15 @@
    "key": "FIN_FINAL",
    "status": "blocked_inperson",
    "date": "2026-12-12",
-   "note": "# Testing Center verified: opens Dec 12 8:00am, closes Dec 17 8:00pm, no late fee window. At least 400 of 1200 pts [manual:testing-center-final-window]",
+   "note": "# Testing Center verified: opens Dec 12 8:00am, closes Dec 17 8:00pm, no late fee window. At least 400 of 1200 pts [manual:requires-the-student-in-person]",
    "title": "Testing Center verified: opens Dec 12 , closes Dec 17 , no late fee window. At least 400 of",
    "grade": null,
    "drift": false,
    "needs_zack": false,
-   "judge": null,
+   "judge": {
+    "verdict": "manual",
+    "why": "Requires the student in person."
+   },
    "optional_ec": false,
    "surface": true,
    "actionable": true
@@ -315,5 +324,5 @@
  "needs": "FIN 201 Topic 3 Quiz is closed. Due Wed Oct 28, 10:00am. MyEducator says it is past due and does not allow late submissions, so there is no answer UI. The course TA (byufin201@gmail.com, the address on the syllabus) was emailed a reopen request on 2026-11-02 from zackhada@byu.edu and it is verified in Sent Items. Waiting on their reply. Going to Holmes needs your OK first. If they reopen it, take it yourself and tell me here so I close the row.",
  "course_id": null,
  "overall": {},
- "built_at": "2026-11-03T06:36:21.912242+00:00"
+ "built_at": "2026-11-03T06:41:30.642405+00:00"
 }

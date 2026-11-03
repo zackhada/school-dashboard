@@ -510,7 +510,10 @@
    "grade": null,
    "drift": false,
    "needs_zack": false,
-   "judge": null,
+   "judge": {
+    "verdict": "manual",
+    "why": "In-class presentation or live TA presentation with sign-up; requires Zack's physical presence."
+   },
    "optional_ec": false,
    "surface": true,
    "actionable": true
@@ -537,7 +540,10 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": null,
+   "judge": {
+    "verdict": "manual",
+    "why": "Named exam; rules classify exams as manual regardless of take-home format or empty submission types."
+   },
    "optional_ec": false,
    "surface": true,
    "actionable": true
@@ -552,5 +558,5 @@
   "final_score": 43.0,
   "final_grade": "E"
  },
- "built_at": "2026-11-03T06:36:21.922972+00:00"
+ "built_at": "2026-11-03T06:41:30.652435+00:00"
 }
