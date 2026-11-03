@@ -15,12 +15,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Save status payload
+        # The payload MUST arrive via env, never inlined into the shell. Until
+        # 2026-11-02 it was `echo '${{ toJson(...) }}'`, so any ledger note
+        # containing an apostrophe ("Zack's") broke the quoting and failed the
+        # step. Every class runner dispatches one of these per run, which turned
+        # into ~47 failed runs and "Run failed: Dashboard update" emails a day.
+        env:
+          PAYLOAD: ${{ toJson(github.event.client_payload) }}
+          REPO: ${{ github.event.client_payload.repo }}
         run: |
-          REPO='${{ github.event.client_payload.repo }}'
-          if [ -n "$REPO" ]; then
+          if [ -n "${REPO:-}" ]; then
             SHORT=$(basename "$REPO")
             mkdir -p data
-            echo '${{ toJson(github.event.client_payload) }}' > "data/${SHORT}.json"
+            printf '%s\n' "$PAYLOAD" > "data/${SHORT}.json"
           fi
           ls data/ 2>/dev/null || true
       - name: Sync ledgers from class repos
