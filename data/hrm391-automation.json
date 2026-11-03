@@ -63,15 +63,15 @@
   },
   {
    "key": "UNIT_1_MID_TERM_CHECKPOINT",
-   "status": "pending",
+   "status": "blocked_ask_zack",
    "date": "2026-10-07",
-   "note": "# Canvas 1511530 / quiz 663964, 1pt graded survey, lock_at 2026-10-07T17:00:00Z, due_at null, never submitted. Re-verified live 2026-11-03 (run 22): page reads \"Available until Oct 7 at 11am\" / \"This quiz was locked Oct 7 at 11am\", no Take button; in-page API assignment 1511530 unsubmitted, due_at null, lock_at 2026-10-07T17:00:00Z; quiz 663964 graded_survey 1 pt, same lock; twin 1508956 / quiz 663151 identical. Closed 27 days. Zack asks Tennis for a makeup or lets it go. DO NOT FLIP TO PENDING: an expired lock_at means closed regardless of healer classification (the healer rewrote this row to pending again on 2026-10-29 x3, 10-30 x4, 10-31 x4, 11-01 x3, 11-02, 11-03). (judged automatable 2026-11-03: online-submission-path-no-proctoring-evidence)"
+   "note": "# Canvas 1511530 / quiz 663964, 1pt graded survey, lock_at 2026-10-07T17:00:00Z, due_at null, never submitted. Re-verified live via CANVAS_TOKEN 2026-11-03: assignment 1511530 unsubmitted, due_at null, lock_at 2026-10-07T17:00:00Z; quiz 663964 graded_survey 1 pt, allowed_attempts 1, has_access_code false, same lock; twin 1508956 / quiz 663151 identical. Closed 27 days. Both are 1 pt each = 2 pts of a 700 pt course (0.3%), and they are duplicates of the same survey. ACTION TAKEN 2026-11-03: makeup request emailed from zackhada@byu.edu to BOTH TAs (Julia Gazdik jgazdik3@student.byu.edu, Elise Owens eliselo@student.byu.edu), verified in Sent Items. TA-first satisfied: the TAs told Zack on 2026-10-19 to email Tennis first, and that was done (Oct 19 email + Oct 21 meeting where he reopened Exam 1). Awaiting TA reply; if they say it is instructor-only, it escalates to Tennis and needs Zack's explicit approval for that email. DO NOT FLIP TO PENDING: an expired lock_at means closed regardless of healer classification (the healer rewrote this row to pending 22 times between 2026-10-29 and 11-03). [manual:closed-lock-2026-10-07]"
   },
   {
    "key": "SERVICE_PROJECT_PART_2_GROUP_ANALYSIS_AN",
    "status": "blocked_ask_zack",
    "date": "2026-11-22",
-   "note": "# Canvas 1513919, 100pt, Service Project\u2014Part 2: Group Analysis and Individual Reflection. Group analysis plus an individual reflection, so it needs the group's inputs and his own accounting before upload. Not a solo automation job. [manual:verify-safety-net]"
+   "note": "# Canvas 1513919, 100pt, Service Project\u2014Part 2: Group Analysis and Individual Reflection. Group analysis plus an individual reflection, so it needs the group's inputs and his own accounting before upload. Not a solo automation job. [manual:verify-online-upload-but-group-paper-needs-teammates-inputs-plus-de]"
   },
   {
    "key": "UNIT_1_MID_TERM_CHECKPOINT_2",
@@ -83,7 +83,7 @@
    "key": "HRM_REMAINING_EXAMS_AND_FINAL",
    "status": "blocked_ask_zack",
    "date": "2026-11-04",
-   "note": "# HRM 391 Exam 2, Exam 3 and Final, 50% of the grade (15/15/20). Windows now published in the Canvas Key Dates module: 2nd Exam Nov 4-10, 3rd Exam Dec 9-15, Final Dec 12-17. Not Testing Center: Exam 1 was a remotely proctored Canvas quiz. Proctored, Zack takes these. TA FIRST: Julia Gazdik jgazdik3@student.byu.edu or Elise Owens eliselo@student.byu.edu [manual:three-proctored-exams-nov4-nov9-dec9-zack-takes]"
+   "note": "# HRM 391 Exam 2, Exam 3 and Final = 50% of the grade (Unit Exams 45% group holds Exam 1 at 49/56; Final Exam group is 20%). Canvas Key Dates: 2nd Exam Nov 4-10, 3rd Exam Dec 9-15, Final Dec 12-17. Verified 2026-11-03 from the Exam 2 Start Here page: taken IN CANVAS with PROCTORIO, not the Testing Center. Exam 2 quiz is not published yet (module 428262 holds only the Start Here page, the Unit 2 study guide file 14275762, and the Unit 2 notebook 1518004), so the exact close time and whether it needs an access code like Exam 1 did are still unknown; access-code question sent to both TAs 2026-11-03. Zack's own Chrome Default profile already has the Proctorio extension installed (\"Secure Exam Proctor\" gfolddmfcichcfnghdchbfgpmgodmkjd v1.5.26163.57) plus Honorlock, so the tech path works. Proctored: Zack takes these, the agent never answers or submits exam content. TA FIRST: Julia Gazdik jgazdik3@student.byu.edu or Elise Owens eliselo@student.byu.edu. Prep artifact built: HRM391_Exam2_Practice_Set.docx (31 MC + 6 short answer + 2 applied cases, from the official study guide only). [manual:three-proctored-exams-nov4-nov10-dec9-dec15-dec12-dec17-zack-takes]"
   },
   {
    "key": "UNIT_2_OBSERVATION_NOTEBOOK_DEFAULT_ORGA",
