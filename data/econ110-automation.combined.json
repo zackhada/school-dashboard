@@ -107,7 +107,7 @@
    "key": "ECON_MEET_TA",
    "status": "blocked_inperson",
    "date": "2026-09-11",
-   "note": "# in-person TA lab B090 JFSB [manual:in-person-ta-lab-at-b090-jfsb-requires-physical-presence-no-]",
+   "note": "# in-person TA lab B090 JFSB [manual:in-person-ta-lab-in-b090-jfsb-requires-physical-presence]",
    "title": "Meet TA",
    "grade": {
     "name": "Meet Your TA",
@@ -1304,5 +1304,5 @@
   "current_score": 76.42,
   "source": "learning-suite-points"
  },
- "built_at": "2026-11-03T06:56:19.694258+00:00"
+ "built_at": "2026-11-03T06:57:17.642068+00:00"
 }
