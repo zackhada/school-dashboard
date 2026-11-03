@@ -56,10 +56,16 @@
    "note": "# Canvas 1509308, 25pt group doc; submitted 2026-10-21T16:13:02Z (late 10.2h), attachment Breaking_Bread_Group19.docx. Reconciled from live Canvas."
   },
   {
+   "key": "HI_THERE_WHATS_YOUR_TYPE",
+   "status": "done",
+   "date": "2026-11-04",
+   "note": "# Canvas 1489036, 20pt Week 8 \"Hi there, what's your type?\" (Big 5 assessment + article takeaway + reflection, online_upload, graded Complete/Not Complete). Submitted 2026-11-03T05:10:41Z (on time, attempt 1), attachment Hi_There_Whats_Your_Type_Hada.docx. Reconciled from live Canvas 2026-11-02."
+  },
+  {
    "key": "UNIT_1_MID_TERM_CHECKPOINT",
    "status": "pending",
    "date": "2026-10-07",
-   "note": "# Canvas 1511530 / quiz 663964, 1pt graded survey, lock_at 2026-10-07T17:00:00Z, due_at null, never submitted. Re-verified live 2026-11-01 (run 20): page reads \"Available until Oct 7 at 11am\", \"This quiz was locked Oct 7 at 11am\", no Take or Resume button; in-page API (200 OK) shows assignment 1511530 unsubmitted, due_at null, lock_at 2026-10-07T17:00:00Z, and twin quizzes 663964 and 663151 both graded_survey 1 pt, same lock. Closed 25 days. Zack asks Tennis for a makeup or lets it go. DO NOT FLIP TO PENDING: an expired lock_at means closed regardless of healer classification. (judged automatable 2026-11-01: online, no proctoring)"
+   "note": "# Canvas 1511530 / quiz 663964, 1pt graded survey, lock_at 2026-10-07T17:00:00Z, due_at null, never submitted. Re-verified live 2026-11-02 (run 21): in-page API shows assignment 1511530 unsubmitted, due_at null, lock_at 2026-10-07T17:00:00Z; quiz 663964 graded_survey 1 pt, same lock; twin 1508956 / quiz 663151 identical. Closed 26 days. Zack asks Tennis for a makeup or lets it go. DO NOT FLIP TO PENDING: an expired lock_at means closed regardless of healer classification (the healer rewrote this row to pending again on 2026-11-01 and 2026-11-02). (judged automatable 2026-11-02: online, no proctoring)"
   },
   {
    "key": "SERVICE_PROJECT_PART_2_GROUP_ANALYSIS_AN",
