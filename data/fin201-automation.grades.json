@@ -26,9 +26,9 @@
   {
    "name": "Topic 4 Quiz",
    "due": "2026-11-04T10:00:00",
-   "points": null,
-   "score": null,
-   "status": "not_graded",
+   "points": 10.0,
+   "score": 10.0,
+   "status": "graded",
    "missing": false,
    "submission_type": "myeducator",
    "comments": []

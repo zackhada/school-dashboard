@@ -107,7 +107,7 @@
    "key": "ECON_MEET_TA",
    "status": "blocked_inperson",
    "date": "2026-09-11",
-   "note": "# in-person TA lab B090 JFSB [manual:requires-meeting-a-ta-in-person-at-the-b090-jfsb-lab-no-onli]",
+   "note": "# in-person TA lab B090 JFSB [manual:in-person-ta-lab-at-b090-jfsb-requires-physical-presence-no-]",
    "title": "Meet TA",
    "grade": {
     "name": "Meet Your TA",
@@ -863,7 +863,7 @@
    "key": "ECON_MIDTERM_2",
    "status": "blocked_inperson",
    "date": "2026-11-05",
-   "note": "# Testing Center verified 2026-10-25: opens Thu Nov 5 8:00am, $5 late fee from Fri Nov 6 2:00pm, closes Fri Nov 6 9:00pm. Midterm 1 was 120/200 (60%) on Oct 2 [manual:testing-center-exam-window]",
+   "note": "# Testing Center verified 2026-10-25: opens Thu Nov 5 8:00am, $5 late fee from Fri Nov 6 2:00pm, closes Fri Nov 6 9:00pm. Midterm 1 was 120/200 (60%) on Oct 2 [manual:requires-the-student-in-person]",
    "title": "Testing Center verified 2026-10-25: opens Thu Nov 5 , $5 late fee from Fri Nov 6 , closes Fri Nov 6 . Midterm 1 was 120/200 (60%) on Oct 2",
    "grade": {
     "name": "Midterm 2",
@@ -1277,7 +1277,7 @@
    "key": "ECON_FINAL",
    "status": "blocked_inperson",
    "date": "2026-12-12",
-   "note": "# Testing Center, finals week; not yet scheduled on the Testing Center site as of 2026-10-25. Check /my-exams for the exact window [manual:testing-center-final-window]",
+   "note": "# Testing Center, finals week; not yet scheduled on the Testing Center site as of 2026-10-25. Check /my-exams for the exact window [manual:requires-the-student-in-person]",
    "title": "Testing Center, finals week; not yet scheduled on the Testing Center site as of 2026-10-25. Check /my-exams for the exact window",
    "grade": {
     "name": "Final Exam",
@@ -1304,5 +1304,5 @@
   "current_score": 76.42,
   "source": "learning-suite-points"
  },
- "built_at": "2026-11-03T06:44:31.533928+00:00"
+ "built_at": "2026-11-03T06:56:19.694258+00:00"
 }
