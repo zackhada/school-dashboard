@@ -121,7 +121,10 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": null,
+   "judge": {
+    "verdict": "manual",
+    "why": "In-person TA lab in B090 JFSB; requires physical presence."
+   },
    "optional_ec": false,
    "surface": true,
    "actionable": true
@@ -877,7 +880,10 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": null,
+   "judge": {
+    "verdict": "manual",
+    "why": "Requires the student in person."
+   },
    "optional_ec": false,
    "surface": true,
    "actionable": true
@@ -1291,7 +1297,10 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": null,
+   "judge": {
+    "verdict": "manual",
+    "why": "Requires the student in person."
+   },
    "optional_ec": false,
    "surface": true,
    "actionable": true
@@ -1304,5 +1313,5 @@
   "current_score": 76.42,
   "source": "learning-suite-points"
  },
- "built_at": "2026-11-03T06:57:17.642068+00:00"
+ "built_at": "2026-11-03T06:59:58.543419+00:00"
 }

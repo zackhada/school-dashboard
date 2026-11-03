@@ -397,7 +397,7 @@
    "needs_zack": true,
    "judge": {
     "verdict": "manual",
-    "why": "Requires a recorded presentation of Zack plus team coordination; student's body/voice needed"
+    "why": "Team deliverable with recorded presentation/deck/responses; requires his team in class"
    },
    "optional_ec": false,
    "surface": true,
@@ -549,7 +549,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Requires the student in person."
+    "why": "Cumulative final exam taken in person during finals week per university schedule"
    },
    "optional_ec": false,
    "surface": true,
@@ -565,5 +565,5 @@
   "final_score": 60.91,
   "final_grade": "D-"
  },
- "built_at": "2026-11-03T06:57:17.249514+00:00"
+ "built_at": "2026-11-03T06:59:58.145012+00:00"
 }
