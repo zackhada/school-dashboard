@@ -172,6 +172,31 @@ def overlap_count(tw, gw):
     return sum(1 for a in tw if any(_tok_match(a, b) for b in gw))
 
 
+# _bwords/words strip digits, so "Unit 1 ..." and "Unit 2 ..." reduce to the
+# same token set. A newly published Unit 2 checkpoint would then pair with the
+# already-closed Unit 1 row and never get a row of its own (the exact way the
+# HRM 391 checkpoint could be missed again). A differing number on the same
+# qualifier is decisive: no pairing.
+_ORDINAL_Q = (r"(unit|week|wk|exam|quiz|topic|part|module|milestone|"
+              r"checkpoint|chapter|ch|round|set)[\s_\-]*#?[\s_\-]*(\d{1,2})")
+
+
+def ordinals(s):
+    out = {}
+    for q, n in re.findall(_ORDINAL_Q, str(s or "").lower()):
+        out.setdefault(q, set()).add(int(n))
+    return out
+
+
+def ordinal_conflict(a, b):
+    """True when both strings number the same thing differently."""
+    A, B = ordinals(a), ordinals(b)
+    for q in set(A) & set(B):
+        if A[q] != B[q]:
+            return True
+    return False
+
+
 def canvas_deadline(g):
     """YYYY-MM-DD deadline from a Canvas truth row: due_at, else lock_at.
 
@@ -233,6 +258,8 @@ def build_repo(repo):
             continue
         tw = words(str(title) + " " + str(x.get("key", "")))
         for gi, g in enumerate(grades):
+            if ordinal_conflict(g.get("name"), str(title) + " " + str(x.get("key", ""))):
+                continue
             ov = overlap_count(tw, gwords[gi])
             # Learning Suite / MyEducator rows have no canvas_id; require a real
             # name overlap so a shared due date cannot pair the wrong item.

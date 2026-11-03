@@ -45,6 +45,13 @@ LS_COURSES = {"econ110-automation": "ECON 110", "fin201-automation": "FIN 201"}
 BASE = os.environ.get("CANVAS_BASE", "https://byu.instructure.com").rstrip("/")
 CLOSING_DAYS = 3   # "closing soon" horizon: anything worth points still
                    # unsubmitted inside this many days is reported daily
+# Submission types that a person can actually file online. An item whose only
+# type is none/on_paper is graded in the room, so it stays "unsubmitted" in
+# Canvas forever by design (REL C 333 Padlet and attendance rows do exactly
+# this) and must not be reported as an about-to-be-missed online item.
+ONLINE_TYPES = {"online_upload", "online_quiz", "online_text_entry",
+                "online_url", "external_tool", "basic_lti_launch",
+                "student_annotation", "media_recording", "online_discussion"}
 
 
 def token():
@@ -89,6 +96,23 @@ STOP = {"quiz", "week", "class", "reading", "assignment", "assessment", "the",
         "and", "for", "pre", "post", "study", "padlet", "sharing", "check",
         "part", "group", "project", "mid", "term", "final", "exam", "attendance",
         "online", "inclass", "what", "with", "from"}
+
+
+_ORDINAL_Q = (r"(unit|week|wk|exam|quiz|topic|part|module|milestone|"
+              r"checkpoint|chapter|ch|round|set)[\s_\-]*#?[\s_\-]*(\d{1,2})")
+
+
+def ordinal_conflict(a, b):
+    """True when both strings number the same thing differently. words() strips
+    digits, so 'Unit 1 Mid-term Checkpoint' and 'Unit 2 Mid-term Checkpoint'
+    look identical; the numbers have to be compared explicitly."""
+    def nums(t):
+        out = {}
+        for q, n in re.findall(_ORDINAL_Q, str(t or "").lower()):
+            out.setdefault(q, set()).add(int(n))
+        return out
+    A, B = nums(a), nums(b)
+    return any(A[q] != B[q] for q in set(A) & set(B))
 
 
 def score_match(ledger_title, ledger_key, name):
@@ -267,6 +291,9 @@ def main():
                 if idm and idm.group(1) == str(x.get("id")):
                     best = (100, row)
                     break
+                if ordinal_conflict(x.get("name"),
+                                    str(row.get("note") or "") + " " + key_s):
+                    continue
                 sc = score_match(row.get("note"), row.get("key"), x.get("name"))
                 if sc >= 2 and (best is None or sc > best[0]):
                     best = (sc, row)
@@ -297,8 +324,9 @@ def main():
                 # Unit 1 Mid-term Checkpoints did.
                 in_person = (best is not None
                              and str(best[1].get("status") or "") == "blocked_inperson")
+                online = bool(ONLINE_TYPES & set(x.get("submission_types") or []))
                 if state in (None, "unsubmitted") and score is None \
-                        and not in_person and \
+                        and online and not in_person and \
                         dd <= today + datetime.timedelta(days=CLOSING_DAYS):
                     findings["closing_soon"].append({
                         "course": label, "assignment": x.get("name"),
