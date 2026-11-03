@@ -397,7 +397,7 @@
    "needs_zack": true,
    "judge": {
     "verdict": "manual",
-    "why": "Team deliverable with recorded presentation/deck/responses; group artifact needing his team, not in Canvas"
+    "why": "Team deliverable: recorded group presentation, deck, and responses to other teams; no online submission"
    },
    "optional_ec": false,
    "surface": true,
@@ -565,5 +565,5 @@
   "final_score": 60.91,
   "final_grade": "D-"
  },
- "built_at": "2026-11-03T07:06:41.745683+00:00"
+ "built_at": "2026-11-03T07:21:00.746564+00:00"
 }

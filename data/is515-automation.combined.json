@@ -512,7 +512,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "In-class/TA presentation requiring student to present and sign up"
+    "why": "In-class/TA presentation with sign-up; Zack must appear in person."
    },
    "optional_ec": false,
    "surface": true,
@@ -542,7 +542,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Named an exam; taken manually in a quiet window per note, no online submission path"
+    "why": "Name is an exam; hard rule makes exams manual regardless of tool box or take-home note."
    },
    "optional_ec": false,
    "surface": true,
@@ -558,5 +558,5 @@
   "final_score": 43.0,
   "final_grade": "E"
  },
- "built_at": "2026-11-03T07:06:42.049278+00:00"
+ "built_at": "2026-11-03T07:21:00.888804+00:00"
 }

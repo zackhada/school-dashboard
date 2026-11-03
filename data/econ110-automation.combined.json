@@ -123,7 +123,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "In-person TA lab in B090 JFSB requires physical presence; no online submission path"
+    "why": "In-person TA lab in B090 JFSB requires physical presence; no online submission path."
    },
    "optional_ec": false,
    "surface": true,
@@ -841,10 +841,10 @@
   },
   {
    "key": "ECON_NEWS_OCT",
-   "status": "pending",
+   "status": "done",
    "date": "2026-11-04",
-   "note": "# Oct News Analysis",
-   "title": "Oct News Analysis",
+   "note": "# Oct News Analysis: already submitted Nov 3 12:09am MST (news_oct_analysis.pdf, DoorDash/Instacart), no redundant submit",
+   "title": "Oct News Analysis: already submitted Nov 3 MST (news_oct_analysis.pdf, DoorDash/Instacart), no redundant submit",
    "grade": {
     "name": "Oct News Analysis Participation",
     "due": "2026-11-04T23:59:00",
@@ -1313,5 +1313,5 @@
   "current_score": 76.42,
   "source": "learning-suite-points"
  },
- "built_at": "2026-11-03T07:06:42.174076+00:00"
+ "built_at": "2026-11-03T07:21:00.945438+00:00"
 }

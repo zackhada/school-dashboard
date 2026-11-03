@@ -442,7 +442,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Name is a participation quiz; participation is earned in class, and upstream item is 404/deleted."
+    "why": "Name is a participation quiz; participation is recorded in class, and item is deleted upstream (404)"
    },
    "optional_ec": false,
    "surface": true,
@@ -748,7 +748,7 @@
    "key": "PARTICIPATION_QUIZ_11_03",
    "status": "blocked_inperson",
    "date": "2026-11-03",
-   "note": "# Canvas 1511335, 3pt, Participation Quiz 11.03 (in-class/participation; drift-added 2026-10-20) [manual:name-is-a-participation-quiz-rule-makes-participation-in-cla]",
+   "note": "# Canvas 1511335, 3pt, Participation Quiz 11.03 (in-class/participation; drift-added 2026-10-20) [manual:name-is-a-participation-quiz-participation-is-earned-in-clas]",
    "title": "Participation Quiz 11.03",
    "grade": {
     "canvas_id": 1511335,
@@ -768,7 +768,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Name is a participation quiz; rule makes participation/in-class quizzes manual despite online_quiz tool."
+    "why": "Name is a participation quiz; participation is earned in class regardless of online_quiz tool"
    },
    "optional_ec": false,
    "surface": true,
@@ -798,7 +798,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Name is a participation quiz; participation is earned in class, so manual even with online_quiz tool."
+    "why": "Name is a participation quiz; participation is earned in class regardless of online_quiz tool"
    },
    "optional_ec": false,
    "surface": true,
@@ -835,7 +835,7 @@
    "key": "PARTICIPATION_QUIZ_11_10",
    "status": "blocked_inperson",
    "date": "2026-11-10",
-   "note": "# Canvas 1511339, 3pt, Participation Quiz 11.10 (in-class/participation; drift-added 2026-10-14) [manual:name-is-a-participation-quiz-rule-makes-participation-in-cla]",
+   "note": "# Canvas 1511339, 3pt, Participation Quiz 11.10 (in-class/participation; drift-added 2026-10-14) [manual:name-is-a-participation-quiz-participation-is-earned-in-clas]",
    "title": "Participation Quiz 11.10",
    "grade": {
     "canvas_id": 1511339,
@@ -855,7 +855,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Name is a participation quiz; rule makes participation/in-class quizzes manual despite online_quiz tool."
+    "why": "Name is a participation quiz; participation is earned in class regardless of online_quiz tool"
    },
    "optional_ec": false,
    "surface": true,
@@ -885,7 +885,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Name is a participation quiz; participation is earned in class, so manual even with online_quiz tool."
+    "why": "Name is a participation quiz; participation is earned in class regardless of online_quiz tool"
    },
    "optional_ec": false,
    "surface": true,
@@ -922,7 +922,7 @@
    "key": "PARTICIPATION_QUIZ_11_17",
    "status": "blocked_inperson",
    "date": "2026-11-17",
-   "note": "# Canvas 1511341, 3pt, Participation Quiz 11.17 (in-class/participation; drift-added 2026-10-14) [manual:name-is-a-participation-quiz-rule-makes-participation-in-cla]",
+   "note": "# Canvas 1511341, 3pt, Participation Quiz 11.17 (in-class/participation; drift-added 2026-10-14) [manual:name-is-a-participation-quiz-participation-is-earned-in-clas]",
    "title": "Participation Quiz 11.17",
    "grade": {
     "canvas_id": 1511341,
@@ -942,7 +942,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Name is a participation quiz; rule makes participation/in-class quizzes manual despite online_quiz tool."
+    "why": "Name is a participation quiz; participation is earned in class regardless of online_quiz tool"
    },
    "optional_ec": false,
    "surface": true,
@@ -972,7 +972,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Name is a participation quiz; participation is earned in class, so manual even with online_quiz tool."
+    "why": "Name is a participation quiz; participation is earned in class regardless of online_quiz tool"
    },
    "optional_ec": false,
    "surface": true,
@@ -1009,7 +1009,7 @@
    "key": "PARTICIPATION_QUIZ_11_24",
    "status": "blocked_inperson",
    "date": "2026-11-24",
-   "note": "# Canvas 1511344, 3pt, Participation Quiz 11.24 (in-class/participation; drift-added 2026-10-14) [manual:name-is-a-participation-quiz-rule-makes-participation-in-cla]",
+   "note": "# Canvas 1511344, 3pt, Participation Quiz 11.24 (in-class/participation; drift-added 2026-10-14) [manual:name-is-a-participation-quiz-participation-is-earned-in-clas]",
    "title": "Participation Quiz 11.24",
    "grade": {
     "canvas_id": 1511344,
@@ -1029,7 +1029,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Name is a participation quiz; rule makes participation/in-class quizzes manual despite online_quiz tool."
+    "why": "Name is a participation quiz; participation is earned in class regardless of online_quiz tool"
    },
    "optional_ec": false,
    "surface": true,
@@ -1086,7 +1086,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Name is a participation quiz; participation is earned in class, so manual even with online_quiz tool."
+    "why": "Name is a participation quiz; participation is earned in class regardless of online_quiz tool"
    },
    "optional_ec": false,
    "surface": true,
@@ -1096,7 +1096,7 @@
    "key": "PARTICIPATION_QUIZ_12_03",
    "status": "blocked_inperson",
    "date": "2026-12-03",
-   "note": "# Canvas 1511346, 3pt, Participation Quiz 12.03 (in-class/participation; drift-added 2026-10-14) [manual:name-is-a-participation-quiz-rule-makes-participation-in-cla]",
+   "note": "# Canvas 1511346, 3pt, Participation Quiz 12.03 (in-class/participation; drift-added 2026-10-14) [manual:name-is-a-participation-quiz-participation-is-earned-in-clas]",
    "title": "Participation Quiz 12.03",
    "grade": {
     "canvas_id": 1511346,
@@ -1116,7 +1116,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Name is a participation quiz; rule makes participation/in-class quizzes manual despite online_quiz tool."
+    "why": "Name is a participation quiz; participation is earned in class regardless of online_quiz tool"
    },
    "optional_ec": false,
    "surface": true,
@@ -1173,7 +1173,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Name is a participation quiz; participation is earned in class, so manual even with online_quiz tool."
+    "why": "Name is a participation quiz; participation is earned in class regardless of online_quiz tool"
    },
    "optional_ec": false,
    "surface": true,
@@ -1183,7 +1183,7 @@
    "key": "PARTICIPATION_QUIZ_12_10",
    "status": "blocked_inperson",
    "date": "2026-12-10",
-   "note": "# Canvas 1511348, 3pt, Participation Quiz 12.10 (in-class/participation; drift-added 2026-10-14) [manual:name-is-a-participation-quiz-rule-makes-participation-in-cla]",
+   "note": "# Canvas 1511348, 3pt, Participation Quiz 12.10 (in-class/participation; drift-added 2026-10-14) [manual:name-is-a-participation-quiz-participation-is-earned-in-clas]",
    "title": "Participation Quiz 12.10",
    "grade": {
     "canvas_id": 1511348,
@@ -1203,7 +1203,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Name is a participation quiz; rule makes participation/in-class quizzes manual despite online_quiz tool."
+    "why": "Name is a participation quiz; participation is earned in class regardless of online_quiz tool"
    },
    "optional_ec": false,
    "surface": true,
@@ -1246,5 +1246,5 @@
   "final_score": 20.32,
   "final_grade": "E"
  },
- "built_at": "2026-11-03T07:06:42.017946+00:00"
+ "built_at": "2026-11-03T07:21:00.873238+00:00"
 }
