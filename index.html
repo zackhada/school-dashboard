@@ -281,6 +281,40 @@ Promise.all(REPOS.map(function(pair){
   if (drift) {
     document.getElementById('needs').innerHTML += '<h2>Missing from ledger (' + classes.reduce(function(n,c){ return n + (c.drift||[]).length; }, 0) + ')</h2><p class="small">In Canvas but with no runner ledger row. Add them or they will never get done.</p><table><thead><tr><th>Assignment</th><th>Due</th><th>Grade</th></tr></thead><tbody>' + drift + '</tbody></table>';
   }
+  // Closing soon: pulled from the daily assignment audit (Canvas truth, not the
+  // ledger). This is the net that would have caught the HRM 391 Unit 1 Mid-term
+  // Checkpoints BEFORE they locked on 2026-10-07 instead of 27 days after. An
+  // item can have a ledger row, be parked as manual, or even read "done" in the
+  // ledger and still be unsubmitted in Canvas. Anything worth points with a real
+  // deadline inside three days shows here until Canvas says it is submitted.
+  fetch('data/audit.json').then(function(r){ return r.ok ? r.json() : null; }).then(function(a){
+    if (!a) return;
+    var all = [];
+    (a.closing_soon || []).forEach(function(x){
+      all.push({cls: x.course, title: x.assignment, d: x.due,
+                kind: x.deadline_kind || 'due', pts: x.points,
+                st: x.ledger_status ? ('ledger ' + x.ledger_status) : 'no ledger row'});
+    });
+    (a.missing_from_ledger || []).forEach(function(x){
+      all.push({cls: x.course, title: x.assignment, d: x.due,
+                kind: x.deadline_kind || 'due', pts: x.points,
+                st: 'NO LEDGER ROW, will never be picked up'});
+    });
+    if (!all.length) return;
+    all.sort(function(p, q){ return String(p.d).localeCompare(String(q.d)); });
+    var body = all.map(function(x){
+      return '<tr><td><b>' + esc(x.cls) + ' \u2014 ' + esc(x.title) + '</b></td>' +
+             '<td class="days-left">' + esc(String(x.d)) + '</td>' +
+             '<td class="small">' + esc(x.kind) + ' ' + esc(String(x.pts)) + 'pt \u00b7 ' +
+             esc(x.st) + '</td></tr>';
+    }).join('');
+    document.getElementById('needs').innerHTML +=
+      '<h2>Closing soon, still unsubmitted (' + all.length + ')</h2>' +
+      '<p class="small">Read from Canvas directly, not from the ledger. If an item sits here more than a day, the runner is stuck on it.</p>' +
+      '<table><thead><tr><th>Assignment</th><th>Closes</th><th>Status</th></tr></thead><tbody>' +
+      body + '</tbody></table>';
+  }).catch(function(){});
+
   document.getElementById('ts').textContent = 'Updated ' + new Date().toUTCString();
 });
 </script>

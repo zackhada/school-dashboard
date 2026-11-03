@@ -43,6 +43,8 @@ COURSES = {
 # Learning Suite / MyEducator courses keep their schedule in .state/grades.json
 LS_COURSES = {"econ110-automation": "ECON 110", "fin201-automation": "FIN 201"}
 BASE = os.environ.get("CANVAS_BASE", "https://byu.instructure.com").rstrip("/")
+CLOSING_DAYS = 3   # "closing soon" horizon: anything worth points still
+                   # unsubmitted inside this many days is reported daily
 
 
 def token():
@@ -200,7 +202,8 @@ def main():
     today = datetime.date.today()
 
     findings = {"generated": today.isoformat(), "missed": [], "exam_windows": [],
-                "missing_from_ledger": [], "date_drift": [], "zero_watch": []}
+                "missing_from_ledger": [], "date_drift": [], "zero_watch": [],
+                "closing_soon": []}
 
     # 1. Testing Center
     tc = testing_center()
@@ -232,7 +235,15 @@ def main():
             findings.setdefault("canvas_errors", []).append({repo: str(e)[:120]})
             continue
         for x in asns:
+            # The real deadline: due_at, falling back to lock_at. HRM 391 Unit 1
+            # Mid-term Checkpoints carried due_at=null and only a lock_at, so the
+            # old `not due: continue` made them permanently invisible here and
+            # they closed unnoticed on 2026-10-07. A lock_at-only quiz closes
+            # mid-day, not at 11:59pm.
             due = (x.get("due_at") or "")[:10]
+            lock = (x.get("lock_at") or "")[:10]
+            lock_only = not due and bool(lock)
+            due = due or lock
             pts = x.get("points_possible") or 0
             sub = x.get("submission") or {}
             state = sub.get("workflow_state")
@@ -240,10 +251,22 @@ def main():
             if not x.get("published", True) or not due or pts <= 0:
                 continue
             dd = datetime.date.fromisoformat(due)
+            deadline_kind = "locks" if lock_only else "due"
             covered = False
             drift = None
             best = None
             for row in ledger:
+                key_s = str(row.get("key") or "")
+                if re.search(r"(^|_)(SETUP|RECON)", key_s):
+                    continue  # bookkeeping rows never cover a graded item
+                # An exact Canvas id in the row note beats any name overlap. The
+                # Unit 2 Observation Notebook (1518004) and the Unit 1 one
+                # (1505959) share almost every word, so name overlap alone
+                # reported a false date drift between them.
+                idm = re.search(r"Canvas\s+(\d+)", str(row.get("note") or ""))
+                if idm and idm.group(1) == str(x.get("id")):
+                    best = (100, row)
+                    break
                 sc = score_match(row.get("note"), row.get("key"), x.get("name"))
                 if sc >= 2 and (best is None or sc > best[0]):
                     best = (sc, row)
@@ -263,7 +286,27 @@ def main():
                 if state in (None, "unsubmitted") and not covered:
                     findings["missing_from_ledger"].append({
                         "course": label, "assignment": x.get("name"),
-                        "due": due, "points": pts, "canvas_id": x.get("id")})
+                        "due": due, "points": pts, "canvas_id": x.get("id"),
+                        "deadline_kind": deadline_kind})
+                # CLOSING SOON safety net: independent of ledger coverage.
+                # A row that is ledgered, or parked as manual, or already marked
+                # done can still be unsubmitted in Canvas. Anything worth points
+                # that is still unsubmitted with its real deadline inside three
+                # days is reported every day until it is actually submitted, so
+                # a low-point lock-only quiz cannot slip past again the way the
+                # Unit 1 Mid-term Checkpoints did.
+                in_person = (best is not None
+                             and str(best[1].get("status") or "") == "blocked_inperson")
+                if state in (None, "unsubmitted") and score is None \
+                        and not in_person and \
+                        dd <= today + datetime.timedelta(days=CLOSING_DAYS):
+                    findings["closing_soon"].append({
+                        "course": label, "assignment": x.get("name"),
+                        "due": due, "points": pts, "canvas_id": x.get("id"),
+                        "deadline_kind": deadline_kind,
+                        "covered": covered,
+                        "ledger_key": (best[1].get("key") if best else None),
+                        "ledger_status": (best[1].get("status") if best else None)})
             nm = (x.get("name") or "").lower()
             if re.search(r"attendance|participation|clicker|passoff|check answers", nm):
                 continue
@@ -302,7 +345,14 @@ def main():
     show("EXAM WINDOWS (upcoming, unscored)", findings["exam_windows"],
          lambda r: "%-10s %-40s %s -> %s" % (r["course"], r["test"], r["opens"], r["closes"]))
     show("MISSING FROM LEDGER", findings["missing_from_ledger"],
-         lambda r: "%-10s %-52s due %s  %spt" % (r["course"], r["assignment"][:52], r["due"], r["points"]))
+         lambda r: "%-10s %-52s %s %s  %spt" % (
+             r["course"], r["assignment"][:52],
+             r.get("deadline_kind", "due"), r["due"], r["points"]))
+    show("CLOSING SOON (unsubmitted, 3 days)", findings["closing_soon"],
+         lambda r: "%-10s %-46s %s %s  %spt  ledger=%s/%s" % (
+             r["course"], r["assignment"][:46],
+             r.get("deadline_kind", "due"), r["due"], r["points"],
+             r.get("ledger_status") or "-", r.get("ledger_key") or "none"))
     show("DATE DRIFT", findings["date_drift"],
          lambda r: "%-10s %-40s canvas %s vs ledger %s (%s)" % (
              r["course"], r["assignment"][:40], r["canvas_due"], r["ledger_date"], r["ledger_key"]))

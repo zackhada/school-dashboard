@@ -88,6 +88,12 @@ def main():
         score REAL, grade TEXT, missing INTEGER, submission_type TEXT,
         submitted_at TEXT, body TEXT, comments TEXT, seen_at TEXT)"""
     )
+    # lock_at added 2026-11-03: a Canvas quiz can carry only a lock_at (no
+    # due_at), and that is the real deadline. Older DBs get the column added.
+    try:
+        db.execute("ALTER TABLE assignments ADD COLUMN lock_at TEXT")
+    except sqlite3.OperationalError:
+        pass
     for cid, repo in COURSES.items():
         items = api(f"/api/v1/courses/{cid}/assignments?per_page=100&include[]=submission")
         subs = api(
@@ -118,30 +124,33 @@ def main():
             elif sub.get("body"):
                 my_text = str(sub.get("body"))[:2000]
             ws = sub.get("workflow_state") or "unsubmitted"
+            # Fall back to lock_at so a lock-only item is judged missing too.
+            deadline = a.get("due_at") or a.get("lock_at")
             missing = bool(sub.get("missing") or (ws == "unsubmitted"
-                           and _past(a.get("due_at"))))
+                           and _past(deadline)))
             db.execute(
                 """INSERT OR REPLACE INTO assignments
                 (canvas_id, course_id, repo, name, due_at, points,
                  workflow_state, score, grade, missing, submission_type,
-                 submitted_at, body, comments, seen_at) VALUES
-                (?,?,?,?,?,?,?,?,?,?,?,?,?,?,datetime('now'))""",
+                 submitted_at, body, comments, seen_at, lock_at) VALUES
+                (?,?,?,?,?,?,?,?,?,?,?,?,?,?,datetime('now'),?)""",
                 (a["id"], cid, repo, a.get("name"), a.get("due_at"),
                  a.get("points_possible"), ws, sub.get("score"),
                  sub.get("grade"), int(missing),
                  sub.get("submission_type"), sub.get("submitted_at"),
-                 my_text, json.dumps(comments)),
+                 my_text, json.dumps(comments), a.get("lock_at")),
             )
             rows.append(
                 {"canvas_id": a["id"], "name": a.get("name"),
-                 "due": a.get("due_at"), "points": a.get("points_possible"),
+                 "due": a.get("due_at"), "lock_at": a.get("lock_at"),
+                 "deadline": deadline, "points": a.get("points_possible"),
                  "status": ws, "score": sub.get("score"),
                  "grade": sub.get("grade"), "missing": missing,
                  "submitted_at": sub.get("submitted_at"),
                  "submission_type": sub.get("submission_type"),
                  "my_submission": my_text, "comments": comments}
             )
-        rows.sort(key=lambda r: (r["due"] is None, r["due"] or ""))
+        rows.sort(key=lambda r: (r["deadline"] is None, r["deadline"] or ""))
         os.makedirs(os.path.join(ROOT, "data"), exist_ok=True)
         overall = course_overall(cid, uid)
         json.dump({"repo": f"zackhada/{repo}", "rows": rows,

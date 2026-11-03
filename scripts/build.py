@@ -172,6 +172,19 @@ def overlap_count(tw, gw):
     return sum(1 for a in tw if any(_tok_match(a, b) for b in gw))
 
 
+def canvas_deadline(g):
+    """YYYY-MM-DD deadline from a Canvas truth row: due_at, else lock_at.
+
+    A quiz can carry only a lock_at (HRM 391 Unit 1 Mid-term Checkpoint had
+    due_at=null, lock_at=2026-10-07T17:00:00Z). Reading due_at alone dated such
+    rows 9999-12-31 on the dashboard and hid the real deadline.
+    """
+    if not isinstance(g, dict):
+        return ""
+    v = g.get("due") or g.get("due_at") or g.get("lock_at") or g.get("deadline")
+    return str(v)[:10] if v else ""
+
+
 def day_bonus(gday, due_day):
     # Exact day wins (100); +/-1 day allowed (60) because ledger dates are
     # Mountain-local and Canvas due_at is UTC.
@@ -225,7 +238,7 @@ def build_repo(repo):
             # name overlap so a shared due date cannot pair the wrong item.
             if ov == 0 and g.get("canvas_id") is None:
                 continue
-            score = ov * 10 + day_bonus(str(g.get("due") or "")[:10], x["date"])
+            score = ov * 10 + day_bonus(canvas_deadline(g), x["date"])
             if score > 0:
                 pairs.append((score, i, gi))
     pairs.sort(key=lambda t: -t[0])
@@ -297,7 +310,7 @@ def build_repo(repo):
     for g in unmatched:
         rows.append({"key": "CANVAS_%s" % g.get("canvas_id"),
                      "status": "missing_from_ledger",
-                     "date": str(g.get("due") or "")[:10] or "9999-12-31",
+                     "date": canvas_deadline(g) or "9999-12-31",
                      "note": "# In Canvas but no ledger row; runner must add it",
                      "title": g.get("name"), "grade": g, "drift": True})
     rows.sort(key=lambda r: r["date"])

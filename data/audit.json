@@ -1,10 +1,38 @@
 {
- "generated": "2026-10-29",
+ "generated": "2026-11-03",
  "missed": [],
  "exam_windows": [],
  "missing_from_ledger": [],
  "date_drift": [],
  "zero_watch": [
+  {
+   "course": "HRM 391",
+   "assignment": "Student Information Questionnaire",
+   "due": "2026-09-06",
+   "points": 1.0,
+   "score": null
+  },
+  {
+   "course": "HRM 391",
+   "assignment": "Professional Perspective Interview",
+   "due": "2026-09-09",
+   "points": 1.0,
+   "score": null
+  },
+  {
+   "course": "HRM 391",
+   "assignment": "Unit 1 Mid-term Checkpoint",
+   "due": "2026-10-07",
+   "points": 1.0,
+   "score": null
+  },
+  {
+   "course": "HRM 391",
+   "assignment": "Unit 1 Mid-term Checkpoint",
+   "due": "2026-10-07",
+   "points": 1.0,
+   "score": null
+  },
   {
    "course": "ECON 110",
    "assignment": "Meet Your TA",
@@ -27,22 +55,40 @@
    "score": 0.0
   }
  ],
- "testing_center_error": "InterruptedError: [Errno 4] Interrupted system call: '/Users/zackhada/Desktop/school agent/school-healer/scripts'",
- "canvas_errors": [
+ "closing_soon": [
   {
-   "hrm391-automation": "<urlopen error [Errno 4] Interrupted system call: '/Users/zackhada/Desktop/school agent/school-healer/scripts'>"
+   "course": "IS 515",
+   "assignment": "14.9 Lookups Assessment",
+   "due": "2026-11-05",
+   "points": 20.0,
+   "canvas_id": 1452615,
+   "deadline_kind": "due",
+   "covered": true,
+   "ledger_key": "IS_LOOKUP",
+   "ledger_status": "pending"
   },
   {
-   "is515-automation": "<urlopen error [Errno 4] Interrupted system call: '/Users/zackhada/Desktop/school agent/school-healer/scripts'>"
+   "course": "REL C 333",
+   "assignment": "11/3 - Pre-Class Study and Padlet Sharing",
+   "due": "2026-11-03",
+   "points": 10.0,
+   "canvas_id": 1466501,
+   "deadline_kind": "due",
+   "covered": true,
+   "ledger_key": "11_3_PRE_CLASS_STUDY_AND_PADLET_SHARING",
+   "ledger_status": "done"
   },
   {
-   "pse390-automation": "<urlopen error [Errno 4] Interrupted system call: '/Users/zackhada/Desktop/school agent/school-healer/scripts'>"
-  },
-  {
-   "rel-c-333-automation": "<urlopen error [Errno 4] Interrupted system call: '/Users/zackhada/Desktop/school agent/school-healer/scripts'>"
-  },
-  {
-   "strat392-automation": "<urlopen error [Errno 4] Interrupted system call: '/Users/zackhada/Desktop/school agent/school-healer/scripts'>"
+   "course": "REL C 333",
+   "assignment": "11/5 - Pre-Class Study and Padlet Sharing",
+   "due": "2026-11-05",
+   "points": 10.0,
+   "canvas_id": 1466502,
+   "deadline_kind": "due",
+   "covered": true,
+   "ledger_key": "11_5_PRE_CLASS_STUDY_AND_PADLET_SHARING",
+   "ledger_status": "done"
   }
- ]
+ ],
+ "testing_center_error": "login failed"
 }
