@@ -85,7 +85,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Requires printed notes+summary brought to class for in-class peer check; physical artifact"
+    "why": "Requires printed notes+summary brought to class for in-class peer check; physical artifact."
    },
    "optional_ec": false,
    "surface": true,
@@ -365,5 +365,5 @@
   "final_score": 57.41,
   "final_grade": "E"
  },
- "built_at": "2026-11-03T06:59:58.108345+00:00"
+ "built_at": "2026-11-03T07:05:47.025192+00:00"
 }

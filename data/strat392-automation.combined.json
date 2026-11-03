@@ -397,7 +397,7 @@
    "needs_zack": true,
    "judge": {
     "verdict": "manual",
-    "why": "Team deliverable with recorded presentation/deck/responses; requires his team in class"
+    "why": "Team deliverable with recorded presentation/deck/responses; group artifact needing his team, not in Canvas"
    },
    "optional_ec": false,
    "surface": true,
@@ -549,7 +549,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Cumulative final exam taken in person during finals week per university schedule"
+    "why": "Requires the student in person."
    },
    "optional_ec": false,
    "surface": true,
@@ -565,5 +565,5 @@
   "final_score": 60.91,
   "final_grade": "D-"
  },
- "built_at": "2026-11-03T06:59:58.145012+00:00"
+ "built_at": "2026-11-03T07:05:47.046592+00:00"
 }

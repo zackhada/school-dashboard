@@ -208,10 +208,7 @@
    },
    "drift": false,
    "needs_zack": true,
-   "judge": {
-    "verdict": "automatable",
-    "why": "Online submission path, no proctoring evidence."
-   },
+   "judge": null,
    "optional_ec": false,
    "surface": false,
    "actionable": false
@@ -324,5 +321,5 @@
  "needs": "FIN 201: Topic 3 Quiz is still closed (past due Oct 28, no late submissions). Reopen request to the TA (byufin201@gmail.com) is sent, no reply yet. Escalating to Holmes needs your OK. If it reopens, take it yourself and tell me. Topic 4 Quiz is done (10/10). Next due: Topic 11, Dec 2.",
  "course_id": null,
  "overall": {},
- "built_at": "2026-11-03T06:59:58.384868+00:00"
+ "built_at": "2026-11-03T07:05:47.220591+00:00"
 }
