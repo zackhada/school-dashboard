@@ -1,11 +1,24 @@
 {
- "generated_at": "2026-11-03T06:41:04.107859+00:00",
+ "generated_at": "2026-11-03T06:59:01.716367+00:00",
  "model": "opencode-go/deepseek-v4.1-flash",
  "repos": {
   "econ110-automation": {
-   "detail": "ERROR:opencode/deepseek-v4.1-flash-free: rc=1 \u001b[0m\n> build \u00b7 deepseek-v4.1-flash-free\n\u001b[0m\n\u001b[91m\u001b[1mError: \u001b[0mUpstream request failed: Invalid credential\n",
+   "detail": null,
    "judged": 3,
-   "verdicts": {}
+   "verdicts": {
+    "ECON_FINAL": {
+     "verdict": "manual",
+     "why": "Requires the student in person."
+    },
+    "ECON_MEET_TA": {
+     "verdict": "manual",
+     "why": "In-person TA lab in B090 JFSB; requires physical presence."
+    },
+    "ECON_MIDTERM_2": {
+     "verdict": "manual",
+     "why": "Requires the student in person."
+    }
+   }
   },
   "fin201-automation": {
    "detail": null,
@@ -35,11 +48,11 @@
     },
     "PROF_PERSPECTIVE_INTERVIEW": {
      "verdict": "manual",
-     "why": "Requires printed notes and summary brought to class for in-person peer check"
+     "why": "Requires printed notes+summary brought to class for in-class peer check; physical artifact"
     },
     "SERVICE_PROJECT_PART_2_GROUP_ANALYSIS_AN": {
      "verdict": "verify",
-     "why": "Name/note mention individual reflection and group inputs; description says reflection not required"
+     "why": "model called it automatable, but the item name needs a human call: Service Project\u2014Part 2: Group Analysis and Individual Reflec"
     }
    }
   },
@@ -49,11 +62,11 @@
    "verdicts": {
     "IS_EXAM2": {
      "verdict": "manual",
-     "why": "Named exam; rules classify exams as manual regardless of take-home format or empty submission types."
+     "why": "Named exam; note says Zack takes it manually in a quiet window, comprehensive and non-collaborative."
     },
     "IS_PROJECT_PRESENT": {
      "verdict": "manual",
-     "why": "In-class presentation or live TA presentation with sign-up; requires Zack's physical presence."
+     "why": "In-class or TA presentation with sign-up; Zack must present in person."
     }
    }
   },
@@ -63,51 +76,51 @@
    "verdicts": {
     "PARTICIPATION_QUIZ_10_13_2": {
      "verdict": "manual",
-     "why": "Name is a participation quiz; participation is earned in class, no online path."
+     "why": "Name is participation quiz; participation is earned in class, item deleted upstream (404)"
     },
     "PARTICIPATION_QUIZ_11_03": {
      "verdict": "manual",
-     "why": "Name is participation quiz; participation earned in class despite online_quiz tool."
+     "why": "Name is participation quiz; participation is earned in class"
     },
     "PARTICIPATION_QUIZ_11_05": {
      "verdict": "manual",
-     "why": "Name is participation quiz; participation earned in class despite online_quiz tool."
+     "why": "Name is participation quiz; participation is earned in class"
     },
     "PARTICIPATION_QUIZ_11_10": {
      "verdict": "manual",
-     "why": "Name is participation quiz; participation earned in class despite online_quiz tool."
+     "why": "Name is participation quiz; participation is earned in class"
     },
     "PARTICIPATION_QUIZ_11_12": {
      "verdict": "manual",
-     "why": "Name is participation quiz; participation earned in class despite online_quiz tool."
+     "why": "Name is participation quiz; participation is earned in class"
     },
     "PARTICIPATION_QUIZ_11_17": {
      "verdict": "manual",
-     "why": "Name is participation quiz; participation earned in class despite online_quiz tool."
+     "why": "Name is participation quiz; participation is earned in class"
     },
     "PARTICIPATION_QUIZ_11_19": {
      "verdict": "manual",
-     "why": "Name is participation quiz; participation earned in class despite online_quiz tool."
+     "why": "Name is participation quiz; participation is earned in class"
     },
     "PARTICIPATION_QUIZ_11_24": {
      "verdict": "manual",
-     "why": "Name is participation quiz; participation earned in class despite online_quiz tool."
+     "why": "Name is participation quiz; participation is earned in class"
     },
     "PARTICIPATION_QUIZ_12_01": {
      "verdict": "manual",
-     "why": "Name is participation quiz; participation earned in class despite online_quiz tool."
+     "why": "Name is participation quiz; participation is earned in class"
     },
     "PARTICIPATION_QUIZ_12_03": {
      "verdict": "manual",
-     "why": "Name is participation quiz; participation earned in class despite online_quiz tool."
+     "why": "Name is participation quiz; participation is earned in class"
     },
     "PARTICIPATION_QUIZ_12_08": {
      "verdict": "manual",
-     "why": "Name is participation quiz; participation earned in class despite online_quiz tool."
+     "why": "Name is participation quiz; participation is earned in class"
     },
     "PARTICIPATION_QUIZ_12_10": {
      "verdict": "manual",
-     "why": "Name is participation quiz; participation earned in class despite online_quiz tool."
+     "why": "Name is participation quiz; participation is earned in class"
     }
    }
   },
@@ -117,51 +130,51 @@
    "verdicts": {
     "11_10_ATTENDANCE_CHECK": {
      "verdict": "manual",
-     "why": "Attendance check recorded in the classroom"
+     "why": "Attendance check recorded in the classroom; requires student present"
     },
     "11_12_ATTENDANCE_CHECK": {
      "verdict": "manual",
-     "why": "Attendance check recorded in the classroom"
+     "why": "Attendance check recorded in the classroom; requires student present"
     },
     "11_17_ATTENDANCE_CHECK": {
      "verdict": "manual",
-     "why": "Attendance check recorded in the classroom"
+     "why": "Attendance check recorded in the classroom; requires student present"
     },
     "11_19_ATTENDANCE_CHECK": {
      "verdict": "manual",
-     "why": "Attendance check recorded in the classroom"
+     "why": "Attendance check recorded in the classroom; requires student present"
     },
     "11_24_ATTENDANCE_CHECK": {
      "verdict": "manual",
-     "why": "Attendance check recorded in the classroom"
+     "why": "Attendance check recorded in the classroom; requires student present"
     },
     "11_3_ATTENDANCE_CHECK": {
      "verdict": "manual",
-     "why": "Attendance check recorded in the classroom"
+     "why": "Attendance check recorded in the classroom; requires student present"
     },
     "11_5_ATTENDANCE_CHECK": {
      "verdict": "manual",
-     "why": "Attendance check recorded in the classroom"
+     "why": "Attendance check recorded in the classroom; requires student present"
     },
     "12_10_ATTENDANCE_CHECK": {
      "verdict": "manual",
-     "why": "Attendance check recorded in the classroom"
+     "why": "Attendance check recorded in the classroom; requires student present"
     },
     "12_1_ATTENDANCE_CHECK": {
      "verdict": "manual",
-     "why": "Attendance check recorded in the classroom"
+     "why": "Attendance check recorded in the classroom; requires student present"
     },
     "12_3_ATTENDANCE_CHECK": {
      "verdict": "manual",
-     "why": "Attendance check recorded in the classroom"
+     "why": "Attendance check recorded in the classroom; requires student present"
     },
     "12_8_ATTENDANCE_CHECK": {
      "verdict": "manual",
-     "why": "Attendance check recorded in the classroom"
+     "why": "Attendance check recorded in the classroom; requires student present"
     },
     "A_PROFILE_OF_A_PROPHET_GROUP_PROJECT": {
      "verdict": "manual",
-     "why": "Group presentation delivered in class; in-class delivery cannot be automated despite online upload"
+     "why": "In-class group presentation delivery by student; cannot automate the live delivery"
     }
    }
   },
@@ -171,15 +184,15 @@
    "verdicts": {
     "SESSION1_WHAT_IS_STRATEGY": {
      "verdict": "manual",
-     "why": "submission_types=none; deliverable was bringing examples to the Sep 8 class, no online path"
+     "why": "submission_types=none; deliverable was bringing examples to Sep 8 class, no online submission"
     },
     "STRAT_FINAL_EXAM": {
      "verdict": "manual",
-     "why": "Requires the student in person."
+     "why": "Cumulative final exam taken in person during finals week per university schedule"
     },
     "STRAT_MARKET_ENTRY_LAB": {
      "verdict": "manual",
-     "why": "Requires a recorded presentation of Zack plus team coordination; student's body/voice needed"
+     "why": "Team deliverable with recorded presentation/deck/responses; requires his team in class"
     }
    }
   }
