@@ -175,6 +175,11 @@ def testing_center(term="20265"):
         sys.path.insert(0, os.path.join(AGENT, "school-healer", "scripts"))
         import testing_center as tc  # noqa: E402
         return asyncio.run(tc.gather(term, tc.COURSES))
+    except ModuleNotFoundError as e:
+        # A GitHub-hosted runner has no school folder and no Chrome, so the
+        # Testing Center read cannot happen there. Say so plainly: the exam
+        # registry fallback below is then the expected path, not a failure.
+        return {"error": "testing-center-not-available-here (%s)" % e}
     except Exception as e:
         return {"error": f"{type(e).__name__}: {e}"}
 
