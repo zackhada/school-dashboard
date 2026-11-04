@@ -69,6 +69,7 @@ def main():
     now = datetime.datetime.now(datetime.timezone.utc)
     offline, stale, errors = [], [], []
     online_total = 0
+    queued = 0
 
     for repo in REPOS:
         base = "https://api.github.com/repos/%s/%s" % (OWNER, repo)
@@ -82,6 +83,9 @@ def main():
         online_total += online
         if online == 0:
             offline.append(repo)
+
+        q = get(base + "/actions/runs?status=queued&per_page=30")
+        queued += len(q.get("workflow_runs") or [])
 
         runs = get(base + "/actions/runs?status=success&per_page=1")
         wr = (runs.get("workflow_runs") or [{}])[0]
@@ -120,6 +124,7 @@ def main():
         "runners_online": online_total,
         "runners_checked": len(REPOS),
         "offline_repos": offline,
+        "queued_runs": queued,
         "stale_repos": stale,
         "heartbeat": heartbeat,
         "errors": errors,
@@ -132,7 +137,7 @@ def main():
         json.dump(out, f, indent=1)
     print(json.dumps({k: out[k] for k in
                       ("runners_online", "runners_checked", "offline_repos",
-                       "healthy")}, indent=1))
+                       "queued_runs", "healthy")}, indent=1))
     if heartbeat:
         print("heartbeat age (h):", heartbeat.get("age_hours"),
               "free_gb:", heartbeat.get("free_gb"))

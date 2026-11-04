@@ -233,3 +233,20 @@ looked perfectly normal. Two fixes:
    `GH_TOKEN` falling back to `github.token`. Verified: it now fails the check
    and opens issue #1 "Self-hosted runners offline" (school-healer) instead of
    claiming health.
+
+## SPARE MAC ASLEEP IS NORMAL (2026-11-04)
+The runner host sleeps and wakes on its own. A frozen heartbeat and an offline
+fleet are an expected state, not an outage, and the right response is to let the
+queue drain when it wakes. Two changes so the system matches that:
+
+- The dashboard banner now reads "Waiting for the spare Mac to wake" with the
+  queued run count, and says plainly that nothing is needed. `health.py` counts
+  queued runs across all seven repos. It only says "Automation needs a look"
+  when the Mac is awake and something is still wrong.
+- Every repo now sleeps a fixed per-repo offset before `session_refresh.py` in
+  both `daily-selfhosted.yml` and `session-keepalive-selfhosted.yml`: ECON 0s,
+  FIN 45, HRM 90, IS 135, PSE 180, REL 225, STRAT 270. All seven share one Duo
+  account, and simultaneous first sign-ins after a cold wake cross-consume text
+  codes (the 2026-10-09 lockout). A hash-based version was tried first and
+  collided into only three distinct offsets, so the offsets are hardcoded off
+  the 9240-9246 port assignment.

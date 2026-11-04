@@ -383,13 +383,20 @@ Promise.all(REPOS.map(function(pair){
     if (hb.free_gb) bits.push('free disk ' + hb.free_gb + ' GB');
     if (hb.bridge === false) bits.push('SMS bridge down');
     var stale = (h.stale_repos || []);
-    var msg = ok ? 'Automation healthy' : 'Automation NOT running on its own';
+    var msg = ok ? 'Automation healthy'
+                 : (asleep ? 'Waiting for the spare Mac to wake' : 'Automation needs a look');
     var html = '<div class="health ' + (ok ? 'ok' : 'bad') + '"><b>' + esc(msg) + '</b> ' +
                esc(bits.join(' \u00b7 ')) + '</div>';
-    if (!ok) {
-      html += '<p class="small">Nothing below updates itself until the spare Mac wakes. ' +
-              'Right now that means coursework and keepalives wait, while this page and its dates ' +
-              'still refresh from GitHub every 12 hours.</p>';
+    if (!ok && asleep) {
+      // The Mac sleeping is normal, not an incident: it wakes on its own and
+      // the queued runs drain then, staggered by repo so Duo is not stampeded.
+      html += '<p class="small">Expected, nothing to do. ' +
+              (h.queued_runs ? h.queued_runs + ' run(s) are queued and start when it wakes, ' +
+                               'about 45 seconds apart per class (0s ECON to 270s STRAT). ' : '') +
+              'This page and its dates still refresh from GitHub every 12 hours, ' +
+              'so the list below is current even while the Mac sleeps.</p>';
+    } else if (!ok) {
+      html += '<p class="small">Something is not where it should be. Check the watchdog issue in school-healer.</p>';
     }
     if (stale.length) {
       html += '<p class="small">Most stale: ' + stale.slice(0,3).map(function(x){
