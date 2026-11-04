@@ -35,6 +35,7 @@ tr.today td.days-left{color:#c00;font-weight:700}
 <h1>Fall 2026 Dashboard</h1>
 <p class="small" id="ts">Loading...</p>
 <div id="needs"></div>
+<div id="audit"></div>
 <div id="app"></div>
 <script>
 var REPOS = [
@@ -312,7 +313,12 @@ Promise.all(REPOS.map(function(pair){
     // registry when that read is unavailable (audit.exam_windows_source).
     var exams = (a.exam_windows || []).concat(a.missed || []);
     if (exams.length) {
-      exams.sort(function(p, q){ return String(p.closes).localeCompare(String(q.closes)); });
+      // Sort by real time, not alphabetically: "Dec 09" sorts before "Nov 04"
+      // as a string, which put the furthest exam first (2026-11-04).
+      exams.sort(function(p, q){
+        var A = Date.parse(p.closes || '') || 0, B = Date.parse(q.closes || '') || 0;
+        return A - B;
+      });
       var erows = exams.map(function(x){
         var missed = (a.missed || []).indexOf(x) >= 0;
         return '<tr><td><b>' + esc(x.course) + ' \u2014 ' + esc(x.test) + '</b></td>' +
@@ -321,7 +327,7 @@ Promise.all(REPOS.map(function(pair){
                '<td class="' + (missed ? 'overdue' : 'days-left') + '">' +
                (missed ? 'MISSED, no score' : 'not taken yet') + '</td></tr>';
       }).join('');
-      document.getElementById('needs').innerHTML +=
+      document.getElementById('audit').innerHTML +=
         '<h2>Exams and proctored windows (' + exams.length + ')</h2>' +
         '<p class="small">Source: ' + esc(a.exam_windows_source || 'testing center') +
         '. Proctored exams are yours to sit, never automated.</p>' +
@@ -347,7 +353,7 @@ Promise.all(REPOS.map(function(pair){
              '<td class="small">' + esc(x.kind) + ' ' + esc(String(x.pts)) + 'pt \u00b7 ' +
              esc(x.st) + '</td></tr>';
     }).join('');
-    document.getElementById('needs').innerHTML +=
+    document.getElementById('audit').innerHTML +=
       '<h2>Closing soon, still unsubmitted (' + all.length + ')</h2>' +
       '<p class="small">Read from Canvas directly, not from the ledger. If an item sits here more than a day, the runner is stuck on it.</p>' +
       '<table><thead><tr><th>Assignment</th><th>Closes</th><th>Status</th></tr></thead><tbody>' +

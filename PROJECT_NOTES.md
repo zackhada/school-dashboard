@@ -181,3 +181,18 @@ Also in this pass:
   not satisfy it.
 - Zero watch no longer reports REL Padlet rows. They are graded in Padlet, so
   Canvas shows them unsubmitted forever and the 0 is just "not graded yet".
+
+## PUBLISHING: GitHub Pages is NOT available for this repo (2026-11-04)
+`gh api /repos/zackhada/school-dashboard/pages` returns 404 and a POST returns
+422 "Your current plan does not support GitHub Pages for this repository."
+`has_pages` is false and the repo is private. https://zackhada.github.io/school-dashboard/
+404s, and a push no longer triggers pages-build-deployment. The last successful
+deployment was 2026-11-03, so Pages worked then and stopped afterwards, most
+likely when the repo went private or the plan changed.
+The data and page are correct in the repo; only the delivery is broken. Until
+that is resolved, view it locally:
+  cd ~/Desktop/"school agent"/school-dashboard && python3 -m http.server 8765
+  open http://127.0.0.1:8765/index.html
+Options (Zack's call, privacy relevant): make this repo public so free Pages
+works, or publish a public repo containing only index.html + data, or keep it
+local. Do NOT flip repo visibility without his explicit approval.
