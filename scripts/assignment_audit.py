@@ -269,7 +269,12 @@ def main():
         # label the source, so the exam list is never empty just because a login
         # failed. The live Testing Center read still wins whenever it works.
         findings["exam_windows_source"] = "registry"
+        # Prefer the school-root registry (kept in sync by hand), then the copy
+        # committed in this repo so the exam list survives on a machine that
+        # does not have the school folder (GitHub-hosted runners, 2026-11-04).
         reg = os.path.join(AGENT, "scripts", "in_person_required.json")
+        if not os.path.exists(reg):
+            reg = os.path.join(DATA, "exam_registry.json")
         if os.path.exists(reg):
             try:
                 regd = json.load(open(reg))

@@ -1,0 +1,56 @@
+name: Refresh dashboard (hosted)
+
+# Why this exists (2026-11-04): every other workflow here runs on `self-hosted`,
+# which is a Mac that sleeps. When it sleeps, nothing refreshes, and stale data
+# is how wrong dates sat on the dashboard unnoticed. This job needs only HTTP
+# (GitHub API + Canvas REST), so it runs on a GitHub-hosted runner and keeps the
+# published dates current even when that Mac is off. It never submits anything:
+# Canvas is read-only here, same as the rest of the repo.
+
+on:
+  schedule:
+    - cron: '20 12,0 * * *'   # 05:20 and 17:20 Mountain
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-hosted
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Sync ledgers from the class repos
+        continue-on-error: true
+        env:
+          DISPATCH_TOKEN: ${{ secrets.DISPATCH_TOKEN }}
+        run: python3 scripts/sync_ledgers.py
+
+      - name: Assignment audit (Canvas read-only)
+        continue-on-error: true
+        env:
+          CANVAS_TOKEN: ${{ secrets.CANVAS_TOKEN }}
+        run: python3 scripts/assignment_audit.py --days 21
+
+      - name: Build combined view
+        run: python3 scripts/build.py
+
+      - name: Commit if changed
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "Zack Hada"
+          git config user.email "zackhada@byu.edu"
+          git add data
+          if git diff --cached --quiet; then
+            echo "no data change"
+            exit 0
+          fi
+          git commit -m "data: hosted refresh $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push
