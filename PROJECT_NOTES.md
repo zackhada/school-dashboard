@@ -211,3 +211,25 @@ without replacing the delivery first.
 
 Every push to main rebuilds Pages automatically (legacy builder, branch source),
 so no deploy workflow is needed.
+
+## HEALTH BANNER (2026-11-04): the page had no way to say "nothing is running"
+Zack asked "is everything healthy?" and the honest answer was no, while the page
+looked perfectly normal. Two fixes:
+
+1. `scripts/health.py` writes `data/health.json` every hosted refresh: runner
+   count per repo, which repos have no online runner, which repos have no
+   successful run in 30 hours, and the runner Mac's heartbeat age, free disk,
+   bridge and guard state. `index.html` renders it at the top of the page:
+   "Automation healthy" in green, or "Automation NOT running on its own" in
+   amber with the reason. A naive heartbeat timestamp is read as UTC, otherwise
+   the subtraction raised and the heartbeat silently disappeared.
+2. `school-healer/.github/workflows/always-on-healer.yml` was reporting
+   "runners healthy and no milestone is due" with all nine runners offline. Two
+   bugs stacked: `python3 scripts/runner_watchdog.py | tee file` returns tee's
+   status (0) so `continue-on-error` never saw the failure, and school-healer
+   has no `DISPATCH_TOKEN` secret, so the watchdog exited 2 for a missing token
+   and the issue step had an empty `GH_TOKEN`. Fixed with `set -o pipefail`,
+   `secrets.DISPATCH_TOKEN || secrets.OPS_TOKEN || secrets.PAT_CLASS`, and
+   `GH_TOKEN` falling back to `github.token`. Verified: it now fails the check
+   and opens issue #1 "Self-hosted runners offline" (school-healer) instead of
+   claiming health.

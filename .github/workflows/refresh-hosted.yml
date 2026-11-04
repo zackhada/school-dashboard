@@ -38,6 +38,12 @@ jobs:
           CANVAS_TOKEN: ${{ secrets.CANVAS_TOKEN }}
         run: python3 scripts/assignment_audit.py --days 21
 
+      - name: Health snapshot (runners, heartbeat, staleness)
+        continue-on-error: true
+        env:
+          DISPATCH_TOKEN: ${{ secrets.DISPATCH_TOKEN }}
+        run: python3 scripts/health.py
+
       - name: Build combined view
         run: python3 scripts/build.py
 

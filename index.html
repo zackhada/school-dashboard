@@ -26,6 +26,9 @@ tr:hover td{background:#f9f9f9}
 a{color:#0066cc;text-decoration:none}
 a:hover{text-decoration:underline}
 .overdue{color:#c00;font-weight:600}
+.health{margin:10px 0;padding:10px 12px;border-radius:8px;font-size:14px}
+.health.ok{background:#e8f5e9;border:1px solid #9ccc65;color:#1b5e20}
+.health.bad{background:#fff3e0;border:1px solid #ffb74d;color:#8a4b00}
 .days-left{font-variant-numeric:tabular-nums}
 tr.past td{color:#999}
 tr.past td.days-left{color:#999;font-weight:400}
@@ -34,6 +37,7 @@ tr.today td.days-left{color:#c00;font-weight:700}
 </head><body>
 <h1>Fall 2026 Dashboard</h1>
 <p class="small" id="ts">Loading...</p>
+<div id="health"></div>
 <div id="needs"></div>
 <div id="audit"></div>
 <div id="app"></div>
@@ -358,6 +362,41 @@ Promise.all(REPOS.map(function(pair){
       '<p class="small">Read from Canvas directly, not from the ledger. If an item sits here more than a day, the runner is stuck on it.</p>' +
       '<table><thead><tr><th>Assignment</th><th>Closes</th><th>Status</th></tr></thead><tbody>' +
       body + '</tbody></table>';
+  }).catch(function(){});
+
+
+  // Health banner (2026-11-04). "Everything looks fine" was the failure mode:
+  // the runner fleet was dark for a day and a half while this page rendered
+  // normally, because only the coursework data was shown, never whether the
+  // thing doing the work was alive.
+  fetch('data/health.json').then(function(r){ return r.ok ? r.json() : null; }).then(function(h){
+    if (!h) return;
+    var hb = h.heartbeat || {};
+    var age = (hb.age_hours === undefined || hb.age_hours === null) ? null : hb.age_hours;
+    var asleep = (age !== null && age > 1);
+    var offline = (h.offline_repos || []).length;
+    var ok = h.healthy && !offline && !asleep;
+    var bits = [];
+    bits.push((h.runners_online || 0) + ' of ' + (h.runners_checked || 0) + ' runners online');
+    if (offline) bits.push(offline + ' repos with no online runner');
+    if (asleep) bits.push('spare Mac silent for ' + Math.round(age) + ' hours');
+    if (hb.free_gb) bits.push('free disk ' + hb.free_gb + ' GB');
+    if (hb.bridge === false) bits.push('SMS bridge down');
+    var stale = (h.stale_repos || []);
+    var msg = ok ? 'Automation healthy' : 'Automation NOT running on its own';
+    var html = '<div class="health ' + (ok ? 'ok' : 'bad') + '"><b>' + esc(msg) + '</b> ' +
+               esc(bits.join(' \u00b7 ')) + '</div>';
+    if (!ok) {
+      html += '<p class="small">Nothing below updates itself until the spare Mac wakes. ' +
+              'Right now that means coursework and keepalives wait, while this page and its dates ' +
+              'still refresh from GitHub every 12 hours.</p>';
+    }
+    if (stale.length) {
+      html += '<p class="small">Most stale: ' + stale.slice(0,3).map(function(x){
+        return esc(x.repo.replace('-automation','')) + ' (' + (x.last_success_hours === null ? 'never' : Math.round(x.last_success_hours) + 'h') + ')';
+      }).join(', ') + '</p>';
+    }
+    document.getElementById('health').innerHTML = html;
   }).catch(function(){});
 
   document.getElementById('ts').textContent = 'Updated ' + new Date().toUTCString();
