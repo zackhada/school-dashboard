@@ -152,6 +152,6 @@
    "ledger_status": "pending"
   }
  ],
- "testing_center_error": "login failed",
+ "testing_center_error": "ModuleNotFoundError: No module named 'testing_center'",
  "exam_windows_source": "registry"
 }
