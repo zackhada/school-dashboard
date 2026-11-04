@@ -152,6 +152,6 @@
    "ledger_status": "pending"
   }
  ],
- "testing_center_error": "ModuleNotFoundError: No module named 'testing_center'",
+ "testing_center_error": "testing-center-not-available-here (No module named 'testing_center')",
  "exam_windows_source": "registry"
 }
