@@ -7,16 +7,7 @@
    "date": "2026-09-05",
    "note": "# Qualtrics bio survey (facts on record)",
    "title": "Qualtrics bio survey",
-   "grade": {
-    "name": "Biographical Survey",
-    "due": "2026-09-08T23:59:00",
-    "points": 10.0,
-    "score": 10.0,
-    "status": "graded",
-    "missing": false,
-    "submission_type": "learning_suite",
-    "comments": []
-   },
+   "grade": null,
    "drift": false,
    "needs_zack": false,
    "judge": null,
@@ -863,32 +854,6 @@
    "actionable": false
   },
   {
-   "key": "ECON_MIDTERM_2",
-   "status": "blocked_inperson",
-   "date": "2026-11-05",
-   "note": "# Testing Center verified 2026-10-25: opens Thu Nov 5 8:00am, $5 late fee from Fri Nov 6 2:00pm, closes Fri Nov 6 9:00pm. Midterm 1 was 120/200 (60%) on Oct 2 [manual:requires-the-student-in-person]",
-   "title": "Testing Center verified 2026-10-25: opens Thu Nov 5 , $5 late fee from Fri Nov 6 , closes Fri Nov 6 . Midterm 1 was 120/200 (60%) on Oct 2",
-   "grade": {
-    "name": "Midterm 2",
-    "due": "2026-11-06T19:00:00",
-    "points": 100.0,
-    "score": null,
-    "status": "not_graded",
-    "missing": false,
-    "submission_type": "learning_suite",
-    "comments": []
-   },
-   "drift": false,
-   "needs_zack": false,
-   "judge": {
-    "verdict": "manual",
-    "why": "Requires the student in person."
-   },
-   "optional_ec": false,
-   "surface": true,
-   "actionable": true
-  },
-  {
    "key": "ECON_NEQ_9",
    "status": "pending",
    "date": "2026-11-06",
@@ -933,6 +898,32 @@
    "optional_ec": false,
    "surface": false,
    "actionable": false
+  },
+  {
+   "key": "ECON_MIDTERM_2",
+   "status": "blocked_inperson",
+   "date": "2026-11-06",
+   "note": "# Testing Center verified 2026-10-25: opens Thu Nov 5 8:00am, $5 late fee from Fri Nov 6 2:00pm, closes Fri Nov 6 9:00pm. Midterm 1 was 120/200 (60%) on Oct 2 [manual:requires-the-student-in-person]",
+   "title": "Testing Center verified 2026-10-25: opens Thu Nov 5 , $5 late fee from Fri Nov 6 , closes Fri Nov 6 . Midterm 1 was 120/200 (60%) on Oct 2",
+   "grade": {
+    "name": "Midterm 2",
+    "due": "2026-11-06T19:00:00",
+    "points": 100.0,
+    "score": null,
+    "status": "not_graded",
+    "missing": false,
+    "submission_type": "learning_suite",
+    "comments": []
+   },
+   "drift": false,
+   "needs_zack": false,
+   "judge": {
+    "verdict": "manual",
+    "why": "Requires the student in person."
+   },
+   "optional_ec": false,
+   "surface": true,
+   "actionable": true
   },
   {
    "key": "ECON_TA_PASSOFF_8",
@@ -1282,19 +1273,10 @@
   {
    "key": "ECON_FINAL",
    "status": "blocked_inperson",
-   "date": "2026-12-12",
+   "date": "2026-12-17",
    "note": "# Testing Center, finals week; not yet scheduled on the Testing Center site as of 2026-10-25. Check /my-exams for the exact window [manual:requires-the-student-in-person]",
    "title": "Testing Center, finals week; not yet scheduled on the Testing Center site as of 2026-10-25. Check /my-exams for the exact window",
-   "grade": {
-    "name": "Final Exam",
-    "due": "2026-12-10T18:00:00",
-    "points": 225.0,
-    "score": null,
-    "status": "not_graded",
-    "missing": false,
-    "submission_type": "learning_suite",
-    "comments": []
-   },
+   "grade": null,
    "drift": false,
    "needs_zack": false,
    "judge": {
@@ -1313,5 +1295,5 @@
   "current_score": 76.42,
   "source": "learning-suite-points"
  },
- "built_at": "2026-11-03T14:04:37.905796+00:00"
+ "built_at": "2026-11-04T16:17:00.058122+00:00"
 }

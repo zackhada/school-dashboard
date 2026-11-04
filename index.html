@@ -49,12 +49,30 @@ var REPOS = [
 var now = new Date(); now.setHours(0,0,0,0);
 var in14 = new Date(now.getTime() + 14*864e5);
 function parseD(s){ var m = /^(\d{4})-(\d{2})-(\d{2})/.exec(s||''); return m ? new Date(+m[1],+m[2]-1,+m[3]) : null; }
+// Canvas stores due_at in UTC. A 11:59pm Mountain deadline is written as
+// 06:59:59Z THE NEXT DAY, so slicing the UTC date showed every such item a day
+// late (IS 515 "Nov 5" that really closes Nov 4). Convert any ISO timestamp to
+// its Mountain calendar date before it is displayed or counted down.
+var MTN_FMT = new Intl.DateTimeFormat('en-CA', {timeZone:'America/Denver', year:'numeric', month:'2-digit', day:'2-digit'});
+function mtnDay(s){
+  var str = String(s||'');
+  if (!/^\d{4}-\d{2}-\d{2}T/.test(str)) return parseD(str);
+  var d = new Date(str);
+  if (isNaN(d)) return parseD(str);
+  var parts = MTN_FMT.formatToParts(d), y, m, day;
+  parts.forEach(function(p){ if(p.type==='year')y=p.value; if(p.type==='month')m=p.value; if(p.type==='day')day=p.value; });
+  return new Date(+y, +m-1, +day);
+}
+function fmtDay(d){
+  if (!d) return '';
+  return d.toLocaleDateString('en-US', {weekday:'short', month:'short', day:'numeric'});
+}
 function esc(s){ return String(s||'').replace(/</g,'&lt;'); }
 // Deadline for countdown/sort: Canvas due_at is truth when the row is matched
 // to a Canvas item, else the ledger date. Prevents a stale ledger placeholder
 // (e.g. HRM 391 Exam 1's 2026-12-01) from showing a false "48 days left".
 function dueOf(x){
-  if (x.grade && x.grade.due) { var cd = parseD(String(x.grade.due)); if (cd) return cd; }
+  if (x.grade && x.grade.due) { var cd = mtnDay(String(x.grade.due)); if (cd) return cd; }
   return parseD(x.date);
 }
 function daysLeft(d){ if(!d) return ''; return Math.ceil((d - now)/864e5); }
@@ -289,14 +307,35 @@ Promise.all(REPOS.map(function(pair){
   // deadline inside three days shows here until Canvas says it is submitted.
   fetch('data/audit.json').then(function(r){ return r.ok ? r.json() : null; }).then(function(a){
     if (!a) return;
+    // Exams first: these are the dates that cannot be recovered if they slip.
+    // Windows come from the live Testing Center read, or from the verified
+    // registry when that read is unavailable (audit.exam_windows_source).
+    var exams = (a.exam_windows || []).concat(a.missed || []);
+    if (exams.length) {
+      exams.sort(function(p, q){ return String(p.closes).localeCompare(String(q.closes)); });
+      var erows = exams.map(function(x){
+        var missed = (a.missed || []).indexOf(x) >= 0;
+        return '<tr><td><b>' + esc(x.course) + ' \u2014 ' + esc(x.test) + '</b></td>' +
+               '<td class="small">' + esc(x.opens || 'n/a') + '</td>' +
+               '<td class="small">' + esc(x.closes || 'n/a') + '</td>' +
+               '<td class="' + (missed ? 'overdue' : 'days-left') + '">' +
+               (missed ? 'MISSED, no score' : 'not taken yet') + '</td></tr>';
+      }).join('');
+      document.getElementById('needs').innerHTML +=
+        '<h2>Exams and proctored windows (' + exams.length + ')</h2>' +
+        '<p class="small">Source: ' + esc(a.exam_windows_source || 'testing center') +
+        '. Proctored exams are yours to sit, never automated.</p>' +
+        '<table><thead><tr><th>Exam</th><th>Opens</th><th>Closes</th><th>Status</th></tr></thead><tbody>' +
+        erows + '</tbody></table>';
+    }
     var all = [];
     (a.closing_soon || []).forEach(function(x){
-      all.push({cls: x.course, title: x.assignment, d: x.due,
+      all.push({cls: x.course, title: x.assignment, d: x.due, when: mtnDay(x.due),
                 kind: x.deadline_kind || 'due', pts: x.points,
                 st: x.ledger_status ? ('ledger ' + x.ledger_status) : 'no ledger row'});
     });
     (a.missing_from_ledger || []).forEach(function(x){
-      all.push({cls: x.course, title: x.assignment, d: x.due,
+      all.push({cls: x.course, title: x.assignment, d: x.due, when: mtnDay(x.due),
                 kind: x.deadline_kind || 'due', pts: x.points,
                 st: 'NO LEDGER ROW, will never be picked up'});
     });
@@ -304,7 +343,7 @@ Promise.all(REPOS.map(function(pair){
     all.sort(function(p, q){ return String(p.d).localeCompare(String(q.d)); });
     var body = all.map(function(x){
       return '<tr><td><b>' + esc(x.cls) + ' \u2014 ' + esc(x.title) + '</b></td>' +
-             '<td class="days-left">' + esc(String(x.d)) + '</td>' +
+             '<td class="days-left">' + esc(fmtDay(x.when) || String(x.d)) + '</td>' +
              '<td class="small">' + esc(x.kind) + ' ' + esc(String(x.pts)) + 'pt \u00b7 ' +
              esc(x.st) + '</td></tr>';
     }).join('');

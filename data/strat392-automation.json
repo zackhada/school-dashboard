@@ -94,43 +94,43 @@
   {
    "key": "DISRUPTION_READING_QUIZ",
    "status": "pending",
-   "date": "2026-11-18",
+   "date": "2026-11-17",
    "note": "# Canvas 1513158, 10pt, Disruption Reading Quiz; online New Quizzes (no lockdown/access code), reclassified from blocked_inperson 2026-10-21"
   },
   {
    "key": "STRATEGIC_ALIGNMENT_READING_QUIZ",
    "status": "pending",
-   "date": "2026-11-20",
+   "date": "2026-11-19",
    "note": "# Canvas 1513162, 10pt, Strategic Alignment Reading Quiz; online New Quizzes (no lockdown/access code), reclassified from blocked_inperson 2026-10-21"
   },
   {
    "key": "PLATFORMS_AS_STRATEGY_READING_QUIZ",
    "status": "pending",
-   "date": "2026-12-02",
+   "date": "2026-12-01",
    "note": "# Canvas 1513165, 10pt, Platforms as Strategy Reading Quiz; online New Quizzes (no lockdown/access code), reclassified from blocked_inperson 2026-10-21"
   },
   {
    "key": "GLOBAL_ENTRY_MODES_READING_QUIZ",
    "status": "done",
-   "date": "2026-11-04",
+   "date": "2026-11-03",
    "note": "# Canvas 1513528, 10pt, Global Entry Modes Reading Quiz; reconciled 2026-11-02: already submitted attempt 1 2026-10-31T01:03:26Z, graded 10/10, on time. Ledger had not been updated. Online New Quizzes (no lockdown/access code)"
   },
   {
    "key": "BUILDING_COMPETITIVE_MOATS_READING_QUIZ",
    "status": "pending",
-   "date": "2026-11-11",
+   "date": "2026-11-10",
    "note": "# Canvas 1513602, 10pt, Building Competitive Moats Reading Quiz; online New Quizzes (no lockdown/access code), reclassified from blocked_inperson 2026-10-21"
   },
   {
    "key": "STRATEGY_AND_INNOVATION_READING_QUIZ",
    "status": "pending",
-   "date": "2026-12-09",
+   "date": "2026-12-08",
    "note": "# Canvas 1513613, 10pt, Strategy and Innovation Reading Quiz; online New Quizzes (no lockdown/access code), reclassified from blocked_inperson 2026-10-21"
   },
   {
    "key": "STRATEGY_JOURNAL",
    "status": "pending",
-   "date": "2026-09-09",
+   "date": "2026-12-15",
    "note": "# Syllabus: Strategy Journal, 50 pts, due last day of class (Session 28, Tue Dec 15). Syllabus-only, not a Canvas assignment yet. Personal entries, Zack's own voice: confirm with Zack before drafting, do not auto-write. Date field corrected 2026-11-02 (prior runs only edited the note; the field still read 2026-09-09, so the guard kept treating it as 7 weeks overdue and bypassed the 3-day window)."
   },
   {
@@ -148,8 +148,8 @@
   {
    "key": "STRAT_MARKET_ENTRY_LAB",
    "status": "blocked_ask_zack",
-   "date": "2026-11-05",
-   "note": "# Syllabus: Market Entry Lab, 60pt team deliverable (Session 19, Thu Nov 5), recorded presentation plus deck plus responses to two other teams. Not in Canvas yet. Needs Zack's team. [manual:team-deliverable-needs-his-team]"
+   "date": "2026-11-17",
+   "note": "# Canvas assignment 1519226 \"Market Entry Strategy Assignment\", 60pt, due Tue Nov 17 11:59pm MT (2026-11-18T06:59:59Z), read live 2026-11-04. NOT the Nov 5 syllabus date. The attached PDF (course file 14302433, STRAT_392_Market_Entry_Group_Assignment.pdf) specifies: teams of 4-5; one PHYSICAL product with a real six-digit HS code; an individual iLabz.org Market Entry Lab account per member; run the lab, adjust the weights, rank markets; pick ONE country; pick ONE of the five entry modes (exporting, licensing, franchising, joint venture, wholly owned); and deliver ONE video of 3-5 minutes answering five stated questions, hard 5 minute ceiling, no written report. Weighted lab results must be on screen. One submission per team, filename = team member names, everyone gets the same grade. The earlier Raising Cane's restaurant/JV deck and 10 minute script in market_entry_lab/ do NOT satisfy this: a restaurant is a service with no HS code, and the video ceiling is 5 minutes. Needs Zack's real team first (Group 19 in the HRM thread is not a STRAT team). [manual:team-and-ilabz-account-needed]"
   }
  ],
  "source": "progress.txt"

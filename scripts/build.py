@@ -25,6 +25,35 @@ import os
 import re
 from datetime import datetime, timezone
 
+try:
+    from zoneinfo import ZoneInfo
+    MTN = ZoneInfo("America/Denver")
+except Exception:  # pragma: no cover - tzdata missing on an odd host
+    MTN = None
+
+
+def mtn_day(value):
+    """Mountain calendar date for a Canvas timestamp (or a plain date).
+
+    Canvas writes due_at in UTC, so a 11:59pm Mountain deadline is stored as
+    06:59:59Z the NEXT day. Slicing the UTC date dated every such item one day
+    late on the dashboard (IS 515 14.9 read Nov 5 when it closes Nov 4).
+    """
+    s = str(value or "")
+    if not s:
+        return ""
+    if "T" not in s:
+        return s[:10]
+    try:
+        dt = datetime.fromisoformat(s.replace("Z", "+00:00"))
+    except ValueError:
+        return s[:10]
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    if MTN is not None:
+        return dt.astimezone(MTN).date().isoformat()
+    return dt.date().isoformat()  # pragma: no cover
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "data")
 
@@ -207,7 +236,7 @@ def canvas_deadline(g):
     if not isinstance(g, dict):
         return ""
     v = g.get("due") or g.get("due_at") or g.get("lock_at") or g.get("deadline")
-    return str(v)[:10] if v else ""
+    return mtn_day(v)
 
 
 def day_bonus(gday, due_day):
@@ -261,11 +290,25 @@ def build_repo(repo):
             if ordinal_conflict(g.get("name"), str(title) + " " + str(x.get("key", ""))):
                 continue
             ov = overlap_count(tw, gwords[gi])
-            # Learning Suite / MyEducator rows have no canvas_id; require a real
-            # name overlap so a shared due date cannot pair the wrong item.
-            if ov == 0 and g.get("canvas_id") is None:
+            # A shared due date is NEVER evidence on its own (2026-11-04). The
+            # old rule let any Canvas row with a canvas_id pair at overlap 0,
+            # so "HRM 391 Exam 2/3/Final" attached to "Unit 2 Group Service
+            # Project (No Submission)" and "STRAT Final Exam" attached to a
+            # September assignment, and the dashboard showed those exams on the
+            # wrong day. Weak name overlap also needs the date to agree, unless
+            # the Canvas row carries no deadline at all (then it cannot borrow
+            # a wrong one).
+            if ov == 0:
                 continue
-            score = ov * 10 + day_bonus(canvas_deadline(g), x["date"])
+            gday = canvas_deadline(g)
+            dbon = day_bonus(gday, x["date"])
+            # Token matching is prefix-based ("finals" matches "final"), so a
+            # long prose note inflates overlap. When the ledger title is prose
+            # rather than a short assignment name, demand that the dates agree.
+            short_title = len(str(title).split()) <= 6
+            if gday and not dbon and (not short_title or ov < 3):
+                continue
+            score = ov * 10 + dbon
             if score > 0:
                 pairs.append((score, i, gi))
     pairs.sort(key=lambda t: -t[0])
@@ -331,6 +374,11 @@ def build_repo(repo):
                  if g.get("canvas_id") is not None
                  and g.get("canvas_id") not in matched_ids
                  and (g.get("points") or 0) > 0
+                 # A row with no due_at and no lock_at is a gradebook total
+                 # ("Participation and Engagement Grade") or an undated item.
+                 # It has no deadline, so it can never be "missed" and must not
+                 # sit in drift as if the runner forgot it (2026-11-04).
+                 and canvas_deadline(g)
                  and not (g.get("score") is not None
                           and g.get("points") is not None
                           and g.get("score") >= g.get("points"))]

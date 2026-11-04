@@ -132,3 +132,52 @@ table, they just do not appear on the action list.
 - Rule going forward: a blank Score cell on an exam whose Closes date has passed
   means never taken, not ungraded. Check the Testing Center before trusting a
   class-level pass/fail claim.
+
+## DASHBOARD DATES PASS (2026-11-04): UTC vs Mountain, and matcher bugs
+Zack noticed the dates on the dashboard were wrong. Three separate causes, all
+fixed and verified against live sources.
+
+1. TIMEZONE (the big one). Canvas writes `due_at` in UTC, so every "11:59pm
+   Mountain" deadline is stored as 06:59:59Z the NEXT day. `index.html`,
+   `build.py` and `assignment_audit.py` all sliced the UTC date, so most
+   coursework showed a day late (IS 515 14.9 read Nov 5 when it closes Nov 4).
+   Now `mtnDay()` (JS) and `mtn_day()` (both Python files) convert to
+   America/Denver first. Ledger `date` fields are Mountain-local by convention
+   and now agree exactly, so the +/-1 day tolerance is no longer load-bearing.
+2. MATCHER ZERO-OVERLAP PAIRING. Any Canvas row that had a canvas_id could pair
+   at name overlap 0, purely because the dates were near. That is how
+   "HRM 391 Exam 2/3/Final" borrowed the date of "Unit 2 Group Service Project
+   (No Submission)" (Nov 7) and "STRAT Final Exam" borrowed a September
+   assignment. Pairing now requires real name overlap, and weak overlap needs an
+   agreeing date unless the Canvas row has no deadline at all. Re-checked after
+   the change: drift is 0 for all seven repos.
+3. DRIFT ON UNDATED ROWS. A Canvas row with no `due_at` and no `lock_at` is a
+   gradebook total ("Participation and Engagement Grade"), not a missed
+   assignment, so it is no longer counted as drift or dated 9999-12-31.
+
+Also in this pass:
+- Exam windows are now actually rendered. `audit.json` had been computing them
+  and `index.html` never displayed them, so the highest-stakes dates were
+  invisible on the page. New "Exams and proctored windows" table, soonest close
+  first, with MISSED flagged.
+- The Testing Center read needs a live CAS session, and on 2026-11-04 it failed
+  (Duo sat on a Touch ID prompt). When it fails, `assignment_audit.py` now falls
+  back to the verified exam registry (`scripts/in_person_required.json`,
+  `kind: exam`) and labels the source in the table, so a login failure cannot
+  blank out the exam list again. HRM Exam 2, Exam 3 and the HRM Final were added
+  to that registry as exam rows (Canvas module titles: Nov 4-10, Dec 9-15,
+  Dec 12-17).
+- Ledger dates corrected in the class repos to the real Mountain deadlines:
+  STRAT Market Entry Nov 17 (Canvas 1519226, was the Nov 5 syllabus date),
+  STRAT Strategy Journal Dec 15 (was a stale Sep 9), STRAT reading quizzes one
+  day earlier each, HRM Service Project Nov 21, HRM Unit 2 notebook Nov 10, HRM
+  aggregate exam row Nov 10, REL Prophet project Dec 10, REL Part B Oct 31,
+  ECON Midterm 2 Nov 6 and Final Dec 17, FIN Test 3 Nov 16 and Final Dec 17,
+  PSE weekly quizzes to their Saturday dates, IS 12.7 Oct 28.
+- STRAT Market Entry note rebuilt from the actual Canvas PDF: teams of 4-5, one
+  physical product with a six-digit HS code, iLabz.org lab with weighted
+  results, one country, one entry mode, ONE 3-to-5 minute video, hard 5 minute
+  ceiling, no written report. The restaurant/JV deck in market_entry_lab/ does
+  not satisfy it.
+- Zero watch no longer reports REL Padlet rows. They are graded in Padlet, so
+  Canvas shows them unsubmitted forever and the 0 is just "not graded yet".

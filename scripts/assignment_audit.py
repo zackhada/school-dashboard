@@ -27,6 +27,36 @@ import re
 import sys
 import urllib.request
 
+try:
+    from zoneinfo import ZoneInfo
+    MTN = ZoneInfo("America/Denver")
+except Exception:  # pragma: no cover
+    MTN = None
+
+
+def mtn_day(value):
+    """Mountain calendar date from a Canvas UTC timestamp (2026-11-04 fix).
+
+    Every Canvas due_at is UTC, so "11:59pm Mountain" lands on the next UTC
+    day. Slicing the UTC date made the audit report (and the Closing soon
+    table) one day late, and would also have written the wrong day into
+    calendar alerts.
+    """
+    s = str(value or "")
+    if not s:
+        return ""
+    if "T" not in s:
+        return s[:10]
+    try:
+        dt = datetime.datetime.fromisoformat(s.replace("Z", "+00:00"))
+    except ValueError:
+        return s[:10]
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=datetime.timezone.utc)
+    if MTN is not None:
+        return dt.astimezone(MTN).date().isoformat()
+    return dt.date().isoformat()  # pragma: no cover
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 DATA = os.path.join(ROOT, "data")
@@ -233,7 +263,37 @@ def main():
     tc = testing_center()
     if "error" in tc:
         findings["testing_center_error"] = tc["error"]
+        # Fallback (2026-11-04): the Testing Center needs a live CAS session, and
+        # when Chrome or Duo is down the dashboard lost every exam date, which is
+        # the worst thing to lose. Loop the verified exam registry in instead and
+        # label the source, so the exam list is never empty just because a login
+        # failed. The live Testing Center read still wins whenever it works.
+        findings["exam_windows_source"] = "registry"
+        reg = os.path.join(AGENT, "scripts", "in_person_required.json")
+        if os.path.exists(reg):
+            try:
+                regd = json.load(open(reg))
+            except Exception:
+                regd = {}
+            for it in regd.get("items") or []:
+                if it.get("kind") != "exam":
+                    continue
+                try:
+                    start = datetime.datetime.fromisoformat(it["start"])
+                    end = datetime.datetime.fromisoformat(it["end"])
+                except Exception:
+                    continue
+                if end.date() < today:
+                    continue
+                findings["exam_windows"].append({
+                    "course": it.get("course"),
+                    "test": it.get("title"),
+                    "opens": start.strftime("%b %d, %Y %I:%M %p"),
+                    "closes": end.strftime("%b %d, %Y %I:%M %p"),
+                    "score": "",
+                    "source": "registry"})
     else:
+        findings["exam_windows_source"] = "testing-center"
         for course, rows in (tc.get("exams") or {}).items():
             for r in rows:
                 name = r.get("test") or "(unnamed, opens %s)" % r.get("opens")
@@ -264,8 +324,8 @@ def main():
             # old `not due: continue` made them permanently invisible here and
             # they closed unnoticed on 2026-10-07. A lock_at-only quiz closes
             # mid-day, not at 11:59pm.
-            due = (x.get("due_at") or "")[:10]
-            lock = (x.get("lock_at") or "")[:10]
+            due = mtn_day(x.get("due_at"))
+            lock = mtn_day(x.get("lock_at"))
             lock_only = not due and bool(lock)
             due = due or lock
             pts = x.get("points_possible") or 0
@@ -339,6 +399,12 @@ def main():
             if re.search(r"attendance|participation|clicker|passoff|check answers", nm):
                 continue
             if dd < today and state == "unsubmitted" and pts > 0:
+                # REL C 333 "Pre-Class Study and Padlet Sharing" is graded in
+                # Padlet, so Canvas shows it unsubmitted forever and the 0 is
+                # just "not graded yet". Reporting it as a zero every day is
+                # noise that hides real zeros (2026-11-04).
+                if re.search(r"(?i)padlet", x.get("name") or ""):
+                    continue
                 findings["zero_watch"].append({
                     "course": label, "assignment": x.get("name"), "due": due,
                     "points": pts, "score": score})
@@ -347,7 +413,7 @@ def main():
     for repo, label in LS_COURSES.items():
         g = load_json(repo + ".grades.json") or {}
         for r in g.get("rows") or []:
-            due = (r.get("due") or "")[:10]
+            due = mtn_day(r.get("due"))
             if not due or (r.get("points") or 0) <= 0:
                 continue
             dd = datetime.date.fromisoformat(due)
