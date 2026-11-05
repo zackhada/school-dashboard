@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04",
+ "generated": "2026-11-05",
  "missed": [],
  "exam_windows": [
   {
@@ -76,7 +76,15 @@
   }
  ],
  "missing_from_ledger": [],
- "date_drift": [],
+ "date_drift": [
+  {
+   "course": "HRM 391",
+   "assignment": "Unit 2 Exam - Groups and Individuals (Remotely Proctored)",
+   "canvas_due": "2026-11-10",
+   "ledger_date": "2026-10-22",
+   "ledger_key": "EXAM1"
+  }
+ ],
  "zero_watch": [
   {
    "course": "HRM 391",
@@ -107,6 +115,13 @@
    "score": null
   },
   {
+   "course": "IS 515",
+   "assignment": "14.9 Lookups Assessment",
+   "due": "2026-11-04",
+   "points": 20.0,
+   "score": null
+  },
+  {
    "course": "ECON 110",
    "assignment": "Meet Your TA",
    "due": "2026-09-11",
@@ -129,17 +144,6 @@
   }
  ],
  "closing_soon": [
-  {
-   "course": "IS 515",
-   "assignment": "14.9 Lookups Assessment",
-   "due": "2026-11-04",
-   "points": 20.0,
-   "canvas_id": 1452615,
-   "deadline_kind": "due",
-   "covered": true,
-   "ledger_key": "IS_LOOKUP",
-   "ledger_status": "pending"
-  },
   {
    "course": "PSE 390",
    "assignment": "Ethics and Public Quiz - Week 9",
