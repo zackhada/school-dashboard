@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05",
+ "generated": "2026-11-06",
  "missed": [],
  "exam_windows": [
   {
@@ -130,6 +130,17 @@
   }
  ],
  "closing_soon": [
+  {
+   "course": "IS 515",
+   "assignment": "15.8 Text Assessment",
+   "due": "2026-11-09",
+   "points": 20.0,
+   "canvas_id": 1452616,
+   "deadline_kind": "due",
+   "covered": true,
+   "ledger_key": "IS_TEXT",
+   "ledger_status": "pending"
+  },
   {
    "course": "PSE 390",
    "assignment": "Ethics and Public Quiz - Week 9",
