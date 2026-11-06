@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T06:51Z",
+ "generated": "2026-11-06T19:27Z",
  "runners_online": 0,
  "runners_checked": 9,
  "offline_repos": [
@@ -17,36 +17,36 @@
  "stale_repos": [
   {
    "repo": "econ110-automation",
-   "last_success_hours": 71.0
+   "last_success_hours": 83.6
   },
   {
    "repo": "fin201-automation",
-   "last_success_hours": 70.9
+   "last_success_hours": 83.5
   },
   {
    "repo": "hrm391-automation",
-   "last_success_hours": 70.9
+   "last_success_hours": 83.5
   },
   {
    "repo": "is515-automation",
-   "last_success_hours": 70.6
+   "last_success_hours": 83.2
   },
   {
    "repo": "pse390-automation",
-   "last_success_hours": 63.9
+   "last_success_hours": 76.5
   },
   {
    "repo": "rel-c-333-automation",
-   "last_success_hours": 70.3
+   "last_success_hours": 82.9
   },
   {
    "repo": "strat392-automation",
-   "last_success_hours": 70.3
+   "last_success_hours": 82.9
   }
  ],
  "heartbeat": {
   "ts": "2026-11-03T08:05:01",
-  "age_hours": 70.8,
+  "age_hours": 83.4,
   "free_gb": "15",
   "bridge": true,
   "guard": "up"
