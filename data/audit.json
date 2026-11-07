@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06",
+ "generated": "2026-11-07",
  "missed": [],
  "exam_windows": [
   {
@@ -7,14 +7,6 @@
    "test": "HRM 391 Exam 2 (Canvas, Proctorio)",
    "opens": "Nov 04, 2026 12:00 AM",
    "closes": "Nov 10, 2026 11:59 PM",
-   "score": "",
-   "source": "registry"
-  },
-  {
-   "course": "ECON 110",
-   "test": "ECON 110 Midterm 2 (Testing Center)",
-   "opens": "Nov 05, 2026 08:00 AM",
-   "closes": "Nov 06, 2026 09:00 PM",
    "score": "",
    "source": "registry"
   },
@@ -131,6 +123,17 @@
  ],
  "closing_soon": [
   {
+   "course": "HRM 391",
+   "assignment": "Unit 2 Observation Notebook/Default Organization Entries",
+   "due": "2026-11-10",
+   "points": 30.0,
+   "canvas_id": 1518004,
+   "deadline_kind": "due",
+   "covered": true,
+   "ledger_key": "UNIT_2_OBSERVATION_NOTEBOOK_DEFAULT_ORGA",
+   "ledger_status": "pending"
+  },
+  {
    "course": "IS 515",
    "assignment": "15.8 Text Assessment",
    "due": "2026-11-09",
@@ -150,6 +153,17 @@
    "deadline_kind": "due",
    "covered": true,
    "ledger_key": "WEEKLY_QUIZ_WK09",
+   "ledger_status": "pending"
+  },
+  {
+   "course": "STRAT 392",
+   "assignment": "Building Competitive Moats \u2014 Reading Quiz",
+   "due": "2026-11-10",
+   "points": 10.0,
+   "canvas_id": 1513602,
+   "deadline_kind": "due",
+   "covered": true,
+   "ledger_key": "BUILDING_COMPETITIVE_MOATS_READING_QUIZ",
    "ledger_status": "pending"
   }
  ],
