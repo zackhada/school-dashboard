@@ -191,29 +191,6 @@
    "actionable": false
   },
   {
-   "key": "FIN_QUIZ_3",
-   "status": "pending",
-   "date": "2026-10-28",
-   "note": "# Topic 3 Quiz. Still closed 2026-11-02 23:45: activity.insert returns \"Started on Thu, Oct 29, 2026, 5:12 PM\" plus \"past due and does not allow late submissions\", no answer UI, gradebook row still ungraded. Reopen request emailed to the course TA at byufin201@gmail.com 2026-11-02 from zackhada@byu.edu (verified in Sent Items); no reply yet. Escalating to Holmes (andy.holmes678@gmail.com) needs Zack's explicit approval. If it is reopened, Zack takes it himself. Status moved from pending to blocked_ask_zack so this dead row stops starving the queue (Topic 4 was due Nov 4 10:00am). (judged automatable 2026-11-02: online-submission-path-no-proctoring-evidence)",
-   "title": "Topic 3 Quiz. Still closed 2026-11-02 23:45: activity.insert returns \"Started on Thu",
-   "grade": {
-    "name": "Topic 3 Quiz",
-    "due": "2026-10-28T10:00:00",
-    "points": null,
-    "score": null,
-    "status": "not_graded",
-    "missing": false,
-    "submission_type": "myeducator",
-    "comments": []
-   },
-   "drift": false,
-   "needs_zack": true,
-   "judge": null,
-   "optional_ec": false,
-   "surface": false,
-   "actionable": false
-  },
-  {
    "key": "FIN_QUIZ_4",
    "status": "done",
    "date": "2026-11-04",
@@ -231,6 +208,29 @@
    },
    "drift": false,
    "needs_zack": false,
+   "judge": null,
+   "optional_ec": false,
+   "surface": false,
+   "actionable": false
+  },
+  {
+   "key": "FIN_QUIZ_3",
+   "status": "pending",
+   "date": "2026-11-10",
+   "note": "# Topic 3 Quiz, REOPENED by the FIN 201 TA (Zack relayed her email 2026-11-09: open until 10:00am MT Tue 2026-11-10). Reopened and authorized by Zack, so this is a normal automatable MyEducator quiz run, not a Zack-only item. History: Still closed 2026-11-02 23:45: activity.insert returns \"Started on Thu, Oct 29, 2026, 5:12 PM\" plus \"past due and does not allow late submissions\", no answer UI, gradebook row still ungraded. Reopen request emailed to the course TA at byufin201@gmail.com 2026-11-02 from zackhada@byu.edu (verified in Sent Items); no reply yet. Escalating to Holmes (andy.holmes678@gmail.com) needs Zack's explicit approval. If it is reopened, Zack takes it himself. Status moved from pending to blocked_ask_zack so this dead row stops starving the queue (Topic 4 was due Nov 4 10:00am). (judged automatable 2026-11-02: online-submission-path-no-proctoring-evidence)",
+   "title": "Topic 3 Quiz",
+   "grade": {
+    "name": "Topic 3 Quiz",
+    "due": "2026-10-28T10:00:00",
+    "points": null,
+    "score": null,
+    "status": "not_graded",
+    "missing": false,
+    "submission_type": "myeducator",
+    "comments": []
+   },
+   "drift": false,
+   "needs_zack": true,
    "judge": null,
    "optional_ec": false,
    "surface": false,
@@ -321,5 +321,5 @@
  "needs": "FIN 201: Topic 3 Quiz is still closed (past due Oct 28, no late submissions). Reopen request to the TA (byufin201@gmail.com) is sent, no reply yet. Escalating to Holmes needs your OK. If it reopens, take it yourself and tell me. Topic 4 Quiz is done (10/10). Next due: Topic 11, Dec 2.",
  "course_id": null,
  "overall": {},
- "built_at": "2026-11-09T06:37:06.026097+00:00"
+ "built_at": "2026-11-09T22:24:33.579243+00:00"
 }
