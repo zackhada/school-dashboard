@@ -145,7 +145,7 @@
    "deadline_kind": "locks",
    "covered": true,
    "ledger_key": "MID_TERM_CHECKPOINT",
-   "ledger_status": "done"
+   "ledger_status": "pending"
   },
   {
    "course": "HRM 391",

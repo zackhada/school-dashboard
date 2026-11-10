@@ -45,9 +45,9 @@
   },
   {
    "key": "MID_TERM_CHECKPOINT",
-   "status": "done",
-   "date": "2026-10-20",
-   "note": "# Canvas 1508956, 1pt graded survey, closed Oct 7 11am MT and never takeable. Duplicate of UNIT_1_MID_TERM_CHECKPOINT, which carries the one open decision (ask Tennis for a makeup). Kept for the record only."
+   "status": "pending",
+   "date": "2026-11-11",
+   "note": "# Canvas 1508956 / quiz 663151, 1pt graded survey. REOPENED by the TAs: live Canvas 2026-11-10 shows lock_at 2026-11-11T18:00:00Z (Nov 11 11:00am MT), due_at null, unsubmitted. The earlier \"closed Oct 7\" note is stale. Automatable (no access code, not proctored); take it before the 11am MT lock."
   },
   {
    "key": "BREAKING_BREAD_COUNTS_TOWARD_FINAL_GRADE",
@@ -64,8 +64,8 @@
   {
    "key": "UNIT_1_MID_TERM_CHECKPOINT",
    "status": "pending",
-   "date": "2026-10-07",
-   "note": "# Canvas 1511530 / quiz 663964, 1pt graded survey, lock_at 2026-10-07T17:00:00Z, due_at null, never submitted. Re-verified live via CANVAS_TOKEN 2026-11-03: assignment 1511530 unsubmitted, due_at null, lock_at 2026-10-07T17:00:00Z; quiz 663964 graded_survey 1 pt, allowed_attempts 1, has_access_code false, same lock; twin 1508956 / quiz 663151 identical. Closed 27 days. Both are 1 pt each = 2 pts of a 700 pt course (0.3%), and they are duplicates of the same survey. ACTION TAKEN 2026-11-03: makeup request emailed from zackhada@byu.edu to BOTH TAs (Julia Gazdik jgazdik3@student.byu.edu, Elise Owens eliselo@student.byu.edu), verified in Sent Items. TA-first satisfied: the TAs told Zack on 2026-10-19 to email Tennis first, and that was done (Oct 19 email + Oct 21 meeting where he reopened Exam 1). Awaiting TA reply; if they say it is instructor-only, it escalates to Tennis and needs Zack's explicit approval for that email. DO NOT FLIP TO PENDING: an expired lock_at means closed regardless of healer classification (the healer rewrote this row to pending 22 times between 2026-10-29 and 11-03). (judged automatable 2026-11-10: online-submission-path-no-proctoring-evidence)"
+   "date": "2026-11-11",
+   "note": "# Canvas 1511530 / quiz 663964, 1pt graded survey. REOPENED: live Canvas 2026-11-10 shows lock_at 2026-11-11T18:00:00Z (Nov 11 11:00am MT), due_at null, unsubmitted. The Oct 7 lock is gone, so the earlier closed-lock note no longer applies. Automatable: no access code, not proctored, classic quiz. Must be finished BEFORE 11:00am MT Nov 11."
   },
   {
    "key": "SERVICE_PROJECT_PART_2_GROUP_ANALYSIS_AN",
@@ -76,8 +76,8 @@
   {
    "key": "UNIT_1_MID_TERM_CHECKPOINT_2",
    "status": "done",
-   "date": "2026-10-07",
-   "note": "# Duplicate row for Canvas 1511530, the same closed survey as UNIT_1_MID_TERM_CHECKPOINT. No separate action; decision tracked on that row."
+   "date": "2026-11-10",
+   "note": "# Pointer row only, no separate work: Canvas has TWO 1pt checkpoints (1508956 on MID_TERM_CHECKPOINT and 1511530 on UNIT_1_MID_TERM_CHECKPOINT), both reopened to Nov 11 11:00am MT. This row prevents a third duplicate attempt."
   },
   {
    "key": "HRM_REMAINING_EXAMS_AND_FINAL",
