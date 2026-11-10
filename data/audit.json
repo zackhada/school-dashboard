@@ -1,72 +1,7 @@
 {
  "generated": "2026-11-10",
  "missed": [],
- "exam_windows": [
-  {
-   "course": "HRM 391",
-   "test": "HRM 391 Exam 2 (Canvas, Proctorio)",
-   "opens": "Nov 04, 2026 12:00 AM",
-   "closes": "Nov 10, 2026 11:59 PM",
-   "score": "",
-   "source": "registry"
-  },
-  {
-   "course": "FIN 201",
-   "test": "FIN 201 Test 3 (Testing Center)",
-   "opens": "Nov 13, 2026 08:00 AM",
-   "closes": "Nov 16, 2026 06:00 PM",
-   "score": "",
-   "source": "registry"
-  },
-  {
-   "course": "HRM 391",
-   "test": "HRM 391 Exam 3 (Canvas, Proctorio)",
-   "opens": "Dec 09, 2026 12:00 AM",
-   "closes": "Dec 15, 2026 11:59 PM",
-   "score": "",
-   "source": "registry"
-  },
-  {
-   "course": "HRM 391",
-   "test": "HRM 391 Final Exam (Canvas, Proctorio)",
-   "opens": "Dec 12, 2026 12:00 AM",
-   "closes": "Dec 17, 2026 11:59 PM",
-   "score": "",
-   "source": "registry"
-  },
-  {
-   "course": "ECON 110",
-   "test": "ECON 110 Final Exam (Testing Center)",
-   "opens": "Dec 12, 2026 08:00 AM",
-   "closes": "Dec 17, 2026 05:00 PM",
-   "score": "",
-   "source": "registry"
-  },
-  {
-   "course": "FIN 201",
-   "test": "FIN 201 Final Exam (Testing Center)",
-   "opens": "Dec 12, 2026 08:00 AM",
-   "closes": "Dec 17, 2026 08:00 PM",
-   "score": "",
-   "source": "registry"
-  },
-  {
-   "course": "IS 515",
-   "test": "IS 515 Exam 2 (take-home, non-collaborative)",
-   "opens": "Dec 12, 2026 08:00 AM",
-   "closes": "Dec 18, 2026 11:59 PM",
-   "score": "",
-   "source": "registry"
-  },
-  {
-   "course": "STRAT 392",
-   "test": "STRAT 392 Final Exam (date per university schedule)",
-   "opens": "Dec 14, 2026 08:00 AM",
-   "closes": "Dec 18, 2026 05:00 PM",
-   "score": "",
-   "source": "registry"
-  }
- ],
+ "exam_windows": [],
  "missing_from_ledger": [],
  "date_drift": [
   {
@@ -123,28 +58,6 @@
  ],
  "closing_soon": [
   {
-   "course": "HRM 391",
-   "assignment": "Unit 1 Mid-term Checkpoint",
-   "due": "2026-11-11",
-   "points": 1.0,
-   "canvas_id": 1508956,
-   "deadline_kind": "locks",
-   "covered": true,
-   "ledger_key": "MID_TERM_CHECKPOINT",
-   "ledger_status": "pending"
-  },
-  {
-   "course": "HRM 391",
-   "assignment": "Unit 1 Mid-term Checkpoint",
-   "due": "2026-11-11",
-   "points": 1.0,
-   "canvas_id": 1511530,
-   "deadline_kind": "locks",
-   "covered": true,
-   "ledger_key": "UNIT_1_MID_TERM_CHECKPOINT",
-   "ledger_status": "pending"
-  },
-  {
    "course": "IS 515",
    "assignment": "16.6 Megaformulas Assessment",
    "due": "2026-11-11",
@@ -154,19 +67,7 @@
    "covered": true,
    "ledger_key": "IS_MEGA",
    "ledger_status": "pending"
-  },
-  {
-   "course": "STRAT 392",
-   "assignment": "Building Competitive Moats \u2014 Reading Quiz",
-   "due": "2026-11-10",
-   "points": 10.0,
-   "canvas_id": 1513602,
-   "deadline_kind": "due",
-   "covered": true,
-   "ledger_key": "BUILDING_COMPETITIVE_MOATS_READING_QUIZ",
-   "ledger_status": "pending"
   }
  ],
- "testing_center_error": "testing-center-not-available-here (No module named 'testing_center')",
- "exam_windows_source": "registry"
+ "exam_windows_source": "testing-center"
 }
