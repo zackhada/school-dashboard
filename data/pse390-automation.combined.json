@@ -888,10 +888,10 @@
   },
   {
    "key": "PARTICIPATION_QUIZ_11_10",
-   "status": "blocked_inperson",
+   "status": "done",
    "date": "2026-11-10",
-   "note": "# Canvas 1511339, 3pt, Participation Quiz 11.10 (in-class/participation; drift-added 2026-10-14) [manual:name-is-a-participation-quiz-participation-is-earned-in-clas]",
-   "title": "Participation Quiz 11.10",
+   "note": "# Canvas 1511339, 3pt, Participation Quiz 11.10 (in-class/participation; drift-added 2026-10-14) [manual:name-is-a-participation-quiz-participation-is-earned-in-clas] (audited 2026-11-10: already graded in Canvas)",
+   "title": "Participation Quiz 11.10 (in-class/participation; drift-added 2026-10-14)",
    "grade": {
     "canvas_id": 1511339,
     "name": "Participation Quiz 11.10",
@@ -915,7 +915,7 @@
     "why": "Name is a participation quiz; participation is earned in class, not online."
    },
    "optional_ec": false,
-   "surface": true,
+   "surface": false,
    "actionable": false
   },
   {
@@ -1370,5 +1370,5 @@
   "final_score": 40.37,
   "final_grade": "E"
  },
- "built_at": "2026-11-10T21:56:58.119273+00:00"
+ "built_at": "2026-11-10T23:28:26.926314+00:00"
 }
