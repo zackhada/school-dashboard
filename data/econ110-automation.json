@@ -41,7 +41,7 @@
    "key": "ECON_MEET_TA",
    "status": "blocked_inperson",
    "date": "2026-09-11",
-   "note": "# in-person TA lab B090 JFSB [manual:in-person-ta-lab-in-b090-jfsb-requires-physical-presence-no-]"
+   "note": "# in-person TA lab B090 JFSB [manual:in-person-ta-lab-in-b090-jfsb-physical-presence-required-no-]"
   },
   {
    "key": "ECON_OAKS_QUIZ",
@@ -257,7 +257,7 @@
    "key": "ECON_FINAL",
    "status": "blocked_inperson",
    "date": "2026-12-17",
-   "note": "# Testing Center, finals week; not yet scheduled on the Testing Center site as of 2026-10-25. Check /my-exams for the exact window [manual:testing-center-exam-during-finals-week-requires-student-in-p]"
+   "note": "# Testing Center, finals week; not yet scheduled on the Testing Center site as of 2026-10-25. Check /my-exams for the exact window [manual:requires-the-student-in-person]"
   },
   {
    "key": "ECON_MINDTAP_CH2",

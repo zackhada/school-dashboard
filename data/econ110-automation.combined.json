@@ -98,7 +98,7 @@
    "key": "ECON_MEET_TA",
    "status": "blocked_inperson",
    "date": "2026-09-11",
-   "note": "# in-person TA lab B090 JFSB [manual:in-person-ta-lab-in-b090-jfsb-requires-physical-presence-no-]",
+   "note": "# in-person TA lab B090 JFSB [manual:in-person-ta-lab-in-b090-jfsb-physical-presence-required-no-]",
    "title": "Meet TA",
    "grade": {
     "name": "Meet Your TA",
@@ -114,7 +114,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "In-person TA lab in B090 JFSB requires physical presence; no online submission."
+    "why": "In-person TA lab in B090 JFSB; physical presence required, no online submission."
    },
    "optional_ec": false,
    "surface": true,
@@ -748,8 +748,8 @@
     "name": "TA Passoff #6 (Extra Credit)",
     "due": "2026-10-27T23:59:00",
     "points": 2.0,
-    "score": null,
-    "status": "not_graded",
+    "score": 0.0,
+    "status": "graded",
     "missing": false,
     "submission_type": "learning_suite",
     "comments": []
@@ -817,8 +817,8 @@
     "name": "TA Passoff #7 (Extra Credit)",
     "due": "2026-11-03T23:59:00",
     "points": 2.0,
-    "score": null,
-    "status": "not_graded",
+    "score": 0.0,
+    "status": "graded",
     "missing": false,
     "submission_type": "learning_suite",
     "comments": []
@@ -859,16 +859,7 @@
    "date": "2026-11-06",
    "note": "# NE Quiz #9 5pt",
    "title": "NE Quiz #9",
-   "grade": {
-    "name": "NE - Quiz #9",
-    "due": "2026-11-06T23:59:00",
-    "points": 5.0,
-    "score": null,
-    "status": "not_graded",
-    "missing": false,
-    "submission_type": "learning_suite",
-    "comments": []
-   },
+   "grade": null,
    "drift": false,
    "needs_zack": false,
    "judge": null,
@@ -884,7 +875,7 @@
    "title": "Mankiw Bonus #8",
    "grade": {
     "name": "Mankiw Bonus #8 (Extra Credit)",
-    "due": "2026-11-06T23:59:00",
+    "due": "2026-11-09T23:59:00",
     "points": 6.0,
     "score": null,
     "status": "not_graded",
@@ -907,10 +898,10 @@
    "title": "Testing Center verified 2026-10-25: opens Thu Nov 5 , $5 late fee from Fri Nov 6 , closes Fri Nov 6 . Midterm 1 was 120/200 (60%) on Oct 2",
    "grade": {
     "name": "Midterm 2",
-    "due": "2026-11-06T19:00:00",
-    "points": 100.0,
-    "score": null,
-    "status": "not_graded",
+    "due": "2026-11-06T21:00:00",
+    "points": 200.0,
+    "score": 150.0,
+    "status": "graded",
     "missing": false,
     "submission_type": "learning_suite",
     "comments": []
@@ -919,7 +910,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Testing Center exam with in-person window and late fee; no online submission."
+    "why": "Requires the student in person."
    },
    "optional_ec": false,
    "surface": true,
@@ -933,7 +924,7 @@
    "title": "TA Passoff #8 (optional extra credit, not required; one random Q from Mankiw #8) [optional-ec:extra-credit-2026-09-29-ta-announcement]",
    "grade": {
     "name": "TA Passoff #8 (Extra Credit)",
-    "due": "2026-11-10T23:59:00",
+    "due": "2026-11-11T23:59:00",
     "points": 2.0,
     "score": null,
     "status": "not_graded",
@@ -1274,7 +1265,7 @@
    "key": "ECON_FINAL",
    "status": "blocked_inperson",
    "date": "2026-12-17",
-   "note": "# Testing Center, finals week; not yet scheduled on the Testing Center site as of 2026-10-25. Check /my-exams for the exact window [manual:testing-center-exam-during-finals-week-requires-student-in-p]",
+   "note": "# Testing Center, finals week; not yet scheduled on the Testing Center site as of 2026-10-25. Check /my-exams for the exact window [manual:requires-the-student-in-person]",
    "title": "Testing Center, finals week; not yet scheduled on the Testing Center site as of 2026-10-25. Check /my-exams for the exact window",
    "grade": null,
    "drift": false,
@@ -1292,8 +1283,8 @@
  "needs": null,
  "course_id": null,
  "overall": {
-  "current_score": 76.42,
+  "current_score": 72.96,
   "source": "learning-suite-points"
  },
- "built_at": "2026-11-10T18:16:41.746111+00:00"
+ "built_at": "2026-11-10T18:24:21.934598+00:00"
 }

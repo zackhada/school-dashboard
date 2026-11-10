@@ -496,12 +496,12 @@
    "drift": false,
    "needs_zack": true,
    "judge": {
-    "verdict": "manual",
-    "why": "Team assignment requires one physical product; physical artifact must be shown in class"
+    "verdict": "automatable",
+    "why": "Online submission path, no proctoring evidence."
    },
    "optional_ec": false,
-   "surface": true,
-   "actionable": true
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "STRATEGIC_ALIGNMENT_READING_QUIZ",
@@ -631,5 +631,5 @@
   "final_score": 66.28,
   "final_grade": "D"
  },
- "built_at": "2026-11-10T18:16:41.577825+00:00"
+ "built_at": "2026-11-10T18:24:21.848937+00:00"
 }

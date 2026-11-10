@@ -1,17 +1,17 @@
 {
- "generated": "2026-11-10T18:16Z",
+ "generated": "2026-11-10T18:24Z",
  "runners_online": 9,
  "runners_checked": 9,
  "offline_repos": [],
  "queued_runs": 0,
  "stale_repos": [],
  "heartbeat": {
-  "ts": "2026-11-10T11:09:25",
-  "age_hours": 7.1,
-  "free_gb": "106",
+  "ts": "2026-11-10T11:20:19-07:00",
+  "age_hours": 0.1,
+  "free_gb": "105",
   "bridge": true,
-  "guard": "down"
+  "guard": "up"
  },
  "errors": [],
- "healthy": false
+ "healthy": true
 }

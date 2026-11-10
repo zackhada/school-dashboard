@@ -56,7 +56,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "On-paper printed notes+summary brought to class for in-class peer check; physical artifact, in person"
+    "why": "On-paper printed notes and summary must be brought to class for in-class peer check"
    },
    "optional_ec": false,
    "surface": true,
@@ -416,7 +416,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "verify",
-    "why": "Note says individual reflection required; description says not required \u2014 genuine conflict"
+    "why": "Note says individual reflection required; description says not required\u2014facts conflict"
    },
    "optional_ec": false,
    "surface": true,
@@ -432,5 +432,5 @@
   "final_score": 64.57,
   "final_grade": "D"
  },
- "built_at": "2026-11-10T18:16:41.564048+00:00"
+ "built_at": "2026-11-10T18:24:21.841665+00:00"
 }

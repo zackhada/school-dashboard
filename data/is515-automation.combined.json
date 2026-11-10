@@ -563,7 +563,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Course Project presentation delivered in class or to TA; requires Zack present"
+    "why": "In-class presentation to a TA with sign-up; Zack must present in person."
    },
    "optional_ec": false,
    "surface": true,
@@ -595,7 +595,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Name is an exam; comprehensive exam requires Zack, no online submission path given"
+    "why": "Name is an exam; note confirms timed take-home exam taken manually in a quiet window."
    },
    "optional_ec": false,
    "surface": true,
@@ -611,5 +611,5 @@
   "final_score": 44.62,
   "final_grade": "E"
  },
- "built_at": "2026-11-10T18:16:41.682348+00:00"
+ "built_at": "2026-11-10T18:24:21.902180+00:00"
 }

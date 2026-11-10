@@ -1,9 +1,9 @@
 {
  "repo": "zackhada/econ110-automation",
  "source": "learning-suite",
- "url": "https://learningsuite.byu.edu/.9I7T/cid-1YPOkgOMQjjk/student/home/assignments",
+ "url": "https://learningsuite.byu.edu/.EV8T/cid-1YPOkgOMQjjk/student/home/assignments",
  "overall": {
-  "current_score": 76.42,
+  "current_score": 72.96,
   "source": "learning-suite-points"
  },
  "rows": [
@@ -241,8 +241,8 @@
    "name": "Bonus: Check Answers #6 (Extra Credit)",
    "due": "2026-10-27T17:00:00",
    "points": 2.0,
-   "score": null,
-   "status": "not_graded",
+   "score": 0.0,
+   "status": "graded",
    "missing": false,
    "submission_type": "learning_suite",
    "comments": []
@@ -251,8 +251,8 @@
    "name": "TA Passoff #6 (Extra Credit)",
    "due": "2026-10-27T23:59:00",
    "points": 2.0,
-   "score": null,
-   "status": "not_graded",
+   "score": 0.0,
+   "status": "graded",
    "missing": false,
    "submission_type": "learning_suite",
    "comments": []
@@ -271,8 +271,8 @@
    "name": "TA Passoff #7 (Extra Credit)",
    "due": "2026-11-03T23:59:00",
    "points": 2.0,
-   "score": null,
-   "status": "not_graded",
+   "score": 0.0,
+   "status": "graded",
    "missing": false,
    "submission_type": "learning_suite",
    "comments": []
@@ -281,15 +281,15 @@
    "name": "Bonus: Check Answers #7 (Extra Credit)",
    "due": "2026-11-03T23:59:00",
    "points": 2.0,
-   "score": null,
-   "status": "not_graded",
+   "score": 0.0,
+   "status": "graded",
    "missing": false,
    "submission_type": "learning_suite",
    "comments": []
   },
   {
    "name": "Mankiw Bonus #8 (Extra Credit)",
-   "due": "2026-11-06T23:59:00",
+   "due": "2026-11-09T23:59:00",
    "points": 6.0,
    "score": null,
    "status": "not_graded",
@@ -299,7 +299,7 @@
   },
   {
    "name": "TA Passoff #8 (Extra Credit)",
-   "due": "2026-11-10T23:59:00",
+   "due": "2026-11-11T23:59:00",
    "points": 2.0,
    "score": null,
    "status": "not_graded",
@@ -309,7 +309,7 @@
   },
   {
    "name": "Bonus: Check Answers #8 (Extra Credit)",
-   "due": "2026-11-10T23:59:00",
+   "due": "2026-11-11T23:59:00",
    "points": 2.0,
    "score": null,
    "status": "not_graded",
@@ -580,7 +580,7 @@
   {
    "name": "10/5",
    "due": "2026-10-05T23:59:00",
-   "points": 1.0,
+   "points": 5.0,
    "score": 5.0,
    "status": "graded",
    "missing": false,
@@ -600,7 +600,7 @@
   {
    "name": "10/7",
    "due": "2026-10-07T23:59:00",
-   "points": 1.0,
+   "points": 5.0,
    "score": 5.0,
    "status": "graded",
    "missing": false,
@@ -620,7 +620,7 @@
   {
    "name": "10/12",
    "due": "2026-10-12T23:59:00",
-   "points": 1.0,
+   "points": 5.0,
    "score": 5.0,
    "status": "graded",
    "missing": false,
@@ -640,7 +640,7 @@
   {
    "name": "10/14",
    "due": "2026-10-14T23:59:00",
-   "points": 1.0,
+   "points": 5.0,
    "score": 5.0,
    "status": "graded",
    "missing": false,
@@ -660,7 +660,7 @@
   {
    "name": "10/19",
    "due": "2026-10-19T23:59:00",
-   "points": 1.0,
+   "points": 5.0,
    "score": 5.0,
    "status": "graded",
    "missing": false,
@@ -680,7 +680,7 @@
   {
    "name": "10/21",
    "due": "2026-10-21T23:59:00",
-   "points": 1.0,
+   "points": 5.0,
    "score": 5.0,
    "status": "graded",
    "missing": false,
@@ -700,7 +700,7 @@
   {
    "name": "10/26",
    "due": "2026-10-26T23:59:00",
-   "points": 1.0,
+   "points": 5.0,
    "score": null,
    "status": "not_graded",
    "missing": false,
@@ -720,7 +720,7 @@
   {
    "name": "10/28",
    "due": "2026-10-28T23:59:00",
-   "points": 1.0,
+   "points": 5.0,
    "score": null,
    "status": "not_graded",
    "missing": false,
@@ -740,7 +740,7 @@
   {
    "name": "11/2",
    "due": "2026-11-02T23:59:00",
-   "points": 1.0,
+   "points": 5.0,
    "score": null,
    "status": "not_graded",
    "missing": false,
@@ -760,7 +760,7 @@
   {
    "name": "11/4",
    "due": "2026-11-04T23:59:00",
-   "points": 1.0,
+   "points": 5.0,
    "score": null,
    "status": "not_graded",
    "missing": false,
@@ -790,7 +790,7 @@
   {
    "name": "11/9",
    "due": "2026-11-09T23:59:00",
-   "points": 1.0,
+   "points": 5.0,
    "score": null,
    "status": "not_graded",
    "missing": false,
@@ -810,7 +810,7 @@
   {
    "name": "11/11",
    "due": "2026-11-11T23:59:00",
-   "points": 1.0,
+   "points": 5.0,
    "score": null,
    "status": "not_graded",
    "missing": false,
@@ -830,7 +830,7 @@
   {
    "name": "11/16",
    "due": "2026-11-16T23:59:00",
-   "points": 1.0,
+   "points": 5.0,
    "score": null,
    "status": "not_graded",
    "missing": false,
@@ -850,7 +850,7 @@
   {
    "name": "11/18",
    "due": "2026-11-18T23:59:00",
-   "points": 1.0,
+   "points": 5.0,
    "score": null,
    "status": "not_graded",
    "missing": false,
@@ -870,7 +870,7 @@
   {
    "name": "11/30",
    "due": "2026-11-30T23:59:00",
-   "points": 1.0,
+   "points": 5.0,
    "score": null,
    "status": "not_graded",
    "missing": false,
@@ -900,7 +900,7 @@
   {
    "name": "12/2",
    "due": "2026-12-02T23:59:00",
-   "points": 1.0,
+   "points": 5.0,
    "score": null,
    "status": "not_graded",
    "missing": false,
@@ -920,7 +920,7 @@
   {
    "name": "12/7",
    "due": "2026-12-07T23:59:00",
-   "points": 1.0,
+   "points": 5.0,
    "score": null,
    "status": "not_graded",
    "missing": false,
@@ -940,7 +940,7 @@
   {
    "name": "12/9",
    "due": "2026-12-09T23:59:00",
-   "points": 1.0,
+   "points": 5.0,
    "score": null,
    "status": "not_graded",
    "missing": false,
@@ -1049,7 +1049,7 @@
   },
   {
    "name": "NE - Quiz #9",
-   "due": "2026-11-06T23:59:00",
+   "due": "2026-11-09T23:59:00",
    "points": 5.0,
    "score": null,
    "status": "not_graded",
@@ -1159,10 +1159,10 @@
   },
   {
    "name": "Midterm 2",
-   "due": "2026-11-06T19:00:00",
-   "points": 100.0,
-   "score": null,
-   "status": "not_graded",
+   "due": "2026-11-06T21:00:00",
+   "points": 200.0,
+   "score": 150.0,
+   "status": "graded",
    "missing": false,
    "submission_type": "learning_suite",
    "comments": []

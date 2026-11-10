@@ -474,7 +474,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Name is a participation quiz; participation is earned in class, and item is 404/deleted upstream"
+    "why": "Name is a participation quiz; participation is earned in class. 404 means cannot automate anyway."
    },
    "optional_ec": false,
    "surface": true,
@@ -822,7 +822,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Name is a participation quiz; participation is earned in class regardless of online_quiz tool"
+    "why": "Name is a participation quiz; participation is earned in class."
    },
    "optional_ec": false,
    "surface": true,
@@ -912,7 +912,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Name is a participation quiz; participation is earned in class regardless of online_quiz tool"
+    "why": "Name is a participation quiz; participation is earned in class."
    },
    "optional_ec": false,
    "surface": true,
@@ -944,7 +944,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Name is a participation quiz; participation is earned in class regardless of online_quiz tool"
+    "why": "Name is a participation quiz; participation is earned in class."
    },
    "optional_ec": false,
    "surface": true,
@@ -1005,7 +1005,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Name is a participation quiz; participation is earned in class regardless of online_quiz tool"
+    "why": "Name is a participation quiz; participation is earned in class."
    },
    "optional_ec": false,
    "surface": true,
@@ -1037,7 +1037,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Name is a participation quiz; participation is earned in class regardless of online_quiz tool"
+    "why": "Name is a participation quiz; participation is earned in class."
    },
    "optional_ec": false,
    "surface": true,
@@ -1098,7 +1098,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Name is a participation quiz; participation is earned in class regardless of online_quiz tool"
+    "why": "Name is a participation quiz; participation is earned in class."
    },
    "optional_ec": false,
    "surface": true,
@@ -1159,7 +1159,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Name is a participation quiz; participation is earned in class regardless of online_quiz tool"
+    "why": "Name is a participation quiz; participation is earned in class."
    },
    "optional_ec": false,
    "surface": true,
@@ -1191,7 +1191,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Name is a participation quiz; participation is earned in class regardless of online_quiz tool"
+    "why": "Name is a participation quiz; participation is earned in class."
    },
    "optional_ec": false,
    "surface": true,
@@ -1276,7 +1276,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Name is a participation quiz; participation is earned in class regardless of online_quiz tool"
+    "why": "Name is a participation quiz; participation is earned in class."
    },
    "optional_ec": false,
    "surface": true,
@@ -1308,7 +1308,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Name is a participation quiz; participation is earned in class regardless of online_quiz tool"
+    "why": "Name is a participation quiz; participation is earned in class."
    },
    "optional_ec": false,
    "surface": true,
@@ -1370,5 +1370,5 @@
   "final_score": 40.37,
   "final_grade": "E"
  },
- "built_at": "2026-11-10T18:16:41.672145+00:00"
+ "built_at": "2026-11-10T18:24:21.896829+00:00"
 }
