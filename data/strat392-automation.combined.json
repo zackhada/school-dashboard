@@ -496,8 +496,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": {
-    "verdict": "manual",
-    "why": "Group assignment requires one physical product artifact; no online submission path"
+    "verdict": "verify",
+    "why": "Canvas due date suggests online path, but truncated note requires a physical product/team"
    },
    "optional_ec": false,
    "surface": true,
@@ -601,7 +601,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Requires the student in person."
+    "why": "Final exam; in-person, date/location per university finals schedule"
    },
    "optional_ec": false,
    "surface": true,
@@ -631,5 +631,5 @@
   "final_score": 68.6,
   "final_grade": "D+"
  },
- "built_at": "2026-11-10T21:16:30.885549+00:00"
+ "built_at": "2026-11-10T21:48:27.868545+00:00"
 }

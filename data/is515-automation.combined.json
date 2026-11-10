@@ -438,9 +438,9 @@
   },
   {
    "key": "IS_MEGA",
-   "status": "pending",
+   "status": "done",
    "date": "2026-11-11",
-   "note": "# 16.6 Megaformulas Assessment, 20pts, MyEducator",
+   "note": "# 16.6 Megaformulas Assessment, Canvas 1452617, 20pts, MyEducator. 20/20 (100%), attempt 1, submitted 2026-11-10T21:44:23Z, graded 21:44:25Z, Canvas workflow_state graded, on time. Key entry 14:34 to submit 14:44 MST (platform logged 11 min). Q1 Loans H3:H17 megaformula (D:G only) + cleared I3:N17; Q2 Text Parsing 2.1/2.2/2.3 megaformulas into E14/E24/E31 and C3:C9/D3:D9/E3:E9; Q3 FirstName/MiddleNames/LastName as RC-relative INDIRECT names driving the @ template cells.",
    "title": "16.6 Megaformulas Assessment",
    "grade": {
     "canvas_id": 1452617,
@@ -459,7 +459,7 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": true,
+   "needs_zack": false,
    "judge": null,
    "optional_ec": false,
    "surface": false,
@@ -563,7 +563,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "In-class presentation to TA with sign-up; requires student present"
+    "why": "In-class presentation or live TA presentation; Zack must present in person."
    },
    "optional_ec": false,
    "surface": true,
@@ -595,7 +595,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Name is an exam; hard rule makes exams manual regardless of tool/submission path"
+    "why": "Requires the student in person."
    },
    "optional_ec": false,
    "surface": true,
@@ -603,7 +603,7 @@
   }
  ],
  "unmatched_canvas": [],
- "needs": "BYU Duo is temporarily DISABLED (2026-11-10 ~12:40pm MT)\n\nWhat happened: while standing the runners back up on the new host (the old\nspare Mac went dark on Nov 3), several class repos started their cached-profile\nCAS logins close together. BYU's Duo locked the account after the burst:\n\"Account disabled ... Your Duo account is disabled and cannot access this\napplication.\"\n\nAutomation state right now: every login attempt is stopped and the class runs\nare cancelled so the lockout can cool down. No work is queued that will retry\nby itself until the quiet-safe schedule (today 5pm-9:30pm MT).\n\nWhat Zack may need to do: if the lockout does not clear on its own within about\nan hour, restore Duo at duo.byu.edu or call BYU IT (801-422-4000, it@byu.edu).\nThis affects his own BYU logins, not just the runners.\n\nStill open because of it:\n- HRM 391: two Unit 1 Mid-term Checkpoints (1pt each), reopened by the TAs and\n  open until Wed Nov 11 11:00am MT. Automatable, will run tonight.\n- STRAT 392: Building Competitive Moats reading quiz (10pt), due today 11:59pm MT.\n- IS 515: 16.6 Megaformulas Assessment (20pt), due Nov 11. The 14.9 Lookups\n  (20/20) and 15.8 Text (19/20) assessments were submitted today.\n- PSE 390: Week 9 quiz (10pt) is hard-locked since Nov 7; needs a reopen.",
+ "needs": null,
  "course_id": 38674,
  "overall": {
   "current_score": 90.41,
@@ -611,5 +611,5 @@
   "final_score": 48.63,
   "final_grade": "E"
  },
- "built_at": "2026-11-10T21:16:31.031230+00:00"
+ "built_at": "2026-11-10T21:48:27.953404+00:00"
 }
