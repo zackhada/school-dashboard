@@ -57,7 +57,17 @@ def parse_ts(s):
     # ("2026-11-03T08:05:01"). Treat a naive value as UTC or the subtraction
     # against the aware "now" raises and the heartbeat silently vanishes.
     if dt.tzinfo is None:
-        dt = dt.replace(tzinfo=datetime.timezone.utc)
+        # Older host agents wrote naive LOCAL time (Mountain). Reading that as
+        # UTC made a fresh heartbeat look 7 hours stale and pinned the dashboard
+        # to "spare Mac silent" (fixed 2026-11-10; the writer now sends an
+        # offset). Naive values are therefore Mountain time, not UTC.
+        try:
+            from zoneinfo import ZoneInfo
+            dt = dt.replace(tzinfo=ZoneInfo("America/Denver"))
+        except Exception:
+            dt = dt.replace(tzinfo=datetime.timezone(datetime.timedelta(hours=-7)))
+        if dt > datetime.datetime.now(datetime.timezone.utc):
+            dt = dt.replace(tzinfo=datetime.timezone.utc)
     return dt
 
 
