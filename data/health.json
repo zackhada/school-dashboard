@@ -1,55 +1,16 @@
 {
- "generated": "2026-11-10T07:22Z",
- "runners_online": 0,
+ "generated": "2026-11-10T18:09Z",
+ "runners_online": 9,
  "runners_checked": 9,
- "offline_repos": [
-  "econ110-automation",
-  "fin201-automation",
-  "hrm391-automation",
-  "is515-automation",
-  "pse390-automation",
-  "rel-c-333-automation",
-  "strat392-automation",
-  "school-healer",
-  "school-dashboard"
- ],
- "queued_runs": 9,
- "stale_repos": [
-  {
-   "repo": "econ110-automation",
-   "last_success_hours": 167.6
-  },
-  {
-   "repo": "fin201-automation",
-   "last_success_hours": 167.4
-  },
-  {
-   "repo": "hrm391-automation",
-   "last_success_hours": 167.4
-  },
-  {
-   "repo": "is515-automation",
-   "last_success_hours": 167.2
-  },
-  {
-   "repo": "pse390-automation",
-   "last_success_hours": 160.4
-  },
-  {
-   "repo": "rel-c-333-automation",
-   "last_success_hours": 166.9
-  },
-  {
-   "repo": "strat392-automation",
-   "last_success_hours": 166.8
-  }
- ],
+ "offline_repos": [],
+ "queued_runs": 0,
+ "stale_repos": [],
  "heartbeat": {
-  "ts": "2026-11-03T08:05:01",
-  "age_hours": 167.3,
-  "free_gb": "15",
+  "ts": "2026-11-10T11:02:07",
+  "age_hours": 7.1,
+  "free_gb": "106",
   "bridge": true,
-  "guard": "up"
+  "guard": "down"
  },
  "errors": [],
  "healthy": false
