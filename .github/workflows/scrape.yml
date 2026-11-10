@@ -1,7 +1,9 @@
 name: Nightly Canvas scrape
 on:
   schedule:
-    - cron: '30 5 * * *'
+    # QUIET HOURS (Zack 2026-11-10): no self-hosted work 10pm-10am MT.
+    # 17:50 UTC = 10:50am MST / 11:50am MDT.
+    - cron: '50 17 * * *'
   workflow_dispatch:
 permissions:
   contents: write
@@ -11,12 +13,24 @@ jobs:
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
+      # QUIET HOURS (Zack 2026-11-10): the runner Mac must be silent 10pm-10am MT,
+      # so no scrape/build (Chrome + Python) starts in that window.
+      - name: Quiet hours gate (10pm-10am MT)
+        run: |
+          if python3 scripts/quiet_hours.py >/dev/null 2>&1; then
+            echo "QUIET=false" >> "$GITHUB_ENV"
+          else
+            echo "::notice::Quiet hours (10pm-10am MT); dashboard scrape skips."
+            echo "QUIET=true" >> "$GITHUB_ENV"
+          fi
       - name: Sync ledgers from class repos
+        if: env.QUIET != 'true'
         continue-on-error: true
         env:
           DISPATCH_TOKEN: ${{ secrets.DISPATCH_TOKEN }}
         run: python3 scripts/sync_ledgers.py
       - name: Scrape Canvas
+        if: env.QUIET != 'true'
         continue-on-error: true
         env:
           CANVAS_TOKEN: ${{ secrets.CANVAS_TOKEN }}
@@ -25,6 +39,7 @@ jobs:
           python3 scripts/scrape.py
           python3 scripts/build.py
       - name: Assignment audit
+        if: env.QUIET != 'true'
         continue-on-error: true
         env:
           CANVAS_TOKEN: ${{ secrets.CANVAS_TOKEN }}
@@ -35,6 +50,7 @@ jobs:
           # data/audit.json only. Do not pass --sync-alerts.
           python3 scripts/assignment_audit.py
       - name: Commit truth
+        if: env.QUIET != 'true'
         run: |
           git config user.name "dashboard-bot"
           git config user.email "dashboard-bot@users.noreply.github.com"
