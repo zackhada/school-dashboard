@@ -394,7 +394,7 @@
    "key": "SERVICE_PROJECT_PART_2_GROUP_ANALYSIS_AN",
    "status": "blocked_ask_zack",
    "date": "2026-11-21",
-   "note": "# Canvas 1513919, 100pt, Service Project\u2014Part 2: Group Analysis and Individual Reflection. Group analysis plus an individual reflection, so it needs the group's inputs and his own accounting before upload. Not a solo automation job. [manual:verify-group-analysis-plus-individual-reflection-conflicts-with-pri]",
+   "note": "# Canvas 1513919, 100pt, Service Project\u2014Part 2: Group Analysis and Individual Reflection. Group analysis plus an individual reflection, so it needs the group's inputs and his own accounting before upload. Not a solo automation job. [manual:verify-note-flags-group-inputs-individual-reflection-yet-describes-]",
    "title": "Service Project\u2014Part 2: Group Analysis and Individual Reflection. Group analysis plus an individual reflection, so it needs the group's inputs and his own accounting before upload. Not a solo automation job.",
    "grade": {
     "canvas_id": 1513919,
@@ -432,5 +432,5 @@
   "final_score": 64.57,
   "final_grade": "D"
  },
- "built_at": "2026-11-10T20:21:35.738098+00:00"
+ "built_at": "2026-11-10T21:13:51.294139+00:00"
 }
