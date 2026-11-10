@@ -1,72 +1,7 @@
 {
  "generated": "2026-11-10",
  "missed": [],
- "exam_windows": [
-  {
-   "course": "HRM 391",
-   "test": "HRM 391 Exam 2 (Canvas, Proctorio)",
-   "opens": "Nov 04, 2026 12:00 AM",
-   "closes": "Nov 10, 2026 11:59 PM",
-   "score": "",
-   "source": "registry"
-  },
-  {
-   "course": "FIN 201",
-   "test": "FIN 201 Test 3 (Testing Center)",
-   "opens": "Nov 13, 2026 08:00 AM",
-   "closes": "Nov 16, 2026 06:00 PM",
-   "score": "",
-   "source": "registry"
-  },
-  {
-   "course": "HRM 391",
-   "test": "HRM 391 Exam 3 (Canvas, Proctorio)",
-   "opens": "Dec 09, 2026 12:00 AM",
-   "closes": "Dec 15, 2026 11:59 PM",
-   "score": "",
-   "source": "registry"
-  },
-  {
-   "course": "HRM 391",
-   "test": "HRM 391 Final Exam (Canvas, Proctorio)",
-   "opens": "Dec 12, 2026 12:00 AM",
-   "closes": "Dec 17, 2026 11:59 PM",
-   "score": "",
-   "source": "registry"
-  },
-  {
-   "course": "ECON 110",
-   "test": "ECON 110 Final Exam (Testing Center)",
-   "opens": "Dec 12, 2026 08:00 AM",
-   "closes": "Dec 17, 2026 05:00 PM",
-   "score": "",
-   "source": "registry"
-  },
-  {
-   "course": "FIN 201",
-   "test": "FIN 201 Final Exam (Testing Center)",
-   "opens": "Dec 12, 2026 08:00 AM",
-   "closes": "Dec 17, 2026 08:00 PM",
-   "score": "",
-   "source": "registry"
-  },
-  {
-   "course": "IS 515",
-   "test": "IS 515 Exam 2 (take-home, non-collaborative)",
-   "opens": "Dec 12, 2026 08:00 AM",
-   "closes": "Dec 18, 2026 11:59 PM",
-   "score": "",
-   "source": "registry"
-  },
-  {
-   "course": "STRAT 392",
-   "test": "STRAT 392 Final Exam (date per university schedule)",
-   "opens": "Dec 14, 2026 08:00 AM",
-   "closes": "Dec 18, 2026 05:00 PM",
-   "score": "",
-   "source": "registry"
-  }
- ],
+ "exam_windows": [],
  "missing_from_ledger": [],
  "date_drift": [
   {
@@ -90,13 +25,6 @@
    "assignment": "Professional Perspective Interview",
    "due": "2026-09-08",
    "points": 1.0,
-   "score": null
-  },
-  {
-   "course": "IS 515",
-   "assignment": "14.9 Lookups Assessment",
-   "due": "2026-11-04",
-   "points": 20.0,
    "score": null
   },
   {
@@ -159,17 +87,6 @@
    "ledger_status": "pending"
   },
   {
-   "course": "HRM 391",
-   "assignment": "Unit 2 Observation Notebook/Default Organization Entries",
-   "due": "2026-11-10",
-   "points": 30.0,
-   "canvas_id": 1518004,
-   "deadline_kind": "due",
-   "covered": true,
-   "ledger_key": "UNIT_2_OBSERVATION_NOTEBOOK_DEFAULT_ORGA",
-   "ledger_status": "pending"
-  },
-  {
    "course": "IS 515",
    "assignment": "16.6 Megaformulas Assessment",
    "due": "2026-11-11",
@@ -192,6 +109,5 @@
    "ledger_status": "pending"
   }
  ],
- "testing_center_error": "testing-center-not-available-here (No module named 'testing_center')",
- "exam_windows_source": "registry"
+ "exam_windows_source": "testing-center"
 }

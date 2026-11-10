@@ -316,12 +316,12 @@
     "lock_at": null,
     "deadline": "2026-11-11T06:59:59Z",
     "points": 30.0,
-    "status": "unsubmitted",
+    "status": "submitted",
     "score": null,
     "grade": null,
     "missing": false,
-    "submitted_at": null,
-    "submission_type": null,
+    "submitted_at": "2026-11-10T18:25:38Z",
+    "submission_type": "online_upload",
     "my_submission": "",
     "comments": []
    },
@@ -432,5 +432,5 @@
   "final_score": 64.57,
   "final_grade": "D"
  },
- "built_at": "2026-11-10T18:29:49.965648+00:00"
+ "built_at": "2026-11-10T18:34:49.373153+00:00"
 }

@@ -391,12 +391,12 @@
     "lock_at": null,
     "deadline": "2026-11-05T06:59:59Z",
     "points": 20.0,
-    "status": "unsubmitted",
-    "score": null,
-    "grade": null,
-    "missing": true,
-    "submitted_at": null,
-    "submission_type": null,
+    "status": "graded",
+    "score": 20.0,
+    "grade": "20",
+    "missing": false,
+    "submitted_at": "2026-11-10T18:26:00Z",
+    "submission_type": "external_tool",
     "my_submission": "",
     "comments": []
    },
@@ -606,10 +606,10 @@
  "needs": null,
  "course_id": 38674,
  "overall": {
-  "current_score": 89.77,
-  "current_grade": "B+",
-  "final_score": 44.62,
+  "current_score": 90.23,
+  "current_grade": "A-",
+  "final_score": 46.68,
   "final_grade": "E"
  },
- "built_at": "2026-11-10T18:29:50.134372+00:00"
+ "built_at": "2026-11-10T18:34:49.508331+00:00"
 }
