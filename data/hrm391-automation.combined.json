@@ -56,7 +56,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "On-paper printed notes and summary must be brought to class for in-class peer check"
+    "why": "Printed notes and summary must be brought to class for in-person peer check; physical artifact."
    },
    "optional_ec": false,
    "surface": true,
@@ -394,7 +394,7 @@
    "key": "SERVICE_PROJECT_PART_2_GROUP_ANALYSIS_AN",
    "status": "blocked_ask_zack",
    "date": "2026-11-21",
-   "note": "# Canvas 1513919, 100pt, Service Project\u2014Part 2: Group Analysis and Individual Reflection. Group analysis plus an individual reflection, so it needs the group's inputs and his own accounting before upload. Not a solo automation job. [manual:verify-note-says-individual-reflection-required-description-says-no]",
+   "note": "# Canvas 1513919, 100pt, Service Project\u2014Part 2: Group Analysis and Individual Reflection. Group analysis plus an individual reflection, so it needs the group's inputs and his own accounting before upload. Not a solo automation job. [manual:verify-model-called-it-automatable-but-the-item-name-needs-a-human-]",
    "title": "Service Project\u2014Part 2: Group Analysis and Individual Reflection. Group analysis plus an individual reflection, so it needs the group's inputs and his own accounting before upload. Not a solo automation job.",
    "grade": {
     "canvas_id": 1513919,
@@ -416,7 +416,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "verify",
-    "why": "Note says individual reflection required; description says not required\u2014facts conflict"
+    "why": "model called it automatable, but the item name needs a human call: Service Project\u2014Part 2: Group Analysis and Individual Reflec"
    },
    "optional_ec": false,
    "surface": true,
@@ -432,5 +432,5 @@
   "final_score": 64.57,
   "final_grade": "D"
  },
- "built_at": "2026-11-10T18:42:11.211985+00:00"
+ "built_at": "2026-11-10T19:14:10.512677+00:00"
 }

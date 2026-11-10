@@ -496,12 +496,12 @@
    "drift": false,
    "needs_zack": true,
    "judge": {
-    "verdict": "automatable",
-    "why": "Online submission path, no proctoring evidence."
+    "verdict": "manual",
+    "why": "Group assignment requires one physical product artifact; no online submission path"
    },
    "optional_ec": false,
-   "surface": false,
-   "actionable": false
+   "surface": true,
+   "actionable": true
   },
   {
    "key": "STRATEGIC_ALIGNMENT_READING_QUIZ",
@@ -631,5 +631,5 @@
   "final_score": 66.28,
   "final_grade": "D"
  },
- "built_at": "2026-11-10T18:42:11.239109+00:00"
+ "built_at": "2026-11-10T19:14:10.523996+00:00"
 }
