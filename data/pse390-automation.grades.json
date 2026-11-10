@@ -448,12 +448,12 @@
    "lock_at": "2026-11-05T22:30:00Z",
    "deadline": "2026-11-05T22:30:00Z",
    "points": 3.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
+   "status": "graded",
+   "score": 3.0,
+   "grade": "3",
    "missing": false,
-   "submitted_at": null,
-   "submission_type": null,
+   "submitted_at": "2026-11-05T21:49:42Z",
+   "submission_type": "online_quiz",
    "my_submission": "",
    "comments": []
   },
@@ -467,7 +467,7 @@
    "status": "unsubmitted",
    "score": null,
    "grade": null,
-   "missing": false,
+   "missing": true,
    "submitted_at": null,
    "submission_type": null,
    "my_submission": "",
@@ -650,6 +650,22 @@
    "comments": []
   },
   {
+   "canvas_id": 1520978,
+   "name": "Final Assignments! ",
+   "due": "2026-12-06T06:59:59Z",
+   "lock_at": "2026-12-18T06:59:59Z",
+   "deadline": "2026-12-06T06:59:59Z",
+   "points": 75.0,
+   "status": "unsubmitted",
+   "score": null,
+   "grade": null,
+   "missing": false,
+   "submitted_at": null,
+   "submission_type": null,
+   "my_submission": "",
+   "comments": []
+  },
+  {
    "canvas_id": 1511347,
    "name": "Participation Quiz 12.08",
    "due": "2026-12-08T22:30:00Z",
@@ -731,9 +747,9 @@
   }
  ],
  "overall": {
-  "current_score": 71.84,
+  "current_score": 72.25,
   "current_grade": "C-",
-  "final_score": 49.5,
+  "final_score": 40.37,
   "final_grade": "E"
  },
  "source": "canvas-api"

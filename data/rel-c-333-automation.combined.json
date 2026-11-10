@@ -910,14 +910,20 @@
     "lock_at": "2026-11-01T05:59:59Z",
     "deadline": "2026-11-01T05:59:59Z",
     "points": 100.0,
-    "status": "submitted",
-    "score": null,
-    "grade": null,
+    "status": "graded",
+    "score": 100.0,
+    "grade": "100",
     "missing": false,
     "submitted_at": "2026-10-30T18:30:34Z",
     "submission_type": "online_upload",
     "my_submission": "",
-    "comments": []
+    "comments": [
+     {
+      "author": "EVAN FOX",
+      "comment": "Zach - Thank you for your mid-term reflection. This is a powerful check-in point to see what is working, what is not, and make the changes you feel inspired to and draw closer to Christ. BECOME 1% better through him. Keep going with eyes on the final check-in and the future beyond that.\n Well done!",
+      "created": "2026-11-06T20:20:08Z"
+     }
+    ]
    },
    "drift": false,
    "needs_zack": false,
@@ -928,10 +934,10 @@
   },
   {
    "key": "11_3_ATTENDANCE_CHECK",
-   "status": "blocked_inperson",
+   "status": "done",
    "date": "2026-11-03",
-   "note": "# Canvas 1466123, 10pt, 11/3 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-check-recorded-in-the-classroom]",
-   "title": "11/3 - Attendance Check",
+   "note": "# Canvas 1466123, 10pt, 11/3 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-check-recorded-in-the-classroom] (audited 2026-11-10: already graded in Canvas)",
+   "title": "11/3 - Attendance Check (in-class/participation; drift-added 2026-10-08)",
    "grade": {
     "canvas_id": 1466123,
     "name": "11/3 - Attendance Check",
@@ -939,9 +945,9 @@
     "lock_at": "2026-11-03T19:50:00Z",
     "deadline": "2026-11-03T19:50:00Z",
     "points": 10.0,
-    "status": "unsubmitted",
-    "score": null,
-    "grade": null,
+    "status": "graded",
+    "score": 0.0,
+    "grade": "0",
     "missing": true,
     "submitted_at": null,
     "submission_type": null,
@@ -950,12 +956,9 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": {
-    "verdict": "manual",
-    "why": "Attendance check recorded in the classroom, not an online quiz"
-   },
+   "judge": null,
    "optional_ec": false,
-   "surface": true,
+   "surface": false,
    "actionable": false
   },
   {
@@ -971,10 +974,10 @@
     "lock_at": null,
     "deadline": "2026-11-03T18:59:59Z",
     "points": 10.0,
-    "status": "unsubmitted",
-    "score": null,
-    "grade": null,
-    "missing": true,
+    "status": "graded",
+    "score": 10.0,
+    "grade": "10",
+    "missing": false,
     "submitted_at": null,
     "submission_type": null,
     "my_submission": "",
@@ -989,10 +992,10 @@
   },
   {
    "key": "11_5_ATTENDANCE_CHECK",
-   "status": "blocked_inperson",
+   "status": "done",
    "date": "2026-11-05",
-   "note": "# Canvas 1466143, 10pt, 11/5 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-check-recorded-in-the-classroom]",
-   "title": "11/5 - Attendance Check",
+   "note": "# Canvas 1466143, 10pt, 11/5 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-check-recorded-in-the-classroom] (audited 2026-11-10: already graded in Canvas)",
+   "title": "11/5 - Attendance Check (in-class/participation; drift-added 2026-10-08)",
    "grade": {
     "canvas_id": 1466143,
     "name": "11/5 - Attendance Check",
@@ -1000,10 +1003,10 @@
     "lock_at": "2026-11-05T19:50:00Z",
     "deadline": "2026-11-05T19:50:00Z",
     "points": 10.0,
-    "status": "unsubmitted",
-    "score": null,
-    "grade": null,
-    "missing": false,
+    "status": "graded",
+    "score": 0.0,
+    "grade": "0",
+    "missing": true,
     "submitted_at": null,
     "submission_type": null,
     "my_submission": "",
@@ -1011,12 +1014,9 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": {
-    "verdict": "manual",
-    "why": "Attendance check recorded in the classroom, not an online quiz"
-   },
+   "judge": null,
    "optional_ec": false,
-   "surface": true,
+   "surface": false,
    "actionable": false
   },
   {
@@ -1032,9 +1032,9 @@
     "lock_at": null,
     "deadline": "2026-11-05T18:59:59Z",
     "points": 10.0,
-    "status": "unsubmitted",
-    "score": null,
-    "grade": null,
+    "status": "graded",
+    "score": 10.0,
+    "grade": "10",
     "missing": false,
     "submitted_at": null,
     "submission_type": null,
@@ -1052,7 +1052,7 @@
    "key": "11_10_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-11-10",
-   "note": "# Canvas 1466166, 10pt, 11/10 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-check-recorded-in-the-classroom]",
+   "note": "# Canvas 1466166, 10pt, 11/10 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:named-attendance-check-attendance-recorded-in-the-classroom]",
    "title": "11/10 - Attendance Check",
    "grade": {
     "canvas_id": 1466166,
@@ -1071,10 +1071,10 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false,
+   "needs_zack": true,
    "judge": {
     "verdict": "manual",
-    "why": "Attendance check recorded in the classroom, not an online quiz"
+    "why": "Named attendance check; attendance recorded in the classroom"
    },
    "optional_ec": false,
    "surface": true,
@@ -1113,7 +1113,7 @@
    "key": "11_12_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-11-12",
-   "note": "# Canvas 1466168, 10pt, 11/12 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-check-recorded-in-the-classroom]",
+   "note": "# Canvas 1466168, 10pt, 11/12 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:named-attendance-check-attendance-recorded-in-the-classroom]",
    "title": "11/12 - Attendance Check",
    "grade": {
     "canvas_id": 1466168,
@@ -1135,7 +1135,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Attendance check recorded in the classroom, not an online quiz"
+    "why": "Named attendance check; attendance recorded in the classroom"
    },
    "optional_ec": false,
    "surface": true,
@@ -1174,7 +1174,7 @@
    "key": "11_17_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-11-17",
-   "note": "# Canvas 1466170, 10pt, 11/17 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-check-recorded-in-the-classroom]",
+   "note": "# Canvas 1466170, 10pt, 11/17 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:named-attendance-check-attendance-recorded-in-the-classroom]",
    "title": "11/17 - Attendance Check",
    "grade": {
     "canvas_id": 1466170,
@@ -1196,7 +1196,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Attendance check recorded in the classroom, not an online quiz"
+    "why": "Named attendance check; attendance recorded in the classroom"
    },
    "optional_ec": false,
    "surface": true,
@@ -1235,7 +1235,7 @@
    "key": "11_19_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-11-19",
-   "note": "# Canvas 1466171, 10pt, 11/19 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-check-recorded-in-the-classroom]",
+   "note": "# Canvas 1466171, 10pt, 11/19 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:named-attendance-check-attendance-recorded-in-the-classroom]",
    "title": "11/19 - Attendance Check",
    "grade": {
     "canvas_id": 1466171,
@@ -1257,7 +1257,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Attendance check recorded in the classroom, not an online quiz"
+    "why": "Named attendance check; attendance recorded in the classroom"
    },
    "optional_ec": false,
    "surface": true,
@@ -1296,7 +1296,7 @@
    "key": "11_24_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-11-24",
-   "note": "# Canvas 1466174, 10pt, 11/24 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-check-recorded-in-the-classroom]",
+   "note": "# Canvas 1466174, 10pt, 11/24 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:named-attendance-check-attendance-recorded-in-the-classroom]",
    "title": "11/24 - Attendance Check",
    "grade": {
     "canvas_id": 1466174,
@@ -1318,7 +1318,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Attendance check recorded in the classroom, not an online quiz"
+    "why": "Named attendance check; attendance recorded in the classroom"
    },
    "optional_ec": false,
    "surface": true,
@@ -1328,7 +1328,7 @@
    "key": "12_1_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-12-01",
-   "note": "# Canvas 1466185, 10pt, 12/1 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-check-recorded-in-the-classroom]",
+   "note": "# Canvas 1466185, 10pt, 12/1 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:named-attendance-check-attendance-recorded-in-the-classroom]",
    "title": "12/1 - Attendance Check",
    "grade": {
     "canvas_id": 1466185,
@@ -1350,7 +1350,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Attendance check recorded in the classroom, not an online quiz"
+    "why": "Named attendance check; attendance recorded in the classroom"
    },
    "optional_ec": false,
    "surface": true,
@@ -1389,7 +1389,7 @@
    "key": "12_3_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-12-03",
-   "note": "# Canvas 1466190, 10pt, 12/3 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-check-recorded-in-the-classroom]",
+   "note": "# Canvas 1466190, 10pt, 12/3 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:named-attendance-check-attendance-recorded-in-the-classroom]",
    "title": "12/3 - Attendance Check",
    "grade": {
     "canvas_id": 1466190,
@@ -1411,7 +1411,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Attendance check recorded in the classroom, not an online quiz"
+    "why": "Named attendance check; attendance recorded in the classroom"
    },
    "optional_ec": false,
    "surface": true,
@@ -1421,7 +1421,7 @@
    "key": "12_8_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-12-08",
-   "note": "# Canvas 1466191, 10pt, 12/8 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-check-recorded-in-the-classroom]",
+   "note": "# Canvas 1466191, 10pt, 12/8 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:named-attendance-check-attendance-recorded-in-the-classroom]",
    "title": "12/8 - Attendance Check",
    "grade": {
     "canvas_id": 1466191,
@@ -1443,7 +1443,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Attendance check recorded in the classroom, not an online quiz"
+    "why": "Named attendance check; attendance recorded in the classroom"
    },
    "optional_ec": false,
    "surface": true,
@@ -1480,10 +1480,10 @@
   },
   {
    "key": "A_PROFILE_OF_A_PROPHET_GROUP_PROJECT",
-   "status": "blocked_inperson",
+   "status": "done",
    "date": "2026-12-10",
-   "note": "# Canvas 1468925, 100pt, A Profile of a Prophet Group Project (Zack's group: Elder Gerald Causse, in-class Oct 13 w/ Robert Cardon, Bree Cardon, Jamie Lewis; slides due Oct 12 11:59pm; in-class delivery is Zack's, cannot automate; research/slides automatable on request; no Canvas group, coordinate via Canvas Inbox; drift-added 2026-10-02) [manual:requires-in-class-group-presentation-by-zack-slides-are-sepa]",
-   "title": "A Profile of a Prophet Group Project",
+   "note": "# Canvas 1468925, 100pt, A Profile of a Prophet Group Project (Zack's group: Elder Gerald Causse, in-class Oct 13 w/ Robert Cardon, Bree Cardon, Jamie Lewis; slides due Oct 12 11:59pm; in-class delivery is Zack's, cannot automate; research/slides automatable on request; no Canvas group, coordinate via Canvas Inbox; drift-added 2026-10-02) [manual:requires-in-class-group-presentation-by-zack-slides-are-sepa] (audited 2026-11-10: already graded in Canvas)",
+   "title": "A Profile of a Prophet Group Project (Zack's group: Elder Gerald Causse, in-class Oct 13 w/ Robert Cardon, Bree Cardon, Jamie Lewis; slides",
    "grade": {
     "canvas_id": 1468925,
     "name": "A Profile of a Prophet Group Project",
@@ -1491,30 +1491,33 @@
     "lock_at": "2026-12-11T06:59:59Z",
     "deadline": "2026-12-11T06:59:59Z",
     "points": 100.0,
-    "status": "unsubmitted",
-    "score": null,
-    "grade": null,
+    "status": "graded",
+    "score": 95.0,
+    "grade": "95",
     "missing": false,
     "submitted_at": null,
     "submission_type": null,
     "my_submission": "",
-    "comments": []
+    "comments": [
+     {
+      "author": "EVAN FOX",
+      "comment": "Dear Team Elder Causse - Thank you for your presentation. I hope that you gained a deeper testimony of the sacred call and role of Elder Causse in the apostleship. The Lord prepared him for this office long ago and I hope your research of his life helped you view him differently.\nAs you move forward, make it a habit of understanding where the Lords prophets go, what they are doing, what they are teaching all across the world. They will always lead us to Christ. Well done on your presentation",
+      "created": "2026-11-06T17:49:10Z"
+     }
+    ]
    },
    "drift": false,
-   "needs_zack": true,
-   "judge": {
-    "verdict": "manual",
-    "why": "In-class group presentation delivery is the student's; slides/research alone don't fulfill it"
-   },
+   "needs_zack": false,
+   "judge": null,
    "optional_ec": false,
-   "surface": true,
-   "actionable": true
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "12_10_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-12-10",
-   "note": "# Canvas 1466192, 10pt, 12/10 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:attendance-check-recorded-in-the-classroom]",
+   "note": "# Canvas 1466192, 10pt, 12/10 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:named-attendance-check-attendance-recorded-in-the-classroom]",
    "title": "12/10 - Attendance Check",
    "grade": {
     "canvas_id": 1466192,
@@ -1536,7 +1539,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Attendance check recorded in the classroom, not an online quiz"
+    "why": "Named attendance check; attendance recorded in the classroom"
    },
    "optional_ec": false,
    "surface": true,
@@ -1547,10 +1550,10 @@
  "needs": "In person (unchanged):\n- Attendance Checks (10pts each) on 10/13, 10/15, 10/20, 10/22, 10/27, 10/29, 11/3, 11/5, 11/10, 11/12, 11/17, 11/19, 11/24, 12/1, 12/3, 12/8, 12/10: in-class LTI checks TTh 12:00-12:50pm.\n- Prophet Group Project (Canvas 1468925, 100pts, in-class Tue 10/13, slides due Mon 10/12 11:59pm): group presents in class.",
  "course_id": 38438,
  "overall": {
-  "current_score": 77.63,
-  "current_grade": "C+",
-  "final_score": 38.94,
-  "final_grade": "E"
+  "current_score": 81.08,
+  "current_grade": "B-",
+  "final_score": 70.61,
+  "final_grade": "C-"
  },
- "built_at": "2026-11-10T07:22:55.237414+00:00"
+ "built_at": "2026-11-10T18:06:02.019733+00:00"
 }

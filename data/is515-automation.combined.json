@@ -394,7 +394,7 @@
     "status": "unsubmitted",
     "score": null,
     "grade": null,
-    "missing": false,
+    "missing": true,
     "submitted_at": null,
     "submission_type": null,
     "my_submission": "",
@@ -423,7 +423,7 @@
     "status": "unsubmitted",
     "score": null,
     "grade": null,
-    "missing": false,
+    "missing": true,
     "submitted_at": null,
     "submission_type": null,
     "my_submission": "",
@@ -563,7 +563,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "In-class/TA presentation with sign-up; Zack must appear in person."
+    "why": "Course Project presentation delivered in class or to TA; requires Zack present"
    },
    "optional_ec": false,
    "surface": true,
@@ -595,7 +595,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Name is an exam; hard rule makes exams manual regardless of tool box or take-home note."
+    "why": "Name is an exam; comprehensive exam requires Zack, no online submission path given"
    },
    "optional_ec": false,
    "surface": true,
@@ -611,5 +611,5 @@
   "final_score": 44.62,
   "final_grade": "E"
  },
- "built_at": "2026-11-10T07:22:55.292776+00:00"
+ "built_at": "2026-11-10T18:06:02.161889+00:00"
 }

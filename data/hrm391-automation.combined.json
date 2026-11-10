@@ -56,7 +56,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Printed notes+summary must be brought to class for in-class peer check; physical artifact."
+    "why": "On-paper printed notes+summary brought to class for in-class peer check; physical artifact, in person"
    },
    "optional_ec": false,
    "surface": true,
@@ -111,8 +111,8 @@
     "deadline": "2026-09-09T05:59:59Z",
     "points": 8.0,
     "status": "graded",
-    "score": 8.0,
-    "grade": "8",
+    "score": 7.6,
+    "grade": "7.6",
     "missing": false,
     "submitted_at": "2026-09-09T18:24:27Z",
     "submission_type": "basic_lti_launch",
@@ -128,32 +128,14 @@
   },
   {
    "key": "UNIT_1_MID_TERM_CHECKPOINT",
-   "status": "blocked_ask_zack",
+   "status": "pending",
    "date": "2026-10-07",
-   "note": "# Canvas 1511530 / quiz 663964, 1pt graded survey, lock_at 2026-10-07T17:00:00Z, due_at null, never submitted. Re-verified live via CANVAS_TOKEN 2026-11-03: assignment 1511530 unsubmitted, due_at null, lock_at 2026-10-07T17:00:00Z; quiz 663964 graded_survey 1 pt, allowed_attempts 1, has_access_code false, same lock; twin 1508956 / quiz 663151 identical. Closed 27 days. Both are 1 pt each = 2 pts of a 700 pt course (0.3%), and they are duplicates of the same survey. ACTION TAKEN 2026-11-03: makeup request emailed from zackhada@byu.edu to BOTH TAs (Julia Gazdik jgazdik3@student.byu.edu, Elise Owens eliselo@student.byu.edu), verified in Sent Items. TA-first satisfied: the TAs told Zack on 2026-10-19 to email Tennis first, and that was done (Oct 19 email + Oct 21 meeting where he reopened Exam 1). Awaiting TA reply; if they say it is instructor-only, it escalates to Tennis and needs Zack's explicit approval for that email. DO NOT FLIP TO PENDING: an expired lock_at means closed regardless of healer classification (the healer rewrote this row to pending 22 times between 2026-10-29 and 11-03). [manual:closed-lock-2026-10-07]",
+   "note": "# Canvas 1511530 / quiz 663964, 1pt graded survey, lock_at 2026-10-07T17:00:00Z, due_at null, never submitted. Re-verified live via CANVAS_TOKEN 2026-11-03: assignment 1511530 unsubmitted, due_at null, lock_at 2026-10-07T17:00:00Z; quiz 663964 graded_survey 1 pt, allowed_attempts 1, has_access_code false, same lock; twin 1508956 / quiz 663151 identical. Closed 27 days. Both are 1 pt each = 2 pts of a 700 pt course (0.3%), and they are duplicates of the same survey. ACTION TAKEN 2026-11-03: makeup request emailed from zackhada@byu.edu to BOTH TAs (Julia Gazdik jgazdik3@student.byu.edu, Elise Owens eliselo@student.byu.edu), verified in Sent Items. TA-first satisfied: the TAs told Zack on 2026-10-19 to email Tennis first, and that was done (Oct 19 email + Oct 21 meeting where he reopened Exam 1). Awaiting TA reply; if they say it is instructor-only, it escalates to Tennis and needs Zack's explicit approval for that email. DO NOT FLIP TO PENDING: an expired lock_at means closed regardless of healer classification (the healer rewrote this row to pending 22 times between 2026-10-29 and 11-03). (judged automatable 2026-11-10: online-submission-path-no-proctoring-evidence)",
    "title": "Canvas 1511530 / quiz 663964, graded survey, lock_at 2026-10-07T17:00:00Z, due_at null, never submitted. Re-verified live via CANVAS_TOKEN 2026-11-03: assignment 1511530 unsubmitted, due_at null, lock_at 2026-10-07T17:00:00Z; quiz 663964 graded_survey , allowed_attempts 1, has_access_code false, same lock; twin 1508956 / quiz 663151 identical. Closed 27 days. Both are each = of a course (0.3%), and they are duplicates of the same survey. ACTION TAKEN 2026-11-03: makeup request emailed from zackhada@byu.edu to BOTH TAs (Julia Gazdik jgazdik3@student.byu.edu, Elise Owens eliselo@student.byu.edu), verified in Sent Items. TA-first satisfied: the TAs told Zack on 2026-10-19 to email Tennis first, and that was done (Oct 19 email + Oct 21 meeting where he reopened Exam 1). Awaiting TA reply; if they say it is instructor-only, it escalates to Tennis and needs Zack's explicit approval for that email. DO NOT FLIP TO PENDING: an expired lock_at means closed regardless of healer classification (the healer rewrote this row to pending 22 times between 2026-10-29 and 11-03).",
-   "grade": {
-    "canvas_id": 1511530,
-    "name": "Unit 1 Mid-term Checkpoint",
-    "due": null,
-    "lock_at": "2026-10-07T17:00:00Z",
-    "deadline": "2026-10-07T17:00:00Z",
-    "points": 1.0,
-    "status": "unsubmitted",
-    "score": null,
-    "grade": null,
-    "missing": true,
-    "submitted_at": null,
-    "submission_type": null,
-    "my_submission": "",
-    "comments": []
-   },
+   "grade": null,
    "drift": false,
    "needs_zack": true,
-   "judge": {
-    "verdict": "automatable",
-    "why": "Online submission path, no proctoring evidence."
-   },
+   "judge": null,
    "optional_ec": false,
    "surface": false,
    "actionable": false
@@ -164,22 +146,7 @@
    "date": "2026-10-07",
    "note": "# Duplicate row for Canvas 1511530, the same closed survey as UNIT_1_MID_TERM_CHECKPOINT. No separate action; decision tracked on that row.",
    "title": "Duplicate row for Canvas 1511530, the same closed survey as UNIT_1_MID_TERM_CHECKPOINT. No separate action; decision tracked on that row.",
-   "grade": {
-    "canvas_id": 1508956,
-    "name": "Unit 1 Mid-term Checkpoint",
-    "due": null,
-    "lock_at": "2026-10-07T17:00:00Z",
-    "deadline": "2026-10-07T17:00:00Z",
-    "points": 1.0,
-    "status": "unsubmitted",
-    "score": null,
-    "grade": null,
-    "missing": true,
-    "submitted_at": null,
-    "submission_type": null,
-    "my_submission": "",
-    "comments": []
-   },
+   "grade": null,
    "drift": false,
    "needs_zack": false,
    "judge": null,
@@ -301,9 +268,9 @@
     "lock_at": null,
     "deadline": "2026-11-04T06:59:59Z",
     "points": 20.0,
-    "status": "submitted",
-    "score": null,
-    "grade": null,
+    "status": "graded",
+    "score": 20.0,
+    "grade": "20",
     "missing": false,
     "submitted_at": "2026-11-03T05:10:41Z",
     "submission_type": "online_upload",
@@ -320,10 +287,25 @@
   {
    "key": "HRM_REMAINING_EXAMS_AND_FINAL",
    "status": "blocked_ask_zack",
-   "date": "2026-11-10",
+   "date": "2026-11-08",
    "note": "# HRM 391 Exam 2, Exam 3 and Final = 50% of the grade (Unit Exams 45% group holds Exam 1 at 49/56; Final Exam group is 20%). Canvas Key Dates: 2nd Exam Nov 4-10, 3rd Exam Dec 9-15, Final Dec 12-17. Verified 2026-11-03 from the Exam 2 Start Here page: taken IN CANVAS with PROCTORIO, not the Testing Center. Exam 2 quiz is not published yet (module 428262 holds only the Start Here page, the Unit 2 study guide file 14275762, and the Unit 2 notebook 1518004), so the exact close time and whether it needs an access code like Exam 1 did are still unknown; access-code question sent to both TAs 2026-11-03. Zack's own Chrome Default profile already has the Proctorio extension installed (\"Secure Exam Proctor\" gfolddmfcichcfnghdchbfgpmgodmkjd v1.5.26163.57) plus Honorlock, so the tech path works. Proctored: Zack takes these, the agent never answers or submits exam content. TA FIRST: Julia Gazdik jgazdik3@student.byu.edu or Elise Owens eliselo@student.byu.edu. Prep artifact built: HRM391_Exam2_Practice_Set.docx (31 MC + 6 short answer + 2 applied cases, from the official study guide only). [manual:three-proctored-exams-nov4-nov10-dec9-dec15-dec12-dec17-zack-takes]",
    "title": "HRM 391 Exam 2, Exam 3 and Final = 50% of the grade (Unit Exams 45% group holds Exam 1 at 49/56; Final Exam group is 20%). Canvas Key Dates: 2nd Exam Nov 4-10, 3rd Exam Dec 9-15, Final Dec 12-17. Verified 2026-11-03 from the Exam 2 Start Here page: taken IN CANVAS with PROCTORIO, not the Testing Center. Exam 2 quiz is not published yet (module 428262 holds only the Start Here page, the Unit 2 study guide file 14275762, and the Unit 2 notebook 1518004), so the exact close time and whether it needs an access code like Exam 1 did are still unknown; access-code question sent to both TAs 2026-11-03. Zack's own Chrome Default profile already has the Proctorio extension installed (\"Secure Exam Proctor\" gfolddmfcichcfnghdchbfgpmgodmkjd v1.5.26163.57) plus Honorlock, so the tech path works. Proctored: Zack takes these, the agent never answers or submits exam content. TA FIRST: Julia Gazdik jgazdik3@student.byu.edu or Elise Owens eliselo@student.byu.edu. Prep artifact built: HRM391_Exam2_Practice_Set.docx (31 MC + 6 short answer + 2 applied cases, from the official study guide only).",
-   "grade": null,
+   "grade": {
+    "canvas_id": 1489056,
+    "name": "Unit 2 Group Service Project (No Submission)",
+    "due": "2026-11-08T06:59:59Z",
+    "lock_at": null,
+    "deadline": "2026-11-08T06:59:59Z",
+    "points": 0.0,
+    "status": "unsubmitted",
+    "score": null,
+    "grade": null,
+    "missing": true,
+    "submitted_at": null,
+    "submission_type": null,
+    "my_submission": "",
+    "comments": []
+   },
    "drift": false,
    "needs_zack": false,
    "judge": {
@@ -364,10 +346,82 @@
    "actionable": false
   },
   {
+   "key": "CANVAS_1520006",
+   "status": "missing_from_ledger",
+   "date": "2026-11-10",
+   "note": "# In Canvas but no ledger row; runner must add it",
+   "title": "Unit 2 Exam - Groups and Individuals (Remotely Proctored)",
+   "grade": {
+    "canvas_id": 1520006,
+    "name": "Unit 2 Exam - Groups and Individuals (Remotely Proctored)",
+    "due": null,
+    "lock_at": "2026-11-11T06:59:59Z",
+    "deadline": "2026-11-11T06:59:59Z",
+    "points": 100.0,
+    "status": "graded",
+    "score": 68.0,
+    "grade": "68",
+    "missing": false,
+    "submitted_at": "2026-11-06T22:40:38Z",
+    "submission_type": "online_quiz",
+    "my_submission": "",
+    "comments": []
+   },
+   "drift": true
+  },
+  {
+   "key": "CANVAS_1508956",
+   "status": "missing_from_ledger",
+   "date": "2026-11-11",
+   "note": "# In Canvas but no ledger row; runner must add it",
+   "title": "Unit 1 Mid-term Checkpoint",
+   "grade": {
+    "canvas_id": 1508956,
+    "name": "Unit 1 Mid-term Checkpoint",
+    "due": null,
+    "lock_at": "2026-11-11T18:00:00Z",
+    "deadline": "2026-11-11T18:00:00Z",
+    "points": 1.0,
+    "status": "unsubmitted",
+    "score": null,
+    "grade": null,
+    "missing": false,
+    "submitted_at": null,
+    "submission_type": null,
+    "my_submission": "",
+    "comments": []
+   },
+   "drift": true
+  },
+  {
+   "key": "CANVAS_1511530",
+   "status": "missing_from_ledger",
+   "date": "2026-11-11",
+   "note": "# In Canvas but no ledger row; runner must add it",
+   "title": "Unit 1 Mid-term Checkpoint",
+   "grade": {
+    "canvas_id": 1511530,
+    "name": "Unit 1 Mid-term Checkpoint",
+    "due": null,
+    "lock_at": "2026-11-11T18:00:00Z",
+    "deadline": "2026-11-11T18:00:00Z",
+    "points": 1.0,
+    "status": "unsubmitted",
+    "score": null,
+    "grade": null,
+    "missing": false,
+    "submitted_at": null,
+    "submission_type": null,
+    "my_submission": "",
+    "comments": []
+   },
+   "drift": true
+  },
+  {
    "key": "SERVICE_PROJECT_PART_2_GROUP_ANALYSIS_AN",
    "status": "blocked_ask_zack",
    "date": "2026-11-21",
-   "note": "# Canvas 1513919, 100pt, Service Project\u2014Part 2: Group Analysis and Individual Reflection. Group analysis plus an individual reflection, so it needs the group's inputs and his own accounting before upload. Not a solo automation job. [manual:verify-online-submission-path-no-proctoring-evidence]",
+   "note": "# Canvas 1513919, 100pt, Service Project\u2014Part 2: Group Analysis and Individual Reflection. Group analysis plus an individual reflection, so it needs the group's inputs and his own accounting before upload. Not a solo automation job. [manual:verify-note-says-individual-reflection-required-description-says-no]",
    "title": "Service Project\u2014Part 2: Group Analysis and Individual Reflection. Group analysis plus an individual reflection, so it needs the group's inputs and his own accounting before upload. Not a solo automation job.",
    "grade": {
     "canvas_id": 1513919,
@@ -389,21 +443,70 @@
    "needs_zack": false,
    "judge": {
     "verdict": "verify",
-    "why": "model called it automatable, but the item name needs a human call: Service Project\u2014Part 2: Group Analysis and Individual Reflec"
+    "why": "Note says individual reflection required; description says not required \u2014 genuine conflict"
    },
    "optional_ec": false,
    "surface": true,
    "actionable": true
   }
  ],
- "unmatched_canvas": [],
+ "unmatched_canvas": [
+  {
+   "canvas_id": 1520006,
+   "name": "Unit 2 Exam - Groups and Individuals (Remotely Proctored)",
+   "due": null,
+   "lock_at": "2026-11-11T06:59:59Z",
+   "deadline": "2026-11-11T06:59:59Z",
+   "points": 100.0,
+   "status": "graded",
+   "score": 68.0,
+   "grade": "68",
+   "missing": false,
+   "submitted_at": "2026-11-06T22:40:38Z",
+   "submission_type": "online_quiz",
+   "my_submission": "",
+   "comments": []
+  },
+  {
+   "canvas_id": 1508956,
+   "name": "Unit 1 Mid-term Checkpoint",
+   "due": null,
+   "lock_at": "2026-11-11T18:00:00Z",
+   "deadline": "2026-11-11T18:00:00Z",
+   "points": 1.0,
+   "status": "unsubmitted",
+   "score": null,
+   "grade": null,
+   "missing": false,
+   "submitted_at": null,
+   "submission_type": null,
+   "my_submission": "",
+   "comments": []
+  },
+  {
+   "canvas_id": 1511530,
+   "name": "Unit 1 Mid-term Checkpoint",
+   "due": null,
+   "lock_at": "2026-11-11T18:00:00Z",
+   "deadline": "2026-11-11T18:00:00Z",
+   "points": 1.0,
+   "status": "unsubmitted",
+   "score": null,
+   "grade": null,
+   "missing": false,
+   "submitted_at": null,
+   "submission_type": null,
+   "my_submission": "",
+   "comments": []
+  }
+ ],
  "needs": "Agent did what could be done without you (updated 2026-11-03):\n\nUnit 1 Mid-term Checkpoints (Canvas 1508956 / 1511530, 1 pt each):\n- Still closed. Both locked Oct 7 at 11am, never taken. Only a teacher-side reopen changes that.\n- Emailed BOTH TAs from your BYU account (Julia Gazdik, Elise Owens) asking for a reopen. Verified in Sent Items. No reply yet.\n- Worth 2 points of 700 (0.3%). Not a grade cliff.\n\nFixed so this cannot repeat (no action needed from you):\n- The real cause was that these two quizzes were the only items in the course with no due date, only a lock date of Oct 7 11am. Every deadline check read due dates only, so they were invisible until after they closed.\n- Lock dates now count as deadlines everywhere: the ledger, the nightly Canvas audit, and the dashboard.\n- The dashboard now has a \"Closing soon, still unsubmitted\" list pulled straight from Canvas. Anything worth points inside 3 days shows there until Canvas says it is submitted, even if the ledger claims it is done.\n- A newly published Unit 2 checkpoint will now get its own ledger row instead of being mistaken for the closed Unit 1 one. That was the next way it would have been missed.\n\nYour call:\n- Nothing yet. If the TAs say only Dr Tennis can reopen it, say the word and I will send him a two-line request. I will not email him without your yes.\n\nExams (proctored, you take them):\n- Exam 2 opens Nov 4, window Nov 4-10, in Canvas with Proctorio. Proctorio is already installed in your Chrome.\n- Still unconfirmed whether Exam 2 needs an access code like Exam 1 did. Asked both TAs where it will be posted.\n- Practice set ready: HRM391_Exam2_Practice_Set.docx in the hrm391 folder.",
  "course_id": 37899,
  "overall": {
-  "current_score": 92.97,
-  "current_grade": "A-",
-  "final_score": 63.69,
+  "current_score": 85.76,
+  "current_grade": "B",
+  "final_score": 64.57,
   "final_grade": "D"
  },
- "built_at": "2026-11-10T07:22:55.167589+00:00"
+ "built_at": "2026-11-10T18:06:01.869646+00:00"
 }

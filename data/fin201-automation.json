@@ -83,7 +83,7 @@
    "key": "FIN_MIDTERM_3",
    "status": "blocked_inperson",
    "date": "2026-11-16",
-   "note": "# Testing Center verified: opens Fri Nov 13 8:00am, $5 late fee from Mon Nov 16 11:00am, closes Mon Nov 16 6:00pm. Test 1 45%, Test 2 56%: this exam decides the course [manual:requires-the-student-in-person]"
+   "note": "# Testing Center verified: opens Fri Nov 13 8:00am, $5 late fee from Mon Nov 16 11:00am, closes Mon Nov 16 6:00pm. Test 1 45%, Test 2 56%: this exam decides the course [manual:testing-center-exam-with-fixed-in-person-window-late-fee-aft]"
   },
   {
    "key": "FIN_FINAL",

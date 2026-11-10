@@ -516,14 +516,20 @@
    "lock_at": "2026-11-01T05:59:59Z",
    "deadline": "2026-11-01T05:59:59Z",
    "points": 100.0,
-   "status": "submitted",
-   "score": null,
-   "grade": null,
+   "status": "graded",
+   "score": 100.0,
+   "grade": "100",
    "missing": false,
    "submitted_at": "2026-10-30T18:30:34Z",
    "submission_type": "online_upload",
    "my_submission": "",
-   "comments": []
+   "comments": [
+    {
+     "author": "EVAN FOX",
+     "comment": "Zach - Thank you for your mid-term reflection. This is a powerful check-in point to see what is working, what is not, and make the changes you feel inspired to and draw closer to Christ. BECOME 1% better through him. Keep going with eyes on the final check-in and the future beyond that.\n Well done!",
+     "created": "2026-11-06T20:20:08Z"
+    }
+   ]
   },
   {
    "canvas_id": 1466501,
@@ -532,10 +538,10 @@
    "lock_at": null,
    "deadline": "2026-11-03T18:59:59Z",
    "points": 10.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
-   "missing": true,
+   "status": "graded",
+   "score": 10.0,
+   "grade": "10",
+   "missing": false,
    "submitted_at": null,
    "submission_type": null,
    "my_submission": "",
@@ -548,9 +554,9 @@
    "lock_at": "2026-11-03T19:50:00Z",
    "deadline": "2026-11-03T19:50:00Z",
    "points": 10.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
+   "status": "graded",
+   "score": 0.0,
+   "grade": "0",
    "missing": true,
    "submitted_at": null,
    "submission_type": null,
@@ -564,9 +570,9 @@
    "lock_at": null,
    "deadline": "2026-11-05T18:59:59Z",
    "points": 10.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
+   "status": "graded",
+   "score": 10.0,
+   "grade": "10",
    "missing": false,
    "submitted_at": null,
    "submission_type": null,
@@ -580,10 +586,10 @@
    "lock_at": "2026-11-05T19:50:00Z",
    "deadline": "2026-11-05T19:50:00Z",
    "points": 10.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
-   "missing": false,
+   "status": "graded",
+   "score": 0.0,
+   "grade": "0",
+   "missing": true,
    "submitted_at": null,
    "submission_type": null,
    "my_submission": "",
@@ -836,14 +842,20 @@
    "lock_at": "2026-12-11T06:59:59Z",
    "deadline": "2026-12-11T06:59:59Z",
    "points": 100.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
+   "status": "graded",
+   "score": 95.0,
+   "grade": "95",
    "missing": false,
    "submitted_at": null,
    "submission_type": null,
    "my_submission": "",
-   "comments": []
+   "comments": [
+    {
+     "author": "EVAN FOX",
+     "comment": "Dear Team Elder Causse - Thank you for your presentation. I hope that you gained a deeper testimony of the sacred call and role of Elder Causse in the apostleship. The Lord prepared him for this office long ago and I hope your research of his life helped you view him differently.\nAs you move forward, make it a habit of understanding where the Lords prophets go, what they are doing, what they are teaching all across the world. They will always lead us to Christ. Well done on your presentation",
+     "created": "2026-11-06T17:49:10Z"
+    }
+   ]
   },
   {
    "canvas_id": 1468128,
@@ -1087,10 +1099,10 @@
   }
  ],
  "overall": {
-  "current_score": 77.63,
-  "current_grade": "C+",
-  "final_score": 38.94,
-  "final_grade": "E"
+  "current_score": 81.08,
+  "current_grade": "B-",
+  "final_score": 70.61,
+  "final_grade": "C-"
  },
  "source": "canvas-api"
 }

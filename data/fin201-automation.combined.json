@@ -240,14 +240,14 @@
    "key": "FIN_MIDTERM_3",
    "status": "blocked_inperson",
    "date": "2026-11-16",
-   "note": "# Testing Center verified: opens Fri Nov 13 8:00am, $5 late fee from Mon Nov 16 11:00am, closes Mon Nov 16 6:00pm. Test 1 45%, Test 2 56%: this exam decides the course [manual:requires-the-student-in-person]",
+   "note": "# Testing Center verified: opens Fri Nov 13 8:00am, $5 late fee from Mon Nov 16 11:00am, closes Mon Nov 16 6:00pm. Test 1 45%, Test 2 56%: this exam decides the course [manual:testing-center-exam-with-fixed-in-person-window-late-fee-aft]",
    "title": "Testing Center verified: opens Fri Nov 13 , $5 late fee from Mon Nov 16 , closes Mon Nov 16 . Test 1 45%, Test 2 56%: this exam decides the course",
    "grade": null,
    "drift": false,
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Requires the student in person."
+    "why": "Testing Center exam with fixed in-person window, late fee after Nov 16 11am; no online path."
    },
    "optional_ec": false,
    "surface": true,
@@ -321,5 +321,5 @@
  "needs": "FIN 201: Topic 3 Quiz is still closed (past due Oct 28, no late submissions). Reopen request to the TA (byufin201@gmail.com) is sent, no reply yet. Escalating to Holmes needs your OK. If it reopens, take it yourself and tell me. Topic 4 Quiz is done (10/10). Next due: Topic 11, Dec 2.",
  "course_id": null,
  "overall": {},
- "built_at": "2026-11-10T07:22:55.285817+00:00"
+ "built_at": "2026-11-10T18:06:02.138727+00:00"
 }
