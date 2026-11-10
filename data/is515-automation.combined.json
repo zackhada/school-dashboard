@@ -380,9 +380,9 @@
   },
   {
    "key": "IS_LOOKUP",
-   "status": "pending",
+   "status": "done",
    "date": "2026-11-04",
-   "note": "# 14.9 Lookups Assessment, 20pts, MyEducator",
+   "note": "# 14.9 Lookups Assessment, Canvas 1452615, 20pts, MyEducator. 20/20 (100%), attempt 1, submitted 2026-11-10T18:26:00Z, graded 18:26:01Z, Canvas workflow_state graded.",
    "title": "14.9 Lookups Assessment",
    "grade": {
     "canvas_id": 1452615,
@@ -527,8 +527,8 @@
    "key": "IS_PROJECT",
    "status": "pending",
    "date": "2026-11-30",
-   "note": "# Course Project, 5% of grade, workbook due 11:59pm Nov 30 (Canvas Project Overview page, no assignment row yet)",
-   "title": "Course Project, 5% of grade, workbook",
+   "note": "# Course Project, Canvas 1452627, 25pts, 5% of grade, due 2026-12-01T06:59:59Z (Nov 30 11:59pm MST).",
+   "title": "Course Project, Canvas 1452627, , 5% of grade",
    "grade": {
     "canvas_id": 1452627,
     "name": "Course Project",
@@ -611,5 +611,5 @@
   "final_score": 44.62,
   "final_grade": "E"
  },
- "built_at": "2026-11-10T18:24:21.902180+00:00"
+ "built_at": "2026-11-10T18:29:50.134372+00:00"
 }

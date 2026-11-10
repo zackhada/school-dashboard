@@ -69,9 +69,9 @@
   },
   {
    "key": "WEEKLY_QUIZ_WK09",
-   "status": "pending",
+   "status": "missed",
    "date": "2026-11-07",
-   "note": "# Canvas 1495465 Ethics and Public Quiz Week 9, online_text_entry/url, due 2026-11-08T06:59:59Z"
+   "note": "# Canvas 1495465, 10pt, due AND locked 2026-11-08T06:59:59Z (Sat Nov 7 11:59pm MT), never submitted. Verified live 2026-11-10: lock_at passed, workflow_state unsubmitted. Cause: the runner Mac was offline from Nov 3 to Nov 10, so no run could submit it in the window. Recovery needs a TA or instructor reopen; the only TA on the roster is Ernest Elliott (TaEnrollment, no email exposed in Canvas). Emailing Professor Tellez needs Zack's explicit approval, so it is surfaced on the dashboard instead."
   },
   {
    "key": "WEEKLY_QUIZ_WK10",
