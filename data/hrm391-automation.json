@@ -45,9 +45,9 @@
   },
   {
    "key": "MID_TERM_CHECKPOINT",
-   "status": "missed",
+   "status": "done",
    "date": "2026-11-11",
-   "note": "# Canvas 1508956 / quiz 663151, 1pt graded survey, reopened by the TAs but NOT submitted before lock_at 2026-11-11T18:00:00Z (Wed Nov 11 11:00am MT). Verified live 2026-11-11 11:00am MST: workflow_state unsubmitted. It asks for the mid-term checkpoint completion code from the in-class activity, so it is Zack's own item; recovery is a TA reopen. [manual:in-class-mid-term-completion-code-survey]"
+   "note": "# Canvas 1508956, 1pt graded survey, locked 2026-11-11 11:00am MT unsubmitted. ACCEPTED ZERO per Zack 2026-11-11 (missed, not a big test); no TA reopen. [accepted-zero]"
   },
   {
    "key": "BREAKING_BREAD_COUNTS_TOWARD_FINAL_GRADE",
@@ -63,15 +63,15 @@
   },
   {
    "key": "UNIT_1_MID_TERM_CHECKPOINT",
-   "status": "missed",
+   "status": "done",
    "date": "2026-11-11",
-   "note": "# Canvas 1511530 / quiz 663964, 1pt graded survey, same lock (Wed Nov 11 11:00am MT) and the same content: it asks for the mid-term checkpoint completion code from the in-class activity. Verified live 2026-11-11 11:00am MST: workflow_state unsubmitted. Recovery is a TA reopen. [manual:in-class-mid-term-completion-code-survey]"
+   "note": "# Canvas 1511530, 1pt graded survey, same 2026-11-11 11:00am MT lock, unsubmitted. ACCEPTED ZERO per Zack 2026-11-11 (missed, not a big test); no TA reopen. [accepted-zero]"
   },
   {
    "key": "SERVICE_PROJECT_PART_2_GROUP_ANALYSIS_AN",
    "status": "blocked_ask_zack",
    "date": "2026-11-21",
-   "note": "# Canvas 1513919, 100pt, Service Project\u2014Part 2: Group Analysis and Individual Reflection. Group analysis plus an individual reflection, so it needs the group's inputs and his own accounting before upload. Not a solo automation job. [manual:verify-empty-submission-types-conflicts-with-note-mentioning-an-onl]"
+   "note": "# Canvas 1513919, 100pt, Service Project\u2014Part 2: Group Analysis and Individual Reflection. Group analysis plus an individual reflection, so it needs the group's inputs and his own accounting before upload. Not a solo automation job. [manual:verify-no-submission-types-given-and-note-conflicts-group-individua]"
   },
   {
    "key": "HRM_REMAINING_EXAMS_AND_FINAL",

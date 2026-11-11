@@ -510,8 +510,8 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": true,
-   "needs_excerpt": "STRAT 392 Market Entry Strategy Assignment (60 pts, due Tue Nov 17 11:59pm MT) needs your team.",
+   "needs_zack": false,
+   "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
     "why": "Group assignment centered on one physical product; submission_types=none, no online submission path"
@@ -645,7 +645,7 @@
   }
  ],
  "unmatched_canvas": [],
- "needs": "STRAT 392 Market Entry Strategy Assignment (60 pts, due Tue Nov 17 11:59pm MT) needs your team.\n\nWhat is due: one team video, 3 to 5 minutes, on one physical product with a real six-digit HS code. Each member needs an iLabz.org account and the weighted lab results must be on screen. One submission per team.\n\nWhat I need from you: your actual STRAT team and confirmation that each member has an iLabz account. The old Raising Cane's restaurant deck does not qualify because a restaurant is a service with no HS code.\n\nReply with your team members and I will run the lab and build the video. The later online reading quizzes do not need you.",
+ "needs": null,
  "needs_unassigned": false,
  "course_id": 39131,
  "overall": {
@@ -654,5 +654,5 @@
   "final_score": 68.6,
   "final_grade": "D+"
  },
- "built_at": "2026-11-11T19:07:34.090675+00:00"
+ "built_at": "2026-11-11T19:37:27.571550+00:00"
 }

@@ -105,9 +105,9 @@
   },
   {
    "key": "ECON_NEQ_9",
-   "status": "blocked_ask_zack",
+   "status": "done",
    "date": "2026-11-09",
-   "note": "# NE Quiz #9 5pt: exam closed Nov 9 11:59pm MST with no attempt; re-verified live 2026-11-11 11:03 MST (info id-8Oy1 still View/Exam Closed, no Begin, blank score); .state/needs_user holds YES-reopen-or-NO-accept-zero ask; if YES email Showalter and reset pending, if NO mark done (judged automatable once reopened: online-submission-path-no-proctoring-evidence)"
+   "note": "# NE Quiz #9 5pt, closed Nov 9 11:59pm MST with no attempt. ACCEPTED ZERO per Zack 2026-11-11 (missed, not a big test); no reopen. [accepted-zero]"
   },
   {
    "key": "ECON_NEQ_10",
@@ -201,9 +201,9 @@
   },
   {
    "key": "ECON_MANKIW_8",
-   "status": "blocked_ask_zack",
+   "status": "done",
    "date": "2026-11-09",
-   "note": "# Mankiw Bonus #8 (Ch12 Q1,4 + Ch25 Q5,9): LS Submission tab reads \"No Submission / due date has passed\", no Submit control (re-verified live 2026-11-11 11:03 MST); needs Zack YES to email Showalter for a late reopen, else accept 0/6 (judged automatable 2026-11-10: online-submission-path-no-proctoring-evidence)"
+   "note": "# Mankiw Bonus #8 (6pt EC), due Nov 9 passed with no submission. ACCEPTED ZERO per Zack 2026-11-11 (missed, not a big test); no reopen. [accepted-zero]"
   },
   {
    "key": "ECON_MANKIW_9",
@@ -257,7 +257,7 @@
    "key": "ECON_FINAL",
    "status": "blocked_inperson",
    "date": "2026-12-10",
-   "note": "# Testing Center, live due date Dec 10 6:00pm (drift-fixed from 12-17 on 2026-11-10); check /my-exams for the exact window [manual:testing-center-final-exam-requires-the-student-in-person]"
+   "note": "# Testing Center, live due date Dec 10 6:00pm (drift-fixed from 12-17 on 2026-11-10); check /my-exams for the exact window [manual:requires-the-student-in-person]"
   },
   {
    "key": "ECON_MINDTAP_CH2",

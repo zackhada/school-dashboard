@@ -245,6 +245,16 @@ Promise.all(REPOS.map(function(pair){
   classes.forEach(function(c){
     c.rows.forEach(function(x){
       if (isOptionalEc(x)) return;
+      // A missed item that is not a big test is an accepted zero, not an
+      // action item (Zack 2026-11-11). Exams, finals, midterms and 50+ point
+      // work still surface; small quizzes and checkpoints do not.
+      if (x.status === 'missed') {
+        var pm = /(\d+)\s*pts?\b/i.exec(x.note || '');
+        var pts = (x.grade && x.grade.points) || (pm ? +pm[1] : 0);
+        var big = /exam|mid[\s-]?term|final|test/i
+          .test((x.key || '') + ' ' + (x.note || '')) || pts >= 50;
+        if (!big) return;
+      }
       var isBlocked = x.status && x.status.indexOf('blocked') === 0;
       // A blocked row only reaches a human action list when the judge (or the
       // evidence gate, if the judge has not run) says a human is really
