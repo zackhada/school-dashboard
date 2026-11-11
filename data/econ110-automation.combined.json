@@ -114,7 +114,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "In-person TA lab in B090 JFSB requires physical presence"
+    "why": "In-person TA lab in B090 JFSB requires the student's physical presence; no online submission path."
    },
    "optional_ec": false,
    "surface": true,
@@ -873,7 +873,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Requires the student in person."
+    "why": "Testing Center exam with scheduled window and late fee; requires the student in person, no online option."
    },
    "optional_ec": false,
    "surface": true,
@@ -1295,5 +1295,5 @@
   "current_score": 72.96,
   "source": "learning-suite-points"
  },
- "built_at": "2026-11-11T00:28:59.255002+00:00"
+ "built_at": "2026-11-11T00:33:01.156157+00:00"
 }

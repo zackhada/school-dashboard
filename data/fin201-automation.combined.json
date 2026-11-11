@@ -247,7 +247,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Testing Center exam with fixed window and late fee; requires student in person"
+    "why": "Requires the student in person."
    },
    "optional_ec": false,
    "surface": true,
@@ -310,7 +310,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Testing Center exam with fixed Dec 12-17 window; requires student in person"
+    "why": "Requires the student in person."
    },
    "optional_ec": false,
    "surface": true,
@@ -321,5 +321,5 @@
  "needs": "FIN 201: Topic 3 Quiz is still closed (past due Oct 28, no late submissions). Reopen request to the TA (byufin201@gmail.com) is sent, no reply yet. Escalating to Holmes needs your OK. If it reopens, take it yourself and tell me. Topic 4 Quiz is done (10/10). Next due: Topic 11, Dec 2.",
  "course_id": null,
  "overall": {},
- "built_at": "2026-11-11T00:28:59.084063+00:00"
+ "built_at": "2026-11-11T00:33:00.952643+00:00"
 }
