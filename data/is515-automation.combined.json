@@ -581,7 +581,10 @@
    "drift": false,
    "needs_zack": false,
    "needs_excerpt": null,
-   "judge": null,
+   "judge": {
+    "verdict": "manual",
+    "why": "In-class presentation with sign-up; Zack must present in person, not an online submission."
+   },
    "optional_ec": false,
    "surface": true,
    "actionable": true
@@ -611,7 +614,10 @@
    "drift": false,
    "needs_zack": false,
    "needs_excerpt": null,
-   "judge": null,
+   "judge": {
+    "verdict": "manual",
+    "why": "Named exam; note states Zack takes it manually in a quiet window; exam-name rule makes it manual."
+   },
    "optional_ec": false,
    "surface": true,
    "actionable": true
@@ -627,5 +633,5 @@
   "final_score": 50.69,
   "final_grade": "E"
  },
- "built_at": "2026-11-11T18:38:34.282321+00:00"
+ "built_at": "2026-11-11T19:07:34.208901+00:00"
 }

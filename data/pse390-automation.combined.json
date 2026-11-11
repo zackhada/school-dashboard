@@ -490,7 +490,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Participation quiz; name type is attendance/participation earned in class, no online path"
+    "why": "Name is participation quiz; participation earned in class"
    },
    "optional_ec": false,
    "surface": true,
@@ -850,7 +850,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Name is a participation quiz; participation is earned in class"
+    "why": "Name is participation quiz; participation earned in class"
    },
    "optional_ec": false,
    "surface": true,
@@ -973,7 +973,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Name is a participation quiz; participation is earned in class"
+    "why": "Name is participation quiz; participation earned in class"
    },
    "optional_ec": false,
    "surface": true,
@@ -1036,7 +1036,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Name is a participation quiz; participation is earned in class"
+    "why": "Name is participation quiz; participation earned in class"
    },
    "optional_ec": false,
    "surface": true,
@@ -1069,7 +1069,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Name is a participation quiz; participation is earned in class"
+    "why": "Name is participation quiz; participation earned in class"
    },
    "optional_ec": false,
    "surface": true,
@@ -1132,7 +1132,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Name is a participation quiz; participation is earned in class"
+    "why": "Name is participation quiz; participation earned in class"
    },
    "optional_ec": false,
    "surface": true,
@@ -1195,7 +1195,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Name is a participation quiz; participation is earned in class"
+    "why": "Name is participation quiz; participation earned in class"
    },
    "optional_ec": false,
    "surface": true,
@@ -1228,7 +1228,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Name is a participation quiz; participation is earned in class"
+    "why": "Name is participation quiz; participation earned in class"
    },
    "optional_ec": false,
    "surface": true,
@@ -1289,10 +1289,13 @@
    "drift": false,
    "needs_zack": true,
    "needs_excerpt": "Also new: \"Final Assignments!\" (Canvas 1520978, 75 pts, due Dec 6). It is a\npersonalized project keyed to your name in a \"Final Assignments\" spreadsheet\nlinked in the assignment. I need your named row and any real-world step only\nyou can take. Say when to start it.",
-   "judge": null,
+   "judge": {
+    "verdict": "automatable",
+    "why": "Online submission path, no proctoring evidence."
+   },
    "optional_ec": false,
-   "surface": true,
-   "actionable": true
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "PARTICIPATION_QUIZ_12_08",
@@ -1321,7 +1324,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Name is a participation quiz; participation is earned in class"
+    "why": "Name is participation quiz; participation earned in class"
    },
    "optional_ec": false,
    "surface": true,
@@ -1354,7 +1357,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Name is a participation quiz; participation is earned in class"
+    "why": "Name is participation quiz; participation earned in class"
    },
    "optional_ec": false,
    "surface": true,
@@ -1401,5 +1404,5 @@
   "final_score": 41.18,
   "final_grade": "E"
  },
- "built_at": "2026-11-11T18:38:34.271481+00:00"
+ "built_at": "2026-11-11T19:07:34.197885+00:00"
 }

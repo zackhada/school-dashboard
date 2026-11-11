@@ -121,10 +121,10 @@
    "points": 1.0,
    "canvas_id": 1508956,
    "deadline_kind": "locks",
-   "owner": "zack",
+   "owner": "agent",
    "covered": true,
    "ledger_key": "MID_TERM_CHECKPOINT",
-   "ledger_status": "blocked_inperson"
+   "ledger_status": "missed"
   },
   {
    "course": "HRM 391",
@@ -133,10 +133,10 @@
    "points": 1.0,
    "canvas_id": 1511530,
    "deadline_kind": "locks",
-   "owner": "zack",
+   "owner": "agent",
    "covered": true,
    "ledger_key": "UNIT_1_MID_TERM_CHECKPOINT",
-   "ledger_status": "blocked_inperson"
+   "ledger_status": "missed"
   },
   {
    "course": "PSE 390",
@@ -149,18 +149,6 @@
    "covered": true,
    "ledger_key": "PARTICIPATION_QUIZ_11_12",
    "ledger_status": "blocked_inperson"
-  },
-  {
-   "course": "PSE 390",
-   "assignment": "Ethics and Public Quiz - Week 10",
-   "due": "2026-11-14",
-   "points": 10.0,
-   "canvas_id": 1495466,
-   "deadline_kind": "due",
-   "owner": "agent",
-   "covered": true,
-   "ledger_key": "WEEKLY_QUIZ_WK10",
-   "ledger_status": "pending"
   },
   {
    "course": "REL C 333",

@@ -513,8 +513,8 @@
    "needs_zack": true,
    "needs_excerpt": "STRAT 392 Market Entry Strategy Assignment (60 pts, due Tue Nov 17 11:59pm MT) needs your team.",
    "judge": {
-    "verdict": "verify",
-    "why": "Canvas 60pt due date implies online, but PDF requires a physical product for teams; path unclear"
+    "verdict": "manual",
+    "why": "Group assignment centered on one physical product; submission_types=none, no online submission path"
    },
    "optional_ec": false,
    "surface": true,
@@ -654,5 +654,5 @@
   "final_score": 68.6,
   "final_grade": "D+"
  },
- "built_at": "2026-11-11T18:38:34.168603+00:00"
+ "built_at": "2026-11-11T19:07:34.090675+00:00"
 }
