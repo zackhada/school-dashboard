@@ -1248,6 +1248,32 @@
    "actionable": false
   },
   {
+   "key": "ECON_FINAL",
+   "status": "blocked_inperson",
+   "date": "2026-12-10",
+   "note": "# Testing Center, live due date Dec 10 6:00pm (drift-fixed from 12-17 on 2026-11-10); check /my-exams for the exact window [manual:requires-the-student-in-person]",
+   "title": "Testing Center, live",
+   "grade": {
+    "name": "Final Exam",
+    "due": "2026-12-10T18:00:00",
+    "points": 225.0,
+    "score": null,
+    "status": "not_graded",
+    "missing": false,
+    "submission_type": "learning_suite",
+    "comments": []
+   },
+   "drift": false,
+   "needs_zack": false,
+   "judge": {
+    "verdict": "manual",
+    "why": "Requires the student in person."
+   },
+   "optional_ec": false,
+   "surface": true,
+   "actionable": true
+  },
+  {
    "key": "ECON_COURSE_EVAL",
    "status": "pending",
    "date": "2026-12-11",
@@ -1269,23 +1295,6 @@
    "optional_ec": false,
    "surface": false,
    "actionable": false
-  },
-  {
-   "key": "ECON_FINAL",
-   "status": "blocked_inperson",
-   "date": "2026-12-17",
-   "note": "# Testing Center, finals week; not yet scheduled on the Testing Center site as of 2026-10-25. Check /my-exams for the exact window [manual:requires-the-student-in-person]",
-   "title": "Testing Center, finals week; not yet scheduled on the Testing Center site as of 2026-10-25. Check /my-exams for the exact window",
-   "grade": null,
-   "drift": false,
-   "needs_zack": false,
-   "judge": {
-    "verdict": "manual",
-    "why": "Requires the student in person."
-   },
-   "optional_ec": false,
-   "surface": true,
-   "actionable": true
   }
  ],
  "unmatched_canvas": [],
@@ -1295,5 +1304,5 @@
   "current_score": 72.96,
   "source": "learning-suite-points"
  },
- "built_at": "2026-11-11T04:20:04.744191+00:00"
+ "built_at": "2026-11-11T04:44:47.162381+00:00"
 }

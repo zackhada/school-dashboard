@@ -256,8 +256,8 @@
   {
    "key": "ECON_FINAL",
    "status": "blocked_inperson",
-   "date": "2026-12-17",
-   "note": "# Testing Center, finals week; not yet scheduled on the Testing Center site as of 2026-10-25. Check /my-exams for the exact window [manual:requires-the-student-in-person]"
+   "date": "2026-12-10",
+   "note": "# Testing Center, live due date Dec 10 6:00pm (drift-fixed from 12-17 on 2026-11-10); check /my-exams for the exact window [manual:requires-the-student-in-person]"
   },
   {
    "key": "ECON_MINDTAP_CH2",
