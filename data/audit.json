@@ -1,28 +1,62 @@
 {
- "generated": "2026-11-10",
- "missed": [
-  {
-   "course": "STRAT 392",
-   "test": "STRAT 392 Midterm",
-   "opens": "Oct 9, 2026 8:00 AM",
-   "closes": "Oct 20, 2026 9:00 PM",
-   "score": ""
-  }
- ],
+ "generated": "2026-11-11",
+ "missed": [],
  "exam_windows": [
   {
    "course": "FIN 201",
-   "test": "FIN 201 - Test 3 - Fall 2026 - Holmes",
-   "opens": "Nov 13, 2026 8:00 AM",
-   "closes": "Nov 16, 2026 6:00 PM",
-   "score": ""
+   "test": "FIN 201 Test 3 (Testing Center)",
+   "opens": "Nov 13, 2026 08:00 AM",
+   "closes": "Nov 16, 2026 06:00 PM",
+   "score": "",
+   "source": "registry"
+  },
+  {
+   "course": "HRM 391",
+   "test": "HRM 391 Exam 3 (Canvas, Proctorio)",
+   "opens": "Dec 09, 2026 12:00 AM",
+   "closes": "Dec 15, 2026 11:59 PM",
+   "score": "",
+   "source": "registry"
+  },
+  {
+   "course": "HRM 391",
+   "test": "HRM 391 Final Exam (Canvas, Proctorio)",
+   "opens": "Dec 12, 2026 12:00 AM",
+   "closes": "Dec 17, 2026 11:59 PM",
+   "score": "",
+   "source": "registry"
+  },
+  {
+   "course": "ECON 110",
+   "test": "ECON 110 Final Exam (Testing Center)",
+   "opens": "Dec 12, 2026 08:00 AM",
+   "closes": "Dec 17, 2026 05:00 PM",
+   "score": "",
+   "source": "registry"
   },
   {
    "course": "FIN 201",
-   "test": "(unnamed, opens Dec 12, 2026 8:00 AM)",
-   "opens": "Dec 12, 2026 8:00 AM",
-   "closes": "Dec 17, 2026 8:00 PM",
-   "score": ""
+   "test": "FIN 201 Final Exam (Testing Center)",
+   "opens": "Dec 12, 2026 08:00 AM",
+   "closes": "Dec 17, 2026 08:00 PM",
+   "score": "",
+   "source": "registry"
+  },
+  {
+   "course": "IS 515",
+   "test": "IS 515 Exam 2 (take-home, non-collaborative)",
+   "opens": "Dec 12, 2026 08:00 AM",
+   "closes": "Dec 18, 2026 11:59 PM",
+   "score": "",
+   "source": "registry"
+  },
+  {
+   "course": "STRAT 392",
+   "test": "STRAT 392 Final Exam (date per university schedule)",
+   "opens": "Dec 14, 2026 08:00 AM",
+   "closes": "Dec 18, 2026 05:00 PM",
+   "score": "",
+   "source": "registry"
   }
  ],
  "missing_from_ledger": [],
@@ -79,6 +113,19 @@
    "score": 0.0
   }
  ],
- "closing_soon": [],
- "exam_windows_source": "testing-center"
+ "closing_soon": [
+  {
+   "course": "PSE 390",
+   "assignment": "Ethics and Public Quiz - Week 10",
+   "due": "2026-11-14",
+   "points": 10.0,
+   "canvas_id": 1495466,
+   "deadline_kind": "due",
+   "covered": true,
+   "ledger_key": "WEEKLY_QUIZ_WK10",
+   "ledger_status": "pending"
+  }
+ ],
+ "testing_center_error": "testing-center-not-available-here (No module named 'testing_center')",
+ "exam_windows_source": "registry"
 }

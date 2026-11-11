@@ -41,7 +41,7 @@
    "key": "ECON_MEET_TA",
    "status": "blocked_inperson",
    "date": "2026-09-11",
-   "note": "# in-person TA lab B090 JFSB [manual:in-person-ta-lab-in-b090-jfsb-requires-physical-presence-no-]"
+   "note": "# in-person TA lab B090 JFSB [manual:in-person-ta-lab-in-b090-jfsb-with-no-online-submission-path]"
   },
   {
    "key": "ECON_OAKS_QUIZ",
@@ -251,13 +251,13 @@
    "key": "ECON_MIDTERM_2",
    "status": "blocked_inperson",
    "date": "2026-11-06",
-   "note": "# Testing Center verified 2026-10-25: opens Thu Nov 5 8:00am, $5 late fee from Fri Nov 6 2:00pm, closes Fri Nov 6 9:00pm. Midterm 1 was 120/200 (60%) on Oct 2 [manual:requires-the-student-in-person]"
+   "note": "# Testing Center verified 2026-10-25: opens Thu Nov 5 8:00am, $5 late fee from Fri Nov 6 2:00pm, closes Fri Nov 6 9:00pm. Midterm 1 was 120/200 (60%) on Oct 2 [manual:testing-center-exam-must-be-taken-in-person]"
   },
   {
    "key": "ECON_FINAL",
    "status": "blocked_inperson",
    "date": "2026-12-10",
-   "note": "# Testing Center, live due date Dec 10 6:00pm (drift-fixed from 12-17 on 2026-11-10); check /my-exams for the exact window [manual:requires-the-student-in-person]"
+   "note": "# Testing Center, live due date Dec 10 6:00pm (drift-fixed from 12-17 on 2026-11-10); check /my-exams for the exact window [manual:testing-center-exam-must-be-taken-in-person]"
   },
   {
    "key": "ECON_MINDTAP_CH2",
