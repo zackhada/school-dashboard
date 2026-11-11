@@ -38,6 +38,12 @@ jobs:
           if [ -z "$CANVAS_TOKEN" ]; then echo "No CANVAS_TOKEN; skipping."; exit 0; fi
           python3 scripts/scrape.py
           python3 scripts/build.py
+      - name: Host + runner health
+        if: env.QUIET != 'true'
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.DISPATCH_TOKEN || secrets.OPS_TOKEN || github.token }}
+        run: python3 scripts/health.py
       - name: Assignment audit
         if: env.QUIET != 'true'
         continue-on-error: true
