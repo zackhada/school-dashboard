@@ -56,7 +56,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "On-paper printed notes/summary must be brought to class for in-class peer check"
+    "why": "On-paper item: printed notes+summary brought to class for in-class peer check."
    },
    "optional_ec": false,
    "surface": true,
@@ -353,7 +353,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Quiz asks for completion code only handed out during in-class activity"
+    "why": "Requires in-class mid-term completion code handed out during the class activity."
    },
    "optional_ec": false,
    "surface": true,
@@ -385,7 +385,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Same survey requiring in-class mid-term completion code"
+    "why": "Same survey asking for the in-class mid-term completion code."
    },
    "optional_ec": false,
    "surface": true,
@@ -402,7 +402,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Pointer row to the same in-class completion-code surveys"
+    "why": "Pointer row; both real rows need the in-class mid-term completion code."
    },
    "optional_ec": false,
    "surface": true,
@@ -434,7 +434,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "verify",
-    "why": "Note says individual reflection needed but description says not required and paper is per-group"
+    "why": "Note says individual reflection needed; description says not required and one group paper\u2014facts conflict."
    },
    "optional_ec": false,
    "surface": true,
@@ -467,5 +467,5 @@
   "final_score": 64.57,
   "final_grade": "D"
  },
- "built_at": "2026-11-11T02:29:31.176015+00:00"
+ "built_at": "2026-11-11T02:34:24.395336+00:00"
 }

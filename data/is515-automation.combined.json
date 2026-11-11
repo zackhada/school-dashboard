@@ -563,7 +563,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "In-class course project presentation Dec 9 or to TA; student must present in person"
+    "why": "In-class presentation to TA; student must present in person."
    },
    "optional_ec": false,
    "surface": true,
@@ -595,7 +595,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Named exam; timed comprehensive take-home, student completes it personally (exam = manual per rules)"
+    "why": "Name is an exam; note states in-person, timed comprehensive exam."
    },
    "optional_ec": false,
    "surface": true,
@@ -611,5 +611,5 @@
   "final_score": 48.63,
   "final_grade": "E"
  },
- "built_at": "2026-11-11T02:29:31.475590+00:00"
+ "built_at": "2026-11-11T02:34:24.569408+00:00"
 }

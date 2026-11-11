@@ -1132,7 +1132,7 @@
    "needs_zack": true,
    "judge": {
     "verdict": "manual",
-    "why": "Named attendance check; attendance recorded in the classroom despite external_tool"
+    "why": "Named attendance check; attendance recorded in the classroom"
    },
    "optional_ec": false,
    "surface": true,
@@ -1193,7 +1193,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Named attendance check; attendance recorded in the classroom despite external_tool"
+    "why": "Named attendance check; attendance recorded in the classroom"
    },
    "optional_ec": false,
    "surface": true,
@@ -1254,7 +1254,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Named attendance check; attendance recorded in the classroom despite external_tool"
+    "why": "Named attendance check; attendance recorded in the classroom"
    },
    "optional_ec": false,
    "surface": true,
@@ -1315,7 +1315,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Named attendance check; attendance recorded in the classroom despite external_tool"
+    "why": "Named attendance check; attendance recorded in the classroom"
    },
    "optional_ec": false,
    "surface": true,
@@ -1347,7 +1347,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Named attendance check; attendance recorded in the classroom despite external_tool"
+    "why": "Named attendance check; attendance recorded in the classroom"
    },
    "optional_ec": false,
    "surface": true,
@@ -1408,7 +1408,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Named attendance check; attendance recorded in the classroom despite external_tool"
+    "why": "Named attendance check; attendance recorded in the classroom"
    },
    "optional_ec": false,
    "surface": true,
@@ -1440,7 +1440,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Named attendance check; attendance recorded in the classroom despite external_tool"
+    "why": "Named attendance check; attendance recorded in the classroom"
    },
    "optional_ec": false,
    "surface": true,
@@ -1536,7 +1536,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Named attendance check; attendance recorded in the classroom despite external_tool"
+    "why": "Named attendance check; attendance recorded in the classroom"
    },
    "optional_ec": false,
    "surface": true,
@@ -1552,5 +1552,5 @@
   "final_score": 71.61,
   "final_grade": "C-"
  },
- "built_at": "2026-11-11T02:29:31.338223+00:00"
+ "built_at": "2026-11-11T02:34:24.489048+00:00"
 }

@@ -497,7 +497,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "verify",
-    "why": "Canvas assignment due time but note cites physical product group deliverable; facts conflict"
+    "why": "Canvas 60pt due date implies online, but truncated note says PDF requires a physical product"
    },
    "optional_ec": false,
    "surface": true,
@@ -601,7 +601,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Cumulative final exam given in person per syllabus/university final schedule"
+    "why": "Final exam, cumulative; in-person finals-week date/location per university schedule"
    },
    "optional_ec": false,
    "surface": true,
@@ -631,5 +631,5 @@
   "final_score": 68.6,
   "final_grade": "D+"
  },
- "built_at": "2026-11-11T02:29:31.215292+00:00"
+ "built_at": "2026-11-11T02:34:24.419265+00:00"
 }

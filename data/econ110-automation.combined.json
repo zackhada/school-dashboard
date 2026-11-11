@@ -114,7 +114,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "In-person TA lab in B090 JFSB requires physical presence"
+    "why": "In-person TA lab in B090 JFSB requires physical presence; no online submission path."
    },
    "optional_ec": false,
    "surface": true,
@@ -897,7 +897,10 @@
    },
    "drift": false,
    "needs_zack": true,
-   "judge": null,
+   "judge": {
+    "verdict": "automatable",
+    "why": "Online submission path, no proctoring evidence."
+   },
    "optional_ec": false,
    "surface": false,
    "actionable": false
@@ -920,7 +923,10 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": null,
+   "judge": {
+    "verdict": "automatable",
+    "why": "Online submission path, no proctoring evidence."
+   },
    "optional_ec": false,
    "surface": false,
    "actionable": false
@@ -1295,5 +1301,5 @@
   "current_score": 72.96,
   "source": "learning-suite-points"
  },
- "built_at": "2026-11-11T02:29:31.655377+00:00"
+ "built_at": "2026-11-11T02:34:24.666604+00:00"
 }
