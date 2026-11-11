@@ -981,10 +981,10 @@
   },
   {
    "key": "WEEKLY_QUIZ_WK10",
-   "status": "pending",
+   "status": "done",
    "date": "2026-11-14",
-   "note": "# Canvas 1495466 Ethics and Public Quiz Week 10, online_text_entry/url, due 2026-11-15T06:59:59Z",
-   "title": "Canvas 1495466 Ethics and Public Quiz Week 10, online_text_entry/url",
+   "note": "# Canvas 1495466 Ethics and Public Quiz Week 10, 10pt, online_url w/ public X post https://x.com/zack_hada/status/2120583437065314331, submitted 2026-11-11T18:32:01Z, verified workflow_state=submitted attempt 1 not late",
+   "title": "Canvas 1495466 Ethics and Public Quiz Week 10, , online_url w/ public X post https://x.com/zack_hada/status/2120583437065314331, submitted 2026-11-11T18:32:01Z, verified workflow_state=submitted attempt 1 not late",
    "grade": {
     "canvas_id": 1495466,
     "name": "Ethics and Public Quiz - Week 10",
@@ -1265,11 +1265,11 @@
    "actionable": false
   },
   {
-   "key": "CANVAS_1520978",
-   "status": "missing_from_ledger",
-   "date": "2026-12-05",
-   "note": "# In Canvas but no ledger row; runner must add it",
-   "title": "Final Assignments! ",
+   "key": "FINAL_ASSIGNMENTS",
+   "status": "blocked_ask_zack",
+   "date": "2026-12-06",
+   "note": "# Canvas 1520978 \"Final Assignments!\" 75pt, due 2026-12-06T06:59:59Z, lock 2026-12-18T06:59:59Z, online_text_entry/url/media/upload; personalized final project, Zack must pull his named row from the \"Final Assignments\" spreadsheet (link in description) and do real-world action; no proctoring signals. Needs Zack input/decision, never fabricate.",
+   "title": "Canvas 1520978 \"Final Assignments!\"",
    "grade": {
     "canvas_id": 1520978,
     "name": "Final Assignments! ",
@@ -1286,7 +1286,13 @@
     "my_submission": "",
     "comments": []
    },
-   "drift": true
+   "drift": false,
+   "needs_zack": true,
+   "needs_excerpt": "Also new: \"Final Assignments!\" (Canvas 1520978, 75 pts, due Dec 6). It is a\npersonalized project keyed to your name in a \"Final Assignments\" spreadsheet\nlinked in the assignment. I need your named row and any real-world step only\nyou can take. Say when to start it.",
+   "judge": null,
+   "optional_ec": false,
+   "surface": true,
+   "actionable": true
   },
   {
    "key": "PARTICIPATION_QUIZ_12_08",
@@ -1385,25 +1391,8 @@
    "actionable": false
   }
  ],
- "unmatched_canvas": [
-  {
-   "canvas_id": 1520978,
-   "name": "Final Assignments! ",
-   "due": "2026-12-06T06:59:59Z",
-   "lock_at": "2026-12-18T06:59:59Z",
-   "deadline": "2026-12-06T06:59:59Z",
-   "points": 75.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
-   "missing": false,
-   "submitted_at": null,
-   "submission_type": null,
-   "my_submission": "",
-   "comments": []
-  }
- ],
- "needs": "PSE 390 Week 9 quiz needs a TA reopen (2026-11-10)\n\nWhat happened: \"Ethics and Public Quiz - Week 9\" (Canvas 1495465, 10pt) was due\nand locked Sat Nov 7 11:59pm MT while the runner Mac was offline (Nov 3 to\nNov 10). Live Canvas today shows lock_at passed and the submission still\nunsubmitted, so it cannot be submitted from here.\n\nWho to ask: the only TA on the roster is Ernest Elliott (TaEnrollment). Canvas\ndoes not expose his email address and the Canvas Inbox compose page hangs when\ndriven from the automation Chrome, so this needs one manual step.\n\nSuggested message (Canvas Inbox, To: Ernest Elliott, course PSE 390-009):\n\"Hi Ernest, I missed the Week 9 quiz. It locked Saturday Nov 7 at 11:59pm and\nnothing was submitted. My setup was down for about a week and it slipped past\nme. Is there any chance you can reopen it, or let me submit it late for partial\ncredit? I can get it done today or tomorrow. Thanks, Zack Hada\"\n\nWeek 10 (due Nov 15) is still pending and will run normally.",
+ "unmatched_canvas": [],
+ "needs": "PSE 390 Week 9 quiz needs a TA reopen (2026-11-10)\n\nWhat happened: \"Ethics and Public Quiz - Week 9\" (Canvas 1495465, 10pt) was due\nand locked Sat Nov 7 11:59pm MT while the runner Mac was offline (Nov 3 to\nNov 10). Live Canvas today shows lock_at passed and the submission still\nunsubmitted, so it cannot be submitted from here.\n\nWho to ask: the only TA on the roster is Ernest Elliott (TaEnrollment). Canvas\ndoes not expose his email address and the Canvas Inbox compose page hangs when\ndriven from the automation Chrome, so this needs one manual step.\n\nSuggested message (Canvas Inbox, To: Ernest Elliott, course PSE 390-009):\n\"Hi Ernest, I missed the Week 9 quiz. It locked Saturday Nov 7 at 11:59pm and\nnothing was submitted. My setup was down for about a week and it slipped past\nme. Is there any chance you can reopen it, or let me submit it late for partial\ncredit? I can get it done today or tomorrow. Thanks, Zack Hada\"\n\nWeek 10 (due Nov 15) was submitted 2026-11-11 with a public X post.\n\nAlso new: \"Final Assignments!\" (Canvas 1520978, 75 pts, due Dec 6). It is a\npersonalized project keyed to your name in a \"Final Assignments\" spreadsheet\nlinked in the assignment. I need your named row and any real-world step only\nyou can take. Say when to start it.",
  "needs_unassigned": false,
  "course_id": 38958,
  "overall": {
@@ -1412,5 +1401,5 @@
   "final_score": 41.18,
   "final_grade": "E"
  },
- "built_at": "2026-11-11T18:21:59.258387+00:00"
+ "built_at": "2026-11-11T18:36:24.262990+00:00"
 }

@@ -75,9 +75,9 @@
   },
   {
    "key": "WEEKLY_QUIZ_WK10",
-   "status": "pending",
+   "status": "done",
    "date": "2026-11-14",
-   "note": "# Canvas 1495466 Ethics and Public Quiz Week 10, online_text_entry/url, due 2026-11-15T06:59:59Z"
+   "note": "# Canvas 1495466 Ethics and Public Quiz Week 10, 10pt, online_url w/ public X post https://x.com/zack_hada/status/2120583437065314331, submitted 2026-11-11T18:32:01Z, verified workflow_state=submitted attempt 1 not late"
   },
   {
    "key": "WEEKLY_QUIZ_WK11",
@@ -276,6 +276,12 @@
    "status": "done",
    "date": "2026-10-24",
    "note": "# Canvas 1475548, 30pt, submitted 2026-10-22T18:23:39Z (attempt 1, not late). Files: PSE390_Midterm_Professional_Goals_Zack_Hada.pdf (ethics toolkit with 6 pillars plus the full Professional Goals Table 2026) and PSE390_Midterm_Presentation_Zack_Hada.pdf (6 slides for the in-class presentation). Built from Zack's record, no fabricated facts. Due Sat 2026-10-24 11:59pm MT."
+  },
+  {
+   "key": "FINAL_ASSIGNMENTS",
+   "status": "blocked_ask_zack",
+   "date": "2026-12-06",
+   "note": "# Canvas 1520978 \"Final Assignments!\" 75pt, due 2026-12-06T06:59:59Z, lock 2026-12-18T06:59:59Z, online_text_entry/url/media/upload; personalized final project, Zack must pull his named row from the \"Final Assignments\" spreadsheet (link in description) and do real-world action; no proctoring signals. Needs Zack input/decision, never fabricate."
   }
  ],
  "source": "progress.txt"
