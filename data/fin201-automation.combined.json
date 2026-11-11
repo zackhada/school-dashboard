@@ -19,6 +19,7 @@
    },
    "drift": false,
    "needs_zack": false,
+   "needs_excerpt": null,
    "judge": null,
    "optional_ec": false,
    "surface": false,
@@ -42,6 +43,7 @@
    },
    "drift": false,
    "needs_zack": false,
+   "needs_excerpt": null,
    "judge": null,
    "optional_ec": false,
    "surface": false,
@@ -65,6 +67,7 @@
    },
    "drift": false,
    "needs_zack": false,
+   "needs_excerpt": null,
    "judge": null,
    "optional_ec": false,
    "surface": false,
@@ -79,6 +82,7 @@
    "grade": null,
    "drift": false,
    "needs_zack": false,
+   "needs_excerpt": null,
    "judge": null,
    "optional_ec": false,
    "surface": false,
@@ -102,6 +106,7 @@
    },
    "drift": false,
    "needs_zack": false,
+   "needs_excerpt": null,
    "judge": null,
    "optional_ec": false,
    "surface": false,
@@ -125,6 +130,7 @@
    },
    "drift": false,
    "needs_zack": false,
+   "needs_excerpt": null,
    "judge": null,
    "optional_ec": false,
    "surface": false,
@@ -148,6 +154,7 @@
    },
    "drift": false,
    "needs_zack": false,
+   "needs_excerpt": null,
    "judge": null,
    "optional_ec": false,
    "surface": false,
@@ -162,6 +169,7 @@
    "grade": null,
    "drift": false,
    "needs_zack": false,
+   "needs_excerpt": null,
    "judge": null,
    "optional_ec": false,
    "surface": false,
@@ -185,6 +193,7 @@
    },
    "drift": false,
    "needs_zack": false,
+   "needs_excerpt": null,
    "judge": null,
    "optional_ec": false,
    "surface": false,
@@ -208,6 +217,7 @@
    },
    "drift": false,
    "needs_zack": false,
+   "needs_excerpt": null,
    "judge": null,
    "optional_ec": false,
    "surface": false,
@@ -231,10 +241,8 @@
    },
    "drift": false,
    "needs_zack": true,
-   "judge": {
-    "verdict": "automatable",
-    "why": "Online submission path, no proctoring evidence."
-   },
+   "needs_excerpt": "FIN 201: Topic 3 Quiz is still closed. The TA's reopen ended at 9:00am MT today (Nov 10) and the runner only came back online at 5:20pm, so MyEducator blocks late submission (gradebook shows 2026-11-10 09:00, ungraded). Nothing was submitted, so it is a zero unless the TA reopens it again. Need your OK to ask her for one more reopen (prior request went to byufin201@gmail.com on Nov 2). Next due: Topic 11, Dec 2.",
+   "judge": null,
    "optional_ec": false,
    "surface": false,
    "actionable": false
@@ -248,9 +256,10 @@
    "grade": null,
    "drift": false,
    "needs_zack": false,
+   "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Testing Center exam with fixed window and late fee; student must appear in person"
+    "why": "Testing Center exam with in-person window, late fee, and % of course grade; body must be at the center"
    },
    "optional_ec": false,
    "surface": true,
@@ -274,6 +283,7 @@
    },
    "drift": false,
    "needs_zack": false,
+   "needs_excerpt": null,
    "judge": null,
    "optional_ec": false,
    "surface": false,
@@ -297,6 +307,7 @@
    },
    "drift": false,
    "needs_zack": false,
+   "needs_excerpt": null,
    "judge": null,
    "optional_ec": false,
    "surface": false,
@@ -311,9 +322,10 @@
    "grade": null,
    "drift": false,
    "needs_zack": false,
+   "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Testing Center exam, fixed dates; requires the student in person"
+    "why": "Testing Center final exam Dec 12-17, explicitly requires student in person"
    },
    "optional_ec": false,
    "surface": true,
@@ -322,7 +334,8 @@
  ],
  "unmatched_canvas": [],
  "needs": "FIN 201: Topic 3 Quiz is still closed. The TA's reopen ended at 9:00am MT today (Nov 10) and the runner only came back online at 5:20pm, so MyEducator blocks late submission (gradebook shows 2026-11-10 09:00, ungraded). Nothing was submitted, so it is a zero unless the TA reopens it again. Need your OK to ask her for one more reopen (prior request went to byufin201@gmail.com on Nov 2). Next due: Topic 11, Dec 2.",
+ "needs_unassigned": false,
  "course_id": null,
  "overall": {},
- "built_at": "2026-11-11T06:27:56.070799+00:00"
+ "built_at": "2026-11-11T18:10:32.219041+00:00"
 }

@@ -115,17 +115,66 @@
  ],
  "closing_soon": [
   {
+   "course": "HRM 391",
+   "assignment": "Unit 1 Mid-term Checkpoint",
+   "due": "2026-11-11",
+   "points": 1.0,
+   "canvas_id": 1508956,
+   "deadline_kind": "locks",
+   "owner": "zack",
+   "covered": true,
+   "ledger_key": "MID_TERM_CHECKPOINT",
+   "ledger_status": "blocked_inperson"
+  },
+  {
+   "course": "HRM 391",
+   "assignment": "Unit 1 Mid-term Checkpoint",
+   "due": "2026-11-11",
+   "points": 1.0,
+   "canvas_id": 1511530,
+   "deadline_kind": "locks",
+   "owner": "zack",
+   "covered": true,
+   "ledger_key": "UNIT_1_MID_TERM_CHECKPOINT",
+   "ledger_status": "blocked_inperson"
+  },
+  {
+   "course": "PSE 390",
+   "assignment": "Participation Quiz 11.12",
+   "due": "2026-11-12",
+   "points": 3.0,
+   "canvas_id": 1511340,
+   "deadline_kind": "due",
+   "owner": "zack",
+   "covered": true,
+   "ledger_key": "PARTICIPATION_QUIZ_11_12",
+   "ledger_status": "blocked_inperson"
+  },
+  {
    "course": "PSE 390",
    "assignment": "Ethics and Public Quiz - Week 10",
    "due": "2026-11-14",
    "points": 10.0,
    "canvas_id": 1495466,
    "deadline_kind": "due",
+   "owner": "agent",
    "covered": true,
    "ledger_key": "WEEKLY_QUIZ_WK10",
    "ledger_status": "pending"
+  },
+  {
+   "course": "REL C 333",
+   "assignment": "11/12 - Attendance Check",
+   "due": "2026-11-12",
+   "points": 10.0,
+   "canvas_id": 1466168,
+   "deadline_kind": "due",
+   "owner": "zack",
+   "covered": true,
+   "ledger_key": "11_12_ATTENDANCE_CHECK",
+   "ledger_status": "blocked_inperson"
   }
  ],
- "testing_center_error": "testing-center-not-available-here (No module named 'testing_center')",
+ "testing_center_error": "login failed",
  "exam_windows_source": "registry"
 }

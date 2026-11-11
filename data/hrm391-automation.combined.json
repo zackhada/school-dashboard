@@ -25,6 +25,7 @@
    },
    "drift": false,
    "needs_zack": false,
+   "needs_excerpt": null,
    "judge": null,
    "optional_ec": false,
    "surface": false,
@@ -54,9 +55,10 @@
    },
    "drift": false,
    "needs_zack": false,
+   "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "On-paper printed notes and summary must be brought to class for in-class peer check"
+    "why": "On-paper printed notes+summary must be brought to class for in-class peer check"
    },
    "optional_ec": false,
    "surface": true,
@@ -92,6 +94,7 @@
    },
    "drift": false,
    "needs_zack": false,
+   "needs_excerpt": null,
    "judge": null,
    "optional_ec": false,
    "surface": false,
@@ -121,6 +124,7 @@
    },
    "drift": false,
    "needs_zack": false,
+   "needs_excerpt": null,
    "judge": null,
    "optional_ec": false,
    "surface": false,
@@ -150,6 +154,7 @@
    },
    "drift": false,
    "needs_zack": false,
+   "needs_excerpt": null,
    "judge": null,
    "optional_ec": false,
    "surface": false,
@@ -179,6 +184,7 @@
    },
    "drift": false,
    "needs_zack": false,
+   "needs_excerpt": null,
    "judge": null,
    "optional_ec": false,
    "surface": false,
@@ -208,6 +214,7 @@
    },
    "drift": false,
    "needs_zack": false,
+   "needs_excerpt": null,
    "judge": null,
    "optional_ec": false,
    "surface": false,
@@ -237,6 +244,7 @@
    },
    "drift": false,
    "needs_zack": false,
+   "needs_excerpt": null,
    "judge": null,
    "optional_ec": false,
    "surface": false,
@@ -266,6 +274,7 @@
    },
    "drift": false,
    "needs_zack": true,
+   "needs_excerpt": "3) Group work: Unit 2 Group Service Project (Nov 8, 0pt) and Service Project Part 2 (Nov 21, 100pt) need your group.",
    "judge": {
     "verdict": "manual",
     "why": "Requires the student in person."
@@ -298,6 +307,7 @@
    },
    "drift": false,
    "needs_zack": false,
+   "needs_excerpt": null,
    "judge": null,
    "optional_ec": false,
    "surface": false,
@@ -350,10 +360,11 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false,
+   "needs_zack": true,
+   "needs_excerpt": "1) Two Unit 1 Mid-term Checkpoints (1pt each, Canvas 1508956 and 1511530).\n   The TAs reopened both and they lock Wed Nov 11 at 11:00am MT.\n   I opened one to check: the single question is \"Please enter your mid-term checkpoint completion code.\" That code comes from the in-class mid-term checkpoint activity, so this is your item.\n   If you have the code, each takes about a minute. Do them before 11:00am Wednesday.",
    "judge": {
     "verdict": "manual",
-    "why": "Online quiz but the answer is the in-class completion code handed out during the activity"
+    "why": "Survey asks for completion code handed out only during in-class activity"
    },
    "optional_ec": false,
    "surface": true,
@@ -382,10 +393,11 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false,
+   "needs_zack": true,
+   "needs_excerpt": "1) Two Unit 1 Mid-term Checkpoints (1pt each, Canvas 1508956 and 1511530).\n   The TAs reopened both and they lock Wed Nov 11 at 11:00am MT.\n   I opened one to check: the single question is \"Please enter your mid-term checkpoint completion code.\" That code comes from the in-class mid-term checkpoint activity, so this is your item.\n   If you have the code, each takes about a minute. Do them before 11:00am Wednesday.",
    "judge": {
     "verdict": "manual",
-    "why": "Same in-class completion-code survey; code only available from the in-class activity"
+    "why": "Same in-class completion-code survey; code only given in class"
    },
    "optional_ec": false,
    "surface": true,
@@ -400,9 +412,10 @@
    "grade": null,
    "drift": false,
    "needs_zack": false,
+   "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Pointer row; both underlying rows are in-class completion-code surveys requiring Zack"
+    "why": "Pointer row; both real rows are in-class completion-code surveys"
    },
    "optional_ec": false,
    "surface": true,
@@ -431,10 +444,11 @@
     "comments": []
    },
    "drift": false,
-   "needs_zack": false,
+   "needs_zack": true,
+   "needs_excerpt": "3) Group work: Unit 2 Group Service Project (Nov 8, 0pt) and Service Project Part 2 (Nov 21, 100pt) need your group.",
    "judge": {
     "verdict": "verify",
-    "why": "model called it automatable, but the item name needs a human call: Service Project\u2014Part 2: Group Analysis and Individual Reflec"
+    "why": "Note claims empty submission types but online_upload present; debrief participation unclear"
    },
    "optional_ec": false,
    "surface": true,
@@ -460,6 +474,7 @@
   }
  ],
  "needs": "HRM 391 (verified live 2026-11-10):\n\nDONE by the agent today:\n- Unit 2 Observation Notebook (30pt): submitted on time, one PDF, all four entries. Canvas confirmed attempt 1, late=false.\n\nNEEDS YOU, and only you:\n1) Two Unit 1 Mid-term Checkpoints (1pt each, Canvas 1508956 and 1511530).\n   The TAs reopened both and they lock Wed Nov 11 at 11:00am MT.\n   I opened one to check: the single question is \"Please enter your mid-term checkpoint completion code.\" That code comes from the in-class mid-term checkpoint activity, so this is your item.\n   If you have the code, each takes about a minute. Do them before 11:00am Wednesday.\n\n2) Proctored exams: Exam 3 (Dec 9-15) and the Final (Dec 12-17), both Proctorio in Canvas. Exam 2 is done, 68/100.\n\n3) Group work: Unit 2 Group Service Project (Nov 8, 0pt) and Service Project Part 2 (Nov 21, 100pt) need your group.",
+ "needs_unassigned": false,
  "course_id": 37899,
  "overall": {
   "current_score": 85.76,
@@ -467,5 +482,5 @@
   "final_score": 64.57,
   "final_grade": "D"
  },
- "built_at": "2026-11-11T06:27:55.936536+00:00"
+ "built_at": "2026-11-11T18:10:32.082451+00:00"
 }
