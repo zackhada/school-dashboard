@@ -45,9 +45,9 @@
   },
   {
    "key": "MID_TERM_CHECKPOINT",
-   "status": "blocked_inperson",
+   "status": "missed",
    "date": "2026-11-11",
-   "note": "# Canvas 1508956 / quiz 663151, 1pt graded survey, lock_at 2026-11-11T18:00:00Z (Nov 11 11:00am MT). REOPENED by the TAs but NOT automatable: the single question reads \"Please enter your mid-term checkpoint completion code.\" That code is handed out with the in-class mid-term checkpoint activity, so this is Zack's own item. Verified live 2026-11-10 by opening the quiz. [manual:requires-in-class-mid-term-completion-code-handed-out-during]"
+   "note": "# Canvas 1508956 / quiz 663151, 1pt graded survey, reopened by the TAs but NOT submitted before lock_at 2026-11-11T18:00:00Z (Wed Nov 11 11:00am MT). Verified live 2026-11-11 11:00am MST: workflow_state unsubmitted. It asks for the mid-term checkpoint completion code from the in-class activity, so it is Zack's own item; recovery is a TA reopen. [manual:in-class-mid-term-completion-code-survey]"
   },
   {
    "key": "BREAKING_BREAD_COUNTS_TOWARD_FINAL_GRADE",
@@ -63,27 +63,21 @@
   },
   {
    "key": "UNIT_1_MID_TERM_CHECKPOINT",
-   "status": "blocked_inperson",
+   "status": "missed",
    "date": "2026-11-11",
-   "note": "# Canvas 1511530 / quiz 663964, 1pt graded survey, same lock (Nov 11 11:00am MT) and the same content: it asks for the mid-term checkpoint completion code from the in-class activity. Zack's own item. [manual:same-in-class-completion-code-survey-code-only-given-during-]"
+   "note": "# Canvas 1511530 / quiz 663964, 1pt graded survey, same lock (Wed Nov 11 11:00am MT) and the same content: it asks for the mid-term checkpoint completion code from the in-class activity. Verified live 2026-11-11 11:00am MST: workflow_state unsubmitted. Recovery is a TA reopen. [manual:in-class-mid-term-completion-code-survey]"
   },
   {
    "key": "SERVICE_PROJECT_PART_2_GROUP_ANALYSIS_AN",
    "status": "blocked_ask_zack",
    "date": "2026-11-21",
-   "note": "# Canvas 1513919, 100pt, Service Project\u2014Part 2: Group Analysis and Individual Reflection. Group analysis plus an individual reflection, so it needs the group's inputs and his own accounting before upload. Not a solo automation job. [manual:verify-empty-submission-types-conflicts-with-note-claiming-an-onlin]"
-  },
-  {
-   "key": "UNIT_1_MID_TERM_CHECKPOINT_2",
-   "status": "blocked_inperson",
-   "date": "2026-11-11",
-   "note": "# Pointer row only. Both real rows (1508956 and 1511530) are the same in-class completion-code survey and need Zack."
+   "note": "# Canvas 1513919, 100pt, Service Project\u2014Part 2: Group Analysis and Individual Reflection. Group analysis plus an individual reflection, so it needs the group's inputs and his own accounting before upload. Not a solo automation job. [manual:verify-empty-submission-types-conflicts-with-note-mentioning-an-onl]"
   },
   {
    "key": "HRM_REMAINING_EXAMS_AND_FINAL",
    "status": "blocked_ask_zack",
-   "date": "2026-11-08",
-   "note": "# HRM 391 Exam 2, Exam 3 and Final = 50% of the grade (Unit Exams 45% group holds Exam 1 at 49/56; Final Exam group is 20%). Canvas Key Dates: 2nd Exam Nov 4-10, 3rd Exam Dec 9-15, Final Dec 12-17. Verified 2026-11-03 from the Exam 2 Start Here page: taken IN CANVAS with PROCTORIO, not the Testing Center. Exam 2 quiz is not published yet (module 428262 holds only the Start Here page, the Unit 2 study guide file 14275762, and the Unit 2 notebook 1518004), so the exact close time and whether it needs an access code like Exam 1 did are still unknown; access-code question sent to both TAs 2026-11-03. Zack's own Chrome Default profile already has the Proctorio extension installed (\"Secure Exam Proctor\" gfolddmfcichcfnghdchbfgpmgodmkjd v1.5.26163.57) plus Honorlock, so the tech path works. Proctored: Zack takes these, the agent never answers or submits exam content. TA FIRST: Julia Gazdik jgazdik3@student.byu.edu or Elise Owens eliselo@student.byu.edu. Prep artifact built: HRM391_Exam2_Practice_Set.docx (31 MC + 6 short answer + 2 applied cases, from the official study guide only). [manual:three-proctored-exams-nov4-nov10-dec9-dec15-dec12-dec17-zack-takes]"
+   "date": "2026-12-09",
+   "note": "# Exam 3 opens Wed Dec 9, closes Tue Dec 15. Final opens Sat Dec 12, closes Thu Dec 17. Both are Proctorio in Canvas and not published in Canvas yet, so this row has no Canvas link; they are Zack's own and the agent never answers or submits exam content. Exam 2 is DONE, 68/100 (2026-11-10). Verified 2026-11-11. TA FIRST: Julia Gazdik jgazdik3@student.byu.edu or Elise Owens eliselo@student.byu.edu. [manual:proctored-in-canvas-exams-zack-takes]"
   },
   {
    "key": "UNIT_2_OBSERVATION_NOTEBOOK_DEFAULT_ORGA",

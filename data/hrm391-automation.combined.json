@@ -251,39 +251,6 @@
    "actionable": false
   },
   {
-   "key": "HRM_REMAINING_EXAMS_AND_FINAL",
-   "status": "blocked_ask_zack",
-   "date": "2026-11-08",
-   "note": "# HRM 391 Exam 2, Exam 3 and Final = 50% of the grade (Unit Exams 45% group holds Exam 1 at 49/56; Final Exam group is 20%). Canvas Key Dates: 2nd Exam Nov 4-10, 3rd Exam Dec 9-15, Final Dec 12-17. Verified 2026-11-03 from the Exam 2 Start Here page: taken IN CANVAS with PROCTORIO, not the Testing Center. Exam 2 quiz is not published yet (module 428262 holds only the Start Here page, the Unit 2 study guide file 14275762, and the Unit 2 notebook 1518004), so the exact close time and whether it needs an access code like Exam 1 did are still unknown; access-code question sent to both TAs 2026-11-03. Zack's own Chrome Default profile already has the Proctorio extension installed (\"Secure Exam Proctor\" gfolddmfcichcfnghdchbfgpmgodmkjd v1.5.26163.57) plus Honorlock, so the tech path works. Proctored: Zack takes these, the agent never answers or submits exam content. TA FIRST: Julia Gazdik jgazdik3@student.byu.edu or Elise Owens eliselo@student.byu.edu. Prep artifact built: HRM391_Exam2_Practice_Set.docx (31 MC + 6 short answer + 2 applied cases, from the official study guide only). [manual:three-proctored-exams-nov4-nov10-dec9-dec15-dec12-dec17-zack-takes]",
-   "title": "HRM 391 Exam 2, Exam 3 and Final = 50% of the grade (Unit Exams 45% group holds Exam 1 at 49/56; Final Exam group is 20%). Canvas Key Dates: 2nd Exam Nov 4-10, 3rd Exam Dec 9-15, Final Dec 12-17. Verified 2026-11-03 from the Exam 2 Start Here page: taken IN CANVAS with PROCTORIO, not the Testing Center. Exam 2 quiz is not published yet (module 428262 holds only the Start Here page, the Unit 2 study guide file 14275762, and the Unit 2 notebook 1518004), so the exact close time and whether it needs an access code like Exam 1 did are still unknown; access-code question sent to both TAs 2026-11-03. Zack's own Chrome Default profile already has the Proctorio extension installed (\"Secure Exam Proctor\" gfolddmfcichcfnghdchbfgpmgodmkjd v1.5.26163.57) plus Honorlock, so the tech path works. Proctored: Zack takes these, the agent never answers or submits exam content. TA FIRST: Julia Gazdik jgazdik3@student.byu.edu or Elise Owens eliselo@student.byu.edu. Prep artifact built: HRM391_Exam2_Practice_Set.docx (31 MC + 6 short answer + 2 applied cases, from the official study guide only).",
-   "grade": {
-    "canvas_id": 1489056,
-    "name": "Unit 2 Group Service Project (No Submission)",
-    "due": "2026-11-08T06:59:59Z",
-    "lock_at": null,
-    "deadline": "2026-11-08T06:59:59Z",
-    "points": 0.0,
-    "status": "unsubmitted",
-    "score": null,
-    "grade": null,
-    "missing": true,
-    "submitted_at": null,
-    "submission_type": null,
-    "my_submission": "",
-    "comments": []
-   },
-   "drift": false,
-   "needs_zack": true,
-   "needs_excerpt": "3) Group work: Unit 2 Group Service Project (Nov 8, 0pt) and Service Project Part 2 (Nov 21, 100pt) need your group.",
-   "judge": {
-    "verdict": "manual",
-    "why": "Requires the student in person."
-   },
-   "optional_ec": false,
-   "surface": true,
-   "actionable": true
-  },
-  {
    "key": "UNIT_2_OBSERVATION_NOTEBOOK_DEFAULT_ORGA",
    "status": "done",
    "date": "2026-11-10",
@@ -339,43 +306,10 @@
   },
   {
    "key": "MID_TERM_CHECKPOINT",
-   "status": "blocked_inperson",
+   "status": "missed",
    "date": "2026-11-11",
-   "note": "# Canvas 1508956 / quiz 663151, 1pt graded survey, lock_at 2026-11-11T18:00:00Z (Nov 11 11:00am MT). REOPENED by the TAs but NOT automatable: the single question reads \"Please enter your mid-term checkpoint completion code.\" That code is handed out with the in-class mid-term checkpoint activity, so this is Zack's own item. Verified live 2026-11-10 by opening the quiz. [manual:requires-in-class-mid-term-completion-code-handed-out-during]",
-   "title": "Canvas 1508956 / quiz 663151, graded survey, lock_at 2026-11-11T18:00:00Z (Nov 11 MT). REOPENED by the TAs but NOT automatable: the single question reads \"Please enter your mid-term checkpoint completion code.\" That code is handed out with the in-class mid-term checkpoint activity, so this is Zack's own item. Verified live 2026-11-10 by opening the quiz.",
-   "grade": {
-    "canvas_id": 1508956,
-    "name": "Unit 1 Mid-term Checkpoint",
-    "due": null,
-    "lock_at": "2026-11-11T18:00:00Z",
-    "deadline": "2026-11-11T18:00:00Z",
-    "points": 1.0,
-    "status": "unsubmitted",
-    "score": null,
-    "grade": null,
-    "missing": false,
-    "submitted_at": null,
-    "submission_type": null,
-    "my_submission": "",
-    "comments": []
-   },
-   "drift": false,
-   "needs_zack": true,
-   "needs_excerpt": "1) Two Unit 1 Mid-term Checkpoints (1pt each, Canvas 1508956 and 1511530).\n   The TAs reopened both and they lock Wed Nov 11 at 11:00am MT.\n   I opened one to check: the single question is \"Please enter your mid-term checkpoint completion code.\" That code comes from the in-class mid-term checkpoint activity, so this is your item.\n   If you have the code, each takes about a minute. Do them before 11:00am Wednesday.",
-   "judge": {
-    "verdict": "manual",
-    "why": "Survey asks for completion code handed out only during in-class activity"
-   },
-   "optional_ec": false,
-   "surface": true,
-   "actionable": true
-  },
-  {
-   "key": "UNIT_1_MID_TERM_CHECKPOINT",
-   "status": "blocked_inperson",
-   "date": "2026-11-11",
-   "note": "# Canvas 1511530 / quiz 663964, 1pt graded survey, same lock (Nov 11 11:00am MT) and the same content: it asks for the mid-term checkpoint completion code from the in-class activity. Zack's own item. [manual:same-in-class-completion-code-survey-code-only-given-during-]",
-   "title": "Canvas 1511530 / quiz 663964, graded survey, same lock (Nov 11 MT) and the same content: it asks for the mid-term checkpoint completion code from the in-class activity. Zack's own item.",
+   "note": "# Canvas 1508956 / quiz 663151, 1pt graded survey, reopened by the TAs but NOT submitted before lock_at 2026-11-11T18:00:00Z (Wed Nov 11 11:00am MT). Verified live 2026-11-11 11:00am MST: workflow_state unsubmitted. It asks for the mid-term checkpoint completion code from the in-class activity, so it is Zack's own item; recovery is a TA reopen. [manual:in-class-mid-term-completion-code-survey]",
+   "title": "Canvas 1508956 / quiz 663151, graded survey, reopened by the TAs but NOT submitted before lock_at 2026-11-11T18:00:00Z (Wed Nov 11 MT). Verified live 2026-11-11 MST: workflow_state unsubmitted. It asks for the mid-term checkpoint completion code from the in-class activity, so it is Zack's own item; recovery is a TA reopen.",
    "grade": {
     "canvas_id": 1511530,
     "name": "Unit 1 Mid-term Checkpoint",
@@ -394,38 +328,53 @@
    },
    "drift": false,
    "needs_zack": true,
-   "needs_excerpt": "1) Two Unit 1 Mid-term Checkpoints (1pt each, Canvas 1508956 and 1511530).\n   The TAs reopened both and they lock Wed Nov 11 at 11:00am MT.\n   I opened one to check: the single question is \"Please enter your mid-term checkpoint completion code.\" That code comes from the in-class mid-term checkpoint activity, so this is your item.\n   If you have the code, each takes about a minute. Do them before 11:00am Wednesday.",
+   "needs_excerpt": "Unit 1 Mid-term Checkpoint: Canvas 1508956 and 1511530 (1 pt each) were reopened by the TAs and locked Wed Nov 11 at 11:00am MT with nothing submitted. Each asks for the mid-term checkpoint completion code from the in-class activity. Reply YES and I will ask the TAs for one more reopen. If you have the code later, it still needs a reopen before it can be entered.",
+   "judge": {
+    "verdict": "manual",
+    "why": "Survey asks for completion code handed out only during in-class activity"
+   },
+   "optional_ec": false,
+   "surface": false,
+   "actionable": false
+  },
+  {
+   "key": "UNIT_1_MID_TERM_CHECKPOINT",
+   "status": "missed",
+   "date": "2026-11-11",
+   "note": "# Canvas 1511530 / quiz 663964, 1pt graded survey, same lock (Wed Nov 11 11:00am MT) and the same content: it asks for the mid-term checkpoint completion code from the in-class activity. Verified live 2026-11-11 11:00am MST: workflow_state unsubmitted. Recovery is a TA reopen. [manual:in-class-mid-term-completion-code-survey]",
+   "title": "Canvas 1511530 / quiz 663964, graded survey, same lock (Wed Nov 11 MT) and the same content: it asks for the mid-term checkpoint completion code from the in-class activity. Verified live 2026-11-11 MST: workflow_state unsubmitted. Recovery is a TA reopen.",
+   "grade": {
+    "canvas_id": 1508956,
+    "name": "Unit 1 Mid-term Checkpoint",
+    "due": null,
+    "lock_at": "2026-11-11T18:00:00Z",
+    "deadline": "2026-11-11T18:00:00Z",
+    "points": 1.0,
+    "status": "unsubmitted",
+    "score": null,
+    "grade": null,
+    "missing": false,
+    "submitted_at": null,
+    "submission_type": null,
+    "my_submission": "",
+    "comments": []
+   },
+   "drift": false,
+   "needs_zack": true,
+   "needs_excerpt": "Unit 1 Mid-term Checkpoint: Canvas 1508956 and 1511530 (1 pt each) were reopened by the TAs and locked Wed Nov 11 at 11:00am MT with nothing submitted. Each asks for the mid-term checkpoint completion code from the in-class activity. Reply YES and I will ask the TAs for one more reopen. If you have the code later, it still needs a reopen before it can be entered.",
    "judge": {
     "verdict": "manual",
     "why": "Same in-class completion-code survey; code only given in class"
    },
    "optional_ec": false,
-   "surface": true,
-   "actionable": true
-  },
-  {
-   "key": "UNIT_1_MID_TERM_CHECKPOINT_2",
-   "status": "blocked_inperson",
-   "date": "2026-11-11",
-   "note": "# Pointer row only. Both real rows (1508956 and 1511530) are the same in-class completion-code survey and need Zack.",
-   "title": "Pointer row only. Both real rows (1508956 and 1511530) are the same in-class completion-code survey and need Zack.",
-   "grade": null,
-   "drift": false,
-   "needs_zack": false,
-   "needs_excerpt": null,
-   "judge": {
-    "verdict": "manual",
-    "why": "Pointer row; both real rows are in-class completion-code surveys"
-   },
-   "optional_ec": false,
-   "surface": true,
-   "actionable": true
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "SERVICE_PROJECT_PART_2_GROUP_ANALYSIS_AN",
    "status": "blocked_ask_zack",
    "date": "2026-11-21",
-   "note": "# Canvas 1513919, 100pt, Service Project\u2014Part 2: Group Analysis and Individual Reflection. Group analysis plus an individual reflection, so it needs the group's inputs and his own accounting before upload. Not a solo automation job. [manual:verify-empty-submission-types-conflicts-with-note-claiming-an-onlin]",
+   "note": "# Canvas 1513919, 100pt, Service Project\u2014Part 2: Group Analysis and Individual Reflection. Group analysis plus an individual reflection, so it needs the group's inputs and his own accounting before upload. Not a solo automation job. [manual:verify-empty-submission-types-conflicts-with-note-mentioning-an-onl]",
    "title": "Service Project\u2014Part 2: Group Analysis and Individual Reflection. Group analysis plus an individual reflection, so it needs the group's inputs and his own accounting before upload. Not a solo automation job.",
    "grade": {
     "canvas_id": 1513919,
@@ -445,10 +394,28 @@
    },
    "drift": false,
    "needs_zack": true,
-   "needs_excerpt": "3) Group work: Unit 2 Group Service Project (Nov 8, 0pt) and Service Project Part 2 (Nov 21, 100pt) need your group.",
+   "needs_excerpt": "Service Project Part 2 (100 pts, due Nov 21) needs your group's analysis and your individual reflection. Reply when the group material is ready.",
    "judge": {
     "verdict": "verify",
     "why": "Note claims empty submission types but online_upload present; debrief participation unclear"
+   },
+   "optional_ec": false,
+   "surface": true,
+   "actionable": true
+  },
+  {
+   "key": "HRM_REMAINING_EXAMS_AND_FINAL",
+   "status": "blocked_ask_zack",
+   "date": "2026-12-09",
+   "note": "# Exam 3 opens Wed Dec 9, closes Tue Dec 15. Final opens Sat Dec 12, closes Thu Dec 17. Both are Proctorio in Canvas and not published in Canvas yet, so this row has no Canvas link; they are Zack's own and the agent never answers or submits exam content. Exam 2 is DONE, 68/100 (2026-11-10). Verified 2026-11-11. TA FIRST: Julia Gazdik jgazdik3@student.byu.edu or Elise Owens eliselo@student.byu.edu. [manual:proctored-in-canvas-exams-zack-takes]",
+   "title": "Exam 3 opens Wed Dec 9",
+   "grade": null,
+   "drift": false,
+   "needs_zack": false,
+   "needs_excerpt": null,
+   "judge": {
+    "verdict": "manual",
+    "why": "Requires the student in person."
    },
    "optional_ec": false,
    "surface": true,
@@ -473,7 +440,7 @@
    "comments": []
   }
  ],
- "needs": "HRM 391 (verified live 2026-11-10):\n\nDONE by the agent today:\n- Unit 2 Observation Notebook (30pt): submitted on time, one PDF, all four entries. Canvas confirmed attempt 1, late=false.\n\nNEEDS YOU, and only you:\n1) Two Unit 1 Mid-term Checkpoints (1pt each, Canvas 1508956 and 1511530).\n   The TAs reopened both and they lock Wed Nov 11 at 11:00am MT.\n   I opened one to check: the single question is \"Please enter your mid-term checkpoint completion code.\" That code comes from the in-class mid-term checkpoint activity, so this is your item.\n   If you have the code, each takes about a minute. Do them before 11:00am Wednesday.\n\n2) Proctored exams: Exam 3 (Dec 9-15) and the Final (Dec 12-17), both Proctorio in Canvas. Exam 2 is done, 68/100.\n\n3) Group work: Unit 2 Group Service Project (Nov 8, 0pt) and Service Project Part 2 (Nov 21, 100pt) need your group.",
+ "needs": "HRM 391 items that are yours (checked Wed Nov 11, 11:00am MT).\n\nUnit 1 Mid-term Checkpoint: Canvas 1508956 and 1511530 (1 pt each) were reopened by the TAs and locked Wed Nov 11 at 11:00am MT with nothing submitted. Each asks for the mid-term checkpoint completion code from the in-class activity. Reply YES and I will ask the TAs for one more reopen. If you have the code later, it still needs a reopen before it can be entered.\n\nExam 2 is done, 68/100. Exam 3 opens Dec 9 and closes Dec 15. The Final opens Dec 12 and closes Dec 17. Both are Proctorio in Canvas and both are yours.\n\nService Project Part 2 (100 pts, due Nov 21) needs your group's analysis and your individual reflection. Reply when the group material is ready.",
  "needs_unassigned": false,
  "course_id": 37899,
  "overall": {
@@ -482,5 +449,5 @@
   "final_score": 64.57,
   "final_grade": "D"
  },
- "built_at": "2026-11-11T18:10:32.082451+00:00"
+ "built_at": "2026-11-11T18:21:59.170741+00:00"
 }

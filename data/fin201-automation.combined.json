@@ -241,7 +241,7 @@
    },
    "drift": false,
    "needs_zack": true,
-   "needs_excerpt": "FIN 201: Topic 3 Quiz is still closed. The TA's reopen ended at 9:00am MT today (Nov 10) and the runner only came back online at 5:20pm, so MyEducator blocks late submission (gradebook shows 2026-11-10 09:00, ungraded). Nothing was submitted, so it is a zero unless the TA reopens it again. Need your OK to ask her for one more reopen (prior request went to byufin201@gmail.com on Nov 2). Next due: Topic 11, Dec 2.",
+   "needs_excerpt": "FIN 201 Topic 3 Quiz is still closed (10 pts).",
    "judge": null,
    "optional_ec": false,
    "surface": false,
@@ -251,7 +251,7 @@
    "key": "FIN_MIDTERM_3",
    "status": "blocked_inperson",
    "date": "2026-11-16",
-   "note": "# Testing Center verified: opens Fri Nov 13 8:00am, $5 late fee from Mon Nov 16 11:00am, closes Mon Nov 16 6:00pm. Test 1 45%, Test 2 56%: this exam decides the course [manual:requires-the-student-in-person]",
+   "note": "# Testing Center verified: opens Fri Nov 13 8:00am, $5 late fee from Mon Nov 16 11:00am, closes Mon Nov 16 6:00pm. Test 1 45%, Test 2 56%: this exam decides the course [manual:testing-center-exam-nov-13-16-in-person-5-late-fee-note-expl]",
    "title": "Testing Center verified: opens Fri Nov 13 , $5 late fee from Mon Nov 16 , closes Mon Nov 16 . Test 1 45%, Test 2 56%: this exam decides the course",
    "grade": null,
    "drift": false,
@@ -317,7 +317,7 @@
    "key": "FIN_FINAL",
    "status": "blocked_inperson",
    "date": "2026-12-17",
-   "note": "# Testing Center verified: opens Dec 12 8:00am, closes Dec 17 8:00pm, no late fee window. At least 400 of 1200 pts [manual:testing-center-final-exam-explicitly-requires-student-in-per]",
+   "note": "# Testing Center verified: opens Dec 12 8:00am, closes Dec 17 8:00pm, no late fee window. At least 400 of 1200 pts [manual:requires-the-student-in-person]",
    "title": "Testing Center verified: opens Dec 12 , closes Dec 17 , no late fee window. At least 400 of",
    "grade": null,
    "drift": false,
@@ -333,9 +333,9 @@
   }
  ],
  "unmatched_canvas": [],
- "needs": "FIN 201: Topic 3 Quiz is still closed. The TA's reopen ended at 9:00am MT today (Nov 10) and the runner only came back online at 5:20pm, so MyEducator blocks late submission (gradebook shows 2026-11-10 09:00, ungraded). Nothing was submitted, so it is a zero unless the TA reopens it again. Need your OK to ask her for one more reopen (prior request went to byufin201@gmail.com on Nov 2). Next due: Topic 11, Dec 2.",
+ "needs": "FIN 201 Topic 3 Quiz is still closed (10 pts).\n\nThe TA reopen ended Tue Nov 10 at 9:00am MT and the runner got back online at 5:20pm, so MyEducator blocked the attempt and nothing was submitted. Reply YES and I will email the FIN 201 TA at byufin201@gmail.com for one more reopen. Reply NO and I will record a zero and move on.\n\nThe next quiz after this one is in December and still runs normally.",
  "needs_unassigned": false,
  "course_id": null,
  "overall": {},
- "built_at": "2026-11-11T18:10:32.219041+00:00"
+ "built_at": "2026-11-11T18:21:59.260998+00:00"
 }
