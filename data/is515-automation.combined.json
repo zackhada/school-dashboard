@@ -563,7 +563,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "In-class presentation or live TA presentation; Zack must present in person."
+    "why": "In-class presentation to instructor/TA with sign-up; requires student's body presenting in person."
    },
    "optional_ec": false,
    "surface": true,
@@ -595,7 +595,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Requires the student in person."
+    "why": "Name is an exam (Exam 2, comprehensive, 100pts); name-based exam rule makes it manual regardless of take-home format."
    },
    "optional_ec": false,
    "surface": true,
@@ -611,5 +611,5 @@
   "final_score": 48.63,
   "final_grade": "E"
  },
- "built_at": "2026-11-10T23:28:26.934020+00:00"
+ "built_at": "2026-11-11T00:12:30.575043+00:00"
 }

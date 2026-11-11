@@ -56,7 +56,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "On-paper printed notes+summary must be brought to class for in-class peer check"
+    "why": "On-paper printed notes+summary brought to class for in-class peer check."
    },
    "optional_ec": false,
    "surface": true,
@@ -331,7 +331,7 @@
    "key": "MID_TERM_CHECKPOINT",
    "status": "blocked_inperson",
    "date": "2026-11-11",
-   "note": "# Canvas 1508956 / quiz 663151, 1pt graded survey, lock_at 2026-11-11T18:00:00Z (Nov 11 11:00am MT). REOPENED by the TAs but NOT automatable: the single question reads \"Please enter your mid-term checkpoint completion code.\" That code is handed out with the in-class mid-term checkpoint activity, so this is Zack's own item. Verified live 2026-11-10 by opening the quiz. [manual:requires-in-class-mid-term-checkpoint-completion-code-handed]",
+   "note": "# Canvas 1508956 / quiz 663151, 1pt graded survey, lock_at 2026-11-11T18:00:00Z (Nov 11 11:00am MT). REOPENED by the TAs but NOT automatable: the single question reads \"Please enter your mid-term checkpoint completion code.\" That code is handed out with the in-class mid-term checkpoint activity, so this is Zack's own item. Verified live 2026-11-10 by opening the quiz. [manual:quiz-asks-for-in-class-mid-term-completion-code-obtainable-o]",
    "title": "Canvas 1508956 / quiz 663151, graded survey, lock_at 2026-11-11T18:00:00Z (Nov 11 MT). REOPENED by the TAs but NOT automatable: the single question reads \"Please enter your mid-term checkpoint completion code.\" That code is handed out with the in-class mid-term checkpoint activity, so this is Zack's own item. Verified live 2026-11-10 by opening the quiz.",
    "grade": {
     "canvas_id": 1508956,
@@ -353,7 +353,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Quiz answer is an in-class completion code handed out during the classroom activity"
+    "why": "Quiz asks for in-class mid-term completion code obtainable only during the classroom activity."
    },
    "optional_ec": false,
    "surface": true,
@@ -363,7 +363,7 @@
    "key": "UNIT_1_MID_TERM_CHECKPOINT",
    "status": "blocked_inperson",
    "date": "2026-11-11",
-   "note": "# Canvas 1511530 / quiz 663964, 1pt graded survey, same lock (Nov 11 11:00am MT) and the same content: it asks for the mid-term checkpoint completion code from the in-class activity. Zack's own item. [manual:same-in-class-completion-code-survey-code-obtainable-only-at]",
+   "note": "# Canvas 1511530 / quiz 663964, 1pt graded survey, same lock (Nov 11 11:00am MT) and the same content: it asks for the mid-term checkpoint completion code from the in-class activity. Zack's own item. [manual:same-in-class-completion-code-survey-code-only-handed-out-in]",
    "title": "Canvas 1511530 / quiz 663964, graded survey, same lock (Nov 11 MT) and the same content: it asks for the mid-term checkpoint completion code from the in-class activity. Zack's own item.",
    "grade": {
     "canvas_id": 1511530,
@@ -385,7 +385,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Same in-class completion-code survey; code only obtainable in class"
+    "why": "Same in-class completion-code survey; code only handed out in the classroom."
    },
    "optional_ec": false,
    "surface": true,
@@ -402,7 +402,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Pointer row to the same in-class completion-code surveys that need Zack"
+    "why": "Pointer row to the in-class completion-code surveys; no separate online submission."
    },
    "optional_ec": false,
    "surface": true,
@@ -412,7 +412,7 @@
    "key": "SERVICE_PROJECT_PART_2_GROUP_ANALYSIS_AN",
    "status": "blocked_ask_zack",
    "date": "2026-11-21",
-   "note": "# Canvas 1513919, 100pt, Service Project\u2014Part 2: Group Analysis and Individual Reflection. Group analysis plus an individual reflection, so it needs the group's inputs and his own accounting before upload. Not a solo automation job. [manual:verify-note-flagged-conflicting-group-inputs-plus-individual-reflec]",
+   "note": "# Canvas 1513919, 100pt, Service Project\u2014Part 2: Group Analysis and Individual Reflection. Group analysis plus an individual reflection, so it needs the group's inputs and his own accounting before upload. Not a solo automation job. [manual:verify-name-note-say-individual-reflection-required-description-say]",
    "title": "Service Project\u2014Part 2: Group Analysis and Individual Reflection. Group analysis plus an individual reflection, so it needs the group's inputs and his own accounting before upload. Not a solo automation job.",
    "grade": {
     "canvas_id": 1513919,
@@ -434,7 +434,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "verify",
-    "why": "Note says individual reflection needed, description says not required; facts conflict"
+    "why": "Name/note say individual reflection required; description says not required \u2014 conflicting facts."
    },
    "optional_ec": false,
    "surface": true,
@@ -467,5 +467,5 @@
   "final_score": 64.57,
   "final_grade": "D"
  },
- "built_at": "2026-11-10T23:28:26.836080+00:00"
+ "built_at": "2026-11-11T00:12:27.980284+00:00"
 }

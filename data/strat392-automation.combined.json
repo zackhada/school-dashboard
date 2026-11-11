@@ -497,7 +497,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "verify",
-    "why": "Canvas due date suggests online path, but truncated note requires a physical product/team"
+    "why": "Canvas online due date conflicts with PDF requiring a physical group product"
    },
    "optional_ec": false,
    "surface": true,
@@ -601,7 +601,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Final exam; in-person, date/location per university finals schedule"
+    "why": "Requires the student in person."
    },
    "optional_ec": false,
    "surface": true,
@@ -631,5 +631,5 @@
   "final_score": 68.6,
   "final_grade": "D+"
  },
- "built_at": "2026-11-10T23:28:26.849027+00:00"
+ "built_at": "2026-11-11T00:12:28.476283+00:00"
 }
