@@ -331,7 +331,7 @@
    "key": "MID_TERM_CHECKPOINT",
    "status": "blocked_inperson",
    "date": "2026-11-11",
-   "note": "# Canvas 1508956 / quiz 663151, 1pt graded survey, lock_at 2026-11-11T18:00:00Z (Nov 11 11:00am MT). REOPENED by the TAs but NOT automatable: the single question reads \"Please enter your mid-term checkpoint completion code.\" That code is handed out with the in-class mid-term checkpoint activity, so this is Zack's own item. Verified live 2026-11-10 by opening the quiz. [manual:quiz-requires-in-class-mid-term-completion-code-handed-out-d]",
+   "note": "# Canvas 1508956 / quiz 663151, 1pt graded survey, lock_at 2026-11-11T18:00:00Z (Nov 11 11:00am MT). REOPENED by the TAs but NOT automatable: the single question reads \"Please enter your mid-term checkpoint completion code.\" That code is handed out with the in-class mid-term checkpoint activity, so this is Zack's own item. Verified live 2026-11-10 by opening the quiz. [manual:requires-in-class-mid-term-completion-code-handed-out-during]",
    "title": "Canvas 1508956 / quiz 663151, graded survey, lock_at 2026-11-11T18:00:00Z (Nov 11 MT). REOPENED by the TAs but NOT automatable: the single question reads \"Please enter your mid-term checkpoint completion code.\" That code is handed out with the in-class mid-term checkpoint activity, so this is Zack's own item. Verified live 2026-11-10 by opening the quiz.",
    "grade": {
     "canvas_id": 1508956,
@@ -363,7 +363,7 @@
    "key": "UNIT_1_MID_TERM_CHECKPOINT",
    "status": "blocked_inperson",
    "date": "2026-11-11",
-   "note": "# Canvas 1511530 / quiz 663964, 1pt graded survey, same lock (Nov 11 11:00am MT) and the same content: it asks for the mid-term checkpoint completion code from the in-class activity. Zack's own item. [manual:same-survey-requiring-in-class-mid-term-completion-code-from]",
+   "note": "# Canvas 1511530 / quiz 663964, 1pt graded survey, same lock (Nov 11 11:00am MT) and the same content: it asks for the mid-term checkpoint completion code from the in-class activity. Zack's own item. [manual:same-survey-asking-for-the-in-class-mid-term-completion-code]",
    "title": "Canvas 1511530 / quiz 663964, graded survey, same lock (Nov 11 MT) and the same content: it asks for the mid-term checkpoint completion code from the in-class activity. Zack's own item.",
    "grade": {
     "canvas_id": 1511530,
@@ -412,7 +412,7 @@
    "key": "SERVICE_PROJECT_PART_2_GROUP_ANALYSIS_AN",
    "status": "blocked_ask_zack",
    "date": "2026-11-21",
-   "note": "# Canvas 1513919, 100pt, Service Project\u2014Part 2: Group Analysis and Individual Reflection. Group analysis plus an individual reflection, so it needs the group's inputs and his own accounting before upload. Not a solo automation job. [manual:verify-model-called-it-automatable-but-the-item-name-needs-a-human-]",
+   "note": "# Canvas 1513919, 100pt, Service Project\u2014Part 2: Group Analysis and Individual Reflection. Group analysis plus an individual reflection, so it needs the group's inputs and his own accounting before upload. Not a solo automation job. [manual:verify-note-says-individual-reflection-needed-description-says-not-]",
    "title": "Service Project\u2014Part 2: Group Analysis and Individual Reflection. Group analysis plus an individual reflection, so it needs the group's inputs and his own accounting before upload. Not a solo automation job.",
    "grade": {
     "canvas_id": 1513919,
@@ -467,5 +467,5 @@
   "final_score": 64.57,
   "final_grade": "D"
  },
- "built_at": "2026-11-11T02:19:26.264191+00:00"
+ "built_at": "2026-11-11T02:23:39.810022+00:00"
 }
