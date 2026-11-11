@@ -105,9 +105,9 @@
   },
   {
    "key": "ECON_NEQ_9",
-   "status": "pending",
-   "date": "2026-11-06",
-   "note": "# NE Quiz #9 5pt"
+   "status": "blocked_ask_zack",
+   "date": "2026-11-09",
+   "note": "# NE Quiz #9 5pt: exam closed Nov 9 11:59pm MST with no attempt (checked 2026-11-10); asked Zack reopen-vs-accept-zero [manual:quiz-closed-needs-zack-decision]"
   },
   {
    "key": "ECON_NEQ_10",
@@ -202,7 +202,7 @@
   {
    "key": "ECON_MANKIW_8",
    "status": "pending",
-   "date": "2026-11-06",
+   "date": "2026-11-09",
    "note": "# Mankiw Bonus #8"
   },
   {
@@ -358,7 +358,7 @@
   {
    "key": "ECON_TA_PASSOFF_8",
    "status": "blocked_inperson",
-   "date": "2026-11-10",
+   "date": "2026-11-11",
    "note": "# TA Passoff #8 (optional extra credit, not required; one random Q from Mankiw #8) [optional-ec:extra-credit-2026-09-29-ta-announcement]"
   },
   {
