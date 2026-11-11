@@ -563,7 +563,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "In-class presentation to TA; student must present in person."
+    "why": "In-class presentation requiring student's body, sign-up, and TA/classroom presence"
    },
    "optional_ec": false,
    "surface": true,
@@ -595,7 +595,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Name is an exam; note states in-person, timed comprehensive exam."
+    "why": "Named exam; exam items are manual, and note confirms student takes it personally"
    },
    "optional_ec": false,
    "surface": true,
@@ -611,5 +611,5 @@
   "final_score": 48.63,
   "final_grade": "E"
  },
- "built_at": "2026-11-11T02:36:47.308847+00:00"
+ "built_at": "2026-11-11T02:38:19.077384+00:00"
 }

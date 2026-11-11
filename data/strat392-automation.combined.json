@@ -496,8 +496,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": {
-    "verdict": "verify",
-    "why": "Canvas 60pt due date implies online, but truncated note says PDF requires a physical product"
+    "verdict": "manual",
+    "why": "Requires physical product built/shown by team of 4-5; no online submission type"
    },
    "optional_ec": false,
    "surface": true,
@@ -601,7 +601,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Final exam, cumulative; in-person finals-week date/location per university schedule"
+    "why": "Requires the student in person."
    },
    "optional_ec": false,
    "surface": true,
@@ -631,5 +631,5 @@
   "final_score": 68.6,
   "final_grade": "D+"
  },
- "built_at": "2026-11-11T02:36:47.121221+00:00"
+ "built_at": "2026-11-11T02:38:18.946566+00:00"
 }

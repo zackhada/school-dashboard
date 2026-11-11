@@ -897,10 +897,7 @@
    },
    "drift": false,
    "needs_zack": true,
-   "judge": {
-    "verdict": "automatable",
-    "why": "Online submission path, no proctoring evidence."
-   },
+   "judge": null,
    "optional_ec": false,
    "surface": false,
    "actionable": false
@@ -923,10 +920,7 @@
    },
    "drift": false,
    "needs_zack": false,
-   "judge": {
-    "verdict": "automatable",
-    "why": "Online submission path, no proctoring evidence."
-   },
+   "judge": null,
    "optional_ec": false,
    "surface": false,
    "actionable": false
@@ -1301,5 +1295,5 @@
   "current_score": 72.96,
   "source": "learning-suite-points"
  },
- "built_at": "2026-11-11T02:36:47.444739+00:00"
+ "built_at": "2026-11-11T02:38:19.163693+00:00"
 }

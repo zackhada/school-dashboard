@@ -56,7 +56,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "On-paper item: printed notes+summary brought to class for in-class peer check."
+    "why": "On-paper printed notes and summary must be brought to class for in-class peer check"
    },
    "optional_ec": false,
    "surface": true,
@@ -353,7 +353,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Requires in-class mid-term completion code handed out during the class activity."
+    "why": "Online quiz but the answer is the in-class completion code handed out during the activity"
    },
    "optional_ec": false,
    "surface": true,
@@ -385,7 +385,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Same survey asking for the in-class mid-term completion code."
+    "why": "Same in-class completion-code survey; code only available from the in-class activity"
    },
    "optional_ec": false,
    "surface": true,
@@ -402,7 +402,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Pointer row; both real rows need the in-class mid-term completion code."
+    "why": "Pointer row; both underlying rows are in-class completion-code surveys requiring Zack"
    },
    "optional_ec": false,
    "surface": true,
@@ -434,7 +434,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "verify",
-    "why": "Note says individual reflection needed; description says not required and one group paper\u2014facts conflict."
+    "why": "model called it automatable, but the item name needs a human call: Service Project\u2014Part 2: Group Analysis and Individual Reflec"
    },
    "optional_ec": false,
    "surface": true,
@@ -467,5 +467,5 @@
   "final_score": 64.57,
   "final_grade": "D"
  },
- "built_at": "2026-11-11T02:36:47.098695+00:00"
+ "built_at": "2026-11-11T02:38:18.927583+00:00"
 }
