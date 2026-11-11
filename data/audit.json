@@ -1,6 +1,14 @@
 {
  "generated": "2026-11-10",
- "missed": [],
+ "missed": [
+  {
+   "course": "STRAT 392",
+   "test": "STRAT 392 Midterm",
+   "opens": "Oct 9, 2026 8:00 AM",
+   "closes": "Oct 20, 2026 9:00 PM",
+   "score": ""
+  }
+ ],
  "exam_windows": [
   {
    "course": "FIN 201",
