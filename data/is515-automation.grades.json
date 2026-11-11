@@ -248,12 +248,12 @@
    "lock_at": null,
    "deadline": "2026-11-12T06:59:59Z",
    "points": 20.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
+   "status": "graded",
+   "score": 20.0,
+   "grade": "20",
    "missing": false,
-   "submitted_at": null,
-   "submission_type": null,
+   "submitted_at": "2026-11-10T21:44:23Z",
+   "submission_type": "external_tool",
    "my_submission": "",
    "comments": []
   },
@@ -323,9 +323,9 @@
   }
  ],
  "overall": {
-  "current_score": 90.41,
+  "current_score": 90.77,
   "current_grade": "A-",
-  "final_score": 48.63,
+  "final_score": 50.69,
   "final_grade": "E"
  },
  "source": "canvas-api"

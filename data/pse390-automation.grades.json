@@ -480,12 +480,12 @@
    "lock_at": "2026-11-10T22:30:00Z",
    "deadline": "2026-11-10T22:30:00Z",
    "points": 3.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
+   "status": "graded",
+   "score": 3.0,
+   "grade": "3",
    "missing": false,
-   "submitted_at": null,
-   "submission_type": null,
+   "submitted_at": "2026-11-10T21:35:09Z",
+   "submission_type": "online_quiz",
    "my_submission": "",
    "comments": []
   },
@@ -747,9 +747,9 @@
   }
  ],
  "overall": {
-  "current_score": 72.25,
+  "current_score": 72.64,
   "current_grade": "C-",
-  "final_score": 40.37,
+  "final_score": 41.18,
   "final_grade": "E"
  },
  "source": "canvas-api"
