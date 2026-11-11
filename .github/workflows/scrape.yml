@@ -63,6 +63,11 @@ jobs:
         run: |
           git config user.name "dashboard-bot"
           git config user.email "dashboard-bot@users.noreply.github.com"
-          git add -A
+          # Commit ONLY generated data. `git add -A` pushed this bot's
+          # whole checkout back to main, so any edit made to a workflow or
+          # script after the bot checked out was silently reverted by the
+          # next "nightly canvas truth" commit (2026-11-11: it reverted
+          # the very fix to this file twice).
+          git add data
           git diff --cached --quiet || git commit -m "nightly canvas truth $(date -u +%Y-%m-%d)"
           git remote set-url origin "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" && git push origin HEAD
