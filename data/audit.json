@@ -124,7 +124,7 @@
    "owner": "agent",
    "covered": true,
    "ledger_key": "MID_TERM_CHECKPOINT",
-   "ledger_status": "missed"
+   "ledger_status": "done"
   },
   {
    "course": "HRM 391",
@@ -136,7 +136,7 @@
    "owner": "agent",
    "covered": true,
    "ledger_key": "UNIT_1_MID_TERM_CHECKPOINT",
-   "ledger_status": "missed"
+   "ledger_status": "done"
   },
   {
    "course": "PSE 390",
@@ -163,6 +163,6 @@
    "ledger_status": "blocked_inperson"
   }
  ],
- "testing_center_error": "login failed",
+ "testing_center_error": "testing-center-not-available-here (No module named 'testing_center')",
  "exam_windows_source": "registry"
 }
