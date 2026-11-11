@@ -191,6 +191,9 @@ GENERIC = {
     "topic", "week", "weekly", "unit", "part", "group", "service",
     "note", "notes", "reflection", "individual", "lab", "activity",
     "discussion", "paper", "work", "review", "practice", "chapter", "ch",
+    # Course abbreviations are not item identity ("STRAT ... Strategy",
+    # "ECON ... Economics").
+    "strat", "hrm", "econ", "pse", "fin", "rel", "mcom", "canvas", "byu",
 }
 
 
@@ -198,7 +201,59 @@ def digits(s):
     return set(int(n) for n in re.findall(r"\d+", str(s or "")))
 
 
-def needs_score(name, needs_text):
+def _tok_close(a, b):
+    """Prefix match only for inflections (week/weekly, exam/exams).
+
+    "economics" must not match the course token "econ", and "strategy" must
+    not match the course abbreviation "STRAT".
+    """
+    if a == b:
+        return True
+    if len(a) < 4 or len(b) < 4:
+        return False
+    lo, hi = (a, b) if len(a) <= len(b) else (b, a)
+    return (hi.startswith(lo) or lo.startswith(hi)) and (len(hi) - len(lo) <= 2)
+
+
+def _number_near_label(label, text):
+    """Is a number in the row label next to one of its own words in text?
+
+    Stops "10 pts" or "11:59pm" from counting as "Week 10" or "Quiz 11".
+    """
+    nums = digits(label)
+    ltoks = [t for t in words(label) if not t.isdigit()]
+    if not nums or not ltoks:
+        return False
+    toks = re.findall(r"[A-Za-z0-9]+", str(text or ""))
+    for i, tok in enumerate(toks):
+        low = tok.lower()
+        if not any(low == lt or _tok_close(low, lt) for lt in ltoks):
+            continue
+        for j in range(max(0, i - 2), min(len(toks), i + 3)):
+            if toks[j].isdigit() and int(toks[j]) in nums:
+                return True
+    return False
+
+
+def _key_score(key, needs_text):
+    """Token fallback for rows with no Canvas name (FIN 201, ECON 110)."""
+    label = str(key or "")
+    if not label or not needs_text:
+        return 0
+    tw = set(words(label))
+    nw = set(words(needs_text))
+    overlap = sum(1 for a in tw if any(_tok_close(a, b) for b in nw))
+    # A numbered key must find that number beside one of its own words.
+    if digits(label):
+        return 2 if (_number_near_label(label, needs_text) and overlap) else 0
+    strong = [a for a in tw if a not in GENERIC and len(a) >= 4]
+    hits = [a for a in strong if any(_tok_close(a, b) for b in nw)]
+    if strong and len(hits) / float(len(strong)) >= 0.6:
+        return 1
+    return 0
+
+
+def needs_score(name, needs_text, key=""):
     """How strongly one parked-note block names one assignment.
 
     0 means "not this item". Matching is done on the Canvas gradebook name
@@ -216,23 +271,20 @@ def needs_score(name, needs_text):
     The digit requirement is what keeps "Ethics and Public Quiz - Week 10"
     from matching a block that only talks about Week 9.
     """
-    if not needs_text or not name:
+    if not needs_text:
         return 0
-    nt = re.sub(r"[^a-z0-9]+", "", str(name).lower())
-    nb = re.sub(r"[^a-z0-9]+", "", str(needs_text).lower())
-    if len(nt) < 6:
-        return 0
-    if nt in nb:
-        return 3
-    nums = list(re.finditer(r"\d", nt))
-    if nums:
-        floor = max(12, nums[-1].start() + 1)
-    else:
-        floor = 12
-    for n in range(len(nt) - 1, floor - 1, -1):
-        if len(nt[:n]) >= floor and nt[:n] in nb:
-            return 2
-    return 0
+    if name:
+        nt = re.sub(r"[^a-z0-9]+", "", str(name).lower())
+        nb = re.sub(r"[^a-z0-9]+", "", str(needs_text).lower())
+        if len(nt) >= 6:
+            if nt in nb:
+                return 3
+            nums = list(re.finditer(r"\d", nt))
+            floor = max(12, nums[-1].start() + 1) if nums else 12
+            for n in range(len(nt) - 1, floor - 1, -1):
+                if len(nt[:n]) >= floor and nt[:n] in nb:
+                    return 2
+    return _key_score(key, needs_text)
 
 
 def note_blocks(needs_text):
@@ -276,7 +328,8 @@ def match_needs(prepped, needs_text, names=None):
         hits = [i for i in rows
                 if (prepped[i][0].get("status") or "") != "done"
                 and needs_score((names[i] if names else None)
-                                or prepped[i][1], block) > 0]
+                                or prepped[i][1], block,
+                                prepped[i][0].get("key")) > 0]
         for i in hits:
             out[i] = (out.get(i, "") + "\n\n" + block).strip()[:1200]
     return out
@@ -471,9 +524,13 @@ def build_repo(repo):
                  # It has no deadline, so it can never be "missed" and must not
                  # sit in drift as if the runner forgot it (2026-11-04).
                  and canvas_deadline(g)
-                 and not (g.get("score") is not None
-                          and g.get("points") is not None
-                          and g.get("score") >= g.get("points"))]
+                 # Anything already scored is done, even at 68/100. The old
+                 # full-score-only test put the completed HRM 391 Unit 2 Exam
+                 # (68/100, submitted Nov 6) in "Missing from ledger" on
+                 # 2026-11-11, as if the runner still had to do it.
+                 and g.get("score") is None
+                 and str(g.get("status") or "").lower() not in
+                     ("graded", "submitted", "pending_review")]
     for g in unmatched:
         rows.append({"key": "CANVAS_%s" % g.get("canvas_id"),
                      "status": "missing_from_ledger",

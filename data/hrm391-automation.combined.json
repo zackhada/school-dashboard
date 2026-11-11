@@ -281,30 +281,6 @@
    "actionable": false
   },
   {
-   "key": "CANVAS_1520006",
-   "status": "missing_from_ledger",
-   "date": "2026-11-10",
-   "note": "# In Canvas but no ledger row; runner must add it",
-   "title": "Unit 2 Exam - Groups and Individuals (Remotely Proctored)",
-   "grade": {
-    "canvas_id": 1520006,
-    "name": "Unit 2 Exam - Groups and Individuals (Remotely Proctored)",
-    "due": null,
-    "lock_at": "2026-11-11T06:59:59Z",
-    "deadline": "2026-11-11T06:59:59Z",
-    "points": 100.0,
-    "status": "graded",
-    "score": 68.0,
-    "grade": "68",
-    "missing": false,
-    "submitted_at": "2026-11-06T22:40:38Z",
-    "submission_type": "online_quiz",
-    "my_submission": "",
-    "comments": []
-   },
-   "drift": true
-  },
-  {
    "key": "MID_TERM_CHECKPOINT",
    "status": "missed",
    "date": "2026-11-11",
@@ -422,24 +398,7 @@
    "actionable": true
   }
  ],
- "unmatched_canvas": [
-  {
-   "canvas_id": 1520006,
-   "name": "Unit 2 Exam - Groups and Individuals (Remotely Proctored)",
-   "due": null,
-   "lock_at": "2026-11-11T06:59:59Z",
-   "deadline": "2026-11-11T06:59:59Z",
-   "points": 100.0,
-   "status": "graded",
-   "score": 68.0,
-   "grade": "68",
-   "missing": false,
-   "submitted_at": "2026-11-06T22:40:38Z",
-   "submission_type": "online_quiz",
-   "my_submission": "",
-   "comments": []
-  }
- ],
+ "unmatched_canvas": [],
  "needs": "HRM 391 items that are yours (checked Wed Nov 11, 11:00am MT).\n\nUnit 1 Mid-term Checkpoint: Canvas 1508956 and 1511530 (1 pt each) were reopened by the TAs and locked Wed Nov 11 at 11:00am MT with nothing submitted. Each asks for the mid-term checkpoint completion code from the in-class activity. Reply YES and I will ask the TAs for one more reopen. If you have the code later, it still needs a reopen before it can be entered.\n\nExam 2 is done, 68/100. Exam 3 opens Dec 9 and closes Dec 15. The Final opens Dec 12 and closes Dec 17. Both are Proctorio in Canvas and both are yours.\n\nService Project Part 2 (100 pts, due Nov 21) needs your group's analysis and your individual reflection. Reply when the group material is ready.",
  "needs_unassigned": false,
  "course_id": 37899,
@@ -449,5 +408,5 @@
   "final_score": 64.57,
   "final_grade": "D"
  },
- "built_at": "2026-11-11T18:37:10.777194+00:00"
+ "built_at": "2026-11-11T18:38:34.154956+00:00"
 }

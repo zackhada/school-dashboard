@@ -263,7 +263,14 @@ Promise.all(REPOS.map(function(pair){
         ? (x.needs_excerpt || c.needs || rowNote)
         : rowNote;
       var note = esc(parkedNote);
-      if (isBlocked && surfaced) {
+      // A blocked job that is not physically yours (a team project, a
+      // decision) belongs in "Needs your input", not under "In person +
+      // proctored". Only real room/proctor/attendance evidence keeps it there.
+      var physText = ((x.note || '') + ' ' + ((x.judge && x.judge.why) || ''))
+        .replace(/no[- ]proctor\w*|not[- ]proctor\w*|without[- ]proctor\w*/ig, '');
+      var physical = /proctor|in person|in-person|testing center|lockdown|attendance|bring to class|on paper|physical presence/i
+        .test(physText);
+      if (isBlocked && surfaced && (physical || x.status === 'blocked_inperson')) {
         if (/\b0\s?pts?\b/i.test(x.note || '')) return;
         // Skip phantom rows for Canvas items deleted upstream (e.g. pse390
         // PARTICIPATION_QUIZ_10_13_2, "404 deleted upstream"); they are not
@@ -286,8 +293,10 @@ Promise.all(REPOS.map(function(pair){
       }
       if (d && d < now && !x.needs) return;
       var title = titleFrom(x.key, x.note, c.name);
-      var stLabel = isBlocked ? x.status : 'needs you';
-      var when = dueWhen(d);
+      var stLabel = x.status === 'missed' ? 'missed' : 'needs you';
+      var when = (x.status === 'missed')
+        ? (daysLeft(d) < 0 ? ' (' + (-daysLeft(d)) + 'd ago)' : '')
+        : dueWhen(d);
       var curl2 = canvasUrl(c.course, x.grade && x.grade.canvas_id);
       var canvasCell = curl2 ? ' <a href="'+curl2+'">Canvas</a>' : '';
       need += '<tr><td><b>'+c.name+' \u2014 '+esc(title)+'</b></td><td class="'+esc(x.status)+'">'+esc(stLabel)+when+'</td><td class="small">'+note+canvasCell+'</td><td><a href="'+replyUrl(c, x, parkedNote)+'">Reply</a></td></tr>';
@@ -301,7 +310,7 @@ Promise.all(REPOS.map(function(pair){
     }
   });
   if (need) {
-    document.getElementById('needs').innerHTML = '<h2>Needs your input</h2><p class="small">Automatable tasks stuck on your input. Reply and the runner continues.</p><table><colgroup><col class="c-assn"><col class="c-status"><col class="c-note"><col class="c-act"></colgroup><thead><tr><th>Assignment</th><th>Status</th><th>Note</th><th>Action</th></tr></thead><tbody>'+need+'</tbody></table>';
+    document.getElementById('needs').innerHTML = '<h2>Needs your input</h2><p class="small">Items waiting on your decision or your own action. Reply and the runner continues.</p><table><colgroup><col class="c-assn"><col class="c-status"><col class="c-note"><col class="c-act"></colgroup><thead><tr><th>Assignment</th><th>Status</th><th>Note</th><th>Action</th></tr></thead><tbody>'+need+'</tbody></table>';
   } else {
     document.getElementById('needs').innerHTML = '<h2>Needs your input</h2><p class="small">Nothing waiting on you.</p>';
   }

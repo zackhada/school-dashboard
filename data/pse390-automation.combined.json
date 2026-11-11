@@ -910,7 +910,7 @@
    },
    "drift": false,
    "needs_zack": true,
-   "needs_excerpt": "What happened: \"Ethics and Public Quiz - Week 9\" (Canvas 1495465, 10pt) was due\nand locked Sat Nov 7 11:59pm MT while the runner Mac was offline (Nov 3 to\nNov 10). Live Canvas today shows lock_at passed and the submission still\nunsubmitted, so it cannot be submitted from here.",
+   "needs_excerpt": "PSE 390 Week 9 quiz needs a TA reopen (2026-11-10)\n\nWhat happened: \"Ethics and Public Quiz - Week 9\" (Canvas 1495465, 10pt) was due\nand locked Sat Nov 7 11:59pm MT while the runner Mac was offline (Nov 3 to\nNov 10). Live Canvas today shows lock_at passed and the submission still\nunsubmitted, so it cannot be submitted from here.\n\nSuggested message (Canvas Inbox, To: Ernest Elliott, course PSE 390-009):\n\"Hi Ernest, I missed the Week 9 quiz. It locked Saturday Nov 7 at 11:59pm and\nnothing was submitted. My setup was down for about a week and it slipped past\nme. Is there any chance you can reopen it, or let me submit it late for partial\ncredit? I can get it done today or tomorrow. Thanks, Zack Hada\"",
    "judge": null,
    "optional_ec": false,
    "surface": false,
@@ -1401,5 +1401,5 @@
   "final_score": 41.18,
   "final_grade": "E"
  },
- "built_at": "2026-11-11T18:37:10.943179+00:00"
+ "built_at": "2026-11-11T18:38:34.271481+00:00"
 }
