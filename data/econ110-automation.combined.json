@@ -98,7 +98,7 @@
    "key": "ECON_MEET_TA",
    "status": "blocked_inperson",
    "date": "2026-09-11",
-   "note": "# in-person TA lab B090 JFSB [manual:in-person-ta-lab-in-b090-jfsb-requires-physical-presence]",
+   "note": "# in-person TA lab B090 JFSB [manual:in-person-ta-lab-in-b090-jfsb-requires-physical-presence-no-]",
    "title": "Meet TA",
    "grade": {
     "name": "Meet Your TA",
@@ -857,7 +857,7 @@
    "key": "ECON_MIDTERM_2",
    "status": "blocked_inperson",
    "date": "2026-11-06",
-   "note": "# Testing Center verified 2026-10-25: opens Thu Nov 5 8:00am, $5 late fee from Fri Nov 6 2:00pm, closes Fri Nov 6 9:00pm. Midterm 1 was 120/200 (60%) on Oct 2 [manual:testing-center-exam-must-be-taken-in-person]",
+   "note": "# Testing Center verified 2026-10-25: opens Thu Nov 5 8:00am, $5 late fee from Fri Nov 6 2:00pm, closes Fri Nov 6 9:00pm. Midterm 1 was 120/200 (60%) on Oct 2 [manual:requires-the-student-in-person]",
    "title": "Testing Center verified 2026-10-25: opens Thu Nov 5 , $5 late fee from Fri Nov 6 , closes Fri Nov 6 . Midterm 1 was 120/200 (60%) on Oct 2",
    "grade": {
     "name": "Midterm 2",
@@ -881,10 +881,10 @@
   },
   {
    "key": "ECON_NEQ_9",
-   "status": "blocked_ask_zack",
+   "status": "pending",
    "date": "2026-11-09",
-   "note": "# NE Quiz #9 5pt: exam closed Nov 9 11:59pm MST with no attempt (re-verified live 2026-11-10 18:47 MST: info id-8Oy1 still Exam Closed, no Begin); awaiting Zack reopen-vs-accept-zero via dashboard needs_user; if YES email Showalter reopen and reset pending; if NO mark done (judged automatable once reopened: online-submission-path-no-proctoring-evidence)",
-   "title": "NE Quiz #9 : exam closed Nov 9 MST with no attempt (re-verified live 2026-11-10 MST: info id-8Oy1 still Exam Closed, no Begin); awaiting Zack reopen-vs-accept-zero via dashboard needs_user; if YES email Showalter reopen and reset pending; if NO mark done",
+   "note": "# NE Quiz #9 5pt: exam closed Nov 9 11:59pm MST with no attempt (re-verified live 2026-11-10 18:47 MST: info id-8Oy1 still Exam Closed, no Begin); awaiting Zack reopen-vs-accept-zero via dashboard needs_user; if YES email Showalter reopen and reset pending; if NO mark done (judged automatable once reopened: online-submission-path-no-proctoring-evidence) (judged automatable 2026-11-10: online-submission-path-no-proctoring-evidence)",
+   "title": "NE Quiz #9 : exam closed Nov 9 MST with no attempt (re-verified live 2026-11-10 MST: info id-8Oy1 still Exam Closed, no Begin); awaiting Zack reopen-vs-accept-zero via dashboard needs_user; if YES email Showalter reopen and reset pending; if NO mark done (judged automatable once reopened: online-submission-path-no-proctoring-evidence)",
    "grade": {
     "name": "NE - Quiz #9",
     "due": "2026-11-09T23:59:00",
@@ -899,14 +899,14 @@
    "needs_zack": true,
    "judge": null,
    "optional_ec": false,
-   "surface": true,
-   "actionable": true
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "ECON_MANKIW_8",
-   "status": "blocked_ask_zack",
+   "status": "pending",
    "date": "2026-11-09",
-   "note": "# Mankiw Bonus #8 (Ch12 Q1,4 + Ch25 Q5,9): LS Submission tab reads \"No Submission / You haven't submitted this assignment, and the due date has passed\", no Submit control (verified live 2026-11-10 19:00 MST); needs Zack YES to email Showalter for a late reopen, else accept 0/6",
+   "note": "# Mankiw Bonus #8 (Ch12 Q1,4 + Ch25 Q5,9): LS Submission tab reads \"No Submission / You haven't submitted this assignment, and the due date has passed\", no Submit control (verified live 2026-11-10 19:00 MST); needs Zack YES to email Showalter for a late reopen, else accept 0/6 (judged automatable 2026-11-10: online-submission-path-no-proctoring-evidence)",
    "title": "Mankiw Bonus #8 (Ch12 Q1,4 + Ch25 Q5,9): LS Submission tab reads \"No Submission / You haven't submitted this assignment, and the",
    "grade": {
     "name": "Mankiw Bonus #8 (Extra Credit)",
@@ -922,8 +922,8 @@
    "needs_zack": false,
    "judge": null,
    "optional_ec": false,
-   "surface": true,
-   "actionable": true
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "ECON_TA_PASSOFF_8",
@@ -1295,5 +1295,5 @@
   "current_score": 72.96,
   "source": "learning-suite-points"
  },
- "built_at": "2026-11-11T02:13:11.032883+00:00"
+ "built_at": "2026-11-11T02:19:26.444383+00:00"
 }
