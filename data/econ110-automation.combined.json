@@ -857,7 +857,7 @@
    "key": "ECON_MIDTERM_2",
    "status": "blocked_inperson",
    "date": "2026-11-06",
-   "note": "# Testing Center verified 2026-10-25: opens Thu Nov 5 8:00am, $5 late fee from Fri Nov 6 2:00pm, closes Fri Nov 6 9:00pm. Midterm 1 was 120/200 (60%) on Oct 2 [manual:testing-center-exam-with-scheduled-window-and-late-fee-requi]",
+   "note": "# Testing Center verified 2026-10-25: opens Thu Nov 5 8:00am, $5 late fee from Fri Nov 6 2:00pm, closes Fri Nov 6 9:00pm. Midterm 1 was 120/200 (60%) on Oct 2 [manual:requires-the-student-in-person]",
    "title": "Testing Center verified 2026-10-25: opens Thu Nov 5 , $5 late fee from Fri Nov 6 , closes Fri Nov 6 . Midterm 1 was 120/200 (60%) on Oct 2",
    "grade": {
     "name": "Midterm 2",
@@ -1295,5 +1295,5 @@
   "current_score": 72.96,
   "source": "learning-suite-points"
  },
- "built_at": "2026-11-11T00:33:01.156157+00:00"
+ "built_at": "2026-11-11T00:34:49.700052+00:00"
 }
