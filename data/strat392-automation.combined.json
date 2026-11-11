@@ -496,8 +496,8 @@
    "drift": false,
    "needs_zack": false,
    "judge": {
-    "verdict": "verify",
-    "why": "Canvas online due date conflicts with PDF requiring a physical group product"
+    "verdict": "manual",
+    "why": "Assignment requires one physical product deliverable, a physical artifact"
    },
    "optional_ec": false,
    "surface": true,
@@ -601,7 +601,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Requires the student in person."
+    "why": "Cumulative final exam held in person per university finals schedule"
    },
    "optional_ec": false,
    "surface": true,
@@ -631,5 +631,5 @@
   "final_score": 68.6,
   "final_grade": "D+"
  },
- "built_at": "2026-11-11T00:22:39.334082+00:00"
+ "built_at": "2026-11-11T00:27:08.334653+00:00"
 }

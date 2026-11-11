@@ -41,7 +41,7 @@
    "key": "ECON_MEET_TA",
    "status": "blocked_inperson",
    "date": "2026-09-11",
-   "note": "# in-person TA lab B090 JFSB [manual:in-person-ta-lab-in-b090-jfsb-requires-physical-presence]"
+   "note": "# in-person TA lab B090 JFSB [manual:in-person-ta-lab-in-b090-jfsb-requires-the-student-s-physica]"
   },
   {
    "key": "ECON_OAKS_QUIZ",
@@ -105,9 +105,9 @@
   },
   {
    "key": "ECON_NEQ_9",
-   "status": "blocked_ask_zack",
+   "status": "pending",
    "date": "2026-11-09",
-   "note": "# NE Quiz #9 5pt: exam closed Nov 9 11:59pm MST with no attempt (checked 2026-11-10); asked Zack reopen-vs-accept-zero [manual:quiz-closed-needs-zack-decision]"
+   "note": "# NE Quiz #9 5pt: exam closed Nov 9 11:59pm MST with no attempt (checked 2026-11-10); asked Zack reopen-vs-accept-zero (judged automatable 2026-11-10: online-submission-path-no-proctoring-evidence)"
   },
   {
    "key": "ECON_NEQ_10",
@@ -251,7 +251,7 @@
    "key": "ECON_MIDTERM_2",
    "status": "blocked_inperson",
    "date": "2026-11-06",
-   "note": "# Testing Center verified 2026-10-25: opens Thu Nov 5 8:00am, $5 late fee from Fri Nov 6 2:00pm, closes Fri Nov 6 9:00pm. Midterm 1 was 120/200 (60%) on Oct 2 [manual:requires-the-student-in-person]"
+   "note": "# Testing Center verified 2026-10-25: opens Thu Nov 5 8:00am, $5 late fee from Fri Nov 6 2:00pm, closes Fri Nov 6 9:00pm. Midterm 1 was 120/200 (60%) on Oct 2 [manual:testing-center-exam-with-scheduled-window-and-late-fee-requi]"
   },
   {
    "key": "ECON_FINAL",
