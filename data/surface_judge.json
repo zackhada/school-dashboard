@@ -1,38 +1,37 @@
 {
- "generated_at": "2026-11-11T01:55:57.032244+00:00",
+ "generated_at": "2026-11-11T02:30:02.941684+00:00",
  "model": "opencode-go/deepseek-v4.1-flash",
  "repos": {
   "econ110-automation": {
-   "detail": null,
-   "judged": 3,
+   "detail": "ERROR:opencode/deepseek-v4.1-flash-free: rc=1 \u001b[91m\u001b[1mError: \u001b[0m{\n  \"name\": \"UnknownError\",\n  \"data\": {\n    \"message\": \"Unexpected server error. Check server logs f",
+   "judged": 5,
    "verdicts": {
     "ECON_FINAL": {
      "verdict": "manual",
      "why": "Requires the student in person."
     },
+    "ECON_MANKIW_8": {
+     "verdict": "automatable",
+     "why": "Online submission path, no proctoring evidence."
+    },
     "ECON_MEET_TA": {
      "verdict": "manual",
-     "why": "In-person TA lab in B090 JFSB requires physical presence"
+     "why": "In-person TA lab in B090 JFSB requires physical presence; no online submission path."
     },
     "ECON_MIDTERM_2": {
      "verdict": "manual",
      "why": "Requires the student in person."
+    },
+    "ECON_NEQ_9": {
+     "verdict": "automatable",
+     "why": "Online submission path, no proctoring evidence."
     }
    }
   },
   "fin201-automation": {
    "detail": "ERROR:opencode/deepseek-v4.1-flash-free: rc=1 \u001b[91m\u001b[1mError: \u001b[0m{\n  \"name\": \"UnknownError\",\n  \"data\": {\n    \"message\": \"Unexpected server error. Check server logs f",
-   "judged": 2,
-   "verdicts": {
-    "FIN_FINAL": {
-     "verdict": "manual",
-     "why": "Requires the student in person."
-    },
-    "FIN_MIDTERM_3": {
-     "verdict": "manual",
-     "why": "Requires the student in person."
-    }
-   }
+   "judged": 3,
+   "verdicts": {}
   },
   "hrm391-automation": {
    "detail": null,
@@ -44,23 +43,23 @@
     },
     "MID_TERM_CHECKPOINT": {
      "verdict": "manual",
-     "why": "Quiz asks for completion code only handed out during in-class activity"
+     "why": "Requires in-class mid-term completion code handed out during the class activity."
     },
     "PROF_PERSPECTIVE_INTERVIEW": {
      "verdict": "manual",
-     "why": "On-paper printed notes/summary must be brought to class for in-class peer check"
+     "why": "On-paper item: printed notes+summary brought to class for in-class peer check."
     },
     "SERVICE_PROJECT_PART_2_GROUP_ANALYSIS_AN": {
      "verdict": "verify",
-     "why": "Note says individual reflection needed but description says not required and paper is per-group"
+     "why": "Note says individual reflection needed; description says not required and one group paper\u2014facts conflict."
     },
     "UNIT_1_MID_TERM_CHECKPOINT": {
      "verdict": "manual",
-     "why": "Same survey requiring in-class mid-term completion code"
+     "why": "Same survey asking for the in-class mid-term completion code."
     },
     "UNIT_1_MID_TERM_CHECKPOINT_2": {
      "verdict": "manual",
-     "why": "Pointer row to the same in-class completion-code surveys"
+     "why": "Pointer row; both real rows need the in-class mid-term completion code."
     }
    }
   },
@@ -70,57 +69,57 @@
    "verdicts": {
     "IS_EXAM2": {
      "verdict": "manual",
-     "why": "Named exam; timed comprehensive take-home, student completes it personally (exam = manual per rules)"
+     "why": "Name is an exam; note states in-person, timed comprehensive exam."
     },
     "IS_PROJECT_PRESENT": {
      "verdict": "manual",
-     "why": "In-class course project presentation Dec 9 or to TA; student must present in person"
+     "why": "In-class presentation to TA; student must present in person."
     }
    }
   },
   "pse390-automation": {
-   "detail": null,
+   "detail": "ERROR:opencode/deepseek-v4.1-flash-free: rc=1 \u001b[91m\u001b[1mError: \u001b[0m{\n  \"name\": \"UnknownError\",\n  \"data\": {\n    \"message\": \"Unexpected server error. Check server logs f",
    "judged": 10,
    "verdicts": {
     "PARTICIPATION_QUIZ_10_13_2": {
      "verdict": "manual",
-     "why": "Name is a participation quiz; participation is earned in class, and submission types are empty."
+     "why": "Name is a participation quiz; participation is earned in class, and item is deleted upstream (404)."
     },
     "PARTICIPATION_QUIZ_11_03": {
      "verdict": "manual",
-     "why": "Name is a participation quiz; participation is earned in class, not an online submission."
+     "why": "Name is a participation quiz; participation is earned in class, not online."
     },
     "PARTICIPATION_QUIZ_11_12": {
      "verdict": "manual",
-     "why": "Name is a participation quiz; participation is earned in class, not an online submission."
+     "why": "Name is a participation quiz; participation is earned in class, not online."
     },
     "PARTICIPATION_QUIZ_11_17": {
      "verdict": "manual",
-     "why": "Name is a participation quiz; participation is earned in class, not an online submission."
+     "why": "Name is a participation quiz; participation is earned in class, not online."
     },
     "PARTICIPATION_QUIZ_11_19": {
      "verdict": "manual",
-     "why": "Name is a participation quiz; participation is earned in class, not an online submission."
+     "why": "Name is a participation quiz; participation is earned in class, not online."
     },
     "PARTICIPATION_QUIZ_11_24": {
      "verdict": "manual",
-     "why": "Name is a participation quiz; participation is earned in class, not an online submission."
+     "why": "Name is a participation quiz; participation is earned in class, not online."
     },
     "PARTICIPATION_QUIZ_12_01": {
      "verdict": "manual",
-     "why": "Name is a participation quiz; participation is earned in class, not an online submission."
+     "why": "Name is a participation quiz; participation is earned in class, not online."
     },
     "PARTICIPATION_QUIZ_12_03": {
      "verdict": "manual",
-     "why": "Name is a participation quiz; participation is earned in class, not an online submission."
+     "why": "Name is a participation quiz; participation is earned in class, not online."
     },
     "PARTICIPATION_QUIZ_12_08": {
      "verdict": "manual",
-     "why": "Name is a participation quiz; participation is earned in class, not an online submission."
+     "why": "Name is a participation quiz; participation is earned in class, not online."
     },
     "PARTICIPATION_QUIZ_12_10": {
      "verdict": "manual",
-     "why": "Name is a participation quiz; participation is earned in class, not an online submission."
+     "why": "Name is a participation quiz; participation is earned in class, not online."
     }
    }
   },
@@ -130,35 +129,35 @@
    "verdicts": {
     "11_12_ATTENDANCE_CHECK": {
      "verdict": "manual",
-     "why": "Named attendance check; attendance recorded in the classroom despite external_tool"
+     "why": "Named attendance check; attendance recorded in the classroom"
     },
     "11_17_ATTENDANCE_CHECK": {
      "verdict": "manual",
-     "why": "Named attendance check; attendance recorded in the classroom despite external_tool"
+     "why": "Named attendance check; attendance recorded in the classroom"
     },
     "11_19_ATTENDANCE_CHECK": {
      "verdict": "manual",
-     "why": "Named attendance check; attendance recorded in the classroom despite external_tool"
+     "why": "Named attendance check; attendance recorded in the classroom"
     },
     "11_24_ATTENDANCE_CHECK": {
      "verdict": "manual",
-     "why": "Named attendance check; attendance recorded in the classroom despite external_tool"
+     "why": "Named attendance check; attendance recorded in the classroom"
     },
     "12_10_ATTENDANCE_CHECK": {
      "verdict": "manual",
-     "why": "Named attendance check; attendance recorded in the classroom despite external_tool"
+     "why": "Named attendance check; attendance recorded in the classroom"
     },
     "12_1_ATTENDANCE_CHECK": {
      "verdict": "manual",
-     "why": "Named attendance check; attendance recorded in the classroom despite external_tool"
+     "why": "Named attendance check; attendance recorded in the classroom"
     },
     "12_3_ATTENDANCE_CHECK": {
      "verdict": "manual",
-     "why": "Named attendance check; attendance recorded in the classroom despite external_tool"
+     "why": "Named attendance check; attendance recorded in the classroom"
     },
     "12_8_ATTENDANCE_CHECK": {
      "verdict": "manual",
-     "why": "Named attendance check; attendance recorded in the classroom despite external_tool"
+     "why": "Named attendance check; attendance recorded in the classroom"
     }
    }
   },
@@ -168,15 +167,15 @@
    "verdicts": {
     "SESSION1_WHAT_IS_STRATEGY": {
      "verdict": "manual",
-     "why": "submission_types=none; deliverable was bringing examples to class, no online path"
+     "why": "submission_types=none; deliverable was bringing examples to the Sep 8 class in person"
     },
     "STRAT_FINAL_EXAM": {
      "verdict": "manual",
-     "why": "Cumulative final exam given in person per syllabus/university final schedule"
+     "why": "Final exam, cumulative; in-person finals-week date/location per university schedule"
     },
     "STRAT_MARKET_ENTRY_LAB": {
      "verdict": "verify",
-     "why": "Canvas assignment due time but note cites physical product group deliverable; facts conflict"
+     "why": "Canvas 60pt due date implies online, but truncated note says PDF requires a physical product"
     }
    }
   }
