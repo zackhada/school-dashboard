@@ -1,17 +1,52 @@
 {
- "generated": "2026-11-10T21:56Z",
- "runners_online": 9,
+ "generated": "2026-11-11T02:42Z",
+ "runners_online": 0,
  "runners_checked": 9,
- "offline_repos": [],
+ "offline_repos": [
+  "econ110-automation",
+  "fin201-automation",
+  "hrm391-automation",
+  "is515-automation",
+  "pse390-automation",
+  "rel-c-333-automation",
+  "strat392-automation",
+  "school-healer",
+  "school-dashboard"
+ ],
  "queued_runs": 0,
  "stale_repos": [],
- "heartbeat": {
-  "ts": "2026-11-10T14:53:35-07:00",
-  "age_hours": 0.1,
-  "free_gb": "119",
-  "bridge": true,
-  "guard": "up"
- },
- "errors": [],
- "healthy": true
+ "heartbeat": {},
+ "errors": [
+  {
+   "econ110-automation": "401 Unauthorized"
+  },
+  {
+   "fin201-automation": "401 Unauthorized"
+  },
+  {
+   "hrm391-automation": "401 Unauthorized"
+  },
+  {
+   "is515-automation": "401 Unauthorized"
+  },
+  {
+   "pse390-automation": "401 Unauthorized"
+  },
+  {
+   "rel-c-333-automation": "401 Unauthorized"
+  },
+  {
+   "strat392-automation": "401 Unauthorized"
+  },
+  {
+   "school-healer": "401 Unauthorized"
+  },
+  {
+   "school-dashboard": "401 Unauthorized"
+  },
+  {
+   "heartbeat": "404 Not Found"
+  }
+ ],
+ "healthy": false
 }
