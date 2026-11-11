@@ -42,7 +42,10 @@ jobs:
         if: env.QUIET != 'true'
         continue-on-error: true
         env:
-          GH_TOKEN: ${{ secrets.DISPATCH_TOKEN || secrets.OPS_TOKEN || github.token }}
+          # Must be the PAT: reading other repos' runners with the job token
+          # returns 404 and health.py then reports 0 of 9 online, which puts the
+          # "spare Mac silent" banner on a perfectly healthy fleet (2026-11-11).
+          DISPATCH_TOKEN: ${{ secrets.DISPATCH_TOKEN }}
         run: python3 scripts/health.py
       - name: Assignment audit
         if: env.QUIET != 'true'

@@ -18,6 +18,7 @@ import argparse
 import datetime
 import json
 import os
+import sys
 import urllib.error
 import urllib.request
 
@@ -35,8 +36,14 @@ HEADERS = {"Accept": "application/vnd.github+json", "User-Agent": "school-health
 
 
 def get(url, raw=False):
-    if TOKEN:
-        HEADERS["Authorization"] = "Bearer " + TOKEN
+    if not TOKEN:
+        # Without a token the runner API 404s for every other repo, and this
+        # script would publish "0 of 9 online" for a healthy fleet: exactly the
+        # banner Zack stared at for a week (2026-11-11). Never publish a guess.
+        print("health: no DISPATCH_TOKEN/GITHUB_TOKEN; refusing to fetch",
+              file=sys.stderr)
+        raise SystemExit(2)
+    HEADERS["Authorization"] = "Bearer " + TOKEN
     req = urllib.request.Request(url, headers=HEADERS)
     try:
         with urllib.request.urlopen(req, timeout=30) as r:
@@ -142,6 +149,11 @@ def main():
                         and (heartbeat.get("age_hours") is None
                              or heartbeat.get("age_hours", 99) < 1)),
     }
+    if online_total == 0 and not heartbeat:
+        print("health: every runner reads offline AND no heartbeat was readable. "
+              "That is a credentials/permission problem, not an outage, so this "
+              "snapshot is not published.", file=sys.stderr)
+        raise SystemExit(3)
     os.makedirs(DATA, exist_ok=True)
     with open(a.json, "w") as f:
         json.dump(out, f, indent=1)
