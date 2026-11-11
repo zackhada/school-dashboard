@@ -344,7 +344,7 @@
    "key": "SERVICE_PROJECT_PART_2_GROUP_ANALYSIS_AN",
    "status": "blocked_ask_zack",
    "date": "2026-11-21",
-   "note": "# Canvas 1513919, 100pt group paper due Nov 21 11:59pm MT. Service itself due Sat Nov 14. Group text sent 2026-11-11 3:59pm MT. Oliver replied he can serve any time Saturday after 12; proposed Saturday 1:00-3:00pm and asked the rest to confirm. SUVAS requires groups of 4+ to call ahead and schedule; application on suvas.org/volunteer-foster; coordinator Sabrinasuvas@gmail.com or (801) 851-4080. If the group agrees, call SUVAS on Nov 12 to reserve the slot. Plan and blank template: hrm391/GROUP_PROJECT_PLAN.md and hrm391/templates/Service_Project_Part2_TEMPLATE.docx. [manual:waiting-on-group-saturday-confirmation]",
+   "note": "# Canvas 1513919, 100pt group paper due Nov 21 11:59pm MT. Service itself due Sat Nov 14. Group text sent 2026-11-11 3:59pm MT; Oliver replied he can serve any time Saturday after 12. Zack clarified at 4:08pm that the first texts were AI-sent and asked the group about Saturday. Stop automatic group texts; let Zack and the group settle the time directly. SUVAS requires groups of 4+ to call ahead; application on suvas.org/volunteer-foster; coordinator Sabrinasuvas@gmail.com or (801) 851-4080. Plan and blank template: hrm391/GROUP_PROJECT_PLAN.md and hrm391/templates/Service_Project_Part2_TEMPLATE.docx. [manual:waiting-on-zack-and-group-to-confirm-saturday]",
    "title": "Canvas 1513919, group paper",
    "grade": {
     "canvas_id": 1513919,
@@ -402,5 +402,5 @@
   "final_score": 64.57,
   "final_grade": "D"
  },
- "built_at": "2026-11-11T23:15:48.057616+00:00"
+ "built_at": "2026-11-11T23:16:40.800969+00:00"
 }
