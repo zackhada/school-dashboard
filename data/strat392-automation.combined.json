@@ -497,7 +497,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "verify",
-    "why": "Online due timestamp vs truncated note citing a physical group product and empty submission_types; path unclear"
+    "why": "Canvas assignment due time but note cites physical product group deliverable; facts conflict"
    },
    "optional_ec": false,
    "surface": true,
@@ -601,7 +601,7 @@
    "needs_zack": false,
    "judge": {
     "verdict": "manual",
-    "why": "Cumulative in-person final exam per university finals schedule; exams are manual"
+    "why": "Cumulative final exam given in person per syllabus/university final schedule"
    },
    "optional_ec": false,
    "surface": true,
@@ -631,5 +631,5 @@
   "final_score": 68.6,
   "final_grade": "D+"
  },
- "built_at": "2026-11-11T01:51:31.455906+00:00"
+ "built_at": "2026-11-11T02:06:52.308158+00:00"
 }
