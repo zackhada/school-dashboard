@@ -344,8 +344,8 @@
    "key": "SERVICE_PROJECT_PART_2_GROUP_ANALYSIS_AN",
    "status": "blocked_ask_zack",
    "date": "2026-11-21",
-   "note": "# Canvas 1513919, 100pt, Service Project\u2014Part 2: Group Analysis and Individual Reflection. Group analysis plus an individual reflection, so it needs the group's inputs and his own accounting before upload. Not a solo automation job. [manual:verify-no-submission-types-given-and-note-conflicts-group-individua]",
-   "title": "Service Project\u2014Part 2: Group Analysis and Individual Reflection. Group analysis plus an individual reflection, so it needs the group's inputs and his own accounting before upload. Not a solo automation job.",
+   "note": "# Canvas 1513919, 100pt group paper due Nov 21 11:59pm MT. Service itself due Sat Nov 14: group text shows SUVAS shelter and Saturday as the likely day, but no slot, service, or debrief is confirmed. Group 19 = Zack, Kate Welton, Grecia Cirilo, Oliver Lamprecht, Samuel Cope, Caleb Taylor. Plan and blank template: hrm391/GROUP_PROJECT_PLAN.md and hrm391/templates/Service_Project_Part2_TEMPLATE.docx. Needs group service + live debrief + contributions; the agent cannot invent these. [manual:group-service-debrief-and-contributions]",
+   "title": "Canvas 1513919, group paper",
    "grade": {
     "canvas_id": 1513919,
     "name": "Service Project\u2014Part 2: Group Analysis and Individual Reflection",
@@ -402,5 +402,5 @@
   "final_score": 64.57,
   "final_grade": "D"
  },
- "built_at": "2026-11-11T19:39:09.369374+00:00"
+ "built_at": "2026-11-11T20:03:35.877218+00:00"
 }
