@@ -395,13 +395,18 @@ def main():
                 in_person = (best is not None
                              and str(best[1].get("status") or "") == "blocked_inperson")
                 online = bool(ONLINE_TYPES & set(x.get("submission_types") or []))
+                # An in-person row belongs here too (2026-11-11). The HRM 391
+                # Unit 1 Mid-term Checkpoints locked at 11:00am and never once
+                # showed up in this list, because they were parked as manual.
+                # "The agent cannot do it" is not the same as "nobody has to".
                 if state in (None, "unsubmitted") and score is None \
-                        and online and not in_person and \
+                        and (online or in_person) and \
                         dd <= today + datetime.timedelta(days=CLOSING_DAYS):
                     findings["closing_soon"].append({
                         "course": label, "assignment": x.get("name"),
                         "due": due, "points": pts, "canvas_id": x.get("id"),
                         "deadline_kind": deadline_kind,
+                        "owner": "zack" if in_person else "agent",
                         "covered": covered,
                         "ledger_key": (best[1].get("key") if best else None),
                         "ledger_status": (best[1].get("status") if best else None)})

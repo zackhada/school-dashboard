@@ -81,6 +81,9 @@ function dueOf(x){
   return parseD(x.date);
 }
 function daysLeft(d){ if(!d) return ''; return Math.ceil((d - now)/864e5); }
+// Human wording for a deadline: "needs you, -4" made no sense.
+function daysText(d){ if(!d) return ''; var n = daysLeft(d); return n < 0 ? (-n) + ' late' : (n === 0 ? 'today' : n); }
+function dueWhen(d){ if(!d) return ''; var n = daysLeft(d); return n < 0 ? ' (' + (-n) + 'd overdue)' : (n === 0 ? ' (due today)' : ' (due in ' + n + 'd)'); }
 function canvasUrl(course, canvasId){
   if (!course) return null;
   if (canvasId) return 'https://byu.instructure.com/courses/' + course + '/assignments/' + canvasId;
@@ -179,6 +182,7 @@ Promise.all(REPOS.map(function(pair){
       }),
       course: c.course_id || null,
       needs: c.needs || null,
+      needs_unassigned: !!c.needs_unassigned,
       grows: (c.rows || []).map(function(x){ return x.grade; }).filter(Boolean),
       overall: c.overall || null,
       drift: c.unmatched_canvas || []};
@@ -251,7 +255,13 @@ Promise.all(REPOS.map(function(pair){
       var waitsOnYou = (isBlocked && surfaced) || (x.needs && x.status !== 'done');
       if (!waitsOnYou) return;
       var d = dueOf(x);
-      var parkedNote = (x.needs && c.needs) ? c.needs : (x.note || '').replace(/^#\s*/,'');
+      var rowNote = (x.note || '').replace(/^#\s*/,'');
+      // A parked needs_user note belongs on the row it names. In-person rows
+      // always keep their own concrete note (the code/room/proctor detail);
+      // only a needs row borrows the matched excerpt instead of the whole dump.
+      var parkedNote = (!isBlocked && x.needs)
+        ? (x.needs_excerpt || c.needs || rowNote)
+        : rowNote;
       var note = esc(parkedNote);
       if (isBlocked && surfaced) {
         if (/\b0\s?pts?\b/i.test(x.note || '')) return;
@@ -270,17 +280,25 @@ Promise.all(REPOS.map(function(pair){
           var curl = canvasUrl(c.course, x.grade && x.grade.canvas_id);
           var cell = curl ? '<a href="'+curl+'">Canvas</a>' : '';
           var rurl = replyUrl(c, x, note);
-          inperson.push({d: d, html: '<tr><td><b>'+c.name+' \u2014 '+esc(titleFrom(x.key, x.note, c.name))+'</b></td><td class="days-left">'+daysLeft(d)+'</td><td class="small">'+note+'</td><td>'+cell+'</td><td><a href="'+rurl+'">Reply</a></td></tr>'});
+          inperson.push({d: d, html: '<tr><td><b>'+c.name+' \u2014 '+esc(titleFrom(x.key, x.note, c.name))+'</b></td><td class="days-left">'+daysText(d)+'</td><td class="small">'+note+'</td><td>'+cell+'</td><td><a href="'+rurl+'">Reply</a></td></tr>'});
         }
         return;
       }
       if (d && d < now && !x.needs) return;
       var title = titleFrom(x.key, x.note, c.name);
       var stLabel = isBlocked ? x.status : 'needs you';
+      var when = dueWhen(d);
       var curl2 = canvasUrl(c.course, x.grade && x.grade.canvas_id);
       var canvasCell = curl2 ? ' <a href="'+curl2+'">Canvas</a>' : '';
-      need += '<tr><td><b>'+c.name+' \u2014 '+esc(title)+'</b></td><td class="'+esc(x.status)+'">'+esc(stLabel)+(x.date?', '+daysLeft(d):'')+'</td><td class="small">'+note+canvasCell+'</td><td><a href="'+replyUrl(c, x, parkedNote)+'">Reply</a></td></tr>';
+      need += '<tr><td><b>'+c.name+' \u2014 '+esc(title)+'</b></td><td class="'+esc(x.status)+'">'+esc(stLabel)+when+'</td><td class="small">'+note+canvasCell+'</td><td><a href="'+replyUrl(c, x, parkedNote)+'">Reply</a></td></tr>';
     });
+    // A parked note that names no single assignment belongs to the whole
+    // class (a lockout, an outage, a roster question). Showing it here keeps
+    // it visible without pretending it is about one quiz.
+    if (c.needs_unassigned && (c.needs || '').trim()) {
+      var cnote = esc((c.needs || '').replace(/^#\s*/, '').slice(0, 900));
+      need += '<tr><td><b>'+c.name+' \u2014 class-wide note</b></td><td class="blocked_ask_zack">status</td><td class="small">'+cnote+'</td><td><a href="'+replyUrl(c, {key:'CLASS_NOTE', note:c.needs}, c.needs)+'">Reply</a></td></tr>';
+    }
   });
   if (need) {
     document.getElementById('needs').innerHTML = '<h2>Needs your input</h2><p class="small">Automatable tasks stuck on your input. Reply and the runner continues.</p><table><colgroup><col class="c-assn"><col class="c-status"><col class="c-note"><col class="c-act"></colgroup><thead><tr><th>Assignment</th><th>Status</th><th>Note</th><th>Action</th></tr></thead><tbody>'+need+'</tbody></table>';
@@ -342,7 +360,8 @@ Promise.all(REPOS.map(function(pair){
     (a.closing_soon || []).forEach(function(x){
       all.push({cls: x.course, title: x.assignment, d: x.due, when: mtnDay(x.due),
                 kind: x.deadline_kind || 'due', pts: x.points,
-                st: x.ledger_status ? ('ledger ' + x.ledger_status) : 'no ledger row'});
+                st: (x.owner === 'zack' ? 'you have to do this one \u00b7 ' : '') +
+                    (x.ledger_status ? ('ledger ' + x.ledger_status) : 'no ledger row')});
     });
     (a.missing_from_ledger || []).forEach(function(x){
       all.push({cls: x.course, title: x.assignment, d: x.due, when: mtnDay(x.due),
@@ -375,9 +394,12 @@ Promise.all(REPOS.map(function(pair){
     var age = (hb.age_hours === undefined || hb.age_hours === null) ? null : hb.age_hours;
     var asleep = (age !== null && age > 1);
     var offline = (h.offline_repos || []).length;
+    var unverified = (h.runners_online === null || h.runners_online === undefined)
+                     && (h.unverified_repos || []).length;
     var ok = h.healthy && !offline && !asleep;
     var bits = [];
-    bits.push((h.runners_online || 0) + ' of ' + (h.runners_checked || 0) + ' runners online');
+    bits.push(unverified ? 'runner status could not be read (token)'
+                         : (h.runners_online || 0) + ' of ' + (h.runners_checked || 0) + ' runners online');
     if (offline) bits.push(offline + ' repos with no online runner');
     if (asleep) bits.push('spare Mac silent for ' + Math.round(age) + ' hours');
     if (hb.free_gb) bits.push('free disk ' + hb.free_gb + ' GB');
@@ -395,7 +417,7 @@ Promise.all(REPOS.map(function(pair){
                                'about 45 seconds apart per class (0s ECON to 270s STRAT). ' : '') +
               'This page and its dates still refresh from GitHub every 12 hours, ' +
               'so the list below is current even while the Mac sleeps.</p>';
-    } else if (!ok) {
+    } else if (!ok && !unverified) {
       html += '<p class="small">Something is not where it should be. Check the watchdog issue in school-healer.</p>';
     }
     if (stale.length) {

@@ -84,7 +84,7 @@ def main():
     a = ap.parse_args()
 
     now = datetime.datetime.now(datetime.timezone.utc)
-    offline, stale, errors = [], [], []
+    offline, stale, errors, unverified = [], [], [], []
     online_total = 0
     queued = 0
 
@@ -92,8 +92,12 @@ def main():
         base = "https://api.github.com/repos/%s/%s" % (OWNER, repo)
         runners = get(base + "/actions/runners")
         if "_error" in runners:
+            # A 401/403 is a token problem, not an outage. Counting it as
+            # "offline" is what pinned the dashboard to "spare Mac silent, 0 of
+            # 9 runners online" for a week while the fleet was healthy
+            # (2026-11-10). Record it as unknown instead of asserting it.
             errors.append({repo: runners["_error"]})
-            offline.append(repo)
+            unverified.append(repo)
             continue
         rs = runners.get("runners") or []
         online = sum(1 for r in rs if r.get("status") == "online")
@@ -138,8 +142,9 @@ def main():
 
     out = {
         "generated": now.strftime("%Y-%m-%dT%H:%MZ"),
-        "runners_online": online_total,
+        "runners_online": (None if unverified and online_total == 0 else online_total),
         "runners_checked": len(REPOS),
+        "unverified_repos": unverified,
         "offline_repos": offline,
         "queued_runs": queued,
         "stale_repos": stale,
@@ -154,6 +159,10 @@ def main():
               "That is a credentials/permission problem, not an outage, so this "
               "snapshot is not published.", file=sys.stderr)
         raise SystemExit(3)
+    if unverified and online_total == 0:
+        print("health: could not read runner status (%s); publishing snapshot "
+              "with runners_online=null rather than claiming an outage."
+              % ", ".join(unverified[:3]), file=sys.stderr)
     os.makedirs(DATA, exist_ok=True)
     with open(a.json, "w") as f:
         json.dump(out, f, indent=1)

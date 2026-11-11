@@ -179,15 +179,106 @@ def judge_map():
     return out
 
 
-def needs_scores(prepped, needs_text):
-    """Overlap counts between each (row, title) and the parked needs text."""
-    if not needs_text:
-        return [0] * len(prepped)
-    nw = set(words(needs_text))
+# Tokens that name a kind of work rather than a particular assignment. A
+# parked note that only shares these with a ledger row is not about that row:
+# the 2026-11-11 Duo lockout note contained "reading quiz", so it hijacked the
+# STRAT 392 Strategy and Innovation Reading Quiz (due Dec 8) and showed the
+# whole lockout story as if it were that quiz's blocker.
+GENERIC = {
+    "and", "the", "for", "with", "from", "this", "that",
+    "reading", "quiz", "quizzes", "exam", "exams", "final", "finals",
+    "assignment", "assignments", "project", "checkpoint", "checkpoints",
+    "topic", "week", "weekly", "unit", "part", "group", "service",
+    "note", "notes", "reflection", "individual", "lab", "activity",
+    "discussion", "paper", "work", "review", "practice", "chapter", "ch",
+}
+
+
+def digits(s):
+    return set(int(n) for n in re.findall(r"\d+", str(s or "")))
+
+
+def needs_score(name, needs_text):
+    """How strongly one parked-note block names one assignment.
+
+    0 means "not this item". Matching is done on the Canvas gradebook name
+    ("Ethics and Public Quiz - Week 9"), which is the one clean identifier a
+    row has; the ledger *title* is often a pasted note fragment, so matching on
+    it spreads one item's story across a whole class.
+
+    Two literal rules, both number-aware:
+
+      1. the name, normalized, appears in the block ("NE Quiz #9"), or
+      2. a prefix of the name does, but only a prefix long enough to include
+         the name's last digit and at least 12 characters ("Mankiw Bonus #8"
+         for "Mankiw Bonus #8 (Extra Credit)").
+
+    The digit requirement is what keeps "Ethics and Public Quiz - Week 10"
+    from matching a block that only talks about Week 9.
+    """
+    if not needs_text or not name:
+        return 0
+    nt = re.sub(r"[^a-z0-9]+", "", str(name).lower())
+    nb = re.sub(r"[^a-z0-9]+", "", str(needs_text).lower())
+    if len(nt) < 6:
+        return 0
+    if nt in nb:
+        return 3
+    nums = list(re.finditer(r"\d", nt))
+    if nums:
+        floor = max(12, nums[-1].start() + 1)
+    else:
+        floor = 12
+    for n in range(len(nt) - 1, floor - 1, -1):
+        if len(nt[:n]) >= floor and nt[:n] in nb:
+            return 2
+    return 0
+
+
+def note_blocks(needs_text):
+    """Split a parked note into the smallest blocks that name one item."""
     out = []
-    for x, title in prepped:
-        tw = set(words(str(title) + " " + str(x.get("key", ""))))
-        out.append(sum(1 for a in tw if any(_tok_match(a, b) for b in nw)))
+    for block in re.split(r"\n\s*\n", str(needs_text or "")):
+        block = block.strip()
+        if not block:
+            continue
+        for part in re.split(r"(?m)^\s*(?=\d+[).]\s)", block):
+            part = part.strip()
+            if part:
+                out.append(part)
+    return out
+
+
+def canvas_name(row, fallback):
+    g = row.get("grade") or {}
+    return g.get("name") or fallback
+
+
+def match_needs(prepped, needs_text, names=None):
+    """row index -> the part of the parked note that is about that row.
+
+    A note may name several items (the ECON 110 decision named NE Quiz 9 and
+    Mankiw Bonus 8), so every row it actually names is flagged. A block that
+    matches no title by name falls back to the single best token overlap so a
+    paraphrased pointer is not lost, and nothing else is flagged.
+    """
+    if not needs_text:
+        return {}
+    out = {}
+    rows = range(len(prepped))
+    for block in note_blocks(needs_text):
+        # Only a block that actually names a title is attached to a row. No
+        # fuzzy fallback: a parked note is prose and a word-overlap guess is
+        # what showed the whole Duo lockout story as if it were the STRAT
+        # Strategy and Innovation quiz's blocker. A note that names nothing
+        # stays at the class level (`needs_unassigned`) instead of being
+        # guessed onto an item.
+        hits = [i for i in rows
+                if (prepped[i][0].get("status") or "") != "done"
+                and needs_score((names[i] if names else None)
+                                or prepped[i][1], block) > 0]
+        for i in hits:
+            out[i] = (out.get(i, "") + "\n\n" + block).strip()[:1200]
     return out
 
 
@@ -320,16 +411,16 @@ def build_repo(repo):
         used_g.add(gi)
     matched_ids = set()
     rows = []
-    # Parked `.state/needs_user` text refers to one unfinished row; flag only
-    # the single best token-overlap match (>=2) among NON-done rows so the
-    # dashboard's "Needs your input" section surfaces exactly that row (a done
-    # row would be hidden there, silently dropping the parked item).
-    nscores = needs_scores(prepped, needs_text)
+    # Parked `.state/needs_user` text is prose, and one note may name several
+    # items (the ECON 110 decision named NE Quiz 9 and Mankiw Bonus 8). Every
+    # row the note actually names is flagged, and each row shows only its own
+    # excerpt. A class-wide status dump names no title, so it flags nothing.
+    names = [(grades[assign[i]].get("name") if i in assign else None)
+             for i in range(len(prepped))]
+    needs_match = match_needs(prepped, needs_text, names)
     cand = [i for i, (x, _) in enumerate(prepped)
             if (x.get("status") or "") != "done"]
-    nbest = max(cand, key=lambda i: nscores[i]) if (cand and nscores) else -1
-    if nbest < 0 or not nscores or nscores[nbest] < 2:
-        nbest = -1
+    nflagged = {i for i in cand if i in needs_match}
     for i, (x, title) in enumerate(prepped):
         g = grades[assign[i]] if i in assign else None
         if g:
@@ -358,7 +449,8 @@ def build_repo(repo):
         rows.append({"key": key, "status": x.get("status"),
                      "date": x.get("date"), "note": x.get("note"),
                      "title": title, "grade": g, "drift": False,
-                     "needs_zack": i == nbest,
+                     "needs_zack": i in nflagged,
+                     "needs_excerpt": needs_match.get(i),
                      "judge": v or None,
                      "optional_ec": bool(optional_ec),
                      "surface": bool(surface and blocked),
@@ -392,6 +484,7 @@ def build_repo(repo):
     out = {"repo": "zackhada/%s" % repo, "rows": rows,
            "unmatched_canvas": unmatched,
            "needs": needs_text,
+           "needs_unassigned": bool(needs_text and not needs_match),
            "course_id": COURSE_IDS.get(repo),
            "overall": (load(repo + ".grades.json").get("overall") or {}),
            "built_at": datetime.now(timezone.utc).isoformat()}
