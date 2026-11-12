@@ -370,6 +370,23 @@ def ordinal_conflict(a, b):
     return False
 
 
+_SECTION = r"^\s*(\d{1,2})\.(\d{1,2})\b"
+
+
+def section_conflict(a, b):
+    """True when two section numbers disagree (IS 515, 2026-11-12).
+
+    Every IS 515 item is named "N.M ...", and "7.8 Data Tables and Lists
+    Assessment" shares "data" and "assessment" with "17.9 Importing and
+    Cleaning Data Assessment". Token overlap paired them and put a 20-point
+    date drift on the dashboard for work that was not even the same item.
+    """
+    ma, mb = re.match(_SECTION, str(a or "")), re.match(_SECTION, str(b or ""))
+    if not ma or not mb:
+        return False
+    return (int(ma.group(1)), int(ma.group(2))) != (int(mb.group(1)), int(mb.group(2)))
+
+
 def canvas_deadline(g):
     """YYYY-MM-DD deadline from a Canvas truth row: due_at, else lock_at.
 
@@ -432,6 +449,8 @@ def build_repo(repo):
         tw = words(str(title) + " " + str(x.get("key", "")))
         for gi, g in enumerate(grades):
             if ordinal_conflict(g.get("name"), str(title) + " " + str(x.get("key", ""))):
+                continue
+            if section_conflict(g.get("name"), str(title) + " " + str(x.get("key", ""))):
                 continue
             ov = overlap_count(tw, gwords[gi])
             # A shared due date is NEVER evidence on its own (2026-11-04). The

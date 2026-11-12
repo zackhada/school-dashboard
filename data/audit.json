@@ -60,15 +60,7 @@
   }
  ],
  "missing_from_ledger": [],
- "date_drift": [
-  {
-   "course": "HRM 391",
-   "assignment": "Unit 2 Exam - Groups and Individuals (Remotely Proctored)",
-   "canvas_due": "2026-11-10",
-   "ledger_date": "2026-10-22",
-   "ledger_key": "EXAM1"
-  }
- ],
+ "date_drift": [],
  "zero_watch": [
   {
    "course": "HRM 391",
@@ -81,13 +73,6 @@
    "course": "HRM 391",
    "assignment": "Professional Perspective Interview",
    "due": "2026-09-08",
-   "points": 1.0,
-   "score": null
-  },
-  {
-   "course": "HRM 391",
-   "assignment": "Unit 1 Mid-term Checkpoint",
-   "due": "2026-11-11",
    "points": 1.0,
    "score": null
   },
@@ -153,6 +138,7 @@
    "ledger_status": "blocked_inperson"
   }
  ],
- "testing_center_error": "testing-center-not-available-here (No module named 'testing_center')",
+ "ledger_gaps": [],
+ "testing_center_error": "URLError: <urlopen error [Errno 61] Connection refused>",
  "exam_windows_source": "registry"
 }

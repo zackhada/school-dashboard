@@ -1,6 +1,5 @@
 {
- "_comment": "Every item Zack must personally do for the rest of Fall 2026, verified against course syllabi, Canvas, and gradebooks. Source of truth for scripts/exam_alerts.py (Google Calendar) and for the dashboard ledgers. Update a row when a date firms up.",
- "updated": "2026-11-04 (Canvas due dates re-verified)",
+ "updated": "2026-11-12 (mirror of scripts/in_person_required.json)",
  "items": [
   {
    "id": "strat-midterm-missed",
@@ -10,8 +9,8 @@
    "start": "2026-10-26T09:00:00",
    "end": "2026-10-26T09:30:00",
    "location": "",
-   "status": "recovery",
-   "note": "150 of 700 points (21.4%). CONFIRMED NOT TAKEN: the Testing Center record shows a blank score, window Oct 9 8:00am to Oct 20 9:00pm. TA FIRST: email Riley Fitzpatric (fitzpatr@student.byu.edu) or Daniel Gugler (dgugler@student.byu.edu) or Katya Yurchenko (ky275373@student.byu.edu), ask whether a late sit or a reweight is possible, and only take it to oldroyd@byu.edu if the TA says the instructor decides. A zero caps the course at 78.6%.",
+   "status": "done",
+   "note": "RESOLVED: Zack took the emailed make-up exam himself on 2026-11-02 and sent it to the TA; the agent does not answer or submit exam content. The Testing Center row stays blank because the sitting was by email.",
    "source": "testing.byu.edu /my-exams?course=STRAT392002 and /personal-report, read 2026-10-25; strat392 Canvas syllabus",
    "kind": "task"
   },
@@ -110,12 +109,12 @@
    "id": "hrm-exam2",
    "course": "HRM 391",
    "title": "HRM 391 Exam 2 (Canvas, Proctorio)",
-   "points": 70,
+   "points": 100,
    "start": "2026-11-04T00:00:00",
    "end": "2026-11-10T23:59:00",
    "location": "Canvas, Proctorio",
-   "status": "upcoming",
-   "note": "Window from the Canvas module title \"Exam 2 | Open Nov 4 - 10\" and the Key Dates page (the Start Here page body still says \"October 4-10\", a stale typo). Proctorio-proctored inside Canvas, not the Testing Center. As of 2026-11-04 08:45 the quiz was still unpublished (module 428262 had only the Start Here page, the Unit 2 study guide, and the Unit 2 notebook; the quizzes API listed no Exam 2 object), so the exact close time and any access code are unconfirmed. Change to whoever takes it: Zack, never the agent.",
+   "status": "done",
+   "note": "TAKEN 2026-11-06 (Canvas 1520006, 100 pts), graded 68/100. Verified live Canvas 2026-11-12. Nothing left to do.",
    "source": "Canvas API courses/37899 modules 428262/428264/428265 + Key Dates page, read 2026-11-04",
    "kind": "exam"
   },
@@ -127,8 +126,8 @@
    "start": "2026-11-05T08:00:00",
    "end": "2026-11-06T21:00:00",
    "location": "BYU Testing Center",
-   "status": "upcoming",
-   "note": "Testing Center: opens Thu Nov 5 8:00am, $5.00 late fee from Fri Nov 6 2:00pm, closes Fri Nov 6. The Testing Center table says 9:00pm; the ECON Learning Suite gradebook row shows due 2026-11-06T19:00:00, so treat 7:00pm Nov 6 as the safe cutoff. Midterm 1 was 120/200 = 60%, taken Oct 2. Two midterms are 30% of the course and the lowest can be dropped, moving 15% onto the final.",
+   "status": "done",
+   "note": "TAKEN 2026-11-06, score 75% (testing.byu.edu /my-exams?course=ECON110001, read 2026-11-10). Window was Thu Nov 5 8:00am to Fri Nov 6 9:00pm. Midterm 1 was 60%; the lowest midterm is dropped.",
    "source": "testing.byu.edu /my-exams?course=ECON110001 (2026-10-25); econ110 .state/grades.json 2026-11-04",
    "kind": "exam"
   },
@@ -231,8 +230,8 @@
    "start": "2026-12-11T09:00:00",
    "end": "2026-12-10T23:59:00",
    "location": "",
-   "status": "upcoming",
-   "note": "Canvas 1468925, 100 pts, group, online_url/online_upload, due Thu Dec 10 11:59pm MT (Canvas due_at read 2026-11-04). Group presentation was Oct 13; what remains is the upload. Confirm with the group.",
+   "status": "done",
+   "note": "DONE: presented in class 2026-10-13 and graded 95/100 in Canvas (1468925) with instructor feedback. The Canvas due date of Dec 10 is a term-end placeholder, not an upload that is still owed. Verified 2026-11-12.",
    "source": "REL ledger A_PROFILE_OF_A_PROPHET_GROUP_PROJECT; Canvas assignments",
    "kind": "task"
   },

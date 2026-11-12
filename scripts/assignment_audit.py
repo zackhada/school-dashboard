@@ -145,6 +145,22 @@ def ordinal_conflict(a, b):
     return any(A[q] != B[q] for q in set(A) & set(B))
 
 
+_SECTION = r"^\s*(\d{1,2})\.(\d{1,2})\b"
+
+
+def section_conflict(a, b):
+    """Two different "N.M" section numbers are different work (2026-11-12).
+
+    IS 515 names every item "N.M ..."; "7.8 Data Tables and Lists Assessment"
+    and "17.9 Importing and Cleaning Data Assessment" share "data" and
+    "assessment", which paired them and reported a false 20-point date drift.
+    """
+    ma, mb = re.match(_SECTION, str(a or "")), re.match(_SECTION, str(b or ""))
+    if not ma or not mb:
+        return False
+    return (int(ma.group(1)), int(ma.group(2))) != (int(mb.group(1)), int(mb.group(2)))
+
+
 def score_match(ledger_title, ledger_key, name):
     """Distinctive-token overlap. One shared token is not enough: 'Cost Curve'
     once matched 'INDUSTRY_5FORCES' and produced 100 phantom drifts."""
@@ -168,6 +184,39 @@ def score_match(ledger_title, ledger_key, name):
 
 def matches(ledger_title, ledger_key, name):
     return score_match(ledger_title, ledger_key, name) >= 2
+
+
+def _dashboard_pair(x, row):
+    """Mirror build.py's ledger<->Canvas pairing for a single row.
+
+    The narrow score_match above needs a distinctive token, so a Canvas name
+    like "Exam 2" or "9/10 - Attendance Check" scored 0 against a row that
+    plainly exists (IS_EXAM2, ATTENDANCE_CHECK_0910) and the ledger-gap net
+    reported work that was already tracked (2026-11-12). The dashboard's own
+    matcher is the authority for "does a row cover this item", so reuse it.
+    """
+    try:
+        import build as B  # same directory, no side effects on import
+    except Exception:
+        return False
+    name = x.get("name") or ""
+    title = B.title_from(row.get("key"), row.get("note"))
+    blob = str(title) + " " + str(row.get("key") or "")
+    if B.ordinal_conflict(name, blob):
+        return False
+    if getattr(B, "section_conflict", section_conflict)(name, blob):
+        return False
+    nw, bw = B.words(name), B.words(blob)
+    if not nw or not bw:
+        return False
+    if B.overlap_count(nw, bw) == 0:
+        return False
+    gday = mtn_day(x.get("due_at") or x.get("lock_at"))
+    dbon = B.day_bonus(gday, (row.get("date") or "")[:10])
+    if gday and not dbon and (len(str(title).split()) > 6 or
+                              B.overlap_count(nw, bw) < 3):
+        return False
+    return True
 
 
 def testing_center(term="20265"):
@@ -262,7 +311,7 @@ def main():
 
     findings = {"generated": today.isoformat(), "missed": [], "exam_windows": [],
                 "missing_from_ledger": [], "date_drift": [], "zero_watch": [],
-                "closing_soon": []}
+                "closing_soon": [], "ledger_gaps": []}
 
     # 1. Testing Center
     tc = testing_center()
@@ -342,10 +391,8 @@ def main():
             sub = x.get("submission") or {}
             state = sub.get("workflow_state")
             score = sub.get("score")
-            if not x.get("published", True) or not due or pts <= 0:
+            if not x.get("published", True) or pts <= 0:
                 continue
-            dd = datetime.date.fromisoformat(due)
-            deadline_kind = "locks" if lock_only else "due"
             covered = False
             drift = None
             best = None
@@ -357,16 +404,42 @@ def main():
                 # Unit 2 Observation Notebook (1518004) and the Unit 1 one
                 # (1505959) share almost every word, so name overlap alone
                 # reported a false date drift between them.
-                idm = re.search(r"Canvas\s+(\d+)", str(row.get("note") or ""))
-                if idm and idm.group(1) == str(x.get("id")):
+                ids = set(re.findall(r"Canvas\s+(\d+)", str(row.get("note") or "")))
+                if str(x.get("id")) in ids:
                     best = (100, row)
                     break
+                # A row that names a DIFFERENT Canvas id cannot cover this item
+                # (2026-11-12). EXAM1's note carries "Canvas 1508899", yet it
+                # attached to the Unit 2 Exam (1520006) by name overlap and put a
+                # false date drift on the dashboard for an exam already graded.
+                if ids:
+                    continue
                 if ordinal_conflict(x.get("name"),
+                                    str(row.get("note") or "") + " " + key_s):
+                    continue
+                if section_conflict(x.get("name"),
                                     str(row.get("note") or "") + " " + key_s):
                     continue
                 sc = score_match(row.get("note"), row.get("key"), x.get("name"))
                 if sc >= 2 and (best is None or sc > best[0]):
                     best = (sc, row)
+                elif _dashboard_pair(x, row) and (best is None or best[0] < 2):
+                    best = (1, row)
+            if best is None and due:
+                # LEDGER GAP (2026-11-12). missing_from_ledger below only covers
+                # items that are still unsubmitted and upcoming, so a graded item
+                # with no ledger row was invisible forever: the HRM 391 Unit 2
+                # Exam (100 pts, taken Nov 6, 68/100) never existed on the
+                # dashboard. Report every dated, points-bearing Canvas item that
+                # no ledger row names, whatever its state.
+                findings["ledger_gaps"].append({
+                    "course": label, "assignment": x.get("name"),
+                    "due": due, "points": pts, "canvas_id": x.get("id"),
+                    "state": state, "score": score})
+            if not due:
+                continue
+            dd = datetime.date.fromisoformat(due)
+            deadline_kind = "locks" if lock_only else "due"
             if best is not None:
                 row = best[1]
                 covered = True

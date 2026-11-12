@@ -249,9 +249,9 @@
   },
   {
    "key": "ECON_MIDTERM_2",
-   "status": "blocked_inperson",
+   "status": "done",
    "date": "2026-11-06",
-   "note": "# Testing Center verified 2026-10-25: opens Thu Nov 5 8:00am, $5 late fee from Fri Nov 6 2:00pm, closes Fri Nov 6 9:00pm. Midterm 1 was 120/200 (60%) on Oct 2 [manual:requires-the-student-in-person]"
+   "note": "# Testing Center, TAKEN Fri Nov 6 2026, 75% (verified 2026-11-10 on testing.byu.edu/personal-report). Midterm 1 was 120/200 (60%) on Oct 2. Was still blocked_inperson long after the sitting, so the row read as overdue work. Syllabus drops the lowest midterm and moves 15% to the final."
   },
   {
    "key": "ECON_FINAL",

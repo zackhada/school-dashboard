@@ -593,8 +593,8 @@
    "key": "IS_EXAM2",
    "status": "blocked_inperson",
    "date": "2026-12-17",
-   "note": "# Exam 2, 100pts, timed comprehensive take-home, NOT collaborative. Locked until Dec 12. Zack takes manually in a quiet window after Dec 12. [manual:requires-the-student-in-person]",
-   "title": "Exam 2",
+   "note": "# Canvas 1452629, Exam 2, 100pts, due 2026-12-18T06:59:59Z (Dec 17 11:59pm MT), timed comprehensive take-home, NOT collaborative. Locked until Dec 12. Zack takes manually in a quiet window after Dec 12. [manual:requires-the-student-in-person]",
+   "title": "Canvas 1452629, Exam 2",
    "grade": {
     "canvas_id": 1452629,
     "name": "Exam 2",
@@ -633,5 +633,5 @@
   "final_score": 50.69,
   "final_grade": "E"
  },
- "built_at": "2026-11-12T07:15:05.989072+00:00"
+ "built_at": "2026-11-12T15:24:18.307135+00:00"
 }

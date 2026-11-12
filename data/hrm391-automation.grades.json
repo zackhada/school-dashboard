@@ -190,12 +190,12 @@
    "lock_at": "2026-11-11T18:00:00Z",
    "deadline": "2026-11-11T18:00:00Z",
    "points": 1.0,
-   "status": "unsubmitted",
-   "score": null,
-   "grade": null,
+   "status": "graded",
+   "score": 1.0,
+   "grade": "1",
    "missing": false,
-   "submitted_at": null,
-   "submission_type": null,
+   "submitted_at": "2026-11-11T18:00:00Z",
+   "submission_type": "online_quiz",
    "my_submission": "",
    "comments": []
   },
@@ -209,7 +209,7 @@
    "status": "unsubmitted",
    "score": null,
    "grade": null,
-   "missing": false,
+   "missing": true,
    "submitted_at": null,
    "submission_type": null,
    "my_submission": "",
@@ -233,9 +233,9 @@
   }
  ],
  "overall": {
-  "current_score": 85.76,
+  "current_score": 85.77,
   "current_grade": "B",
-  "final_score": 64.57,
+  "final_score": 64.97,
   "final_grade": "D"
  },
  "source": "canvas-api"

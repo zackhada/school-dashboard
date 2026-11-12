@@ -387,6 +387,28 @@ Promise.all(REPOS.map(function(pair){
                 kind: x.deadline_kind || 'due', pts: x.points,
                 st: 'NO LEDGER ROW, will never be picked up'});
     });
+    // Ledger gaps (2026-11-12): a Canvas item worth points that NO ledger row
+    // names, whatever its state. The tables above only catch unsubmitted,
+    // upcoming work, so the HRM 391 Unit 2 Exam (100 pts, taken Nov 6, 68/100)
+    // was invisible on this page for a week. A graded gap is not work Zack owes,
+    // but it is a hole in the record and it means the runner is not tracking
+    // that item at all, so it is shown instead of silently dropped.
+    var gaps = a.ledger_gaps || [];
+    if (gaps.length) {
+      var grows = gaps.map(function(x){
+        var got = (x.score === null || x.score === undefined)
+                  ? (x.state || 'no submission') : ('graded ' + x.score);
+        return '<tr><td><b>' + esc(x.course) + ' \u2014 ' + esc(x.assignment) + '</b></td>' +
+               '<td class="small">' + esc(mtnDay(x.due) || String(x.due)) + '</td>' +
+               '<td class="small">' + esc(String(x.points)) + 'pt \u00b7 ' + esc(got) + '</td></tr>';
+      }).join('');
+      document.getElementById('audit').innerHTML +=
+        '<h2>In Canvas, no ledger row (' + gaps.length + ')</h2>' +
+        '<p class="small">Worth points in Canvas but no runner ledger row names it. ' +
+        'The runner cannot work or report an item it has no row for.</p>' +
+        '<table><thead><tr><th>Assignment</th><th>Deadline</th><th>State</th></tr></thead><tbody>' +
+        grows + '</tbody></table>';
+    }
     if (!all.length) return;
     all.sort(function(p, q){ return String(p.d).localeCompare(String(q.d)); });
     var body = all.map(function(x){

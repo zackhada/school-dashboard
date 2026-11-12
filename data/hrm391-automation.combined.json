@@ -251,6 +251,36 @@
    "actionable": false
   },
   {
+   "key": "EXAM2",
+   "status": "done",
+   "date": "2026-11-10",
+   "note": "# Canvas 1520006 / quiz 665896, 100pt Unit 2 Exam - Groups and Individuals (Remotely Proctored), due_at null + lock 2026-11-11T06:59:59Z. TAKEN 2026-11-06T22:40:38Z, graded 68/100 (verified live Canvas 2026-11-12). Was never its own row, which is why the dashboard had no record of it and the audit reported a false date drift against EXAM1.",
+   "title": "Canvas 1520006 / quiz 665896, Unit 2 Exam - Groups and Individuals (Remotely Proctored), due_at null + lock 2026-11-11T06:59:59Z. TAKEN 2026-11-06T22:40:38Z, graded 68/100 (verified live Canvas 2026-11-12). Was never its own row, which is why the dashboard had no record of it and the audit reported a false date drift against EXAM1.",
+   "grade": {
+    "canvas_id": 1520006,
+    "name": "Unit 2 Exam - Groups and Individuals (Remotely Proctored)",
+    "due": null,
+    "lock_at": "2026-11-11T06:59:59Z",
+    "deadline": "2026-11-11T06:59:59Z",
+    "points": 100.0,
+    "status": "graded",
+    "score": 68.0,
+    "grade": "68",
+    "missing": false,
+    "submitted_at": "2026-11-06T22:40:38Z",
+    "submission_type": "online_quiz",
+    "my_submission": "",
+    "comments": []
+   },
+   "drift": false,
+   "needs_zack": false,
+   "needs_excerpt": null,
+   "judge": null,
+   "optional_ec": false,
+   "surface": false,
+   "actionable": false
+  },
+  {
    "key": "UNIT_2_OBSERVATION_NOTEBOOK_DEFAULT_ORGA",
    "status": "done",
    "date": "2026-11-10",
@@ -296,7 +326,7 @@
     "status": "unsubmitted",
     "score": null,
     "grade": null,
-    "missing": false,
+    "missing": true,
     "submitted_at": null,
     "submission_type": null,
     "my_submission": "",
@@ -323,12 +353,12 @@
     "lock_at": "2026-11-11T18:00:00Z",
     "deadline": "2026-11-11T18:00:00Z",
     "points": 1.0,
-    "status": "unsubmitted",
-    "score": null,
-    "grade": null,
+    "status": "graded",
+    "score": 1.0,
+    "grade": "1",
     "missing": false,
-    "submitted_at": null,
-    "submission_type": null,
+    "submitted_at": "2026-11-11T18:00:00Z",
+    "submission_type": "online_quiz",
     "my_submission": "",
     "comments": []
    },
@@ -397,10 +427,10 @@
  "needs_unassigned": false,
  "course_id": 37899,
  "overall": {
-  "current_score": 85.76,
+  "current_score": 85.77,
   "current_grade": "B",
-  "final_score": 64.57,
+  "final_score": 64.97,
   "final_grade": "D"
  },
- "built_at": "2026-11-12T07:15:05.919447+00:00"
+ "built_at": "2026-11-12T15:24:18.204133+00:00"
 }

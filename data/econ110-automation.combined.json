@@ -897,10 +897,10 @@
   },
   {
    "key": "ECON_MIDTERM_2",
-   "status": "blocked_inperson",
+   "status": "done",
    "date": "2026-11-06",
-   "note": "# Testing Center verified 2026-10-25: opens Thu Nov 5 8:00am, $5 late fee from Fri Nov 6 2:00pm, closes Fri Nov 6 9:00pm. Midterm 1 was 120/200 (60%) on Oct 2 [manual:requires-the-student-in-person]",
-   "title": "Testing Center verified 2026-10-25: opens Thu Nov 5 , $5 late fee from Fri Nov 6 , closes Fri Nov 6 . Midterm 1 was 120/200 (60%) on Oct 2",
+   "note": "# Testing Center, TAKEN Fri Nov 6 2026, 75% (verified 2026-11-10 on testing.byu.edu/personal-report). Midterm 1 was 120/200 (60%) on Oct 2. Was still blocked_inperson long after the sitting, so the row read as overdue work. Syllabus drops the lowest midterm and moves 15% to the final.",
+   "title": "Testing Center, TAKEN Fri Nov 6 2026, 75% (verified 2026-11-10 on testing.byu.edu/personal-report). Midterm 1 was 120/200 (60%) on Oct 2. Was still blocked_inperson long after the sitting, so the row read as overdue work. Syllabus drops the lowest midterm and moves 15% to the final.",
    "grade": {
     "name": "Midterm 2",
     "due": "2026-11-06T21:00:00",
@@ -919,8 +919,8 @@
     "why": "Testing Center exam with set window and late fee; requires student in person."
    },
    "optional_ec": false,
-   "surface": true,
-   "actionable": true
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "ECON_NEQ_9",
@@ -1366,5 +1366,5 @@
   "current_score": 72.96,
   "source": "learning-suite-points"
  },
- "built_at": "2026-11-12T07:15:06.022457+00:00"
+ "built_at": "2026-11-12T15:24:18.374191+00:00"
 }
