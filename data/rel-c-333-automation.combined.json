@@ -1148,7 +1148,7 @@
    "key": "11_12_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-11-12",
-   "note": "# Canvas 1466168, 10pt, 11/12 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:named-attendance-check-attendance-recorded-physically-in-the]",
+   "note": "# Canvas 1466168, 10pt, 11/12 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:named-attendance-check-attendance-recorded-in-the-classroom]",
    "title": "11/12 - Attendance Check",
    "grade": {
     "canvas_id": 1466168,
@@ -1171,7 +1171,7 @@
    "needs_excerpt": "In person (unchanged):\n- Attendance Checks (10pts each) on 10/13, 10/15, 10/20, 10/22, 10/27, 10/29, 11/3, 11/5, 11/10, 11/12, 11/17, 11/19, 11/24, 12/1, 12/3, 12/8, 12/10: in-class LTI checks TTh 12:00-12:50pm.\n- Prophet Group Project (Canvas 1468925, 100pts, in-class Tue 10/13, slides due Mon 10/12 11:59pm): group presents in class.",
    "judge": {
     "verdict": "manual",
-    "why": "Named attendance check; attendance recorded in classroom, not an online submission"
+    "why": "Named attendance check; attendance recorded in the classroom"
    },
    "optional_ec": false,
    "surface": true,
@@ -1211,7 +1211,7 @@
    "key": "11_17_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-11-17",
-   "note": "# Canvas 1466170, 10pt, 11/17 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:named-attendance-check-attendance-recorded-physically-in-the]",
+   "note": "# Canvas 1466170, 10pt, 11/17 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:named-attendance-check-attendance-recorded-in-the-classroom]",
    "title": "11/17 - Attendance Check",
    "grade": {
     "canvas_id": 1466170,
@@ -1234,7 +1234,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Named attendance check; attendance recorded in classroom, not an online submission"
+    "why": "Named attendance check; attendance recorded in the classroom"
    },
    "optional_ec": false,
    "surface": true,
@@ -1274,7 +1274,7 @@
    "key": "11_19_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-11-19",
-   "note": "# Canvas 1466171, 10pt, 11/19 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:named-attendance-check-attendance-recorded-physically-in-the]",
+   "note": "# Canvas 1466171, 10pt, 11/19 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:named-attendance-check-attendance-recorded-in-the-classroom]",
    "title": "11/19 - Attendance Check",
    "grade": {
     "canvas_id": 1466171,
@@ -1297,7 +1297,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Named attendance check; attendance recorded in classroom, not an online submission"
+    "why": "Named attendance check; attendance recorded in the classroom"
    },
    "optional_ec": false,
    "surface": true,
@@ -1337,7 +1337,7 @@
    "key": "11_24_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-11-24",
-   "note": "# Canvas 1466174, 10pt, 11/24 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:named-attendance-check-attendance-recorded-physically-in-the]",
+   "note": "# Canvas 1466174, 10pt, 11/24 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:named-attendance-check-attendance-recorded-in-the-classroom]",
    "title": "11/24 - Attendance Check",
    "grade": {
     "canvas_id": 1466174,
@@ -1360,7 +1360,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Named attendance check; attendance recorded in classroom, not an online submission"
+    "why": "Named attendance check; attendance recorded in the classroom"
    },
    "optional_ec": false,
    "surface": true,
@@ -1370,7 +1370,7 @@
    "key": "12_1_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-12-01",
-   "note": "# Canvas 1466185, 10pt, 12/1 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:named-attendance-check-attendance-recorded-physically-in-the]",
+   "note": "# Canvas 1466185, 10pt, 12/1 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:named-attendance-check-attendance-recorded-in-the-classroom]",
    "title": "12/1 - Attendance Check",
    "grade": {
     "canvas_id": 1466185,
@@ -1393,7 +1393,7 @@
    "needs_excerpt": "In person (unchanged):\n- Attendance Checks (10pts each) on 10/13, 10/15, 10/20, 10/22, 10/27, 10/29, 11/3, 11/5, 11/10, 11/12, 11/17, 11/19, 11/24, 12/1, 12/3, 12/8, 12/10: in-class LTI checks TTh 12:00-12:50pm.\n- Prophet Group Project (Canvas 1468925, 100pts, in-class Tue 10/13, slides due Mon 10/12 11:59pm): group presents in class.",
    "judge": {
     "verdict": "manual",
-    "why": "Named attendance check; attendance recorded in classroom, not an online submission"
+    "why": "Named attendance check; attendance recorded in the classroom"
    },
    "optional_ec": false,
    "surface": true,
@@ -1433,7 +1433,7 @@
    "key": "12_3_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-12-03",
-   "note": "# Canvas 1466190, 10pt, 12/3 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:named-attendance-check-attendance-recorded-physically-in-the]",
+   "note": "# Canvas 1466190, 10pt, 12/3 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:named-attendance-check-attendance-recorded-in-the-classroom]",
    "title": "12/3 - Attendance Check",
    "grade": {
     "canvas_id": 1466190,
@@ -1456,7 +1456,7 @@
    "needs_excerpt": "In person (unchanged):\n- Attendance Checks (10pts each) on 10/13, 10/15, 10/20, 10/22, 10/27, 10/29, 11/3, 11/5, 11/10, 11/12, 11/17, 11/19, 11/24, 12/1, 12/3, 12/8, 12/10: in-class LTI checks TTh 12:00-12:50pm.\n- Prophet Group Project (Canvas 1468925, 100pts, in-class Tue 10/13, slides due Mon 10/12 11:59pm): group presents in class.",
    "judge": {
     "verdict": "manual",
-    "why": "Named attendance check; attendance recorded in classroom, not an online submission"
+    "why": "Named attendance check; attendance recorded in the classroom"
    },
    "optional_ec": false,
    "surface": true,
@@ -1466,7 +1466,7 @@
    "key": "12_8_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-12-08",
-   "note": "# Canvas 1466191, 10pt, 12/8 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:named-attendance-check-attendance-recorded-physically-in-the]",
+   "note": "# Canvas 1466191, 10pt, 12/8 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:named-attendance-check-attendance-recorded-in-the-classroom]",
    "title": "12/8 - Attendance Check",
    "grade": {
     "canvas_id": 1466191,
@@ -1489,7 +1489,7 @@
    "needs_excerpt": "In person (unchanged):\n- Attendance Checks (10pts each) on 10/13, 10/15, 10/20, 10/22, 10/27, 10/29, 11/3, 11/5, 11/10, 11/12, 11/17, 11/19, 11/24, 12/1, 12/3, 12/8, 12/10: in-class LTI checks TTh 12:00-12:50pm.\n- Prophet Group Project (Canvas 1468925, 100pts, in-class Tue 10/13, slides due Mon 10/12 11:59pm): group presents in class.",
    "judge": {
     "verdict": "manual",
-    "why": "Named attendance check; attendance recorded in classroom, not an online submission"
+    "why": "Named attendance check; attendance recorded in the classroom"
    },
    "optional_ec": false,
    "surface": true,
@@ -1565,7 +1565,7 @@
    "key": "12_10_ATTENDANCE_CHECK",
    "status": "blocked_inperson",
    "date": "2026-12-10",
-   "note": "# Canvas 1466192, 10pt, 12/10 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:named-attendance-check-attendance-recorded-physically-in-the]",
+   "note": "# Canvas 1466192, 10pt, 12/10 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:named-attendance-check-attendance-recorded-in-the-classroom]",
    "title": "12/10 - Attendance Check",
    "grade": {
     "canvas_id": 1466192,
@@ -1588,7 +1588,7 @@
    "needs_excerpt": "In person (unchanged):\n- Attendance Checks (10pts each) on 10/13, 10/15, 10/20, 10/22, 10/27, 10/29, 11/3, 11/5, 11/10, 11/12, 11/17, 11/19, 11/24, 12/1, 12/3, 12/8, 12/10: in-class LTI checks TTh 12:00-12:50pm.\n- Prophet Group Project (Canvas 1468925, 100pts, in-class Tue 10/13, slides due Mon 10/12 11:59pm): group presents in class.",
    "judge": {
     "verdict": "manual",
-    "why": "Named attendance check; attendance recorded in classroom, not an online submission"
+    "why": "Named attendance check; attendance recorded in the classroom"
    },
    "optional_ec": false,
    "surface": true,
@@ -1605,5 +1605,5 @@
   "final_score": 71.61,
   "final_grade": "C-"
  },
- "built_at": "2026-11-11T23:16:40.852243+00:00"
+ "built_at": "2026-11-12T00:11:35.373448+00:00"
 }
