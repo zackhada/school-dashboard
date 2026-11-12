@@ -58,7 +58,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Physical artifact: printed notes+summary brought to class for in-class peer check"
+    "why": "On-paper printed notes and summary brought to class for in-class peer check"
    },
    "optional_ec": false,
    "surface": true,
@@ -402,9 +402,5 @@
   "final_score": 64.57,
   "final_grade": "D"
  },
-<<<<<<< Updated upstream
- "built_at": "2026-11-12T04:44:44.396844+00:00"
-=======
- "built_at": "2026-11-12T04:45:02.713830+00:00"
->>>>>>> Stashed changes
+ "built_at": "2026-11-12T07:15:05.919447+00:00"
 }

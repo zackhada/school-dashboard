@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11",
+ "generated": "2026-11-12",
  "missed": [],
  "exam_windows": [
   {
@@ -85,6 +85,20 @@
    "score": null
   },
   {
+   "course": "HRM 391",
+   "assignment": "Unit 1 Mid-term Checkpoint",
+   "due": "2026-11-11",
+   "points": 1.0,
+   "score": null
+  },
+  {
+   "course": "HRM 391",
+   "assignment": "Unit 1 Mid-term Checkpoint",
+   "due": "2026-11-11",
+   "points": 1.0,
+   "score": null
+  },
+  {
    "course": "PSE 390",
    "assignment": "Ethics and Public Quiz - Week 9",
    "due": "2026-11-07",
@@ -115,30 +129,6 @@
  ],
  "closing_soon": [
   {
-   "course": "HRM 391",
-   "assignment": "Unit 1 Mid-term Checkpoint",
-   "due": "2026-11-11",
-   "points": 1.0,
-   "canvas_id": 1508956,
-   "deadline_kind": "locks",
-   "owner": "agent",
-   "covered": true,
-   "ledger_key": "MID_TERM_CHECKPOINT",
-   "ledger_status": "missed"
-  },
-  {
-   "course": "HRM 391",
-   "assignment": "Unit 1 Mid-term Checkpoint",
-   "due": "2026-11-11",
-   "points": 1.0,
-   "canvas_id": 1511530,
-   "deadline_kind": "locks",
-   "owner": "agent",
-   "covered": true,
-   "ledger_key": "UNIT_1_MID_TERM_CHECKPOINT",
-   "ledger_status": "missed"
-  },
-  {
    "course": "PSE 390",
    "assignment": "Participation Quiz 11.12",
    "due": "2026-11-12",
@@ -163,6 +153,6 @@
    "ledger_status": "blocked_inperson"
   }
  ],
- "testing_center_error": "login failed",
+ "testing_center_error": "testing-center-not-available-here (No module named 'testing_center')",
  "exam_windows_source": "registry"
 }

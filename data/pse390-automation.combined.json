@@ -490,7 +490,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Name is participation quiz; no submission path (404 upstream) and participation is earned in class"
+    "why": "Named participation quiz; participation is earned in class, no online path available"
    },
    "optional_ec": false,
    "surface": true,
@@ -850,7 +850,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Named participation quiz; participation is earned in class despite online_quiz tool"
+    "why": "Named participation quiz; participation is earned in class regardless of quiz tool"
    },
    "optional_ec": false,
    "surface": true,
@@ -973,7 +973,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Named participation quiz; participation is earned in class despite online_quiz tool"
+    "why": "Named participation quiz; participation is earned in class regardless of quiz tool"
    },
    "optional_ec": false,
    "surface": true,
@@ -1036,7 +1036,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Named participation quiz; participation is earned in class despite online_quiz tool"
+    "why": "Named participation quiz; participation is earned in class regardless of quiz tool"
    },
    "optional_ec": false,
    "surface": true,
@@ -1069,7 +1069,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Named participation quiz; participation is earned in class despite online_quiz tool"
+    "why": "Named participation quiz; participation is earned in class regardless of quiz tool"
    },
    "optional_ec": false,
    "surface": true,
@@ -1132,7 +1132,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Named participation quiz; participation is earned in class despite online_quiz tool"
+    "why": "Named participation quiz; participation is earned in class regardless of quiz tool"
    },
    "optional_ec": false,
    "surface": true,
@@ -1195,7 +1195,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Named participation quiz; participation is earned in class despite online_quiz tool"
+    "why": "Named participation quiz; participation is earned in class regardless of quiz tool"
    },
    "optional_ec": false,
    "surface": true,
@@ -1228,7 +1228,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Named participation quiz; participation is earned in class despite online_quiz tool"
+    "why": "Named participation quiz; participation is earned in class regardless of quiz tool"
    },
    "optional_ec": false,
    "surface": true,
@@ -1321,7 +1321,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Named participation quiz; participation is earned in class despite online_quiz tool"
+    "why": "Named participation quiz; participation is earned in class regardless of quiz tool"
    },
    "optional_ec": false,
    "surface": true,
@@ -1354,7 +1354,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Named participation quiz; participation is earned in class despite online_quiz tool"
+    "why": "Named participation quiz; participation is earned in class regardless of quiz tool"
    },
    "optional_ec": false,
    "surface": true,
@@ -1401,9 +1401,5 @@
   "final_score": 41.18,
   "final_grade": "E"
  },
-<<<<<<< Updated upstream
- "built_at": "2026-11-12T04:44:44.502671+00:00"
-=======
- "built_at": "2026-11-12T04:45:02.818106+00:00"
->>>>>>> Stashed changes
+ "built_at": "2026-11-12T07:15:05.983845+00:00"
 }

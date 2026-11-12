@@ -583,7 +583,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "In-class presentation with TA sign-up; student must present in person"
+    "why": "In-class presentation with TA sign-up; requires Zack's body to present."
    },
    "optional_ec": false,
    "surface": true,
@@ -616,7 +616,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Name is an exam and it is comprehensive/non-collaborative; rule: any item named an exam is manual"
+    "why": "Named exam; timed take-home is manual per exam-name rule, and note requires Zack to take it himself."
    },
    "optional_ec": false,
    "surface": true,
@@ -633,9 +633,5 @@
   "final_score": 50.69,
   "final_grade": "E"
  },
-<<<<<<< Updated upstream
- "built_at": "2026-11-12T04:44:44.512161+00:00"
-=======
- "built_at": "2026-11-12T04:45:02.827084+00:00"
->>>>>>> Stashed changes
+ "built_at": "2026-11-12T07:15:05.989072+00:00"
 }

@@ -619,7 +619,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Cumulative in-person final exam taken per university finals schedule; exams require the student present"
+    "why": "Final exam taken in person per university finals schedule, no online submission"
    },
    "optional_ec": false,
    "surface": true,
@@ -651,9 +651,5 @@
   "final_score": 68.6,
   "final_grade": "D+"
  },
-<<<<<<< Updated upstream
- "built_at": "2026-11-12T04:44:44.411309+00:00"
-=======
- "built_at": "2026-11-12T04:45:02.725236+00:00"
->>>>>>> Stashed changes
+ "built_at": "2026-11-12T07:15:05.926524+00:00"
 }
