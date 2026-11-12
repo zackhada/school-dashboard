@@ -827,7 +827,7 @@
    "key": "PARTICIPATION_QUIZ_11_03",
    "status": "blocked_inperson",
    "date": "2026-11-03",
-   "note": "# Canvas 1511335, 3pt, Participation Quiz 11.03 (in-class/participation; drift-added 2026-10-20) [manual:name-is-a-participation-quiz-by-the-name-rule-participation-]",
+   "note": "# Canvas 1511335, 3pt, Participation Quiz 11.03 (in-class/participation; drift-added 2026-10-20) [manual:named-participation-quiz-name-rule-makes-it-manual-regardles]",
    "title": "Participation Quiz 11.03",
    "grade": {
     "canvas_id": 1511335,
@@ -950,7 +950,7 @@
    "key": "PARTICIPATION_QUIZ_11_12",
    "status": "blocked_inperson",
    "date": "2026-11-12",
-   "note": "# Canvas 1511340, 3pt, Participation Quiz 11.12 (in-class/participation; drift-added 2026-10-14) [manual:name-is-a-participation-quiz-by-the-name-rule-participation-]",
+   "note": "# Canvas 1511340, 3pt, Participation Quiz 11.12 (in-class/participation; drift-added 2026-10-14) [manual:named-participation-quiz-in-class-participation-by-name-rule]",
    "title": "Participation Quiz 11.12",
    "grade": {
     "canvas_id": 1511340,
@@ -1013,7 +1013,7 @@
    "key": "PARTICIPATION_QUIZ_11_17",
    "status": "blocked_inperson",
    "date": "2026-11-17",
-   "note": "# Canvas 1511341, 3pt, Participation Quiz 11.17 (in-class/participation; drift-added 2026-10-14) [manual:name-is-a-participation-quiz-by-the-name-rule-participation-]",
+   "note": "# Canvas 1511341, 3pt, Participation Quiz 11.17 (in-class/participation; drift-added 2026-10-14) [manual:named-participation-quiz-in-class-participation-by-name-rule]",
    "title": "Participation Quiz 11.17",
    "grade": {
     "canvas_id": 1511341,
@@ -1046,7 +1046,7 @@
    "key": "PARTICIPATION_QUIZ_11_19",
    "status": "blocked_inperson",
    "date": "2026-11-19",
-   "note": "# Canvas 1511342, 3pt, Participation Quiz 11.19 (in-class/participation; drift-added 2026-10-14) [manual:name-is-a-participation-quiz-by-the-name-rule-participation-]",
+   "note": "# Canvas 1511342, 3pt, Participation Quiz 11.19 (in-class/participation; drift-added 2026-10-14) [manual:named-participation-quiz-in-class-participation-by-name-rule]",
    "title": "Participation Quiz 11.19",
    "grade": {
     "canvas_id": 1511342,
@@ -1109,7 +1109,7 @@
    "key": "PARTICIPATION_QUIZ_11_24",
    "status": "blocked_inperson",
    "date": "2026-11-24",
-   "note": "# Canvas 1511344, 3pt, Participation Quiz 11.24 (in-class/participation; drift-added 2026-10-14) [manual:name-is-a-participation-quiz-by-the-name-rule-participation-]",
+   "note": "# Canvas 1511344, 3pt, Participation Quiz 11.24 (in-class/participation; drift-added 2026-10-14) [manual:named-participation-quiz-in-class-participation-by-name-rule]",
    "title": "Participation Quiz 11.24",
    "grade": {
     "canvas_id": 1511344,
@@ -1172,7 +1172,7 @@
    "key": "PARTICIPATION_QUIZ_12_01",
    "status": "blocked_inperson",
    "date": "2026-12-01",
-   "note": "# Canvas 1511345, 3pt, Participation Quiz 12.01 (in-class/participation; drift-added 2026-10-14) [manual:name-is-a-participation-quiz-by-the-name-rule-participation-]",
+   "note": "# Canvas 1511345, 3pt, Participation Quiz 12.01 (in-class/participation; drift-added 2026-10-14) [manual:named-participation-quiz-in-class-participation-by-name-rule]",
    "title": "Participation Quiz 12.01",
    "grade": {
     "canvas_id": 1511345,
@@ -1205,7 +1205,7 @@
    "key": "PARTICIPATION_QUIZ_12_03",
    "status": "blocked_inperson",
    "date": "2026-12-03",
-   "note": "# Canvas 1511346, 3pt, Participation Quiz 12.03 (in-class/participation; drift-added 2026-10-14) [manual:name-is-a-participation-quiz-by-the-name-rule-participation-]",
+   "note": "# Canvas 1511346, 3pt, Participation Quiz 12.03 (in-class/participation; drift-added 2026-10-14) [manual:named-participation-quiz-in-class-participation-by-name-rule]",
    "title": "Participation Quiz 12.03",
    "grade": {
     "canvas_id": 1511346,
@@ -1298,7 +1298,7 @@
    "key": "PARTICIPATION_QUIZ_12_08",
    "status": "blocked_inperson",
    "date": "2026-12-08",
-   "note": "# Canvas 1511347, 3pt, Participation Quiz 12.08 (in-class/participation; drift-added 2026-10-14) [manual:name-is-a-participation-quiz-by-the-name-rule-participation-]",
+   "note": "# Canvas 1511347, 3pt, Participation Quiz 12.08 (in-class/participation; drift-added 2026-10-14) [manual:named-participation-quiz-in-class-participation-by-name-rule]",
    "title": "Participation Quiz 12.08",
    "grade": {
     "canvas_id": 1511347,
@@ -1331,7 +1331,7 @@
    "key": "PARTICIPATION_QUIZ_12_10",
    "status": "blocked_inperson",
    "date": "2026-12-10",
-   "note": "# Canvas 1511348, 3pt, Participation Quiz 12.10 (in-class/participation; drift-added 2026-10-14) [manual:name-is-a-participation-quiz-by-the-name-rule-participation-]",
+   "note": "# Canvas 1511348, 3pt, Participation Quiz 12.10 (in-class/participation; drift-added 2026-10-14) [manual:named-participation-quiz-in-class-participation-by-name-rule]",
    "title": "Participation Quiz 12.10",
    "grade": {
     "canvas_id": 1511348,
@@ -1401,5 +1401,5 @@
   "final_score": 41.18,
   "final_grade": "E"
  },
- "built_at": "2026-11-12T00:43:51.600902+00:00"
+ "built_at": "2026-11-12T00:46:42.194741+00:00"
 }
