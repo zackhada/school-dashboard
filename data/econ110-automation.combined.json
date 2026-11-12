@@ -121,7 +121,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "In-person TA lab in B090 JFSB, no online submission path or tool box."
+    "why": "In-person TA lab in B090 JFSB, no online submission path; requires student's body."
    },
    "optional_ec": false,
    "surface": true,
@@ -914,10 +914,7 @@
    "drift": false,
    "needs_zack": false,
    "needs_excerpt": null,
-   "judge": {
-    "verdict": "manual",
-    "why": "Testing Center exam with set window and late fee; requires student in person."
-   },
+   "judge": null,
    "optional_ec": false,
    "surface": false,
    "actionable": false
@@ -1327,7 +1324,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Testing Center exam Dec 10 6:00pm; requires student in person."
+    "why": "Requires the student in person."
    },
    "optional_ec": false,
    "surface": true,
@@ -1366,5 +1363,5 @@
   "current_score": 72.96,
   "source": "learning-suite-points"
  },
- "built_at": "2026-11-12T15:24:18.374191+00:00"
+ "built_at": "2026-11-12T18:24:57.151861+00:00"
 }

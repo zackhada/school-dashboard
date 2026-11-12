@@ -148,7 +148,7 @@
   },
   "strat392-automation": {
    "detail": null,
-   "judged": 2,
+   "judged": 3,
    "verdicts": {
     "SESSION1_WHAT_IS_STRATEGY": {
      "verdict": "manual",
@@ -156,7 +156,11 @@
     },
     "STRAT_FINAL_EXAM": {
      "verdict": "manual",
-     "why": "Cumulative in-person final exam at university-scheduled finals week location"
+     "why": "Name is exam; syllabus lists in-person final exam, no online submission"
+    },
+    "STRAT_MARKET_ENTRY_LAB": {
+     "verdict": "manual",
+     "why": "Team deliverable: one 3-5 minute video per team, teams of 4-5, physical product with a 6-digit HS code, and Zack's own iLabz account per member. He claimed a spot on 2026-11-11 and the group never replied, so he is not confirmed in a team and the agent cannot complete or upload it."
     }
    }
   }
