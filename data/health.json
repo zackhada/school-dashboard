@@ -1,28 +1,18 @@
 {
- "generated": "2026-11-12T19:56Z",
- "runners_online": 0,
+ "generated": "2026-11-12T22:54Z",
+ "runners_online": 9,
  "runners_checked": 9,
  "unverified_repos": [],
- "offline_repos": [
-  "econ110-automation",
-  "fin201-automation",
-  "hrm391-automation",
-  "is515-automation",
-  "pse390-automation",
-  "rel-c-333-automation",
-  "strat392-automation",
-  "school-healer",
-  "school-dashboard"
- ],
+ "offline_repos": [],
  "queued_runs": 1,
  "stale_repos": [],
  "heartbeat": {
-  "ts": "2026-11-12T12:45:11-07:00",
-  "age_hours": 0.2,
-  "free_gb": "126",
+  "ts": "2026-11-12T15:50:48-07:00",
+  "age_hours": 0.1,
+  "free_gb": "121",
   "bridge": true,
   "guard": "up"
  },
  "errors": [],
- "healthy": false
+ "healthy": true
 }

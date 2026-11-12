@@ -448,7 +448,7 @@
    "grade": {
     "name": "Sept News Analysis Participation",
     "due": "2026-09-28T23:59:00",
-    "points": 1.0,
+    "points": 15.0,
     "score": 0.0,
     "status": "graded",
     "missing": false,
@@ -880,9 +880,9 @@
    "grade": {
     "name": "Oct News Analysis Participation",
     "due": "2026-11-04T23:59:00",
-    "points": 1.0,
-    "score": null,
-    "status": "not_graded",
+    "points": 15.0,
+    "score": 0.0,
+    "status": "graded",
     "missing": false,
     "submission_type": "learning_suite",
     "comments": []
@@ -1001,8 +1001,8 @@
     "name": "NE - Quiz #10",
     "due": "2026-11-13T23:59:00",
     "points": 5.0,
-    "score": null,
-    "status": "not_graded",
+    "score": 5.0,
+    "status": "graded",
     "missing": false,
     "submission_type": "learning_suite",
     "comments": []
@@ -1144,7 +1144,7 @@
    "grade": {
     "name": "Nov News Analysis Participation",
     "due": "2026-12-02T23:00:00",
-    "points": 1.0,
+    "points": 15.0,
     "score": null,
     "status": "not_graded",
     "missing": false,
@@ -1360,8 +1360,8 @@
  "needs_unassigned": false,
  "course_id": null,
  "overall": {
-  "current_score": 72.96,
+  "current_score": 71.81,
   "source": "learning-suite-points"
  },
- "built_at": "2026-11-12T21:43:47.892278+00:00"
+ "built_at": "2026-11-12T22:54:00.025961+00:00"
 }

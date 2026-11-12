@@ -1146,10 +1146,10 @@
   },
   {
    "key": "11_12_ATTENDANCE_CHECK",
-   "status": "blocked_inperson",
+   "status": "done",
    "date": "2026-11-12",
-   "note": "# Canvas 1466168, 10pt, 11/12 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:named-attendance-check-attendance-is-recorded-in-the-classro]",
-   "title": "11/12 - Attendance Check",
+   "note": "# Canvas 1466168, 10pt, 11/12 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:named-attendance-check-attendance-is-recorded-in-the-classro] (audited 2026-11-12: already graded in Canvas)",
+   "title": "11/12 - Attendance Check (in-class/participation; drift-added 2026-10-08)",
    "grade": {
     "canvas_id": 1466168,
     "name": "11/12 - Attendance Check",
@@ -1157,24 +1157,24 @@
     "lock_at": "2026-11-12T19:50:00Z",
     "deadline": "2026-11-12T19:50:00Z",
     "points": 10.0,
-    "status": "unsubmitted",
-    "score": null,
-    "grade": null,
+    "status": "graded",
+    "score": 10.0,
+    "grade": "10",
     "missing": false,
-    "submitted_at": null,
-    "submission_type": null,
+    "submitted_at": "2026-11-12T19:50:00Z",
+    "submission_type": "basic_lti_launch",
     "my_submission": "",
     "comments": []
    },
    "drift": false,
-   "needs_zack": true,
-   "needs_excerpt": "In person (unchanged):\n- Attendance Checks (10pts each) on 10/13, 10/15, 10/20, 10/22, 10/27, 10/29, 11/3, 11/5, 11/10, 11/12, 11/17, 11/19, 11/24, 12/1, 12/3, 12/8, 12/10: in-class LTI checks TTh 12:00-12:50pm.\n- Prophet Group Project (Canvas 1468925, 100pts, in-class Tue 10/13, slides due Mon 10/12 11:59pm): group presents in class.",
+   "needs_zack": false,
+   "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
     "why": "Named attendance check; attendance recorded in the classroom"
    },
    "optional_ec": false,
-   "surface": true,
+   "surface": false,
    "actionable": false
   },
   {
@@ -1193,7 +1193,7 @@
     "status": "unsubmitted",
     "score": null,
     "grade": null,
-    "missing": false,
+    "missing": true,
     "submitted_at": null,
     "submission_type": null,
     "my_submission": "",
@@ -1600,10 +1600,10 @@
  "needs_unassigned": false,
  "course_id": 38438,
  "overall": {
-  "current_score": 81.81,
+  "current_score": 82.46,
   "current_grade": "B-",
-  "final_score": 71.61,
+  "final_score": 72.61,
   "final_grade": "C-"
  },
- "built_at": "2026-11-12T21:43:47.792901+00:00"
+ "built_at": "2026-11-12T22:53:59.919720+00:00"
 }
