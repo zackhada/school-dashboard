@@ -290,7 +290,15 @@ Promise.all(REPOS.map(function(pair){
         .replace(/no[- ]proctor\w*|not[- ]proctor\w*|without[- ]proctor\w*/ig, '');
       var physical = /proctor|in person|in-person|testing center|lockdown|attendance|bring to class|on paper|physical presence/i
         .test(physText);
-      if (isBlocked && surfaced && (physical || x.status === 'blocked_inperson')) {
+      // A judge 'verify' verdict is a question for Zack, not a room he has to
+      // sit in, and a team/group deliverable is his to organize (2026-11-12:
+      // the STRAT 392 Market Entry team video landed under "In person +
+      // proctored" only because its row said blocked_inperson).
+      var teamRow = /\bteam|group project|group work|teams of|group video/i
+        .test((x.note || '') + ' ' + (x.key || '') + ' ' + ((x.grade && x.grade.name) || ''));
+      var verifyOnly = !!(x.judge && x.judge.verdict === 'verify');
+      var roomWork = physical || (x.status === 'blocked_inperson' && !verifyOnly && !teamRow);
+      if (isBlocked && surfaced && roomWork) {
         if (/\b0\s?pts?\b/i.test(x.note || '')) return;
         // Skip phantom rows for Canvas items deleted upstream (e.g. pse390
         // PARTICIPATION_QUIZ_10_13_2, "404 deleted upstream"); they are not
