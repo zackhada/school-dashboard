@@ -583,7 +583,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "In-class presentation with sign-up; student must present in person."
+    "why": "In-class presentation to TA, sign-up required, no submission path; student must present in person."
    },
    "optional_ec": false,
    "surface": true,
@@ -616,7 +616,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Requires the student in person."
+    "why": "Named Exam 2; note confirms student takes it manually in a quiet window, rule: exam names are manual."
    },
    "optional_ec": false,
    "surface": true,
@@ -633,5 +633,5 @@
   "final_score": 50.69,
   "final_grade": "E"
  },
- "built_at": "2026-11-12T22:53:59.964623+00:00"
+ "built_at": "2026-11-12T23:43:05.395933+00:00"
 }

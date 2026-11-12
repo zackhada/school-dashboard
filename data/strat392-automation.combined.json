@@ -513,8 +513,8 @@
    "needs_zack": false,
    "needs_excerpt": null,
    "judge": {
-    "verdict": "verify",
-    "why": "model called it automatable, but the item name or note needs a human call: Market Entry Strategy Assignment "
+    "verdict": "manual",
+    "why": "Group on-camera video with physical product and per-member iLabz accounts; needs student's body"
    },
    "optional_ec": false,
    "surface": true,
@@ -622,7 +622,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Cumulative final exam taken in person per finals schedule, not online"
+    "why": "Cumulative final exam at university finals-week location, in person"
    },
    "optional_ec": false,
    "surface": true,
@@ -654,5 +654,5 @@
   "final_score": 68.6,
   "final_grade": "D+"
  },
- "built_at": "2026-11-12T22:53:59.870951+00:00"
+ "built_at": "2026-11-12T23:43:05.305813+00:00"
 }

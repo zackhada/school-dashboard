@@ -121,7 +121,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "In-person TA lab in B090 JFSB; requires student's body, no online submission path"
+    "why": "In-person TA lab in B090 JFSB; no online submission path"
    },
    "optional_ec": false,
    "surface": true,
@@ -1363,5 +1363,5 @@
   "current_score": 71.81,
   "source": "learning-suite-points"
  },
- "built_at": "2026-11-12T22:54:00.025961+00:00"
+ "built_at": "2026-11-12T23:43:05.456810+00:00"
 }
