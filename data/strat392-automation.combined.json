@@ -491,7 +491,7 @@
    "key": "STRAT_MARKET_ENTRY_LAB",
    "status": "blocked_ask_zack",
    "date": "2026-11-17",
-   "note": "# Canvas 1519226, 60pt, Market Entry Strategy Assignment, due Tue Nov 17 11:59pm MT. Team deliverable: ONE 3-5 minute video per team, teams of 4-5, physical product with a 6-digit HS code, individual iLabz account per member. Zack claimed James Corrigan's open spot in the Find a Group discussion (topic 753519) on 2026-11-11 1:19pm MT and got NO REPLY as of 2026-11-12 11:25am MT, so he is not confirmed in any group. Other groups still open in that thread: Austin Dixon (group of 2, dixon10@byu.edu, 682-216-5317) and Logan Larsen asked him 2026-11-11 2:06pm MT. Agent can do the market analysis, the HS code work and the video edit; the iLabz runs and the on-camera video are Zack's. Plan: strat392/MARKET_ENTRY_LAB_PLAN.md. [manual:team-video-and-unconfirmed-group]",
+   "note": "# Canvas 1519226, 60pt, Market Entry Strategy Assignment, due Tue Nov 17 11:59pm MT. Team deliverable: ONE 3-5 minute video per team, teams of 4-5, physical product with a 6-digit HS code, individual iLabz account per member. Zack claimed James Corrigan's open spot in the Find a Group discussion (topic 753519) on 2026-11-11 1:19pm MT and got NO REPLY as of 2026-11-12 11:25am MT, so he is not confirmed in any group. Other groups still open in that thread: Austin Dixon (group of 2, dixon10@byu.edu, 682-216-5317) and Logan Larsen asked him 2026-11-11 2:06pm MT. Agent can do the market analysis, the HS code work and the video edit; the iLabz runs and the on-camera video are Zack's. Plan: strat392/MARKET_ENTRY_LAB_PLAN.md. [manual:verify-model-called-it-automatable-but-the-item-name-or-note-needs-] 2026-11-12 12:04-12:09pm MT: replied in the Find a Group discussion to Austin Dixon (group of 2, dixon10@byu.edu, 682-216-5317), Mariko Miyasaki (group of 3) and followed up with James Corrigan (no reply to the Nov 11 claim). Contact in every reply: zackhada@byu.edu, 949-685-8843. Not confirmed in any group yet; first group to answer wins.",
    "title": "Market Entry Strategy Assignment",
    "grade": {
     "canvas_id": 1519226,
@@ -513,8 +513,8 @@
    "needs_zack": false,
    "needs_excerpt": null,
    "judge": {
-    "verdict": "manual",
-    "why": "Team deliverable: one 3-5 minute video per team, teams of 4-5, physical product with a 6-digit HS code, and Zack's own iLabz account per member. He claimed a spot on 2026-11-11 and the group never replied, so he is not confirmed in a team and the agent cannot complete or upload it."
+    "verdict": "verify",
+    "why": "model called it automatable, but the item name or note needs a human call: Market Entry Strategy Assignment "
    },
    "optional_ec": false,
    "surface": true,
@@ -622,7 +622,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Name is exam; syllabus lists in-person final exam, no online submission"
+    "why": "Cumulative final exam taken in person per finals schedule, not online"
    },
    "optional_ec": false,
    "surface": true,
@@ -654,5 +654,5 @@
   "final_score": 68.6,
   "final_grade": "D+"
  },
- "built_at": "2026-11-12T18:24:56.999325+00:00"
+ "built_at": "2026-11-12T19:11:16.844397+00:00"
 }

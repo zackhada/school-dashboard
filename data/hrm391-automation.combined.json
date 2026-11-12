@@ -58,7 +58,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Must bring printed notes+summary to class for in-person peer check (on-paper artifact)"
+    "why": "Physical on-paper notes+summary brought to class for in-class peer check"
    },
    "optional_ec": false,
    "surface": true,
@@ -397,7 +397,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "verify",
-    "why": "model called it automatable, but the item name needs a human call: Service Project\u2014Part 2: Group Analysis and Individual Reflec"
+    "why": "model called it automatable, but the item name or note needs a human call: Service Project\u2014Part 2: Group Analysis and Individual Reflec"
    },
    "optional_ec": false,
    "surface": true,
@@ -432,5 +432,5 @@
   "final_score": 64.97,
   "final_grade": "D"
  },
- "built_at": "2026-11-12T18:24:56.988099+00:00"
+ "built_at": "2026-11-12T19:11:16.809947+00:00"
 }

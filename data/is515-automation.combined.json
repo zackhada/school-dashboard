@@ -583,7 +583,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "In-class presentation to TA, sign-up required; student must present in person"
+    "why": "In-class presentation with sign-up; student must present in person."
    },
    "optional_ec": false,
    "surface": true,
@@ -616,7 +616,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Name is Exam 2; timed comprehensive exam, exam-named items are manual even with a quiz tool"
+    "why": "Requires the student in person."
    },
    "optional_ec": false,
    "surface": true,
@@ -633,5 +633,5 @@
   "final_score": 50.69,
   "final_grade": "E"
  },
- "built_at": "2026-11-12T18:24:57.090677+00:00"
+ "built_at": "2026-11-12T19:11:17.141506+00:00"
 }
