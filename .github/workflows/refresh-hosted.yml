@@ -49,14 +49,9 @@ jobs:
 
       - name: Commit if changed
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          git config user.name "Zack Hada"
-          git config user.email "zackhada@byu.edu"
-          git add data
-          if git diff --cached --quiet; then
-            echo "no data change"
-            exit 0
-          fi
-          git commit -m "data: hosted refresh $(date -u +%Y-%m-%dT%H:%MZ)"
-          git push
+          # push_data.sh commits ONLY data/ and retries with a rebase. Kept in
+          # its own concurrency group (not the dashboard-data-push one) so a
+          # pending health refresh is never replaced by a per-run update, but
+          # the retry still makes the cross-workflow overlap harmless.
+          PUSH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: bash scripts/push_data.sh "hosted refresh $(date -u +%Y-%m-%dT%H:%MZ)"

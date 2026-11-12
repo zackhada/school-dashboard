@@ -10,6 +10,19 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
+# ONE WRITER AT A TIME (2026-11-12). Every class runner dispatches a "status"
+# event when it finishes, so several of these runs used to start within the same
+# few seconds. They shared no group, so all but the first died on
+# "! [rejected] HEAD -> main (fetch first)" and GitHub emailed Zack a
+# "Run failed: Dashboard update" for each one (18 of 20 dashboard failures on
+# 2026-11-11/12). Queuing here, plus the retry in scripts/push_data.sh, is what
+# makes that failure mode impossible rather than just less likely.
+# cancel-in-progress stays false: the running build always finishes. A pending
+# duplicate may be replaced by a newer dispatch, which is harmless because
+# sync_ledgers.py rebuilds data/ from all seven class repos every run.
+concurrency:
+  group: dashboard-data-push
+  cancel-in-progress: false
 jobs:
   update:
     runs-on: self-hosted
@@ -57,17 +70,11 @@ jobs:
         run: python3 scripts/build.py
       - name: Commit
         if: env.QUIET != 'true'
-        run: |
-          git config user.name "dashboard-bot"
-          git config user.email "dashboard-bot@users.noreply.github.com"
-          # Commit ONLY generated data. `git add -A` pushed this bot's
-          # whole checkout back to main, so any edit made to a workflow or
-          # script after the bot checked out was silently reverted by the
-          # next "nightly canvas truth" commit (2026-11-11: it reverted
-          # the very fix to this file twice).
-          git add data
-          git diff --cached --quiet || git commit -m "dashboard update $(date -u +%Y-%m-%d)"
-          git remote set-url origin "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" && git push origin HEAD
+        env:
+          # push_data.sh commits ONLY data/ and retries with a rebase, so a
+          # concurrent dashboard writer is a retry, not a failed run.
+          PUSH_TOKEN: ${{ github.token }}
+        run: bash scripts/push_data.sh "dashboard update $(date -u +%Y-%m-%d)"
   forward-answer:
     if: github.event_name == 'issues' && startsWith(github.event.issue.title, '[answer]')
     runs-on: self-hosted

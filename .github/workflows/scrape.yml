@@ -7,6 +7,12 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
+# Same shared group as update.yml (2026-11-12): the nightly truth commit and the
+# per-run dashboard updates write the same data/ files, and before this they
+# collided on push and failed the job. See scripts/push_data.sh.
+concurrency:
+  group: dashboard-data-push
+  cancel-in-progress: false
 jobs:
   scrape:
     runs-on: self-hosted
@@ -60,14 +66,8 @@ jobs:
           python3 scripts/assignment_audit.py
       - name: Commit truth
         if: env.QUIET != 'true'
-        run: |
-          git config user.name "dashboard-bot"
-          git config user.email "dashboard-bot@users.noreply.github.com"
-          # Commit ONLY generated data. `git add -A` pushed this bot's
-          # whole checkout back to main, so any edit made to a workflow or
-          # script after the bot checked out was silently reverted by the
-          # next "nightly canvas truth" commit (2026-11-11: it reverted
-          # the very fix to this file twice).
-          git add data
-          git diff --cached --quiet || git commit -m "nightly canvas truth $(date -u +%Y-%m-%d)"
-          git remote set-url origin "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" && git push origin HEAD
+        env:
+          # push_data.sh commits ONLY data/ and retries with a rebase, so a
+          # concurrent dashboard writer is a retry, not a failed run.
+          PUSH_TOKEN: ${{ github.token }}
+        run: bash scripts/push_data.sh "nightly canvas truth $(date -u +%Y-%m-%d)"
