@@ -92,8 +92,13 @@ function canvasUrl(course, canvasId){
 function replyUrl(c, x, desc){
   return 'https://github.com/zackhada/school-dashboard/issues/new?title='+encodeURIComponent('[answer] '+c.repo+' '+x.key)+'&body='+encodeURIComponent(c.name+' \u2014 '+x.key+' (due '+(x.date||'n/a')+', '+x.status+')\n\nWhat is needed: '+desc+'\n\nMy answer:\n');
 }
-function titleFrom(key, note, course){
-  var n = (note||'').replace(/^#\s*/,'').replace(/^Canvas\s+\d+,\s*[\d.]+\s*pts?,\s*/i,'')
+function titleFrom(key, note, course, gradeName){
+  // A ledger key is truncated at 40 chars, so "SERVICE_PROJECT_PART_2_GROUP_ANALYSIS_AN"
+  // rendered as "Service Project Part 2 Group Analysis An" and the real group
+  // project was easy to miss on the dashboard (Zack, 2026-11-12). The Canvas
+  // assignment name is the honest label, so prefer it over a truncated key.
+  var canvasName = String(gradeName || '').replace(/\s+/g,' ').trim();
+  var n = (note||'').replace(/^#\s*/,'').replace(/^Canvas\s+\d+,\s*[\d.]+\s*pts?,?\s*/i,'')
             .replace(/\s*\[manual:[^\]]*\]/gi,'').replace(/\s*\([^()]*\)\s*$/,'').trim();
   if(/^\d+\.\d+/.test(n)) return n.split(',')[0].trim();
   if(/Topic\s+\d+/.test(n)) return n.split(',')[0].trim().replace(/^Topic\s+/,'Topic ');
@@ -107,7 +112,12 @@ function titleFrom(key, note, course){
   var pm = /PARTICIPATION_QUIZ_([A-Z]{3})(\d{1,2})/.exec(key);
   if (pm) return 'Participation Quiz ' + pm[1].charAt(0) + pm[1].slice(1).toLowerCase() + ' ' + pm[2];
   if(/MEET_TA/.test(key)) return 'Meet TA';
-  return key.replace(/_/g,' ').replace(/\b(\w)(\w*)\b/g,function(_,a,b){return a.toUpperCase()+b.toLowerCase();});
+  var fromKey = key.replace(/_/g,' ').replace(/\b(\w)(\w*)\b/g,function(_,a,b){return a.toUpperCase()+b.toLowerCase();});
+  // Every note-based pattern above already produced a clean label; if none
+  // matched, the key is all we have and it may be truncated upstream. The
+  // Canvas assignment name is then the honest label.
+  if (canvasName) return canvasName;
+  return fromKey;
 }
 function norm(s){ return String(s||'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim(); }
 // Optional extra credit (Zack 2026-10-25). The course calls these optional, so
@@ -214,7 +224,7 @@ Promise.all(REPOS.map(function(pair){
       var st = statusOf(x), cls = st[1];
       var n = daysLeft(a.d);
       var rowCls = n < 0 ? 'past' : (n === 0 ? 'today' : '');
-      var title = titleFrom(x.key, x.note, c.name);
+      var title = titleFrom(x.key, x.note, c.name, x.grade && x.grade.name);
       var g = x.grade || matchGrade(title + ' ' + x.key, x.date, c.grows);
       // The queue is what the runner still has to do. It is the answer to
       // "what is next", which the manual lists alone never answered.
@@ -297,12 +307,12 @@ Promise.all(REPOS.map(function(pair){
           var curl = canvasUrl(c.course, x.grade && x.grade.canvas_id);
           var cell = curl ? '<a href="'+curl+'">Canvas</a>' : '';
           var rurl = replyUrl(c, x, note);
-          inperson.push({d: d, html: '<tr><td><b>'+c.name+' \u2014 '+esc(titleFrom(x.key, x.note, c.name))+'</b></td><td class="days-left">'+daysText(d)+'</td><td class="small">'+note+'</td><td>'+cell+'</td><td><a href="'+rurl+'">Reply</a></td></tr>'});
+          inperson.push({d: d, html: '<tr><td><b>'+c.name+' \u2014 '+esc(titleFrom(x.key, x.note, c.name, x.grade && x.grade.name))+'</b></td><td class="days-left">'+daysText(d)+'</td><td class="small">'+note+'</td><td>'+cell+'</td><td><a href="'+rurl+'">Reply</a></td></tr>'});
         }
         return;
       }
       if (d && d < now && !x.needs) return;
-      var title = titleFrom(x.key, x.note, c.name);
+      var title = titleFrom(x.key, x.note, c.name, x.grade && x.grade.name);
       var stLabel = x.status === 'missed' ? 'missed' : 'needs you';
       var when = (x.status === 'missed')
         ? (daysLeft(d) < 0 ? ' (' + (-daysLeft(d)) + 'd ago)' : '')
