@@ -58,7 +58,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "on_paper; printed notes+summary must be brought to class for in-class peer check"
+    "why": "Physical artifact: printed notes+summary brought to class for in-class peer check"
    },
    "optional_ec": false,
    "surface": true,
@@ -367,7 +367,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "verify",
-    "why": "Online upload, but name cites individual reflection while description says not required; group inputs needed"
+    "why": "model called it automatable, but the item name needs a human call: Service Project\u2014Part 2: Group Analysis and Individual Reflec"
    },
    "optional_ec": false,
    "surface": true,
@@ -402,5 +402,5 @@
   "final_score": 64.57,
   "final_grade": "D"
  },
- "built_at": "2026-11-12T04:15:57.115080+00:00"
+ "built_at": "2026-11-12T04:44:44.396844+00:00"
 }

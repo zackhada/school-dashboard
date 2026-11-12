@@ -512,10 +512,7 @@
    "drift": false,
    "needs_zack": false,
    "needs_excerpt": null,
-   "judge": {
-    "verdict": "manual",
-    "why": "Group assignment centered on one physical product; submission_types=none, no online submission path"
-   },
+   "judge": null,
    "optional_ec": false,
    "surface": false,
    "actionable": false
@@ -622,7 +619,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Requires the student in person."
+    "why": "Cumulative in-person final exam taken per university finals schedule; exams require the student present"
    },
    "optional_ec": false,
    "surface": true,
@@ -654,5 +651,5 @@
   "final_score": 68.6,
   "final_grade": "D+"
  },
- "built_at": "2026-11-12T04:15:57.133034+00:00"
+ "built_at": "2026-11-12T04:44:44.411309+00:00"
 }
