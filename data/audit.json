@@ -124,21 +124,9 @@
    "covered": true,
    "ledger_key": "PARTICIPATION_QUIZ_11_12",
    "ledger_status": "blocked_inperson"
-  },
-  {
-   "course": "REL C 333",
-   "assignment": "11/12 - Attendance Check",
-   "due": "2026-11-12",
-   "points": 10.0,
-   "canvas_id": 1466168,
-   "deadline_kind": "due",
-   "owner": "zack",
-   "covered": true,
-   "ledger_key": "11_12_ATTENDANCE_CHECK",
-   "ledger_status": "blocked_inperson"
   }
  ],
  "ledger_gaps": [],
- "testing_center_error": "URLError: <urlopen error [Errno 61] Connection refused>",
+ "testing_center_error": "testing-center-not-available-here (No module named 'testing_center')",
  "exam_windows_source": "registry"
 }
