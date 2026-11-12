@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T18:10:05.555415+00:00",
+ "generated_at": "2026-11-12T18:35:44.819244+00:00",
  "model": "opencode-go/deepseek-v4.1-flash",
  "repos": {
   "econ110-automation": {
@@ -8,11 +8,11 @@
    "verdicts": {
     "ECON_FINAL": {
      "verdict": "manual",
-     "why": "Requires the student in person."
+     "why": "Testing Center exam, requires student in person"
     },
     "ECON_MEET_TA": {
      "verdict": "manual",
-     "why": "In-person TA lab in B090 JFSB; no online submission path, student must attend."
+     "why": "In-person TA lab in B090 JFSB; no online submission path"
     }
    }
   },
@@ -40,11 +40,11 @@
     },
     "PROF_PERSPECTIVE_INTERVIEW": {
      "verdict": "manual",
-     "why": "On-paper assignment requiring printed notes+summary brought to class for in-class peer check"
+     "why": "On-paper; printed notes+summary brought to class for in-class peer check"
     },
     "SERVICE_PROJECT_PART_2_GROUP_ANALYSIS_AN": {
      "verdict": "verify",
-     "why": "model called it automatable, but the item name needs a human call: Service Project\u2014Part 2: Group Analysis and Individual Reflec"
+     "why": "model called it automatable, but the item name or note needs a human call: Service Project\u2014Part 2: Group Analysis and Individual Reflec"
     }
    }
   },
@@ -54,21 +54,21 @@
    "verdicts": {
     "IS_EXAM2": {
      "verdict": "manual",
-     "why": "Requires the student in person."
+     "why": "Named Exam 2; note states comprehensive take-home exam taken manually by student"
     },
     "IS_PROJECT_PRESENT": {
      "verdict": "manual",
-     "why": "In-class presentation to class or TA; student must present in person."
+     "why": "Course project presentation in class or to TA; student must present in person"
     }
    }
   },
   "pse390-automation": {
-   "detail": null,
+   "detail": "ERROR:opencode/deepseek-v4.1-flash-free: rc=1 \u001b[91m\u001b[1mError: \u001b[0m{\n  \"name\": \"UnknownError\",\n  \"data\": {\n    \"message\": \"Unexpected server error. Check server logs f",
    "judged": 10,
    "verdicts": {
     "PARTICIPATION_QUIZ_10_13_2": {
      "verdict": "manual",
-     "why": "Name is a participation quiz; participation is earned in class, no online path"
+     "why": "Named participation quiz; participation earned in class, item deleted upstream 404"
     },
     "PARTICIPATION_QUIZ_11_03": {
      "verdict": "manual",
@@ -114,35 +114,35 @@
    "verdicts": {
     "11_12_ATTENDANCE_CHECK": {
      "verdict": "manual",
-     "why": "Named attendance check; attendance is recorded in the classroom"
+     "why": "Named attendance check; attendance is recorded in the classroom, not online."
     },
     "11_17_ATTENDANCE_CHECK": {
      "verdict": "manual",
-     "why": "Named attendance check; attendance is recorded in the classroom"
+     "why": "Named attendance check; attendance is recorded in the classroom, not online."
     },
     "11_19_ATTENDANCE_CHECK": {
      "verdict": "manual",
-     "why": "Named attendance check; attendance is recorded in the classroom"
+     "why": "Named attendance check; attendance is recorded in the classroom, not online."
     },
     "11_24_ATTENDANCE_CHECK": {
      "verdict": "manual",
-     "why": "Named attendance check; attendance is recorded in the classroom"
+     "why": "Named attendance check; attendance is recorded in the classroom, not online."
     },
     "12_10_ATTENDANCE_CHECK": {
      "verdict": "manual",
-     "why": "Named attendance check; attendance is recorded in the classroom"
+     "why": "Named attendance check; attendance is recorded in the classroom, not online."
     },
     "12_1_ATTENDANCE_CHECK": {
      "verdict": "manual",
-     "why": "Named attendance check; attendance is recorded in the classroom"
+     "why": "Named attendance check; attendance is recorded in the classroom, not online."
     },
     "12_3_ATTENDANCE_CHECK": {
      "verdict": "manual",
-     "why": "Named attendance check; attendance is recorded in the classroom"
+     "why": "Named attendance check; attendance is recorded in the classroom, not online."
     },
     "12_8_ATTENDANCE_CHECK": {
      "verdict": "manual",
-     "why": "Named attendance check; attendance is recorded in the classroom"
+     "why": "Named attendance check; attendance is recorded in the classroom, not online."
     }
    }
   },
@@ -152,15 +152,15 @@
    "verdicts": {
     "SESSION1_WHAT_IS_STRATEGY": {
      "verdict": "manual",
-     "why": "submission_types none; deliverable was bringing examples to Sep 8 in-person class"
+     "why": "submission_types=none; deliverable was bringing examples to the Sep 8 class, no online path"
     },
     "STRAT_FINAL_EXAM": {
      "verdict": "manual",
-     "why": "Name is exam; syllabus lists in-person final exam, no online submission"
+     "why": "Requires the student in person."
     },
     "STRAT_MARKET_ENTRY_LAB": {
-     "verdict": "manual",
-     "why": "Team deliverable: one 3-5 minute video per team, teams of 4-5, physical product with a 6-digit HS code, and Zack's own iLabz account per member. He claimed a spot on 2026-11-11 and the group never replied, so he is not confirmed in a team and the agent cannot complete or upload it."
+     "verdict": "verify",
+     "why": "model called it automatable, but the item name or note needs a human call: Market Entry Strategy Assignment "
     }
    }
   }
