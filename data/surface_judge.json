@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T22:20:16.957324+00:00",
+ "generated_at": "2026-11-13T22:21:51.907802+00:00",
  "model": "opencode-go/deepseek-v4.1-flash",
  "repos": {
   "econ110-automation": {
@@ -12,7 +12,7 @@
     },
     "ECON_MEET_TA": {
      "verdict": "manual",
-     "why": "In-person TA lab in B090 JFSB; no online submission path, student must attend in the room"
+     "why": "In-person TA lab in B090 JFSB, no online submission path"
     }
    }
   },
@@ -22,11 +22,11 @@
    "verdicts": {
     "FIN_FINAL": {
      "verdict": "manual",
-     "why": "Testing Center final exam, verified in-person window Dec 12-17"
+     "why": "Requires the student in person."
     },
     "FIN_MIDTERM_3": {
      "verdict": "manual",
-     "why": "Testing Center exam with verified in-person window and late fee"
+     "why": "Requires the student in person."
     }
    }
   },
@@ -49,19 +49,98 @@
    }
   },
   "is515-automation": {
-   "detail": "ERROR:opencode/deepseek-v4.1-flash-free: timeout",
+   "detail": null,
    "judged": 2,
-   "verdicts": {}
+   "verdicts": {
+    "IS_EXAM2": {
+     "verdict": "manual",
+     "why": "Named exam; note says it must be taken by student in a quiet window (in-person requirement)"
+    },
+    "IS_PROJECT_PRESENT": {
+     "verdict": "manual",
+     "why": "In-class/TA presentation with sign-up; student must present in person"
+    }
+   }
   },
   "pse390-automation": {
-   "detail": "ERROR:opencode/deepseek-v4.1-flash-free: timeout",
+   "detail": null,
    "judged": 10,
-   "verdicts": {}
+   "verdicts": {
+    "PARTICIPATION_QUIZ_10_13_2": {
+     "verdict": "manual",
+     "why": "Named participation quiz; participation earned in class, upstream 404 blocked, never attempt"
+    },
+    "PARTICIPATION_QUIZ_11_03": {
+     "verdict": "manual",
+     "why": "Named participation quiz; participation is earned in class regardless of online_quiz tool"
+    },
+    "PARTICIPATION_QUIZ_11_12": {
+     "verdict": "manual",
+     "why": "Named participation quiz; participation is earned in class regardless of online_quiz tool"
+    },
+    "PARTICIPATION_QUIZ_11_17": {
+     "verdict": "manual",
+     "why": "Named participation quiz; participation is earned in class regardless of online_quiz tool"
+    },
+    "PARTICIPATION_QUIZ_11_19": {
+     "verdict": "manual",
+     "why": "Named participation quiz; participation is earned in class regardless of online_quiz tool"
+    },
+    "PARTICIPATION_QUIZ_11_24": {
+     "verdict": "manual",
+     "why": "Named participation quiz; participation is earned in class regardless of online_quiz tool"
+    },
+    "PARTICIPATION_QUIZ_12_01": {
+     "verdict": "manual",
+     "why": "Named participation quiz; participation is earned in class regardless of online_quiz tool"
+    },
+    "PARTICIPATION_QUIZ_12_03": {
+     "verdict": "manual",
+     "why": "Named participation quiz; participation is earned in class regardless of online_quiz tool"
+    },
+    "PARTICIPATION_QUIZ_12_08": {
+     "verdict": "manual",
+     "why": "Named participation quiz; participation is earned in class regardless of online_quiz tool"
+    },
+    "PARTICIPATION_QUIZ_12_10": {
+     "verdict": "manual",
+     "why": "Named participation quiz; participation is earned in class regardless of online_quiz tool"
+    }
+   }
   },
   "rel-c-333-automation": {
-   "detail": "ERROR:opencode/deepseek-v4.1-flash-free: timeout",
+   "detail": null,
    "judged": 7,
-   "verdicts": {}
+   "verdicts": {
+    "11_17_ATTENDANCE_CHECK": {
+     "verdict": "manual",
+     "why": "Named attendance check; attendance recorded in the classroom"
+    },
+    "11_19_ATTENDANCE_CHECK": {
+     "verdict": "manual",
+     "why": "Named attendance check; attendance recorded in the classroom"
+    },
+    "11_24_ATTENDANCE_CHECK": {
+     "verdict": "manual",
+     "why": "Named attendance check; attendance recorded in the classroom"
+    },
+    "12_10_ATTENDANCE_CHECK": {
+     "verdict": "manual",
+     "why": "Named attendance check; attendance recorded in the classroom"
+    },
+    "12_1_ATTENDANCE_CHECK": {
+     "verdict": "manual",
+     "why": "Named attendance check; attendance recorded in the classroom"
+    },
+    "12_3_ATTENDANCE_CHECK": {
+     "verdict": "manual",
+     "why": "Named attendance check; attendance recorded in the classroom"
+    },
+    "12_8_ATTENDANCE_CHECK": {
+     "verdict": "manual",
+     "why": "Named attendance check; attendance recorded in the classroom"
+    }
+   }
   },
   "strat392-automation": {
    "detail": null,
@@ -69,15 +148,15 @@
    "verdicts": {
     "SESSION1_WHAT_IS_STRATEGY": {
      "verdict": "manual",
-     "why": "submission_types=none; deliverable was bringing examples to in-person class, no online path"
+     "why": "No online submission; deliverable was bringing examples to in-person class"
     },
     "STRAT_FINAL_EXAM": {
      "verdict": "manual",
-     "why": "Requires the student in person."
+     "why": "Cumulative final exam administered in person during finals week"
     },
     "STRAT_MARKET_ENTRY_LAB": {
      "verdict": "manual",
-     "why": "Group on-camera video with physical product; needs team members' bodies, not automatable"
+     "why": "Group on-camera video with physical product; requires team presence"
     }
    }
   }
