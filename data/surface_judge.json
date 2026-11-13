@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T22:30:04.165886+00:00",
+ "generated_at": "2026-11-13T22:55:37.729126+00:00",
  "model": "opencode-go/deepseek-v4.1-flash",
  "repos": {
   "econ110-automation": {
@@ -8,11 +8,11 @@
    "verdicts": {
     "ECON_FINAL": {
      "verdict": "manual",
-     "why": "Testing Center exam requiring the student in person"
+     "why": "Requires the student in person."
     },
     "ECON_MEET_TA": {
      "verdict": "manual",
-     "why": "In-person TA lab in B090 JFSB, no online submission path"
+     "why": "In-person TA lab in B090 JFSB; no online submission path or tool, requires physical presence"
     }
    }
   },
@@ -40,7 +40,7 @@
     },
     "PROF_PERSPECTIVE_INTERVIEW": {
      "verdict": "manual",
-     "why": "Requires printed notes+summary brought to class for in-class peer check; physical artifact."
+     "why": "On-paper deliverable with printed notes/summary brought to class for in-class peer check; physical artifact + in person."
     },
     "SERVICE_PROJECT_PART_2_GROUP_ANALYSIS_AN": {
      "verdict": "verify",
@@ -54,11 +54,11 @@
    "verdicts": {
     "IS_EXAM2": {
      "verdict": "manual",
-     "why": "Named exam; timed take-home attempt must be taken by Zack himself"
+     "why": "Requires the student in person."
     },
     "IS_PROJECT_PRESENT": {
      "verdict": "manual",
-     "why": "In-class presentation to class/TA on Dec 9 with required sign-up"
+     "why": "In-class project presentation to TA with sign-up; student must physically present"
     }
    }
   },
@@ -68,43 +68,43 @@
    "verdicts": {
     "PARTICIPATION_QUIZ_10_13_2": {
      "verdict": "manual",
-     "why": "Named participation quiz; participation is earned in class, no online path"
+     "why": "Named participation quiz; participation earned in class, deleted upstream, never attempt"
     },
     "PARTICIPATION_QUIZ_11_03": {
      "verdict": "manual",
-     "why": "Named participation quiz; participation is earned in class despite online_quiz tool"
+     "why": "Named participation quiz; participation earned in class per rule"
     },
     "PARTICIPATION_QUIZ_11_12": {
      "verdict": "manual",
-     "why": "Named participation quiz; participation is earned in class despite online_quiz tool"
+     "why": "Named participation quiz; participation earned in class per rule"
     },
     "PARTICIPATION_QUIZ_11_17": {
      "verdict": "manual",
-     "why": "Named participation quiz; participation is earned in class despite online_quiz tool"
+     "why": "Named participation quiz; participation earned in class per rule"
     },
     "PARTICIPATION_QUIZ_11_19": {
      "verdict": "manual",
-     "why": "Named participation quiz; participation is earned in class despite online_quiz tool"
+     "why": "Named participation quiz; participation earned in class per rule"
     },
     "PARTICIPATION_QUIZ_11_24": {
      "verdict": "manual",
-     "why": "Named participation quiz; participation is earned in class despite online_quiz tool"
+     "why": "Named participation quiz; participation earned in class per rule"
     },
     "PARTICIPATION_QUIZ_12_01": {
      "verdict": "manual",
-     "why": "Named participation quiz; participation is earned in class despite online_quiz tool"
+     "why": "Named participation quiz; participation earned in class per rule"
     },
     "PARTICIPATION_QUIZ_12_03": {
      "verdict": "manual",
-     "why": "Named participation quiz; participation is earned in class despite online_quiz tool"
+     "why": "Named participation quiz; participation earned in class per rule"
     },
     "PARTICIPATION_QUIZ_12_08": {
      "verdict": "manual",
-     "why": "Named participation quiz; participation is earned in class despite online_quiz tool"
+     "why": "Named participation quiz; participation earned in class per rule"
     },
     "PARTICIPATION_QUIZ_12_10": {
      "verdict": "manual",
-     "why": "Named participation quiz; participation is earned in class despite online_quiz tool"
+     "why": "Named participation quiz; participation earned in class per rule"
     }
    }
   },
@@ -114,31 +114,31 @@
    "verdicts": {
     "11_17_ATTENDANCE_CHECK": {
      "verdict": "manual",
-     "why": "Named attendance check; attendance is recorded in the classroom"
+     "why": "Named attendance check; attendance is recorded in the classroom."
     },
     "11_19_ATTENDANCE_CHECK": {
      "verdict": "manual",
-     "why": "Named attendance check; attendance is recorded in the classroom"
+     "why": "Named attendance check; attendance is recorded in the classroom."
     },
     "11_24_ATTENDANCE_CHECK": {
      "verdict": "manual",
-     "why": "Named attendance check; attendance is recorded in the classroom"
+     "why": "Named attendance check; attendance is recorded in the classroom."
     },
     "12_10_ATTENDANCE_CHECK": {
      "verdict": "manual",
-     "why": "Named attendance check; attendance is recorded in the classroom"
+     "why": "Named attendance check; attendance is recorded in the classroom."
     },
     "12_1_ATTENDANCE_CHECK": {
      "verdict": "manual",
-     "why": "Named attendance check; attendance is recorded in the classroom"
+     "why": "Named attendance check; attendance is recorded in the classroom."
     },
     "12_3_ATTENDANCE_CHECK": {
      "verdict": "manual",
-     "why": "Named attendance check; attendance is recorded in the classroom"
+     "why": "Named attendance check; attendance is recorded in the classroom."
     },
     "12_8_ATTENDANCE_CHECK": {
      "verdict": "manual",
-     "why": "Named attendance check; attendance is recorded in the classroom"
+     "why": "Named attendance check; attendance is recorded in the classroom."
     }
    }
   },
@@ -152,11 +152,11 @@
     },
     "STRAT_FINAL_EXAM": {
      "verdict": "manual",
-     "why": "In-person cumulative final exam per university final schedule"
+     "why": "Requires the student in person."
     },
     "STRAT_MARKET_ENTRY_LAB": {
      "verdict": "manual",
-     "why": "Group on-camera video with physical product requires team/student bodies, not automatable"
+     "why": "Requires team on-camera video and physical product; body/group artifact work"
     }
    }
   }
