@@ -140,8 +140,38 @@ def main():
     else:
         errors.append({"heartbeat": hb.get("_error", "unreadable")})
 
+    # The healer itself (2026-11-13). Its runs failed or timed out all
+    # afternoon after the spare took over, yet the banner said healthy: the
+    # repo had a success earlier that day, so the 30h staleness rule never
+    # fired. Look at the healer's own recent conclusions, and at whether its
+    # model calls silently fell back to the free model (a stale login did that).
+    healer = {"recent": [], "consecutive_failures": 0, "fallback_calls": None}
+    hr = get("https://api.github.com/repos/%s/school-healer/actions/workflows/"
+             "healer.yml/runs?status=completed&per_page=5" % OWNER)
+    for r in (hr.get("workflow_runs") or []):
+        healer["recent"].append({"at": r.get("created_at"),
+                                 "conclusion": r.get("conclusion")})
+    for r in healer["recent"]:
+        if r["conclusion"] == "success":
+            break
+        healer["consecutive_failures"] += 1
+    sj = get("https://api.github.com/repos/%s/school-dashboard/contents/"
+             "data/surface_judge.json" % OWNER)
+    if "content" in sj:
+        try:
+            import base64
+            j = json.loads(base64.b64decode(sj["content"]).decode("utf-8", "replace"))
+            healer["fallback_calls"] = j.get("fallback_calls")
+            healer["fallback_reason"] = j.get("fallback_reason")
+            healer["judge_at"] = j.get("generated_at")
+        except Exception as e:
+            errors.append({"surface_judge": str(e)[:80]})
+    healer_ok = (healer["consecutive_failures"] < 2
+                 and not (healer["fallback_calls"] or 0))
+
     out = {
         "generated": now.strftime("%Y-%m-%dT%H:%MZ"),
+        "healer": healer,
         "runners_online": (None if unverified and online_total == 0 else online_total),
         "runners_checked": len(REPOS),
         "unverified_repos": unverified,
@@ -150,7 +180,7 @@ def main():
         "stale_repos": stale,
         "heartbeat": heartbeat,
         "errors": errors,
-        "healthy": bool(not offline and not stale
+        "healthy": bool(not offline and not stale and healer_ok
                         and (heartbeat.get("age_hours") is None
                              or heartbeat.get("age_hours", 99) < 1)),
     }

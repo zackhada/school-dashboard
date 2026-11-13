@@ -463,6 +463,9 @@ Promise.all(REPOS.map(function(pair){
     if (asleep) bits.push('spare Mac silent for ' + Math.round(age) + ' hours');
     if (hb.free_gb) bits.push('free disk ' + hb.free_gb + ' GB');
     if (hb.bridge === false) bits.push('SMS bridge down');
+    var hl = h.healer || {};
+    if ((hl.consecutive_failures || 0) >= 2) bits.push('healer failed its last ' + hl.consecutive_failures + ' runs');
+    if (hl.fallback_calls) bits.push('AI fell back to the free model (' + hl.fallback_calls + ' calls)');
     var stale = (h.stale_repos || []);
     var msg = ok ? 'Automation healthy'
                  : (asleep ? 'Waiting for the spare Mac to wake' : 'Automation needs a look');
