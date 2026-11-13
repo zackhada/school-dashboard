@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T06:49Z",
+ "generated": "2026-11-13T19:44Z",
  "runners_online": 9,
  "runners_checked": 9,
  "unverified_repos": [],
@@ -7,10 +7,10 @@
  "queued_runs": 1,
  "stale_repos": [],
  "heartbeat": {
-  "ts": "2026-11-12T23:48:06-07:00",
-  "age_hours": 0.0,
-  "free_gb": "128",
-  "bridge": false,
+  "ts": "2026-11-13T12:41:09",
+  "age_hours": 0.1,
+  "free_gb": "11",
+  "bridge": true,
   "guard": "up"
  },
  "errors": [],

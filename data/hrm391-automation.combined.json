@@ -58,7 +58,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Requires printed notes and summary brought to class for in-class peer check; physical artifact."
+    "why": "Printed notes/summary must be brought to class for in-person in-class peer check."
    },
    "optional_ec": false,
    "surface": true,
@@ -432,5 +432,5 @@
   "final_score": 64.97,
   "final_grade": "D"
  },
- "built_at": "2026-11-13T06:50:07.551180+00:00"
+ "built_at": "2026-11-13T19:45:10.306058+00:00"
 }
