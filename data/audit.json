@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12",
+ "generated": "2026-11-13",
  "missed": [],
  "exam_windows": [
   {
@@ -114,19 +114,19 @@
  ],
  "closing_soon": [
   {
-   "course": "PSE 390",
-   "assignment": "Participation Quiz 11.12",
-   "due": "2026-11-12",
-   "points": 3.0,
-   "canvas_id": 1511340,
+   "course": "IS 515",
+   "assignment": "17.9 Importing and Cleaning Data Assessment",
+   "due": "2026-11-16",
+   "points": 20.0,
+   "canvas_id": 1452618,
    "deadline_kind": "due",
-   "owner": "zack",
+   "owner": "agent",
    "covered": true,
-   "ledger_key": "PARTICIPATION_QUIZ_11_12",
-   "ledger_status": "blocked_inperson"
+   "ledger_key": "IS_CLEAN",
+   "ledger_status": "pending"
   }
  ],
  "ledger_gaps": [],
- "testing_center_error": "login failed",
+ "testing_center_error": "testing-center-not-available-here (No module named 'testing_center')",
  "exam_windows_source": "registry"
 }
