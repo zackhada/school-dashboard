@@ -1,7 +1,7 @@
 {
  "fallback_calls": 0,
  "fallback_reason": null,
- "generated_at": "2026-11-13T23:26:49.007632+00:00",
+ "generated_at": "2026-11-13T23:47:37.859672+00:00",
  "model": "opencode-go/deepseek-v4.1-flash",
  "models_used": {
   "opencode-go/deepseek-v4.1-flash": 7
@@ -13,11 +13,11 @@
    "verdicts": {
     "ECON_FINAL": {
      "verdict": "manual",
-     "why": "Testing Center final; requires the student in person"
+     "why": "Testing Center exam; requires student in person, no online path."
     },
     "ECON_MEET_TA": {
      "verdict": "manual",
-     "why": "In-person TA lab in B090 JFSB; no online submission path"
+     "why": "In-person TA lab in B090 JFSB; no online submission path or tool."
     }
    }
   },
@@ -45,11 +45,11 @@
     },
     "PROF_PERSPECTIVE_INTERVIEW": {
      "verdict": "manual",
-     "why": "On-paper interview notes and summary must be printed and brought to class for in-person peer check"
+     "why": "On-paper: printed notes+summary brought to class for in-person peer check."
     },
     "SERVICE_PROJECT_PART_2_GROUP_ANALYSIS_AN": {
-     "verdict": "manual",
-     "why": "Service project requires members' physical presence for 6 person-hours at Cove Point facility"
+     "verdict": "verify",
+     "why": "model called it automatable, but the item name or note needs a human call: Service Project\u2014Part 2: Group Analysis and Individual Reflec"
     }
    }
   },
@@ -59,11 +59,11 @@
    "verdicts": {
     "IS_EXAM2": {
      "verdict": "manual",
-     "why": "Named Exam 2; comprehensive timed exam \u2014 hard rule: exams are manual even with a quiz tool box"
+     "why": "Named Exam 2; note states Zack takes it manually in a quiet window, comprehensive and not collaborative."
     },
     "IS_PROJECT_PRESENT": {
      "verdict": "manual",
-     "why": "In-class presentation to instructor/TA Dec 9; student must present in person"
+     "why": "In-class project presentation with TA sign-up; Zack must present in person."
     }
    }
   },
@@ -73,43 +73,43 @@
    "verdicts": {
     "PARTICIPATION_QUIZ_10_13_2": {
      "verdict": "manual",
-     "why": "Named participation quiz; participation is earned in class regardless of tool/deletion state"
+     "why": "Named participation quiz; participation earned in class, no automatable path (404 upstream)"
     },
     "PARTICIPATION_QUIZ_11_03": {
      "verdict": "manual",
-     "why": "Named participation quiz; participation is earned in class, not an online submission"
+     "why": "Named participation quiz; participation is earned in class regardless of online_quiz tool"
     },
     "PARTICIPATION_QUIZ_11_12": {
      "verdict": "manual",
-     "why": "Named participation quiz; participation is earned in class, not an online submission"
+     "why": "Named participation quiz; participation is earned in class regardless of online_quiz tool"
     },
     "PARTICIPATION_QUIZ_11_17": {
      "verdict": "manual",
-     "why": "Named participation quiz; participation is earned in class, not an online submission"
+     "why": "Named participation quiz; participation is earned in class regardless of online_quiz tool"
     },
     "PARTICIPATION_QUIZ_11_19": {
      "verdict": "manual",
-     "why": "Named participation quiz; participation is earned in class, not an online submission"
+     "why": "Named participation quiz; participation is earned in class regardless of online_quiz tool"
     },
     "PARTICIPATION_QUIZ_11_24": {
      "verdict": "manual",
-     "why": "Named participation quiz; participation is earned in class, not an online submission"
+     "why": "Named participation quiz; participation is earned in class regardless of online_quiz tool"
     },
     "PARTICIPATION_QUIZ_12_01": {
      "verdict": "manual",
-     "why": "Named participation quiz; participation is earned in class, not an online submission"
+     "why": "Named participation quiz; participation is earned in class regardless of online_quiz tool"
     },
     "PARTICIPATION_QUIZ_12_03": {
      "verdict": "manual",
-     "why": "Named participation quiz; participation is earned in class, not an online submission"
+     "why": "Named participation quiz; participation is earned in class regardless of online_quiz tool"
     },
     "PARTICIPATION_QUIZ_12_08": {
      "verdict": "manual",
-     "why": "Named participation quiz; participation is earned in class, not an online submission"
+     "why": "Named participation quiz; participation is earned in class regardless of online_quiz tool"
     },
     "PARTICIPATION_QUIZ_12_10": {
      "verdict": "manual",
-     "why": "Named participation quiz; participation is earned in class, not an online submission"
+     "why": "Named participation quiz; participation is earned in class regardless of online_quiz tool"
     }
    }
   },
@@ -153,15 +153,15 @@
    "verdicts": {
     "SESSION1_WHAT_IS_STRATEGY": {
      "verdict": "manual",
-     "why": "submission_types=none; deliverable was bringing examples to Sep 8 class, no online path"
+     "why": "No online submission; deliverable was bringing examples to the Sep 8 class."
     },
     "STRAT_FINAL_EXAM": {
      "verdict": "manual",
-     "why": "Requires the student in person."
+     "why": "Cumulative final exam taken in person per university final schedule."
     },
     "STRAT_MARKET_ENTRY_LAB": {
      "verdict": "manual",
-     "why": "Requires on-camera group video and physical product, not just online submission"
+     "why": "Requires team on-camera video and physical product; group presentation, not solo submission."
     }
    }
   }
