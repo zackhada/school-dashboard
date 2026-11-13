@@ -466,6 +466,9 @@ Promise.all(REPOS.map(function(pair){
     var hl = h.healer || {};
     if ((hl.consecutive_failures || 0) >= 2) bits.push('healer failed its last ' + hl.consecutive_failures + ' runs');
     if (hl.fallback_calls) bits.push('AI fell back to the free model (' + hl.fallback_calls + ' calls)');
+    var st = h.selftest || {};
+    if (st.ok === false) bits.push('self-test: ' + (st.problems || []).map(function(p){ return p.check + ' (' + p.detail + ')'; }).join('; '));
+    if (st.age_hours !== undefined && st.age_hours !== null && st.age_hours >= 16) bits.push('self-test silent for ' + Math.round(st.age_hours) + 'h');
     var stale = (h.stale_repos || []);
     var msg = ok ? 'Automation healthy'
                  : (asleep ? 'Waiting for the spare Mac to wake' : 'Automation needs a look');

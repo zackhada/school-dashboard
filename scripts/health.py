@@ -166,12 +166,34 @@ def main():
             healer["judge_at"] = j.get("generated_at")
         except Exception as e:
             errors.append({"surface_judge": str(e)[:80]})
-    healer_ok = (healer["consecutive_failures"] < 2
+    # End-to-end self-test of the active Mac (school-healer/scripts/selftest.py,
+    # every 2h outside quiet hours). Unresolved problems, or no report for 16h
+    # (longer than the 12h quiet window), make the banner amber.
+    st = get("https://api.github.com/repos/%s/school-healer/contents/"
+             ".state/selftest.json" % OWNER)
+    selftest = {"ok": None}
+    if "content" in st:
+        try:
+            import base64
+            j = json.loads(base64.b64decode(st["content"]).decode("utf-8", "replace"))
+            ts = parse_ts(j.get("ts"))
+            selftest = {"ok": j.get("ok"), "host": j.get("host"), "ts": j.get("ts"),
+                        "age_hours": round((now - ts).total_seconds() / 3600, 1) if ts else None,
+                        "problems": [{"check": p.get("check"), "detail": p.get("detail")}
+                                     for p in (j.get("problems") or [])],
+                        "fixed": [{"check": f.get("check"), "fixed": f.get("fixed")}
+                                  for f in (j.get("fixed") or [])]}
+        except Exception as e:
+            errors.append({"selftest": str(e)[:80]})
+    selftest_ok = (selftest.get("ok") is not False
+                   and (selftest.get("age_hours") is None or selftest["age_hours"] < 16))
+    healer_ok = selftest_ok and (healer["consecutive_failures"] < 2
                  and not (healer["fallback_calls"] or 0))
 
     out = {
         "generated": now.strftime("%Y-%m-%dT%H:%MZ"),
         "healer": healer,
+        "selftest": selftest,
         "runners_online": (None if unverified and online_total == 0 else online_total),
         "runners_checked": len(REPOS),
         "unverified_repos": unverified,
