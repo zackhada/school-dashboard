@@ -583,7 +583,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "In-class/TA presentation with sign-up; student must present in person"
+    "why": "In-class presentation to instructor/TA Dec 9; student must present in person"
    },
    "optional_ec": false,
    "surface": true,
@@ -616,7 +616,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Named Exam 2; exam items are manual per rule, and note says student takes it personally"
+    "why": "Named Exam 2; comprehensive timed exam \u2014 hard rule: exams are manual even with a quiz tool box"
    },
    "optional_ec": false,
    "surface": true,
@@ -633,5 +633,5 @@
   "final_score": 50.69,
   "final_grade": "E"
  },
- "built_at": "2026-11-13T19:45:10.440202+00:00"
+ "built_at": "2026-11-13T23:41:23.893661+00:00"
 }
