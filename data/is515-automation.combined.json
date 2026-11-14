@@ -583,7 +583,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "In-class presentation; Zack must present in person or to a TA, so it requires his body."
+    "why": "In-class project presentation Dec 9, student must present in person"
    },
    "optional_ec": false,
    "surface": true,
@@ -633,5 +633,5 @@
   "final_score": 50.69,
   "final_grade": "E"
  },
- "built_at": "2026-11-14T18:07:05.628020+00:00"
+ "built_at": "2026-11-14T22:34:18.831239+00:00"
 }
