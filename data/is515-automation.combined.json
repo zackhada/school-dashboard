@@ -583,7 +583,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "In-class presentation to instructor/TA Dec 9; student must present in person"
+    "why": "In-class presentation Zack must deliver to class or TA; no online submission path."
    },
    "optional_ec": false,
    "surface": true,
@@ -616,7 +616,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Named Exam 2; comprehensive timed exam \u2014 hard rule: exams are manual even with a quiz tool box"
+    "why": "Name is an exam; rule makes exams manual even with a quiz tool box, and note says Zack takes it himself."
    },
    "optional_ec": false,
    "surface": true,
@@ -633,5 +633,5 @@
   "final_score": 50.69,
   "final_grade": "E"
  },
- "built_at": "2026-11-13T23:41:23.893661+00:00"
+ "built_at": "2026-11-14T01:25:22.322219+00:00"
 }

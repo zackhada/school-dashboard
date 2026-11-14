@@ -514,7 +514,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Requires on-camera group video and physical product, not just online submission"
+    "why": "Group on-camera video of physical product; requires team participation and iLabz accounts."
    },
    "optional_ec": false,
    "surface": true,
@@ -622,7 +622,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Requires the student in person."
+    "why": "Cumulative final exam held in person during university finals week."
    },
    "optional_ec": false,
    "surface": true,
@@ -654,5 +654,5 @@
   "final_score": 68.6,
   "final_grade": "D+"
  },
- "built_at": "2026-11-13T23:41:23.670831+00:00"
+ "built_at": "2026-11-14T01:25:22.108835+00:00"
 }

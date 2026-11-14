@@ -1231,7 +1231,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Named attendance check; attendance is recorded in the classroom"
+    "why": "Named attendance check; attendance recorded in the classroom"
    },
    "optional_ec": false,
    "surface": true,
@@ -1294,7 +1294,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Named attendance check; attendance is recorded in the classroom"
+    "why": "Named attendance check; attendance recorded in the classroom"
    },
    "optional_ec": false,
    "surface": true,
@@ -1357,7 +1357,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Named attendance check; attendance is recorded in the classroom"
+    "why": "Named attendance check; attendance recorded in the classroom"
    },
    "optional_ec": false,
    "surface": true,
@@ -1390,7 +1390,7 @@
    "needs_excerpt": "In person (unchanged):\n- Attendance Checks (10pts each) on 10/13, 10/15, 10/20, 10/22, 10/27, 10/29, 11/3, 11/5, 11/10, 11/12, 11/17, 11/19, 11/24, 12/1, 12/3, 12/8, 12/10: in-class LTI checks TTh 12:00-12:50pm.\n- Prophet Group Project (Canvas 1468925, 100pts, in-class Tue 10/13, slides due Mon 10/12 11:59pm): group presents in class.",
    "judge": {
     "verdict": "manual",
-    "why": "Named attendance check; attendance is recorded in the classroom"
+    "why": "Named attendance check; attendance recorded in the classroom"
    },
    "optional_ec": false,
    "surface": true,
@@ -1453,7 +1453,7 @@
    "needs_excerpt": "In person (unchanged):\n- Attendance Checks (10pts each) on 10/13, 10/15, 10/20, 10/22, 10/27, 10/29, 11/3, 11/5, 11/10, 11/12, 11/17, 11/19, 11/24, 12/1, 12/3, 12/8, 12/10: in-class LTI checks TTh 12:00-12:50pm.\n- Prophet Group Project (Canvas 1468925, 100pts, in-class Tue 10/13, slides due Mon 10/12 11:59pm): group presents in class.",
    "judge": {
     "verdict": "manual",
-    "why": "Named attendance check; attendance is recorded in the classroom"
+    "why": "Named attendance check; attendance recorded in the classroom"
    },
    "optional_ec": false,
    "surface": true,
@@ -1486,7 +1486,7 @@
    "needs_excerpt": "In person (unchanged):\n- Attendance Checks (10pts each) on 10/13, 10/15, 10/20, 10/22, 10/27, 10/29, 11/3, 11/5, 11/10, 11/12, 11/17, 11/19, 11/24, 12/1, 12/3, 12/8, 12/10: in-class LTI checks TTh 12:00-12:50pm.\n- Prophet Group Project (Canvas 1468925, 100pts, in-class Tue 10/13, slides due Mon 10/12 11:59pm): group presents in class.",
    "judge": {
     "verdict": "manual",
-    "why": "Named attendance check; attendance is recorded in the classroom"
+    "why": "Named attendance check; attendance recorded in the classroom"
    },
    "optional_ec": false,
    "surface": true,
@@ -1585,7 +1585,7 @@
    "needs_excerpt": "In person (unchanged):\n- Attendance Checks (10pts each) on 10/13, 10/15, 10/20, 10/22, 10/27, 10/29, 11/3, 11/5, 11/10, 11/12, 11/17, 11/19, 11/24, 12/1, 12/3, 12/8, 12/10: in-class LTI checks TTh 12:00-12:50pm.\n- Prophet Group Project (Canvas 1468925, 100pts, in-class Tue 10/13, slides due Mon 10/12 11:59pm): group presents in class.",
    "judge": {
     "verdict": "manual",
-    "why": "Named attendance check; attendance is recorded in the classroom"
+    "why": "Named attendance check; attendance recorded in the classroom"
    },
    "optional_ec": false,
    "surface": true,
@@ -1602,5 +1602,5 @@
   "final_score": 72.61,
   "final_grade": "C-"
  },
- "built_at": "2026-11-13T23:41:23.785533+00:00"
+ "built_at": "2026-11-14T01:25:22.217083+00:00"
 }
