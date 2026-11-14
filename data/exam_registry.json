@@ -87,8 +87,8 @@
    "start": "2026-10-30T09:00:00",
    "end": "2026-10-30T09:30:00",
    "location": "",
-   "status": "recovery",
-   "note": "With the midterm at zero and a 60% final, STRAT lands near 61.6% (D-). Dropping below 60% means an E and zero credits, which breaks the 126 credit total. The remaining 190 points are the 8 reading quizzes, the Market Entry Lab (60) and the Strategy Journal (50). Holding 84% or better on those keeps the course at a D- or better.",
+   "status": "done",
+   "note": "With the midterm at zero and a 60% final, STRAT lands near 61.6% (D-). Dropping below 60% means an E and zero credits, which breaks the 126 credit total. The remaining 190 points are the 8 reading quizzes, the Market Entry Lab (60) and the Strategy Journal (50). Holding 84% or better on those keeps the course at a D- or better. RESOLVED 2026-11-14: midterm graded 121/150; STRAT is at 89.4% (B+), so the E risk is gone. Cleared at Zack's request.",
    "source": "STRAT syllabus point breakdown; math in AGENTS.md 2026-10-26",
    "kind": "task"
   },
