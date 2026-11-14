@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13",
+ "generated": "2026-11-14",
  "missed": [],
  "exam_windows": [
   {
@@ -124,6 +124,54 @@
    "covered": true,
    "ledger_key": "IS_CLEAN",
    "ledger_status": "pending"
+  },
+  {
+   "course": "PSE 390",
+   "assignment": "Participation Quiz 11.17",
+   "due": "2026-11-17",
+   "points": 3.0,
+   "canvas_id": 1511341,
+   "deadline_kind": "due",
+   "owner": "zack",
+   "covered": true,
+   "ledger_key": "PARTICIPATION_QUIZ_11_17",
+   "ledger_status": "blocked_inperson"
+  },
+  {
+   "course": "REL C 333",
+   "assignment": "11/17 - Attendance Check",
+   "due": "2026-11-17",
+   "points": 10.0,
+   "canvas_id": 1466170,
+   "deadline_kind": "due",
+   "owner": "zack",
+   "covered": true,
+   "ledger_key": "11_17_ATTENDANCE_CHECK",
+   "ledger_status": "blocked_inperson"
+  },
+  {
+   "course": "STRAT 392",
+   "assignment": "Disruption \u2014 Reading Quiz",
+   "due": "2026-11-17",
+   "points": 10.0,
+   "canvas_id": 1513158,
+   "deadline_kind": "due",
+   "owner": "agent",
+   "covered": true,
+   "ledger_key": "DISRUPTION_READING_QUIZ",
+   "ledger_status": "pending"
+  },
+  {
+   "course": "STRAT 392",
+   "assignment": "Market Entry Strategy Assignment ",
+   "due": "2026-11-17",
+   "points": 60.0,
+   "canvas_id": 1519226,
+   "deadline_kind": "due",
+   "owner": "zack",
+   "covered": true,
+   "ledger_key": "STRAT_MARKET_ENTRY_LAB",
+   "ledger_status": "blocked_inperson"
   }
  ],
  "ledger_gaps": [],

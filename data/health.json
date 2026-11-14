@@ -1,5 +1,46 @@
 {
- "generated": "2026-11-13T19:44Z",
+ "generated": "2026-11-14T06:28Z",
+ "healer": {
+  "recent": [
+   {
+    "at": "2026-11-13T23:52:24Z",
+    "conclusion": "success"
+   },
+   {
+    "at": "2026-11-13T23:44:25Z",
+    "conclusion": "success"
+   },
+   {
+    "at": "2026-11-13T23:23:14Z",
+    "conclusion": "success"
+   },
+   {
+    "at": "2026-11-13T22:52:15Z",
+    "conclusion": "success"
+   },
+   {
+    "at": "2026-11-13T22:24:09Z",
+    "conclusion": "success"
+   }
+  ],
+  "consecutive_failures": 0,
+  "fallback_calls": 0,
+  "fallback_reason": null,
+  "judge_at": "2026-11-13T23:55:41.676469+00:00"
+ },
+ "selftest": {
+  "ok": false,
+  "host": "spare",
+  "ts": "2026-11-13T21:26:41-07:00",
+  "age_hours": 2.0,
+  "problems": [
+   {
+    "check": "run_health",
+    "detail": "consecutive failures: is515 x2"
+   }
+  ],
+  "fixed": []
+ },
  "runners_online": 9,
  "runners_checked": 9,
  "unverified_repos": [],
@@ -7,12 +48,12 @@
  "queued_runs": 1,
  "stale_repos": [],
  "heartbeat": {
-  "ts": "2026-11-13T12:41:09",
+  "ts": "2026-11-13T23:24:49",
   "age_hours": 0.1,
-  "free_gb": "11",
+  "free_gb": "17",
   "bridge": true,
   "guard": "up"
  },
  "errors": [],
- "healthy": true
+ "healthy": false
 }
