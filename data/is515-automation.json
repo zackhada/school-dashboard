@@ -105,9 +105,9 @@
   },
   {
    "key": "IS_CLEAN",
-   "status": "pending",
+   "status": "done",
    "date": "2026-11-16",
-   "note": "# 17.9 Importing and Cleaning Data Assessment, 20pts, MyEducator"
+   "note": "# 17.9 Importing and Cleaning Data Assessment, Canvas 1452618, 20pts, MyEducator. 20/20 (100%), attempt 1, submitted 2026-11-15T03:57:28Z, graded 03:57:29Z, Canvas workflow_state graded, on time (late=false). Ledger reconciled 2026-11-14 (submission landed from an interrupted run that died before committing the row); no resubmit used."
   },
   {
    "key": "IS_VBA",
