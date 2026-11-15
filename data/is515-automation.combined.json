@@ -583,7 +583,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "In-class project presentation Dec 9, student must present in person"
+    "why": "In-class course project presentation to instructor/TA, student must present in person."
    },
    "optional_ec": false,
    "surface": true,
@@ -616,7 +616,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Requires the student in person."
+    "why": "Named exam, comprehensive take-home; course rule makes any exam item manual despite external_tool quiz tool."
    },
    "optional_ec": false,
    "surface": true,
@@ -633,5 +633,5 @@
   "final_score": 50.69,
   "final_grade": "E"
  },
- "built_at": "2026-11-15T18:53:23.590367+00:00"
+ "built_at": "2026-11-15T22:58:09.469877+00:00"
 }
