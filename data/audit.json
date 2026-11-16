@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15",
+ "generated": "2026-11-16",
  "missed": [],
  "exam_windows": [
   {
@@ -126,6 +126,18 @@
    "ledger_status": "blocked_inperson"
   },
   {
+   "course": "PSE 390",
+   "assignment": "Participation Quiz 11.19",
+   "due": "2026-11-19",
+   "points": 3.0,
+   "canvas_id": 1511342,
+   "deadline_kind": "due",
+   "owner": "zack",
+   "covered": true,
+   "ledger_key": "PARTICIPATION_QUIZ_11_19",
+   "ledger_status": "blocked_inperson"
+  },
+  {
    "course": "REL C 333",
    "assignment": "11/17 - Attendance Check",
    "due": "2026-11-17",
@@ -136,6 +148,30 @@
    "covered": true,
    "ledger_key": "11_17_ATTENDANCE_CHECK",
    "ledger_status": "blocked_inperson"
+  },
+  {
+   "course": "REL C 333",
+   "assignment": "11/19 - Attendance Check",
+   "due": "2026-11-19",
+   "points": 10.0,
+   "canvas_id": 1466171,
+   "deadline_kind": "due",
+   "owner": "zack",
+   "covered": true,
+   "ledger_key": "11_19_ATTENDANCE_CHECK",
+   "ledger_status": "blocked_inperson"
+  },
+  {
+   "course": "STRAT 392",
+   "assignment": "Strategic Alignment \u2014 Reading Quiz",
+   "due": "2026-11-19",
+   "points": 10.0,
+   "canvas_id": 1513162,
+   "deadline_kind": "due",
+   "owner": "agent",
+   "covered": true,
+   "ledger_key": "STRATEGIC_ALIGNMENT_READING_QUIZ",
+   "ledger_status": "pending"
   },
   {
    "course": "STRAT 392",
