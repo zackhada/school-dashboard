@@ -1,7 +1,11 @@
 {
- "generated": "2026-11-16T22:07Z",
+ "generated": "2026-11-17T07:57Z",
  "healer": {
   "recent": [
+   {
+    "at": "2026-11-17T01:04:02Z",
+    "conclusion": "success"
+   },
    {
     "at": "2026-11-15T22:04:24Z",
     "conclusion": "success"
@@ -17,22 +21,18 @@
    {
     "at": "2026-11-14T17:11:03Z",
     "conclusion": "success"
-   },
-   {
-    "at": "2026-11-14T17:09:39Z",
-    "conclusion": "success"
    }
   ],
   "consecutive_failures": 0,
   "fallback_calls": 0,
   "fallback_reason": null,
-  "judge_at": "2026-11-15T22:07:32.389261+00:00"
+  "judge_at": "2026-11-17T01:07:11.378240+00:00"
  },
  "selftest": {
   "ok": true,
   "host": "spare",
-  "ts": "2026-11-16T14:52:10-07:00",
-  "age_hours": 0.3,
+  "ts": "2026-11-16T21:37:01-07:00",
+  "age_hours": 3.3,
   "problems": [],
   "fixed": []
  },
@@ -43,9 +43,9 @@
  "queued_runs": 1,
  "stale_repos": [],
  "heartbeat": {
-  "ts": "2026-11-16T15:03:07",
-  "age_hours": 0.1,
-  "free_gb": "15",
+  "ts": "2026-11-17T00:55:05",
+  "age_hours": 0.0,
+  "free_gb": "16",
   "bridge": true,
   "guard": "up"
  },

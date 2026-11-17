@@ -1,15 +1,7 @@
 {
- "generated": "2026-11-16",
+ "generated": "2026-11-17",
  "missed": [],
  "exam_windows": [
-  {
-   "course": "FIN 201",
-   "test": "FIN 201 Test 3 (Testing Center)",
-   "opens": "Nov 13, 2026 08:00 AM",
-   "closes": "Nov 16, 2026 06:00 PM",
-   "score": "",
-   "source": "registry"
-  },
   {
    "course": "HRM 391",
    "test": "HRM 391 Exam 3 (Canvas, Proctorio)",
@@ -106,8 +98,22 @@
   },
   {
    "course": "ECON 110",
+   "assignment": "Mankiw Bonus #8 (Extra Credit)",
+   "due": "2026-11-09",
+   "points": 6.0,
+   "score": 0.0
+  },
+  {
+   "course": "ECON 110",
    "assignment": "NE - Quiz #2",
    "due": "2026-09-18",
+   "points": 5.0,
+   "score": 0.0
+  },
+  {
+   "course": "ECON 110",
+   "assignment": "NE - Quiz #9",
+   "due": "2026-11-09",
    "points": 5.0,
    "score": 0.0
   }
@@ -160,18 +166,6 @@
    "covered": true,
    "ledger_key": "11_19_ATTENDANCE_CHECK",
    "ledger_status": "blocked_inperson"
-  },
-  {
-   "course": "STRAT 392",
-   "assignment": "Strategic Alignment \u2014 Reading Quiz",
-   "due": "2026-11-19",
-   "points": 10.0,
-   "canvas_id": 1513162,
-   "deadline_kind": "due",
-   "owner": "agent",
-   "covered": true,
-   "ledger_key": "STRATEGIC_ALIGNMENT_READING_QUIZ",
-   "ledger_status": "pending"
   },
   {
    "course": "STRAT 392",
