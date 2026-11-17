@@ -522,7 +522,7 @@
   },
   {
    "key": "STRATEGIC_ALIGNMENT_READING_QUIZ",
-   "status": "pending",
+   "status": "done",
    "date": "2026-11-19",
    "note": "# Canvas 1513162, 10pt, Strategic Alignment Reading Quiz; online New Quizzes (no lockdown/access code), reclassified from blocked_inperson 2026-10-21",
    "title": "Strategic Alignment Reading Quiz; online New Quizzes (no lockdown/access code), reclassified from blocked_inperson 2026-10-21",
@@ -630,9 +630,9 @@
   },
   {
    "key": "STRATEGY_JOURNAL",
-   "status": "pending",
+   "status": "blocked_ask_zack",
    "date": "2026-12-15",
-   "note": "# Syllabus: Strategy Journal, 50 pts, due last day of class (Session 28, Tue Dec 15). Syllabus-only, not a Canvas assignment yet. Personal entries, Zack's own voice: confirm with Zack before drafting, do not auto-write. Date field corrected 2026-11-02 (prior runs only edited the note; the field still read 2026-09-09, so the guard kept treating it as 7 weeks overdue and bypassed the 3-day window).",
+   "note": "# Syllabus: Strategy Journal, 50 pts, due last day of class (Session 28, Tue Dec 15). NOW LIVE 2026-11-16 as two Canvas upload items: 1524494 Strategy Journal 1 (25pt) + 1524497 Strategy Journal 2 (25pt), both due 2026-12-16T06:59:59Z (Dec 15 local). Personal entries in Zack's own voice: confirm with Zack before drafting, never auto-write. This placeholder row is superseded by the two ID rows below; kept so the history is not deleted.",
    "title": "Syllabus: Strategy Journal",
    "grade": null,
    "drift": false,
@@ -640,8 +640,38 @@
    "needs_excerpt": null,
    "judge": null,
    "optional_ec": false,
-   "surface": false,
-   "actionable": false
+   "surface": true,
+   "actionable": true
+  },
+  {
+   "key": "STRATEGY_JOURNAL_1",
+   "status": "blocked_ask_zack",
+   "date": "2026-12-15",
+   "note": "# Canvas 1524494, 25pt online_upload, Strategy Journal 1, due 2026-12-16T06:59:59Z (Dec 15 local). Personal reflection, Zack's own voice; ask Zack before drafting, never auto-write.",
+   "title": "Canvas 1524494, online_upload, Strategy Journal 1",
+   "grade": null,
+   "drift": false,
+   "needs_zack": false,
+   "needs_excerpt": null,
+   "judge": null,
+   "optional_ec": false,
+   "surface": true,
+   "actionable": true
+  },
+  {
+   "key": "STRATEGY_JOURNAL_2",
+   "status": "blocked_ask_zack",
+   "date": "2026-12-15",
+   "note": "# Canvas 1524497, 25pt online_upload, Strategy Journal 2, due 2026-12-16T06:59:59Z (Dec 15 local). Personal reflection, Zack's own voice; ask Zack before drafting, never auto-write.",
+   "title": "Canvas 1524497, online_upload, Strategy Journal 2",
+   "grade": null,
+   "drift": false,
+   "needs_zack": false,
+   "needs_excerpt": null,
+   "judge": null,
+   "optional_ec": false,
+   "surface": true,
+   "actionable": true
   }
  ],
  "unmatched_canvas": [],
@@ -654,5 +684,5 @@
   "final_score": 68.6,
   "final_grade": "D+"
  },
- "built_at": "2026-11-17T04:21:53.167013+00:00"
+ "built_at": "2026-11-17T04:30:54.159149+00:00"
 }
