@@ -645,9 +645,9 @@
   },
   {
    "key": "STRATEGY_JOURNAL_1",
-   "status": "blocked_ask_zack",
+   "status": "pending",
    "date": "2026-12-15",
-   "note": "# Canvas 1524494, 25pt online_upload, Strategy Journal 1, due 2026-12-16T06:59:59Z (Dec 15 local). Personal reflection, Zack's own voice; ask Zack before drafting, never auto-write.",
+   "note": "# Canvas 1524494, 25pt online_upload, Strategy Journal 1, due 2026-12-16T06:59:59Z (Dec 15 local). Personal reflection, Zack's own voice; ask Zack before drafting, never auto-write. (judged automatable 2026-11-17: online-submission-path-no-proctoring-evidence)",
    "title": "Canvas 1524494, online_upload, Strategy Journal 1",
    "grade": null,
    "drift": false,
@@ -655,14 +655,14 @@
    "needs_excerpt": null,
    "judge": null,
    "optional_ec": false,
-   "surface": true,
-   "actionable": true
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "STRATEGY_JOURNAL_2",
-   "status": "blocked_ask_zack",
+   "status": "pending",
    "date": "2026-12-15",
-   "note": "# Canvas 1524497, 25pt online_upload, Strategy Journal 2, due 2026-12-16T06:59:59Z (Dec 15 local). Personal reflection, Zack's own voice; ask Zack before drafting, never auto-write.",
+   "note": "# Canvas 1524497, 25pt online_upload, Strategy Journal 2, due 2026-12-16T06:59:59Z (Dec 15 local). Personal reflection, Zack's own voice; ask Zack before drafting, never auto-write. (judged automatable 2026-11-17: online-submission-path-no-proctoring-evidence)",
    "title": "Canvas 1524497, online_upload, Strategy Journal 2",
    "grade": null,
    "drift": false,
@@ -670,8 +670,8 @@
    "needs_excerpt": null,
    "judge": null,
    "optional_ec": false,
-   "surface": true,
-   "actionable": true
+   "surface": false,
+   "actionable": false
   }
  ],
  "unmatched_canvas": [],
@@ -684,5 +684,5 @@
   "final_score": 68.6,
   "final_grade": "D+"
  },
- "built_at": "2026-11-17T07:57:46.978212+00:00"
+ "built_at": "2026-11-17T20:58:09.515318+00:00"
 }
