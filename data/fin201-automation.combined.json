@@ -325,7 +325,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Requires the student in person."
+    "why": "Testing Center exam verified in-person, needs 400 of 1200 pts"
    },
    "optional_ec": false,
    "surface": true,
@@ -337,5 +337,5 @@
  "needs_unassigned": false,
  "course_id": null,
  "overall": {},
- "built_at": "2026-11-16T22:07:25.720249+00:00"
+ "built_at": "2026-11-17T01:53:49.101639+00:00"
 }

@@ -929,8 +929,8 @@
     "name": "NE - Quiz #9",
     "due": "2026-11-09T23:59:00",
     "points": 5.0,
-    "score": null,
-    "status": "not_graded",
+    "score": 0.0,
+    "status": "graded",
     "missing": false,
     "submission_type": "learning_suite",
     "comments": []
@@ -953,8 +953,8 @@
     "name": "Mankiw Bonus #8 (Extra Credit)",
     "due": "2026-11-09T23:59:00",
     "points": 6.0,
-    "score": null,
-    "status": "not_graded",
+    "score": 0.0,
+    "status": "graded",
     "missing": false,
     "submission_type": "learning_suite",
     "comments": []
@@ -1324,7 +1324,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Requires the student in person."
+    "why": "Testing Center exam requiring the student in person"
    },
    "optional_ec": false,
    "surface": true,
@@ -1360,8 +1360,8 @@
  "needs_unassigned": false,
  "course_id": null,
  "overall": {
-  "current_score": 71.81,
+  "current_score": 70.96,
   "source": "learning-suite-points"
  },
- "built_at": "2026-11-16T22:07:25.797884+00:00"
+ "built_at": "2026-11-17T01:53:49.249010+00:00"
 }

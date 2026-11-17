@@ -513,8 +513,8 @@
    "needs_zack": false,
    "needs_excerpt": null,
    "judge": {
-    "verdict": "verify",
-    "why": "Has online_upload, but team on-camera video and individual iLabz account suggest in-person work"
+    "verdict": "manual",
+    "why": "On-camera group video of a physical product; requires students' bodies, not automatable"
    },
    "optional_ec": false,
    "surface": true,
@@ -622,7 +622,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Cumulative final exam given in person during finals week, not online"
+    "why": "Cumulative in-person final exam at university-scheduled time and location"
    },
    "optional_ec": false,
    "surface": true,
@@ -654,5 +654,5 @@
   "final_score": 68.6,
   "final_grade": "D+"
  },
- "built_at": "2026-11-16T22:07:25.614479+00:00"
+ "built_at": "2026-11-17T01:53:48.891497+00:00"
 }
