@@ -1,7 +1,7 @@
 {
  "fallback_calls": 0,
  "fallback_reason": null,
- "generated_at": "2026-11-18T00:00:08.112127+00:00",
+ "generated_at": "2026-11-18T22:00:23.666563+00:00",
  "model": "opencode-go/deepseek-v4.1-flash",
  "models_used": {
   "opencode-go/deepseek-v4.1-flash": 7
@@ -13,7 +13,7 @@
    "verdicts": {
     "ECON_FINAL": {
      "verdict": "manual",
-     "why": "Testing Center exam requiring student in person"
+     "why": "Requires the student in person."
     },
     "ECON_MEET_TA": {
      "verdict": "manual",
@@ -45,7 +45,7 @@
     },
     "PROF_PERSPECTIVE_INTERVIEW": {
      "verdict": "manual",
-     "why": "Physical artifact: printed notes+summary brought to class for in-class peer check"
+     "why": "On-paper; printed notes+summary brought to class for in-class peer check (physical artifact)"
     }
    }
   },
@@ -55,11 +55,11 @@
    "verdicts": {
     "IS_EXAM2": {
      "verdict": "manual",
-     "why": "Name is an exam (comprehensive, non-collaborative take-home); name-is-an-exam rule applies despite external_tool"
+     "why": "Name is an exam; comprehensive timed take-home, note says taken manually in quiet window"
     },
     "IS_PROJECT_PRESENT": {
      "verdict": "manual",
-     "why": "In-class/TA presentation; student must present in person, no online submission path"
+     "why": "In-class project presentation Zack must deliver in person or to a TA"
     }
    }
   },
@@ -69,7 +69,7 @@
    "verdicts": {
     "PARTICIPATION_QUIZ_10_13_2": {
      "verdict": "manual",
-     "why": "Named participation quiz; participation earned in class, no submission path"
+     "why": "Named participation quiz; participation is earned in class, no online completion path"
     },
     "PARTICIPATION_QUIZ_11_03": {
      "verdict": "manual",
@@ -115,31 +115,31 @@
    "verdicts": {
     "11_17_ATTENDANCE_CHECK": {
      "verdict": "manual",
-     "why": "Attendance check; attendance recorded in the classroom"
+     "why": "Named attendance check; attendance recorded in class despite external_tool"
     },
     "11_19_ATTENDANCE_CHECK": {
      "verdict": "manual",
-     "why": "Attendance check; attendance recorded in the classroom"
+     "why": "Named attendance check; attendance recorded in class despite external_tool"
     },
     "11_24_ATTENDANCE_CHECK": {
      "verdict": "manual",
-     "why": "Attendance check; attendance recorded in the classroom"
+     "why": "Named attendance check; attendance recorded in class despite external_tool"
     },
     "12_10_ATTENDANCE_CHECK": {
      "verdict": "manual",
-     "why": "Attendance check; attendance recorded in the classroom"
+     "why": "Named attendance check; attendance recorded in class despite external_tool"
     },
     "12_1_ATTENDANCE_CHECK": {
      "verdict": "manual",
-     "why": "Attendance check; attendance recorded in the classroom"
+     "why": "Named attendance check; attendance recorded in class despite external_tool"
     },
     "12_3_ATTENDANCE_CHECK": {
      "verdict": "manual",
-     "why": "Attendance check; attendance recorded in the classroom"
+     "why": "Named attendance check; attendance recorded in class despite external_tool"
     },
     "12_8_ATTENDANCE_CHECK": {
      "verdict": "manual",
-     "why": "Attendance check; attendance recorded in the classroom"
+     "why": "Named attendance check; attendance recorded in class despite external_tool"
     }
    }
   },
@@ -149,7 +149,7 @@
    "verdicts": {
     "SESSION1_WHAT_IS_STRATEGY": {
      "verdict": "manual",
-     "why": "submission_types=none; deliverable was bringing examples to Sep 8 class, no online path"
+     "why": "submission_types=none; deliverable was bringing examples to class, no online path"
     },
     "STRATEGY_JOURNAL": {
      "verdict": "automatable",
@@ -157,11 +157,11 @@
     },
     "STRAT_FINAL_EXAM": {
      "verdict": "manual",
-     "why": "Cumulative final exam given in person per syllabus/university schedule"
+     "why": "Cumulative final exam in person per university final schedule; exam is policed"
     },
     "STRAT_MARKET_ENTRY_LAB": {
      "verdict": "manual",
-     "why": "Group video with on-camera members and physical product artifact"
+     "why": "Group video on-camera plus physical product and per-member iLabz account; body/artifact required"
     }
    }
   }
