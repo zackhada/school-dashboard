@@ -87,6 +87,7 @@ def main():
     offline, stale, errors, unverified = [], [], [], []
     online_total = 0
     queued = 0
+    stale_queued = 0
 
     for repo in REPOS:
         base = "https://api.github.com/repos/%s/%s" % (OWNER, repo)
@@ -106,7 +107,16 @@ def main():
             offline.append(repo)
 
         q = get(base + "/actions/runs?status=queued&per_page=30")
-        queued += len(q.get("workflow_runs") or [])
+        for wr in (q.get("workflow_runs") or []):
+            # A push-triggered run can sit in "queued" forever after GitHub
+            # loses its runner (2026-11-18: a Nov 11 healer run was still
+            # listed as queued, so the dashboard read queued_runs=1 on a
+            # perfectly idle fleet). Only real, recent queued work counts.
+            ts = parse_ts(wr.get("created_at"))
+            if ts and (now - ts).total_seconds() > 12 * 3600:
+                stale_queued += 1
+            else:
+                queued += 1
 
         runs = get(base + "/actions/runs?status=success&per_page=1")
         wr = (runs.get("workflow_runs") or [{}])[0]
@@ -199,6 +209,7 @@ def main():
         "unverified_repos": unverified,
         "offline_repos": offline,
         "queued_runs": queued,
+        "stale_queued_runs": stale_queued,
         "stale_repos": stale,
         "heartbeat": heartbeat,
         "errors": errors,
