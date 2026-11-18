@@ -1025,8 +1025,8 @@
     "name": "Mankiw Bonus #9 (Extra Credit)",
     "due": "2026-11-13T23:59:00",
     "points": 6.0,
-    "score": null,
-    "status": "not_graded",
+    "score": 6.0,
+    "status": "graded",
     "missing": false,
     "submission_type": "learning_suite",
     "comments": []
@@ -1324,7 +1324,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Testing Center exam requiring the student in person"
+    "why": "Testing Center exam requiring student in person"
    },
    "optional_ec": false,
    "surface": true,
@@ -1360,8 +1360,8 @@
  "needs_unassigned": false,
  "course_id": null,
  "overall": {
-  "current_score": 70.96,
+  "current_score": 71.15,
   "source": "learning-suite-points"
  },
- "built_at": "2026-11-17T20:58:09.640314+00:00"
+ "built_at": "2026-11-18T01:02:05.920872+00:00"
 }

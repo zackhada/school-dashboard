@@ -514,7 +514,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "On-camera group video of a physical product; requires students' bodies, not automatable"
+    "why": "Group video with on-camera members and physical product artifact"
    },
    "optional_ec": false,
    "surface": true,
@@ -622,7 +622,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Cumulative in-person final exam at university-scheduled time and location"
+    "why": "Cumulative final exam given in person per syllabus/university schedule"
    },
    "optional_ec": false,
    "surface": true,
@@ -638,10 +638,13 @@
    "drift": false,
    "needs_zack": false,
    "needs_excerpt": null,
-   "judge": null,
+   "judge": {
+    "verdict": "automatable",
+    "why": "Online submission path, no proctoring evidence."
+   },
    "optional_ec": false,
-   "surface": true,
-   "actionable": true
+   "surface": false,
+   "actionable": false
   },
   {
    "key": "STRATEGY_JOURNAL_1",
@@ -684,5 +687,5 @@
   "final_score": 68.6,
   "final_grade": "D+"
  },
- "built_at": "2026-11-17T20:58:09.515318+00:00"
+ "built_at": "2026-11-18T01:02:05.604815+00:00"
 }
