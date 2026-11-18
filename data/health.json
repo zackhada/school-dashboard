@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T22:33Z",
+ "generated": "2026-11-18T22:35Z",
  "healer": {
   "recent": [
    {
@@ -40,11 +40,12 @@
  "runners_checked": 9,
  "unverified_repos": [],
  "offline_repos": [],
- "queued_runs": 1,
+ "queued_runs": 0,
+ "stale_queued_runs": 1,
  "stale_repos": [],
  "heartbeat": {
-  "ts": "2026-11-18T15:28:21-07:00",
-  "age_hours": 0.1,
+  "ts": "2026-11-18T15:33:50-07:00",
+  "age_hours": 0.0,
   "free_gb": "17",
   "bridge": true,
   "guard": "up"
