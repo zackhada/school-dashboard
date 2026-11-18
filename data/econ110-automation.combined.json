@@ -1065,7 +1065,7 @@
   },
   {
    "key": "ECON_NEQ_11",
-   "status": "pending",
+   "status": "done",
    "date": "2026-11-20",
    "note": "# NE Quiz #11 5pt",
    "title": "NE Quiz #11",
@@ -1363,5 +1363,5 @@
   "current_score": 71.15,
   "source": "learning-suite-points"
  },
- "built_at": "2026-11-18T02:55:19.899424+00:00"
+ "built_at": "2026-11-18T02:58:27.484647+00:00"
 }
