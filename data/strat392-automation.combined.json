@@ -514,7 +514,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Group video with on-camera members and physical product artifact"
+    "why": "Group on-camera video with physical product and per-member iLabz accounts"
    },
    "optional_ec": false,
    "surface": true,
@@ -622,7 +622,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Cumulative final exam given in person per syllabus/university schedule"
+    "why": "Cumulative final exam held per university final schedule, in person"
    },
    "optional_ec": false,
    "surface": true,
@@ -639,12 +639,12 @@
    "needs_zack": false,
    "needs_excerpt": null,
    "judge": {
-    "verdict": "automatable",
-    "why": "Online submission path, no proctoring evidence."
+    "verdict": "verify",
+    "why": "Canvas upload exists but entries must be in Zack's own voice; confirm authorship facts"
    },
    "optional_ec": false,
-   "surface": false,
-   "actionable": false
+   "surface": true,
+   "actionable": true
   },
   {
    "key": "STRATEGY_JOURNAL_1",
@@ -687,5 +687,5 @@
   "final_score": 68.6,
   "final_grade": "D+"
  },
- "built_at": "2026-11-18T21:57:57.339057+00:00"
+ "built_at": "2026-11-18T22:33:32.952028+00:00"
 }

@@ -490,7 +490,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Named participation quiz; participation earned in class, no submission path"
+    "why": "Name is a participation quiz; participation is earned in class, and upstream item is deleted 404."
    },
    "optional_ec": false,
    "surface": true,
@@ -850,7 +850,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Named participation quiz; participation is earned in class despite online_quiz tool"
+    "why": "Named participation quiz: participation is earned in class; online_quiz tool box does not make it automatable."
    },
    "optional_ec": false,
    "surface": true,
@@ -973,7 +973,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Named participation quiz; participation is earned in class despite online_quiz tool"
+    "why": "Named participation quiz: participation is earned in class; online_quiz tool box does not make it automatable."
    },
    "optional_ec": false,
    "surface": true,
@@ -1036,7 +1036,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Named participation quiz; participation is earned in class despite online_quiz tool"
+    "why": "Named participation quiz: participation is earned in class; online_quiz tool box does not make it automatable."
    },
    "optional_ec": false,
    "surface": true,
@@ -1069,7 +1069,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Named participation quiz; participation is earned in class despite online_quiz tool"
+    "why": "Named participation quiz: participation is earned in class; online_quiz tool box does not make it automatable."
    },
    "optional_ec": false,
    "surface": true,
@@ -1132,7 +1132,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Named participation quiz; participation is earned in class despite online_quiz tool"
+    "why": "Named participation quiz: participation is earned in class; online_quiz tool box does not make it automatable."
    },
    "optional_ec": false,
    "surface": true,
@@ -1195,7 +1195,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Named participation quiz; participation is earned in class despite online_quiz tool"
+    "why": "Named participation quiz: participation is earned in class; online_quiz tool box does not make it automatable."
    },
    "optional_ec": false,
    "surface": true,
@@ -1228,7 +1228,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Named participation quiz; participation is earned in class despite online_quiz tool"
+    "why": "Named participation quiz: participation is earned in class; online_quiz tool box does not make it automatable."
    },
    "optional_ec": false,
    "surface": true,
@@ -1321,7 +1321,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Named participation quiz; participation is earned in class despite online_quiz tool"
+    "why": "Named participation quiz: participation is earned in class; online_quiz tool box does not make it automatable."
    },
    "optional_ec": false,
    "surface": true,
@@ -1354,7 +1354,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Named participation quiz; participation is earned in class despite online_quiz tool"
+    "why": "Named participation quiz: participation is earned in class; online_quiz tool box does not make it automatable."
    },
    "optional_ec": false,
    "surface": true,
@@ -1401,5 +1401,5 @@
   "final_score": 41.18,
   "final_grade": "E"
  },
- "built_at": "2026-11-18T21:57:57.410145+00:00"
+ "built_at": "2026-11-18T22:33:33.064316+00:00"
 }

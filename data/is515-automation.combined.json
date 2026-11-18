@@ -583,7 +583,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "In-class/TA presentation; student must present in person, no online submission path"
+    "why": "In-class course project presentation with TA sign-up; student must present in person"
    },
    "optional_ec": false,
    "surface": true,
@@ -616,7 +616,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Name is an exam (comprehensive, non-collaborative take-home); name-is-an-exam rule applies despite external_tool"
+    "why": "Name is an exam; comprehensive exam rule makes it manual despite take-home format"
    },
    "optional_ec": false,
    "surface": true,
@@ -633,5 +633,5 @@
   "final_score": 50.69,
   "final_grade": "E"
  },
- "built_at": "2026-11-18T21:57:57.415749+00:00"
+ "built_at": "2026-11-18T22:33:33.073516+00:00"
 }
