@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17",
+ "generated": "2026-11-18",
  "missed": [],
  "exam_windows": [
   {
@@ -76,10 +76,10 @@
    "score": null
   },
   {
-   "course": "PSE 390",
-   "assignment": "Ethics and Public Quiz - Week 9",
-   "due": "2026-11-07",
-   "points": 10.0,
+   "course": "STRAT 392",
+   "assignment": "Market Entry Strategy Assignment ",
+   "due": "2026-11-17",
+   "points": 60.0,
    "score": null
   },
   {
@@ -121,18 +121,6 @@
  "closing_soon": [
   {
    "course": "PSE 390",
-   "assignment": "Participation Quiz 11.17",
-   "due": "2026-11-17",
-   "points": 3.0,
-   "canvas_id": 1511341,
-   "deadline_kind": "due",
-   "owner": "zack",
-   "covered": true,
-   "ledger_key": "PARTICIPATION_QUIZ_11_17",
-   "ledger_status": "blocked_inperson"
-  },
-  {
-   "course": "PSE 390",
    "assignment": "Participation Quiz 11.19",
    "due": "2026-11-19",
    "points": 3.0,
@@ -144,16 +132,16 @@
    "ledger_status": "blocked_inperson"
   },
   {
-   "course": "REL C 333",
-   "assignment": "11/17 - Attendance Check",
-   "due": "2026-11-17",
+   "course": "PSE 390",
+   "assignment": "Ethics and Public Quiz - Week 11",
+   "due": "2026-11-21",
    "points": 10.0,
-   "canvas_id": 1466170,
+   "canvas_id": 1495468,
    "deadline_kind": "due",
-   "owner": "zack",
+   "owner": "agent",
    "covered": true,
-   "ledger_key": "11_17_ATTENDANCE_CHECK",
-   "ledger_status": "blocked_inperson"
+   "ledger_key": "WEEKLY_QUIZ_WK11",
+   "ledger_status": "pending"
   },
   {
    "course": "REL C 333",
@@ -165,18 +153,6 @@
    "owner": "zack",
    "covered": true,
    "ledger_key": "11_19_ATTENDANCE_CHECK",
-   "ledger_status": "blocked_inperson"
-  },
-  {
-   "course": "STRAT 392",
-   "assignment": "Market Entry Strategy Assignment ",
-   "due": "2026-11-17",
-   "points": 60.0,
-   "canvas_id": 1519226,
-   "deadline_kind": "due",
-   "owner": "zack",
-   "covered": true,
-   "ledger_key": "STRAT_MARKET_ENTRY_LAB",
    "ledger_status": "blocked_inperson"
   }
  ],
