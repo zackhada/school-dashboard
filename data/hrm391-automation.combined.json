@@ -410,6 +410,21 @@
    "drift": true
   },
   {
+   "key": "SERVICE_PROJECT_PART_3_PEER_EVALUATION_I",
+   "status": "pending",
+   "date": "2026-11-25",
+   "note": "# Canvas 1525925, 20pt, Service Project Part 3: Peer Evaluation (Individual Submission) (remote; drift-added 2026-11-18)",
+   "title": "Service Project Part 3: Peer Evaluation (Individual Submission)",
+   "grade": null,
+   "drift": false,
+   "needs_zack": false,
+   "needs_excerpt": null,
+   "judge": null,
+   "optional_ec": false,
+   "surface": false,
+   "actionable": false
+  },
+  {
    "key": "HRM_REMAINING_EXAMS_AND_FINAL",
    "status": "blocked_ask_zack",
    "date": "2026-12-09",
@@ -455,5 +470,5 @@
   "final_score": 64.97,
   "final_grade": "D"
  },
- "built_at": "2026-11-18T07:33:05.318739+00:00"
+ "built_at": "2026-11-18T20:35:24.960426+00:00"
 }
