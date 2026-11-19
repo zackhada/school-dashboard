@@ -1,9 +1,9 @@
 {
  "repo": "zackhada/econ110-automation",
  "source": "learning-suite",
- "url": "https://learningsuite.byu.edu/.HOls/cid-1YPOkgOMQjjk/student/home/assignments",
+ "url": "https://learningsuite.byu.edu/.TRCj/cid-1YPOkgOMQjjk/student/home/assignments",
  "overall": {
-  "current_score": 71.15,
+  "current_score": 71.0,
   "source": "learning-suite-points"
  },
  "rows": [
@@ -301,8 +301,8 @@
    "name": "TA Passoff #8 (Extra Credit)",
    "due": "2026-11-11T23:59:00",
    "points": 2.0,
-   "score": null,
-   "status": "not_graded",
+   "score": 0.0,
+   "status": "graded",
    "missing": false,
    "submission_type": "learning_suite",
    "comments": []
@@ -311,8 +311,8 @@
    "name": "Bonus: Check Answers #8 (Extra Credit)",
    "due": "2026-11-11T23:59:00",
    "points": 2.0,
-   "score": null,
-   "status": "not_graded",
+   "score": 0.0,
+   "status": "graded",
    "missing": false,
    "submission_type": "learning_suite",
    "comments": []
@@ -1071,8 +1071,8 @@
    "name": "NE - Quiz #11",
    "due": "2026-11-20T23:59:00",
    "points": 5.0,
-   "score": null,
-   "status": "not_graded",
+   "score": 5.0,
+   "status": "graded",
    "missing": false,
    "submission_type": "learning_suite",
    "comments": []
