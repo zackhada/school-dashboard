@@ -159,8 +159,8 @@
    "deadline": "2026-11-11T06:59:59Z",
    "points": 100.0,
    "status": "graded",
-   "score": 68.0,
-   "grade": "68",
+   "score": 70.0,
+   "grade": "70",
    "missing": false,
    "submitted_at": "2026-11-06T22:40:38Z",
    "submission_type": "online_quiz",
@@ -222,6 +222,22 @@
    "lock_at": null,
    "deadline": "2026-11-22T06:59:59Z",
    "points": 100.0,
+   "status": "submitted",
+   "score": null,
+   "grade": null,
+   "missing": false,
+   "submitted_at": "2026-11-16T18:38:48Z",
+   "submission_type": "online_upload",
+   "my_submission": "",
+   "comments": []
+  },
+  {
+   "canvas_id": 1525925,
+   "name": "Service Project Part 3: Peer Evaluation (Individual Submission)",
+   "due": "2026-11-25T06:59:59Z",
+   "lock_at": "2026-11-25T06:59:59Z",
+   "deadline": "2026-11-25T06:59:59Z",
+   "points": 20.0,
    "status": "unsubmitted",
    "score": null,
    "grade": null,
@@ -233,9 +249,9 @@
   }
  ],
  "overall": {
-  "current_score": 85.77,
+  "current_score": 86.49,
   "current_grade": "B",
-  "final_score": 64.97,
+  "final_score": 65.0,
   "final_grade": "D"
  },
  "source": "canvas-api"

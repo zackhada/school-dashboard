@@ -470,12 +470,12 @@
     "lock_at": null,
     "deadline": "2026-11-18T06:59:59Z",
     "points": 10.0,
-    "status": "unsubmitted",
-    "score": null,
-    "grade": null,
+    "status": "graded",
+    "score": 10.0,
+    "grade": "10",
     "missing": false,
-    "submitted_at": null,
-    "submission_type": null,
+    "submitted_at": "2026-11-15T01:34:01Z",
+    "submission_type": "basic_lti_launch",
     "my_submission": "",
     "comments": []
    },
@@ -503,7 +503,7 @@
     "status": "unsubmitted",
     "score": null,
     "grade": null,
-    "missing": false,
+    "missing": true,
     "submitted_at": null,
     "submission_type": null,
     "my_submission": "",
@@ -514,7 +514,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Group on-camera video with physical product and team presentation"
+    "why": "Team video presenting a physical product on camera; group artifact, not individual online work"
    },
    "optional_ec": false,
    "surface": true,
@@ -533,12 +533,12 @@
     "lock_at": null,
     "deadline": "2026-11-20T06:59:59Z",
     "points": 10.0,
-    "status": "unsubmitted",
-    "score": null,
-    "grade": null,
+    "status": "graded",
+    "score": 10.0,
+    "grade": "10",
     "missing": false,
-    "submitted_at": null,
-    "submission_type": null,
+    "submitted_at": "2026-11-17T04:28:50Z",
+    "submission_type": "basic_lti_launch",
     "my_submission": "",
     "comments": []
    },
@@ -622,7 +622,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Final exam taken in person per university finals schedule"
+    "why": "Requires the student in person."
    },
    "optional_ec": false,
    "surface": true,
@@ -638,10 +638,7 @@
    "drift": false,
    "needs_zack": false,
    "needs_excerpt": null,
-   "judge": {
-    "verdict": "automatable",
-    "why": "Online submission path, no proctoring evidence."
-   },
+   "judge": null,
    "optional_ec": false,
    "surface": false,
    "actionable": false
@@ -652,7 +649,22 @@
    "date": "2026-12-15",
    "note": "# Canvas 1524494, 25pt online_upload. Draft ready at journal/Strategy_Journal_1_Hada.docx. Currently locked (unpublished module), so submission is impossible until it opens. Upload the existing file when unlocked; do not rewrite.",
    "title": "Canvas 1524494, online_upload. Draft ready at journal/Strategy_Journal_1_Hada.docx. Currently locked (unpublished module), so submission is impossible until it opens. Upload the existing file when unlocked; do not rewrite.",
-   "grade": null,
+   "grade": {
+    "canvas_id": 1524494,
+    "name": "Strategy Journal 1",
+    "due": "2026-12-16T06:59:59Z",
+    "lock_at": null,
+    "deadline": "2026-12-16T06:59:59Z",
+    "points": 25.0,
+    "status": "unsubmitted",
+    "score": null,
+    "grade": null,
+    "missing": false,
+    "submitted_at": null,
+    "submission_type": null,
+    "my_submission": "",
+    "comments": []
+   },
    "drift": false,
    "needs_zack": false,
    "needs_excerpt": null,
@@ -667,7 +679,22 @@
    "date": "2026-12-15",
    "note": "# Canvas 1524497, 25pt online_upload. Draft ready at journal/Strategy_Journal_2_Hada.docx. Currently locked (unpublished module). Upload the existing file when unlocked; do not rewrite.",
    "title": "Canvas 1524497, online_upload. Draft ready at journal/Strategy_Journal_2_Hada.docx. Currently locked (unpublished module). Upload the existing file when unlocked; do not rewrite.",
-   "grade": null,
+   "grade": {
+    "canvas_id": 1524497,
+    "name": "Strategy Journal 2",
+    "due": "2026-12-16T06:59:59Z",
+    "lock_at": null,
+    "deadline": "2026-12-16T06:59:59Z",
+    "points": 25.0,
+    "status": "unsubmitted",
+    "score": null,
+    "grade": null,
+    "missing": false,
+    "submitted_at": null,
+    "submission_type": null,
+    "my_submission": "",
+    "comments": []
+   },
    "drift": false,
    "needs_zack": false,
    "needs_excerpt": null,
@@ -682,10 +709,10 @@
  "needs_unassigned": false,
  "course_id": 39131,
  "overall": {
-  "current_score": 89.39,
-  "current_grade": "B+",
-  "final_score": 68.6,
-  "final_grade": "D+"
+  "current_score": 90.0,
+  "current_grade": "A-",
+  "final_score": 65.63,
+  "final_grade": "D"
  },
- "built_at": "2026-11-19T20:40:49.726632+00:00"
+ "built_at": "2026-11-19T23:55:04.253397+00:00"
 }

@@ -490,7 +490,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Named participation quiz; participation is earned in class, tool deleted upstream anyway"
+    "why": "Named participation quiz; participation earned in class (item 404 upstream, still manual)"
    },
    "optional_ec": false,
    "surface": true,
@@ -850,7 +850,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Named participation quiz; participation is earned in class"
+    "why": "Named participation quiz; participation earned in class, not automatable"
    },
    "optional_ec": false,
    "surface": true,
@@ -899,10 +899,10 @@
     "lock_at": "2026-11-08T06:59:59Z",
     "deadline": "2026-11-08T06:59:59Z",
     "points": 10.0,
-    "status": "unsubmitted",
-    "score": null,
-    "grade": null,
-    "missing": true,
+    "status": "graded",
+    "score": 0.0,
+    "grade": "0",
+    "missing": false,
     "submitted_at": null,
     "submission_type": null,
     "my_submission": "",
@@ -973,7 +973,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Named participation quiz; participation is earned in class"
+    "why": "Named participation quiz; participation earned in class, not automatable"
    },
    "optional_ec": false,
    "surface": true,
@@ -992,9 +992,9 @@
     "lock_at": "2026-11-15T06:59:59Z",
     "deadline": "2026-11-15T06:59:59Z",
     "points": 10.0,
-    "status": "submitted",
-    "score": null,
-    "grade": null,
+    "status": "graded",
+    "score": 10.0,
+    "grade": "10",
     "missing": false,
     "submitted_at": "2026-11-11T18:32:01Z",
     "submission_type": "online_url",
@@ -1025,7 +1025,7 @@
     "status": "unsubmitted",
     "score": null,
     "grade": null,
-    "missing": false,
+    "missing": true,
     "submitted_at": null,
     "submission_type": null,
     "my_submission": "",
@@ -1036,7 +1036,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Named participation quiz; participation is earned in class"
+    "why": "Named participation quiz; participation earned in class, not automatable"
    },
    "optional_ec": false,
    "surface": true,
@@ -1058,7 +1058,7 @@
     "status": "unsubmitted",
     "score": null,
     "grade": null,
-    "missing": false,
+    "missing": true,
     "submitted_at": null,
     "submission_type": null,
     "my_submission": "",
@@ -1069,7 +1069,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Named participation quiz; participation is earned in class"
+    "why": "Named participation quiz; participation earned in class, not automatable"
    },
    "optional_ec": false,
    "surface": true,
@@ -1088,12 +1088,12 @@
     "lock_at": "2026-11-22T06:59:59Z",
     "deadline": "2026-11-22T06:59:59Z",
     "points": 10.0,
-    "status": "unsubmitted",
+    "status": "submitted",
     "score": null,
     "grade": null,
     "missing": false,
-    "submitted_at": null,
-    "submission_type": null,
+    "submitted_at": "2026-11-19T02:50:11Z",
+    "submission_type": "online_url",
     "my_submission": "",
     "comments": []
    },
@@ -1132,7 +1132,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Named participation quiz; participation is earned in class"
+    "why": "Named participation quiz; participation earned in class, not automatable"
    },
    "optional_ec": false,
    "surface": true,
@@ -1195,7 +1195,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Named participation quiz; participation is earned in class"
+    "why": "Named participation quiz; participation earned in class, not automatable"
    },
    "optional_ec": false,
    "surface": true,
@@ -1228,7 +1228,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Named participation quiz; participation is earned in class"
+    "why": "Named participation quiz; participation earned in class, not automatable"
    },
    "optional_ec": false,
    "surface": true,
@@ -1321,7 +1321,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Named participation quiz; participation is earned in class"
+    "why": "Named participation quiz; participation earned in class, not automatable"
    },
    "optional_ec": false,
    "surface": true,
@@ -1354,7 +1354,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Named participation quiz; participation is earned in class"
+    "why": "Named participation quiz; participation earned in class, not automatable"
    },
    "optional_ec": false,
    "surface": true,
@@ -1396,10 +1396,10 @@
  "needs_unassigned": false,
  "course_id": 38958,
  "overall": {
-  "current_score": 72.64,
+  "current_score": 70.69,
   "current_grade": "C-",
-  "final_score": 41.18,
+  "final_score": 43.85,
   "final_grade": "E"
  },
- "built_at": "2026-11-19T20:40:49.841670+00:00"
+ "built_at": "2026-11-19T23:55:04.332585+00:00"
 }

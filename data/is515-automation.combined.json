@@ -494,12 +494,12 @@
     "lock_at": null,
     "deadline": "2026-11-17T06:59:59Z",
     "points": 20.0,
-    "status": "unsubmitted",
-    "score": null,
-    "grade": null,
+    "status": "graded",
+    "score": 20.0,
+    "grade": "20",
     "missing": false,
-    "submitted_at": null,
-    "submission_type": null,
+    "submitted_at": "2026-11-15T03:57:28Z",
+    "submission_type": "external_tool",
     "my_submission": "",
     "comments": []
    },
@@ -583,7 +583,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "In-class presentation Dec 9 or to TA with sign-up; student must present in person"
+    "why": "Requires in-class or to-TA presentation with sign-up; student must present in person"
    },
    "optional_ec": false,
    "surface": true,
@@ -616,7 +616,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Name is an exam; comprehensive timed take-home, not collaborative \u2014 must be taken by student"
+    "why": "Name is Exam 2 (comprehensive exam); rule makes exam-named items manual despite external_tool"
    },
    "optional_ec": false,
    "surface": true,
@@ -628,10 +628,10 @@
  "needs_unassigned": false,
  "course_id": 38674,
  "overall": {
-  "current_score": 90.77,
+  "current_score": 91.08,
   "current_grade": "A-",
-  "final_score": 50.69,
+  "final_score": 52.75,
   "final_grade": "E"
  },
- "built_at": "2026-11-19T20:40:49.849838+00:00"
+ "built_at": "2026-11-19T23:55:04.338064+00:00"
 }
