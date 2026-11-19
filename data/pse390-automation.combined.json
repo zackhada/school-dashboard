@@ -1077,10 +1077,10 @@
   },
   {
    "key": "WEEKLY_QUIZ_WK11",
-   "status": "pending",
+   "status": "done",
    "date": "2026-11-21",
-   "note": "# Canvas 1495468 Ethics and Public Quiz Week 11, online_text_entry/url, due 2026-11-22T06:59:59Z",
-   "title": "Canvas 1495468 Ethics and Public Quiz Week 11, online_text_entry/url",
+   "note": "# Canvas 1495468 Ethics and Public Quiz Week 11, 10pt, online_url w/ public X post https://x.com/zack_hada/status/2123246961570853357 (posted 2026-11-19T02:48:18Z, 261 chars, no em dash, public verified via syndication API), submitted 2026-11-19T02:50:11Z, verified workflow_state=submitted attempt 1 not late",
+   "title": "Canvas 1495468 Ethics and Public Quiz Week 11, , online_url w/ public X post https://x.com/zack_hada/status/2123246961570853357 (posted 2026-11-19T02:48:18Z, 261 chars, no em dash, public verified via syndication API), submitted 2026-11-19T02:50:11Z, verified workflow_state=submitted attempt 1 not late",
    "grade": {
     "canvas_id": 1495468,
     "name": "Ethics and Public Quiz - Week 11",
@@ -1401,5 +1401,5 @@
   "final_score": 41.18,
   "final_grade": "E"
  },
- "built_at": "2026-11-19T02:47:10.094070+00:00"
+ "built_at": "2026-11-19T02:51:35.769129+00:00"
 }
