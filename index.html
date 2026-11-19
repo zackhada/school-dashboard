@@ -398,6 +398,7 @@ Promise.all(REPOS.map(function(pair){
       all.push({cls: x.course, title: x.assignment, d: x.due, when: mtnDay(x.due),
                 kind: x.deadline_kind || 'due', pts: x.points,
                 st: (x.owner === 'zack' ? 'you have to do this one \u00b7 ' : '') +
+                    (x.source === 'ledger' ? 'LEDGER CLOSE, no Canvas row \u00b7 ' : '') +
                     (x.ledger_status ? ('ledger ' + x.ledger_status) : 'no ledger row')});
     });
     (a.missing_from_ledger || []).forEach(function(x){
@@ -437,7 +438,7 @@ Promise.all(REPOS.map(function(pair){
     }).join('');
     document.getElementById('audit').innerHTML +=
       '<h2>Closing soon, still unsubmitted (' + all.length + ')</h2>' +
-      '<p class="small">Read from Canvas directly, not from the ledger. If an item sits here more than a day, the runner is stuck on it.</p>' +
+      '<p class="small">Read from Canvas directly, plus ledger close times for courses with no Canvas API (FIN 201). If an item sits here more than a day, the runner is stuck on it.</p>' +
       '<table><thead><tr><th>Assignment</th><th>Closes</th><th>Status</th></tr></thead><tbody>' +
       body + '</tbody></table>';
   }).catch(function(){});

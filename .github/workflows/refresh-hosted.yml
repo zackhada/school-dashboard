@@ -44,6 +44,16 @@ jobs:
           DISPATCH_TOKEN: ${{ secrets.DISPATCH_TOKEN }}
         run: python3 scripts/health.py
 
+      - name: Ledger deadline watch (independent of the Mac)
+        # Zack 2026-11-19: the close time of an automated item must never pass
+        # unseen. This runs on a GitHub-hosted runner, so it works even when the
+        # runner Mac is asleep or off the network. It shows ledger-only close
+        # times on the dashboard and asks the class repo for a run inside 48h.
+        continue-on-error: true
+        env:
+          DISPATCH_TOKEN: ${{ secrets.DISPATCH_TOKEN }}
+        run: python3 scripts/deadline_watch.py
+
       - name: Build combined view
         run: python3 scripts/build.py
 
