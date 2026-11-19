@@ -630,10 +630,10 @@
   },
   {
    "key": "STRATEGY_JOURNAL",
-   "status": "blocked_ask_zack",
+   "status": "pending",
    "date": "2026-12-15",
-   "note": "# Syllabus: Strategy Journal, 50 pts, due last day of class (Session 28, Tue Dec 15). NOW LIVE 2026-11-16 as two Canvas upload items: 1524494 Strategy Journal 1 (25pt) + 1524497 Strategy Journal 2 (25pt), both due 2026-12-16T06:59:59Z (Dec 15 local). Personal entries in Zack's own voice: confirm with Zack before drafting, never auto-write. This placeholder row is superseded by the two ID rows below; kept so the history is not deleted.",
-   "title": "Syllabus: Strategy Journal",
+   "note": "# Canvas has this as two uploads, 1524494 and 1524497, 25 pts each, both due 2026-12-15 11:59pm MT. DRAFTS DONE 2026-11-19 in Zack's voice from his 2020 seminary writing and Sept 2021 talk: journal/Strategy_Journal_1_Hada.docx (1,890 words) and journal/Strategy_Journal_2_Hada.docx (1,265 words), builder journal/build_strategy_journal.py. CANVAS IS NOT OPEN YET: both assignments return locked_for_user with 'part of an unpublished module and is not available yet', so there is no submit control. Canvas session on the canonical profile is live again as of 2026-11-19 (TGC + canvas_session). When the module publishes, upload the two docx files as they are and verify the attachments. Do not rewrite them.",
+   "title": "Canvas has this as two uploads, 1524494 and 1524497, each, both",
    "grade": null,
    "drift": false,
    "needs_zack": false,
@@ -650,8 +650,8 @@
    "key": "STRATEGY_JOURNAL_1",
    "status": "pending",
    "date": "2026-12-15",
-   "note": "# Canvas 1524494, 25pt online_upload, Strategy Journal 1, due 2026-12-16T06:59:59Z (Dec 15 local). Personal reflection, Zack's own voice; ask Zack before drafting, never auto-write. (judged automatable 2026-11-17: online-submission-path-no-proctoring-evidence)",
-   "title": "Canvas 1524494, online_upload, Strategy Journal 1",
+   "note": "# Canvas 1524494, 25pt online_upload. Draft ready at journal/Strategy_Journal_1_Hada.docx. Currently locked (unpublished module), so submission is impossible until it opens. Upload the existing file when unlocked; do not rewrite.",
+   "title": "Canvas 1524494, online_upload. Draft ready at journal/Strategy_Journal_1_Hada.docx. Currently locked (unpublished module), so submission is impossible until it opens. Upload the existing file when unlocked; do not rewrite.",
    "grade": null,
    "drift": false,
    "needs_zack": false,
@@ -665,8 +665,8 @@
    "key": "STRATEGY_JOURNAL_2",
    "status": "pending",
    "date": "2026-12-15",
-   "note": "# Canvas 1524497, 25pt online_upload, Strategy Journal 2, due 2026-12-16T06:59:59Z (Dec 15 local). Personal reflection, Zack's own voice; ask Zack before drafting, never auto-write. (judged automatable 2026-11-17: online-submission-path-no-proctoring-evidence)",
-   "title": "Canvas 1524497, online_upload, Strategy Journal 2",
+   "note": "# Canvas 1524497, 25pt online_upload. Draft ready at journal/Strategy_Journal_2_Hada.docx. Currently locked (unpublished module). Upload the existing file when unlocked; do not rewrite.",
+   "title": "Canvas 1524497, online_upload. Draft ready at journal/Strategy_Journal_2_Hada.docx. Currently locked (unpublished module). Upload the existing file when unlocked; do not rewrite.",
    "grade": null,
    "drift": false,
    "needs_zack": false,
@@ -687,5 +687,5 @@
   "final_score": 68.6,
   "final_grade": "D+"
  },
- "built_at": "2026-11-19T07:29:37.737366+00:00"
+ "built_at": "2026-11-19T17:51:53.857344+00:00"
 }

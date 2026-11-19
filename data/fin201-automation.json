@@ -59,13 +59,13 @@
    "key": "FIN_QUIZ_11",
    "status": "pending",
    "date": "2026-12-02",
-   "note": "# Topic 11 Quiz"
+   "note": "# Topic 11 Quiz. closes=2026-12-02T10:00 MT, so the last usable window is Tue Dec 1 evening (quiet hours block 10pm-10am). MyEducator gradebook, read 2026-11-19."
   },
   {
    "key": "FIN_QUIZ_12",
    "status": "pending",
    "date": "2026-12-09",
-   "note": "# Topic 12 Quiz"
+   "note": "# Topic 12 Quiz, last quiz, closes=2026-12-09T10:00 MT, so the last usable window is Tue Dec 8 evening. MyEducator gradebook, read 2026-11-19."
   },
   {
    "key": "FIN_MIDTERM_1",
