@@ -583,7 +583,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Requires in-class or to-TA presentation with sign-up; student must present in person"
+    "why": "In-class/TA presentation with sign-up; student must physically present, no online submission path."
    },
    "optional_ec": false,
    "surface": true,
@@ -616,7 +616,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Name is Exam 2 (comprehensive exam); rule makes exam-named items manual despite external_tool"
+    "why": "Name is an exam; hard rule makes exams manual despite the take-home external_tool quiz box."
    },
    "optional_ec": false,
    "surface": true,
@@ -633,5 +633,5 @@
   "final_score": 52.75,
   "final_grade": "E"
  },
- "built_at": "2026-11-20T20:24:34.572225+00:00"
+ "built_at": "2026-11-20T23:25:35.107299+00:00"
 }

@@ -512,10 +512,7 @@
    "drift": false,
    "needs_zack": false,
    "needs_excerpt": null,
-   "judge": {
-    "verdict": "manual",
-    "why": "Team video presenting a physical product on camera; group artifact, not individual online work"
-   },
+   "judge": null,
    "optional_ec": false,
    "surface": false,
    "actionable": false
@@ -714,5 +711,5 @@
   "final_score": 65.63,
   "final_grade": "D"
  },
- "built_at": "2026-11-20T20:24:34.450778+00:00"
+ "built_at": "2026-11-20T23:25:35.023326+00:00"
 }
