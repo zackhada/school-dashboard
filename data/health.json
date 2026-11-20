@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T23:55Z",
+ "generated": "2026-11-20T07:20Z",
  "healer": {
   "recent": [
    {
@@ -31,25 +31,35 @@
  "selftest": {
   "ok": true,
   "host": "air",
-  "ts": "2026-11-19T16:51:40-07:00",
-  "age_hours": 0.1,
+  "ts": "2026-11-19T18:58:34-07:00",
+  "age_hours": 5.4,
   "problems": [],
   "fixed": []
  },
- "runners_online": 9,
+ "runners_online": 0,
  "runners_checked": 9,
  "unverified_repos": [],
- "offline_repos": [],
+ "offline_repos": [
+  "econ110-automation",
+  "fin201-automation",
+  "hrm391-automation",
+  "is515-automation",
+  "pse390-automation",
+  "rel-c-333-automation",
+  "strat392-automation",
+  "school-healer",
+  "school-dashboard"
+ ],
  "queued_runs": 0,
  "stale_queued_runs": 1,
  "stale_repos": [],
  "heartbeat": {
-  "ts": "2026-11-19T16:51:55-07:00",
-  "age_hours": 0.1,
-  "free_gb": "98",
+  "ts": "2026-11-20T00:10:16-07:00",
+  "age_hours": 0.2,
+  "free_gb": "97",
   "bridge": true,
   "guard": "up"
  },
  "errors": [],
- "healthy": true
+ "healthy": false
 }

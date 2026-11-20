@@ -1,21 +1,54 @@
 {
- "generated": "2026-11-19",
- "missed": [
-  {
-   "course": "STRAT 392",
-   "test": "STRAT 392 Midterm",
-   "opens": "Oct 9, 2026 8:00 AM",
-   "closes": "Oct 20, 2026 9:00 PM",
-   "score": ""
-  }
- ],
+ "generated": "2026-11-20",
+ "missed": [],
  "exam_windows": [
   {
+   "course": "HRM 391",
+   "test": "HRM 391 Exam 3 (Canvas, Proctorio)",
+   "opens": "Dec 09, 2026 12:00 AM",
+   "closes": "Dec 15, 2026 11:59 PM",
+   "score": "",
+   "source": "registry"
+  },
+  {
+   "course": "HRM 391",
+   "test": "HRM 391 Final Exam (Canvas, Proctorio)",
+   "opens": "Dec 12, 2026 12:00 AM",
+   "closes": "Dec 17, 2026 11:59 PM",
+   "score": "",
+   "source": "registry"
+  },
+  {
+   "course": "ECON 110",
+   "test": "ECON 110 Final Exam (Testing Center)",
+   "opens": "Dec 12, 2026 08:00 AM",
+   "closes": "Dec 17, 2026 05:00 PM",
+   "score": "",
+   "source": "registry"
+  },
+  {
    "course": "FIN 201",
-   "test": "(unnamed, opens Dec 12, 2026 8:00 AM)",
-   "opens": "Dec 12, 2026 8:00 AM",
-   "closes": "Dec 17, 2026 8:00 PM",
-   "score": ""
+   "test": "FIN 201 Final Exam (Testing Center)",
+   "opens": "Dec 12, 2026 08:00 AM",
+   "closes": "Dec 17, 2026 08:00 PM",
+   "score": "",
+   "source": "registry"
+  },
+  {
+   "course": "IS 515",
+   "test": "IS 515 Exam 2 (take-home, non-collaborative)",
+   "opens": "Dec 12, 2026 08:00 AM",
+   "closes": "Dec 18, 2026 11:59 PM",
+   "score": "",
+   "source": "registry"
+  },
+  {
+   "course": "STRAT 392",
+   "test": "STRAT 392 Final Exam (date per university schedule)",
+   "opens": "Dec 14, 2026 08:00 AM",
+   "closes": "Dec 18, 2026 05:00 PM",
+   "score": "",
+   "source": "registry"
   }
  ],
  "missing_from_ledger": [],
@@ -85,32 +118,12 @@
    "score": 0.0
   }
  ],
- "closing_soon": [
-  {
-   "course": "PSE 390",
-   "assignment": "Participation Quiz 11.19",
-   "due": "2026-11-19",
-   "points": 3.0,
-   "canvas_id": 1511342,
-   "deadline_kind": "due",
-   "owner": "zack",
-   "covered": true,
-   "ledger_key": "PARTICIPATION_QUIZ_11_19",
-   "ledger_status": "blocked_inperson"
-  },
-  {
-   "course": "REL C 333",
-   "assignment": "11/19 - Attendance Check",
-   "due": "2026-11-19",
-   "points": 10.0,
-   "canvas_id": 1466171,
-   "deadline_kind": "due",
-   "owner": "zack",
-   "covered": true,
-   "ledger_key": "11_19_ATTENDANCE_CHECK",
-   "ledger_status": "blocked_inperson"
-  }
- ],
+ "closing_soon": [],
  "ledger_gaps": [],
- "exam_windows_source": "testing-center"
+ "testing_center_error": "testing-center-not-available-here (No module named 'testing_center')",
+ "exam_windows_source": "registry",
+ "ledger_deadlines": {
+  "generated": "2026-11-20T00:20:35.051082-07:00",
+  "items": []
+ }
 }
