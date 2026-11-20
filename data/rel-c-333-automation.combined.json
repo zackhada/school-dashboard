@@ -1206,10 +1206,10 @@
   },
   {
    "key": "11_17_ATTENDANCE_CHECK",
-   "status": "blocked_inperson",
+   "status": "done",
    "date": "2026-11-17",
-   "note": "# Canvas 1466170, 10pt, 11/17 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:named-attendance-check-attendance-is-recorded-in-the-classro]",
-   "title": "11/17 - Attendance Check",
+   "note": "# Canvas 1466170, 10pt, 11/17 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:named-attendance-check-attendance-is-recorded-in-the-classro] (audited 2026-11-20: already graded in Canvas)",
+   "title": "11/17 - Attendance Check (in-class/participation; drift-added 2026-10-08)",
    "grade": {
     "canvas_id": 1466170,
     "name": "11/17 - Attendance Check",
@@ -1234,7 +1234,7 @@
     "why": "Named attendance check; attendance recorded in the classroom"
    },
    "optional_ec": false,
-   "surface": true,
+   "surface": false,
    "actionable": false
   },
   {
@@ -1269,10 +1269,10 @@
   },
   {
    "key": "11_19_ATTENDANCE_CHECK",
-   "status": "blocked_inperson",
+   "status": "done",
    "date": "2026-11-19",
-   "note": "# Canvas 1466171, 10pt, 11/19 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:named-attendance-check-attendance-is-recorded-in-the-classro]",
-   "title": "11/19 - Attendance Check",
+   "note": "# Canvas 1466171, 10pt, 11/19 - Attendance Check (in-class/participation; drift-added 2026-10-08) [manual:named-attendance-check-attendance-is-recorded-in-the-classro] (audited 2026-11-20: already graded in Canvas)",
+   "title": "11/19 - Attendance Check (in-class/participation; drift-added 2026-10-08)",
    "grade": {
     "canvas_id": 1466171,
     "name": "11/19 - Attendance Check",
@@ -1297,7 +1297,7 @@
     "why": "Named attendance check; attendance recorded in the classroom"
    },
    "optional_ec": false,
-   "surface": true,
+   "surface": false,
    "actionable": false
   },
   {
@@ -1602,5 +1602,5 @@
   "final_score": 73.75,
   "final_grade": "C"
  },
- "built_at": "2026-11-20T07:20:35.196656+00:00"
+ "built_at": "2026-11-20T20:24:34.512400+00:00"
 }
