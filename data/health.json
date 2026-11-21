@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21T18:38Z",
+ "generated": "2026-11-21T19:19Z",
  "healer": {
   "recent": [
    {
@@ -32,7 +32,7 @@
   "ok": true,
   "host": "spare",
   "ts": "2026-11-21T10:13:20-07:00",
-  "age_hours": 1.4,
+  "age_hours": 2.1,
   "problems": [],
   "fixed": []
  },
@@ -44,8 +44,8 @@
  "stale_queued_runs": 1,
  "stale_repos": [],
  "heartbeat": {
-  "ts": "2026-11-21T11:36:34-07:00",
-  "age_hours": 0.0,
+  "ts": "2026-11-21T12:14:20-07:00",
+  "age_hours": 0.1,
   "free_gb": "33",
   "bridge": true,
   "guard": "up"
