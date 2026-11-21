@@ -117,9 +117,9 @@
   },
   {
    "key": "IS_EXAM2",
-   "status": "blocked_inperson",
+   "status": "blocked_ask_zack",
    "date": "2026-12-17",
-   "note": "# Canvas 1452629, Exam 2, 100pts, due 2026-12-18T06:59:59Z (Dec 17 11:59pm MT), timed comprehensive take-home, NOT collaborative. Locked until Dec 12. Zack takes manually in a quiet window after Dec 12. [manual:name-is-an-exam-comprehensive-not-collaborative-must-be-take]"
+   "note": "# Canvas 1452629, Exam 2, 100pts, due 2026-12-18T06:59:59Z (Dec 17 11:59pm MT), timed comprehensive take-home, NOT collaborative. Locked until Dec 12. Zack takes manually in a quiet window after Dec 12. [manual:verify-online-submission-path-no-proctoring-evidence]"
   },
   {
    "key": "IS_PROJECT",

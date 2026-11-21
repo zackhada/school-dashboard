@@ -583,7 +583,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "In-class/TA presentation with sign-up; student must physically present, no online submission path."
+    "why": "In-class presentation Dec 9 or to a TA, sign-up required; Zack must present in person"
    },
    "optional_ec": false,
    "surface": true,
@@ -591,9 +591,9 @@
   },
   {
    "key": "IS_EXAM2",
-   "status": "blocked_inperson",
+   "status": "blocked_ask_zack",
    "date": "2026-12-17",
-   "note": "# Canvas 1452629, Exam 2, 100pts, due 2026-12-18T06:59:59Z (Dec 17 11:59pm MT), timed comprehensive take-home, NOT collaborative. Locked until Dec 12. Zack takes manually in a quiet window after Dec 12. [manual:name-is-an-exam-comprehensive-not-collaborative-must-be-take]",
+   "note": "# Canvas 1452629, Exam 2, 100pts, due 2026-12-18T06:59:59Z (Dec 17 11:59pm MT), timed comprehensive take-home, NOT collaborative. Locked until Dec 12. Zack takes manually in a quiet window after Dec 12. [manual:verify-online-submission-path-no-proctoring-evidence]",
    "title": "Canvas 1452629, Exam 2",
    "grade": {
     "canvas_id": 1452629,
@@ -615,8 +615,8 @@
    "needs_zack": false,
    "needs_excerpt": null,
    "judge": {
-    "verdict": "manual",
-    "why": "Name is an exam; hard rule makes exams manual despite the take-home external_tool quiz box."
+    "verdict": "verify",
+    "why": "Online submission path, no proctoring evidence."
    },
    "optional_ec": false,
    "surface": true,
@@ -633,5 +633,5 @@
   "final_score": 52.75,
   "final_grade": "E"
  },
- "built_at": "2026-11-21T19:19:34.304148+00:00"
+ "built_at": "2026-11-21T23:28:04.471394+00:00"
 }
