@@ -619,7 +619,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Cumulative final exam, 210 pts, in-person per university finals schedule"
+    "why": "Named Final Exam; syllabus places it per university final schedule, in-person"
    },
    "optional_ec": false,
    "surface": true,
@@ -711,5 +711,5 @@
   "final_score": 65.63,
   "final_grade": "D"
  },
- "built_at": "2026-11-22T19:44:18.100541+00:00"
+ "built_at": "2026-11-22T23:39:45.677139+00:00"
 }

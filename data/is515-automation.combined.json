@@ -583,7 +583,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "In-class presentation Dec 9 or to a TA, sign-up required; Zack must present in person"
+    "why": "In-class presentation to TA with sign-up; student must present in person."
    },
    "optional_ec": false,
    "surface": true,
@@ -615,8 +615,8 @@
    "needs_zack": false,
    "needs_excerpt": null,
    "judge": {
-    "verdict": "verify",
-    "why": "Online submission path, no proctoring evidence."
+    "verdict": "manual",
+    "why": "Named exam; hard rule makes any exam manual, and it is taken manually in a quiet window."
    },
    "optional_ec": false,
    "surface": true,
@@ -633,5 +633,5 @@
   "final_score": 52.75,
   "final_grade": "E"
  },
- "built_at": "2026-11-22T19:44:18.160797+00:00"
+ "built_at": "2026-11-22T23:39:45.847904+00:00"
 }
