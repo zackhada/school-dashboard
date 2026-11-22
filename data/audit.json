@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21",
+ "generated": "2026-11-22",
  "missed": [],
  "exam_windows": [
   {
@@ -160,7 +160,7 @@
  "testing_center_error": "testing-center-not-available-here (No module named 'testing_center')",
  "exam_windows_source": "registry",
  "ledger_deadlines": {
-  "generated": "2026-11-21T12:19:34.099678-07:00",
+  "generated": "2026-11-21T23:53:18.635992-07:00",
   "items": []
  }
 }
