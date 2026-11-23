@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22",
+ "generated": "2026-11-23",
  "missed": [],
  "exam_windows": [
   {
@@ -120,18 +120,6 @@
  ],
  "closing_soon": [
   {
-   "course": "HRM 391",
-   "assignment": "Service Project Part 3: Peer Evaluation (Individual Submission)",
-   "due": "2026-11-24",
-   "points": 20.0,
-   "canvas_id": 1525925,
-   "deadline_kind": "due",
-   "owner": "agent",
-   "covered": true,
-   "ledger_key": "SERVICE_PROJECT_PART_3_PEER_EVALUATION_I",
-   "ledger_status": "pending"
-  },
-  {
    "course": "PSE 390",
    "assignment": "Participation Quiz 11.24",
    "due": "2026-11-24",
@@ -160,7 +148,7 @@
  "testing_center_error": "testing-center-not-available-here (No module named 'testing_center')",
  "exam_windows_source": "registry",
  "ledger_deadlines": {
-  "generated": "2026-11-22T12:44:18.048467-07:00",
+  "generated": "2026-11-23T00:42:47.271041-07:00",
   "items": []
  }
 }
