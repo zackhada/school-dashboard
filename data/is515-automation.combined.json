@@ -583,7 +583,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "In-class presentation to TA with sign-up; student must present in person."
+    "why": "In-class presentation, sign-up required; student must present in person"
    },
    "optional_ec": false,
    "surface": true,
@@ -616,7 +616,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Named exam; hard rule makes any exam manual, and it is taken manually in a quiet window."
+    "why": "Requires the student in person."
    },
    "optional_ec": false,
    "surface": true,
@@ -633,5 +633,5 @@
   "final_score": 52.75,
   "final_grade": "E"
  },
- "built_at": "2026-11-23T23:56:13.012739+00:00"
+ "built_at": "2026-11-24T03:59:20.234905+00:00"
 }
