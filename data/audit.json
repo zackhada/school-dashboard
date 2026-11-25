@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24",
+ "generated": "2026-11-25",
  "missed": [],
  "exam_windows": [
   {
@@ -118,25 +118,12 @@
    "score": 0.0
   }
  ],
- "closing_soon": [
-  {
-   "course": "REL C 333",
-   "assignment": "11/24 - Attendance Check",
-   "due": "2026-11-24",
-   "points": 10.0,
-   "canvas_id": 1466174,
-   "deadline_kind": "due",
-   "owner": "zack",
-   "covered": true,
-   "ledger_key": "11_24_ATTENDANCE_CHECK",
-   "ledger_status": "blocked_inperson"
-  }
- ],
+ "closing_soon": [],
  "ledger_gaps": [],
  "testing_center_error": "testing-center-not-available-here (No module named 'testing_center')",
  "exam_windows_source": "registry",
  "ledger_deadlines": {
-  "generated": "2026-11-24T15:29:19.238397-07:00",
+  "generated": "2026-11-25T01:39:42.700135-07:00",
   "items": []
  }
 }
