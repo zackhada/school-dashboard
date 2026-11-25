@@ -121,7 +121,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "In-person TA lab in B090 JFSB; no online submission path."
+    "why": "In-person TA lab in B090 JFSB, no online submission path."
    },
    "optional_ec": false,
    "surface": true,
@@ -1049,8 +1049,8 @@
     "name": "TA Passoff #9 (Extra Credit)",
     "due": "2026-11-17T23:59:00",
     "points": 2.0,
-    "score": null,
-    "status": "not_graded",
+    "score": 0.0,
+    "status": "graded",
     "missing": false,
     "submission_type": "learning_suite",
     "comments": []
@@ -1324,7 +1324,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Requires the student in person."
+    "why": "Testing Center exam, requires student in person."
    },
    "optional_ec": false,
    "surface": true,
@@ -1360,8 +1360,8 @@
  "needs_unassigned": false,
  "course_id": null,
  "overall": {
-  "current_score": 68.99,
+  "current_score": 68.71,
   "source": "learning-suite-points"
  },
- "built_at": "2026-11-24T22:29:19.391685+00:00"
+ "built_at": "2026-11-25T02:36:31.543060+00:00"
 }

@@ -490,7 +490,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Named participation quiz; deleted upstream (submission_types none), participation earned in class"
+    "why": "Named participation quiz; participation is earned in class, no online path (deleted upstream 404)"
    },
    "optional_ec": false,
    "surface": true,
@@ -850,7 +850,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Requires the student in person."
+    "why": "Named participation quiz; participation is earned in class per rules"
    },
    "optional_ec": false,
    "surface": true,
@@ -973,7 +973,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Requires the student in person."
+    "why": "Named participation quiz; participation is earned in class per rules"
    },
    "optional_ec": false,
    "surface": true,
@@ -1036,7 +1036,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Requires the student in person."
+    "why": "Named participation quiz; participation is earned in class per rules"
    },
    "optional_ec": false,
    "surface": true,
@@ -1069,7 +1069,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Requires the student in person."
+    "why": "Named participation quiz; participation is earned in class per rules"
    },
    "optional_ec": false,
    "surface": true,
@@ -1132,7 +1132,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Requires the student in person."
+    "why": "Named participation quiz, no submission path; participation is earned in class"
    },
    "optional_ec": false,
    "surface": true,
@@ -1195,7 +1195,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Requires the student in person."
+    "why": "Named participation quiz; participation is earned in class per rules"
    },
    "optional_ec": false,
    "surface": true,
@@ -1228,7 +1228,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Requires the student in person."
+    "why": "Named participation quiz; participation is earned in class per rules"
    },
    "optional_ec": false,
    "surface": true,
@@ -1321,7 +1321,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Requires the student in person."
+    "why": "Named participation quiz; participation is earned in class per rules"
    },
    "optional_ec": false,
    "surface": true,
@@ -1354,7 +1354,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Requires the student in person."
+    "why": "Named participation quiz; participation is earned in class per rules"
    },
    "optional_ec": false,
    "surface": true,
@@ -1401,5 +1401,5 @@
   "final_score": 43.85,
   "final_grade": "E"
  },
- "built_at": "2026-11-24T22:29:19.345600+00:00"
+ "built_at": "2026-11-25T02:36:31.428253+00:00"
 }

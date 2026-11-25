@@ -259,7 +259,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Testing Center exam with verified window and late fee; must be taken in person"
+    "why": "Requires the student in person."
    },
    "optional_ec": false,
    "surface": true,
@@ -325,7 +325,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Testing Center final exam with verified window; requires the student in person"
+    "why": "Requires the student in person."
    },
    "optional_ec": false,
    "surface": true,
@@ -337,5 +337,5 @@
  "needs_unassigned": false,
  "course_id": null,
  "overall": {},
- "built_at": "2026-11-24T22:29:19.347449+00:00"
+ "built_at": "2026-11-25T02:36:31.432377+00:00"
 }
