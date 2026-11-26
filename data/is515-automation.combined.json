@@ -583,7 +583,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "In-class presentation requiring Zack to present or present to a TA."
+    "why": "Requires in-class or TA presentation by the student"
    },
    "optional_ec": false,
    "surface": true,
@@ -616,7 +616,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Named Exam triggers exam hard rule; manual despite take-home format."
+    "why": "Named exam; hard rule makes any exam manual despite take-home delivery"
    },
    "optional_ec": false,
    "surface": true,
@@ -633,5 +633,5 @@
   "final_score": 52.75,
   "final_grade": "E"
  },
- "built_at": "2026-11-25T21:44:13.248489+00:00"
+ "built_at": "2026-11-26T01:50:38.226967+00:00"
 }
