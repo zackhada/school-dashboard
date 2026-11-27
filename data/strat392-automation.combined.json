@@ -619,7 +619,7 @@
    "needs_excerpt": null,
    "judge": {
     "verdict": "manual",
-    "why": "Cumulative in-person final exam taken at university finals week schedule"
+    "why": "Requires the student in person."
    },
    "optional_ec": false,
    "surface": true,
@@ -711,5 +711,5 @@
   "final_score": 65.63,
   "final_grade": "D"
  },
- "built_at": "2026-11-26T21:36:37.828350+00:00"
+ "built_at": "2026-11-27T01:48:31.632726+00:00"
 }
