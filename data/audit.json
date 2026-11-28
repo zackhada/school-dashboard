@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27",
+ "generated": "2026-11-28",
  "missed": [],
  "exam_windows": [
   {
@@ -121,18 +121,6 @@
  "closing_soon": [
   {
    "course": "IS 515",
-   "assignment": "21.9 VBA Assessment",
-   "due": "2026-11-30",
-   "points": 20.0,
-   "canvas_id": 1452620,
-   "deadline_kind": "due",
-   "owner": "agent",
-   "covered": true,
-   "ledger_key": "IS_VBA",
-   "ledger_status": "pending"
-  },
-  {
-   "course": "IS 515",
    "assignment": "Course Project",
    "due": "2026-11-30",
    "points": 25.0,
@@ -142,13 +130,73 @@
    "covered": true,
    "ledger_key": "IS_PROJECT",
    "ledger_status": "pending"
+  },
+  {
+   "course": "PSE 390",
+   "assignment": "Participation Quiz 12.01",
+   "due": "2026-12-01",
+   "points": 3.0,
+   "canvas_id": 1511345,
+   "deadline_kind": "due",
+   "owner": "zack",
+   "covered": true,
+   "ledger_key": "PARTICIPATION_QUIZ_12_01",
+   "ledger_status": "blocked_inperson"
+  },
+  {
+   "course": "REL C 333",
+   "assignment": "12/1 - Attendance Check",
+   "due": "2026-12-01",
+   "points": 10.0,
+   "canvas_id": 1466185,
+   "deadline_kind": "due",
+   "owner": "zack",
+   "covered": true,
+   "ledger_key": "12_1_ATTENDANCE_CHECK",
+   "ledger_status": "blocked_inperson"
+  },
+  {
+   "course": "STRAT 392",
+   "assignment": "Platforms as Strategy \u2014 Reading Quiz",
+   "due": "2026-12-01",
+   "points": 10.0,
+   "canvas_id": 1513165,
+   "deadline_kind": "due",
+   "owner": "agent",
+   "covered": true,
+   "ledger_key": "PLATFORMS_AS_STRATEGY_READING_QUIZ",
+   "ledger_status": "pending"
+  },
+  {
+   "course": "IS515",
+   "assignment": "Course Project, Canvas 1452627, 25pts, 5% of grade, due 2026-12-01T06:59:59Z (Nov 30 11:59",
+   "due": "2026-11-30",
+   "points": null,
+   "deadline_kind": "ledger close 23:59",
+   "owner": "agent",
+   "covered": true,
+   "ledger_key": "IS_PROJECT",
+   "ledger_status": "pending",
+   "source": "ledger",
+   "level": "WATCH",
+   "note": ""
   }
  ],
  "ledger_gaps": [],
  "testing_center_error": "testing-center-not-available-here (No module named 'testing_center')",
  "exam_windows_source": "registry",
  "ledger_deadlines": {
-  "generated": "2026-11-27T14:20:47.972614-07:00",
-  "items": []
+  "generated": "2026-11-28T00:53:00.165553-07:00",
+  "items": [
+   {
+    "repo": "is515-automation",
+    "key": "IS_PROJECT",
+    "title": "Course Project, Canvas 1452627, 25pts, 5% of grade, due 2026-12-01T06:59:59Z (Nov 30 11:59",
+    "close": "2026-11-30T23:59-0700",
+    "close_local": "2026-11-30 23:59 MT",
+    "hours": 71.1,
+    "level": "WATCH"
+   }
+  ]
  }
 }
